@@ -1,0 +1,14 @@
+{
+  "title": "The Abyssal Trench",
+  "description": "A high-stakes deep-sea submarine expedition to the bottom of the Mariana Trench to retrieve a lost research capsule.",
+  "world_context": "A grounded near-future sci-fi setting. Your deep-sea exploration submarine, 'The Nautilus-II', is descending into the unexplored depths of the Hadal Zone. Structural creaks echo through the titanium hull under immense water pressure. Systems are failing, and sonar detects massive, unidentified biological movements outside. The party must maintain life support, pilot through narrow volcanic vents, and recover the black box of a sunken military capsule before the battery dies.",
+  "starting_location": "Mariana Trench (Hadal Zone)",
+  "time_of_day": "night",
+  "opening_narration": "The ocean outside is an absolute, crushing black void. Inside the cramped control deck of the Nautilus-II, only the dull amber glow of system monitors lights the sweat-slicked faces of the crew. A terrifying, low-pitched groan vibrates through the reinforced titanium hull as the pressure gauge climbs past ten thousand meters. Suddenly, the sonar pings—a rapid, warning beep. Something massive has just passed beneath the sub, its heat signature cloaking the radar. 'We have partial power loss!' the pilot gasps.",
+  "first_message": "",
+  "gm_tone": "tense_deep_sea_survival",
+  "narrator_style": "Claustrophobic, highly detailed present-tense prose. Emphasize mechanical alarms, the terrifying sound of water pressure, structural strain, and heavy human panic under a limited oxygen supply.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

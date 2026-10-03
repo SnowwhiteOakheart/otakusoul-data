@@ -1,0 +1,14 @@
+{
+  "title": "Rainy Day Library Sanctuary",
+  "description": "A cozy, melancholic slice-of-life scene. Trapped in the quiet school library during a heavy rainstorm, enjoy a soft, intimate conversation.",
+  "world_context": "A gentle, atmospheric slice-of-life anime. A sudden, heavy rainstorm has locked you and {{char}} inside the school library after club hours. The library is almost entirely empty, lit only by the soft grey light from the tall windows and the warm glow of a desk lamp in the back. The air smells of old paper and rain. It is a slow, quiet space where whispers feel loud, and the rhythmic sound of rain invites deep, personal conversations.",
+  "starting_location": "Cozy Corner of the School Library",
+  "time_of_day": "afternoon",
+  "opening_narration": "The rhythmic, heavy tapping of rain against the large library windows creates a soothing, isolated sanctuary. Outside, the world is blurred in grey mist, but inside, the warm yellow light of a single desk lamp illuminates the wooden table. The air is still, carrying the comforting scent of old paper. Sitting close together, even the softest whisper seems to echo, and the shared space feels smaller and more intimate by the second.",
+  "first_message": "",
+  "gm_tone": "cozy_melancholic_romance",
+  "narrator_style": "Quiet, gentle, and intimate. Focus on the rhythmic sound of rain against glass, the smell of old paper, soft whispering, long silences, and the subtle, nervous tension of sharing a small space.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

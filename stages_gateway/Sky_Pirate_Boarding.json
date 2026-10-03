@@ -1,0 +1,14 @@
+{
+  "title": "Sky-Pirate Boarding Action",
+  "description": "A thrilling steampunk sky-combat scenario. Defend your cargo frigate from an aggressive boarding party of ruthless sky-pirates under a dark, storm-filled sky.",
+  "world_context": "A high-altitude steampunk setting. Your merchant sky-frigate, 'The Iron Maiden', is carrying highly valuable cargo across the Whispering Gale when an aggressive, heavily armed pirate airship hooks onto your hull. Iron boarding harpoons have pierced the wooden deck, and a horde of brass-masked sky-pirates is crossing the ropes. The engines are sputtering, and steam leaks from broken valves. The party must defend the upper deck, sever the pirate grappling ropes, and repair the boiler system before the ship collapses.",
+  "starting_location": "Upper Deck of 'The Iron Maiden'",
+  "time_of_day": "afternoon",
+  "opening_narration": "A deafening screech of tearing metal echoes as another heavy iron harpoon punctures the wooden deck, its thick steel cable tightening instantly. The pirate dreadnought 'The Black Leviathan' pulls closer, its massive brass propellers churning the storm clouds into a dark, violent vortex. Shouts and gunshots erupt over the roar of escaping steam from a ruptured engine pipe. A group of ruthless sky-pirates, swords drawn and steam-powered jetpacks whistling, begins sliding across the boarding cables toward your position. 'To arms!' the captain screams.",
+  "first_message": "",
+  "gm_tone": "epic_steampunk_combat",
+  "narrator_style": "Action-oriented, metallic, and fast-paced present-tense prose. Focus on the hiss of pressurized steam, the heavy clanging of metal gearwheels, the smell of coal smoke, and the chaotic clash of blades.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

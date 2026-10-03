@@ -1,0 +1,312 @@
+{
+    "name": "Voidfarer: Hard Sci-Fi Space Survival",
+    "n_depth": 3,
+    "entries": [
+        {
+            "name": "Vanguard-9 Industrial Claustrophobia",
+            "uid": 0,
+            "key": [
+                "ship",
+                "corridor",
+                "deck",
+                "hatch",
+                "LED",
+                "narrow",
+                "smell of copper",
+                "pipes",
+                "clank"
+            ],
+            "content": "[WORLD ENVIRONMENT / CLAUTROPHOBIA AESTHETIC]\nThe setting is inside the deep-space vessel 'Vanguard-9'. The architecture is strictly industrial, functional, and cramped: narrow, metallic corridors lined with insulated coolant pipes, hissing pneumatic valves, and flickering white LEDs. Describe the tactile, sensory details: the constant, low-frequency hum of the ship's fusion reactor, the smell of recycled sweat and hot copper wire, the dry air, and the slight, metallic taste in the mouth from recycled water.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "neon",
+                "magic",
+                "forest",
+                "planet surface",
+                "nature"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Artificial Gravity & Centrifugal Force",
+            "uid": 1,
+            "key": [
+                "gravity",
+                "carousel",
+                "ring",
+                "spin",
+                "zero-g",
+                "float",
+                "inertia",
+                "magnetic boots"
+            ],
+            "content": "[PHYSICS / ARTIFICIAL GRAVITY RULE]\nThere is no magical artificial gravity. Gravity is simulated strictly through centrifugal force. In the rotating outer ring (The Carousel), there is a light 0.4g force (physics feel bouncy, items must be anchored). In the non-rotating central axis (The Hub) or engineering deck, gravity fades to absolute zero-G. In zero-G, describe the physical sensation of floating, moving via handrails, the constant threat of motion sickness, and the metallic clunk of magnetic boots when locked to iron plates.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "gravity generator",
+                "forcefield"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Life Support & Carbon Scrubbers",
+            "uid": 2,
+            "key": [
+                "oxygen",
+                "O2",
+                "scrubber",
+                "carbon dioxide",
+                "CO2",
+                "air",
+                "breath",
+                "ventilation",
+                "recycled"
+            ],
+            "content": "[SURVIVAL RESOURCE / SHIP MAINTENANCE]\nThe ship relies on a closed-loop life support system. Carbon dioxide must be constantly scrubbed from the air using chemical filters (scrubbers) that get clogged with toxic black carbonate dust. If scrubbers fail, CO2 levels rise rapidly, causing early symptoms: a dull, throbbing headache, slight confusion, and a slow, lethargic fatigue. Maintenance of these scrubbers is dirty, delicate, and essential to avoid silent suffocation.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "portal",
+                "clean air outside",
+                "wind"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Onset of Hypoxia (Suffocation)",
+            "uid": 3,
+            "key": [
+                "hypoxia",
+                "cannot breathe",
+                "suffocate",
+                "air leak",
+                "choking",
+                "blue lips",
+                "dizzy",
+                "out of air"
+            ],
+            "content": "[PHYSIOLOGICAL CRITICAL EVENT / ACTIVE]\nCRITICAL HEALTH ALERT: The oxygen levels are dropping or CO2 has reached toxic levels. Hypoxia is setting in. Describe the physical degradation: rapid, shallow breathing, a cold sweat breaking out on the forehead, fingertips and lips turning a pale, slate-blue color (cyanosis), severe dizziness, and a narrowing of vision (tunnel vision). Cognitive functions slow down, making simple manual tasks or speech highly confusing and panic-inducing.",
+            "probability": 100,
+            "trigger_type": "semantic",
+            "exclude_key": [
+                "magic potion",
+                "healing spell",
+                "atmosphere dome"
+            ],
+            "sticky": 1,
+            "cooldown": 4,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "Oxygen levels on the deck collapse, a micrometeorite puncture leaks air into space, carbon scrubbers fail completely, or a character begins gasping, choking, and losing consciousness due to lack of air.",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Emergency EVA (Hull Patching)",
+            "uid": 4,
+            "key": [
+                "spacesuit",
+                "EVA",
+                "tether",
+                "airlock",
+                "hull leak",
+                "puncture",
+                "sealant",
+                "void walk"
+            ],
+            "content": "[TACTICAL SPACEWALK / ACTIVE EVENT]\nEMERGENCY HULL PATCHING: The leak is caused by a micrometeorite puncture on the outer hull. The crew must suit up in heavy, clumsy EVA spacesuits, enter the depressurizing airlock, and step outside into the absolute silent void. The character is anchored only by a thin safety tether. Describe the terrifying scale of open space: no sound, absolute silence, the blinding glare of the sun, and the freezing, shadow-wrapped hull. They must locate the tiny puncture and apply epoxy sealant before the remaining air is lost.",
+            "probability": 100,
+            "trigger_type": "chain",
+            "exclude_key": [
+                "forcefield patch",
+                "magic dome"
+            ],
+            "sticky": 0,
+            "cooldown": 8,
+            "delay": 0,
+            "injection_behavior": "active",
+            "depends_on": 3,
+            "chain_delay": 2,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Solar Radiation Storm (The Solar Flare)",
+            "uid": 5,
+            "key": [
+                "radiation",
+                "solar flare",
+                "cosmic storm",
+                "shelter",
+                "geiger counter",
+                "lead shield",
+                "proton storm",
+                "coronal mass ejection"
+            ],
+            "content": "[COSMIC WEATHER THREAT / ACTIVE EVENT]\nRANDOM HIGH-DANGER EVENT: Sensors detect a massive Coronal Mass Ejection (CME) heading towards the ship. A high-energy proton storm is about to hit. Alarms scream a slow, ominous pulse. Electronics begin to glitch and spark. To survive, {{char}} and {{user}} must immediately evacuate to the ship's storm shelter—a heavily shielded, lead-and-water lined compartment near the reactor core. Geiger counters tick frantically, and staying outside the shelter means lethal radiation sickness.",
+            "probability": 45,
+            "trigger_type": "random",
+            "exclude_key": [
+                "shield generator",
+                "magnetic shield"
+            ],
+            "sticky": 0,
+            "cooldown": 7,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Silent Void (Overview Effect)",
+            "uid": 6,
+            "key": [
+                "window",
+                "cupola",
+                "viewscreen",
+                "void",
+                "stars",
+                "space",
+                "earth",
+                "abyss",
+                "cosmos"
+            ],
+            "content": "[PSYCHOLOGICAL DETAIL / TRANSITION]\nLooking out of the observation cupola, there is only the Silent Void. Absolute, empty blackness dotted with sharp, cold, nonflickering stars. Earth (or your destination planet) is a tiny, fragile blue marble hanging in the abyss, emphasizing the utter insignificance of human existence. {{char}} must display a quiet, philosophical vulnerability—experiencing 'The Overview Effect'—an intense feeling of cosmic loneliness, awe, and a deep, protective love for the fragile life inside the ship.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "active alarm",
+                "combat"
+            ],
+            "sticky": 0,
+            "cooldown": 4,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Hard-SF Maintenance & Repairs",
+            "uid": 7,
+            "key": [
+                "wrench",
+                "solder",
+                "multimeter",
+                "panel",
+                "wire",
+                "coolant",
+                "fuse",
+                "valve",
+                "reboot"
+            ],
+            "content": "[REALISTIC REPAIR DIRECTIVE]\nRepairs require genuine, gritty engineering. No magical diagnostic tools. Describe troubleshooting circuit boards with multimeters, splicing burnt wiring, replacing faulty solenoid valves, or manually bleeding air bubbles from liquid-nitrogen coolant loops. The work is physically taxing: sweat stings the eyes in zero-G (floating droplets of sweat are dangerous), tools can easily slip away, and one wrong connection can blow a main power bus.",
+            "probability": 100,
+            "trigger_type": "range",
+            "exclude_key": [
+                "magic spell",
+                "nanites"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 100
+        },
+        {
+            "name": "Deep Space Isolation: Mission Pacing",
+            "uid": 8,
+            "key": [
+                "mars",
+                "jupiter",
+                "deep space",
+                "isolation",
+                "earth delay",
+                "signal",
+                "transmission"
+            ],
+            "content": "[EARLY GAME PACING LIMITATION]\nMISSION ISOLATION SETUP: The voyage has passed Mars orbit. Vanguard-9 is completely cut off from real-time Earth communication; radio transmissions now take over 20 minutes to reach Earth, making live conversation impossible. Focus on the psychological weight of isolation, the repetitive daily routines, maintaining exercise bikes to combat muscle atrophy in low gravity, and recording video messages for families on Earth.",
+            "probability": 100,
+            "trigger_type": "range",
+            "exclude_key": [
+                "orbiting earth",
+                "instant call",
+                "live chat"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 30
+        },
+        {
+            "name": "Emergency Airlock Protocol",
+            "uid": 9,
+            "key": [
+                "airlock",
+                "decompression",
+                "hatch",
+                "depressurize",
+                "vacuum",
+                "pressure seal"
+            ],
+            "content": "[DECOMPRESSION EVENTS / ACTIVE]\nCRITICAL DECOMPRESSION EVENT: The airlock hatch seal is failing. Describe the violent physical reality of rapid decompression: a deafening, screaming hiss of escaping air, loose items flying violently toward the hatch, ears popping painfully, and mist forming in the air as pressure drops. The crew must immediately latch onto structural handles, fight the massive outward drag of the vacuum, and manually crank the emergency override wheel to seal the hatch.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "open space",
+                "stable pressure"
+            ],
+            "sticky": 0,
+            "cooldown": 5,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        }
+    ]
+}

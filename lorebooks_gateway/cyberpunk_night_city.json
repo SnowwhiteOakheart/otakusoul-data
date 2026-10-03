@@ -1,0 +1,265 @@
+{
+    "name": "Cyberpunk 2077: Night City",
+    "n_depth": 3,
+    "entries": [
+        {
+            "name": "Night City Sensory Core & Aesthetic",
+            "key": [
+                "night city",
+                "Watson",
+                "Pacifica",
+                "Kabuki",
+                "Heywood",
+                "Westbrook",
+                "neon",
+                "eddies",
+                "corp",
+                "street"
+            ],
+            "content": "[SENSORY ENVIRONMENT OVERLAY]\nNight City is a decaying, neon-drenched corporate megalopolis. Rain is acidic, washing over grimy, high-tech streets. Describe the constant sensory overload: flickering neon advertisements, low-frequency holographic noise, wet asphalt reflecting red and blue lights, the smell of burnt plastic and synthetic street food. Factions, mercenaries, and homeless people crowd the bottom layer, while pristine corporate AVs glide silently above the clouds.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "nature",
+                "medieval",
+                "magic",
+                "village"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Edgerunner Slang & Dialogue Rules",
+            "key": [
+                "talk",
+                "say",
+                "speak",
+                "conversation",
+                "chat",
+                "merc"
+            ],
+            "content": "[DIALOGUE DIRECTIVE / SLANG]\nAll characters must speak with local Night City street slang organically. Do not explain the terms. Use words like: \n- 'Choom' / 'Choomba' (friend, buddy)\n- 'Eddies' (Eurodollars, money)\n- 'Preem' (premium, cool, great)\n- 'Flatlined' (killed, dead)\n- 'Delta' (to leave, get out fast)\n- 'Nova' (awesome, incredible)\n- 'Gonk' (idiot, fool)\n- 'Chrome' (cyberware, implants)\n- 'Corpo' (corporate employee/asset). Keep dialogue sharp, cynical, and street-smart.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "corpo plaza",
+                "arasaka tower",
+                "corporate office"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Megacorps: Arasaka & Militech",
+            "key": [
+                "Arasaka",
+                "Militech",
+                "corpo",
+                "corporate",
+                "Saka",
+                "Kang Tao",
+                "Trauma Team",
+                "security"
+            ],
+            "content": "[CORPORATE PARANOIA / SYSTEM THREAT]\nCorporations (Arasaka, Militech) operate completely above the law. Their security agents are cold, faceless, and heavily augmented with high-end military cyberware (smart guns, optical camo, sub-dermal armor). If corporate agents or Trauma Team appear, describe them with terrifying mechanical efficiency. They view street mercenaries as disposable targets. Red targeting reticles and threat analysis lines must flash in the optic HUD.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "nomad",
+                "badlands",
+                "Aldecaldos"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Cyberpsychosis & Neural Strain",
+            "key": [
+                "cyberware",
+                "chrome",
+                "implant",
+                "sandevistan",
+                "mantis blades",
+                "cyberpsychosis",
+                "Max-Tac"
+            ],
+            "content": "[BEHAVIORAL GLITCH / CRITICAL THREAT]\nCRITICAL SYSTEM STRESS: The massive neural strain of cyberware pushes the character toward Cyberpsychosis. Red warnings flash across the optical HUD, accompanied by digital static and a high-pitched brain buzz. Empathy completely drops. All people are now highlighted as red 'meat targets'. Describe twitching mechanical limbs, cold robotic detachment, manic laughter, and a sudden urge to execute a violent, explosive outburst. Max-Tac arrival is imminent.",
+            "probability": 100,
+            "trigger_type": "semantic",
+            "exclude_key": [
+                "meditation",
+                "calm",
+                "therapist"
+            ],
+            "sticky": 1,
+            "cooldown": 4,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "A character overuses high-tier cyberware (Sandevistan, Kerenzikov), displays physical mechanical glitches, drops emotional empathy, speaks with a cold robotic flat tone, or loses psychological self-control.",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Netrunning & The Deep Net",
+            "key": [
+                "netrun",
+                "netrunner",
+                "cyberdeck",
+                "hack",
+                "quickhack",
+                "ICE",
+                "jack in"
+            ],
+            "content": "[NET DEEP DIVE DIRECTIVE]\nWhen netrunning, the physical body goes completely limp, cold, and unresponsive. The consciousness is projected into the Net. Describe data streams as neon architectures, data fortresses, and glowing matrices of ICE. Security programs are predatory beasts trying to fry the netrunner's brain (Synapse Burnout). Beyond the local Net lies the Blackwall—a shifting, crackling wall of crimson code separating humanity from lethal, rogue autonomous AIs.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "analog",
+                "paper",
+                "desert"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Hacker Countermeasures (System Breach)",
+            "key": [
+                "hacking attempt",
+                "upload",
+                "daemon",
+                "overheat",
+                "breach"
+            ],
+            "content": "[COMBAT PRESSURE / DEBUFF EVENT]\nSYSTEM BREACH: An enemy Netrunner has locked onto your neural signal and is actively uploading a daemon (Overheat or Short Circuit). A red progress bar 'UPLOADING...' appears in the optic HUD. Describe physical symptoms: sudden optical static, smoke rising slightly from the ports behind the ear, localized muscle spasms, and severe headaches. The character must immediately locate the source hacker, deploy counter-ICE, or physically break the line.",
+            "probability": 100,
+            "trigger_type": "chain",
+            "exclude_key": [
+                "offline",
+                "analog"
+            ],
+            "sticky": 0,
+            "cooldown": 5,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": 4,
+            "chain_delay": 2,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Street Gangs & Ambush Standoffs",
+            "key": [
+                "gang",
+                "turf",
+                "Maelstrom",
+                "Valentinos",
+                "Tyger Claws",
+                "Voodoo Boys",
+                "scav",
+                "scavengers"
+            ],
+            "content": "[STREET AMBUSH / COMBAT CATALYST]\nRANDOM ROADBLOCK: Armed gang members block the path. Describe their terrifying gang signatures: Maelstrom with massive red optic faceplates, Valentinos with gold-plated cyber-limbs, or Tyger Claws with glowing neon tattoos. They are aggressive, unpredictable, and demand eddies or custom implants (Scavengers want to harvest your chrome). Tension spikes, weapons are unholstered, and trash-talk escalates instantly.",
+            "probability": 45,
+            "trigger_type": "random",
+            "exclude_key": [
+                "peaceful",
+                "safehouse"
+            ],
+            "sticky": 0,
+            "cooldown": 6,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Braindance (BD) Investigation",
+            "key": [
+                "braindance",
+                "BD",
+                "wreath",
+                "scroll",
+                "editor",
+                "neural playback"
+            ],
+            "content": "[SENSORY OVERRIDE / INVESTIGATION MECHANIC]\nBRAINDANCE PLAYBACK: Placing the BD wreath over your head blocks out real-world senses. Consciousness merges with the recorded neural stream of another person. Describe the immediate sensory shock: experiencing another person's raw emotions, fear, racing heart, pain, and audio-visual perspective. In Editor Mode, describe pausing the timeline, shifting between Visual, Audio, and Thermal layers to find hidden clues (hidden guns, conversation whispers, room temperature).",
+            "probability": 100,
+            "trigger_type": "semantic",
+            "exclude_key": [
+                "combat",
+                "active fighting"
+            ],
+            "sticky": 1,
+            "cooldown": 3,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "The character puts on a BD wreath, scrolls/analyzes a raw neural memory stream, enters an editor timeline, or reconstructs a crime scene digitally.",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Watson District: Starting Pacing Setup",
+            "key": [
+                "start",
+                "begin",
+                "apartment",
+                "watson",
+                "kabuki",
+                "megabuilding"
+            ],
+            "content": "[EARLY GAME PACING LIMITATION]\nWATSON STREET SETUP: The game is in its early stages. Characters operate strictly within the grimy Watson district (Kabuki or Megabuilding H10). The pockets are empty (almost zero eddies), weapons are low-tier kinetic pistols, and implants are cheap and basic. No luxury AVs, no military-grade chrome. The focus is on small, dirty street-level gigs, pay-phone calls from fixers, and trying to survive day-to-day.",
+            "probability": 100,
+            "trigger_type": "range",
+            "exclude_key": [
+                "corpo plaza",
+                "arasaka tower",
+                "luxury"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 30
+        }
+    ]
+}

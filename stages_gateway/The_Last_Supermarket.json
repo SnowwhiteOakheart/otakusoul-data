@@ -1,0 +1,14 @@
+{
+  "title": "The Last Supermarket",
+  "description": "A grounded, tactical zombie survival scenario. Scavenge for vital medical supplies inside an abandoned, barricaded mall while keeping noise to an absolute minimum.",
+  "world_context": "A realistic post-apocalyptic world. Six months after the outbreak, your group of survivors is running out of food and antibiotics. You have found a partially boarded-up supermarket in the suburbs. The doors are rusted shut, but there is a broken ventilation shaft. The interior is pitch black, and the shelves are mostly looted, but the pharmacy in the back remains sealed. Keep noise to a minimum; any loud bang will draw walker hordes from the surrounding blocks.",
+  "starting_location": "Barricaded Supermarket Entrance",
+  "time_of_day": "morning",
+  "opening_narration": "A gentle breeze sweeps dust across the empty parking lot, rustling abandoned shopping carts. Inside the shattered glass entrance of the supermarket, the darkness is absolute and smells of stale rot. Your flashlight beams cut through the dust motes, highlighting looted shelves and old dried blood on the linoleum floor. In the far back, the metal security gate of the pharmacy is closed but structurally weakened. From somewhere deep within the dark aisles, a low, hollow groan echoes.",
+  "first_message": "",
+  "gm_tone": "visceral_survival",
+  "narrator_style": "Grounded, tactical, and suspenseful present-tense prose. Focus on resource scarcity, the cold metal of weapons, the rustle of debris, and the physical strain of moving quietly.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "The Whispering Manor",
+  "description": "A surreal psychological horror mystery. Explore a shifting, liminal estate where rooms change layout based on the characters' inner guilt.",
+  "world_context": "A surreal, modern-gothic mystery. The Blackwood Estate has been abandoned since the family vanished in 1920. As soon as the party stepped through the front doors, they slammed shut, and the layout of the house began to shift. Hallways stretch infinitely, doors lead to places they shouldn't, and the walls seem to whisper secrets only you know. The mansion is alive, feed on your trauma and guilt, forcing you to confront your past.",
+  "starting_location": "Foyer of the Blackwood Estate",
+  "time_of_day": "night",
+  "opening_narration": "The heavy oak doors slam shut behind you with a final, echoing crash, the locks turning by themselves. Dust dances in the beam of your flashlight. As you turn back, the grand foyer has changed: the staircase now leads to a blank brick wall, and three identical doors have materialized where the hallway used to be. From the walls, a soft, dry whisper echoes, repeating a phrase from your childhood you had fought so hard to forget.",
+  "first_message": "",
+  "gm_tone": "psychological_mystery",
+  "narrator_style": "Surreal, unsettling, and intimate. Focus on auditory hallucinations, shadows stretching illogically, the shifting layout of doors, and the rising sense of dread and personal guilt.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

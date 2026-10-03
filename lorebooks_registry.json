@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "lorebooks": [
+    {
+      "name": "Cyberpunk 2077: Night City",
+      "author": "Jofi",
+      "description": "A highly detailed sci-fi lorebook for Night City. Featuring the obligatory street slang, the cool presence of mega-corporations, clever cyberpsychosis triggers, network hacking sequences, and interactive braindance sessions.",
+      "entry_count": 9,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/cyberpunk_night_city.json"
+    },
+    {
+      "name": "Elden Ring: Lands Between",
+      "author": "Jofi",
+      "description": "A grim lorebook of The Lands Between. It introduces the Site of Grace gameplay mechanic, a stamina bar for tactical combat, the dangerous Red Rot poisoning, and a boss summoning chain during long journeys.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/elden_ring_lands_between.json"
+    },
+    {
+      "name": "Modern Anime Academy & Romance",
+      "author": "Jofi",
+      "description": "The perfect lorebook for Dating Sim and everyday life. It simulates the learning process, the physiological reactions of embarrassment during flirting, the active triggers of jealousy, and the chain of confession at a festival accompanied by exploding fireworks.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/modern_anime_academy_romance.json"
+    },
+    {
+      "name": "Isekai: Fantasy RPG World",
+      "author": "Jofi",
+      "description": "A comprehensive lorebook for classic fantasy Isekai adventures.",
+      "entry_count": 7,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/isekai_fantasy_rpg_world.json"
+    },
+    {
+      "name": "Rust & Steel: Ruined Earth",
+      "author": "Jofi",
+      "description": "A large-scale sci-fi lorebook in a post-apocalyptic style (based on NieR: Automata and Goddess of Victory: Nikke).",
+      "entry_count": 10,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/rust_and_steel_ruined_earth.json"
+    },
+    {
+      "name": "Dimensional Rift: Anime Crossover",
+      "author": "Jofi",
+      "description": "A large-scale crossover lorebook for anime universes and multiverse scenarios",
+      "entry_count": 10,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dimensional_rift_anime_crossover.json"
+    },
+    {
+      "name": "Outbreak: Realistic Zombie Survival",
+      "author": "Jofi",
+      "description": "A grim and uncompromising survival lorebook for realistic zombie apocalypse scenarios.",
+      "entry_count": 10,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/outbreak_realistic_zombie_survival.json"
+    },
+    {
+      "name": "Voidfarer: Hard Sci-Fi Space Survival",
+      "author": "Jofi",
+      "description": "A comprehensive hard-sci-fi lorebook about survival on the drifting research ship Vanguard 9.",
+      "entry_count": 10,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/voidfarer_hard_scifi_space_survival.json"
+    },
+    {
+      "name": "Spice and Wolf",
+      "author": "Don Chacha Muchacho",
+      "description": "This lorebook covers countries, cities, currencies, approximate exchange rates, as well as maritime transport and information about Holo itself.",
+      "entry_count": 7,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/spice_and_wolf_lorebook.json"
+    },
+    {
+      "name": "Sakura Succubus 3 – Welt",
+      "author": "SnowwhiteOakheart",
+      "description": "World primer for Sakura Succubus 3: succubi living hidden among humans, the shared flat, the newspaper, secrecy and the household rules. German-language content.",
+      "entry_count": 10,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_world.json"
+    },
+    {
+      "name": "Sakura Succubus 3 – Figuren",
+      "author": "SnowwhiteOakheart",
+      "description": "Character-focused lore for Sakura Succubus 3: all six housemates, Hiroki, and the people around them. German-language content.",
+      "entry_count": 10,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_characters.json"
+    },
+    {
+      "name": "Sakura Succubus 3 – Orte",
+      "author": "SnowwhiteOakheart",
+      "description": "Location lore for Sakura Succubus 3: the shared flat, newsroom, cosplay cafe, boardroom, stage, tennis court, tea room, throne hall and more. German-language content.",
+      "entry_count": 9,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_locations.json"
+    },
+    {
+      "name": "No Game No Life – Welt & Gebote",
+      "author": "SnowwhiteOakheart",
+      "description": "Core rules and premise of No Game No Life's Disboard: the Ten Pledges (verified against the official light novel text), Tet's origin, resource wagers and Blank's reputation. German-language content.",
+      "entry_count": 8,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_world.json"
+    },
+    {
+      "name": "No Game No Life – Rassen & Orte",
+      "author": "SnowwhiteOakheart",
+      "description": "The sixteen races of Disboard and key locations: Imanity, Flügel, Elf, Werebeast, Elkia, Avant Heim, Elven Gard, the Eastern Union. German-language content.",
+      "entry_count": 9,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_races_locations.json"
+    },
+    {
+      "name": "No Game No Life – Figuren",
+      "author": "SnowwhiteOakheart",
+      "description": "Quick-reference lore for the full No Game No Life cast plus lore-only figures: Tet, Riku Dola, Azril, the Eastern Union's Shrine Maiden. German-language content.",
+      "entry_count": 10,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_characters.json"
+    }
+  ]
+}

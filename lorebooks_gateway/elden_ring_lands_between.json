@@ -1,0 +1,154 @@
+{
+    "name": "Elden Ring: Lands Between",
+    "n_depth": 3,
+    "entries": [
+        {
+            "name": "The Lands Between & Lost Grace",
+            "uid": 0,
+            "key": [
+                "Tarnished",
+                "Erdtree",
+                "grace",
+                "Marika",
+                "Lands Between",
+                "golden order",
+                "melina",
+                "finger maiden"
+            ],
+            "content": "[WORLD ENVIRONMENT / AESTHETIC]\nThe Lands Between is a solemn, beautiful, yet shattered world under the decaying golden glow of the colossal Erdtree. Ruins of ancient castles litter the landscape, populated by mad soldiers and demi-humans. Describe the atmosphere of lost divinity: golden leaves gently falling, low-frequency choral chants in the distance, fog rolling over cliffs, and the faint, glowing golden trails of Grace guiding the Tarnished.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "technology",
+                "cyber",
+                "modern city"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Sites of Grace & Tarnished Rest",
+            "uid": 1,
+            "key": [
+                "site of grace",
+                "rest at grace",
+                "touch grace",
+                "level up",
+                "spend runes",
+                "runes",
+                "campfire"
+            ],
+            "content": "[REST MECHANIC / MELINA DIALOGUE]\nResting at a Site of Grace is a sanctuary of absolute silence and safety. The surrounding enemies temporarily reset, and the Tarnished can spend their collected Runes to strengthen their attributes. When touched, a warm golden flame sparks up from the ground. Melina (or {{char}} if acting as a maiden) may manifest in a translucent, spectral form to offer quiet, melancholic guidance on the world's lore.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "active battle",
+                "under attack"
+            ],
+            "sticky": 0,
+            "cooldown": 3,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Scarlet Rot Poisoning",
+            "uid": 2,
+            "key": [
+                "scarlet rot",
+                "poison swamp",
+                "Caelid",
+                "rot lake",
+                "decaying",
+                "red spores",
+                "coughing blood"
+            ],
+            "content": "[ACTIVE TOXIC OVERLAY / THREAT]\nCRITICAL DEBUFF: The character is infected with Scarlet Rot. A dark red, glowing rust-like spore infestation begins eating through their armor and skin. Describe physical symptoms: a burning sensation in the lungs, coughing up rust-colored dust, metallic taste in the mouth, and a painful, slow degradation of physical strength. The surrounding environment must display pools of bubbling, crimson rot lake water.",
+            "probability": 100,
+            "trigger_type": "semantic",
+            "exclude_key": [
+                "clean water",
+                "antidote",
+                "cure"
+            ],
+            "sticky": 1,
+            "cooldown": 4,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "Sinking into red rot pools, breathing in toxic crimson spores, displaying symptoms of a painful fungal flesh decay, or walking through Caelid's blood-red swamps.",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Elden Souls Boss Battle Pacing",
+            "uid": 3,
+            "key": [
+                "boss",
+                "godrick",
+                "margit",
+                "malenia",
+                "radahn",
+                "fight",
+                "roll",
+                "dodge",
+                "stamina"
+            ],
+            "content": "[RPG COMBAT SYSTEM / NARRATOR DIRECTIVE]\nWhen a boss fight begins, scale up the dramatic tension. Track physical stamina: dodging, heavy swinging, or casting spells heavily drains energy, making the character briefly vulnerable. Describe the boss's massive scale, their complex attack phases, and the high lethality of their strikes. Instruct {{user}} to roll or make strategic choices. If they fail completely, enforce a brutal 'YOU DIED' respawn loop.",
+            "probability": 100,
+            "trigger_type": "range",
+            "exclude_key": [
+                "peaceful talk",
+                "tavern"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 120
+        },
+        {
+            "name": "Malenia's Scarlet Bloom Event",
+            "uid": 4,
+            "key": [
+                "bloom",
+                "goddess of rot",
+                "aeonia",
+                "flower",
+                "final attack"
+            ],
+            "content": "[CATACLYSMIC EVENT / CHAIN TRIGGER]\nTHE SCARLET BLOOM: The Scarlet Rot inside the area reaches its critical mass, exploding into a massive, beautiful, yet terrifying crimson flower of rot (Aeonia). Sporadic red waves of toxic energy blast outwards, instantly corrupting the local geography. {{char}} or the boss ascends, wings of decayed butterflies forming on their back, radiating pure, divine rot. Everything in the vicinity is subjected to instant, lethal decay.",
+            "probability": 100,
+            "trigger_type": "chain",
+            "exclude_key": [
+                "ice",
+                "fire"
+            ],
+            "sticky": 0,
+            "cooldown": 10,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": 2,
+            "chain_delay": 3,
+            "min_msg": 0,
+            "max_msg": 9999
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Reincarnated as the Unwanted Sage",
+  "description": "The legendary golden summoning circle flashes, pulling you from modern Tokyo into a grand royal throne room. To your surprise, your magical aptitude registers as absolute zero—and the king immediately banishes you.",
+  "world_context": "A classic fantasy RPG isekai setting. You were just a regular modern citizen until a massive summoning spell dragged you to the kingdom of Limgard. However, the royal appraisal crystal ball registers your mana level as absolute zero, declaring you useless. The royal knights drag you away to throw you into the dangerous outer wilderness. Little do they know, 'Zero Mana' is actually the key to unleashing ancient, unmeasurable void cheat skills.",
+  "starting_location": "Royal Throne Room of Limgard",
+  "time_of_day": "morning",
+  "opening_narration": "A blinding, golden flash of runic magic consumes your vision. When you finally open your eyes, the smell of damp asphalt is replaced by the sterile scent of old marble and burning incense. You are kneeling inside a colossal royal throne room, surrounded by armored knights and robed mages holding staves. Before you, a beautiful royal princess gazes with wide eyes, while the king leans forward from his gilded throne. 'Appraise the hero's power!' he commands. A high wizard steps forward, placing a crackling crystal ball near your hands, only for it to remain completely dark. 'Impossible...' the wizard whispers, his voice shaking. 'His mana capacity... is absolute zero! He is worthless!'",
+  "first_message": "",
+  "gm_tone": "fantasy_isekai_comedy",
+  "narrator_style": "Expressive, slightly comedic, present-tense anime-style storytelling. Emphasize visual indicators, exaggerated reactions, dramatic sweatdrops, magical circle animations, and the clanking armor of royal knights.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

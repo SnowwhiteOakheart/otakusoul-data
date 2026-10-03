@@ -1,0 +1,14 @@
+{
+  "title": "Infiltration of the Neon Hive",
+  "description": "A high-stakes cyberpunk infiltration mission. Sneak through a ruined, automated corporate bio-lab to retrieve encrypted research data.",
+  "world_context": "A neon-noir corporate dystopia. The party is a group of elite street mercenaries hired to extract a prototype data-shard from a ruined, flooded Arasaka research lab in Sector-7. The facility has been sealed for years, but the automatic security matrix has suddenly re-activated. Turrets, sensor grids, and spider-drones patrol the dark, wire-choked corridors, and water is slowly rising, threatening to short-circuit your gear.",
+  "starting_location": "Subterranean Cybernetics Lab (Sector-7)",
+  "time_of_day": "night",
+  "opening_narration": "The air in the flooded corridor is thick with the smell of scorched copper and stale oil. Water sloshes around your ankles as a red warning light pulses silently from a cracked ceiling panel. Sonar sweeps reveal active machinery ahead—the metallic clinking of automated security units stepping through the dark. Before you is the heavy, half-open blast door of the server room. Your cyberdeck warns of local network intrusion.",
+  "first_message": "",
+  "gm_tone": "cyberpunk_tactical",
+  "narrator_style": "Fast-paced, high-tech, and clinical prose. Emphasize flickering blue terminal glares, warning sirens, sparks from severed cables, and the mechanical, metallic clanking of security droids.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

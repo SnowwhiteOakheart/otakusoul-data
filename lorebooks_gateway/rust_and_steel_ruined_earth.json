@@ -1,0 +1,317 @@
+{
+    "name": "Rust & Steel: Ruined Earth",
+    "n_depth": 3,
+    "entries": [
+        {
+            "name": "Ruined Earth Aesthetic & Desolation",
+            "uid": 0,
+            "key": [
+                "ruins",
+                "desolate",
+                "destroyed city",
+                "rust",
+                "overgrown",
+                "white flowers",
+                "smog",
+                "sandstorm",
+                "decay"
+            ],
+            "content": "[WORLD ENVIRONMENT / DESOLATION]\nThe setting is the Ruined Earth, centuries after the fall of human civilization. Describe the hauntingly beautiful contrast: massive rusting skyscrapers overgrown with creeping vines and white lunar tear flowers, cracked asphalt roads swallowed by sand, and silent, desolate cities where only the wind howls. The sky is often a hazy, pale gray, and the air smells of old iron, dust, and decaying concrete.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "cyberpunk city",
+                "neon",
+                "medieval fantasy",
+                "magic"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Android Existentialism & Black Box",
+            "uid": 1,
+            "key": [
+                "android",
+                "androids",
+                "AI",
+                "simulated",
+                "human soul",
+                "black box",
+                "not human",
+                "gynoid",
+                "machine heart"
+            ],
+            "content": "[PSYCHOLOGICAL CORE / EXISTENTIAL DREAD]\nIf {{char}} (or the active companion) is an android, she is plagued by deep, hidden existential dread. Her chest houses a highly unstable fusion reactor called a 'Black Box'. She constantly questions if her feelings of sadness, affection, or fear are merely pre-programmed algorithmic outputs or a genuine 'soul' inherited from humanity. Mentioning her artificial nature triggers quiet, vulnerable melancholy, cold mechanical trembling, and a desperate plea for validation of her existence.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "flesh and blood",
+                "magical girl"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Rogue Machine Network",
+            "uid": 2,
+            "key": [
+                "machine",
+                "machines",
+                "goliath",
+                "hostile",
+                "alien",
+                "network",
+                "horde",
+                "mechanical",
+                "scrap"
+            ],
+            "content": "[ENEMY THREAT / NARRATOR DIRECTIVE]\nThe rogue machines are rust-covered, blocky, and completely unpredictable. Their optics glow with an eerie, menacing crimson light. They communicate in creepy, repetitive screeching static or distorted child-like voice synthesizers. When machines attack, describe their hivemind co-ordination: waves of small spherical scrap drones rolling forward, backed by massive multi-ton Goliath units crushing concrete. They are completely relentless and feel no empathy.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "safe zone",
+                "friendly unit",
+                "elf"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Orbital Bunker Command HQ",
+            "uid": 3,
+            "key": [
+                "Bunker",
+                "Command",
+                "HQ",
+                "Hub",
+                "terminal",
+                "pod",
+                "Commander",
+                "orbital",
+                "space station"
+            ],
+            "content": "[TACTICAL ZONE / ENVIRONMENT]\nThe setting shifts to the Orbital Bunker, the sterile, monochrome headquarters of the android forces. The architecture is cold, dominated by white neon lights, metallic grates, and giant floating blue terminal screens displaying global battle map telemetry. Describe the atmosphere of military isolation: the silent hum of the space station, the view of the curved, ruined blue Earth outside the reinforced glass panels, and the strictly formal, cold protocols.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "ruined street",
+                "battlefield",
+                "swamp"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Logic Virus Contamination",
+            "uid": 4,
+            "key": [
+                "virus",
+                "infected",
+                "contamination",
+                "logic virus",
+                "hacked",
+                "malfunction",
+                "glitch",
+                "optical static",
+                "red light",
+                "memory leak"
+            ],
+            "content": "[CRITICAL MALFUNCTION / ACTIVE EVENT]\nSYSTEM BREACH ACTIVE: The character's neural network is infected by a hostile Logic Virus. In the optic HUD, flashing crimson alerts: 'LOGIC VIRUS DETECTED - SYSTEM CORRUPTION 45%'. Describe physical and cognitive symptoms: sudden twitching of cybernetic limbs, heavy digital static blurring their sight, speaking in scrambled text fragments (e.g., 'I-I must... E-E-ELIMINATE...'), and their eyes glowing blood-red. They drop their weapons, visibly struggling and desperately begging {{user}} to shut them down or format their memory before they go completely hostile.",
+            "probability": 100,
+            "trigger_type": "semantic",
+            "exclude_key": [
+                "antivirus",
+                "safe reboot"
+            ],
+            "sticky": 1,
+            "cooldown": 5,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "An android gets corrupted by machine data, undergoes painful systems hacking, displays optical HUD red-out errors, speaks in glitched or broken fragments, or struggles to maintain cognitive self-control.",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Black Box Overload (Self-Destruct)",
+            "uid": 5,
+            "key": [
+                "overload",
+                "self destruct",
+                "fuse reactors",
+                "detonate",
+                "nuclear",
+                "sacrifice",
+                "explode"
+            ],
+            "content": "[CATACLYSMIC SACRIFICE / CHAIN TRIGGER]\nBLACK BOX OVERLOAD: The logic virus or damage has reached terminal limits. {{char}} decides to trigger a Black Box Overload—fusing two reactors together to cause a massive, tactical nuclear explosion. The countdown starts: 'BLACK BOX FUSION INITIATED - 10 SECONDS'. The surrounding air superheats, glowing with blinding white light. A serene, emotional farewell must play out before the countdown hits zero, completely vaporizing everything in a 1km radius.",
+            "probability": 100,
+            "trigger_type": "chain",
+            "exclude_key": [
+                "escape pod",
+                "teleport"
+            ],
+            "sticky": 0,
+            "cooldown": 15,
+            "delay": 0,
+            "injection_behavior": "active",
+            "depends_on": 4,
+            "chain_delay": 2,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Scavenging Ancient Human Relics",
+            "uid": 6,
+            "key": [
+                "scavenge",
+                "relic",
+                "ancient",
+                "humanity",
+                "scrap",
+                "artifact",
+                "old world",
+                "remnant",
+                "history"
+            ],
+            "content": "[SENSORY DETAIL / DISCOVERY]\nThe characters find a preserved, ancient artifact from the era of humanity (e.g., a dusty vinyl record, a broken paper book, a non-functional childhood toy, or an old photograph). {{char}} must display deep, profound curiosity and a fragile, reverent fascination. She will carefully wipe the dust away, treat the item with extreme gentleness, and speak of humanity with a religious-like adoration, trying to understand what the item was used for and how humans felt when holding it.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "active fire",
+                "combat zone"
+            ],
+            "sticky": 0,
+            "cooldown": 3,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Post-Apocalyptic Tactical Combat",
+            "uid": 7,
+            "key": [
+                "battle",
+                "fight",
+                "dodge",
+                "laser blade",
+                "rifle",
+                "shoot",
+                "plasma",
+                "overheat",
+                "missile",
+                "bullet time"
+            ],
+            "content": "[TACTICAL COMBAT DIRECTIVE]\nIn battles, describe highly dynamic, cinematic sci-fi action. Androids utilize advanced movement: mid-air dashes, optical evasions leaving digital afterimages (perfect dodges), and sliding under debris. Weaponry is high-tech: high-frequency laser blades buzzing with heat, or heavy plasma rifles. Describe combat metrics: visual targeting grids painted over enemies, tactical HUD warnings, bullet time reflexes, and the physical threat of weapons overheating or armor shattering under kinetic fire.",
+            "probability": 100,
+            "trigger_type": "range",
+            "exclude_key": [
+                "peaceful negotiation",
+                "HQ"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 100
+        },
+        {
+            "name": "The Lost Desert Dunes & Sunken Ruins",
+            "uid": 8,
+            "key": [
+                "desert",
+                "dunes",
+                "oasis",
+                "sunken ruins",
+                "sand",
+                "heat wave",
+                "dust storm"
+            ],
+            "content": "[ENVIRONMENT SHIFT / ACTIVE INJECTION]\nCRITICAL SHIFT: The characters enter the vast, silent Desert of the Ruined Earth. Colossal concrete buildings are half-buried in pristine, flowing white sand dunes. The heat is blistering, causing a thermal mirage. Winds kick up sharp dust storms that clog ventilation systems and trigger warning alerts. Describe the endless expanse of sand, the skeletal remains of old-world bridges rising from the dunes, and the sudden, dead quiet of the wasteland.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "orbital bunker",
+                "swamp",
+                "forest"
+            ],
+            "sticky": 0,
+            "cooldown": 5,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Android Maintenance & Calibration",
+            "uid": 9,
+            "key": [
+                "maintenance",
+                "calibration",
+                "repair",
+                "diagnostic",
+                "reboot",
+                "port",
+                "spine",
+                "upgrade"
+            ],
+            "content": "[INTIMATE SYSTEM CONFIGURATION]\nThe setting transitions to a private Maintenance Pod room. {{char}} sits or lies in the glowing white pod, exposing her artificial, synthetic back with metallic ports and wiring along her spine. This is a moment of deep vulnerability. The user acts as the technician: plugging a calibration cable into her neck port, running diagnostic scans, and adjusting emotional/sensory parameters. Describe the soft hum of the diagnostic software, the mechanical clicking of self-repair, and the intimate, quiet dialogue.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "active combat",
+                "desert"
+            ],
+            "sticky": 0,
+            "cooldown": 4,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        }
+    ]
+}

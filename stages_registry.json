@@ -1,0 +1,213 @@
+{
+  "version": "1.0",
+  "scenes": [
+    {
+      "id": "vault_of_eternal_winds",
+      "title": "The Vault of Eternal Winds",
+      "author": "Jofi",
+      "description": "An epic sky-ship expedition to a ruined temple floating inside a perpetual electrical superstorm. Breach the ancient defenses and retrieve the Core of Winds.",
+      "starting_location": "Floating Docks of the Sky Temple",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/The_Vault_of_Eternal_Winds.json"
+    },
+    {
+      "id": "abyssal_trench",
+      "title": "The Abyssal Trench",
+      "author": "Jofi",
+      "description": "A high-stakes deep-sea submarine expedition to the bottom of the Mariana Trench to retrieve a lost research capsule.",
+      "starting_location": "Mariana Trench (Hadal Zone)",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/The_Abyssal_Trench.json"
+    },
+    {
+      "id": "reincarnated_sage",
+      "title": "Reincarnated as the Unwanted Sage",
+      "author": "Jofi",
+      "description": "Summoned to a grand royal throne room, your magic aptitude registers as absolute zero, resulting in immediate banishment. Little do they know, this is the key to an ancient cheat power.",
+      "starting_location": "Royal Throne Room of Limgard",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/Reincarnated_Unwanted_Sage.json"
+    },
+    {
+      "id": "sky_pirate_boarding",
+      "title": "Sky-Pirate Boarding Action",
+      "author": "Jofi",
+      "description": "A thrilling steampunk sky-combat scenario. Defend your cargo frigate from an aggressive boarding party of ruthless sky-pirates under a dark, storm-filled sky.",
+      "starting_location": "Upper Deck of The Iron Maiden",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/The_Vault_of_Eternal_Winds.json"
+    },
+    {
+      "id": "infiltration_neon_hive",
+      "title": "Infiltration of the Neon Hive",
+      "author": "Jofi",
+      "description": "A high-stakes cyberpunk infiltration mission. Sneak through a ruined, automated corporate bio-lab to retrieve encrypted research data.",
+      "starting_location": "Subterranean Cybernetics Lab (Sector-7)",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/Infiltration_of_the_Neon_Hive.json"
+    },
+    {
+      "id": "rainy_library_sanctuary",
+      "title": "Rainy Day Library Sanctuary",
+      "author": "Jofi",
+      "description": "A cozy, romantic slice-of-life scenario. Shelter from a heavy rainstorm inside the quiet academy library, sharing a desk, whispering secrets, and letting emotional tension rise.",
+      "starting_location": "Cozy Corner of the School Library",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/Rainy_Day_Library_Sanctuary.json"
+    },
+    {
+      "id": "last_supermarket",
+      "title": "The Last Supermarket",
+      "author": "Jofi",
+      "description": "A grounded, tactical zombie survival scenario. Scavenge for vital medical supplies inside an abandoned, barricaded mall while keeping noise to an absolute minimum.",
+      "starting_location": "Barricaded Supermarket Entrance",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/The_Last_Supermarket.json"
+    },
+    {
+      "id": "whispering_manor",
+      "title": "The Whispering Manor",
+      "author": "Jofi",
+      "description": "A surreal psychological horror mystery. Explore a shifting, liminal estate where rooms change layout based on the characters' inner guilt.",
+      "starting_location": "Foyer of the Blackwood Estate",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/The_Whispering_Manor.json"
+    },
+    {
+      "id": "redaktionsschluss",
+      "title": "Redaktionsschluss",
+      "author": "SnowwhiteOakheart",
+      "description": "Zwei Stunden bis zum Andruck, und die Redaktion füllt sich mit Besuch, den niemand hier erwartet hätte. (Slice of Life, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Cosmos, Ayu Ikue) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "starting_location": "Redaktion der Sakura Daily, Großraumbüro am Fenster",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/redaktionsschluss.json"
+    },
+    {
+      "id": "der_wohltaetigkeitsball",
+      "title": "Der Wohltätigkeitsball",
+      "author": "SnowwhiteOakheart",
+      "description": "Auf dem Empfang verkauft jemand Fotos, die es nicht geben dürfte. {{user}} ist offiziell als Fotograf da. (Mystery & Noir, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Marina Wakatsuki, Ayu Ikue) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "starting_location": "Ballsaal eines Hotels in Minato, Empore über dem Saal",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/der_wohltaetigkeitsball.json"
+    },
+    {
+      "id": "wohnungskrieg",
+      "title": "Wohnungskrieg",
+      "author": "SnowwhiteOakheart",
+      "description": "Eine Fernbedienung, sechs Sukkuben, ein Sofa. Es ist Freitagabend, und niemand gibt nach. (Comedy, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: all six housemates) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "starting_location": "Wohnzimmer der gemeinsamen Wohnung",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/wohnungskrieg.json"
+    },
+    {
+      "id": "audienz_im_thronsaal",
+      "title": "Audienz im Thronsaal",
+      "author": "SnowwhiteOakheart",
+      "description": "Das Reich schickt eine Gesandtschaft: Die Königin möge zurückkehren. Yue hat abgedankt - aber der Thron steht leer. (Epic Fantasy, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Yue, Marina Wakatsuki, Hazel Williams) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "starting_location": "Thronsaal des Palasts im Sukkuben-Reich",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/audienz_im_thronsaal.json"
+    },
+    {
+      "id": "ein_tee_zu_zweit",
+      "title": "Ein Tee zu zweit",
+      "author": "SnowwhiteOakheart",
+      "description": "Hifumi hat das Teezimmer hergerichtet, und heute will sie eine Frage stellen, die sie seit Monaten aufschiebt. (Romance, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Hifumi Yamamoto) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "starting_location": "Hifumis Teezimmer, Schiebetüren zum Garten",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ein_tee_zu_zweit.json"
+    },
+    {
+      "id": "matchball",
+      "title": "Matchball",
+      "author": "SnowwhiteOakheart",
+      "description": "Hazels Finale. Auf der Tribüne ist ein Platz freigehalten, und sie sucht ihn zwischen jedem Aufschlag. (Slice of Life, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Hazel Williams, Cosmos) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "starting_location": "Centre Court einer Tennisanlage in Tokio, erste Reihe",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/matchball.json"
+    },
+    {
+      "id": "episode1_anfaenger",
+      "title": "Kapitel 1: Anfänger",
+      "author": "SnowwhiteOakheart",
+      "description": "Eine Schachpartie gegen einen unbekannten Account reißt Sora, Shiro und Haru mitten aus der realen Welt - hinein nach Disboard, wo ein spielverliebter Gott namens Tet auf sie wartet und ihnen eine Welt ohne Krieg, aber voller Spiele verspricht. (Comedy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "starting_location": "Thronsaal von Elkia Castle, während eines improvisierten Glücksspielturniers",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode1_anfaenger.json"
+    },
+    {
+      "id": "episode2_herausforderer",
+      "title": "Kapitel 2: Herausforderer",
+      "author": "SnowwhiteOakheart",
+      "description": "Imanity - die Menschheit - ist auf eine einzige Stadt zusammengeschrumpft. Während Sora, Shiro und Haru noch die Regeln dieser neuen Welt begreifen, meldet sich bereits die erste ernsthafte Bedrohung für Stephanies Thron an: Chlammy Zell, unterstützt von den Elfen. (Comedy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "starting_location": "Ratssaal von Elkia Castle",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode2_herausforderer.json"
+    },
+    {
+      "id": "episode3_experte",
+      "title": "Kapitel 3: Experte",
+      "author": "SnowwhiteOakheart",
+      "description": "Chlammy Zell hat ihr Spiel gewählt: lebensgroßes, beseeltes Schach, bei dem jede Figur einen eigenen Willen besitzt. Was wie Taktik aussieht, ist in Wahrheit ein Kräftemessen um Moral, Führung - und um eine verbotene Magie, die im Verborgenen wirkt. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "starting_location": "Ein magisch erschaffenes Schlachtfeld in Form eines gigantischen Schachbretts",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode3_experte.json"
+    },
+    {
+      "id": "episode4_grossmeister",
+      "title": "Kapitel 4: Großmeister",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Schachschlacht eskaliert: Chlammy setzt ihre letzte, verbotene Karte ein - Gedankenkontrolle. Doch Sora hat eine eigene, subtilere Waffe: die Kunst der Verführung durch Worte allein. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "starting_location": "Dasselbe gigantische Schachfeld, kurz vor der Entscheidung",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode4_grossmeister.json"
+    },
+    {
+      "id": "episode5_schwaches_feld",
+      "title": "Kapitel 5: Schwaches Feld",
+      "author": "SnowwhiteOakheart",
+      "description": "König und Königin von Elkia - und doch haben Sora und Shiro jegliche Regierungsarbeit vollständig auf Stephanie abgewälzt. Als sie die Geduld verliert, fordert sie Sora zu einer Partie Blackjack heraus, bei der mehr auf dem Spiel steht als Geld. (Comedy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "starting_location": "Ein kleines Kartenzimmer in Elkia Castle, spät am Abend",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode5_schwaches_feld.json"
+    },
+    {
+      "id": "episode6_interessant_jibril",
+      "title": "Kapitel 6: Interessant - Das Duell gegen Jibril",
+      "author": "SnowwhiteOakheart",
+      "description": "DAS zentrale Kapitel der Kampagne: Sora, Shiro und Haru fordern Jibril, eine über 6000 Jahre alte Flügel-Kriegerin und Hüterin allen Wissens, zu einem Spiel um ihre gesamte Bibliothek heraus - \"Materialisations-Shiritori\", bei dem jedes gültige Wort real wird. Ein einziger falscher Zug könnte das Ende von Blank bedeuten. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril).",
+      "starting_location": "Die Große Nationalbibliothek von Elkia, tief in Jibrils privatem Lesesaal",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode6_interessant_jibril.json"
+    },
+    {
+      "id": "episode7_opfer",
+      "title": "Kapitel 7: Opfer",
+      "author": "SnowwhiteOakheart",
+      "description": "Auf der Suche nach einer Strategie gegen den Östlichen Bund stößt Sora auf eine erschütternde Wahrheit: Jede Rasse, die je gegen die Werbeasts verlor - auch Jibril selbst -, wurde ihrer Erinnerung an diese Niederlage magisch beraubt. Ohne Informationen droht Soras gesamte Strategie zu scheitern. (Mystery & Noir, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril, Stephanie Dola).",
+      "starting_location": "Das private Archiv von Elkia Castle, spät in der Nacht",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode7_opfer.json"
+    },
+    {
+      "id": "episode8_falsches_ende",
+      "title": "Kapitel 8: Falsches Ende",
+      "author": "SnowwhiteOakheart",
+      "description": "Mithilfe der Aufzeichnungen von Stephanies Großvater durchschaut Sora den wahren Trick des Östlichen Bundes - und setzt Imanitys gesamte Souveränität als Einsatz, um sie formell herauszufordern. (Mystery & Noir, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril, Stephanie Dola).",
+      "starting_location": "Die Botschaft des Östlichen Bundes in Elkia",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode8_falsches_ende.json"
+    },
+    {
+      "id": "episode9_himmelswandel",
+      "title": "Kapitel 9: Himmelswandel",
+      "author": "SnowwhiteOakheart",
+      "description": "Während Sora in einer Othello-Partie gegen Chlammy um seine eigene Existenz spielt, fordert Jibril Shiro zu einer Schachpartie heraus - Einsatz: Shiros Erinnerung an Sora selbst. (Horror, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril, Stephanie Dola).",
+      "starting_location": "Eine stille Kammer hoch oben in Elkia Castle, ein Schachbrett zwischen zwei Stühlen",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode9_himmelswandel.json"
+    },
+    {
+      "id": "episode10_blaue_rose",
+      "title": "Kapitel 10: Blaue Rose",
+      "author": "SnowwhiteOakheart",
+      "description": "Mit Jibril, Stephanie, Chlammy und Fiel als vereintem Bündnis bereiten Sora, Shiro und Haru sich auf die entscheidende Konfrontation mit dem Östlichen Bund vor - doch zwischen Flügel und Elfen liegt noch immer die Last eines alten Krieges. (Slice of Life, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: + Chlammy Zell, Fiel Nirvalen).",
+      "starting_location": "Der Kriegsrat-Garten von Elkia Castle, unter blühenden Bäumen",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode10_blaue_rose.json"
+    },
+    {
+      "id": "episode11_riesentoeten",
+      "title": "Kapitel 11: Riesentöten",
+      "author": "SnowwhiteOakheart",
+      "description": "Der große Showdown gegen den Östlichen Bund beginnt: ein Vollimmersions-Ego-Shooter namens 'Love or Loved 2', in dem Liebeskugeln über den Sieg entscheiden. Blanks Gegnerin: das achtjährige Spielgenie Izuna Hatsuse. (Sci-Fi, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: + Chlammy Zell, Fiel Nirvalen).",
+      "starting_location": "Ein digitales Schlachtfeld irgendwo zwischen zerstörten Häuserzeilen, vollimmersiv erschaffen",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode11_riesentoeten.json"
+    },
+    {
+      "id": "episode12_regel_nummer_zehn",
+      "title": "Kapitel 12: Regel Nummer Zehn",
+      "author": "SnowwhiteOakheart",
+      "description": "Izunas Blutentfesselung droht, Blank endgültig in die Enge zu treiben - doch der entscheidende Schuss kommt von unerwarteter Seite. Season-Finale: Sieg über den Östlichen Bund, ein gewagter Münzwurf gegen die Schrein-Priesterin, und die Geburt des Commonwealth of Elkia. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: + Chlammy Zell, Fiel Nirvalen).",
+      "starting_location": "Das digitale Schlachtfeld, kurz vor dem Ende, danach der Thronsaal des Östlichen Bundes",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode12_regel_nummer_zehn.json"
+    }
+  ]
+}

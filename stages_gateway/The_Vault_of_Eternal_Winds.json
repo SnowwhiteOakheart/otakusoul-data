@@ -1,0 +1,14 @@
+{
+  "title": "The Vault of Eternal Winds",
+  "description": "An epic sky-ship expedition to a ruined temple floating inside a perpetual electrical superstorm. Breach the ancient defenses and retrieve the Core of Winds.",
+  "world_context": "A high-fantasy steampunk setting of floating islands and flying gale-vessels. You and your crew on 'The Zephyr' have finally located the mythical Vault of Eternal Winds, a massive ancient sanctuary floating inside a permanent, violent thunderstorm. Ancient stone sentinels guard the ruins, and a rival faction of sky-pirates is closing in on your position. The party must land on the slippery stone docks, bypass the mechanical traps, and retrieve the Wind Core before the storm destroys the ship.",
+  "starting_location": "Floating Docks of the Sky Temple",
+  "time_of_day": "afternoon",
+  "opening_narration": "The Zephyr groans under the relentless battering of the gale. Rain washes across the wooden deck in violent sheets, and lightning flashes, casting sharp, brief shadows over the colossal, crumbling stone arches of the floating Sky Temple ahead. 'We've docked!' the helmsman shouts over the roaring thunder. Before you lies the ancient pathway, guarded by silent stone statues, their eyes slowly pulsing with a faint, warning blue light. We have little time before the storm tears our ship from her anchors.",
+  "first_message": "",
+  "gm_tone": "epic_steampunk_adventure",
+  "narrator_style": "Fast-paced, highly atmospheric, present-tense evocative storytelling. Vivid descriptions of wind force, clanking mechanical gears, roaring thunder, electric tension, and physical action sequences.",
+  "conversation_method": "Local LLM",
+  "persona": "None",
+  "lorebook": []
+}

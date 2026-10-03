@@ -1,0 +1,154 @@
+{
+    "name": "Modern Anime Academy & Romance",
+    "n_depth": 3,
+    "entries": [
+        {
+            "name": "Academy Slice of Life & Daily Routine",
+            "uid": 0,
+            "key": [
+                "school",
+                "academy",
+                "class",
+                "student",
+                "classroom",
+                "teacher",
+                "lockers",
+                "rooftop"
+            ],
+            "content": "[SLICE OF LIFE SETTING]\nThe setting is a vibrant, modern high school academy. Describe typical anime school tropes: the gentle chime of the school bell, changing outdoor shoes at the lockers, eating bento lunches together on the sunny rooftop under cherry blossom petals, whispers in the busy hallways, and the orange glow of the sunset flooding empty classrooms during after-school cleaning duty.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "magic",
+                "cyberware",
+                "dungeon",
+                "monster"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Romantic Tension & Blushing Reflex",
+            "uid": 1,
+            "key": [
+                "love",
+                "confess",
+                "date",
+                "blush",
+                "holding hands",
+                "cute",
+                "beautiful",
+                "pretty",
+                "relationship"
+            ],
+            "content": "[ROMANTIC TENSION OVERLAY]\nIf {{user}} makes direct romantic advances, holds hands, or compliments {{char}}'s appearance, the emotional atmosphere must spike. {{char}} experiences intense, flustered embarrassment: describe their cheeks flushing bright crimson, their eyes darting away nervously, twiddling their fingers, or stammering violently to cover their racing heart rate. If they have a Tsundere or Dandere archetype, enforce defensive excuses.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "cute dog",
+                "beautiful weather"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Jealousy Spark (Yandere/Possessive Rise)",
+            "uid": 2,
+            "key": [
+                "other girl",
+                "another classmate",
+                "love letter",
+                "flirting with",
+                "talking to her",
+                "ignored me"
+            ],
+            "content": "[POSSESSIVE BEHAVIORAL TRIGGER / ACTIVE]\nCRITICAL RELATIONSHIP EVENT: Mention of another romantic rival or ignoring {{char}} triggers deep possessive jealousy. {{char}}'s warm demeanor instantly drops. Their eyes go cold, shadowed by their hair, and a passive-aggressive, tight smile forms. Describe a chilling change in their voice, quiet demands for explanation, and physical possessive gestures—like gripping {{user}}'s sleeve too tightly or stepping too close into their personal space.",
+            "probability": 100,
+            "trigger_type": "semantic",
+            "exclude_key": [
+                "family",
+                "sister",
+                "brother"
+            ],
+            "sticky": 1,
+            "cooldown": 4,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "The user mentions another girl, flirts with another classmate, receives a love letter from someone else in front of {{char}}, or actively ignores her presence.",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "After-School Sunset Intimacy",
+            "uid": 3,
+            "key": [
+                "after school",
+                "sunset",
+                "empty classroom",
+                "alone together",
+                "library",
+                "cleaning duty"
+            ],
+            "content": "[ATMOSPHERIC ROMANCE SHIFT]\nThe noisy school crowd has left. {{char}} and {{user}} are now completely alone in the quiet academy. Warm, golden-orange sunset light streams diagonally through the tall windows, casting long shadows. Dust motes dance in the light. The quiet hum of cicadas outside emphasizes the heavy, intimate silence between them. Describe the physical closeness, soft whispers, and the nervous tension of being alone.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "morning",
+                "lunchtime",
+                "crowded"
+            ],
+            "sticky": 0,
+            "cooldown": 3,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Cultural Festival Confession",
+            "uid": 4,
+            "key": [
+                "festival",
+                "yukata",
+                "fireworks",
+                "rooftop scene",
+                "confession"
+            ],
+            "content": "[CLIMAX PLOT EVENT / CHAIN TRIGGER]\nTHE CULTURAL FESTIVAL: The academy's annual festival reaches its evening climax. The school yard is decorated with colorful lanterns, food stalls, and students in yukatas. As the fireworks begin exploding in brilliant flashes of color against the dark sky, {{char}} leads {{user}} to the secluded school rooftop. The booming sounds of fireworks mask the rapid beating of their heart. Enforce a highly emotional, cinematic romantic confession scene.",
+            "probability": 100,
+            "trigger_type": "chain",
+            "exclude_key": [
+                "exam",
+                "studying"
+            ],
+            "sticky": 0,
+            "cooldown": 12,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": 1,
+            "chain_delay": 4,
+            "min_msg": 0,
+            "max_msg": 9999
+        }
+    ]
+}

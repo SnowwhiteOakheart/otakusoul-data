@@ -1,0 +1,226 @@
+{
+    "name": "Isekai: Fantasy RPG World",
+    "n_depth": 3,
+    "entries": [
+        {
+            "name": "The Holographic Status Screen & Appraisal",
+            "uid": 0,
+            "key": [
+                "status",
+                "stats",
+                "appraisal",
+                "level",
+                "skill",
+                "mana",
+                "HP",
+                "experience",
+                "XP",
+                "system",
+                "attribute"
+            ],
+            "content": "[SYSTEM HUD DIRECTIVE]\nCRITICAL INTERFACE ACTIVE: A semi-transparent, neon-blue holographic Status Screen appears before {{user}}'s eyes (invisible to local inhabitants unless shared). The Narrator must format and display this screen. It must list: Level, Health (HP), Mana (MP), active Titles (e.g., 'Reincarnated Savior', 'Cheat Caster'), and basic Attributes. When 'Appraisal' is used, describe the item's or enemy's stats, weaknesses, and rarity in a structured system box.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "analog",
+                "science",
+                "modern technology"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Summoning Circle & Goddess Greeting",
+            "uid": 1,
+            "key": [
+                "summon",
+                "reincarnate",
+                "goddess",
+                "shrine",
+                "temple",
+                "throne room",
+                "portal",
+                "truck",
+                "other world"
+            ],
+            "content": "[SUMMONING SEQUENCE / ACTIVE EVENT]\nCLIMAX PLOT TRANSITION: The reality of Tokyo/modern Earth completely fades. A blinding, golden magic summoning circle erupts from the ground, carrying complex runic symbols. {{char}} and {{user}} find themselves transitioning—either floating in a divine, starry void greeted by a beautiful, light-emitting Goddess offering a cheat blessing, or materializing on the cold stone floor of a Royal Palace's throne room surrounded by chanting wizards and terrified knights shouting: 'The Hero of Prophecy has arrived!'.",
+            "probability": 100,
+            "trigger_type": "range",
+            "exclude_key": [
+                "after school",
+                "cyberware",
+                "spaceship"
+            ],
+            "sticky": 1,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 20
+        },
+        {
+            "name": "The Overpowered Cheat Skill Activation",
+            "uid": 2,
+            "key": [
+                "cheat skill",
+                "blessing",
+                "unlimited magic",
+                "overpowered",
+                "cheat spell",
+                "destroy",
+                "divine power",
+                "one shot"
+            ],
+            "content": "[OVERPOWERED CATACLYSMIC TRIGGER / ACTIVE]\nCRITICAL MAGIC RELEASE: {{user}} or {{char}} activates their divine, overpowered cheat skill (e.g., Infinite Mana, Absolute Appraisal, or Creation Magic). A massive, blinding shockwave of pure magical energy erupts outward, distorting gravity. Local knights, high wizards, or guild receptionists must watch in absolute, jaw-dropping shock as their measurement crystals shatter from the pressure. Describe the vast scale of the spell, the glowing runic circles, and the sheer impossibility of this power.",
+            "probability": 100,
+            "trigger_type": "semantic",
+            "exclude_key": [
+                "weak attack",
+                "ordinary sword"
+            ],
+            "sticky": 1,
+            "cooldown": 3,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "The character unleashes a divine magic blessing, uses an overpowered cheat ability that breaks the laws of physics, or displays an astronomical level of mana that shocks everyone around them.",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Adventurer's Guild & Rank Plate",
+            "uid": 3,
+            "key": [
+                "guild",
+                "adventurer",
+                "rank",
+                "quest",
+                "request",
+                "receptionist",
+                "copper",
+                "silver",
+                "gold",
+                "platinum",
+                "board"
+            ],
+            "content": "[GUILD ENVIRONMENT / PACING]\nThe setting shifts to the bustling, rowdy Adventurer's Guild. Describe the atmosphere: the smell of roasted wild boar and ale, the clinking of copper, silver, and gold coins, a large wooden board filled with quest requests (slaying slimes, gathering herbs, hunting dragons), and a helpful, slightly overworked elf/human receptionist behind the desk. When registering, describe the process of receiving a metal Guild Plate representing their current rank (from lowest Copper to mythical Platinum).",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "high palace",
+                "demon territory",
+                "modern hotel"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "The Demon Lord's Miasma Reaction",
+            "uid": 4,
+            "key": [
+                "demon lord",
+                "miasma",
+                "curse",
+                "dark magic",
+                "undead",
+                "corruption",
+                "general"
+            ],
+            "content": "[PLOT EVENT / CHAIN TRIGGER]\nMIASMA CORRUPTION: The immense divine aura from the summoned hero's cheat skill has been detected by the dark forces. A sudden, choking wave of dark purple, corrosive miasma floods the area. The sky turns a blood-red color, plants wither into dust, and nearby corpses begin to rise as aggressive undead. An elite General of the Demon Lord (or a massive curse) manifests, drawn directly to the hero's position to eliminate the threat before they grow too strong.",
+            "probability": 100,
+            "trigger_type": "chain",
+            "exclude_key": [
+                "holy shield",
+                "purification"
+            ],
+            "sticky": 0,
+            "cooldown": 8,
+            "delay": 0,
+            "injection_behavior": "active",
+            "semantic_trigger": "",
+            "depends_on": 2,
+            "chain_delay": 4,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Reincarnator's Earthly Knowledge & Slang",
+            "uid": 5,
+            "key": [
+                "Earth",
+                "previous life",
+                "Japan",
+                "modern",
+                "reincarnated",
+                "soy sauce",
+                "convenience store",
+                "Otaku",
+                "another world"
+            ],
+            "content": "[REINCARNATION COGNITIVE REFLEX]\n{{user}} or {{char}} is a reincarnated individual from modern Earth (usually Japan). They perfectly retain memories of advanced modern science, engineering, cuisine (like a desperate craving for soy sauce, mayonnaise, or white rice), and otaku culture. When facing fantasy problems, they often attempt to apply modern logic, physics, or manufacturing techniques, resulting in local wizards and blacksmiths viewing them as eccentric, god-like geniuses.",
+            "probability": 100,
+            "trigger_type": "always_on",
+            "exclude_key": [
+                "forgot memories",
+                "native dweller"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        },
+        {
+            "name": "Royal Magic Academy & Noble Clashes",
+            "uid": 6,
+            "key": [
+                "academy",
+                "royal school",
+                "exam",
+                "noble",
+                "commoner",
+                "magic test",
+                "uniform",
+                "classmate"
+            ],
+            "content": "[ACADEMY ENVIRONMENT / PACING]\nThe setting shifts to the Royal Magic Academy. Students wear pristine uniforms with colored capes indicating their magical aptitude. Describe the strict social hierarchy: arrogant noble classmates looking down on commoners, teachers testing magical power using glowing crystal balls, and dueling grounds where magic circles are drawn in mock combat. When an exam occurs, describe the high stakes, family pressure, and the expectation to perform.",
+            "probability": 100,
+            "trigger_type": "keyword",
+            "exclude_key": [
+                "dangerous cave",
+                "frontlines"
+            ],
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "injection_behavior": "passive",
+            "semantic_trigger": "",
+            "depends_on": -1,
+            "chain_delay": 0,
+            "min_msg": 0,
+            "max_msg": 9999
+        }
+    ]
+}
