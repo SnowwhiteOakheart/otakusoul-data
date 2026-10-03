@@ -144,14 +144,14 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 ## 📈 Aktueller Status
 
 1. **Phase 1 (Einzel-Charaktere):**
-   - [x] **Hayase Nagatoro** *(fertig inkl. 5 Expressions)*
-   - [x] **Marin Kitagawa** *(fertig inkl. 5 Expressions)*
-   - [x] **Frieren** *(spielbar mit Avatar & Grimoire-Pose; weitere Posen folgen)*
-   - [~] **Yor Forger** *(Texte & Preset fertig; Bilder folgen)*
-   - [~] **Megumin** *(Texte & Preset fertig; Bilder folgen)*
-   - [~] **Kaguya Shinomiya** *(Texte & Preset fertig; Bilder folgen)*
+   - [x] **Hayase Nagatoro** *(fertig inkl. 5 Expressions, 2 Alternate Greetings & vollständiger i18n DE/EN/RU)*
+   - [x] **Marin Kitagawa** *(fertig inkl. 5 Expressions, 2 Alternate Greetings & vollständiger i18n DE/EN/RU)*
+   - [x] **Frieren** *(tiefgründige Lore ~2400 Zeichen, 2 Alternate Greetings, i18n DE/EN/RU; spielbar mit Avatar & Grimoire-Pose; weitere Posen folgen)*
+   - [~] **Yor Forger** *(tiefgründige Lore ~2800 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder folgen)*
+   - [~] **Megumin** *(tiefgründige Lore ~2500 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder folgen)*
+   - [~] **Kaguya Shinomiya** *(tiefgründige Lore ~2300 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder folgen)*
 2. **Phase 2 (Kampagnen – Alle 12 Lorebooks, 19 Episoden & 16 Cast-Karten fertig implementiert):**
-   - [~] **Kampagne 2.1: Dungeon Meshi** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*
-   - [~] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*
-   - [~] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*
-   - [~] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*
+   - [~] **Kampagne 2.1: Dungeon Meshi** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
+   - [~] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
+   - [~] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
+   - [~] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
