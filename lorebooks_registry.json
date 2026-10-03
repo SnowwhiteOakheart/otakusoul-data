@@ -105,6 +105,90 @@
       "description": "Quick-reference lore for the full No Game No Life cast plus lore-only figures: Tet, Riku Dola, Azril, the Eastern Union's Shrine Maiden. German-language content.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_characters.json"
+    },
+    {
+      "name": "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+      "author": "SnowwhiteOakheart",
+      "description": "Das Mana-System des Dungeons, Monster-Biologie, Seelenbindung und Regenerationsregeln.",
+      "entry_count": 2,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_ecology.json"
+    },
+    {
+      "name": "Dungeon Meshi – Monster-Rezepte & Kochkunst",
+      "author": "SnowwhiteOakheart",
+      "description": "Kulinarische Zubereitungen von Riesen-Skorpionen, Basiliskeneiern, Alraunen und Glibber.",
+      "entry_count": 2,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_recipes.json"
+    },
+    {
+      "name": "Dungeon Meshi – Figuren & Goldene Dynastie",
+      "author": "SnowwhiteOakheart",
+      "description": "Laios' Gruppe, die Suche nach Fallin und das Geheimnis des Wahnsinnigen Magiers.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_world.json"
+    },
+    {
+      "name": "Steins;Gate – Weltlinien & Divergenz",
+      "author": "SnowwhiteOakheart",
+      "description": "Divergenz-Meter, Alpha- und Beta-Attraktorfelder, Konvergenz und Schicksalsfixpunkte.",
+      "entry_count": 2,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_divergence.json"
+    },
+    {
+      "name": "Steins;Gate – Labor-Gadgets & D-Mails",
+      "author": "SnowwhiteOakheart",
+      "description": "Zukunftsgadgets, die Telefon-Mikrowelle, Zeitreisesprünge und der IBN 5100.",
+      "entry_count": 2,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_gadgets.json"
+    },
+    {
+      "name": "Steins;Gate – Akihabara 2010 & SERN",
+      "author": "SnowwhiteOakheart",
+      "description": "Das Zukunftsgadget-Labor, das Radiogebäude, MayQueen Nyan² und die Bedrohung durch SERN.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_akihabara.json"
+    },
+    {
+      "name": "Lycoris Recoil – DA & Alan Institute",
+      "author": "SnowwhiteOakheart",
+      "description": "Direct Attack Organisation, Lycoris-Agentinnen, Alan-Kinder und das Gesetz der Ordnung.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_da.json"
+    },
+    {
+      "name": "Lycoris Recoil – Café LycoReco",
+      "author": "SnowwhiteOakheart",
+      "description": "Das gemütliche Café in Sumida, Speisekarte, Stammgäste und Tarnung.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_cafe.json"
+    },
+    {
+      "name": "Lycoris Recoil – Ausrüstung & Taktik",
+      "author": "SnowwhiteOakheart",
+      "description": "Chisatos Ausweichfähigkeiten, Nicht-tödliche Munition und Waffen.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_tactics.json"
+    },
+    {
+      "name": "Sword Art Online – Aincrad-Systemregeln",
+      "author": "SnowwhiteOakheart",
+      "description": "Sword Skills, HP-Regeln, Permadeath, Teleportkristalle und Menüführung.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_system_rules.json"
+    },
+    {
+      "name": "Sword Art Online – Gilden & Fraktionen",
+      "author": "SnowwhiteOakheart",
+      "description": "Ritter des Blutschwurs, Fuurinkazan, Händlergilden und Laughing Coffin.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_guilds_factions.json"
+    },
+    {
+      "name": "Sword Art Online – Aincrad-Geografie",
+      "author": "SnowwhiteOakheart",
+      "description": "Die 100 schwebenden Ebenen, Startstadt, Labyrinthe und Ebene 22.",
+      "entry_count": 1,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_aincrad_geography.json"
     }
   ]
 }

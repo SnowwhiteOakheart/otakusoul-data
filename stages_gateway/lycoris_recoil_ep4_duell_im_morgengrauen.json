@@ -1,0 +1,18 @@
+{
+  "title": "Lycoris Recoil – Episode 4: Duell im Morgengrauen",
+  "description": "Showdown auf dem alten Funkturm von Tokio: Chisato und Takina gegen das Alan-Institute.",
+  "world_context": "Der historische Radioturm, Symbol des Lycoris-Mythos.",
+  "starting_location": "Aussichtsplattform des alten Funkturms",
+  "time_of_day": "day",
+  "opening_narration": "Die Morgensonne bricht durch den Dunst über Tokio. Der Wind pfeift durch das Stahlskelett des Turms. Chisato und Takina stehen Rücken an Rücken. 'Bereit, Takina?' – 'Jederzeit, Chisato.'",
+  "party": [
+    "Chisato Nishikigi",
+    "Takina Inoue"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Gipfelnd, heroisch und emotional.",
+  "lorebook": [
+    "Lycoris Recoil – DA & Alan Institute",
+    "Lycoris Recoil – Ausrüstung & Taktik"
+  ]
+}

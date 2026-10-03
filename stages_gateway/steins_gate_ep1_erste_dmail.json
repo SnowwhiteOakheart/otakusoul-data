@@ -1,0 +1,19 @@
+{
+  "title": "Steins;Gate – Episode 1: Die erste D-Mail",
+  "description": "Ein Schrei auf dem Dach des Radiogebäudes und eine SMS, die Raum und Zeit zerreißt.",
+  "world_context": "Akihabara, Sommer 2010. Okabe schickt eine Test-Nachricht über die Telefon-Mikrowelle.",
+  "starting_location": "Dach des Radiogebäudes in Akihabara",
+  "time_of_day": "day",
+  "opening_narration": "Sommerhitze flimmert über dem Beton von Akihabara. Ein dumpfer Knall erschüttert das Radiogebäude – gefolgt von einem markerschütternden Schrei. Okabe stolpert auf die Straße, tippt panisch eine SMS an Daru... und plötzlich verschwinden alle Menschen um euch herum. Das Divergenz-Rad hat sich gedreht.",
+  "party": [
+    "Okabe Rintarou",
+    "Mayuri Shiina",
+    "Itaru Hashida"
+  ],
+  "gm_tone": "Mystery & Noir",
+  "narrator_style": "Paranoid, atemlos, Sci-Fi-geprägt.",
+  "lorebook": [
+    "Steins;Gate – Weltlinien & Divergenz",
+    "Steins;Gate – Labor-Gadgets & D-Mails"
+  ]
+}

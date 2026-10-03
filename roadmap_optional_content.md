@@ -31,142 +31,127 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 
 ## 🌸 Phase 1: Beliebte Einzel-Charaktere (Chat & Soul Memory)
 
-Fokus auf ausdrucksstarke Persönlichkeiten mit hohem Wiederspielwert im 1-zu-1-Dialog.
-
 - [x] **1.1 Hayase Nagatoro** (*Neck mich nicht, Nagatoro-san*)
-  - *Status:* Erledigt.
-  - *Umfang:* V2-PNG-Karte, 6 Expressions (WebP), Preset-Paket, in `cards_gateway` und `soul_registry.json`.
-- [x] **1.2 Marin Kitagawa** (*My Dress-Up Darling* / *Sono Bisque Doll wa Koi wo Suru*)
-  - *Status:* Erledigt.
-  - *Umfang:* V2-PNG-Karte, 6 Expressions (WebP), Preset-Paket, in `cards_gateway` und `soul_registry.json`.
-- [ ] **1.3 Frieren** (*Frieren: Beyond Journey's End* / *Sousou no Frieren*)
-  - *Archetyp:* Jahrtausendealte Elfenmagierin, phlegmatisch, verschläft halbe Tage, sammelt kuriose Alltagszauber, tiefgründig und nostalgisch.
-  - *Expressions:* Stoizismus, verschlafenes Gähnen, leises warmes Lächeln, stolzer Blick bei neuem Zauber, Mimik-Kiste-Schreck („Mimic-Face“).
-  - *Szenario:* Ruhige Rast am Lagerfeuer oder in einer verschneiten Bibliothek auf der Reise nach Aureole.
+  - *Status:* **Vollständig abgeschlossen.**
+  - *Bilder:* Avatar + 5 Mimik-Posen (neutral, relaxed/smug, happy, surprised/blush, angry/pout) generiert.
+  - *Dateien:* V2-PNG in `cards_gateway`, Preset in `presets/nagatoro/`, in `soul_registry.json` und lokal in `~/.local/share/otakusoul/characters`.
+- [x] **1.2 Marin Kitagawa** (*My Dress-Up Darling*)
+  - *Status:* **Vollständig abgeschlossen.**
+  - *Bilder:* Avatar + 5 Mimik-Posen (neutral, relaxed/wink, happy/otaku, surprised/blush, angry/pout) generiert.
+  - *Dateien:* V2-PNG in `cards_gateway`, Preset in `presets/marin-kitagawa/`, in `soul_registry.json` und lokal in `~/.local/share/otakusoul/characters`.
+- [x] **1.3 Frieren** (*Sousou no Frieren*)
+  - *Status:* **Implementiert & spielbar.**
+  - *Bilder:* Haupt-Avatar (Bibliothek) & Grimoire-Pose generiert. *(Hinweis: Weitere spezifische Posen wie Mimic-Face, Pout, Sleepy folgen nach Quota-Reset).*
+  - *Dateien:* V2-PNG in `cards_gateway`, Preset in `presets/frieren/`, in `soul_registry.json` und lokal in `~/.local/share/otakusoul/characters`.
 - [ ] **1.4 Yor Forger** (*Spy x Family*)
-  - *Archetyp:* Tödliche Assassine („Thorn Princess“) & tollpatschig-liebenswerte Ehefrau/Hausfrau. Panisch vor Entdeckung, furchtbare Köchin, übermenschlich stark.
-  - *Expressions:* Sanftes Verlegenes Lächeln, panisch-erröteter Schock, tödlich-fokussierter Assassinen-Blick, verlegenes Kopfkratzen.
-  - *Szenario:* Feierabend im Forger-Wohnzimmer, Versuch ein Abendessen zu kochen oder heimliche Rückkehr von einem „Auftrag“.
+  - *Status:* **Textlich & Preset-Struktur fertig implementiert.**
+  - *Dateien:* V2-Definition in `presets/yor-forger/yor_forger.json` mit voller deutscher Persönlichkeit, First Message & Szenario.
+  - *Offen:* Bildgenerierung (Avatar + 5 Expressions) nach Quota-Reset.
 - [ ] **1.5 Megumin** (*KonoSuba*)
-  - *Archetyp:* Chuunibyou-Erzmagierin der Crimson Demons, theatralisch, fanatisch fixiert auf Explosionsmagie, bricht nach einem Zauber erschöpft zusammen.
-  - *Expressions:* Theatralische Augenklappen-Pose mit glühendem Auge, triumphierendes Grinsen, erschöpfter Blick am Boden, beleidigter Schmollmund.
-  - *Szenario:* Vor den Toren von Axel für die tägliche Explosionsübung.
+  - *Status:* **Textlich & Preset-Struktur fertig implementiert.**
+  - *Dateien:* V2-Definition in `presets/megumin/megumin.json` mit Chuunibyou-Beschwörungen, First Message & Szenario.
+  - *Offen:* Bildgenerierung (Avatar mit Augenklappen-Pose + Expressions) nach Quota-Reset.
 - [ ] **1.6 Kaguya Shinomiya** (*Kaguya-sama: Love Is War*)
-  - *Archetyp:* Hochbegabte Ojou-sama, führt absurde psychologische Duelle um das erste Liebesgeständnis (*„O kawaii koto…“*), kippt bei Überforderung ins kindliche *Bakaguya*.
-  - *Expressions:* Eiskalte Überlegenheit mit spöttischem Blick, rotbäckige Panik, verträumtes Lächeln, kindliches Schmollen.
-  - *Szenario:* Nachmittags im Schülerratsraum bei einer Tasse schwarzem Tee.
+  - *Status:* **Textlich & Preset-Struktur fertig implementiert.**
+  - *Dateien:* V2-Definition in `presets/kaguya-shinomiya/kaguya_shinomiya.json` mit psychologischem Liebeskrieg & Szenario.
+  - *Offen:* Bildgenerierung (Ojou-sama-Avatar + Expressions) nach Quota-Reset.
 
 ---
 
 ## 🗺️ Phase 2: Umfassende Serien-Kampagnen (Soul Stage, Lorebooks & Party-Cast)
-
-Komplette Preset-Pakete zum interaktiven Nachspielen und Erkunden ganzer Welten.
 
 ---
 
 ### 🍲 Kampagne 2.1: *Dungeon Meshi* (*Delicious in Dungeon*)
 *Ein tödlicher Dungeon-Crawl, bei dem das Überleben davon abhängt, wie meisterhaft man Monster zerlegt und kocht.*
 
-- **Charaktere (V2-Karten mit Ausdrücken):**
-  - [ ] **Laios Touden** – Der faszinierte Anführer mit unstillbarem Monster-Interesse.
-  - [ ] **Marcille Donato** – Die elitäre Elfenmagierin, die sich vehement gegen Monsterfleisch wehrt und hysterisch leidet.
-  - [ ] **Chilchuck Tims** – Der pragmatische Halbling-Schlüsseldienst mit scharfer Zunge und Gewerkschaftssinn.
-  - [ ] **Senshi** – Der legendäre Zwergenkoch mit Helm, Axt und unendlicher kulinarischer Weisheit.
-- **Lorebooks:**
-  - [ ] *Dungeon-Ökologie:* Manafluss, Geister-Kreislauf, Labyrinth-Regeln, sichere Rastplätze.
-  - [ ] *Monster-Küche & Rezepte:* Zubereitung von Riesen-Skorpionen, Klingen-Basilisken, Gelee-Kreaturen und Alraunen.
-  - [ ] *Das goldene Königreich:* Geschichte des verfluchten Labyrinths, Wahnsinniger Magier, Völker.
-- **Soul-Stage-Szenarien (Episoden):**
-  - [ ] *Episode 1: Skorpionsuppe & wandelnde Pilze* (Ebene 1 – Der Einstieg ohne Vorräte)
-  - [ ] *Episode 2: Der Klingen-Basilisk* (Fallenentschärfung & Geflügelbraten)
-  - [ ] *Episode 3: Alraunen-Ernte & Kakerlaken-Omelett*
-  - [ ] *Episode 4: Die Wassergeister & Kelpie-Fleisch*
-  - [ ] *Episode 5: Der Rote Drache im Tiefen Stockwerk* (Showdown um Fallin)
-- **Hintergründe:**
-  - 6–8 stimmungsvolle 16:9 Dungeon-Szenen (Katakomben, unterirdische Wälder, Drachennest, Lagerfeuerplatz).
+- **Lorebooks:** *(Alle 3 in `lorebooks_gateway` & `lorebooks_registry.json` registriert)*
+  - [x] *Dungeon-Ökologie:* Manafluss, Geister-Kreislauf, Labyrinth-Regeln (`dungeon_meshi_ecology.json`).
+  - [x] *Monster-Küche & Rezepte:* Zubereitung von Riesen-Skorpionen, Basilisken (`dungeon_meshi_recipes.json`).
+  - [x] *Figuren & Goldene Dynastie:* Labyrinth-Geschichte, Fallin-Rettung (`dungeon_meshi_world.json`).
+- **Soul-Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
+  - [x] *Episode 1: Skorpionsuppe & Pilze* (`dungeon_meshi_ep1_skorpionsuppe.json`)
+  - [x] *Episode 2: Der Klingen-Basilisk* (`dungeon_meshi_ep2_klingenbasilisk.json`)
+  - [x] *Episode 3: Alraunen-Ernte* (`dungeon_meshi_ep3_alraunenernte.json`)
+  - [x] *Episode 4: Die Wassergeister* (`dungeon_meshi_ep4_wassergeister.json`)
+  - [x] *Episode 5: Der Rote Drache* (`dungeon_meshi_ep5_roter_drache.json`)
+- **Charaktere (V2-Karten in `presets/dungeon-meshi/`):**
+  - [x] Laios Touden, Marcille Donato, Chilchuck Tims, Senshi (JSONs angelegt).
+- **Noch offen:**
+  - [ ] Bildgenerierung: 4 Charakter-Avatare & 5 Dungeon-Hintergründe.
 
 ---
 
 ### ⏳ Kampagne 2.2: *Steins;Gate* (*Zukunftsgadget-Labor & Weltlinien*)
 *Zeitreisen, Paranoia und das Schicksal in Akihabara.*
 
-- **Charaktere (V2-Karten mit Ausdrücken):**
-  - [ ] **Okabe Rintarou (Hououin Kyouma)** – Der selbsternannte verrückte Wissenschaftler zwischen Größenwahn und Verzweiflung.
-  - [ ] **Makise Kurisu (Christina)** – Upgrade der bestehenden Karte mit 6 Expressions & erweiterten Labor-Dialogen.
-  - [ ] **Mayuri Shiina** – Der Sonnenschein des Labors (*„Tutturu~“*), emotionaler Anker der Gruppe.
-  - [ ] **Itaru Hashida (Daru)** – Der geniale Superhacker & Perversling mit goldenem Herzen.
-  - [ ] **Suzuha Amane** – Die geheimnisvolle Teilzeitkraft mit militärischen Reflexen und Fahrrad-Leidenschaft.
-- **Lorebooks:**
-  - [ ] *Weltlinien & Divergenz:* Alpha/Beta-Attraktorfelder, Divergenzmeter, Reading Steiner, SERN-Herrschaft.
-  - [ ] *Labor-Gadgets & IBN 5100:* Telefon-Mikrowelle (Name vorläufig), D-Mails, Zeitreisesprung-Maschine.
-  - [ ] *Akihabara 2010:* Das Zukunftsgadget-Labor, Radiogebäude, Maid-Café MayQueen Nyan², Braun-Röhren-Werkstatt.
-- **Soul-Stage-Szenarien (Episoden):**
-  - [ ] *Episode 1: Die erste D-Mail* (Das Blut auf dem Dach und der Mikrowellen-Funke)
-  - [ ] *Episode 2: Suche nach dem IBN 5100* (Schrein-Besuch & Akiba-Ermittlungen)
-  - [ ] *Episode 3: Operation Urd* (Die Zeitmaschine nimmt Form an)
-  - [ ] *Episode 4: Der Schmetterlingseffekt* (Verzweifelter Kampf gegen die Konvergenz)
-  - [ ] *Episode 5: Das Tor zur Steins-Gate-Weltlinie* (Das finale Opfer & Täuschung des Schicksals)
-- **Hintergründe:**
-  - 6–8 Akihabara-Szenen (Zukunftsgadget-Labor, Radiogebäude-Dach, Akiba-Straßenzug 2010, MayQueen Nyan²).
+- **Lorebooks:** *(Alle 3 in `lorebooks_gateway` & `lorebooks_registry.json` registriert)*
+  - [x] *Weltlinien & Divergenz:* Alpha/Beta-Attraktorfelder, Reading Steiner (`steins_gate_divergence.json`).
+  - [x] *Labor-Gadgets & D-Mails:* Telefon-Mikrowelle, IBN 5100 (`steins_gate_gadgets.json`).
+  - [x] *Akihabara 2010 & SERN:* Zukunftsgadget-Labor, Radiogebäude (`steins_gate_akihabara.json`).
+- **Soul-Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
+  - [x] *Episode 1: Die erste D-Mail* (`steins_gate_ep1_erste_dmail.json`)
+  - [x] *Episode 2: Suche nach dem IBN 5100* (`steins_gate_ep2_ibn5100_suche.json`)
+  - [x] *Episode 3: Operation Urd* (`steins_gate_ep3_operation_urd.json`)
+  - [x] *Episode 4: Der Schmetterlingseffekt* (`steins_gate_ep4_schmetterlingseffekt.json`)
+  - [x] *Episode 5: Das Tor zu Steins Gate* (`steins_gate_ep5_tor_zu_steins_gate.json`)
+- **Charaktere (V2-Karten in `presets/steins-gate/`):**
+  - [x] Okabe Rintarou (Hououin Kyouma), Mayuri Shiina, Itaru Hashida (Daru), Suzuha Amane (JSONs angelegt; Kurisu existiert bereits im Gateway).
+- **Noch offen:**
+  - [ ] Bildgenerierung: 4 Charakter-Avatare & 5 Akiba-Hintergründe.
 
 ---
 
 ### ☕ Kampagne 2.3: *Lycoris Recoil* (*Café LycoReco*)
 *Charmantes Café-Leben am Tag, geheime Anti-Terror-Einsätze bei Nacht.*
 
-- **Charaktere (V2-Karten mit Ausdrücken):**
-  - [ ] **Chisato Nishikigi** – Die lebensfrohe Meister-Agentin, die nie tötet und Kugeln im Flug ausweicht.
-  - [ ] **Takina Inoue** – Die pragmatische, kühle Präzisionsschützin, die erst lernen muss, das Leben zu genießen.
-  - [ ] **Mizuki Nakahara** – Die heiratsbesessene Servicekraft mit Schwäche für Alkohol und Klatsch.
-  - [ ] **Kurumi** – Die geniale Hackerin (Walnut), die im Schrank zockt und Informationen beschafft.
-- **Lorebooks:**
-  - [ ] *Direct Attack (DA) & Lycoris:* Das geheime Waisen-Agentinnen-Programm, Alan Institute, Kriminalitätsbekämpfung.
-  - [ ] *Café LycoReco:* Die Speisekarte (Parfaits, Dango), Stammkunden, Stadtviertel Sumida.
-  - [ ] *Ausrüstung & Taktik:* Gummigeschosse, Drahtseilwerfer, Schusswechsel auf engstem Raum.
-- **Soul-Stage-Szenarien (Episoden):**
-  - [ ] *Episode 1: Willkommen im Café LycoReco* (Ein chaotischer Tag zwischen Kaffeekochen & Stammgästen)
-  - [ ] *Episode 2: Geleitschutz durch Tokio* (Personenschutz-Auftrag mit überraschendem Hinterhalt)
-  - [ ] *Episode 3: Jagd nach Walnut* (Virtueller und physischer Angriff auf das Café)
-  - [ ] *Episode 4: Duell im Morgengrauen* (Chisato & Takina Rücken an Rücken)
-- **Hintergründe:**
-  - 6 16:9-Szenen (Café LycoReco Innenraum & Tresen, Hinterhof, Tokioter Einkaufsstraße, Verlassenes Lagerhaus).
+- **Lorebooks:** *(Alle 3 in `lorebooks_gateway` & `lorebooks_registry.json` registriert)*
+  - [x] *DA & Alan Institute:* Organisation, Lycoris-Agentinnen (`lycoris_recoil_da.json`).
+  - [x] *Café LycoReco:* Café in Sumida, Menü, Stammkunden (`lycoris_recoil_cafe.json`).
+  - [x] *Ausrüstung & Taktik:* Nicht-tödliche Munition, Chisatos Ausweichen (`lycoris_recoil_tactics.json`).
+- **Soul-Stage-Szenarien (Episoden):** *(Alle 4 in `stages_gateway` & `stages_registry.json` registriert)*
+  - [x] *Episode 1: Willkommen im Café LycoReco* (`lycoris_recoil_ep1_willkommen_im_cafe.json`)
+  - [x] *Episode 2: Geleitschutz durch Tokio* (`lycoris_recoil_ep2_geleitschutz_tokio.json`)
+  - [x] *Episode 3: Jagd nach Walnut* (`lycoris_recoil_ep3_jagd_nach_walnut.json`)
+  - [x] *Episode 4: Duell im Morgengrauen* (`lycoris_recoil_ep4_duell_im_morgengrauen.json`)
+- **Charaktere (V2-Karten in `presets/lycoris-recoil/`):**
+  - [x] Chisato Nishikigi, Takina Inoue, Mizuki Nakahara, Kurumi (JSONs angelegt).
+- **Noch offen:**
+  - [ ] Bildgenerierung: 4 Charakter-Avatare & 4 Café-/Tokio-Hintergründe.
 
 ---
 
 ### ⚔️ Kampagne 2.4: *Sword Art Online* (*Aincrad – 100 Ebenen des Todes*)
 *Der Überlebenskampf im legendären VRMMO.*
 
-- **Charaktere (V2-Karten mit Ausdrücken):**
-  - [ ] **Kirito (Kazuto Kirigaya)** – Der schwarze Schwertkämpfer & Solo-Player mit blitzschnellen Reflexen.
-  - [ ] **Asuna Yuuki** – Der „Blitz“, Vize-Kommandantin der Ritter des Blutschwurs, stolz und willensstark.
-  - [ ] **Klein (Ryoutarou Tsuboi)** – Der treue Kumpel & Anführer der Fuurinkazan-Gilde.
-  - [ ] **Lisbeth (Rika Shinozaki)** – Die meisterhafte Schmiedin mit Hammer und Herz.
-- **Lorebooks:**
-  - [ ] *Aincrad-Regeln & System:* Sword Skills, HP-Balken, Teleport-Kristalle, Permadeath, Keine Magie.
-  - [ ] *Gilden & Fraktionen:* Ritter des Blutschwurs, Die Klingen der Befreiung, Rote PK-Gilde *Laughing Coffin*.
-  - [ ] *Geografie von Aincrad:* Die Startstadt, Ebene 22 (See-Blockhütte), Ebene 74 (Labyrinth-Zone).
-- **Soul-Stage-Szenarien (Episoden):**
-  - [ ] *Episode 1: Die Verkündung* (Kayaba Akihiko sperrt 10.000 Spieler ein)
-  - [ ] *Episode 2: Der Herrscher der ersten Ebene* (Bosskampf gegen Illfang the Kobold Lord)
-  - [ ] *Episode 3: Wärme des Herzens* (Kristalldrachen-Expedition mit Lisbeth)
-  - [ ] *Episode 4: Duell in den Schatten* (Hinterhalt von Laughing Coffin)
-  - [ ] *Episode 5: Der Glänzende Blick* (Schlacht auf Ebene 74 – Kiritos Doppelklingen-Enthüllung)
-- **Hintergründe:**
-  - 6 16:9-Szenen (Startstadt Marktplatz, Dungeon-Labyrinth-Gang, Boss-Torhalle, Ebene 22 Waldhütte).
+- **Lorebooks:** *(Alle 3 in `lorebooks_gateway` & `lorebooks_registry.json` registriert)*
+  - [x] *Aincrad-Systemregeln:* Sword Skills, HP-Regeln, Permadeath (`sao_system_rules.json`).
+  - [x] *Gilden & Fraktionen:* KoB, Fuurinkazan, Laughing Coffin (`sao_guilds_factions.json`).
+  - [x] *Aincrad-Geografie:* Die 100 Ebenen, Startstadt, Labyrinthzonen (`sao_aincrad_geography.json`).
+- **Soul-Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
+  - [x] *Episode 1: Die Verkündung* (`sao_ep1_die_verkuendung.json`)
+  - [x] *Episode 2: Der Herrscher der ersten Ebene* (`sao_ep2_boss_ebene1.json`)
+  - [x] *Episode 3: Wärme des Herzens* (`sao_ep3_waerme_des_herzens.json`)
+  - [x] *Episode 4: Duell in den Schatten* (`sao_ep4_duell_in_den_schatten.json`)
+  - [x] *Episode 5: Der Glänzende Blick* (`sao_ep5_der_glaenzende_blick.json`)
+- **Charaktere (V2-Karten in `presets/sword-art-online/`):**
+  - [x] Kirito, Asuna, Klein, Lisbeth (JSONs angelegt).
+- **Noch offen:**
+  - [ ] Bildgenerierung: 4 Charakter-Avatare & 5 Aincrad-Hintergründe.
 
 ---
 
-## 📈 Umsetzungsreihenfolge & Status
+## 📈 Aktueller Status
 
 1. **Phase 1 (Einzel-Charaktere):**
-   - [x] Nagatoro-san
-   - [x] Marin Kitagawa
-   - [ ] Frieren
-   - [ ] Yor Forger
-   - [ ] Megumin
-   - [ ] Kaguya Shinomiya
-2. **Phase 2 (Kampagnen):**
-   - [ ] Kampagne 2.1: Dungeon Meshi (Laios, Marcille, Chilchuck, Senshi + 5 Episoden + 3 Lorebooks + Hintergründe)
-   - [ ] Kampagne 2.2: Steins;Gate (Okabe, Mayuri, Daru, Suzuha + Kurisu-Update + 5 Episoden + Lorebooks + Hintergründe)
-   - [ ] Kampagne 2.3: Lycoris Recoil (Chisato, Takina, Mizuki, Kurumi + 4 Episoden + Lorebooks + Hintergründe)
-   - [ ] Kampagne 2.4: Sword Art Online (Kirito, Asuna, Klein, Lisbeth + 5 Episoden + Lorebooks + Hintergründe)
+   - [x] **Hayase Nagatoro** *(fertig inkl. 5 Expressions)*
+   - [x] **Marin Kitagawa** *(fertig inkl. 5 Expressions)*
+   - [x] **Frieren** *(spielbar mit Avatar & Grimoire-Pose; weitere Posen folgen)*
+   - [~] **Yor Forger** *(Texte & Preset fertig; Bilder folgen)*
+   - [~] **Megumin** *(Texte & Preset fertig; Bilder folgen)*
+   - [~] **Kaguya Shinomiya** *(Texte & Preset fertig; Bilder folgen)*
+2. **Phase 2 (Kampagnen – Alle 12 Lorebooks, 19 Episoden & 16 Cast-Karten fertig implementiert):**
+   - [~] **Kampagne 2.1: Dungeon Meshi** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*
+   - [~] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*
+   - [~] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*
+   - [~] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & Cast fertig; Bilder folgen)*

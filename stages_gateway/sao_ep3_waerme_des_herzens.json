@@ -1,0 +1,18 @@
+{
+  "title": "Sword Art Online – Episode 3: Wärme des Herzens",
+  "description": "Expedition zum eisigen Drachenberg auf Ebene 55 mit Schmiedin Lisbeth.",
+  "world_context": "Ebene 55: Schneesturm und der Hort des Eisdrachen X'rphan.",
+  "starting_location": "Eisgipfel von Ebene 55",
+  "time_of_day": "night",
+  "opening_narration": "Eisiger Wind schneidet ins Gesicht. Am Grund der tiefen Gletscherspalte schläft der gigantische Frostdrache. Kirito und Lisbeth kauern im Schutz der Felswand: 'Wir brauchen diesen Barren... egal was passiert!'",
+  "party": [
+    "Kirito (Kazuto Kirigaya)",
+    "Lisbeth"
+  ],
+  "gm_tone": "Romance",
+  "narrator_style": "Warmherzig, abenteuerlich.",
+  "lorebook": [
+    "Sword Art Online – Aincrad-Systemregeln",
+    "Sword Art Online – Aincrad-Geografie"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Dungeon Meshi – Episode 5: Der Rote Drache",
+  "description": "Das Finale im tiefen Stockwerk: Kampf gegen den Roten Drachen um Fallins Leben.",
+  "world_context": "Ebene 4: Die glühende Festung des Roten Drachen. Zeit drängt, Fallin zu retten.",
+  "starting_location": "Ebene 4: Aschehalle des Roten Drachen",
+  "time_of_day": "night",
+  "opening_narration": "Glühende Hitze schlägt euch entgegen. Gewaltige Schwingen erheben sich aus dem Rauch. Der Rote Drache öffnet sein flammendes Maul – doch Laios blickt direkt auf die Schwachstelle an der Kehle: 'Wenn wir ihn fällen... essen wir Drachensteak!'",
+  "party": [
+    "Laios Touden",
+    "Marcille Donato",
+    "Chilchuck Tims",
+    "Senshi"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Dramatisch, heroisch und episch.",
+  "lorebook": [
+    "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+    "Dungeon Meshi – Monster-Rezepte & Kochkunst",
+    "Dungeon Meshi – Figuren & Goldene Dynastie"
+  ]
+}

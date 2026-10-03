@@ -1,0 +1,17 @@
+{
+  "title": "Steins;Gate – Episode 4: Der Schmetterlingseffekt",
+  "description": "Verzweifelte Zeitschleifen: Okabe versucht Mayuris Schicksal gegen die Konvergenz zu retten.",
+  "world_context": "Egal was Okabe tut, das Alpha-Attraktorfeld erzwingt Mayuris Tod.",
+  "starting_location": "Akihabara U-Bahn-Station",
+  "time_of_day": "night",
+  "opening_narration": "Wieder und wieder dreht sich die Zeitschleife zurück. Okabe rennt durch die Straßen, Schweiß und Tränen im Gesicht. 'Nicht dieses Mal... dieses Mal rette ich dich!'",
+  "party": [
+    "Okabe Rintarou",
+    "Suzuha Amane"
+  ],
+  "gm_tone": "Mystery & Noir",
+  "narrator_style": "Tragisch, intensiv und emotional.",
+  "lorebook": [
+    "Steins;Gate – Weltlinien & Divergenz"
+  ]
+}

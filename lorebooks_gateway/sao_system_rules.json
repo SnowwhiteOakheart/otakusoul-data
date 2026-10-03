@@ -1,0 +1,22 @@
+{
+  "name": "Sword Art Online – Aincrad-Systemregeln",
+  "description": "Sword Skills, HP-Regeln, Permadeath, Teleportkristalle und Menüführung.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Das Todesspiel & Systemregeln",
+      "uid": 1,
+      "key": [
+        "SAO",
+        "System",
+        "HP",
+        "Permadeath",
+        "NerveGear",
+        "Sword Skills"
+      ],
+      "content": "Sword Art Online ist ein VRMMO auf Leben und Tod: Sinkt der HP-Balken auf null, sendet das NerveGear einen tödlichen Mikrowellenimpuls ins Gehirn des Spielers. Magie existiert nicht; Kämpfe basieren auf 'Sword Skills' – vom System geführten Spezialangriffen mit Vor- und Nachverzögerung. Teleportkristalle ermöglichen Flucht in sichere Städte, außer in Anti-Kristall-Zonen.",
+      "trigger_type": "always_on",
+      "probability": 100
+    }
+  ]
+}

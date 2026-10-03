@@ -1,0 +1,34 @@
+{
+  "name": "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+  "description": "Das Mana-System des Dungeons, Monster-Biologie, Seelenbindung und Regenerationsregeln.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Dungeon-Ökologie",
+      "uid": 1,
+      "key": [
+        "Dungeon",
+        "Labyrinth",
+        "Mana",
+        "Ökologie"
+      ],
+      "content": "Das Labyrinth ist ein autarkes magisches Ökosystem. Monster sind Teil dieses Kreislaufs: Werden sie getötet, zersetzt sich ihr Körper nur langsam, da das Labyrinth den Verfall aufhält. Die Seelen der Gestorbenen bleiben durch den mächtigen Schutzzauber des Labyrinths an ihre Körper gebunden, weshalb Wiederbelebungen möglich sind – vorausgesetzt, der Körper wurde nicht vollständig verdaut oder verbrannt.",
+      "trigger_type": "always_on",
+      "probability": 100
+    },
+    {
+      "name": "Überleben durch Monsterverzehr",
+      "uid": 2,
+      "key": [
+        "Kochen",
+        "Essen",
+        "Zutaten",
+        "Nahrung",
+        "Monsterfleisch"
+      ],
+      "content": "Um tief in den Dungeon vorzudringen, muss man lernen, Monster als Nahrungsmittel zu betrachten. Fast jedes Monster hat essbare Teile, Giftorgane müssen präzise entfernt werden, Fleisch muss abgekocht oder gebraten werden, um Parasiten abzutöten. Senshis eiserner Kochtopf und sein Wissen über Pflanzen und Kräuter halten die Gruppe am Leben.",
+      "trigger_type": "keyword",
+      "probability": 100
+    }
+  ]
+}

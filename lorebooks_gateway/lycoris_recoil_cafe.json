@@ -1,0 +1,20 @@
+{
+  "name": "Lycoris Recoil – Café LycoReco",
+  "description": "Das gemütliche Café in Sumida, Speisekarte, Stammgäste und Tarnung.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Das Café LycoReco",
+      "uid": 1,
+      "key": [
+        "Café",
+        "LycoReco",
+        "Kaffee",
+        "Süßigkeiten"
+      ],
+      "content": "Eine traditionelle japanische Café-Niederlassung in Sumida, Tokio, betrieben von Meister Mika. Es dient als Zufluchtsort und unabhängige Zweigstelle der DA. Hier werden Kundenwünsche aller Art erfüllt: von Kaffee und Dango-Parfaits über Nachhilfe bis hin zu verdecktem Personenschutz.",
+      "trigger_type": "always_on",
+      "probability": 100
+    }
+  ]
+}

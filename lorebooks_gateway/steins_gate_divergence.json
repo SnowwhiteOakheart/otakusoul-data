@@ -1,0 +1,32 @@
+{
+  "name": "Steins;Gate – Weltlinien & Divergenz",
+  "description": "Divergenz-Meter, Alpha- und Beta-Attraktorfelder, Konvergenz und Schicksalsfixpunkte.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Weltlinien & Attraktorfelder",
+      "uid": 1,
+      "key": [
+        "Weltlinie",
+        "Divergenz",
+        "Attraktorfeld",
+        "Konvergenz"
+      ],
+      "content": "Die Welt existiert nicht in parallelen Universen, sondern auf einer einzigen Weltlinie, die durch Eingriffe in die Vergangenheit umgestaltet wird. Attraktorfelder (Alpha und Beta) bündeln Weltlinien zu unausweichlichen Konvergenzpunkten (z. B. Mayuris Tod im Alpha-Feld oder der 3. Weltkrieg im Beta-Feld). Nur die Steins-Gate-Weltlinie (Divergenz 1.048596%) entkommt beiden Konvergenzen.",
+      "trigger_type": "always_on",
+      "probability": 100
+    },
+    {
+      "name": "Reading Steiner",
+      "uid": 2,
+      "key": [
+        "Reading Steiner",
+        "Erinnerung",
+        "Verschiebung"
+      ],
+      "content": "Okabes angeborene Fähigkeit: Wenn sich die Weltlinie durch eine D-Mail ändert, behält er seine Erinnerungen an die vorherige Realität vollständig, während die Erinnerungen aller anderen Menschen mit der neuen Historie überschrieben werden.",
+      "trigger_type": "keyword",
+      "probability": 100
+    }
+  ]
+}

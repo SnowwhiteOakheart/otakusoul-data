@@ -1,0 +1,20 @@
+{
+  "title": "Sword Art Online – Episode 5: Der Glänzende Blick",
+  "description": "Die Schlacht auf Ebene 74: Kiritos Enthüllung des geheimen Dual-Blades-Skills gegen den Gleam Eyes Dämon.",
+  "world_context": "Ebene 74: Verzweifelter Kampf, als ein Korps-Trupp zerfetzt wird.",
+  "starting_location": "Bosskammer Ebene 74",
+  "time_of_day": "day",
+  "opening_narration": "Ein dämonisches Brüllen lässt die Pfeiler der Halle erzittern. Der Gleam Eyes schwingt sein monströses Großschwert. Die Gruppe steht kurz vor der Vernichtung. Da greift Kirito hinter seinen Rücken – und zieht die zweite Klinge: Dark Repulser. 'Asuna! Halt ihn für zehn Sekunden auf!'",
+  "party": [
+    "Kirito (Kazuto Kirigaya)",
+    "Asuna Yuuki",
+    "Klein"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Episch, legendär, maximale Spannung.",
+  "lorebook": [
+    "Sword Art Online – Aincrad-Systemregeln",
+    "Sword Art Online – Gilden & Fraktionen",
+    "Sword Art Online – Aincrad-Geografie"
+  ]
+}

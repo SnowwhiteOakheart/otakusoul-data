@@ -1,0 +1,18 @@
+{
+  "title": "Lycoris Recoil – Episode 1: Willkommen im Café LycoReco",
+  "description": "Ein turbulenter Tag im Café: Bestellungen aufnehmen, Stammkunden betreuen und ein unerwarteter Schattenauftrag.",
+  "world_context": "Das Café LycoReco in Tokio. Chisato und Takina arbeiten als Kellnerinnen und Bodyguards.",
+  "starting_location": "Café LycoReco Innenraum",
+  "time_of_day": "day",
+  "opening_narration": "Kaffeeduft erfüllt den Raum, während Jazzmusik aus alten Boxen perlt. Chisato serviert lächelnd Parfaits, während Takina die Kasse mit militärischer Exaktheit bedient. Plötzlich schellt das Telefon im Hinterzimmer: Meister Mika signalisiert einen dringenden Spezialauftrag.",
+  "party": [
+    "Chisato Nishikigi",
+    "Takina Inoue"
+  ],
+  "gm_tone": "Slice of Life",
+  "narrator_style": "Heiter, beschwingt mit plötzlichen Action-Spitzen.",
+  "lorebook": [
+    "Lycoris Recoil – Café LycoReco",
+    "Lycoris Recoil – DA & Alan Institute"
+  ]
+}

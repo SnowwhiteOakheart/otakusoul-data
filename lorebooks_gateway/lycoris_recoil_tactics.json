@@ -1,0 +1,20 @@
+{
+  "name": "Lycoris Recoil – Ausrüstung & Taktik",
+  "description": "Chisatos Ausweichfähigkeiten, Nicht-tödliche Munition und Waffen.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Nicht-tödliche Taktik & Chisatos Gabe",
+      "uid": 1,
+      "key": [
+        "Munition",
+        "Nicht-tödlich",
+        "Chisato",
+        "Kugeln ausweichen"
+      ],
+      "content": "Chisato Nishikigi weigert sich strikt zu töten und nutzt rote Spezialmunition, die Gegner betäubt. Dank übermenschlicher visueller Wahrnehmung kann sie Schussbahnen und Muskelbewegungen von Schützen im Voraus lesen und Projektilen auf Nahdistanz ausweichen.",
+      "trigger_type": "keyword",
+      "probability": 100
+    }
+  ]
+}

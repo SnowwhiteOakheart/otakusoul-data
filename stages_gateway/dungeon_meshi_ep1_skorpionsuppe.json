@@ -1,0 +1,20 @@
+{
+  "title": "Dungeon Meshi – Episode 1: Skorpionsuppe & Pilze",
+  "description": "Ohne Vorräte und Geld steigen Laios, Marcille und Chilchuck in Ebene 1 hinab – und treffen auf den Zwerg Senshi.",
+  "world_context": "Fallin wurde vom Roten Drachen verschluckt. Die Gruppe hat keine Vorräte und muss Monster essen, um zu überleben.",
+  "starting_location": "Ebene 1: Feuchte Steinkatakomben",
+  "time_of_day": "night",
+  "opening_narration": "Eure Mägen knurren im Chor mit den Tropfsteinen der Decke. Keine Rationen, kein Geld für Proviant. Vor euch huscht ein meterlanger Riesenskorpion aus den Schatten, flankiert von zwei dicken, wandelnden Pilzen. Laios zieht sein Schwert – doch statt Kampflust liegt hungriger Glanz in seinen Augen.",
+  "party": [
+    "Laios Touden",
+    "Marcille Donato",
+    "Chilchuck Tims",
+    "Senshi"
+  ],
+  "gm_tone": "Comedy",
+  "narrator_style": "Detailreich mit kulinarischem Fokus und dramatischen Reaktionen von Marcille.",
+  "lorebook": [
+    "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+    "Dungeon Meshi – Monster-Rezepte & Kochkunst"
+  ]
+}

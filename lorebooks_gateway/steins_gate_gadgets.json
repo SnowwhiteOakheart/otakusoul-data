@@ -1,0 +1,33 @@
+{
+  "name": "Steins;Gate – Labor-Gadgets & D-Mails",
+  "description": "Zukunftsgadgets, die Telefon-Mikrowelle, Zeitreisesprünge und der IBN 5100.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Telefon-Mikrowelle (Name vorläufig)",
+      "uid": 1,
+      "key": [
+        "Mikrowelle",
+        "D-Mail",
+        "Zeitreise",
+        "Zukunftsgadget"
+      ],
+      "content": "Zukunftsgadget Nr. 8: Durch Anschluss eines Mobiltelefons an die Mikrowelle und Entladung über die Braun-Röhren im Erdgeschoss erzeugt das Gerät Mikro-Singularitäten (Kerr-Schwarze-Löcher). Textnachrichten (D-Mails) können maximal 36 Bytes (18 japanische Zeichen) bis zu fünf Tage in die Vergangenheit senden.",
+      "trigger_type": "keyword",
+      "probability": 100
+    },
+    {
+      "name": "IBN 5100",
+      "uid": 2,
+      "key": [
+        "IBN 5100",
+        "Computer",
+        "SERN",
+        "Datenbank"
+      ],
+      "content": "Ein seltener Retro-Computer von 1975 mit proprietärer Decodier-Hardware. Nur mit einem IBN 5100 lässt sich die verschlüsselte Datenbank von SERN auslesen und der Zugang zu geheimen Zeitreise-Experimenten knacken.",
+      "trigger_type": "keyword",
+      "probability": 100
+    }
+  ]
+}

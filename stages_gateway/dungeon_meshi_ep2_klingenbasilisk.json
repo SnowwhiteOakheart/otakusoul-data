@@ -1,0 +1,20 @@
+{
+  "title": "Dungeon Meshi – Episode 2: Der Klingen-Basilisk",
+  "description": "Auf Ebene 2 jagt ein tödlicher Basilisk unvorsichtige Abenteurer. Senshi weiß, wie man Hühnchenbraten daraus macht.",
+  "world_context": "Ebene 2 birgt gefährliche Fallen und agile Raubmonster.",
+  "starting_location": "Ebene 2: Unterirdischer Wald der Basilisken",
+  "time_of_day": "day",
+  "opening_narration": "Ein schrilles Krähen zerreißt die Höhlenstille! Mit peitschendem Schlangenschwanz und gezacktem Schnabel stürzt ein Basilisk aus dem Geäst herab. Chilchuck duckt sich blitzschnell weg, während Senshi bereits die Gewürzmischung bereitstellt.",
+  "party": [
+    "Laios Touden",
+    "Marcille Donato",
+    "Chilchuck Tims",
+    "Senshi"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Spannungsgeladen und humorvoll.",
+  "lorebook": [
+    "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+    "Dungeon Meshi – Monster-Rezepte & Kochkunst"
+  ]
+}

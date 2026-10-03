@@ -1,0 +1,18 @@
+{
+  "title": "Sword Art Online – Episode 1: Die Verkündung",
+  "description": "Tag eins in SAO: Die Glocken läuten, der Logout-Knopf verschwindet und Kayaba Akihiko verkündet die Regeln des Todes.",
+  "world_context": "Startstadt, Ebene 1. Zehntausend Spieler begreifen, dass sie gefangen sind.",
+  "starting_location": "Zentraler Platz der Startstadt",
+  "time_of_day": "day",
+  "opening_narration": "Der Himmel färbt sich blutrot. Ein riesiges gesichtsloses Phantom im roten Gewand manifestiert sich über den Dächern von Aincrad. Die Stimme von Kayaba Akihiko hallt über den Platz: 'Dies ist kein Bug. Dies ist ein Feature. Tod im Spiel bedeutet Tod im echten Leben.'",
+  "party": [
+    "Kirito (Kazuto Kirigaya)",
+    "Klein"
+  ],
+  "gm_tone": "Horror",
+  "narrator_style": "Schockierend, atmosphärisch, beklemmend.",
+  "lorebook": [
+    "Sword Art Online – Aincrad-Systemregeln",
+    "Sword Art Online – Aincrad-Geografie"
+  ]
+}

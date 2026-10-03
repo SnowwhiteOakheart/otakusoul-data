@@ -1,0 +1,19 @@
+{
+  "title": "Sword Art Online – Episode 4: Duell in den Schatten",
+  "description": "Hinterhalt in einer Anti-Kristall-Zone: Laughing Coffin schlägt zu.",
+  "world_context": "Eine Zone im Labyrinth, in der Heil- und Teleportkristalle deaktiviert sind.",
+  "starting_location": "Anti-Kristall-Kammer auf Ebene 60",
+  "time_of_day": "night",
+  "opening_narration": "Die Kristalle in euren Händen glimmen dumpf auf und erlöschen. Giftnebel zischt aus Bodenritzen! Rote Umhänge schälen sich aus der Dunkelheit – die Mördergilde Laughing Coffin grinst hinter gezackten Masken hervor.",
+  "party": [
+    "Kirito (Kazuto Kirigaya)",
+    "Asuna Yuuki",
+    "Klein"
+  ],
+  "gm_tone": "Mystery & Noir",
+  "narrator_style": "Düster, unbarmherzig, Überlebenskampf.",
+  "lorebook": [
+    "Sword Art Online – Aincrad-Systemregeln",
+    "Sword Art Online – Gilden & Fraktionen"
+  ]
+}

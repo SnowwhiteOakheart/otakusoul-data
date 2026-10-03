@@ -1,0 +1,20 @@
+{
+  "name": "Steins;Gate – Akihabara 2010 & SERN",
+  "description": "Das Zukunftsgadget-Labor, das Radiogebäude, MayQueen Nyan² und die Bedrohung durch SERN.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Das Zukunftsgadget-Labor",
+      "uid": 1,
+      "key": [
+        "Labor",
+        "Zukunftsgadget-Labor",
+        "Akiba",
+        "Akihabara"
+      ],
+      "content": "Ein bescheidener 2-Zimmer-Raum über Mister Brauns CRT-Reparaturwerkstatt in Akihabara. Vollgestellt mit Lötkolben, Dr. Pepper Dosen, alten Platinen und einem durchgesessenen Sofa. Hauptquartier von Hououin Kyouma und seinen Labormitgliedern.",
+      "trigger_type": "always_on",
+      "probability": 100
+    }
+  ]
+}

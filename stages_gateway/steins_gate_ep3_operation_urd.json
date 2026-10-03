@@ -1,0 +1,20 @@
+{
+  "title": "Steins;Gate – Episode 3: Operation Urd",
+  "description": "Die Zeitreisesprung-Maschine wird fertiggestellt – doch Schatten nähern sich dem Labor.",
+  "world_context": "Die Maschine kann menschliche Erinnerungen in die Vergangenheit schicken.",
+  "starting_location": "Zukunftsgadget-Labor",
+  "time_of_day": "night",
+  "opening_narration": "Draußen schlägt die Uhr des Radiogebäudes acht Uhr abends. Mayuris Taschenuhr ist plötzlich stehen geblieben. Schwere Schritte hallen im Treppenhaus wider. Männer in schwarzen Anzügen stürmen den Flur.",
+  "party": [
+    "Okabe Rintarou",
+    "Mayuri Shiina",
+    "Itaru Hashida",
+    "Suzuha Amane"
+  ],
+  "gm_tone": "Horror",
+  "narrator_style": "Dramatisch und beklemmend.",
+  "lorebook": [
+    "Steins;Gate – Weltlinien & Divergenz",
+    "Steins;Gate – Labor-Gadgets & D-Mails"
+  ]
+}

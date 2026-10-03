@@ -1,0 +1,33 @@
+{
+  "name": "Dungeon Meshi – Monster-Rezepte & Kochkunst",
+  "description": "Kulinarische Zubereitungen von Riesen-Skorpionen, Basiliskeneiern, Alraunen und Glibber.",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Riesenskorpion & Wandelnde Pilze",
+      "uid": 1,
+      "key": [
+        "Skorpion",
+        "Pilze",
+        "Suppe",
+        "Eintopf"
+      ],
+      "content": "Rezept für Skorpionsuppe: Die Beine und Scheren des Riesenskorpions aufbrechen, das Fleisch herauslösen. Den Giftsack am Stachel sorgfältig abtrennen. Die wandelnden Pilze häuten und in Scheiben schneiden. Alles mit getrocknetem Wurzelgemüse in Senshis Kochtopf köcheln lassen. Schmeckt wie ein herzhafter Meeresfrüchte-Eintopf mit erdiger Waldnote.",
+      "trigger_type": "keyword",
+      "probability": 100
+    },
+    {
+      "name": "Klingen-Basilisk Roast",
+      "uid": 2,
+      "key": [
+        "Basilisk",
+        "Geflügel",
+        "Braten",
+        "Ei"
+      ],
+      "content": "Rezept für Basilisk: Der Basilisk ist eine Kreuzung aus Hahn und Schlange. Das Schlangenfleisch eignet sich hervorragend zum Dünsten, während die Hähnchenbrust mit Wildkräutern scharf angebraten wird. Die Eier des Basilisken sind reichhaltig und eignen sich für feste Omeletts.",
+      "trigger_type": "keyword",
+      "probability": 100
+    }
+  ]
+}

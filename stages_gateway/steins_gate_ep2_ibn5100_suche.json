@@ -1,0 +1,19 @@
+{
+  "title": "Steins;Gate – Episode 2: Suche nach dem IBN 5100",
+  "description": "Die Spur des legendären Retro-Computers führt zum Yanagibayashi-Schrein.",
+  "world_context": "SERNs Datenbank kann nur mit einem IBN 5100 entschlüsselt werden.",
+  "starting_location": "Yanagibayashi-Schrein in Akihabara",
+  "time_of_day": "day",
+  "opening_narration": "Zikaden zirpen ohrenbetäubend in den Bäumen rund um den Schrein. Ruka hält einen schweren Karton in den Händen: Ein verstaubter, klobiger IBN 5100 Computer von 1975. Der Schlüssel zu SERNs Geheimnissen liegt vor euch.",
+  "party": [
+    "Okabe Rintarou",
+    "Mayuri Shiina",
+    "Itaru Hashida"
+  ],
+  "gm_tone": "Slice of Life",
+  "narrator_style": "Spannend und geheimnisvoll.",
+  "lorebook": [
+    "Steins;Gate – Labor-Gadgets & D-Mails",
+    "Steins;Gate – Akihabara 2010 & SERN"
+  ]
+}

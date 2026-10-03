@@ -1,0 +1,20 @@
+{
+  "title": "Dungeon Meshi – Episode 4: Die Wassergeister",
+  "description": "Ein unterirdischer See blockiert den Weg. Die Gruppe muss Kelpie-Fleisch erbeuten und Wassergeister abkochen.",
+  "world_context": "Ebene 3 ist von tückischen Wasserläufen durchzogen.",
+  "starting_location": "Ebene 3: Unterirdischer Sumpfsee",
+  "time_of_day": "day",
+  "opening_narration": "Nebel wallt über dunklem, spiegelglattem Wasser. Plötzlich tauchen glühende Augen an der Oberfläche auf: Ein Raubfisch-Kelpie kreist um eure provisorische Fähre.",
+  "party": [
+    "Laios Touden",
+    "Marcille Donato",
+    "Chilchuck Tims",
+    "Senshi"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Atmosphärisch und spannend.",
+  "lorebook": [
+    "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+    "Dungeon Meshi – Monster-Rezepte & Kochkunst"
+  ]
+}

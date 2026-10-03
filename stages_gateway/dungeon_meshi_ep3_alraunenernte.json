@@ -1,0 +1,20 @@
+{
+  "title": "Dungeon Meshi – Episode 3: Alraunen-Ernte",
+  "description": "Marcille versucht Alraunen nach akademischer Magielehre zu ernten, während Senshi eine rustikale Zwergenmethode anwendet.",
+  "world_context": "Alraunen stoßen beim Herausziehen tödliche Schreie aus, schmecken aber hervorragend.",
+  "starting_location": "Ebene 2: Verwunschener Gemüsegarten",
+  "time_of_day": "night",
+  "opening_narration": "Felder voller knorriger Wurzeln, die sich im Boden winden. Marcille stopft sich wachsgetränkte Watte in die Ohren, während Senshi einen abgerichteten Höllenhund an der Leine hält. Das Schreiduell kann beginnen.",
+  "party": [
+    "Laios Touden",
+    "Marcille Donato",
+    "Chilchuck Tims",
+    "Senshi"
+  ],
+  "gm_tone": "Comedy",
+  "narrator_style": "Witzig, Fokus auf Marcilles Verzweiflung.",
+  "lorebook": [
+    "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+    "Dungeon Meshi – Monster-Rezepte & Kochkunst"
+  ]
+}

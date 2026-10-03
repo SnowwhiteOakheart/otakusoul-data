@@ -1,0 +1,19 @@
+{
+  "title": "Lycoris Recoil – Episode 3: Jagd nach Walnut",
+  "description": "Ein Cyberangriff erschüttert das Café. Kurumi muss vor feindlichen Söldnern evakuiert werden.",
+  "world_context": "Söldner haben Walnuts Aufenthaltsort lokalisiert.",
+  "starting_location": "Hinterhof von Café LycoReco",
+  "time_of_day": "night",
+  "opening_narration": "Schüsse zerschlagen die Fenster des Cafés! Kurumi krallt sich an ihren Server-Koffer. Chisato duckt sich unter Querschlägern hindurch, während Takina Deckungsfeuer gibt.",
+  "party": [
+    "Chisato Nishikigi",
+    "Takina Inoue",
+    "Kurumi"
+  ],
+  "gm_tone": "Mystery & Noir",
+  "narrator_style": "Spannungsgeladen und intensiv.",
+  "lorebook": [
+    "Lycoris Recoil – DA & Alan Institute",
+    "Lycoris Recoil – Ausrüstung & Taktik"
+  ]
+}

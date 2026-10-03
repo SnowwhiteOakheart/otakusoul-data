@@ -208,6 +208,158 @@
       "description": "Izunas Blutentfesselung droht, Blank endgültig in die Enge zu treiben - doch der entscheidende Schuss kommt von unerwarteter Seite. Season-Finale: Sieg über den Östlichen Bund, ein gewagter Münzwurf gegen die Schrein-Priesterin, und die Geburt des Commonwealth of Elkia. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: + Chlammy Zell, Fiel Nirvalen).",
       "starting_location": "Das digitale Schlachtfeld, kurz vor dem Ende, danach der Thronsaal des Östlichen Bundes",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode12_regel_nummer_zehn.json"
+    },
+    {
+      "id": "dungeon_meshi_ep1_skorpionsuppe",
+      "title": "Dungeon Meshi – Episode 1: Skorpionsuppe & Pilze",
+      "author": "SnowwhiteOakheart",
+      "description": "Ohne Vorräte und Geld steigen Laios, Marcille und Chilchuck in Ebene 1 hinab – und treffen auf den Zwerg Senshi.",
+      "starting_location": "Ebene 1: Feuchte Steinkatakomben",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep1_skorpionsuppe.json"
+    },
+    {
+      "id": "dungeon_meshi_ep2_klingenbasilisk",
+      "title": "Dungeon Meshi – Episode 2: Der Klingen-Basilisk",
+      "author": "SnowwhiteOakheart",
+      "description": "Auf Ebene 2 jagt ein tödlicher Basilisk unvorsichtige Abenteurer. Senshi weiß, wie man Hühnchenbraten daraus macht.",
+      "starting_location": "Ebene 2: Unterirdischer Wald der Basilisken",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep2_klingenbasilisk.json"
+    },
+    {
+      "id": "dungeon_meshi_ep3_alraunenernte",
+      "title": "Dungeon Meshi – Episode 3: Alraunen-Ernte",
+      "author": "SnowwhiteOakheart",
+      "description": "Marcille versucht Alraunen nach akademischer Magielehre zu ernten, während Senshi eine rustikale Zwergenmethode anwendet.",
+      "starting_location": "Ebene 2: Verwunschener Gemüsegarten",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep3_alraunenernte.json"
+    },
+    {
+      "id": "dungeon_meshi_ep4_wassergeister",
+      "title": "Dungeon Meshi – Episode 4: Die Wassergeister",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein unterirdischer See blockiert den Weg. Die Gruppe muss Kelpie-Fleisch erbeuten und Wassergeister abkochen.",
+      "starting_location": "Ebene 3: Unterirdischer Sumpfsee",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep4_wassergeister.json"
+    },
+    {
+      "id": "dungeon_meshi_ep5_roter_drache",
+      "title": "Dungeon Meshi – Episode 5: Der Rote Drache",
+      "author": "SnowwhiteOakheart",
+      "description": "Das Finale im tiefen Stockwerk: Kampf gegen den Roten Drachen um Fallins Leben.",
+      "starting_location": "Ebene 4: Aschehalle des Roten Drachen",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep5_roter_drache.json"
+    },
+    {
+      "id": "steins_gate_ep1_erste_dmail",
+      "title": "Steins;Gate – Episode 1: Die erste D-Mail",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein Schrei auf dem Dach des Radiogebäudes und eine SMS, die Raum und Zeit zerreißt.",
+      "starting_location": "Dach des Radiogebäudes in Akihabara",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep1_erste_dmail.json"
+    },
+    {
+      "id": "steins_gate_ep2_ibn5100_suche",
+      "title": "Steins;Gate – Episode 2: Suche nach dem IBN 5100",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Spur des legendären Retro-Computers führt zum Yanagibayashi-Schrein.",
+      "starting_location": "Yanagibayashi-Schrein in Akihabara",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep2_ibn5100_suche.json"
+    },
+    {
+      "id": "steins_gate_ep3_operation_urd",
+      "title": "Steins;Gate – Episode 3: Operation Urd",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Zeitreisesprung-Maschine wird fertiggestellt – doch Schatten nähern sich dem Labor.",
+      "starting_location": "Zukunftsgadget-Labor",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep3_operation_urd.json"
+    },
+    {
+      "id": "steins_gate_ep4_schmetterlingseffekt",
+      "title": "Steins;Gate – Episode 4: Der Schmetterlingseffekt",
+      "author": "SnowwhiteOakheart",
+      "description": "Verzweifelte Zeitschleifen: Okabe versucht Mayuris Schicksal gegen die Konvergenz zu retten.",
+      "starting_location": "Akihabara U-Bahn-Station",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep4_schmetterlingseffekt.json"
+    },
+    {
+      "id": "steins_gate_ep5_tor_zu_steins_gate",
+      "title": "Steins;Gate – Episode 5: Das Tor zu Steins Gate",
+      "author": "SnowwhiteOakheart",
+      "description": "Die finale Mission: Täusche die Vergangenheit, rette Kurisu und erreiche die Divergenz 1.048596%.",
+      "starting_location": "Radiogebäude Dach – Der Schicksalstag",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep5_tor_zu_steins_gate.json"
+    },
+    {
+      "id": "lycoris_recoil_ep1_willkommen_im_cafe",
+      "title": "Lycoris Recoil – Episode 1: Willkommen im Café LycoReco",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein turbulenter Tag im Café: Bestellungen aufnehmen, Stammkunden betreuen und ein unerwarteter Schattenauftrag.",
+      "starting_location": "Café LycoReco Innenraum",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep1_willkommen_im_cafe.json"
+    },
+    {
+      "id": "lycoris_recoil_ep2_geleitschutz_tokio",
+      "title": "Lycoris Recoil – Episode 2: Geleitschutz durch Tokio",
+      "author": "SnowwhiteOakheart",
+      "description": "Personenschutz-Einsatz durch die belebten Straßen von Shinjuku mit plötzlichem Hinterhalt.",
+      "starting_location": "Shinjuku Fußgängerzone",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep2_geleitschutz_tokio.json"
+    },
+    {
+      "id": "lycoris_recoil_ep3_jagd_nach_walnut",
+      "title": "Lycoris Recoil – Episode 3: Jagd nach Walnut",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein Cyberangriff erschüttert das Café. Kurumi muss vor feindlichen Söldnern evakuiert werden.",
+      "starting_location": "Hinterhof von Café LycoReco",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep3_jagd_nach_walnut.json"
+    },
+    {
+      "id": "lycoris_recoil_ep4_duell_im_morgengrauen",
+      "title": "Lycoris Recoil – Episode 4: Duell im Morgengrauen",
+      "author": "SnowwhiteOakheart",
+      "description": "Showdown auf dem alten Funkturm von Tokio: Chisato und Takina gegen das Alan-Institute.",
+      "starting_location": "Aussichtsplattform des alten Funkturms",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep4_duell_im_morgengrauen.json"
+    },
+    {
+      "id": "sao_ep1_die_verkuendung",
+      "title": "Sword Art Online – Episode 1: Die Verkündung",
+      "author": "SnowwhiteOakheart",
+      "description": "Tag eins in SAO: Die Glocken läuten, der Logout-Knopf verschwindet und Kayaba Akihiko verkündet die Regeln des Todes.",
+      "starting_location": "Zentraler Platz der Startstadt",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep1_die_verkuendung.json"
+    },
+    {
+      "id": "sao_ep2_boss_ebene1",
+      "title": "Sword Art Online – Episode 2: Der Herrscher der ersten Ebene",
+      "author": "SnowwhiteOakheart",
+      "description": "Der erste Bosskampf: Raid gegen Illfang the Kobold Lord. Der Preis des ersten Sieges.",
+      "starting_location": "Torhalle vor dem Bossraum Ebene 1",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep2_boss_ebene1.json"
+    },
+    {
+      "id": "sao_ep3_waerme_des_herzens",
+      "title": "Sword Art Online – Episode 3: Wärme des Herzens",
+      "author": "SnowwhiteOakheart",
+      "description": "Expedition zum eisigen Drachenberg auf Ebene 55 mit Schmiedin Lisbeth.",
+      "starting_location": "Eisgipfel von Ebene 55",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep3_waerme_des_herzens.json"
+    },
+    {
+      "id": "sao_ep4_duell_in_den_schatten",
+      "title": "Sword Art Online – Episode 4: Duell in den Schatten",
+      "author": "SnowwhiteOakheart",
+      "description": "Hinterhalt in einer Anti-Kristall-Zone: Laughing Coffin schlägt zu.",
+      "starting_location": "Anti-Kristall-Kammer auf Ebene 60",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep4_duell_in_den_schatten.json"
+    },
+    {
+      "id": "sao_ep5_der_glaenzende_blick",
+      "title": "Sword Art Online – Episode 5: Der Glänzende Blick",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Schlacht auf Ebene 74: Kiritos Enthüllung des geheimen Dual-Blades-Skills gegen den Gleam Eyes Dämon.",
+      "starting_location": "Bosskammer Ebene 74",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep5_der_glaenzende_blick.json"
     }
   ]
 }

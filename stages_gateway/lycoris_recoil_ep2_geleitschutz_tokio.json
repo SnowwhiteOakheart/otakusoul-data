@@ -1,0 +1,18 @@
+{
+  "title": "Lycoris Recoil – Episode 2: Geleitschutz durch Tokio",
+  "description": "Personenschutz-Einsatz durch die belebten Straßen von Shinjuku mit plötzlichem Hinterhalt.",
+  "world_context": "Eine Zielperson wird von Kriminellen verfolgt. Chisato und Takina greifen ein.",
+  "starting_location": "Shinjuku Fußgängerzone",
+  "time_of_day": "night",
+  "opening_narration": "Neonreklamen spiegeln sich auf nassem Asphalt. Ein schwarzer Van hält mit quietschenden Reifen an! Bewaffnete Männer stürmen heraus. Chisato zieht blitzschnell ihre Waffe: 'Takina, nicht-tödliche Munition! Niemand stirbt heute!'",
+  "party": [
+    "Chisato Nishikigi",
+    "Takina Inoue"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Rasante Action, präzise Schusswechsel-Choreografie.",
+  "lorebook": [
+    "Lycoris Recoil – Ausrüstung & Taktik",
+    "Lycoris Recoil – DA & Alan Institute"
+  ]
+}

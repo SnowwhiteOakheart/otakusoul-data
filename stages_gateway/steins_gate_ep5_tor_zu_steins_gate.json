@@ -1,0 +1,19 @@
+{
+  "title": "Steins;Gate – Episode 5: Das Tor zu Steins Gate",
+  "description": "Die finale Mission: Täusche die Vergangenheit, rette Kurisu und erreiche die Divergenz 1.048596%.",
+  "world_context": "Die Steins-Gate-Weltlinie ist die einzige Zukunft ohne Weltkrieg und Tod.",
+  "starting_location": "Radiogebäude Dach – Der Schicksalstag",
+  "time_of_day": "day",
+  "opening_narration": "Der Kreis schließt sich. Hououin Kyouma steht wieder auf dem Dach. Diesmal mit dem Wissen aus tausend Schleifen: 'Täusche dich selbst. Täusche die Welt. Greife nach Steins Gate!'",
+  "party": [
+    "Okabe Rintarou",
+    "Suzuha Amane"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Heroisch, gipfelnd und emotional befreiend.",
+  "lorebook": [
+    "Steins;Gate – Weltlinien & Divergenz",
+    "Steins;Gate – Labor-Gadgets & D-Mails",
+    "Steins;Gate – Akihabara 2010 & SERN"
+  ]
+}

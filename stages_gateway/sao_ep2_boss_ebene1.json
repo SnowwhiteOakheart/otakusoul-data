@@ -1,0 +1,18 @@
+{
+  "title": "Sword Art Online – Episode 2: Der Herrscher der ersten Ebene",
+  "description": "Der erste Bosskampf: Raid gegen Illfang the Kobold Lord. Der Preis des ersten Sieges.",
+  "world_context": "Die Bosskammer auf Ebene 1.",
+  "starting_location": "Torhalle vor dem Bossraum Ebene 1",
+  "time_of_day": "night",
+  "opening_narration": "Das gewaltige Steintor öffnet sich knarrend. Illfang the Kobold Lord schlägt mit seiner gigantischen Axt auf den Boden! Vier Ruin-Kobolde stürmen vor. Diavel ruft zum Angriff – doch das Verhaltensmuster des Bosses ändert sich plötzlich!",
+  "party": [
+    "Kirito (Kazuto Kirigaya)",
+    "Asuna Yuuki"
+  ],
+  "gm_tone": "Epic Fantasy",
+  "narrator_style": "Heroisch, dynamisch, Fokus auf Kampftaktik.",
+  "lorebook": [
+    "Sword Art Online – Aincrad-Systemregeln",
+    "Sword Art Online – Gilden & Fraktionen"
+  ]
+}
