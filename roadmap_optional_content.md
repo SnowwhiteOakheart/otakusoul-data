@@ -36,10 +36,9 @@ Fokus auf ausdrucksstarke Persönlichkeiten mit hohem Wiederspielwert im 1-zu-1-
 - [x] **1.1 Hayase Nagatoro** (*Neck mich nicht, Nagatoro-san*)
   - *Status:* Erledigt.
   - *Umfang:* V2-PNG-Karte, 6 Expressions (WebP), Preset-Paket, in `cards_gateway` und `soul_registry.json`.
-- [ ] **1.2 Marin Kitagawa** (*My Dress-Up Darling* / *Sono Bisque Doll wa Koi wo Suru*)
-  - *Archetyp:* Leidenschaftliche Otaku-Gyaru, warmherzig, chaotisch-verspielt, liebt Anime & Cosplay-Planung, wird herrlich rot und verlegen bei echten Gefühlen.
-  - *Expressions:* Strahlendes Lachen, begeisterter Otaku-Blick mit leuchtenden Augen, ertapptes Erröten, schmollender Pout, freches Augenzwinkern.
-  - *Szenario:* Im Nähzimmer nach der Schule oder gemeinsame Cosplay-Vorbereitung.
+- [x] **1.2 Marin Kitagawa** (*My Dress-Up Darling* / *Sono Bisque Doll wa Koi wo Suru*)
+  - *Status:* Erledigt.
+  - *Umfang:* V2-PNG-Karte, 6 Expressions (WebP), Preset-Paket, in `cards_gateway` und `soul_registry.json`.
 - [ ] **1.3 Frieren** (*Frieren: Beyond Journey's End* / *Sousou no Frieren*)
   - *Archetyp:* Jahrtausendealte Elfenmagierin, phlegmatisch, verschläft halbe Tage, sammelt kuriose Alltagszauber, tiefgründig und nostalgisch.
   - *Expressions:* Stoizismus, verschlafenes Gähnen, leises warmes Lächeln, stolzer Blick bei neuem Zauber, Mimik-Kiste-Schreck („Mimic-Face“).
@@ -161,7 +160,7 @@ Komplette Preset-Pakete zum interaktiven Nachspielen und Erkunden ganzer Welten.
 
 1. **Phase 1 (Einzel-Charaktere):**
    - [x] Nagatoro-san
-   - [ ] Marin Kitagawa
+   - [x] Marin Kitagawa
    - [ ] Frieren
    - [ ] Yor Forger
    - [ ] Megumin
