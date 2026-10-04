@@ -55,6 +55,14 @@
             ]
           }
         }
+      },
+      "expressions": {
+        "neutral": "expressions/megumin/neutral.webp",
+        "happy": "expressions/megumin/happy.webp",
+        "relaxed": "expressions/megumin/relaxed.webp",
+        "surprised": "expressions/megumin/surprised.webp",
+        "angry": "expressions/megumin/angry.webp",
+        "sad": "expressions/megumin/sad.webp"
       }
     }
   }

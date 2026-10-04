@@ -33,28 +33,28 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 
 - [x] **1.1 Hayase Nagatoro** (*Neck mich nicht, Nagatoro-san*)
   - *Status:* **Vollständig abgeschlossen.**
-  - *Bilder:* Avatar + 5 Mimik-Posen (neutral, relaxed/smug, happy, surprised/blush, angry/pout) generiert.
+  - *Bilder:* Avatar + 6 Expressions (neutral, happy, relaxed, surprised, angry, sad) vollständig neu generiert.
   - *Dateien:* V2-PNG in `cards_gateway`, Preset in `presets/nagatoro/`, in `soul_registry.json` und lokal in `~/.local/share/otakusoul/characters`.
 - [x] **1.2 Marin Kitagawa** (*My Dress-Up Darling*)
   - *Status:* **Vollständig abgeschlossen.**
-  - *Bilder:* Avatar + 5 Mimik-Posen (neutral, relaxed/wink, happy/otaku, surprised/blush, angry/pout) generiert.
+  - *Bilder:* Avatar + 6 Expressions (neutral, happy, relaxed, surprised, angry, sad) vollständig neu generiert.
   - *Dateien:* V2-PNG in `cards_gateway`, Preset in `presets/marin-kitagawa/`, in `soul_registry.json` und lokal in `~/.local/share/otakusoul/characters`.
 - [x] **1.3 Frieren** (*Sousou no Frieren*)
   - *Status:* **Implementiert & spielbar.**
-  - *Bilder:* Haupt-Avatar (Bibliothek) & Grimoire-Pose generiert. *(Hinweis: Weitere spezifische Posen wie Mimic-Face, Pout, Sleepy folgen nach Quota-Reset).*
+  - *Bilder:* Haupt-Avatar (Bibliothek), Grimoire-Pose und 6 Expressions vollständig neu generiert, einschließlich Mimic-Face, Pout und Sleepy.
   - *Dateien:* V2-PNG in `cards_gateway`, Preset in `presets/frieren/`, in `soul_registry.json` und lokal in `~/.local/share/otakusoul/characters`.
-- [ ] **1.4 Yor Forger** (*Spy x Family*)
-  - *Status:* **Textlich & Preset-Struktur fertig implementiert.**
+- [x] **1.4 Yor Forger** (*Spy x Family*)
+  - *Status:* **Text, Avatar und 6 Expressions fertig.**
   - *Dateien:* V2-Definition in `presets/yor-forger/yor_forger.json` mit voller deutscher Persönlichkeit, First Message & Szenario.
-  - *Offen:* Bildgenerierung (Avatar + 5 Expressions) nach Quota-Reset.
-- [ ] **1.5 Megumin** (*KonoSuba*)
-  - *Status:* **Textlich & Preset-Struktur fertig implementiert.**
+  - *Bilder:* Avatar und 6 Expressions neu generiert; V2-PNG mit eingebetteter Definition vorhanden.
+- [x] **1.5 Megumin** (*KonoSuba*)
+  - *Status:* **Text, Avatar und 6 Expressions fertig.**
   - *Dateien:* V2-Definition in `presets/megumin/megumin.json` mit Chuunibyou-Beschwörungen, First Message & Szenario.
-  - *Offen:* Bildgenerierung (Avatar mit Augenklappen-Pose + Expressions) nach Quota-Reset.
-- [ ] **1.6 Kaguya Shinomiya** (*Kaguya-sama: Love Is War*)
-  - *Status:* **Textlich & Preset-Struktur fertig implementiert.**
+  - *Bilder:* Avatar und 6 Expressions neu generiert; V2-PNG mit eingebetteter Definition vorhanden.
+- [x] **1.6 Kaguya Shinomiya** (*Kaguya-sama: Love Is War*)
+  - *Status:* **Text, Avatar und 6 Expressions fertig.**
   - *Dateien:* V2-Definition in `presets/kaguya-shinomiya/kaguya_shinomiya.json` mit psychologischem Liebeskrieg & Szenario.
-  - *Offen:* Bildgenerierung (Ojou-sama-Avatar + Expressions) nach Quota-Reset.
+  - *Bilder:* Avatar und 6 Expressions neu generiert; V2-PNG mit eingebetteter Definition vorhanden.
 
 ---
 
@@ -77,8 +77,8 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Episode 5: Der Rote Drache* (`dungeon_meshi_ep5_roter_drache.json`)
 - **Charaktere (V2-Karten in `presets/dungeon-meshi/`):**
   - [x] Laios Touden, Marcille Donato, Chilchuck Tims, Senshi (JSONs angelegt).
-- **Noch offen:**
-  - [ ] Bildgenerierung: 4 Charakter-Avatare & 5 Dungeon-Hintergründe.
+- **Bilder:**
+  - [x] Neu generiert: 4 Charakter-Avatare & 5 Dungeon-Hintergründe.
 
 ---
 
@@ -97,8 +97,8 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Episode 5: Das Tor zu Steins Gate* (`steins_gate_ep5_tor_zu_steins_gate.json`)
 - **Charaktere (V2-Karten in `presets/steins-gate/`):**
   - [x] Okabe Rintarou (Hououin Kyouma), Mayuri Shiina, Itaru Hashida (Daru), Suzuha Amane (JSONs angelegt; Kurisu existiert bereits im Gateway).
-- **Noch offen:**
-  - [ ] Bildgenerierung: 4 Charakter-Avatare & 5 Akiba-Hintergründe.
+- **Bilder:**
+  - [x] Neu generiert: 4 Charakter-Avatare & 5 Akiba-Hintergründe.
 
 ---
 
@@ -116,8 +116,8 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Episode 4: Duell im Morgengrauen* (`lycoris_recoil_ep4_duell_im_morgengrauen.json`)
 - **Charaktere (V2-Karten in `presets/lycoris-recoil/`):**
   - [x] Chisato Nishikigi, Takina Inoue, Mizuki Nakahara, Kurumi (JSONs angelegt).
-- **Noch offen:**
-  - [ ] Bildgenerierung: 4 Charakter-Avatare & 4 Café-/Tokio-Hintergründe.
+- **Bilder:**
+  - [x] Neu generiert: 4 Charakter-Avatare & 4 Café-/Tokio-Hintergründe.
 
 ---
 
@@ -136,22 +136,28 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Episode 5: Der Glänzende Blick* (`sao_ep5_der_glaenzende_blick.json`)
 - **Charaktere (V2-Karten in `presets/sword-art-online/`):**
   - [x] Kirito, Asuna, Klein, Lisbeth (JSONs angelegt).
-- **Noch offen:**
-  - [ ] Bildgenerierung: 4 Charakter-Avatare & 5 Aincrad-Hintergründe.
+- **Bilder:**
+  - [x] Neu generiert: 4 Charakter-Avatare & 5 Aincrad-Hintergründe.
 
 ---
 
 ## 📈 Aktueller Status
 
 1. **Phase 1 (Einzel-Charaktere):**
-   - [x] **Hayase Nagatoro** *(fertig inkl. 5 Expressions, 2 Alternate Greetings & vollständiger i18n DE/EN/RU)*
-   - [x] **Marin Kitagawa** *(fertig inkl. 5 Expressions, 2 Alternate Greetings & vollständiger i18n DE/EN/RU)*
-   - [x] **Frieren** *(tiefgründige Lore ~2400 Zeichen, 2 Alternate Greetings, i18n DE/EN/RU; spielbar mit Avatar & Grimoire-Pose; weitere Posen folgen)*
-   - [~] **Yor Forger** *(tiefgründige Lore ~2800 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder folgen)*
-   - [~] **Megumin** *(tiefgründige Lore ~2500 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder folgen)*
-   - [~] **Kaguya Shinomiya** *(tiefgründige Lore ~2300 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder folgen)*
+   - [x] **Hayase Nagatoro** *(fertig inkl. 6 neuen Expressions, 2 Alternate Greetings & vollständiger i18n DE/EN/RU)*
+   - [x] **Marin Kitagawa** *(fertig inkl. 6 neuen Expressions, 2 Alternate Greetings & vollständiger i18n DE/EN/RU)*
+   - [x] **Frieren** *(tiefgründige Lore ~2400 Zeichen, 2 Alternate Greetings, i18n DE/EN/RU; neuer Avatar, neue Grimoire-Pose und 6 Expressions vorhanden)*
+   - [x] **Yor Forger** *(tiefgründige Lore ~2800 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder vollständig neu generiert)*
+   - [x] **Megumin** *(tiefgründige Lore ~2500 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder vollständig neu generiert)*
+   - [x] **Kaguya Shinomiya** *(tiefgründige Lore ~2300 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder vollständig neu generiert)*
 2. **Phase 2 (Kampagnen – Alle 12 Lorebooks, 19 Episoden & 16 Cast-Karten fertig implementiert):**
-   - [~] **Kampagne 2.1: Dungeon Meshi** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
-   - [~] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
-   - [~] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
-   - [~] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
+   - [x] **Kampagne 2.1: Dungeon Meshi** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
+   - [x] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
+   - [x] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
+   - [x] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
+
+## Bildbestand vom 04.10.2026
+
+22 neue Avatare (700×937 PNG mit V2-Payload), 36 Expressions (640×800 WebP), eine zusätzliche Grimoire-Pose und 19 leere Szenenhintergründe (1376×768 PNG). Alle Avatare wurden ausschließlich aus Text generiert. Die Expressions und Grimoire-Pose verwenden nur die jeweils neu generierten Avatare als Referenz. Vorhandene Roadmap-Bilder wurden ersetzt.
+
+Die Hintergründe liegen im jeweiligen Preset unter `backgrounds/`; Szenen referenzieren ihren Dateinamen über `starting_bg`. Zur lokalen Nutzung die gewünschten Hintergründe über Soul Stage importieren. Expressions liegen unter `presets/<paket>/expressions/`; die Karten-Zuordnung verwendet `expressions/<paket>/<emotion>.webp` für das lokale Expressions-Verzeichnis. Bereits importierte lokale Karten bei Bedarf erneut importieren.

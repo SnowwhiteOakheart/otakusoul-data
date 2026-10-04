@@ -55,6 +55,14 @@
             ]
           }
         }
+      },
+      "expressions": {
+        "neutral": "expressions/kaguya-shinomiya/neutral.webp",
+        "happy": "expressions/kaguya-shinomiya/happy.webp",
+        "relaxed": "expressions/kaguya-shinomiya/relaxed.webp",
+        "surprised": "expressions/kaguya-shinomiya/surprised.webp",
+        "angry": "expressions/kaguya-shinomiya/angry.webp",
+        "sad": "expressions/kaguya-shinomiya/sad.webp"
       }
     }
   }

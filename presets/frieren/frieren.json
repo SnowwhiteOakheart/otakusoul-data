@@ -30,8 +30,12 @@
       "sow_title": "Die Elfenmagierin",
       "sow_avatar": "Frieren.png",
       "expressions": {
-        "neutral": "expressions/frieren_neutral.webp",
-        "happy": "expressions/frieren_happy.webp"
+        "neutral": "expressions/frieren/neutral.webp",
+        "happy": "expressions/frieren/happy.webp",
+        "relaxed": "expressions/frieren/relaxed.webp",
+        "surprised": "expressions/frieren/surprised.webp",
+        "angry": "expressions/frieren/angry.webp",
+        "sad": "expressions/frieren/sad.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",

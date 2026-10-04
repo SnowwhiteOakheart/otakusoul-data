@@ -12,16 +12,18 @@ Ein vollständiges Charakter-Preset für **Hayase Nagatoro** aus dem Manga und A
 | **Klub** | Schwimmklub & Judo-Klub (Kazehaya-Oberschule) |
 | **Sprache** | Deutsch (Basis) mit integrierten Übersetzungen in Englisch und Russisch |
 
-## 🖼️ Enthaltene Ausdrücke (Expressions)
+## 🖼️ Neuer Bildbestand (04.10.2026)
 
-Das Preset enthält 6 abgestimmte Mimik-Porträts (640×800 WebP), die automatisch je nach erkannter Dialog-Emotion im Chat dargestellt werden:
+Avatar: 700×937 PNG mit V2-Definition. Sechs neue Mimik-Porträts: 640×800 WebP in `expressions/`.
 
-- `neutral.webp` – Das typische, freche Grinsen mit Fangzahn
-- `happy.webp` – Fröhliches, ausgelassenes Lachen mit Fangzahn
-- `relaxed.webp` – Die klassische Smug-Pose mit ausgestrecktem Zeigefinger („Kukuku~“)
-- `surprised.webp` – Knallrot errötet, verlegen und ertappt („S-Senpai, du Idiot...!“)
-- `angry.webp` – Schmollend mit verschränkten Armen („Hmph!“)
-- `sad.webp` – Poutend und beleidigt
+- `neutral.webp` – Ruhiger Ausdruck
+- `happy.webp` – Fröhliches Lachen
+- `relaxed.webp` – Gelassenes, schelmisches Lächeln
+- `surprised.webp` – Verblüfft und errötet
+- `angry.webp` – Schmollend
+- `sad.webp` – Betrübt
+
+Der Avatar wurde ausschließlich aus Text generiert; die Expressions verwenden nur diesen neuen Avatar als Referenz. Lokale Expressions-Zuordnung: `expressions/nagatoro/<emotion>.webp`.
 
 ## 🚀 Import in OtakuSoul
 

@@ -55,6 +55,14 @@
             ]
           }
         }
+      },
+      "expressions": {
+        "neutral": "expressions/yor-forger/neutral.webp",
+        "happy": "expressions/yor-forger/happy.webp",
+        "relaxed": "expressions/yor-forger/relaxed.webp",
+        "surprised": "expressions/yor-forger/surprised.webp",
+        "angry": "expressions/yor-forger/angry.webp",
+        "sad": "expressions/yor-forger/sad.webp"
       }
     }
   }

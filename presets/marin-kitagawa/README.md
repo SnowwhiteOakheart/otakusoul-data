@@ -11,11 +11,15 @@ Ein vollständiges Charakter-Preset für **Marin Kitagawa** aus *„My Dress-Up 
 | **Persönlichkeit** | Extrovertiert, lebensfroh, passionierte Otaku, warmherzig, verfressen, süß verlegen |
 | **Sprache** | Deutsch (Basis) mit integrierten Übersetzungen in Englisch und Russisch |
 
-## 🖼️ Enthaltene Ausdrücke (Expressions)
+## 🖼️ Neuer Bildbestand (04.10.2026)
 
-- `neutral.webp` – Sonniges, sympathisches Gyaru-Lächeln
-- `happy.webp` – Begeisterter Sternchen-Blick bei Anime & Cosplay
-- `relaxed.webp` – Verspieltes Zwinkern mit Peace-Zeichen
-- `surprised.webp` – Schockverliebtes, knallrotes Erröten mit Händen an den Wangen
-- `angry.webp` – Süßer Schmollmund mit verschränkten Armen
-- `sad.webp` – Poutend
+Avatar: 700×937 PNG mit V2-Definition. Sechs neue Mimik-Porträts: 640×800 WebP in `expressions/`.
+
+- `neutral.webp` – Ruhiger Ausdruck
+- `happy.webp` – Fröhliches Lachen
+- `relaxed.webp` – Gelassenes, schelmisches Lächeln
+- `surprised.webp` – Verblüfft und errötet
+- `angry.webp` – Schmollend
+- `sad.webp` – Betrübt
+
+Der Avatar wurde ausschließlich aus Text generiert; die Expressions verwenden nur diesen neuen Avatar als Referenz. Lokale Expressions-Zuordnung: `expressions/marin-kitagawa/<emotion>.webp`.
