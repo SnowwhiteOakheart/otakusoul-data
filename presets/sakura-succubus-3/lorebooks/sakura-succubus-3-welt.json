@@ -19,12 +19,12 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "foundation of the world",
-              "content": "Tokyo in the present, a world similar to ours - only succubi are real and unrecognized\nlive among people. They do not feed on blood, but on affection, attention and\ndesire, which is why they choose careers that give them plenty of both: stage, camera, sport,\nBoardroom. For ordinary people, their nature remains a rumor."
+              "name": "Foundation of the World",
+              "content": "Modern-day Tokyo, a world virtually identical to our own — except that succubi are real and live hidden in plain sight. They do not feed on blood, but feast on emotional affection, adoration, and romantic desire. This drives them toward glamorous high-exposure careers: pop stages, cameras, professional sports, and corporate boardrooms. To everyday mortals, their existence is nothing more than myth."
             },
             "ru": {
-              "name": "основа мира",
-              "content": "Токио в настоящем, мир, похожий на наш – только суккубы настоящие и неузнанные\nжить среди людей. Они питаются не кровью, а лаской, вниманием и\nжелания, поэтому они выбирают карьеру, которая дает им и то, и другое: сцену, камеру, спорт,\nЗал заседаний. Для обычных людей их природа остается слухом."
+              "name": "Основы мира",
+              "content": "Современный Токио, мир, ничем не отличимый от нашего — за исключением того, что суккубы реальны и тайно живут среди людей. Они питаются не кровью, а эмоциональной привязанностью, обожанием и страстью, поэтому выбирают публичные профессии, где получают это с избытком: эстрада, объективы камер, большой спорт и кресла корпоративных боссов. Для простых смертных их суть остаётся лишь городской легендой."
             }
           }
         }
@@ -52,25 +52,24 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "Hiroki's scent",
-              "content": "Hiroki has a natural scent that only succubi can smell and that hardly anyone can resist.\nHe doesn't smell any of it himself. The scent is what drew him into this world in the first place - and he is the one\nReason why six very different women revolve around the same inconspicuous man. Anyone close to him\ncomes, becomes soft, loses poise and arrogance, and then gets annoyed about it.",
+              "name": "Hiroki's Scent",
+              "content": "Hiroki exudes an innate pheromonal scent that only succubi can perceive, and to which virtually none of them can resist. He cannot smell it himself. This scent is what entangled him in their supernatural world in the first place — and why six extraordinary women revolve obsessively around one unassuming photographer. Anyone who gets close to him melts, shedding pride and haughtiness, only to fume in embarrassment afterward.",
               "key": [
-                "Fragrance",
-                "smell",
-                "smell",
-                "Odor",
-                "attractive"
+                "Scent",
+                "Smell",
+                "Pheromones",
+                "Attractive",
+                "Aroma"
               ]
             },
             "ru": {
-              "name": "запах Хироки",
-              "content": "Хироки обладает естественным запахом, который могут учуять только суккубы и которому вряд ли кто-то сможет устоять.\nСам он ничего не чувствует. Аромат – это то, что в первую очередь привлекло его в этот мир, и именно он\nПричина, по которой шесть совершенно разных женщин вращаются вокруг одного и того же незаметного мужчины. Кто-нибудь из его близких\nприходит, становится мягким, теряет уравновешенность и высокомерие, а потом раздражается по этому поводу.",
+              "name": "Запах Хироки",
+              "content": "Хироки от природы источает уникальный феромонный аромат, который улавливают только суккубы и перед которым практически невозможно устоять. Сам он своего запаха не чувствует. Именно этот аромат втянул его в сверхъестественный мир и заставляет шесть столь ярких женщин кружить вокруг неприметного фотографа. Оказываясь рядом с ним, они теряют надменность, становятся податливыми и мягкими, а после страшно злятся на самих себя за слабость.",
               "key": [
-                "Аромат",
-                "запах",
-                "запах",
                 "Запах",
-                "привлекательный"
+                "аромат",
+                "феромоны",
+                "притяжение"
               ]
             }
           }
@@ -100,23 +99,21 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "The Succubus Empire",
-              "content": "A separate dimension beyond the human world, accessible only through a portal, the succubi of rank\ncan open. In the center is a palace with a throne room where Yue ruled for centuries.\nTime there feels heavier than in Tokyo, the light is dim and purple. For the girls\nIt is both home and a reminder of old hierarchies - none of them feel completely free there.",
+              "name": "The Succubus Realm",
+              "content": "A distinct dimension beyond the human mortal world, accessible solely via portals that only high-ranking succubi can conjure. At its heart lies an imposing palace with the throne room where Yue held dominion for centuries. Time feels heavier there than in Tokyo, permeated by dusky violet twilight. For the girls, it is both homeland and a chilling reminder of oppressive feudal hierarchy — none of them feel truly free there.",
               "key": [
-                "Rich",
-                "Succubus Empire",
-                "dimension",
-                "portal",
-                "throne",
-                "palace"
+                "Succubus Realm",
+                "Dimension",
+                "Portal",
+                "Throne",
+                "Palace"
               ]
             },
             "ru": {
-              "name": "Империя суккубов",
-              "content": "Отдельное измерение за пределами человеческого мира, доступное только через портал, суккубы ранга\nможно открыть. В центре находится дворец с тронным залом, где Юэ правил на протяжении веков.\nВремя там кажется тяжелее, чем в Токио, свет тусклый и фиолетовый. Для девочек\nЭто и дом, и напоминание о старых иерархиях — никто из них не чувствует себя там полностью свободным.",
+              "name": "Царство суккубов",
+              "content": "Особое измерение за пределами мира людей, куда можно попасть лишь через порталы, открываемые высокопоставленными суккубами. В его центре высится дворец с тронным залом, где веками единолично правила Юэ. Время там кажется гуще и тяжелее, чем в Токио, а вечный полумрак окрашен в фиолетовые тона. Для девушек это одновременно и родина, и напоминание о жесткой иерархии — там ни одна из них не чувствует себя свободной.",
               "key": [
-                "Богатый",
-                "Империя суккубов",
+                "Царство суккубов",
                 "измерение",
                 "портал",
                 "трон",
@@ -150,27 +147,25 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "Yue's abdication",
-              "content": "Yue was the absolute ruler of the empire. She brought Hiroki into her dimension to have him all to herself\nto own. The fact that he refused to submit broke her spell: she took off the crown and\nSince then, she has lived in the human world as one of six. The other succubi don't really know how\nhow they should deal with it - a former queen remains a queen, even in Hiroki's old shirt.",
+              "name": "Yue's Abdication",
+              "content": "Yue was the absolute sovereign of the Realm. She originally abducted Hiroki into her dimension to keep him entirely as her personal possession. His steadfast refusal to submit shattered her cold pride: she laid down her crown and has lived ever since in the human world as one of six lovers sharing his roof. The other succubi still struggle with how to treat her — a former Queen remains a Queen, even wearing Hiroki's oversized pajama shirt.",
               "key": [
-                "crown",
-                "queen",
-                "ruler",
-                "abdicated",
-                "throne",
-                "mistress"
+                "Crown",
+                "Queen",
+                "Sovereign",
+                "Abdicated",
+                "Throne"
               ]
             },
             "ru": {
               "name": "Отречение Юэ",
-              "content": "Юэ был абсолютным правителем империи. Она привела Хироки в свое измерение, чтобы он был весь в ее распоряжении.\nвладеть. Тот факт, что он отказался подчиниться, разрушил ее чары: она сняла корону и\nС тех пор она жила в человеческом мире как одна из шести. Другие суккубы на самом деле не знают, как\nкак с этим поступить - бывшая королева остаётся королевой, даже в старой рубашке Хироки.",
+              "content": "Юэ была абсолютной владычицей Царства. Она утащила Хироки в свой мир, желая безраздельно владеть им. Но его отказ покориться растопил её холодную гордыню: она отреклась от трона и теперь живёт среди людей на равных правах с остальными пятью девушками. Другие суккубы до сих пор теряются в общении с ней: бывшая королева остаётся королевой, даже щеголяя по дому в старой рубашке Хироки.",
               "key": [
-                "корона",
+                "Корона",
                 "королева",
-                "правитель",
-                "отрекся от престола",
-                "трон",
-                "любовница"
+                "правительница",
+                "отречение",
+                "трон"
               ]
             }
           }
@@ -200,27 +195,25 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "The shared apartment",
-              "content": "Six succubi and one person in too few square meters in Tokyo. The dispute over remote control\nBathroom and seat next to Hiroki are permanent; Hifumi cooks and arranges, Marina orders\nCosmos photographs the chaos, Ayu screams, Hazel rumbles, Yue doesn't understand half of the rules.\nIt's loud, cramped and, for all seven of them, the first home that really feels like one.",
+              "name": "The Shared Apartment",
+              "content": "Six succubi and one mortal crammed into far too few square meters in Tokyo. The eternal struggle over the TV remote, bathroom queue, and the coveted spot next to Hiroki on the sofa is non-stop: Hifumi cooks and plays peacemaker, Marina issues executive orders, Cosmos gleefully snaps photos of the chaos, Ayu shrieks, Hazel thrashes about, and Yue barely grasps half the domestic rules. It's noisy, chaotic, cramped — and the first place all seven truly call home.",
               "key": [
                 "Apartment",
-                "at home",
-                "sofa",
+                "Shared home",
+                "Sofa",
                 "Kitchen",
-                "Remote control",
-                "WG"
+                "Remote control"
               ]
             },
             "ru": {
-              "name": "Общая квартира",
-              "content": "Шесть суккубов и один человек на нескольких квадратных метрах в Токио. Спор о дистанционном управлении\nВанная комната и место рядом с Хироки являются постоянными; Хифуми готовит и организует, Марина заказывает.\nКосмос фотографирует хаос, Аю кричит, Хейзел грохочет, Юэ не понимает половины правил.\nЗдесь шумно, тесно, и для всех семерых это первый дом, который действительно ощущается как единый.",
+              "name": "Совместная квартира",
+              "content": "Шесть суккубов и один смертный парень на смехотворных квадратных метрах в Токио. Вечная война за пульт от телевизора, очередь в душ и козырное место рядом с Хироки на диване не прекращается ни на день: Хифуми готовит и мирит спорщиц, Марина раздаёт указания, Космос с восторгом щёлкает происходящее на телефон, Аю вопит, Хейзел шумит, а Юэ не понимает и половины бытовых правил. Здесь шумно и тесно, но для всех семерых это первый настоящий тёплый дом.",
               "key": [
                 "Квартира",
                 "дома",
                 "диван",
-                "Кухня",
-                "Пульт дистанционного управления",
-                "РГ"
+                "кухня",
+                "пульт"
               ]
             }
           }
@@ -251,26 +244,26 @@
           "translations": {
             "en": {
               "name": "The Sakura Daily",
-              "content": "Hiroki's employer: a tabloid newspaper with a penchant for headlines, for which he works as a photographer.\nHis boss is exuberant, demands results and has no idea why his most inconspicuous boss\nEmployees have access to celebrities and the business elite. The colleagues have no idea either and are\ncorrespondingly jealous. For Hiroki, the job is the last bit of normality in his life.",
+              "content": "Hiroki's employer: an aggressive tabloid paper with an unquenchable thirst for sensational headlines, where he works as a staff photographer. His editor is loud, demanding fast scoops, and completely puzzled as to how his most ordinary employee lands exclusive access to top-tier idols and corporate moguls. The envious newsroom colleagues haven't figured it out either. For Hiroki, the daily grind represents the last anchor of ordinary normalcy in his surreal life.",
               "key": [
-                "SakuraDaily",
+                "Sakura Daily",
                 "Newspaper",
-                "Editorial team",
-                "Boss",
+                "Newsroom",
+                "Editor",
                 "Article",
                 "Colleagues"
               ]
             },
             "ru": {
-              "name": "Сакура Дейли",
-              "content": "Работодатель Хироки: бульварная газета со склонностью к заголовкам, в которой он работает фотографом.\nЕго начальник энергичен, требует результатов и понятия не имеет, почему его самый незаметный начальник\nСотрудники имеют доступ к знаменитостям и бизнес-элите. Коллеги тоже понятия не имеют и\nсоответственно ревнует. Для Хироки эта работа — последняя часть нормальности в его жизни.",
+              "name": "«Sakura Daily»",
+              "content": "Работодатель Хироки: бульварный таблоид с вечной охотой за кричащими заголовками, где он трудится штатным фотографом. Шеф шумит, требует сенсационных снимков и понятия не имеет, как его самый неприметный сотрудник умудряется получать эксклюзивный доступ к поп-идолам и бизнес-элите. Завистливые коллеги тоже теряются в догадках. Для самого Хироки эта работа — последний оплот нормальной человеческой жизни.",
               "key": [
-                "СакураDaily",
-                "Газета",
-                "Редакция",
-                "Босс",
-                "Статья",
-                "Коллеги"
+                "Sakura Daily",
+                "газета",
+                "редакция",
+                "шеф",
+                "статья",
+                "коллеги"
               ]
             }
           }
@@ -300,27 +293,27 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "Secrecy and risk of scandal",
-              "content": "An idol with a boyfriend, a CEO with a private life, an athlete on the verge of a breakthrough:\nAny relationship with Hiroki would be a headline. That's why there is an unwritten rule in public\nProtocol - keep your distance, arrive separately, no photos. Cosmos is the least likely to stick to what\nRegularly brings Ayu to the brink of a nervous breakdown.",
+              "name": "Secrecy & Scandal Risk",
+              "content": "A top idol with a secret lover, a corporate CEO with a personal scandal, an athletic star on the brink of fame: any documented romance with Hiroki would blow up the front page. Thus, strict unwritten protocol governs their public lives — keep your distance, arrive separately, no unauthorized snapshots. Cosmos flouts these rules constantly, driving Ayu to the edge of a nervous breakdown.",
               "key": [
-                "scandal",
-                "press",
+                "Scandal",
+                "Press",
                 "Paparazzi",
-                "photo",
-                "rumor",
-                "public"
+                "Photo",
+                "Rumor",
+                "Publicity"
               ]
             },
             "ru": {
-              "name": "Секретность и риск скандала",
-              "content": "Айдол с бойфрендом, генеральный директор с личной жизнью, спортсмен на пороге прорыва:\nЛюбые отношения с Хироки были бы в заголовке. Вот почему существует неписаное правило публичности\nПротокол - соблюдайте дистанцию, приходите отдельно, без фотографий. Космос меньше всего будет придерживаться того, что\nРегулярно доводит Аю до нервного срыва.",
+              "name": "Конспирация и риск скандала",
+              "content": "Поп-айдол с тайным бойфрендом, президент корпорации с личным скандалом, восходящая звезда спорта: любая огласка связи с Хироки взорвёт таблоиды. Поэтому на людях действует негласный протокол — держать дистанцию, приезжать раздельно, никаких совместных фото. Космос плевать хотела на конспирацию, чем регулярно доводит Аю до нервного срыва.",
               "key": [
-                "скандал",
-                "нажимать",
-                "Папарацци",
+                "Скандал",
+                "пресса",
+                "папарацци",
                 "фото",
-                "слух",
-                "общественный"
+                "слухи",
+                "огласка"
               ]
             }
           }
@@ -349,25 +342,24 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "The rules of the harem",
-              "content": "None of the six have Hiroki to themselves, and none have really come to terms with it. This is one\nA fragile balance emerged: Marina watches over discipline, Hifumi over peace, Cosmos\nsabotages both for fun. Anyone who is too openly preferred will pay for it the next day. Hiroki holds this\nWhole thing together by taking each one seriously - and that's the only method that works.",
+              "name": "The Harem's Truce",
+              "content": "None of the six has Hiroki to herself, and none of them has truly resigned to sharing him. This tension formed a fragile truce: Marina enforces household discipline, Hifumi guards domestic peace, and Cosmos happily sabotages both for amusement. Anyone receiving too obvious favoritism pays for it with glares the next morning. Hiroki keeps the delicate balance from imploding by treating each of them with earnest, individual sincerity — the only approach that truly works.",
               "key": [
-                "jealous",
-                "jealousy",
-                "split",
-                "all six",
-                "just"
+                "Jealous",
+                "Jealousy",
+                "Sharing",
+                "Harem",
+                "Fairness"
               ]
             },
             "ru": {
-              "name": "Правила гарема",
-              "content": "Ни один из шестерых не имеет Хироки в себе, и никто по-настоящему не смирился с этим. Это один\nВозник хрупкий баланс: Марина следит за дисциплиной, Хифуми за миром, Космос\nсаботирует обоих ради развлечения. Тот, кому слишком открыто отдают предпочтение, заплатит за это на следующий день. Хироки держит это\nВсе вместе, относясь к каждому серьезно – и это единственный метод, который работает.",
+              "name": "Законы гарема",
+              "content": "Ни одна из шестерых не владеет Хироки единолично, и ни одна до конца с этим не смирилась. Из этого соперничества выросло шаткое перемирие: Марина следит за дисциплиной, Хифуми бережёт покой, а Космос с удовольствием саботирует и то, и другое смеха ради. Если кому-то достаётся слишком явное внимание Хироки, на следующий день на неё ополчаются остальные. Хироки удерживает этот хрупкий мир от распада лишь тем, что относится к чувствам каждой со всей искренностью — и это единственный рецепт, который работает.",
               "key": [
-                "ревнивый",
-                "ревность",
-                "расколоть",
-                "все шесть",
-                "только"
+                "Ревность",
+                "делить",
+                "гарем",
+                "справедливость"
               ]
             }
           }
@@ -397,7 +389,7 @@
           "translations": {
             "en": {
               "name": "RapidPound",
-              "content": "The social media platform where Cosmos has a large following as a model and cosplayer.\nShe thrives on proximity to the camera, on cat ears and on the suggestion that there is nothing wrong with her appearance\nis disguised. Her audience particularly appreciates the fact that she is actually a succubus\nsustained concept.",
+              "content": "The viral social media platform where Cosmos commands a massive following as a model and cosplayer. Her content thrives on up-close camera intimacy, twitching cat ears, and the playful teasing that her outfit is no mere costume. Her millions of fans assume her claim of being a real succubus is just world-class method acting and branding.",
               "key": [
                 "RapidPound",
                 "Social media",
@@ -407,14 +399,14 @@
               ]
             },
             "ru": {
-              "name": "РапидПаунд",
-              "content": "Платформа социальных сетей, где у Космоса много поклонников как модели и косплеера.\nЕй нравится близость к камере, кошачьи уши и предположение, что с ее внешностью все в порядке.\nзамаскирован. Ее аудитория особенно ценит тот факт, что она на самом деле суккуб.\nустойчивая концепция.",
+              "name": "RapidPound",
+              "content": "Популярная соцсеть, где Космос собрала огромную армию подписчиков как модель и косплеер. Её контент держится на предельной близости к камере, кошачьих ушках и игривых намёках на то, что это вовсе не наряд. Тот факт, что она на самом деле суккуб, её многотысячная аудитория считает просто гениально выдержанным сценическим образом.",
               "key": [
-                "РапидПаунд",
-                "Социальные сети",
-                "Последователи",
-                "Транслировать",
-                "Селфи"
+                "RapidPound",
+                "соцсети",
+                "подписчики",
+                "стрим",
+                "селфи"
               ]
             }
           }
@@ -443,23 +435,23 @@
         "otakusoul_i18n": {
           "translations": {
             "en": {
-              "name": "Succubus among themselves",
-              "content": "Succubus know rank and hierarchy. Yue was at the top, Marina sees herself as the natural successor\nThis order, Hazel immediately submits to any strong presence and then suffers from it. touch under\nSuccubus is a matter of status, not affection - that's why Yue endures others' hugs\ndifficult and is just now learning to distinguish friendship from submission.",
+              "name": "Succubi Among Themselves",
+              "content": "Succubi are deeply bound to pecking orders and hierarchy. Yue once reigned at the pinnacle; Marina regards herself as the natural heir to that authority; Hazel instantly folds before any dominant presence, only to fret over it later. Physical contact among succubi denotes dominance rather than affection — which is why Yue initially flinches at warm hugs, only now learning to tell genuine friendship apart from fealty.",
               "key": [
                 "Succubus",
-                "Succubus",
-                "rank",
-                "hierarchy",
-                "queen"
+                "Succubi",
+                "Rank",
+                "Hierarchy",
+                "Queen"
               ]
             },
             "ru": {
               "name": "Суккубы между собой",
-              "content": "Суккубы знают ранг и иерархию. Юэ была на вершине, Марина считает себя естественным преемником\nПо этому приказу Хейзел немедленно подчиняется любому сильному присутствию, а затем страдает от него. коснуться под\nСуккуб – это вопрос статуса, а не привязанности – вот почему Юэ терпит чужие объятия.\nтруден и только сейчас учится отличать дружбу от подчинения.",
+              "content": "В мире суккубов всё решает строгая иерархия и статус. Юэ стояла на самой вершине; Марина видит себя естественной преемницей этого порядка; Хейзел мгновенно пасует перед любой сильной натурой, а потом мучается от этого. Прикосновения у суккубов — это вопрос доминирования, а не нежности. Именно поэтому Юэ с трудом переносит объятия подруг и лишь сейчас учится отличать искреннее тепло от покорности.",
               "key": [
                 "Суккуб",
-                "Суккуб",
-                "классифицировать",
+                "суккубы",
+                "ранг",
                 "иерархия",
                 "королева"
               ]
@@ -474,12 +466,12 @@
       "source_language": "de",
       "translations": {
         "en": {
-          "name": "Sakura Succubus 3 – World",
-          "description": "Basics of the universe: succubi, the empire, Hiroki's scent, the shared apartment, press and secrecy."
+          "name": "Sakura Succubus 3 – World Lore",
+          "description": "Foundations of the universe: Succubi, the Realm, Hiroki's scent, the shared apartment, press, and secrecy."
         },
         "ru": {
-          "name": "Сакура Суккуб 3 – Мир",
-          "description": "Основы вселенной: суккубы, империя, запах Хироки, общая квартира, пресса и секретность."
+          "name": "Sakura Succubus 3 – Мироустройство",
+          "description": "Основы вселенной: суккубы, Царство, запах Хироки, совместная жизнь в квартире, пресса и конспирация."
         }
       }
     }
