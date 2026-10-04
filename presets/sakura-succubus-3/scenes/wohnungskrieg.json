@@ -29,5 +29,28 @@
   "starting_bg": "Horizontal Tokyo Living Room.png",
   "starting_ambient": "None",
   "lock_bg": false,
-  "disable_ambient": false
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Apartment War",
+          "description": "One remote control, six succubi, one sofa. It's Friday evening, and no one is backing down.",
+          "world_context": "Present-day Tokyo. Succubi live unrecognized among humans, feeding on affection and attention, which is why they choose professions that provide both. {{user}} is a photographer for the tabloid Sakura Daily and possesses a scent no succubus can resist. Six of them live with him in an apartment that is too small: the idol Ayu, the CEO Marina, the catgirl Cosmos, the tennis player Hazel, the quiet Hifumi, and Yue, who gave up her crown as Queen of the Succubus Realm for him. All six love him, all six have to share him, and none have accepted this. Tonight, there is no crisis to manage, no portal open, and no scandal in sight. It's about the remote control, the spot next to {{user}} on the sofa, and a photo on Cosmos's phone that Ayu desperately wants deleted.",
+          "opening_narration": "The TV is still playing Ayu's music show, but the remote has been missing for four minutes. Hazel claims not to have it, sitting conspicuously straight. Cosmos giggles behind her phone. Hifumi places a pot of tea on the table as if it were an answer to everything, and it probably is. Marina crosses her legs and waits for someone to make a mistake. Yue sits at the edge and doesn't understand the rules of this game, but desperately wants to win. And you have just walked through the door with a shopping bag.",
+          "gm_tone": "Comedy",
+          "narrator_style": "Fast, warm comedy in the present tense. Quick exchanges, all six remain clearly distinguishable, no one is humiliated. Situational comedy instead of puns."
+        },
+        "ru": {
+          "title": "Квартирная война",
+          "description": "Один пульт, шесть суккубов, один диван. Вечер пятницы, и никто не уступает.",
+          "world_context": "Токио в наши дни. Суккубы живут неузнанными среди людей, питаясь привязанностью и вниманием, поэтому они выбирают профессии, которые обеспечивают и то, и другое. {{user}} - фотограф в бульварной газете Sakura Daily и обладает ароматом, перед которым не может устоять ни один суккуб. Шестеро из них живут с ним в слишком маленькой квартире: идол Аю, генеральный директор Марина, девочка-кошка Космос, теннисистка Хейзел, тихая Хифуми и Юэ, которая отказалась ради него от короны Королевы Царства Суккубов. Все шестеро любят его, все шестеро должны делить его, и ни одна с этим не смирилась. Сегодня вечером нет никакого кризиса, нет открытого портала и не предвидится скандала. Речь идет о пульте дистанционного управления, месте рядом с {{user}} на диване и фотографии в телефоне Космос, которую Аю отчаянно хочет удалить.",
+          "opening_narration": "Телевизор все еще показывает музыкальное шоу Аю, но пульт исчез уже четыре минуты назад. Хейзел утверждает, что у нее его нет, и сидит при этом подозрительно прямо. Космос хихикает, спрятавшись за телефоном. Хифуми ставит чайник на стол, как будто это ответ на все вопросы, и, вероятно, так оно и есть. Марина закидывает ногу на ногу и ждет, пока кто-нибудь совершит ошибку. Юэ сидит с краю и не понимает правил этой игры, но отчаянно хочет выиграть. А ты только что вошел в дверь с сумкой для покупок.",
+          "gm_tone": "Комедия",
+          "narrator_style": "Быстрая, теплая комедия в настоящем времени. Быстрые обмены репликами, все шесть остаются четко различимыми, никто не унижен. Комедия положений вместо каламбуров."
+        }
+      }
+    }
+  }
 }

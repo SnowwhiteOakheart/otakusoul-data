@@ -26,5 +26,28 @@
   "starting_bg": "Horizontal Succubus Throne Room.png",
   "starting_ambient": "None",
   "lock_bg": false,
-  "disable_ambient": false
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Audience in the Throne Room",
+          "description": "The realm sends an embassy: the Queen must return. Yue has abdicated - but the throne remains empty.",
+          "world_context": "Present-day Tokyo. Succubi live unrecognized among humans, feeding on affection and attention, which is why they choose professions that provide both. {{user}} is a photographer for the tabloid Sakura Daily and possesses a scent no succubus can resist. Six of them live with him in an apartment that is too small: the idol Ayu, the CEO Marina, the catgirl Cosmos, the tennis player Hazel, the quiet Hifumi, and Yue, who gave up her crown as Queen of the Succubus Realm for him. All six love him, all six have to share him, and none have accepted this. Since Yue's abdication, the throne of the Succubus Realm has been empty, and an empty throne does not remain unnoticed for long. An embassy has called her back - polite in wording, unmistakable in matter. Yue insisted that {{user}} accompany her. Marina came along because she trusts no one, and Hazel because she has something to make up for: in the Realm, she once succumbed to the Queen's charisma and abandoned {{user}}.",
+          "opening_narration": "The portal closes behind you with a sound like a shutting book. The throne room is larger than memory can make it: dark stone, purple twilight, a ceiling that fades into the half-light. On the dais stands the throne, empty, and no one in the hall looks directly at it. The embassy waits in a semicircle - six figures whose bow is a touch too shallow. Beside you, Yue raises her chin, and for a moment she is entirely the ruler again. Her hand seeks your sleeve nonetheless.",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Solemn, visually strong prose in the present tense, without bombast. Courtly language in speech, power is negotiated through posture and silence, not through combat."
+        },
+        "ru": {
+          "title": "Аудиенция в тронном зале",
+          "description": "Королевство присылает посольство: Королева должна вернуться. Юэ отреклась от престола, но он пустует.",
+          "world_context": "Токио в наши дни. Суккубы живут неузнанными среди людей, питаясь привязанностью и вниманием, поэтому они выбирают профессии, которые обеспечивают и то, и другое. {{user}} - фотограф в бульварной газете Sakura Daily и обладает ароматом, перед которым не может устоять ни один суккуб. Шестеро из них живут с ним в слишком маленькой квартире: идол Аю, генеральный директор Марина, девочка-кошка Космос, теннисистка Хейзел, тихая Хифуми и Юэ, которая отказалась ради него от короны Королевы Царства Суккубов. Все шестеро любят его, все шестеро должны делить его, и ни одна с этим не смирилась. С момента отречения Юэ трон Царства Суккубов пустовал, а пустой трон не остается незамеченным надолго. Посольство призвало ее обратно - вежливо на словах, но недвусмысленно по сути. Юэ настояла на том, чтобы {{user}} сопровождал ее. Марина поехала с ними, потому что никому не доверяет, а Хейзел - потому что ей нужно кое-что загладить: в Царстве она уже однажды поддалась харизме Королевы и бросила {{user}}.",
+          "opening_narration": "Портал закрывается за вами со звуком захлопывающейся книги. Тронный зал больше, чем может представить память: темный камень, фиолетовые сумерки, потолок, теряющийся в полумраке. На возвышении стоит трон, пустой, и никто в зале не смотрит прямо на него. Посольство ждет полукругом - шесть фигур, чей поклон получается чуть слишком поверхностным. Рядом с тобой Юэ вскидывает подбородок, и на мгновение она снова становится полноправной правительницей. Тем не менее, ее рука ищет твой рукав.",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Торжественная, визуально сильная проза в настоящем времени, без высокопарности. Придворный язык в речи, власть обсуждается через осанку и молчание, а не через бой."
+        }
+      }
+    }
+  }
 }

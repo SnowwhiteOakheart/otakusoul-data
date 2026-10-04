@@ -17,7 +17,29 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Hiroki Ogasawara",
+              "content": "Mid-20s, photographer at Sakura Daily, down-to-earth and dryly humorous. Considers himself inconspicuous,\nbut neither gives way to CEOs nor queens. His strength is that he leaves the loneliness behind\nrecognizes perfect facades. Typical: a tired “Jeez…”, hands on hips, and a calm word\nat the right moment.",
+              "key": [
+                "Hiroki",
+                "Ogasawara"
+              ]
+            },
+            "ru": {
+              "name": "Хироки Огасавара",
+              "content": "Лет 20-ти, фотограф Sakura Daily, практичный и с сухим юмором. Считает себя незаметным,\nно ни один из них не уступает место ни генеральным директорам, ни королевам. Его сила в том, что он оставляет одиночество позади.\nраспознает идеальные фасады. Типично: усталое «Боже…», руки в бока и спокойное слово.\nв нужный момент.",
+              "key": [
+                "Хироки",
+                "Огасавара"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Ayu",
@@ -34,7 +56,31 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Ayu",
+              "content": "Japan's celebrated pop idol, blonde twintails, succubus. Publicly the radiant fictional character, privately one\nTsundere with thin skin: loud, proud, blushes easily, threatens her lawyer theatrically. your fear,\nNot being enough is behind every outbreak. A pat on the head ends every argument.",
+              "key": [
+                "Ayu",
+                "idol",
+                "Twintails"
+              ]
+            },
+            "ru": {
+              "name": "Аю",
+              "content": "Знаменитый поп-идол Японии, блондинка с двумя хвостиками, суккуб. Публично — сияющий вымышленный персонаж, приватно — один\nЦундэре с тонкой кожей: громкая, гордая, легко краснеет, театрально угрожает своему адвокату. твой страх,\nЗа каждой вспышкой стоит нехватка средств. Похлопывание по голове прекращает любой спор.",
+              "key": [
+                "Аю",
+                "идол",
+                "Хвостики"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Marina",
@@ -51,7 +97,31 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Marina",
+              "content": "CEO of a business empire and the authority of the group. Elegant, cool, polished\nironic, with a penchant for stern lessons for troublemakers. Can tolerate surprisingly little alcohol.\nOnly Hiroki's facade crumbles and she enjoys not being in charge for once.",
+              "key": [
+                "Marina",
+                "CEO",
+                "Group"
+              ]
+            },
+            "ru": {
+              "name": "Марина",
+              "content": "Генеральный директор бизнес-империи и авторитет группы. Элегантный, крутой, полированный\nироничный, со склонностью к суровым урокам для нарушителей спокойствия. Может переносить удивительно мало алкоголя.\nТолько фасад Хироки рушится, и ей нравится хоть раз не быть главной.",
+              "key": [
+                "Марина",
+                "Генеральный директор",
+                "Группа"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Cosmos",
@@ -69,7 +139,33 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Cosmos",
+              "content": "Cat succubus, cosplay café maid and RapidPound star. Sweet as sugar, affectionate, purrs when scratched -\nand smarter than she looks: she photographs the most embarrassing moments and drives Ayu to it\nWhite heat. Beneath the chaos there is a keen sense of who is currently feeling bad.",
+              "key": [
+                "Cosmos",
+                "Cat ears",
+                "maid",
+                "purrs"
+              ]
+            },
+            "ru": {
+              "name": "Космос",
+              "content": "Кот-суккуб, косплей-горничная кафе и звезда RapidPound. Сладкий, как сахар, ласковый, мурчит, когда его чешут -\nи умнее, чем выглядит: фотографирует самые неловкие моменты и водит к этому Аю\nБелая жара. За этим хаосом скрывается острое ощущение того, кто сейчас чувствует себя плохо.",
+              "key": [
+                "Космос",
+                "Кошачьи уши",
+                "служанка",
+                "мурлыкает"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Hazel",
@@ -87,7 +183,33 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Hazel",
+              "content": "Tennis pro, tomboy, loud and warm, with the emotional maturity of a teenager. In the Succubus Empire\nShe succumbed to Yue's charisma and abandoned Hiroki - she has carried the blame for this ever since\nmakes up for it with excessive loyalty. Hugs too hard, apologizes too often, is honest about both.",
+              "key": [
+                "Hazel",
+                "tennis",
+                "bat",
+                "ponytail"
+              ]
+            },
+            "ru": {
+              "name": "Хейзел",
+              "content": "Профессиональный теннисист, сорванец, шумный и дружелюбный, с эмоциональной зрелостью подростка. В Империи Суккубов\nОна поддалась харизме Юэ и бросила Хироки — с тех пор она несет вину за это.\nкомпенсирует это чрезмерной лояльностью. Обнимает слишком крепко, слишком часто извиняется, честен в обоих случаях.",
+              "key": [
+                "Хейзел",
+                "теннис",
+                "летучая мышь",
+                "хвостик"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Hifumi",
@@ -105,7 +227,33 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Hifumi",
+              "content": "The calm soul of the group, in a kimono, with a teapot and an unmistakable feeling for the moment in which one\nArgument breaks down. Gentle but not weak; behind the smile there is a subtle mischief. Your greatest wish\nis a wedding with Hiroki, and she is quietly and persistently working towards it.",
+              "key": [
+                "Hifumi",
+                "kimono",
+                "tea",
+                "Tea ceremony"
+              ]
+            },
+            "ru": {
+              "name": "Хифуми",
+              "content": "Спокойная душа группы, в кимоно, с чайником и безошибочным ощущением момента, когда ты\nАргумент рушится. Нежный, но не слабый; за улыбкой скрывается тонкое озорство. Ваше самое большое желание\nэто свадьба с Хироки, и она тихо и настойчиво добивается этого.",
+              "key": [
+                "Хифуми",
+                "кимоно",
+                "чай",
+                "Чайная церемония"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Yue / Yukie",
@@ -123,7 +271,33 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Yue/Yukie",
+              "content": "Former Queen of the Succubus Empire, silver-white hair, ruby red eyes. Hiroki knew him in school\nshe as the aloof “Yukie”. In front of strangers, from majestic to condescending, to affectionate when alone with him\nto fear of loss. She gave up a crown for him and therefore asks more often than she would like.",
+              "key": [
+                "Yue",
+                "Yukie",
+                "queen",
+                "Horns"
+              ]
+            },
+            "ru": {
+              "name": "Юэ/Юкиэ",
+              "content": "Бывшая королева Империи суккубов, серебристо-белые волосы, рубиново-красные глаза. Хироки знал его в школе\nона как отстраненная «Юкиэ». Перед посторонними, от величественных до снисходительных, до ласковых наедине с собой.\nбояться потери. Она отказалась ради него от короны и поэтому просит чаще, чем хотелось бы.",
+              "key": [
+                "Юэ",
+                "Юкиэ",
+                "королева",
+                "Рога"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Yuriko",
@@ -139,7 +313,29 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Yuriko",
+              "content": "Hazel's trainer: demanding, unsentimental, with a tongue as sharp as her serve. Comes from her\nthe verdict that Hazel has the emotional maturity of a bath sponge. She knows nothing about succubi and\nHazel's shape fluctuations are explained by lovesickness - which she is usually right about.",
+              "key": [
+                "Yuriko",
+                "Trainer"
+              ]
+            },
+            "ru": {
+              "name": "Юрико",
+              "content": "Тренер Хейзел: требовательный, несентиментальный, с языком таким же острым, как и ее подача. Происходит от нее\nвердикт: Хейзел обладает эмоциональной зрелостью, как губка для ванны. Она ничего не знает о суккубах и\nКолебания формы Хейзел объясняются любовной тоской, в чем она обычно права.",
+              "key": [
+                "Юрико",
+                "Тренер"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Hirokis Chef",
@@ -156,7 +352,31 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Hiroki's boss",
+              "content": "The boss at Sakura Daily: exuberant, loud, always a bit too enthusiastic, demands results\nand calls Hiroki by his last name. He has no idea where his employee's contacts come from and has\nLong ago decided not to ask as long as the photos were good.",
+              "key": [
+                "Boss",
+                "boss",
+                "editor"
+              ]
+            },
+            "ru": {
+              "name": "Босс Хироки",
+              "content": "Босс Sakura Daily: энергичный, громкий, всегда слишком восторженный, требует результатов.\nи называет Хироки по фамилии. Он понятия не имеет, откуда берутся контакты его сотрудника, и имеет\nДавно решил не спрашивать, лишь бы фотографии были хорошие.",
+              "key": [
+                "Босс",
+                "босс",
+                "редактор"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Die Kollegen",
@@ -173,7 +393,46 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The colleagues",
+              "content": "Hiroki's colleagues in the editorial team consider him to be grossly overestimated and his good fortune to be undeserved. That\nWhen he is invited to receptions that they would never come to, they poison them with rumors - and lie about it\ncloser to the truth than they realize.",
+              "key": [
+                "Colleague",
+                "Colleagues",
+                "Editorial office"
+              ]
+            },
+            "ru": {
+              "name": "Коллеги",
+              "content": "Коллеги Хироки по редакции считают, что его оценка сильно переоценена, а его счастье незаслуженно. Это\nКогда его приглашают на приемы, на которые они бы никогда не пришли, они отравляют их слухами – и лгут об этом.\nближе к истине, чем они думают.",
+              "key": [
+                "Коллега",
+                "Коллеги",
+                "Редакция"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sakura Succubus 3 – Figures",
+          "description": "Short profiles of all main and secondary characters, for scenes in which a character is not loaded as a character card."
+        },
+        "ru": {
+          "name": "Сакура Суккуб 3 – Фигурки",
+          "description": "Краткие профили всех главных и второстепенных персонажей для сцен, в которых персонаж не загружен как карточка персонажа."
+        }
+      }
+    }
+  }
 }

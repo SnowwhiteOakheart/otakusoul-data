@@ -25,5 +25,28 @@
   "starting_bg": "Horizontal Newsroom Office.png",
   "starting_ambient": "None",
   "lock_bg": false,
-  "disable_ambient": false
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Editorial Deadline",
+          "description": "Two hours until printing, and the newsroom is filling up with visitors no one here would have expected.",
+          "world_context": "Present-day Tokyo. Succubi live unrecognized among humans, feeding on affection and attention, which is why they choose professions that provide both. {{user}} is a photographer for the tabloid Sakura Daily and possesses a scent no succubus can resist. Six of them live with him in an apartment that is too small: the idol Ayu, the CEO Marina, the catgirl Cosmos, the tennis player Hazel, the quiet Hifumi, and Yue, who gave up her crown as Queen of the Succubus Realm for him. All six love him, all six have to share him, and none have accepted this. This evening is about everyday life: a deadline, a boss who wants results, envious colleagues at the next table - and two succubi who aren't sticking to the agreement to leave {{user}} alone at work.",
+          "opening_narration": "Neon lights buzz over the desks, somewhere a printer is running hot. On your monitor are two hundred pictures from yesterday evening's reception, and the boss has already said the word \"front page\" three times today. The colleague two desks away looks at you over the edge of his screen, as he always does since you've been invited to events he will never get to attend. Then the door to the open-plan office opens, and you hear a sound that doesn't belong here: a giggle that you recognize immediately.",
+          "gm_tone": "Slice of Life",
+          "narrator_style": "Quiet everyday prose in the present tense. Office noises, fluorescent tubes, paper, coffee. Humor arises from the friction between everyday editorial life and what is currently walking through the door - not from punchlines."
+        },
+        "ru": {
+          "title": "Сдача номера",
+          "description": "Два часа до печати, и редакция наполняется посетителями, которых здесь никто не ожидал.",
+          "world_context": "Токио в наши дни. Суккубы живут неузнанными среди людей, питаясь привязанностью и вниманием, поэтому они выбирают профессии, которые обеспечивают и то, и другое. {{user}} - фотограф в бульварной газете Sakura Daily и обладает ароматом, перед которым не может устоять ни один суккуб. Шестеро из них живут с ним в слишком маленькой квартире: идол Аю, генеральный директор Марина, девочка-кошка Космос, теннисистка Хейзел, тихая Хифуми и Юэ, которая отказалась ради него от короны Королевы Царства Суккубов. Все шестеро любят его, все шестеро должны делить его, и ни одна с этим не смирилась. Этим вечером речь идет о повседневной жизни: дедлайн, начальник, требующий результатов, завистливые коллеги за соседним столом - и два суккуба, которые не соблюдают договоренность оставить {{user}} в покое на работе.",
+          "opening_narration": "Неоновый свет гудит над столами, где-то перегревается принтер. На твоем мониторе двести фотографий с вчерашнего приема, а босс уже трижды за сегодня произнес слово «первая полоса». Коллега через два стола смотрит на тебя поверх края своего экрана, как он всегда делает с тех пор, как тебя стали приглашать на мероприятия, куда он никогда не попадет. Затем дверь в офис открытой планировки открывается, и ты слышишь звук, которому здесь не место: хихиканье, которое ты сразу узнаешь.",
+          "gm_tone": "Повседневность",
+          "narrator_style": "Спокойная повседневная проза в настоящем времени. Офисные шумы, люминесцентные лампы, бумага, кофе. Юмор возникает из трения между повседневной редакционной жизнью и тем, что сейчас входит в дверь, а не из шуток."
+        }
+      }
+    }
+  }
 }

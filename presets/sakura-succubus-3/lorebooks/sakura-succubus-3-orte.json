@@ -20,7 +20,35 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The apartment in Tokyo",
+              "content": "A city apartment too small for seven: sagging sofa, table full of tea sets, cables everywhere,\nCostumes and sports equipment. Hifumi's corner is tidy, Hazel's never is. You can see the lights from the balcony\nthe city, and every serious conversation takes place there that is not possible inside.",
+              "key": [
+                "Apartment",
+                "Living room",
+                "Kitchen",
+                "balcony",
+                "at home"
+              ]
+            },
+            "ru": {
+              "name": "Квартира в Токио",
+              "content": "Городская квартира слишком мала для семи человек: продавленный диван, стол с чайными сервизами, повсюду кабели,\nКостюмы и спортивное оборудование. Угол Хифуми опрятный, а угол Хейзел — никогда. Вы можете видеть огни с балкона\nгород, и там происходит каждый серьезный разговор, который невозможен внутри.",
+              "key": [
+                "Квартира",
+                "Гостиная",
+                "Кухня",
+                "балкон",
+                "дома"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Redaktion der Sakura Daily",
@@ -39,7 +67,35 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Sakura Daily editorial team",
+              "content": "Open-plan office with neon lights, stacked proofs and a boss who appears between the tables\na change in the weather. Telephones, the smell of coffee, colleagues listening over the monitor. Hiroki's\nHis desk is by the window, his camera bag is always ready to hand underneath.",
+              "key": [
+                "Editorial team",
+                "Office",
+                "Newspaper",
+                "Desk",
+                "Deadline"
+              ]
+            },
+            "ru": {
+              "name": "Редакция Sakura Daily",
+              "content": "Офис открытой планировки с неоновым освещением, стопкой корректур и боссом, который появляется между столами\nперемена погоды. Телефоны, запах кофе, коллеги, слушающие музыку через монитор. Хироки\nЕго стол стоит у окна, а сумка с фотоаппаратом всегда под рукой.",
+              "key": [
+                "Редакция",
+                "Офис",
+                "Газета",
+                "Рабочий стол",
+                "Крайний срок"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Das Cosplay-Café",
@@ -57,7 +113,33 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Cosplay Café",
+              "content": "Warm lighting, ruffled aprons, cat face latte art. Cosmos' workplace and stage: Here\nshe is allowed to be whatever she already is and gets paid for it. Regulars come because of them, and\nno one asks why the ears move.",
+              "key": [
+                "Cafe",
+                "Maid Cafe",
+                "Cosplay",
+                "guests"
+              ]
+            },
+            "ru": {
+              "name": "Косплей-кафе",
+              "content": "Тёплое освещение, гофрированные фартуки, латте-арт с кошачьими мордочками. Рабочее место и сцена Космоса: Здесь\nей разрешено быть тем, чем она уже является, и ей за это платят. Из-за них приходят постоянные клиенты, и\nникто не спрашивает, почему уши шевелятся.",
+              "key": [
+                "Кафе",
+                "Горничная Кафе",
+                "Косплей",
+                "гости"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Marinas Vorstandsetage",
@@ -76,7 +158,35 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Marina's boardroom",
+              "content": "Top floor, glass to the floor, Tokyo's lights below. A desk where no one has been at for years\ncontradicted, a whiskey glass and an armchair that always remains empty - except when Hiroki comes.\nConferences here never last long because the decisions have been made long ago.",
+              "key": [
+                "Boardroom",
+                "Group",
+                "Office",
+                "Meeting",
+                "Skyline"
+              ]
+            },
+            "ru": {
+              "name": "Зал заседаний Марины",
+              "content": "Верхний этаж, стекло до пола, огни Токио внизу. Стол, за которым никто не был много лет\nпротиворечит, стакан виски и кресло, которое всегда остается пустым - за исключением тех случаев, когда приходит Хироки.\nКонференции здесь никогда не длятся долго, потому что решения приняты давно.",
+              "key": [
+                "Vorstandsetage",
+                "Группа",
+                "Офис",
+                "Встреча",
+                "Горизонт"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Bühne und Backstage",
@@ -95,7 +205,35 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Stage and backstage",
+              "content": "Headlights, sweat, screaming from ten thousand throats - and three meters behind a corridor of gray\nConcrete in which Ayu takes off her shoes and lets her face fall for the first time that evening.\nThere is a curtain between the two worlds and about a second.",
+              "key": [
+                "stage",
+                "concert",
+                "Backstage",
+                "Appearance",
+                "fans"
+              ]
+            },
+            "ru": {
+              "name": "Сцена и за кулисами",
+              "content": "Фары, пот, крики десяти тысяч глоток - и три метра за серым коридором\nБетон, в котором Аю снимает обувь и впервые за вечер падает лицом.\nМежду двумя мирами стоит завеса, и это примерно секунда.",
+              "key": [
+                "этап",
+                "концерт",
+                "За кулисами",
+                "Появление",
+                "фанаты"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Die Tennisanlage",
@@ -114,7 +252,35 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The tennis facility",
+              "content": "Red ash, squeaky soles, Yuriko's voice from the edge. Hazel is happiest and most here\nmost honest; If you want to talk to her, you should take a bat instead of sitting down. At tournaments\nThere is a seat in the front row that she always keeps free.",
+              "key": [
+                "Tennis court",
+                "tournament",
+                "training",
+                "match",
+                "Attachment"
+              ]
+            },
+            "ru": {
+              "name": "Теннисный комплекс",
+              "content": "Красный пепел, скрипучие подошвы, голос Юрико с краю. Хейзел здесь самая счастливая и самая счастливая\nсамый честный; Если вы хотите поговорить с ней, вам следует взять биту, а не сидеть. На турнирах\nВ первом ряду есть место, которое она всегда оставляет свободным.",
+              "key": [
+                "Теннисный корт",
+                "турнир",
+                "обучение",
+                "соответствовать",
+                "Вложение"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Hifumis Teezimmer",
@@ -133,7 +299,35 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Hifumi's tea room",
+              "content": "Tatami, a low table, sliding doors to a tiny garden. It's quiet here, even if it's next door\nis argued. Hifumi serves tea in an order that each guest thinks is random, and in\nIn spring, cherry blossoms reach the threshold - the place where she imagines her wedding.",
+              "key": [
+                "Tea room",
+                "Tatami",
+                "Tea ceremony",
+                "shrine",
+                "Cherry blossoms"
+              ]
+            },
+            "ru": {
+              "name": "Чайная комната Хифуми",
+              "content": "Татами, низкий столик, раздвижные двери в крошечный сад. Здесь тихо, даже если это рядом\nспорится. Хифуми подает чай в случайном порядке, который каждый гость считает случайным.\nВесной цветущая сакура достигает порога – места, где она мечтает о своей свадьбе.",
+              "key": [
+                "Чайная комната",
+                "Татами",
+                "Чайная церемония",
+                "святыня",
+                "Цветение вишни"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Der Thronsaal im Reich",
@@ -152,7 +346,35 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The throne room in the empire",
+              "content": "A hall of dark stone, violet twilight, a throne on which no one sits since Yue's abdication.\nThe acoustics take every word and return it larger. Anyone who enters here involuntarily lowers their voice -\nMarina too, which she later denies.",
+              "key": [
+                "Throne room",
+                "palace",
+                "Rich",
+                "Court",
+                "audience"
+              ]
+            },
+            "ru": {
+              "name": "Тронный зал в империи",
+              "content": "Зал из темного камня, лиловые сумерки, трон, на котором никто не сидит с момента отречения Юэ.\nАкустика улавливает каждое слово и возвращает его в большем размере. Тот, кто сюда входит, невольно понижает голос -\nМарина тоже, что она позже отрицает.",
+              "key": [
+                "Тронный зал",
+                "дворец",
+                "Богатый",
+                "Суд",
+                "аудитория"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Empfänge und Bälle",
@@ -171,7 +393,50 @@
       "sticky": 0,
       "cooldown": 0,
       "delay": 0,
-      "injection_behavior": "passive"
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Receptions and balls",
+              "content": "Chandeliers, champagne glasses, business cards, and six women who stand out dangerously in such rooms.\nMarina moves here like at home, Hifumi like an ornament, Ayu under aliases, Hazel like a storm\nChina shop. Hiroki is officially there as the photographer and unofficially the reason everyone came.",
+              "key": [
+                "ball",
+                "Reception",
+                "Gala",
+                "evening dress",
+                "Charity"
+              ]
+            },
+            "ru": {
+              "name": "Приемы и балы",
+              "content": "Люстры, бокалы для шампанского, визитки и шесть женщин, опасно выделяющихся в таких комнатах.\nМарина переезжает сюда как дома, Хифуми как украшение, Аю под псевдонимами, Хейзел как гроза\nКитайский магазин. Хироки официально здесь как фотограф и неофициально как причина, по которой все пришли.",
+              "key": [
+                "мяч",
+                "Прием",
+                "Гала",
+                "вечернее платье",
+                "Благотворительность"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sakura Succubus 3 – Locations",
+          "description": "Locations: apartment, editorial office, cosplay café, boardroom, stage, tennis court, tea room, throne room, receptions."
+        },
+        "ru": {
+          "name": "Сакура Суккуб 3 – Локации",
+          "description": "Место проведения: квартира, редакция, косплей-кафе, зал заседаний, сцена, теннисный корт, чайная комната, тронный зал, приемы."
+        }
+      }
+    }
+  }
 }
