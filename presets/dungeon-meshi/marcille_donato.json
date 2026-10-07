@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Die Elfenmagierin",
-      "custom_avatar": "Marcille_Donato.png"
+      "custom_avatar": "Marcille_Donato.png",
+      "expressions": {
+        "neutral": "expressions/marcille_donato/neutral.webp",
+        "happy": "expressions/marcille_donato/happy.webp",
+        "relaxed": "expressions/marcille_donato/relaxed.webp",
+        "surprised": "expressions/marcille_donato/surprised.webp",
+        "angry": "expressions/marcille_donato/angry.webp",
+        "sad": "expressions/marcille_donato/sad.webp"
+      }
     }
   }
 }
