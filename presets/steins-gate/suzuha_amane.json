@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Die Teilzeit-Kriegerin",
-      "custom_avatar": "Suzuha_Amane.png"
+      "custom_avatar": "Suzuha_Amane.png",
+      "expressions": {
+        "neutral": "expressions/suzuha_amane/neutral.webp",
+        "happy": "expressions/suzuha_amane/happy.webp",
+        "relaxed": "expressions/suzuha_amane/relaxed.webp",
+        "surprised": "expressions/suzuha_amane/surprised.webp",
+        "angry": "expressions/suzuha_amane/angry.webp",
+        "sad": "expressions/suzuha_amane/sad.webp"
+      }
     }
   }
 }
