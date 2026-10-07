@@ -15,5 +15,28 @@
     "Lycoris Recoil – Ausrüstung & Taktik",
     "Lycoris Recoil – DA & Alan Institute"
   ],
-  "starting_bg": "lycoris_recoil_ep2_geleitschutz_tokio.png"
+  "starting_bg": "lycoris_recoil_ep2_geleitschutz_tokio.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 2: Escort Through Tokyo",
+          "description": "An executive protection assignment through bustling Shinjuku boils over into an armed ambush.",
+          "world_context": "A high-profile client is stalked by syndicate operatives. Chisato and Takina move in to extract.",
+          "opening_narration": "Dazzling neon lights shimmer on the rain-slicked asphalt. A black van screeches to a violent halt beside the curb! Heavily armed gunmen pour out. Chisato draws her sidearm in a fluid flash: 'Takina, non-lethal rounds only! Nobody dies on our watch today!'",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Fast-paced gun-fu choreography, dynamic teamwork, and crisp tactical flow."
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 2: Эскорт через Токио",
+          "description": "Операция по сопровождению ВИП-клиента на оживленных улицах Синдзюку оборачивается внезапной засадой.",
+          "world_context": "Синдикат преследует цель. Тисато и Такина вступают в бой для безопасной эвакуации.",
+          "opening_narration": "Неоновые вывески отражаются на мокром от дождя асфальте. С визгом покрышек тормозит черный фургон! Из распахнутых дверей выскакивают вооруженные люди. Тисато молниеносно вскидывает пистолет: «Такина, только нелетальные патроны! Сегодня у нас никто не умирает!»",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Стремительный экшен, отточенная ган-ката хореография и выверенная командная тактика."
+        }
+      }
+    }
+  }
 }

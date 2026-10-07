@@ -15,5 +15,28 @@
     "Lycoris Recoil – DA & Alan Institute",
     "Lycoris Recoil – Ausrüstung & Taktik"
   ],
-  "starting_bg": "lycoris_recoil_ep4_duell_im_morgengrauen.png"
+  "starting_bg": "lycoris_recoil_ep4_duell_im_morgengrauen.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 4: Duel at Dawn",
+          "description": "Climactic showdown high atop the old Tokyo Radio Tower: Chisato and Takina stand against the Alan Institute.",
+          "world_context": "The historic Tokyo Tower: iconic monument and cradle of the original Lycoris legend.",
+          "opening_narration": "The dawn sun cuts through the morning haze blanketing Tokyo's skyline. Wind howls through the red steel girders of the tower. Chisato and Takina stand back-to-back, breathing in sync. 'Ready, Takina?' — 'Always, Chisato.'",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Heroic, breathtaking, and resonant with emotional sisterhood."
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 4: Дуэль на рассвете",
+          "description": "Решающий бой на вершине старой Токийской телебашни: Тисато и Такина бросают вызов Институту Алана.",
+          "world_context": "Историческая Токийская башня — главный символ и арена легенды о Ликорис.",
+          "opening_narration": "Лучи восходящего солнца пробиваются сквозь утреннюю дымку над Токио. Ветер свистит в стальных перекрытиях башни. Тисато и Такина стоят спина к спине, выравнивая дыхание. «Готова, Такина?» — «Всегда готова, Тисато».",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Кульминационный, величественный и полный глубокой эмоциональной связи."
+        }
+      }
+    }
+  }
 }

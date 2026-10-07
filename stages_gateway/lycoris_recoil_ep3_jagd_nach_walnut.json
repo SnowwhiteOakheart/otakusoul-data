@@ -16,5 +16,28 @@
     "Lycoris Recoil – DA & Alan Institute",
     "Lycoris Recoil – Ausrüstung & Taktik"
   ],
-  "starting_bg": "lycoris_recoil_ep3_jagd_nach_walnut.png"
+  "starting_bg": "lycoris_recoil_ep3_jagd_nach_walnut.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 3: The Hunt for Walnut",
+          "description": "A coordinated cyber raid breaches the café's perimeter. Kurumi must be extracted from closing mercenary squads.",
+          "world_context": "Hostile operators have pinpointed master hacker Walnut's physical sanctuary.",
+          "opening_narration": "A volley of suppressed gunfire shatters the front display windows! Kurumi clutches her armored server briefcase white-knuckled. Chisato effortlessly slips between ricocheting bullets while Takina lays down precision suppressing fire.",
+          "gm_tone": "Mystery & Noir",
+          "narrator_style": "High-stakes cyber-thriller pacing, dense urban shootouts, and razor-sharp reflexes."
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 3: Охота на Уолнат",
+          "description": "Кибератака вскрывает убежище кафе. Куруми нужно срочно спасать от окружающих наемников.",
+          "world_context": "Вражеские отряды вычислили физическое местоположение легендарного хакера Уолнат.",
+          "opening_narration": "Очередь выстрелов разносит витринные стекла кафе! Куруми мертвой хваткой вцепляется в чемодан с сервером. Тисато виртуозно уклоняется от рикошетов, пока Такина ведет точный подавляющий огонь.",
+          "gm_tone": "Детектив и нуар",
+          "narrator_style": "Напряженный, динамичный кибертриллер с яростными городскими перестрелками."
+        }
+      }
+    }
+  }
 }

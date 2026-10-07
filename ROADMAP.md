@@ -230,3 +230,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Englische und russische Übersetzungen für alle 6 Phase-1-Charaktere (Nagatoro, Marin, Frieren, Yor, Megumin, Kaguya) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt, Gateway-Expressions verlinkt und PNG-Payloads synchronisiert.
 - [x] Englische und russische Übersetzungen für alle 5 Szenen und 3 Lorebooks der Kampagne Dungeon Meshi sinngemäß implementiert.
 - [x] Englische und russische Übersetzungen für alle 5 Szenen und 3 Lorebooks der Kampagne Steins;Gate sinngemäß implementiert.
+- [x] Englische und russische Übersetzungen für alle 4 Szenen und 3 Lorebooks der Kampagne Lycoris Recoil sinngemäß implementiert.

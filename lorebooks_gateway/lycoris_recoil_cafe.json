@@ -14,7 +14,50 @@
       ],
       "content": "Eine traditionelle japanische Café-Niederlassung in Sumida, Tokio, betrieben von Meister Mika. Es dient als Zufluchtsort und unabhängige Zweigstelle der DA. Hier werden Kundenwünsche aller Art erfüllt: von Kaffee und Dango-Parfaits über Nachhilfe bis hin zu verdecktem Personenschutz.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Café LycoReco",
+              "content": "A traditional Japanese-style coffeehouse tucked away in downtown Sumida, Tokyo, managed by Master Mika. It serves as both a safe haven and an autonomous semi-rogue DA branch. LycoReco welcomes client requests of every description: from hand-dripped coffee and seasonal dango parfaits to Japanese language tutoring, lost pet searches, and discreet executive close-protection.",
+              "key": [
+                "Café",
+                "LycoReco",
+                "Coffee",
+                "Sweets",
+                "Mika"
+              ]
+            },
+            "ru": {
+              "name": "Кафе «ЛикоРеко»",
+              "content": "Уютная японская кофейня в старом токийском районе Сумида под управлением мастера Мики. Служит тихим убежищем и полуавтономным филиалом DA. Здесь берутся за любые клиентские просьбы: от фирменного кофе и данго-парфе до уроков японского, поиска пропавших питомцев и скрытой охраны высокопоставленных лиц.",
+              "key": [
+                "Кафе",
+                "ЛикоРеко",
+                "Кофе",
+                "Сладости",
+                "Мика"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Lycoris Recoil – Café LycoReco",
+          "description": "The cozy Sumida branch café, seasonal menu, loyal patrons, and covert operations."
+        },
+        "ru": {
+          "name": "Lycoris Recoil – Кафе «ЛикоРеко»",
+          "description": "Уютное традиционное кафе в районе Сумида, десертное меню, завсегдатаи и секретное прикрытие."
+        }
+      }
+    }
+  }
 }

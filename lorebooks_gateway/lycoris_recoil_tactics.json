@@ -14,7 +14,50 @@
       ],
       "content": "Chisato Nishikigi weigert sich strikt zu töten und nutzt rote Spezialmunition, die Gegner betäubt. Dank übermenschlicher visueller Wahrnehmung kann sie Schussbahnen und Muskelbewegungen von Schützen im Voraus lesen und Projektilen auf Nahdistanz ausweichen.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Non-Lethal Doctrine & Chisato's Gift",
+              "content": "Chisato Nishikigi steadfastly refuses to take human life, exclusively firing custom red frangible rubber rounds that incapacitate hostiles without lethal harm. Empowered by superhuman kinetic vision and predictive perception, she reads shooters' muscle twitches, muzzle drift, and line-of-sight in advance, effortlessly weaving past live gunfire at point-blank range.",
+              "key": [
+                "Ammunition",
+                "Non-lethal",
+                "Chisato",
+                "Bullet dodging",
+                "Tactics"
+              ]
+            },
+            "ru": {
+              "name": "Нелетальная тактика и дар Тисато",
+              "content": "Тисато Нисикиги категорически отказывается убивать людей и использует исключительно особые красные травматические пули, выводящие противников из строя без риска для жизни. Обладая сверхчеловеческим динамическим зрением, она мгновенно считывает микромимику, напряжение мышц стрелка и траекторию ствола, с легкой улыбкой уклоняясь от пуль даже в упор.",
+              "key": [
+                "Патроны",
+                "Нелетальное",
+                "Тисато",
+                "Уклонение от пуль",
+                "Тактика"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Lycoris Recoil – Armament & Tactical Doctrine",
+          "description": "Chisato's predictive evasion, specialized non-lethal munitions, and combat equipment."
+        },
+        "ru": {
+          "name": "Lycoris Recoil – Вооружение и тактика",
+          "description": "Сверхъестественное уклонение Тисато, нелетальные боеприпасы и тактическое снаряжение."
+        }
+      }
+    }
+  }
 }

@@ -15,5 +15,28 @@
     "Lycoris Recoil – Café LycoReco",
     "Lycoris Recoil – DA & Alan Institute"
   ],
-  "starting_bg": "lycoris_recoil_ep1_willkommen_im_cafe.png"
+  "starting_bg": "lycoris_recoil_ep1_willkommen_im_cafe.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 1: Welcome to Café LycoReco",
+          "description": "A bustling day at the café: taking orders, greeting quirky regulars, and fielding an unexpected clandestine contract.",
+          "world_context": "Café LycoReco in downtown Tokyo. Chisato and Takina operate undercover as waitresses and elite protectors.",
+          "opening_narration": "The aroma of roasted coffee beans mingles with mellow jazz drifting from vintage speakers. Chisato beams as she serves towering parfait sundaes, while Takina manages the register with stiff military precision. Suddenly, the landline in the back office rings sharply: Master Mika signals an urgent off-the-books mission.",
+          "gm_tone": "Slice of Life",
+          "narrator_style": "Breezy and lighthearted, punctuated by sudden bursts of high-octane tactical action."
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 1: Добро пожаловать в кафе «ЛикоРеко»",
+          "description": "Бурный день в уютном кафе: заказы, беседы с завсегдатаями и внезапный тайный контракт из подполья.",
+          "world_context": "Кафе «ЛикоРеко» в Токио. Тисато и Такина работают официантками, совмещая смену с обязанностями элитных телохранителей.",
+          "opening_narration": "Аромат свежесваренного кофе смешивается с мягким джазом, льющимся из старых колонок. Тисато с сияющей улыбкой разносит десерты, пока Такина ведет учет за кассой с армейской педантичностью. Внезапно в подсобке резко звонит дисковый телефон: мастер Мика подает знак о срочном секретном заказе.",
+          "gm_tone": "Повседневность",
+          "narrator_style": "Оживленный, уютный, с резкими всплесками тактического экшена."
+        }
+      }
+    }
+  }
 }

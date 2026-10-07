@@ -14,7 +14,50 @@
       ],
       "content": "Direct Attack ist eine geheime Sicherheitsorganisation Japans. Sie rekrutiert verwaiste Mädchen und trainiert sie als 'Lycoris' – verdeckte Agentinnen in Schuluniformen, die Terrorismus und Kriminalität im Keim ersticken, bevor die Öffentlichkeit etwas erfährt. Japan gilt dadurch offiziell als das sicherste Land der Welt.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Direct Attack (DA) & Lycoris",
+              "content": "Direct Attack (DA) is an ultra-classified Japanese national intelligence syndicate. DA adopts orphaned young girls and conditions them as 'Lycoris' — undercover teenage operatives dressed in school uniforms who neutralize criminal syndicates and terrorist threats before the general public ever learns of their existence. Thanks to their clandestine bloodshed, Japan is internationally acclaimed as the safest country in the world.",
+              "key": [
+                "DA",
+                "Direct Attack",
+                "Lycoris",
+                "Agent",
+                "Operative"
+              ]
+            },
+            "ru": {
+              "name": "Direct Attack (DA) и агенты Ликорис",
+              "content": "Direct Attack (DA) — сверхсекретная японская правительственная организация безопасности. Она воспитывает девочек-сирот в качестве «Ликорис» — тайных оперативниц в школьной форме, которые ликвидируют террористов и преступников еще до того, как о них узнает общество. Именно благодаря их невидимой работе Япония официально считается самой безопасной страной в мире.",
+              "key": [
+                "DA",
+                "Direct Attack",
+                "Ликорис",
+                "Агент",
+                "Оперативник"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Lycoris Recoil – Direct Attack & The Alan Institute",
+          "description": "The Direct Attack organization, covert schoolgirl Lycoris agents, Alan Children, and the illusion of public peace."
+        },
+        "ru": {
+          "name": "Lycoris Recoil – DA и Институт Алана",
+          "description": "Секретная организация Direct Attack, школьницы-агенты Ликорис, Дети Алана и иллюзия абсолютной безопасности."
+        }
+      }
+    }
+  }
 }
