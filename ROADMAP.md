@@ -222,3 +222,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] README in DE, EN und RU aktualisiert; `AI.md` mit Struktur-/Formatregeln und Verweisen aus `AGENTS.md` / `CLAUDE.md` ergänzt.
 - [x] `LICENSE` mit DE-/EN-/RU-Hinweisen zu KI-generierter Fanart, eigenen Beiträgen und fremden Rechten ergänzt; VRM-Lizenzhinweise erhalten.
 - [x] Falschen Download-Link der Szene „Sky-Pirate Boarding Action“ auf die vorhandene eigene Szenendatei korrigiert.
+- [x] 18 Gateway-Szenen und 6 Gateway-Lorebooks mit den vollständigen englischen und russischen Übersetzungen aus den Presets von No Game No Life und Sakura Succubus 3 synchronisiert.

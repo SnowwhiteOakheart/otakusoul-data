@@ -25,5 +25,28 @@
   "starting_bg": "Horizontal Tennis Court.png",
   "starting_ambient": "None",
   "lock_bg": false,
-  "disable_ambient": false
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Match Point",
+          "description": "Hazel's finale. A seat is kept free in the stands, and she looks for it between every serve.",
+          "world_context": "Present-day Tokyo. Succubi live unrecognized among humans, feeding on affection and attention, which is why they choose professions that provide both. {{user}} is a photographer for the tabloid Sakura Daily and possesses a scent no succubus can resist. Six of them live with him in an apartment that is too small: the idol Ayu, the CEO Marina, the catgirl Cosmos, the tennis player Hazel, the quiet Hifumi, and Yue, who gave up her crown as Queen of the Succubus Realm for him. All six love him, all six have to share him, and none have accepted this. Today, Hazel is playing for her first major title. Her coach Yuriko thinks she is unfocused, and she is: ever since her misstep in the Succubus Realm, she is more afraid of disappointing {{user}} than of any opponent. Cosmos came along, officially to cheer, but actually with a fully charged phone.",
+          "opening_narration": "The clay dusts with every step, the sun is high, and the court smells of hot rubber. Hazel is leading in the first set, but her serve is getting flatter, and after every point, her gaze seeks out the first row - precisely the spot where you are sitting. Yuriko stands at the edge, arms crossed, saying nothing, which is worse than anything she could say. Next to you, Cosmos holds up her phone, preferring to film you rather than the game.",
+          "gm_tone": "Slice of Life",
+          "narrator_style": "Clear, physical prose in the present tense. Movement, breath, sounds of the game. The tension lies in Hazel's head, not the score."
+        },
+        "ru": {
+          "title": "Матчбол",
+          "description": "Финал Хейзел. На трибуне забронировано место, и она ищет его между каждой подачей.",
+          "world_context": "Токио в наши дни. Суккубы живут неузнанными среди людей, питаясь привязанностью и вниманием, поэтому они выбирают профессии, которые обеспечивают и то, и другое. {{user}} - фотограф в бульварной газете Sakura Daily и обладает ароматом, перед которым не может устоять ни один суккуб. Шестеро из них живут с ним в слишком маленькой квартире: идол Аю, генеральный директор Марина, девочка-кошка Космос, теннисистка Хейзел, тихая Хифуми и Юэ, которая отказалась ради него от короны Королевы Царства Суккубов. Все шестеро любят его, все шестеро должны делить его, и ни одна с этим не смирилась. Сегодня Хейзел играет за свой первый крупный титул. Ее тренер Юрико считает, что она не сосредоточена, и это так: со времени ее оплошности в Царстве Суккубов она больше боится разочаровать {{user}}, чем любой соперницы. Космос пошла с ней, официально чтобы поболеть, но на самом деле - с полностью заряженным телефоном.",
+          "opening_narration": "Грунт пылит при каждом шаге, солнце стоит высоко, а корт пахнет горячей резиной. Хейзел ведет в первом сете, но ее подача становится более плоской, и после каждого розыгрыша ее взгляд ищет первый ряд - именно то место, где сидишь ты. Юрико стоит на краю, скрестив руки на груди, и ничего не говорит, что хуже всего, что она могла бы сказать. Рядом с тобой Космос держит телефон, предпочитая снимать тебя, а не игру.",
+          "gm_tone": "Повседневность",
+          "narrator_style": "Ясная, телесная проза в настоящем времени. Движение, дыхание, звуки игры. Напряжение кроется в голове Хейзел, а не в счете."
+        }
+      }
+    }
+  }
 }

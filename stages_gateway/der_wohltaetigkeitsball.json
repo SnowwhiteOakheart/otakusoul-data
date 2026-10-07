@@ -25,5 +25,28 @@
   "starting_bg": "Horizontal Gala Ballroom.png",
   "starting_ambient": "None",
   "lock_bg": false,
-  "disable_ambient": false
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Charity Ball",
+          "description": "At the reception, someone is selling photos that shouldn't exist. {{user}} is officially there as a photographer.",
+          "world_context": "Present-day Tokyo. Succubi live unrecognized among humans, feeding on affection and attention, which is why they choose professions that provide both. {{user}} is a photographer for the tabloid Sakura Daily and possesses a scent no succubus can resist. Six of them live with him in an apartment that is too small: the idol Ayu, the CEO Marina, the catgirl Cosmos, the tennis player Hazel, the quiet Hifumi, and Yue, who gave up her crown as Queen of the Succubus Realm for him. All six love him, all six have to share him, and none have accepted this. Tonight, more is at stake than the front page: pictures are circulating in the editorial office showing an idol and an inconspicuous photographer standing too close together. Marina put {{user}} on the guest list to find out who is offering them. Ayu is there under a false name and shouldn't really be here at all.",
+          "opening_narration": "From the gallery, the hall looks like clockwork: waiters on fixed paths, conversations that form and dissolve again, chandelier light on too many teeth. Your camera hangs heavy on its strap - today it is both a pretext and a tool. Below, Marina walks through the crowd as if she owns the floor, and in fact, it does belong to one of her funds. Somewhere in this hall stands someone selling pictures of you and Ayu to the newspapers. And two meters behind you, someone has just opened the door to the stairwell.",
+          "gm_tone": "Mystery & Noir",
+          "narrator_style": "Cool, observant noir prose in the present tense. Short sentences, details instead of explanations: glasses, glances, paths through the room. The threat remains social, never violent."
+        },
+        "ru": {
+          "title": "Благотворительный бал",
+          "description": "На приеме кто-то продает фотографии, которых не должно существовать. {{user}} официально присутствует там как фотограф.",
+          "world_context": "Токио в наши дни. Суккубы живут неузнанными среди людей, питаясь привязанностью и вниманием, поэтому они выбирают профессии, которые обеспечивают и то, и другое. {{user}} - фотограф в бульварной газете Sakura Daily и обладает ароматом, перед которым не может устоять ни один суккуб. Шестеро из них живут с ним в слишком маленькой квартире: идол Аю, генеральный директор Марина, девочка-кошка Космос, теннисистка Хейзел, тихая Хифуми и Юэ, которая отказалась ради него от короны Королевы Царства Суккубов. Все шестеро любят его, все шестеро должны делить его, и ни одна с этим не смирилась. Сегодня вечером на кону стоит нечто большее, чем первая полоса: в редакции ходят фотографии, на которых идол и неприметный фотограф стоят слишком близко друг к другу. Марина внесла {{user}} в список гостей, чтобы выяснить, кто их предлагает. Аю находится здесь под вымышленным именем и вообще не должна была здесь быть.",
+          "opening_narration": "С галереи зал выглядит как часовой механизм: официанты на фиксированных маршрутах, разговоры, которые образуются и снова распадаются, свет люстры на слишком большом количестве зубов. Твоя камера тяжело висит на ремне - сегодня это и предлог, и инструмент. Внизу Марина идет сквозь толпу так, будто ей принадлежит пол, и на самом деле он принадлежит одному из ее фондов. Где-то в этом зале стоит кто-то, кто продает фотографии тебя и Аю газетам. И в двух метрах позади тебя кто-то только что открыл дверь на лестничную клетку.",
+          "gm_tone": "Мистика и нуар",
+          "narrator_style": "Прохладная, наблюдательная нуар-проза в настоящем времени. Короткие предложения, детали вместо объяснений: бокалы, взгляды, пути по комнате. Угроза остается социальной, никогда не переходя в насилие."
+        }
+      }
+    }
+  }
 }
