@@ -16,5 +16,28 @@
     "Steins;Gate – Labor-Gadgets & D-Mails",
     "Steins;Gate – Akihabara 2010 & SERN"
   ],
-  "starting_bg": "steins_gate_ep2_ibn5100_suche.png"
+  "starting_bg": "steins_gate_ep2_ibn5100_suche.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 2: Hunt for the IBN 5100",
+          "description": "The trail of the mythical vintage mainframe leads straight to the Yanagibayashi Shrine.",
+          "world_context": "SERN's encrypted internal database can only be parsed using an authentic IBN 5100.",
+          "opening_narration": "Cicadas buzz deafeningly in the humid shrine canopy. Ruka steps out holding a hefty cardboard box: inside rests a dusty, bulky IBN 5100 portable computer from 1975. The key to cracking SERN's hidden network lies in your hands.",
+          "gm_tone": "Slice of Life",
+          "narrator_style": "Engaging, inquisitive, with an undercurrent of techno-mystery."
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 2: В поисках IBN 5100",
+          "description": "След легендарного ретро-компьютера приводит лабораторию к синтоистскому святилищу Янагибаяси.",
+          "world_context": "Базу данных SERN невозможно расшифровать без раритетного мейнфрейма IBN 5100.",
+          "opening_narration": "Оглушительный стрёкот цикад разносится среди крон деревьев у святилища. Рука держит в руках увесистую картонную коробку: внутри покоится покрытый пылью громоздкий компьютер IBN 5100 образца 1975 года. Ключ к секретным архивам SERN прямо перед вами.",
+          "gm_tone": "Повседневность",
+          "narrator_style": "Интригующий, атмосферный, с налетом технологической тайны."
+        }
+      }
+    }
+  }
 }

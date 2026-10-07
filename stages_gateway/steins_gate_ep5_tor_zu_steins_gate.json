@@ -16,5 +16,28 @@
     "Steins;Gate – Labor-Gadgets & D-Mails",
     "Steins;Gate – Akihabara 2010 & SERN"
   ],
-  "starting_bg": "steins_gate_ep5_tor_zu_steins_gate.png"
+  "starting_bg": "steins_gate_ep5_tor_zu_steins_gate.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 5: The Gate to Steins Gate",
+          "description": "The final operation: deceive your past self, save Kurisu, and breach the 1.048596% divergence barrier.",
+          "world_context": "The Steins Gate worldline represents the solitary reality free from World War III and dystopia.",
+          "opening_narration": "The circle closes at last. Hououin Kyouma stands atop the Radio Kaikan roof once more. Armed with the agony and resolve of countless loops: 'Deceive your past self. Deceive the world. Seize the gate of Steins Gate!'",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Heroic, climactic, and triumphantly cathartic."
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 5: Врата Штейна",
+          "description": "Финальная операция: обмани самого себя из прошлого, спаси Курису и преодолей рубеж дивергенции 1.048596%.",
+          "world_context": "Мировая линия Врат Штейна — единственная реальность, свободная от Третьей мировой войны и дистопии.",
+          "opening_narration": "Круг наконец замкнулся. Хооин Кёма вновь стоит на крыше Радио Кайкан. Теперь за его плечами опыт и боль тысячи пройденных петель: «Обмани себя. Обмани этот мир. Открой Врата Штейна!»",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Героический, кульминационный и катарсический."
+        }
+      }
+    }
+  }
 }

@@ -14,5 +14,28 @@
   "lorebook": [
     "Steins;Gate – Weltlinien & Divergenz"
   ],
-  "starting_bg": "steins_gate_ep4_schmetterlingseffekt.png"
+  "starting_bg": "steins_gate_ep4_schmetterlingseffekt.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 4: The Butterfly Effect",
+          "description": "Desperate temporal loops: Okabe battles against fate itself to avert Mayuri's death.",
+          "world_context": "No matter what Okabe attempts, the Alpha Attractor Field ruthlessly converges on Mayuri's demise.",
+          "opening_narration": "Time rewinds in agony again and again. Okabe sprints down the neon-lit back alleys of Akiba, drenched in sweat and tears. 'Not this time... I swear I will save you this time!'",
+          "gm_tone": "Mystery & Noir",
+          "narrator_style": "Tragic, relentless, and deeply emotional."
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 4: Эффект бабочки",
+          "description": "Отчаянные временные петли: Окабэ пытается вырвать Маюри из железных тисков конвергенции.",
+          "world_context": "Что бы ни предпринимал Окабэ, аттракторное поле Альфа неотвратимо ведет к гибели Маюри.",
+          "opening_narration": "Вновь и вновь петля времени отматывается назад. Окабэ бежит по переулкам Акибы, захлебываясь потом и слезами. «Не в этот раз... на этот раз я обязательно спасу тебя!»",
+          "gm_tone": "Детектив и нуар",
+          "narrator_style": "Трагичный, надрывный и эмоциональный."
+        }
+      }
+    }
+  }
 }

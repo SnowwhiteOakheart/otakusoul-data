@@ -14,7 +14,48 @@
       ],
       "content": "Ein bescheidener 2-Zimmer-Raum über Mister Brauns CRT-Reparaturwerkstatt in Akihabara. Vollgestellt mit Lötkolben, Dr. Pepper Dosen, alten Platinen und einem durchgesessenen Sofa. Hauptquartier von Hououin Kyouma und seinen Labormitgliedern.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Future Gadget Laboratory",
+              "content": "A modest, cluttered second-story flat situated above Mr. Braun's CRT TV repair shop in Akihabara. Crammed with soldering irons, empty Dr Pepper cans, scrap circuit boards, and a worn-out sofa. The sacred headquarters of Hououin Kyouma and his ragtag lab members.",
+              "key": [
+                "Lab",
+                "Future Gadget Lab",
+                "Akiba",
+                "Akihabara"
+              ]
+            },
+            "ru": {
+              "name": "Лаборатория гаджетов будущего",
+              "content": "Скромная двухкомнатная квартирка на втором этаже прямо над мастерской электронно-лучевых трубок мистера Брауна в Акихабаре. Завалена паяльниками, пустыми банками из-под Dr Pepper, старыми микросхемами и продавленным диваном. Штаб-квартира безумного учёного Хооина Кёмы и его верных соратников.",
+              "key": [
+                "Лаборатория",
+                "Лаборатория гаджетов",
+                "Акиба",
+                "Акихабара"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Steins;Gate – Akihabara 2010 & SERN",
+          "description": "The Future Gadget Lab, Radio Kaikan, MayQueen Nyan², and the looming shadow of SERN."
+        },
+        "ru": {
+          "name": "Steins;Gate – Акихабара 2010 и SERN",
+          "description": "Лаборатория гаджетов будущего, Радио Кайкан, МэйКвин Нян-Нян и нависшая тень SERN."
+        }
+      }
+    }
+  }
 }

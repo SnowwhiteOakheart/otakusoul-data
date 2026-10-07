@@ -16,5 +16,28 @@
     "Steins;Gate – Weltlinien & Divergenz",
     "Steins;Gate – Labor-Gadgets & D-Mails"
   ],
-  "starting_bg": "steins_gate_ep1_erste_dmail.png"
+  "starting_bg": "steins_gate_ep1_erste_dmail.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 1: The First D-Mail",
+          "description": "A bloodcurdling scream echoes across the Radio Kaikan rooftop, and a single text message tears open the fabric of space and time.",
+          "world_context": "Akihabara, summer of 2010. Okabe transmits a test message via the Phone Microwave (name subject to change).",
+          "opening_narration": "Scorching summer heat shimmers across the concrete sidewalks of Akihabara. A muffled crash shakes the Radio Kaikan building — followed by a bloodcurdling scream. Okabe stumbles out onto the street, feverishly tapping a text to Daru... when in the blink of an eye, the bustling crowd evaporates into thin air. Silence. The divergence gears have shifted.",
+          "gm_tone": "Mystery & Noir",
+          "narrator_style": "Paranoid, breathless, and steeped in hard sci-fi tension."
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 1: Первое D-мейл",
+          "description": "Крик на крыше Радио Кайкан и короткое текстовое сообщение, разорвавшее ткань пространства и времени.",
+          "world_context": "Акихабара, лето 2010 года. Окабэ отправляет тестовое сообщение через Мобиловолновку (название временное).",
+          "opening_narration": "Летнее марево дрожит над асфальтом Акихабары. Глухой удар сотрясает здание Радио Кайкан — следом раздается леденящий душу крик. Окабэ выбегает на улицу, в панике набирая СМС для Дару... и в то же мгновение шумная толпа исчезает. Вокруг — звенящая пустота. Шестерни мировой линии провернулись.",
+          "gm_tone": "Детектив и нуар",
+          "narrator_style": "Параноидальный, прерывистый, пронизанный научно-фантастическим саспенсом."
+        }
+      }
+    }
+  }
 }

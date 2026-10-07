@@ -14,7 +14,34 @@
       ],
       "content": "Zukunftsgadget Nr. 8: Durch Anschluss eines Mobiltelefons an die Mikrowelle und Entladung über die Braun-Röhren im Erdgeschoss erzeugt das Gerät Mikro-Singularitäten (Kerr-Schwarze-Löcher). Textnachrichten (D-Mails) können maximal 36 Bytes (18 japanische Zeichen) bis zu fünf Tage in die Vergangenheit senden.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Phone Microwave (Name subject to change)",
+              "content": "Future Gadget No. 8: By connecting a mobile phone to an ordinary microwave oven and discharging through Mr. Braun's cathode-ray CRT below, the device inadvertently generates micro-singularities (Kerr black holes). Text messages (D-Mails) sent through the apparatus can travel up to five days into the past, capped at 36 bytes (18 Japanese characters).",
+              "key": [
+                "Microwave",
+                "D-Mail",
+                "Time travel",
+                "Future Gadget"
+              ]
+            },
+            "ru": {
+              "name": "Мобиловолновка (название временное)",
+              "content": "Гаджет будущего №8: Соединив сотовый телефон с микроволновкой и воспользовавшись наводками от ЭЛТ-телевизора мистера Брауна этажом ниже, прибор генерирует микросингулярности (чёрные дыры Керра). Текстовые сообщения (D-мейлы), отправленные через неё, могут переместиться в прошлое максимум на пять дней (объем ограничен 36 байтами или 18 японскими символами).",
+              "key": [
+                "Мобиловолновка",
+                "Микроволновка",
+                "D-мейл",
+                "Машина времени",
+                "Гаджет"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "IBN 5100",
@@ -27,7 +54,48 @@
       ],
       "content": "Ein seltener Retro-Computer von 1975 mit proprietärer Decodier-Hardware. Nur mit einem IBN 5100 lässt sich die verschlüsselte Datenbank von SERN auslesen und der Zugang zu geheimen Zeitreise-Experimenten knacken.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "IBN 5100",
+              "content": "A rare vintage mainframe from 1975 equipped with proprietary legacy decoding hardware. An IBN 5100 is strictly necessary to decipher SERN's deeply classified mainframe codebase and uncover their hidden time travel research files.",
+              "key": [
+                "IBN 5100",
+                "Computer",
+                "SERN",
+                "Database"
+              ]
+            },
+            "ru": {
+              "name": "IBN 5100",
+              "content": "Редкий портативный ретро-компьютер 1975 года выпуска с закрытой аппаратной архитектурой декодирования. Только с помощью IBN 5100 можно расшифровать закрытую базу данных SERN и вскрыть протоколы их секретных экспериментов со временем.",
+              "key": [
+                "IBN 5100",
+                "Компьютер",
+                "SERN",
+                "База данных"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Steins;Gate – Future Gadgets & D-Mails",
+          "description": "Future Gadget Laboratory inventions, the Phone Microwave, time leaping, and the IBN 5100."
+        },
+        "ru": {
+          "name": "Steins;Gate – Гаджеты лаборатории и D-мейлы",
+          "description": "Изобретения Лаборатории гаджетов будущего, Мобиловолновка, прыжки во времени и IBN 5100."
+        }
+      }
+    }
+  }
 }

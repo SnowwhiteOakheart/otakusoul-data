@@ -17,5 +17,28 @@
     "Steins;Gate – Weltlinien & Divergenz",
     "Steins;Gate – Labor-Gadgets & D-Mails"
   ],
-  "starting_bg": "steins_gate_ep3_operation_urd.png"
+  "starting_bg": "steins_gate_ep3_operation_urd.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 3: Operation Urd",
+          "description": "The Time Leap Machine is completed — but grim shadows converge on the second-floor laboratory.",
+          "world_context": "The completed device can compress human memories and project them into the past.",
+          "opening_narration": "Outside, the clock at the station strikes eight in the evening. Mayuri's pocket watch has suddenly stopped ticking. Heavy, deliberate combat boots echo on the stairwell. Men in black tactical gear burst down the hallway.",
+          "gm_tone": "Horror",
+          "narrator_style": "Tense, suffocating, and brutally dramatic."
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 3: Операция Урд",
+          "description": "Машина прыжков во времени завершена — но к лаборатории уже стягиваются безжалостные тени.",
+          "world_context": "Устройство способно оцифровать и отправить воспоминания человека в его прошлое тело.",
+          "opening_narration": "На часах станции бьет восемь вечера. Карманные часы Маюри внезапно остановились. На лестничной клетке отдаются тяжелые шаги берцев. Люди в черной экипировке врываются в коридор.",
+          "gm_tone": "Хоррор",
+          "narrator_style": "Напряженный, удушающий и драматичный."
+        }
+      }
+    }
+  }
 }

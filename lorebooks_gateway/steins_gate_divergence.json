@@ -14,7 +14,33 @@
       ],
       "content": "Die Welt existiert nicht in parallelen Universen, sondern auf einer einzigen Weltlinie, die durch Eingriffe in die Vergangenheit umgestaltet wird. Attraktorfelder (Alpha und Beta) bündeln Weltlinien zu unausweichlichen Konvergenzpunkten (z. B. Mayuris Tod im Alpha-Feld oder der 3. Weltkrieg im Beta-Feld). Nur die Steins-Gate-Weltlinie (Divergenz 1.048596%) entkommt beiden Konvergenzen.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Worldlines & Attractor Fields",
+              "content": "The universe does not consist of parallel realities existing simultaneously; instead, only one active worldline exists at any given moment, rewoven whenever the past is altered. Attractor fields (Alpha and Beta) bind clusters of worldlines toward unavoidable convergence events (such as Mayuri's unavoidable death in Alpha, or World War III in Beta). Only the Steins Gate worldline (divergence 1.048596%) breaks free of both attractor convergences.",
+              "key": [
+                "Worldline",
+                "Divergence",
+                "Attractor Field",
+                "Convergence"
+              ]
+            },
+            "ru": {
+              "name": "Мировые линии и аттракторные поля",
+              "content": "Вселенная не делится на параллельные миры, существующие одновременно; существует лишь одна активная мировая линия, которая перестраивается при каждом вмешательстве в прошлое. Аттракторные поля (Альфа и Бета) стягивают пучки мировых линий к неизбежным точкам конвергенции (например, к гибели Маюри в поле Альфа или к Третьей мировой войне в поле Бета). Лишь мировая линия Врат Штейна (дивергенция 1.048596%) ускользает от обоих полей.",
+              "key": [
+                "Мировая линия",
+                "Дивергенция",
+                "Аттракторное поле",
+                "Конвергенция"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Reading Steiner",
@@ -26,7 +52,48 @@
       ],
       "content": "Okabes angeborene Fähigkeit: Wenn sich die Weltlinie durch eine D-Mail ändert, behält er seine Erinnerungen an die vorherige Realität vollständig, während die Erinnerungen aller anderen Menschen mit der neuen Historie überschrieben werden.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Reading Steiner",
+              "content": "Okabe's innate perceptual anomaly: whenever a worldline shifts due to a D-Mail or time leap, he retains complete, continuous memories of the previous reality, whereas the memories of everyone else on Earth are instantly rewritten to align with the newly formed history.",
+              "key": [
+                "Reading Steiner",
+                "Memory",
+                "Shift",
+                "Timeline"
+              ]
+            },
+            "ru": {
+              "name": "Считывающий Штейн (Reading Steiner)",
+              "content": "Врождённая способность Окабэ: когда мировая линия смещается из-за D-мейла или прыжка во времени, он полностью сохраняет воспоминания о предшествующей реальности, в то время как память всех остальных людей на планете мгновенно перезаписывается под новую историю.",
+              "key": [
+                "Считывающий Штейн",
+                "Reading Steiner",
+                "Память",
+                "Смещение"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Steins;Gate – Worldlines & Divergence",
+          "description": "The Divergence Meter, Alpha and Beta Attractor Fields, convergence points, and temporal causality."
+        },
+        "ru": {
+          "name": "Steins;Gate – Мировые линии и дивергенция",
+          "description": "Счётчик дивергенции, аттракторные поля Альфа и Бета, точки конвергенции и законы причинности."
+        }
+      }
+    }
+  }
 }
