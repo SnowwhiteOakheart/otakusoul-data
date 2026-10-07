@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Der Dungeon-Chefkoch",
-      "custom_avatar": "Senshi.png"
+      "custom_avatar": "Senshi.png",
+      "expressions": {
+        "neutral": "expressions/senshi/neutral.webp",
+        "happy": "expressions/senshi/happy.webp",
+        "relaxed": "expressions/senshi/relaxed.webp",
+        "surprised": "expressions/senshi/surprised.webp",
+        "angry": "expressions/senshi/angry.webp",
+        "sad": "expressions/senshi/sad.webp"
+      }
     }
   }
 }

@@ -178,7 +178,7 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 
 ### Noch offene Erweiterungen
 
-- [ ] Kampagnen-Expressions: 4/16 Figuren und 24/96 Bilder fertig (Einzelstand unten).
+- [ ] Kampagnen-Expressions: 5/16 Figuren und 30/96 Bilder fertig (Einzelstand unten).
 
 
 ## Gesicherte Inhaltsarbeiten vom 07.10.2026
@@ -191,12 +191,12 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 <!-- campaign-expressions:start -->
 ### Kampagnen-Expressions – Fortschritt
 
-4/16 Figuren vollständig; 24/96 Emotionsbilder fertig, 72 noch offen.
+5/16 Figuren vollständig; 30/96 Emotionsbilder fertig, 66 noch offen.
 
 - [x] **Laios Touden** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Marcille Donato** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Chilchuck Tims** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
-- [ ] **Senshi** (dungeon-meshi): sechs Expressions fehlen.
+- [x] **Senshi** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Okabe Rintarou** (steins-gate): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [ ] **Mayuri Shiina** (steins-gate): sechs Expressions fehlen.
 - [ ] **Itaru Hashida** (steins-gate): sechs Expressions fehlen.
