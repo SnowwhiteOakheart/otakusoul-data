@@ -21,7 +21,7 @@ Die Erstellung importiert nichts in eine lokale OtakuSoul-Installation. Das Pake
 
 ## Bilder und Herkunft
 
-Die Bilder wurden mit dem eingebauten `image_gen`-Werkzeug erzeugt. Beide Hauptporträts entstanden aus Text; jeder Gesichtsausdruck verwendet ausschließlich das zugehörige neue Porträt als Identitätsreferenz. Die vollständigen Prompts stehen in [`image_prompts.json`](image_prompts.json). Normalisierung auf die Repository-Bildgrößen erfolgte nach der Generierung; Metadaten wurden anschließend eingebettet. Originalfiguren und eigene Texte stehen unter der MIT-Lizenz dieses Repositorys.
+Die Bilder wurden mit dem eingebauten `image_gen`-Werkzeug erzeugt. Beide Hauptporträts entstanden aus Text; jeder Gesichtsausdruck verwendet ausschließlich das zugehörige neue Porträt als Identitätsreferenz. Die vollständigen Prompts stehen in [`image_prompts.json`](image_prompts.json). Normalisierung auf die Repository-Bildgrößen erfolgte nach der Generierung; Metadaten wurden anschließend eingebettet. Angaben zur Herkunft stehen in diesem Paket; die Nutzungsbedingungen für eigene Beiträge und KI-Bilder sowie Hinweise zu fremden Rechten stehen in [LICENSE](../../LICENSE).
 
 ## Prüfung
 

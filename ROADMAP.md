@@ -214,3 +214,11 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 ## Kampagnen-Bildbestand vom 07.10.2026
 
 Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptporträt über sechs neue Emotionsbilder (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`): insgesamt 96 WebP-Dateien in 640×800. Die Bilder wurden mit dem eingebauten `image_gen`-Werkzeug anhand des jeweiligen vorhandenen Avatars erstellt und visuell geprüft. Preset-JSON, Preset-PNG und Hub-PNG sind abgeglichen; die bisherigen Profiltexte und Übersetzungen sowie die Hauptporträts bleiben erhalten. Vollständige Prompts liegen unter `presets/<paket>/expressions/<figur>/prompts.json`. Jede Figur wurde einzeln committed und gepusht. Keine lokale App-Installation wurde verändert.
+
+## Repository-Pflege (2026-10-07)
+
+- [x] Sieben veraltete Einmalskripte und drei überholte Root-Kartenkopien entfernt; wiederverwendbare Werkzeuge unter `tools/` erhalten.
+- [x] Doppelte Roadmap entfernt; Paketierungswerkzeug pflegt ausschließlich `ROADMAP.md`, reine Prüfung schreibt keine Dateien.
+- [x] README in DE, EN und RU aktualisiert; `AI.md` mit Struktur-/Formatregeln und Verweisen aus `AGENTS.md` / `CLAUDE.md` ergänzt.
+- [x] `LICENSE` mit DE-/EN-/RU-Hinweisen zu KI-generierter Fanart, eigenen Beiträgen und fremden Rechten ergänzt; VRM-Lizenzhinweise erhalten.
+- [x] Falschen Download-Link der Szene „Sky-Pirate Boarding Action“ auf die vorhandene eigene Szenendatei korrigiert.

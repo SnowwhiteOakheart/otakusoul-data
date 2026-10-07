@@ -10,7 +10,7 @@ the official Yen Press light novel text for the Ten Pledges) rather than from me
 characters (Sora, Shiro, Jibril, ...) rather than original characters. It started local-only for that reason;
 after an explicit go-ahead it was published to `SnowwhiteOakheart/otakusoul-data` as well, so it's also reachable
 through the app's Soul/Lorebook/Stage Gateway tabs, not just via the manual import below. Scene backgrounds
-stay local-only either way - `otakusoul-data` has no backgrounds registry.
+are included in `backgrounds/`. There is no separate backgrounds registry; background images can be imported manually.
 
 | File | Who |
 |---|---|

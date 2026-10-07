@@ -1,3 +1,130 @@
+otakusoul-data — Lizenz und Hinweise / License and notices / Лицензия и уведомления
+Stand / Updated / Обновлено: 2026-10-07
+
+DEUTSCH
+
+1. Umfang und eigene Beiträge
+Dieses Repository enthält Fan-Inhalte für OtakuSoul: KI-generierte Fanart,
+KI-unterstützte Texte, selbst entworfene Originalfiguren sowie separat bezogene
+Assets. Es ist ein unabhängiges Fanprojekt, kein offizielles Produkt und keine
+behauptete Zusammenarbeit mit Rechteinhabern der dargestellten Werke.
+
+Die unten stehende MIT-Lizenz gilt für die eigenen Wartungsskripte,
+Dokumentation, Originaltexte und sonstigen eigenen Beiträge, soweit der
+jeweilige Beitragende die dafür erforderlichen Rechte besitzt. Sie erteilt
+keine Rechte an fremden Figuren, Vorlagen, Marken oder separat lizenzierten
+Assets. Bestehende speziellere Lizenzhinweise haben Vorrang.
+
+2. KI-generierte Bilder und Fanart
+Die neu erzeugten Porträts und Emotionsbilder wurden mit generativer KI
+angefertigt; Werkzeug, Prompts und Referenzen sind in der Paketdokumentation
+bzw. den Promptdateien vermerkt. Sie sind keine offiziellen Illustrationen
+der zugrunde liegenden Anime-/Spielwerke. Originalfiguren wie Ren Takahashi
+und Aoi Mizuno sind eigenständige Entwürfe, keine Figuren eines bestehenden
+Anime. Nicht jede vorhandene Datei im Repository wurde mit KI erzeugt;
+insbesondere gelten für übernommene VRM-Modelle eigene Herkunftshinweise.
+
+Soweit die Beitragenden Rechte an eigenen KI-Bildern oder deren eigener
+Bearbeitung besitzen, erlauben sie Nutzung, Kopie, Änderung und Weitergabe
+unter den unten stehenden MIT-Bedingungen. Damit wird weder behauptet, dass
+rein KI-generierte Bilder überall urheberrechtlich geschützt sind, noch dass
+KI-Erzeugung bestehende Rechte an dargestellten Figuren oder Vorlagen aufhebt.
+
+3. Fremde Rechte und separate Assets
+Rechte an zugrunde liegenden Anime-/Spielwerken, Figuren, Namen, Logos und
+Marken verbleiben bei den jeweiligen Rechteinhabern. Dieses Repository kann
+diese Rechte nicht lizenzieren. Auch die Bezeichnung als Fanart gewährt keine
+pauschale Nutzungserlaubnis. Für eine Nutzung solcher Inhalte — insbesondere
+kommerzielle Nutzung — sind erforderliche Rechte separat zu klären.
+VRM-Modelle und andere fremde Assets unterliegen ihren jeweiligen Bedingungen;
+siehe insbesondere avatars/vrm/lizenzen.txt und die jeweiligen Quellen.
+Quellenangaben, KI-Herkunft und spezielle Lizenzhinweise bei Weitergabe erhalten.
+
+4. Gewährleistung und Kontakt
+Bereitstellung ohne Gewähr im Umfang der unten stehenden MIT-Bedingungen.
+Es wird insbesondere keine Garantie für Rechtefreiheit, Exklusivität oder
+Eignung für einen bestimmten Zweck gegeben. Rechteinhaber können konkrete
+Beanstandungen mit Dateipfad und Nachweis über die Issues dieses Repositorys
+melden: https://github.com/SnowwhiteOakheart/otakusoul-data/issues
+
+ENGLISH
+
+1. Scope and original contributions
+This independent, unofficial fan project contains AI-generated fan art,
+AI-assisted texts, original character designs and separately sourced assets.
+No affiliation with or endorsement by the owners of depicted works is claimed.
+The MIT terms below apply to original maintenance scripts, documentation,
+original texts and other original contributions only insofar as contributors
+hold the necessary rights. They do not license third-party characters, source
+works, trademarks or separately licensed assets. Specific notices take priority.
+
+2. AI-generated images and fan art
+New portraits and expressions were generated with AI; tools, prompts and
+references are recorded in package documentation or prompt files. They are
+not official illustrations. Ren Takahashi and Aoi Mizuno are original designs,
+not characters from an existing anime. Not every repository file is AI-generated;
+sourced VRM models in particular retain separate attribution and terms.
+To the extent contributors hold rights in their own AI images or original
+edits, they permit use, copying, modification and redistribution under the MIT
+terms below. This does not assert universal copyright protection for purely
+AI-generated output or remove rights in depicted characters and source works.
+
+3. Third-party rights and assets
+Rights in underlying anime/games, characters, names, logos and trademarks
+remain with their respective owners. This repository cannot license those
+rights. Calling an image fan art does not grant blanket permission to use it.
+Required permissions, particularly for commercial use, must be obtained
+separately. VRM models and other third-party assets retain their own conditions;
+see avatars/vrm/lizenzen.txt and their sources. Preserve attribution, AI-origin
+information and specific license notices when redistributing.
+
+4. Warranty and contact
+Materials are provided without warranty under the MIT terms below, including
+without any assurance of rights clearance, exclusivity or fitness for a purpose.
+Rights holders may report a specific concern, identifying the file and relevant
+rights, through https://github.com/SnowwhiteOakheart/otakusoul-data/issues
+
+РУССКИЙ
+
+1. Область применения и собственные материалы
+Это независимый неофициальный фан-проект: фан-арт, созданный ИИ, тексты с
+помощью ИИ, оригинальные персонажи и отдельно полученные ресурсы. Связь с
+правообладателями исходных произведений или их одобрение не заявляются.
+Приведённые ниже условия MIT распространяются на собственные скрипты,
+документацию, оригинальные тексты и другие собственные материалы только в
+пределах прав их авторов. Они не лицензируют чужих персонажей, исходные
+произведения, товарные знаки или отдельно лицензированные ресурсы.
+Специальные лицензионные уведомления имеют приоритет.
+
+2. Изображения ИИ и фан-арт
+Новые портреты и эмоции созданы генеративным ИИ; инструменты, промпты и
+референсы указаны в документации наборов или файлах промптов. Это не
+официальные иллюстрации. Ren Takahashi и Aoi Mizuno — оригинальные персонажи,
+а не герои существующего аниме. Не все файлы созданы ИИ: в частности,
+заимствованные VRM-модели имеют собственные источники и условия.
+В пределах принадлежащих им прав на собственные изображения ИИ или их
+оригинальную обработку авторы разрешают использование, копирование,
+изменение и распространение по условиям MIT ниже. Это не утверждает
+повсеместную защиту полностью машинных изображений авторским правом и не
+отменяет права на изображённых персонажей или исходные произведения.
+
+3. Права третьих лиц и отдельные ресурсы
+Права на исходные аниме, игры, персонажей, имена, логотипы и товарные знаки
+сохраняются за их правообладателями; этот репозиторий их не лицензирует.
+Обозначение «фан-арт» не даёт общего разрешения на использование. Необходимые
+разрешения, особенно для коммерческого использования, следует получать
+отдельно. VRM-модели и другие сторонние ресурсы имеют свои условия: см.
+avatars/vrm/lizenzen.txt и соответствующие источники. При распространении
+сохраняйте сведения об источниках, использовании ИИ и специальные лицензии.
+
+4. Гарантии и связь
+Материалы предоставляются без гарантий по условиям MIT ниже, в том числе
+без гарантий наличия всех прав, исключительности или пригодности для цели.
+Правообладатели могут сообщить о конкретной проблеме, указав файл и
+подтверждение прав: https://github.com/SnowwhiteOakheart/otakusoul-data/issues
+
+MIT TERMS — applicable only within the scope described above
+
 MIT License
 
 Copyright (c) 2026 Jofi

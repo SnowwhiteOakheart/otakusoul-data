@@ -1,86 +1,126 @@
-# 🌸 OtakuSoul Data – Optionale Inhalte & Community-Hub
+# otakusoul-data
 
-Offizielles Daten- und Community-Repository für optionale Inhalte von **[OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul)**.
+[Deutsch](#deutsch) · [English](#english) · [Русский](#русский)
 
-Dieses Repository enthält modulare Inhalte, die **nicht** fest im Basis-Release von OtakuSoul ausgeliefert werden, sondern optional über den In-App **Soul Hub** geladen oder manuell importiert werden können:
-- Zusätzliche **Charakterkarten** (V2 PNG mit eingebetteten Metadaten & Lorebooks)
-- Vollständige **Kampagnen & Presets** (mit Szenen, Hintergründen, Lorebooks und Expressions)
-- **Soul-Stage-Szenarien** für das interaktive Rollenspiel
-- **Welt-Lorebooks** für Lore- und Wissensintegration
-- Optionale **3D-VRM-Avatarmodelle**
+## Deutsch
 
----
+Separates Inhaltsrepository für [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): Charakterkarten, Emotionsbilder, Soul-Stage-Szenen, Lorebooks, Hintergründe, VRM-Avatare, Sprachdateien und Modellempfehlungen. Änderungen hier importieren nichts in eine lokale App-Installation.
 
-## 📂 Verzeichnisstruktur
+### Struktur
 
+| Pfad | Inhalt |
+|---|---|
+| `soul_registry.json` / `cards_gateway/` | Charakterkatalog und eigenständig importierbare PNG-Karten |
+| `lorebooks_registry.json` / `lorebooks_gateway/` | Lorebook-Katalog und JSON-Dateien |
+| `stages_registry.json` / `stages_gateway/` | Szenenkatalog und JSON-Dateien |
+| `presets/` | Themenpakete mit JSON-/PNG-Karten, Expressions, Hintergründen und Dokumentation; teilweise eigenen Szenen und Lorebooks |
+| `presets/cards/` | Einzelkarten als JSON und PNG |
+| `avatars/` | Zusätzliche Avatare; VRM-Modelle und Herkunftshinweise unter `avatars/vrm/` |
+| `locales/` | Deutsche und russische App-Sprachdateien; Englisch wird in der App gepflegt |
+| `recommended_models.json` | Modellempfehlungen und Metadaten, keine Modelldateien |
+| `tools/` | Wiederverwendbare Wartungs- und Prüfwerkzeuge |
+
+### Inhalte und Verwendung
+
+Die Pakete umfassen **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, weitere Anime-Einzelkarten und die Originalfiguren **Ren Takahashi / Aoi Mizuno** aus der Aobane Highschool. Der Arbeitsstand einschließlich der Emotionsbilder steht in [ROADMAP.md](ROADMAP.md).
+
+Die App lädt die drei Registries über ihre Hub-/Gateway-Ansichten. PNG-Charakterkarten lassen sich auch manuell importieren: Sie enthalten die Character-Card-V2-Definition als `chara`-Metadaten. Preset-Karten verwenden relative Bildpfade; Gateway-Karten öffentliche Repository-URLs. Für den manuellen Paketimport die Verzeichnisstruktur beibehalten. Hintergründe und VRM-Modelle bei Bedarf separat importieren; es gibt keinen eigenen Hintergrundkatalog.
+
+Charakterübersetzungen für **DE, EN und RU** liegen in `data.extensions.otakusoul_i18n`. Die Ausgangssprache steht in `source_language`; die anderen Sprachen in `translations`. Paketbeschreibungen erläutern Besonderheiten der jeweiligen Inhalte.
+
+### Pflege und Herkunft
+
+[AI.md](AI.md) beschreibt Dateiformate, Übersetzungen, Bildvorgaben, Registries und den Veröffentlichungsablauf. [AGENTS.md](AGENTS.md) und [CLAUDE.md](CLAUDE.md) verweisen darauf. Nur [ROADMAP.md](ROADMAP.md) wird als Roadmap gepflegt.
+
+Die Python-Werkzeuge sind optionale Repository-Wartung, keine App-Abhängigkeit. Installation: `python3 -m pip install -r tools/requirements.txt` in einer eigenen virtuellen Umgebung. Prüfungen ohne Schreibzugriff:
+
+```sh
+python3 tools/validate_aobane.py
+python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 ```
-otakusoul-data/
-├── cards_gateway/         # Standalone V2 PNG-Charakterkarten für das Soul Gateway
-├── lorebooks_gateway/     # Welt-Lorebooks im JSON-Format für das Lorebook Gateway
-├── stages_gateway/        # Szenarien im JSON-Format für das Soul-Stage Gateway
-├── presets/               # Vollständige Kampagnenpakete
-│   ├── cards/             # Standalone-Charakterkarten (PNG)
-│   ├── no-game-no-life/   # NGNL-Kampagne (Charaktere, 12 Episoden, Lorebooks, Hintergründe, Expressions)
-│   └── sakura-succubus-3/ # Sakura-Succubus-3-Paket (Charaktere, 6 Szenen, Lorebooks, Hintergründe)
-├── avatars/
-│   └── vrm/               # Optionale 3D-VRM-Avatare inkl. lizenzen.txt
-├── soul_registry.json     # Online-Katalog für Charakterkarten im Soul Hub
-├── lorebooks_registry.json# Online-Katalog für Welt-Lorebooks im Soul Hub
-├── stages_registry.json   # Online-Katalog für Szenarien im Soul Hub
-└── recommended_models.json# Empfohlene GGUF-Modelle für den Model-Hub
+
+Der zweite Befehl prüft einen vorhandenen Kampagnencharakter. Mit `--manifest` paketiert das Werkzeug neue Expressions und aktualisiert die Roadmap; Details stehen in [AI.md](AI.md).
+
+[LICENSE](LICENSE) enthält die Nutzungsbedingungen und Hinweise zu KI-generierter Fanart, eigenen Beiträgen und fremden Rechten. Herkunft, Bildprompts und vorhandene Lizenzhinweise bleiben bei den Paketen erhalten, insbesondere [VRM-Hinweise](avatars/vrm/lizenzen.txt). Die Veröffentlichung stellt keine pauschale Lizenz für zugrunde liegende Anime-/Spielwerke oder fremde Modelle dar.
+
+## English
+
+Separate content repository for [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): character cards, expression images, Soul Stage scenes, lorebooks, backgrounds, VRM avatars, language files and model recommendations. Repository changes do not import content into a local app installation.
+
+### Structure
+
+| Path | Contents |
+|---|---|
+| `soul_registry.json` / `cards_gateway/` | Character catalog and independently importable PNG cards |
+| `lorebooks_registry.json` / `lorebooks_gateway/` | Lorebook catalog and JSON files |
+| `stages_registry.json` / `stages_gateway/` | Scene catalog and JSON files |
+| `presets/` | Themed packages with JSON/PNG cards, expressions, backgrounds and documentation; some include their own scenes and lorebooks |
+| `presets/cards/` | Individual JSON and PNG cards |
+| `avatars/` | Additional avatars; VRM models and attribution in `avatars/vrm/` |
+| `locales/` | German and Russian app language files; English is maintained in the app |
+| `recommended_models.json` | Model recommendations and metadata, without model binaries |
+| `tools/` | Reusable maintenance and validation tools |
+
+### Content and usage
+
+Packages include **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, additional anime cards and original **Ren Takahashi / Aoi Mizuno** characters from Aobane Highschool. [ROADMAP.md](ROADMAP.md) tracks progress, including expression images.
+
+The app reads the three registries through its Hub/Gateway views. PNG character cards also support manual import: they embed the Character Card V2 definition in `chara` metadata. Preset cards use relative image paths; Gateway cards use public repository URLs. Preserve the folder structure when importing a package manually. Import backgrounds and VRM models separately as needed; there is no dedicated background catalog.
+
+Character translations for **DE, EN and RU** are stored in `data.extensions.otakusoul_i18n`. `source_language` identifies the base language; `translations` contains the other languages. Package documentation explains content-specific details.
+
+### Maintenance and attribution
+
+[AI.md](AI.md) documents file formats, translations, image requirements, registries and publication. [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md) point to it. [ROADMAP.md](ROADMAP.md) is the only maintained roadmap.
+
+Python tools are optional repository maintenance utilities, not app dependencies. Install with `python3 -m pip install -r tools/requirements.txt` in a dedicated virtual environment. Read-only checks:
+
+```sh
+python3 tools/validate_aobane.py
+python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 ```
 
----
+The second command validates an existing campaign character. With `--manifest`, the tool packages new expressions and updates the roadmap; see [AI.md](AI.md).
 
-## 🛠️ Neue Inhalte hinzufügen
+[LICENSE](LICENSE) contains usage terms and notices about AI-generated fan art, original contributions and third-party rights. Attribution, image prompts and existing license notices remain with the packages, especially [VRM notices](avatars/vrm/lizenzen.txt). Publication does not grant a blanket license to underlying anime/game works or third-party models.
 
-### 1. Neuen Charakter für das Soul Gateway bereitstellen
-1. Speichere die V2-Charakterkarte als PNG in `cards_gateway/<Name>.png`.
-2. Trage den Charakter in `soul_registry.json` ein:
-   ```json
-   {
-     "name": "Charakter Name",
-     "author": "Dein Name",
-     "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Charakter_Name.png"
-   }
-   ```
+## Русский
 
-### 2. Neues Welt-Lorebook bereitstellen
-1. Lege die JSON-Datei in `lorebooks_gateway/<name>.json` ab.
-2. Trage das Lorebook in `lorebooks_registry.json` ein.
+Отдельный репозиторий контента для [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): карточки персонажей, изображения эмоций, сцены Soul Stage, лорбуки, фоны, VRM-аватары, языковые файлы и рекомендации моделей. Изменения в репозитории не импортируют контент в локальную установку приложения.
 
-### 3. Neues Soul-Stage-Szenario bereitstellen
-1. Lege die Szenen-JSON in `stages_gateway/<name>.json` ab.
-2. Trage das Szenario in `stages_registry.json` ein.
+### Структура
 
-### 4. Ein ganzes Kampagnen-Preset bereitstellen
-1. Erstelle einen Ordner unter `presets/<kampagnen-name>/`.
-2. Strukturiere das Preset mit Charakteren, `scenes/`, `lorebooks/`, `backgrounds/` und optional `expressions/`.
-3. Siehe `presets/no-game-no-life/` oder `presets/sakura-succubus-3/` als Referenz.
+| Путь | Содержимое |
+|---|---|
+| `soul_registry.json` / `cards_gateway/` | Каталог персонажей и PNG-карточки для отдельного импорта |
+| `lorebooks_registry.json` / `lorebooks_gateway/` | Каталог лорбуков и JSON-файлы |
+| `stages_registry.json` / `stages_gateway/` | Каталог сцен и JSON-файлы |
+| `presets/` | Тематические наборы: JSON-/PNG-карточки, эмоции, фоны и документация; некоторые содержат собственные сцены и лорбуки |
+| `presets/cards/` | Отдельные карточки в JSON и PNG |
+| `avatars/` | Дополнительные аватары; VRM-модели и сведения об источниках в `avatars/vrm/` |
+| `locales/` | Немецкие и русские языковые файлы приложения; английский поддерживается в приложении |
+| `recommended_models.json` | Рекомендации и метаданные моделей без файлов самих моделей |
+| `tools/` | Повторно используемые инструменты обслуживания и проверки |
 
----
+### Контент и использование
 
-## 🎭 3D-VRM-Avatare
-Unter `avatars/vrm/` liegen zusätzliche VRM-Modelle für OtakuSoul.
-- Die Lizenz- und Quellangaben für alle Modelle sind in `avatars/vrm/lizenzen.txt` hinterlegt.
-- Nur Modelle mit freier Weiterverbreitungserlaubnis (z. B. CC-BY oder Erlaubnis auf VRoid Hub) dürfen hier aufgenommen werden.
+Доступны наборы **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, дополнительные аниме-карточки и оригинальные персонажи **Ren Takahashi / Aoi Mizuno** из старшей школы Aobane. Ход работы, включая изображения эмоций, отражён в [ROADMAP.md](ROADMAP.md).
 
----
+Приложение читает три реестра в разделах Hub/Gateway. PNG-карточки также можно импортировать вручную: определение Character Card V2 встроено в метаданные `chara`. Карточки наборов используют относительные пути к изображениям, а карточки Gateway — публичные URL репозитория. При ручном импорте набора сохраняйте структуру каталогов. Фоны и VRM-модели при необходимости импортируются отдельно; отдельного каталога фонов нет.
 
-## 📜 Lizenz
-- Der Repository-Rahmen und eigene Daten stehen unter der **MIT-Lizenz** (siehe [LICENSE](LICENSE)).
-- Einzelne Charakterkarten, Texte und 3D-Modelle unterliegen ihren jeweiligen Urheberrechten bzw. Fan-Content-Lizenzen (siehe Dokumentation im jeweiligen Ordner).
+Переводы персонажей на **DE, EN и RU** хранятся в `data.extensions.otakusoul_i18n`. `source_language` задаёт исходный язык, а `translations` содержит остальные языки. Особенности наборов описаны в их документации.
 
-## Schulalltag in Aobane
+### Обслуживание и источники
 
-Das Originalpaket [`presets/aobane-highschool/`](presets/aobane-highschool/README.md) enthält Ren Takahashi und Aoi Mizuno, zwei 17-jährige Mitschüler der Klasse 2-B einer fiktiven Highschool in Yokohama. Beide Karten sind in Deutsch, Englisch und Russisch vollständig ausgearbeitet und verfügen über sechs Expressions. Die beiden Figuren sind im Soul Hub einzeln verfügbar.
+[AI.md](AI.md) описывает форматы файлов, переводы, требования к изображениям, реестры и публикацию. [AGENTS.md](AGENTS.md) и [CLAUDE.md](CLAUDE.md) ссылаются на него. Единственная поддерживаемая дорожная карта — [ROADMAP.md](ROADMAP.md).
 
-Auch die vorhandenen Roadmap-Figuren Yor Forger, Megumin, Kaguya Shinomiya sowie die jeweils vier Figuren der Pakete Dungeon Meshi, Steins;Gate, Lycoris Recoil und Sword Art Online sind nun im Charakter-Hub registriert. Alle 16 Kampagnenfiguren verfügen über ihr Hauptporträt und sechs passende Expressions. Die 96 neuen Emotionsbilder sind in den Preset- und Hub-Karten eingebunden; der Abschluss steht in der Roadmap.
+Python-инструменты предназначены для необязательного обслуживания репозитория и не являются зависимостью приложения. Установка: `python3 -m pip install -r tools/requirements.txt` в отдельном виртуальном окружении. Проверки без изменения файлов:
 
-Der aktuelle Arbeitsstand steht in [`ROADMAP.md`](ROADMAP.md); `roadmap_optional_content.md` enthält denselben Stand.
+```sh
+python3 tools/validate_aobane.py
+python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
+```
 
-## Kampagnen-Expressions prüfen
+Вторая команда проверяет существующего персонажа кампании. С параметром `--manifest` инструмент упаковывает новые изображения эмоций и обновляет дорожную карту; подробности — в [AI.md](AI.md).
 
-Jede fertiggestellte Kampagnenfigur erhält sechs WebP-Bilder (640×800) unter `presets/<paket>/expressions/<figur>/` und die zugehörigen Bildprompts in `prompts.json`. Die Preset-Karte referenziert Paketdateien, die Hub-Karte öffentliche Repository-URLs. Beide PNG-Karten enthalten die aktualisierte V2-Definition.
-
-`python3 tools/package_campaign_expressions.py <paket> <figur>` prüft ein fertiges Paket auf sechs unterschiedliche Bilder, korrekte Größen und identische PNG/JSON-Metadaten. Benötigt Python 3 und Pillow. Bildgenerierung erfolgt mit dem eingebauten `image_gen`-Werkzeug anhand des vorhandenen Avatars; die Texte und ihre Übersetzungen bleiben erhalten.
+[LICENSE](LICENSE) содержит условия использования и сведения о фан-арте ИИ, собственных материалах и правах третьих лиц. Источники, промпты изображений и имеющиеся лицензионные сведения сохраняются в наборах, особенно [сведения о VRM](avatars/vrm/lizenzen.txt). Публикация не предоставляет общую лицензию на исходные аниме, игры или сторонние модели.

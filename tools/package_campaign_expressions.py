@@ -88,8 +88,7 @@ def roadmap(current=None):
         text = text[:begin] + block + text[finish:]
     else:
         text += '\n\n' + block + '\n'
-    for name in ('ROADMAP.md', 'roadmap_optional_content.md'):
-        (ROOT / name).write_text(text)
+    (ROOT / 'ROADMAP.md').write_text(text)
 
 def package(group, slug, manifest):
     package = ROOT / 'presets' / group
@@ -164,4 +163,3 @@ if __name__ == '__main__':
         package(args.group, args.slug, args.manifest)
     else:
         validate(args.group, args.slug)
-        roadmap((args.group, args.slug))

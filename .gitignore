@@ -10,3 +10,10 @@ Thumbs.db
 # Temporäre Archive
 *.zip
 *.tar.gz
+
+# Lokale Python-Wartungsumgebung
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
