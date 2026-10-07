@@ -54,7 +54,15 @@
         }
       },
       "custom_title": "Hououin Kyouma",
-      "custom_avatar": "Okabe_Rintarou.png"
+      "custom_avatar": "Okabe_Rintarou.png",
+      "expressions": {
+        "neutral": "expressions/okabe_rintarou/neutral.webp",
+        "happy": "expressions/okabe_rintarou/happy.webp",
+        "relaxed": "expressions/okabe_rintarou/relaxed.webp",
+        "surprised": "expressions/okabe_rintarou/surprised.webp",
+        "angry": "expressions/okabe_rintarou/angry.webp",
+        "sad": "expressions/okabe_rintarou/sad.webp"
+      }
     }
   }
 }
