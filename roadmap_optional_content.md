@@ -178,7 +178,7 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 
 ### Noch offene Erweiterungen
 
-- [ ] Kampagnen-Expressions: 11/16 Figuren und 66/96 Bilder fertig (Einzelstand unten).
+- [ ] Kampagnen-Expressions: 12/16 Figuren und 72/96 Bilder fertig (Einzelstand unten).
 
 
 ## Gesicherte Inhaltsarbeiten vom 07.10.2026
@@ -191,7 +191,7 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 <!-- campaign-expressions:start -->
 ### Kampagnen-Expressions – Fortschritt
 
-11/16 Figuren vollständig; 66/96 Emotionsbilder fertig, 30 noch offen.
+12/16 Figuren vollständig; 72/96 Emotionsbilder fertig, 24 noch offen.
 
 - [x] **Laios Touden** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Marcille Donato** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
@@ -204,7 +204,7 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 - [x] **Chisato Nishikigi** (lycoris-recoil): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Takina Inoue** (lycoris-recoil): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Mizuki Nakahara** (lycoris-recoil): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
-- [ ] **Kurumi** (lycoris-recoil): sechs Expressions fehlen.
+- [x] **Kurumi** (lycoris-recoil): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [ ] **Kirito (Kazuto Kirigaya)** (sword-art-online): sechs Expressions fehlen.
 - [ ] **Asuna Yuuki** (sword-art-online): sechs Expressions fehlen.
 - [ ] **Klein (Ryoutarou Tsuboi)** (sword-art-online): sechs Expressions fehlen.

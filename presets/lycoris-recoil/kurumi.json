@@ -54,7 +54,15 @@
         }
       },
       "custom_title": "Die Meister-Hackerin",
-      "custom_avatar": "Kurumi.png"
+      "custom_avatar": "Kurumi.png",
+      "expressions": {
+        "neutral": "expressions/kurumi/neutral.webp",
+        "happy": "expressions/kurumi/happy.webp",
+        "relaxed": "expressions/kurumi/relaxed.webp",
+        "surprised": "expressions/kurumi/surprised.webp",
+        "angry": "expressions/kurumi/angry.webp",
+        "sad": "expressions/kurumi/sad.webp"
+      }
     }
   }
 }
