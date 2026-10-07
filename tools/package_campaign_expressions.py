@@ -5,6 +5,7 @@ import copy
 import hashlib
 import json
 import struct
+import subprocess
 import zlib
 from pathlib import Path
 from PIL import Image, ImageOps, ImageDraw
@@ -57,14 +58,19 @@ def complete(group, slug):
     expressions = card['data']['extensions'].get('expressions', {})
     return set(expressions) == set(MOODS) and all((p.parent / expressions[mood]).is_file() for mood in MOODS)
 
-def roadmap():
-    total = sum(complete(g, slug) for g, cast in CAST.items() for slug in cast)
+def roadmap(current=None):
+    def published(group, slug):
+        if current == (group, slug):
+            return complete(group, slug)
+        tracked = subprocess.check_output(['git', 'ls-files', '--', f'presets/{group}/expressions/{slug}/neutral.webp'], cwd=ROOT)
+        return bool(tracked.strip()) and complete(group, slug)
+    total = sum(published(g, slug) for g, cast in CAST.items() for slug in cast)
     rows = ['### Kampagnen-Expressions – Fortschritt', '',
             f'{total}/16 Figuren vollständig; {total * 6}/96 Emotionsbilder fertig, {(16-total) * 6} noch offen.', '']
     for group, cast in CAST.items():
         for slug in cast:
             card = json.loads((ROOT / 'presets' / group / f'{slug}.json').read_text())
-            done = complete(group, slug)
+            done = published(group, slug)
             rows.append(f'- [{"x" if done else " "}] **{card["data"]["name"]}** ({group}): ' + ('sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.' if done else 'sechs Expressions fehlen.'))
     text = (ROOT / 'ROADMAP.md').read_text()
     old = '- [ ] Für die 16 Kampagnenfiguren je sechs Expressions ergänzen (96 Bilder insgesamt); die vorhandenen Avatare allein decken den allgemeinen Expressions-Qualitätsstandard noch nicht ab.'
@@ -117,7 +123,7 @@ def package(group, slug, manifest):
         del changed['data']['extensions']['expressions']
     assert changed == original, 'Profiltexte verändert'
     validate(group, slug)
-    roadmap()
+    roadmap((group, slug))
     preview = Image.new('RGB', (1200,330), '#eeeeee')
     draw = ImageDraw.Draw(preview)
     for column, mood in enumerate(MOODS):
@@ -158,3 +164,4 @@ if __name__ == '__main__':
         package(args.group, args.slug, args.manifest)
     else:
         validate(args.group, args.slug)
+        roadmap((args.group, args.slug))

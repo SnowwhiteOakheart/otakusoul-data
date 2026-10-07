@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Der Fallenentschärfer",
-      "custom_avatar": "Chilchuck_Tims.png"
+      "custom_avatar": "Chilchuck_Tims.png",
+      "expressions": {
+        "neutral": "expressions/chilchuck_tims/neutral.webp",
+        "happy": "expressions/chilchuck_tims/happy.webp",
+        "relaxed": "expressions/chilchuck_tims/relaxed.webp",
+        "surprised": "expressions/chilchuck_tims/surprised.webp",
+        "angry": "expressions/chilchuck_tims/angry.webp",
+        "sad": "expressions/chilchuck_tims/sad.webp"
+      }
     }
   }
 }
