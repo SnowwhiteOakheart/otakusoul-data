@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Die stärkste Lycoris",
-      "custom_avatar": "Chisato_Nishikigi.png"
+      "custom_avatar": "Chisato_Nishikigi.png",
+      "expressions": {
+        "neutral": "expressions/chisato_nishikigi/neutral.webp",
+        "happy": "expressions/chisato_nishikigi/happy.webp",
+        "relaxed": "expressions/chisato_nishikigi/relaxed.webp",
+        "surprised": "expressions/chisato_nishikigi/surprised.webp",
+        "angry": "expressions/chisato_nishikigi/angry.webp",
+        "sad": "expressions/chisato_nishikigi/sad.webp"
+      }
     }
   }
 }
