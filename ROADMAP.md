@@ -155,3 +155,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
    - [~] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
    - [~] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
    - [~] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder folgen)*
+
+## Originalfiguren vom 07.10.2026
+
+- [x] Ren Takahashi und Aoi Mizuno, zwei 17-jährige Mitschüler der Klasse 2-B an der fiktiven Aobane-Oberschule in Yokohama. Vollständige V2-Profile auf DE/EN/RU, je ein Avatar, sechs Expressions, zwei alternative Begrüßungen und Hub-Karten. Paket: `presets/aobane-highschool/`. Ausschließlich im Repository bereitgestellt.

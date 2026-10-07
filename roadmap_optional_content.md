@@ -161,3 +161,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 22 neue Avatare (700×937 PNG mit V2-Payload), 36 Expressions (640×800 WebP), eine zusätzliche Grimoire-Pose und 19 leere Szenenhintergründe (1376×768 PNG). Alle Avatare wurden ausschließlich aus Text generiert. Die Expressions und Grimoire-Pose verwenden nur die jeweils neu generierten Avatare als Referenz. Vorhandene Roadmap-Bilder wurden ersetzt.
 
 Die Hintergründe liegen im jeweiligen Preset unter `backgrounds/`; Szenen referenzieren ihren Dateinamen über `starting_bg`. Zur lokalen Nutzung die gewünschten Hintergründe über Soul Stage importieren. Expressions liegen unter `presets/<paket>/expressions/`; die Karten-Zuordnung verwendet `expressions/<paket>/<emotion>.webp` für das lokale Expressions-Verzeichnis. Bereits importierte lokale Karten bei Bedarf erneut importieren.
+
+## Originalfiguren vom 07.10.2026
+
+- [x] Ren Takahashi und Aoi Mizuno, zwei 17-jährige Mitschüler der Klasse 2-B an der fiktiven Aobane-Oberschule in Yokohama. Vollständige V2-Profile auf DE/EN/RU, je ein Avatar, sechs Expressions, zwei alternative Begrüßungen und Hub-Karten. Paket: `presets/aobane-highschool/`. Ausschließlich im Repository bereitgestellt.

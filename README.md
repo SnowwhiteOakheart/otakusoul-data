@@ -70,3 +70,7 @@ Unter `avatars/vrm/` liegen zusätzliche VRM-Modelle für OtakuSoul.
 ## 📜 Lizenz
 - Der Repository-Rahmen und eigene Daten stehen unter der **MIT-Lizenz** (siehe [LICENSE](LICENSE)).
 - Einzelne Charakterkarten, Texte und 3D-Modelle unterliegen ihren jeweiligen Urheberrechten bzw. Fan-Content-Lizenzen (siehe Dokumentation im jeweiligen Ordner).
+
+## Originalfiguren: Aobane Highschool
+
+[`Ren Takahashi und Aoi Mizuno`](presets/aobane-highschool/README.md) besuchen gemeinsam die Klasse 2-B in Yokohama. Das Paket enthält vollständige Charakterprofile auf Deutsch, Englisch und Russisch sowie je ein Porträt und sechs Expressions. Beide V2-Karten sind im Soul Hub verfügbar.
