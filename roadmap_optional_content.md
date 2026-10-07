@@ -178,7 +178,7 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 
 ### Noch offene Erweiterungen
 
-- [ ] Für die 16 Kampagnenfiguren je sechs Expressions ergänzen (96 Bilder insgesamt); die vorhandenen Avatare allein decken den allgemeinen Expressions-Qualitätsstandard noch nicht ab.
+- [ ] Kampagnen-Expressions: 1/16 Figuren und 6/96 Bilder fertig (Einzelstand unten).
 
 
 ## Gesicherte Inhaltsarbeiten vom 07.10.2026
@@ -186,3 +186,27 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 - [x] Vorhandene offene Profiländerungen von `sow_*` auf `custom_*` übernommen; neun Standalone-JSON-Karten und neue Expressions für die Standalone- und Sakura-Figuren ergänzt.
 - [x] Vorhandene englische und russische Sakura-Szenenübersetzungen erhalten, PNG-Karten mit ihren JSON-Definitionen abgeglichen und relative Expressions-Pfade auf vorhandene Paketdateien korrigiert.
 - [x] Bildinhalte der offenen Dateien unverändert erhalten; keine lokale App-Installation verändert.
+
+
+<!-- campaign-expressions:start -->
+### Kampagnen-Expressions – Fortschritt
+
+1/16 Figuren vollständig; 6/96 Emotionsbilder fertig, 90 noch offen.
+
+- [x] **Laios Touden** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
+- [ ] **Marcille Donato** (dungeon-meshi): sechs Expressions fehlen.
+- [ ] **Chilchuck Tims** (dungeon-meshi): sechs Expressions fehlen.
+- [ ] **Senshi** (dungeon-meshi): sechs Expressions fehlen.
+- [ ] **Okabe Rintarou** (steins-gate): sechs Expressions fehlen.
+- [ ] **Mayuri Shiina** (steins-gate): sechs Expressions fehlen.
+- [ ] **Itaru Hashida** (steins-gate): sechs Expressions fehlen.
+- [ ] **Suzuha Amane** (steins-gate): sechs Expressions fehlen.
+- [ ] **Chisato Nishikigi** (lycoris-recoil): sechs Expressions fehlen.
+- [ ] **Takina Inoue** (lycoris-recoil): sechs Expressions fehlen.
+- [ ] **Mizuki Nakahara** (lycoris-recoil): sechs Expressions fehlen.
+- [ ] **Kurumi** (lycoris-recoil): sechs Expressions fehlen.
+- [ ] **Kirito (Kazuto Kirigaya)** (sword-art-online): sechs Expressions fehlen.
+- [ ] **Asuna Yuuki** (sword-art-online): sechs Expressions fehlen.
+- [ ] **Klein (Ryoutarou Tsuboi)** (sword-art-online): sechs Expressions fehlen.
+- [ ] **Lisbeth (Rika Shinozaki)** (sword-art-online): sechs Expressions fehlen.
+<!-- campaign-expressions:end -->

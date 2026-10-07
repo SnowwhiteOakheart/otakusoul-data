@@ -75,6 +75,12 @@ Unter `avatars/vrm/` liegen zusätzliche VRM-Modelle für OtakuSoul.
 
 Das Originalpaket [`presets/aobane-highschool/`](presets/aobane-highschool/README.md) enthält Ren Takahashi und Aoi Mizuno, zwei 17-jährige Mitschüler der Klasse 2-B einer fiktiven Highschool in Yokohama. Beide Karten sind in Deutsch, Englisch und Russisch vollständig ausgearbeitet und verfügen über sechs Expressions. Die beiden Figuren sind im Soul Hub einzeln verfügbar.
 
-Auch die vorhandenen Roadmap-Figuren Yor Forger, Megumin, Kaguya Shinomiya sowie die jeweils vier Figuren der Pakete Dungeon Meshi, Steins;Gate, Lycoris Recoil und Sword Art Online sind nun im Charakter-Hub registriert. Die Kampagnenfiguren haben vorerst ihre bestehenden Hauptporträts; zusätzliche Expressions bleiben in der Roadmap offen.
+Auch die vorhandenen Roadmap-Figuren Yor Forger, Megumin, Kaguya Shinomiya sowie die jeweils vier Figuren der Pakete Dungeon Meshi, Steins;Gate, Lycoris Recoil und Sword Art Online sind nun im Charakter-Hub registriert. Die Kampagnenfiguren verwenden ihre bestehenden Hauptporträts; die sechs Expressions je Figur werden einzeln ergänzt. Der genaue Fortschritt steht in der Roadmap.
 
 Der aktuelle Arbeitsstand steht in [`ROADMAP.md`](ROADMAP.md); `roadmap_optional_content.md` enthält denselben Stand.
+
+## Kampagnen-Expressions prüfen
+
+Jede fertiggestellte Kampagnenfigur erhält sechs WebP-Bilder (640×800) unter `presets/<paket>/expressions/<figur>/` und die zugehörigen Bildprompts in `prompts.json`. Die Preset-Karte referenziert Paketdateien, die Hub-Karte öffentliche Repository-URLs. Beide PNG-Karten enthalten die aktualisierte V2-Definition.
+
+`python3 tools/package_campaign_expressions.py <paket> <figur>` prüft ein fertiges Paket auf sechs unterschiedliche Bilder, korrekte Größen und identische PNG/JSON-Metadaten. Benötigt Python 3 und Pillow. Bildgenerierung erfolgt mit dem eingebauten `image_gen`-Werkzeug anhand des vorhandenen Avatars; die Texte und ihre Übersetzungen bleiben erhalten.

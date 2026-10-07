@@ -54,7 +54,15 @@
         }
       },
       "custom_title": "Der Monster-Gourmet",
-      "custom_avatar": "Laios_Touden.png"
+      "custom_avatar": "Laios_Touden.png",
+      "expressions": {
+        "neutral": "expressions/laios_touden/neutral.webp",
+        "happy": "expressions/laios_touden/happy.webp",
+        "relaxed": "expressions/laios_touden/relaxed.webp",
+        "surprised": "expressions/laios_touden/surprised.webp",
+        "angry": "expressions/laios_touden/angry.webp",
+        "sad": "expressions/laios_touden/sad.webp"
+      }
     }
   }
 }
