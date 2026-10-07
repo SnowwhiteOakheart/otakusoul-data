@@ -176,9 +176,9 @@ Die Hintergründe liegen im jeweiligen Preset unter `backgrounds/`; Szenen refer
 
 Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine Charaktere, Bilder oder Szenen in eine lokale App-Installation importiert.
 
-### Noch offene Erweiterungen
+### Abgeschlossene Erweiterungen
 
-- [ ] Kampagnen-Expressions: 15/16 Figuren und 90/96 Bilder fertig (Einzelstand unten).
+- [x] Kampagnen-Expressions: 16/16 Figuren und 96/96 Bilder fertig (Einzelstand unten).
 
 
 ## Gesicherte Inhaltsarbeiten vom 07.10.2026
@@ -191,7 +191,7 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 <!-- campaign-expressions:start -->
 ### Kampagnen-Expressions – Fortschritt
 
-15/16 Figuren vollständig; 90/96 Emotionsbilder fertig, 6 noch offen.
+16/16 Figuren vollständig; 96/96 Emotionsbilder fertig, 0 noch offen.
 
 - [x] **Laios Touden** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Marcille Donato** (dungeon-meshi): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
@@ -208,5 +208,9 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 - [x] **Kirito (Kazuto Kirigaya)** (sword-art-online): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Asuna Yuuki** (sword-art-online): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 - [x] **Klein (Ryoutarou Tsuboi)** (sword-art-online): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
-- [ ] **Lisbeth (Rika Shinozaki)** (sword-art-online): sechs Expressions fehlen.
+- [x] **Lisbeth (Rika Shinozaki)** (sword-art-online): sechs Expressions geprüft und in Preset- und Hub-Karte eingebunden.
 <!-- campaign-expressions:end -->
+
+## Kampagnen-Bildbestand vom 07.10.2026
+
+Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptporträt über sechs neue Emotionsbilder (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`): insgesamt 96 WebP-Dateien in 640×800. Die Bilder wurden mit dem eingebauten `image_gen`-Werkzeug anhand des jeweiligen vorhandenen Avatars erstellt und visuell geprüft. Preset-JSON, Preset-PNG und Hub-PNG sind abgeglichen; die bisherigen Profiltexte und Übersetzungen sowie die Hauptporträts bleiben erhalten. Vollständige Prompts liegen unter `presets/<paket>/expressions/<figur>/prompts.json`. Jede Figur wurde einzeln committed und gepusht. Keine lokale App-Installation wurde verändert.

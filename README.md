@@ -75,7 +75,7 @@ Unter `avatars/vrm/` liegen zusätzliche VRM-Modelle für OtakuSoul.
 
 Das Originalpaket [`presets/aobane-highschool/`](presets/aobane-highschool/README.md) enthält Ren Takahashi und Aoi Mizuno, zwei 17-jährige Mitschüler der Klasse 2-B einer fiktiven Highschool in Yokohama. Beide Karten sind in Deutsch, Englisch und Russisch vollständig ausgearbeitet und verfügen über sechs Expressions. Die beiden Figuren sind im Soul Hub einzeln verfügbar.
 
-Auch die vorhandenen Roadmap-Figuren Yor Forger, Megumin, Kaguya Shinomiya sowie die jeweils vier Figuren der Pakete Dungeon Meshi, Steins;Gate, Lycoris Recoil und Sword Art Online sind nun im Charakter-Hub registriert. Die Kampagnenfiguren verwenden ihre bestehenden Hauptporträts; die sechs Expressions je Figur werden einzeln ergänzt. Der genaue Fortschritt steht in der Roadmap.
+Auch die vorhandenen Roadmap-Figuren Yor Forger, Megumin, Kaguya Shinomiya sowie die jeweils vier Figuren der Pakete Dungeon Meshi, Steins;Gate, Lycoris Recoil und Sword Art Online sind nun im Charakter-Hub registriert. Alle 16 Kampagnenfiguren verfügen über ihr Hauptporträt und sechs passende Expressions. Die 96 neuen Emotionsbilder sind in den Preset- und Hub-Karten eingebunden; der Abschluss steht in der Roadmap.
 
 Der aktuelle Arbeitsstand steht in [`ROADMAP.md`](ROADMAP.md); `roadmap_optional_content.md` enthält denselben Stand.
 

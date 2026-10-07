@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Die Meisterschmiedin",
-      "custom_avatar": "Lisbeth_Rika.png"
+      "custom_avatar": "Lisbeth_Rika.png",
+      "expressions": {
+        "neutral": "expressions/lisbeth_rika/neutral.webp",
+        "happy": "expressions/lisbeth_rika/happy.webp",
+        "relaxed": "expressions/lisbeth_rika/relaxed.webp",
+        "surprised": "expressions/lisbeth_rika/surprised.webp",
+        "angry": "expressions/lisbeth_rika/angry.webp",
+        "sad": "expressions/lisbeth_rika/sad.webp"
+      }
     }
   }
 }
