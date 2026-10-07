@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Okarins Geisel",
-      "custom_avatar": "Mayuri_Shiina.png"
+      "custom_avatar": "Mayuri_Shiina.png",
+      "expressions": {
+        "neutral": "expressions/mayuri_shiina/neutral.webp",
+        "happy": "expressions/mayuri_shiina/happy.webp",
+        "relaxed": "expressions/mayuri_shiina/relaxed.webp",
+        "surprised": "expressions/mayuri_shiina/surprised.webp",
+        "angry": "expressions/mayuri_shiina/angry.webp",
+        "sad": "expressions/mayuri_shiina/sad.webp"
+      }
     }
   }
 }
