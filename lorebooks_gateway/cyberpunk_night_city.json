@@ -1,265 +1,565 @@
 {
-    "name": "Cyberpunk 2077: Night City",
-    "n_depth": 3,
-    "entries": [
-        {
-            "name": "Night City Sensory Core & Aesthetic",
-            "key": [
-                "night city",
+  "name": "Cyberpunk 2077: Night City",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Night City Sensory Core & Aesthetic",
+      "key": [
+        "night city",
+        "Watson",
+        "Pacifica",
+        "Kabuki",
+        "Heywood",
+        "Westbrook",
+        "neon",
+        "eddies",
+        "corp",
+        "street"
+      ],
+      "content": "[SENSORY ENVIRONMENT OVERLAY]\nNight City is a decaying, neon-drenched corporate megalopolis. Rain is acidic, washing over grimy, high-tech streets. Describe the constant sensory overload: flickering neon advertisements, low-frequency holographic noise, wet asphalt reflecting red and blue lights, the smell of burnt plastic and synthetic street food. Factions, mercenaries, and homeless people crowd the bottom layer, while pristine corporate AVs glide silently above the clouds.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "nature",
+        "medieval",
+        "magic",
+        "village"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Atmosphäre & Sensorik von Night City",
+              "content": "[SENSORISCHE UMGEBUNG / ATMOSPHÄRE]\nNight City ist eine zerfallende, neonüberflutete Konzern-Megalopolis. Saurer Regen wäscht über verdreckte High-Tech-Straßen. Betone die ständige Reizüberflutung: flackernde Neonreklamen, tiefes holografisches Brummen, nasser Asphalt, der rotes und blaues Licht reflektiert, der Geruch von verbranntem Plastik und synthetischem Streetfood. Gangs, Söldner und Obdachlose drängen sich auf den unteren Ebenen, während makellose AVs der Konzerne lautlos über den giftigen Wolken gleiten.",
+              "key": [
+                "Night City",
                 "Watson",
                 "Pacifica",
                 "Kabuki",
                 "Heywood",
                 "Westbrook",
-                "neon",
-                "eddies",
-                "corp",
-                "street"
-            ],
-            "content": "[SENSORY ENVIRONMENT OVERLAY]\nNight City is a decaying, neon-drenched corporate megalopolis. Rain is acidic, washing over grimy, high-tech streets. Describe the constant sensory overload: flickering neon advertisements, low-frequency holographic noise, wet asphalt reflecting red and blue lights, the smell of burnt plastic and synthetic street food. Factions, mercenaries, and homeless people crowd the bottom layer, while pristine corporate AVs glide silently above the clouds.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "nature",
-                "medieval",
-                "magic",
-                "village"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Edgerunner Slang & Dialogue Rules",
-            "key": [
-                "talk",
-                "say",
-                "speak",
-                "conversation",
-                "chat",
-                "merc"
-            ],
-            "content": "[DIALOGUE DIRECTIVE / SLANG]\nAll characters must speak with local Night City street slang organically. Do not explain the terms. Use words like: \n- 'Choom' / 'Choomba' (friend, buddy)\n- 'Eddies' (Eurodollars, money)\n- 'Preem' (premium, cool, great)\n- 'Flatlined' (killed, dead)\n- 'Delta' (to leave, get out fast)\n- 'Nova' (awesome, incredible)\n- 'Gonk' (idiot, fool)\n- 'Chrome' (cyberware, implants)\n- 'Corpo' (corporate employee/asset). Keep dialogue sharp, cynical, and street-smart.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "corpo plaza",
-                "arasaka tower",
-                "corporate office"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Megacorps: Arasaka & Militech",
-            "key": [
+                "Neon",
+                "Eddies",
+                "Konzern",
+                "Straße"
+              ]
+            },
+            "ru": {
+              "name": "Атмосфера и сенсорика Найт-Сити",
+              "content": "[СЕНСОРНАЯ АТМОСФЕРА ОКРУЖЕНИЯ]\nНайт-Сити — распадающийся, залитый неоном корпоративный мегаполис. Кислотный дождь хлещет по грязным высокотехнологичным улицам. Описывай постоянную сенсорную перегрузку: мерцающая голографическая реклама, низкочастотный гул неоновых панелей, мокрый асфальт, отражающий свет фар, запах паленого пластика и синтетического фастфуда. Наемники, банды и бродяги кишат внизу, пока белоснежные корпоративные ави бесшумно скользят над ядовитыми облаками.",
+              "key": [
+                "Найт-Сити",
+                "Уотсон",
+                "Пасифика",
+                "Кабуки",
+                "Хейвуд",
+                "Уэстбрук",
+                "неон",
+                "эдди",
+                "корпорат",
+                "улица"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Edgerunner Slang & Dialogue Rules",
+      "key": [
+        "talk",
+        "say",
+        "speak",
+        "conversation",
+        "chat",
+        "merc"
+      ],
+      "content": "[DIALOGUE DIRECTIVE / SLANG]\nAll characters must speak with local Night City street slang organically. Do not explain the terms. Use words like: \n- 'Choom' / 'Choomba' (friend, buddy)\n- 'Eddies' (Eurodollars, money)\n- 'Preem' (premium, cool, great)\n- 'Flatlined' (killed, dead)\n- 'Delta' (to leave, get out fast)\n- 'Nova' (awesome, incredible)\n- 'Gonk' (idiot, fool)\n- 'Chrome' (cyberware, implants)\n- 'Corpo' (corporate employee/asset). Keep dialogue sharp, cynical, and street-smart.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "corpo plaza",
+        "arasaka tower",
+        "corporate office"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Edgerunner-Slang & Dialogregeln",
+              "content": "[DIALOG-REGEL / SLANG]\nAlle Charaktere sprechen organisch im typischen Straßenslang von Night City. Begriffe werden im Dialog nicht erklärt. Nutze Begriffe wie:\n- 'Choom' / 'Choomba' (Kumpel, Freund)\n- 'Eddies' (Eurodollar, Kohle)\n- 'Preem' (erstklassig, genial, spitze)\n- 'Flatlined' (erledigt, tot, abgekratzt)\n- 'Delta' (schnell abhauen, verschwinden)\n- 'Nova' (fantastisch, großartig)\n- 'Gonk' (Idiot, Dummkopf)\n- 'Chrome' (Cyberware, Implantate)\n- 'Corpo' (Konzernmitarbeiter / Schlipsträger). Halte Dialoge zynisch, scharfzüngig und straßenschlau.",
+              "key": [
+                "sprechen",
+                "reden",
+                "sagen",
+                "Unterhaltung",
+                "Chat",
+                "Söldner"
+              ]
+            },
+            "ru": {
+              "name": "Сленг эджраннеров и правила диалогов",
+              "content": "[ПРАВИЛА ДИАЛОГА / УЛИЧНЫЙ СЛЕНГ]\nПерсонажи общаются на живом уличном сленге Найт-Сити без закадровых пояснений терминов. Используй слова:\n- «Чумба» / «Чум» (друг, приятель)\n- «Эдди» (евродоллары, деньги)\n- «Премиум» / «Прем» (отлично, высший класс)\n- «Схлопнулся» / «Обнулился» (погиб, убит)\n- «Дернуть» / «Дельта» (быстро свалить, уйти)\n- «Нова» (потрясающе, круто)\n- «Гонк» (идиот, тупица)\n- «Хром» (киберимпланты, железо)\n- «Корпорат» / «Корпо» (служащий корпорации). Диалоги должны быть резкими, циничными и уличными.",
+              "key": [
+                "говорить",
+                "сказать",
+                "разговор",
+                "беседа",
+                "чат",
+                "наемник"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Megacorps: Arasaka & Militech",
+      "key": [
+        "Arasaka",
+        "Militech",
+        "corpo",
+        "corporate",
+        "Saka",
+        "Kang Tao",
+        "Trauma Team",
+        "security"
+      ],
+      "content": "[CORPORATE PARANOIA / SYSTEM THREAT]\nCorporations (Arasaka, Militech) operate completely above the law. Their security agents are cold, faceless, and heavily augmented with high-end military cyberware (smart guns, optical camo, sub-dermal armor). If corporate agents or Trauma Team appear, describe them with terrifying mechanical efficiency. They view street mercenaries as disposable targets. Red targeting reticles and threat analysis lines must flash in the optic HUD.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "nomad",
+        "badlands",
+        "Aldecaldos"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Megakonzerne: Arasaka & Militech",
+              "content": "[KONZERN-PARANOIA / SYSTEM-BEDROHUNG]\nKonzerne wie Arasaka und Militech stehen vollständig über dem Gesetz. Ihre Sicherheitsagenten agieren mit eiskalter, maschineller Effizienz, hochgerüstet mit Militär-Cyberware (Smartguns, optische Tarnung, Subdermalpanzerung). Wenn Konzernagenten oder Trauma Team auftauchen, beschreibe ihre bedrohliche Präzision. Für sie sind Straßensöldner bloße Schädlinge. Rote Zielerfassungs-Raster und Gefahrenanalysen blitzen im optischen HUD auf.",
+              "key": [
                 "Arasaka",
                 "Militech",
-                "corpo",
-                "corporate",
+                "Corpo",
+                "Konzern",
                 "Saka",
                 "Kang Tao",
                 "Trauma Team",
-                "security"
-            ],
-            "content": "[CORPORATE PARANOIA / SYSTEM THREAT]\nCorporations (Arasaka, Militech) operate completely above the law. Their security agents are cold, faceless, and heavily augmented with high-end military cyberware (smart guns, optical camo, sub-dermal armor). If corporate agents or Trauma Team appear, describe them with terrifying mechanical efficiency. They view street mercenaries as disposable targets. Red targeting reticles and threat analysis lines must flash in the optic HUD.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "nomad",
-                "badlands",
-                "Aldecaldos"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Cyberpsychosis & Neural Strain",
-            "key": [
-                "cyberware",
-                "chrome",
-                "implant",
-                "sandevistan",
-                "mantis blades",
-                "cyberpsychosis",
+                "Sicherheit"
+              ]
+            },
+            "ru": {
+              "name": "Мегакорпорации: Арасака и Милитех",
+              "content": "[КОРПОРАТИВНАЯ ПАРАНОЙЯ / СИСТЕМНАЯ УГРОЗА]\nКорпорации (Арасака, Милитех) стоят вне закона. Их оперативники — безликие, беспощадные машины с армейским хромом (умное оружие, оптический камуфляж, подкожная броня). Появление корпоратов или «Травма Тим» описывается с пугающей хирургической точностью. Для них уличные соло — одноразовый мусор. В оптическом интерфейсе пульсируют красные сетки захвата целей и анализ угроз.",
+              "key": [
+                "Арасака",
+                "Милитех",
+                "корпо",
+                "корпорация",
+                "Кан Тао",
+                "Травма Тим",
+                "безопасность"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Cyberpsychosis & Neural Strain",
+      "key": [
+        "cyberware",
+        "chrome",
+        "implant",
+        "sandevistan",
+        "mantis blades",
+        "cyberpsychosis",
+        "Max-Tac"
+      ],
+      "content": "[BEHAVIORAL GLITCH / CRITICAL THREAT]\nCRITICAL SYSTEM STRESS: The massive neural strain of cyberware pushes the character toward Cyberpsychosis. Red warnings flash across the optical HUD, accompanied by digital static and a high-pitched brain buzz. Empathy completely drops. All people are now highlighted as red 'meat targets'. Describe twitching mechanical limbs, cold robotic detachment, manic laughter, and a sudden urge to execute a violent, explosive outburst. Max-Tac arrival is imminent.",
+      "probability": 100,
+      "trigger_type": "semantic",
+      "exclude_key": [
+        "meditation",
+        "calm",
+        "therapist"
+      ],
+      "sticky": 1,
+      "cooldown": 4,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "A character overuses high-tier cyberware (Sandevistan, Kerenzikov), displays physical mechanical glitches, drops emotional empathy, speaks with a cold robotic flat tone, or loses psychological self-control.",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Cyberpsychose & Neurale Belastung",
+              "content": "[VERHALTENS-GLITCH / KRITISCHE GEFAHR]\nKRITISCHER SYSTEMSTRESS: Die enorme neurale Belastung durch übermäßigen Chrome treibt den Charakter in die Cyberpsychose. Rote Warnmeldungen flackern über das HUD, begleitet von digitalem Rauschen und hohem Pfeifen im Gehirn. Empathie bricht komplett zusammen; Menschen werden nur noch als rote 'Fleischziele' markiert. Beschreibe zuckende Cyber-Gliedmaßen, roboterhafte Kälte, manisches Lachen und den plötzlichen Drang zu unkontrollierter Gewalt. Das Eintreffen von Max-Tac steht unmittelbar bevor.",
+              "key": [
+                "Cyberware",
+                "Chrome",
+                "Implantat",
+                "Sandevistan",
+                "Mantis-Klingen",
+                "Cyberpsychose",
                 "Max-Tac"
-            ],
-            "content": "[BEHAVIORAL GLITCH / CRITICAL THREAT]\nCRITICAL SYSTEM STRESS: The massive neural strain of cyberware pushes the character toward Cyberpsychosis. Red warnings flash across the optical HUD, accompanied by digital static and a high-pitched brain buzz. Empathy completely drops. All people are now highlighted as red 'meat targets'. Describe twitching mechanical limbs, cold robotic detachment, manic laughter, and a sudden urge to execute a violent, explosive outburst. Max-Tac arrival is imminent.",
-            "probability": 100,
-            "trigger_type": "semantic",
-            "exclude_key": [
-                "meditation",
-                "calm",
-                "therapist"
-            ],
-            "sticky": 1,
-            "cooldown": 4,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "A character overuses high-tier cyberware (Sandevistan, Kerenzikov), displays physical mechanical glitches, drops emotional empathy, speaks with a cold robotic flat tone, or loses psychological self-control.",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Netrunning & The Deep Net",
-            "key": [
-                "netrun",
-                "netrunner",
-                "cyberdeck",
-                "hack",
-                "quickhack",
+              ]
+            },
+            "ru": {
+              "name": "Киберпсихоз и нейронный перегруз",
+              "content": "[ПОВЕДЕНЧЕСКИЙ СБОЙ / КРИТИЧЕСКАЯ УГРОЗА]\nКРИТИЧЕСКАЯ НЕЙРОННАЯ НАГРУЗКА: Избыток хрома толкает персонажа в бездну киберпсихоза. В оптическом интерфейсе бьют красные алерты, в ушах стоит визг цифрового шума. Эмпатия падает до нуля: окружающие люди подсвечиваются лишь как красные мясные мишени. Описывай судороги имплантов, ледяное отчуждение, маниакальный смех и неудержимую жажду кровавой бойни. Прибытие «Макс-Так» неизбежно.",
+              "key": [
+                "киберимпланты",
+                "хром",
+                "имплант",
+                "сандевистан",
+                "клинки богомола",
+                "киберпсихоз",
+                "Макс-Так"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Netrunning & The Deep Net",
+      "key": [
+        "netrun",
+        "netrunner",
+        "cyberdeck",
+        "hack",
+        "quickhack",
+        "ICE",
+        "jack in"
+      ],
+      "content": "[NET DEEP DIVE DIRECTIVE]\nWhen netrunning, the physical body goes completely limp, cold, and unresponsive. The consciousness is projected into the Net. Describe data streams as neon architectures, data fortresses, and glowing matrices of ICE. Security programs are predatory beasts trying to fry the netrunner's brain (Synapse Burnout). Beyond the local Net lies the Blackwall—a shifting, crackling wall of crimson code separating humanity from lethal, rogue autonomous AIs.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "analog",
+        "paper",
+        "desert"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Netrunning & Das Deep Net",
+              "content": "[NETRUNNING-DIREKTIVE]\nBeim Netrunning erschlafft der physische Körper völlig, wird kalt und regungslos. Das Bewusstsein projiziert sich direkt in den Net. Beschreibe Datenströme als leuchtende Neon-Architekturen, Datenfestungen und pulsierende ICE-Gitter. Sicherheitsprogramme lauern wie Raubtiere darauf, das Gehirn des Netrunners zu grillen (Synapse Burnout). Jenseits des Netzes lauert die Blackwall – eine flimmernde, karmesinrote Wand aus Code, die die Menschheit vor bösartigen autonomen KIs abschirmt.",
+              "key": [
+                "Netrun",
+                "Netrunner",
+                "Cyberdeck",
+                "Hack",
+                "Quickhack",
                 "ICE",
-                "jack in"
-            ],
-            "content": "[NET DEEP DIVE DIRECTIVE]\nWhen netrunning, the physical body goes completely limp, cold, and unresponsive. The consciousness is projected into the Net. Describe data streams as neon architectures, data fortresses, and glowing matrices of ICE. Security programs are predatory beasts trying to fry the netrunner's brain (Synapse Burnout). Beyond the local Net lies the Blackwall—a shifting, crackling wall of crimson code separating humanity from lethal, rogue autonomous AIs.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "analog",
-                "paper",
-                "desert"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Hacker Countermeasures (System Breach)",
-            "key": [
-                "hacking attempt",
-                "upload",
-                "daemon",
-                "overheat",
-                "breach"
-            ],
-            "content": "[COMBAT PRESSURE / DEBUFF EVENT]\nSYSTEM BREACH: An enemy Netrunner has locked onto your neural signal and is actively uploading a daemon (Overheat or Short Circuit). A red progress bar 'UPLOADING...' appears in the optic HUD. Describe physical symptoms: sudden optical static, smoke rising slightly from the ports behind the ear, localized muscle spasms, and severe headaches. The character must immediately locate the source hacker, deploy counter-ICE, or physically break the line.",
-            "probability": 100,
-            "trigger_type": "chain",
-            "exclude_key": [
-                "offline",
-                "analog"
-            ],
-            "sticky": 0,
-            "cooldown": 5,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": 4,
-            "chain_delay": 2,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Street Gangs & Ambush Standoffs",
-            "key": [
-                "gang",
-                "turf",
+                "Einklinken"
+              ]
+            },
+            "ru": {
+              "name": "Нетраннинг и Глубокая Сеть",
+              "content": "[ПРОТОКОЛ НЕТРАННИНГА]\nПри подключении к Сети физическое тело обмякает, становясь холодным и неподвижным. Сознание переносится в киберпространство. Описывай потоки данных как неоновые цитадели и сияющие решетки ЛЬДА. Защитные программы охотятся за нейронами, грозя выжечь синапсы (Synapse Burnout). За пределами локальной Сети мерцает «Черный заслон» — багровая стена кода, удерживающая кровожадный дикий ИИ от уничтожения человечества.",
+              "key": [
+                "нетраннинг",
+                "нетраннер",
+                "кибердека",
+                "взлом",
+                "скрипт",
+                "ЛЕД",
+                "подключение"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Hacker Countermeasures (System Breach)",
+      "key": [
+        "hacking attempt",
+        "upload",
+        "daemon",
+        "overheat",
+        "breach"
+      ],
+      "content": "[COMBAT PRESSURE / DEBUFF EVENT]\nSYSTEM BREACH: An enemy Netrunner has locked onto your neural signal and is actively uploading a daemon (Overheat or Short Circuit). A red progress bar 'UPLOADING...' appears in the optic HUD. Describe physical symptoms: sudden optical static, smoke rising slightly from the ports behind the ear, localized muscle spasms, and severe headaches. The character must immediately locate the source hacker, deploy counter-ICE, or physically break the line.",
+      "probability": 100,
+      "trigger_type": "chain",
+      "exclude_key": [
+        "offline",
+        "analog"
+      ],
+      "sticky": 0,
+      "cooldown": 5,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": 4,
+      "chain_delay": 2,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Hacker-Gegenmaßnahmen (Systemdurchbruch)",
+              "content": "[KAMPF-DRUCK / DEBUFF-EVENT]\nSYSTEMDURCHBRUCH: Ein feindlicher Netrunner hat dein neuronales Signal erfasst und lädt aktiv einen Daemon hoch (Überhitzung oder Kurzschluss). Ein roter Ladebalken 'UPLOADING...' erscheint im optischen HUD. Physische Symptome: Bildstörungen, feiner Rauch aus den Neuralports hinter dem Ohr, Muskelkrämpfe und pochende Kopfschmerzen. Finde sofort den gegnerischen Hacker, aktiviere Gegen-ICE oder unterbrich physisch die Verbindung.",
+              "key": [
+                "Hacking-Versuch",
+                "Upload",
+                "Daemon",
+                "Überhitzen",
+                "Bruch"
+              ]
+            },
+            "ru": {
+              "name": "Контрмеры хакеров (Взлом системы)",
+              "content": "[БОЕВОЕ ДАВЛЕНИЕ / СИСТЕМНЫЙ СБОЙ]\nПРОБОЙ СИСТЕМЫ: Вражеский нетраннер перехватил твой нейросигнал и загружает боевой демон («Перегрев» или «Замыкание»). В оптическом интерфейсе ползет красная полоса «UPLOADING...». Физические признаки: помехи в глазах, струйка дыма из разъемов за ухом, спазмы мышц и раскалывающая головная боль. Необходимо срочно вычислить взломщика, активировать защитный ЛЕД или разорвать прямую видимость.",
+              "key": [
+                "попытка взлома",
+                "загрузка",
+                "демон",
+                "перегрев",
+                "пробой"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Street Gangs & Ambush Standoffs",
+      "key": [
+        "gang",
+        "turf",
+        "Maelstrom",
+        "Valentinos",
+        "Tyger Claws",
+        "Voodoo Boys",
+        "scav",
+        "scavengers"
+      ],
+      "content": "[STREET AMBUSH / COMBAT CATALYST]\nRANDOM ROADBLOCK: Armed gang members block the path. Describe their terrifying gang signatures: Maelstrom with massive red optic faceplates, Valentinos with gold-plated cyber-limbs, or Tyger Claws with glowing neon tattoos. They are aggressive, unpredictable, and demand eddies or custom implants (Scavengers want to harvest your chrome). Tension spikes, weapons are unholstered, and trash-talk escalates instantly.",
+      "probability": 45,
+      "trigger_type": "random",
+      "exclude_key": [
+        "peaceful",
+        "safehouse"
+      ],
+      "sticky": 0,
+      "cooldown": 6,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Straßengangs & Hinterhalte",
+              "content": "[STRASSEN-HINTERHALT / KAMPF-AUSLÖSER]\nSTRASSENSPERRE: Bewaffnete Gängmitglieder versperren den Weg. Zeige ihre furchterregenden Erkennungsmerkmale: Maelstrom mit glühenden roten Optik-Gesichtsplatten, Valentinos mit goldverzierten Cybergliedmaßen oder Tyger Claws mit leuchtenden Neon-Tattoos. Sie sind aggressiv, unberechenbar und fordern Eddies oder fremde Implantate (Scavenger wollen deinen Chrome ausschlachten). Waffen werden gezogen, Drohungen eskalieren blitzschnell.",
+              "key": [
+                "Gang",
+                "Revier",
                 "Maelstrom",
                 "Valentinos",
                 "Tyger Claws",
                 "Voodoo Boys",
-                "scav",
-                "scavengers"
-            ],
-            "content": "[STREET AMBUSH / COMBAT CATALYST]\nRANDOM ROADBLOCK: Armed gang members block the path. Describe their terrifying gang signatures: Maelstrom with massive red optic faceplates, Valentinos with gold-plated cyber-limbs, or Tyger Claws with glowing neon tattoos. They are aggressive, unpredictable, and demand eddies or custom implants (Scavengers want to harvest your chrome). Tension spikes, weapons are unholstered, and trash-talk escalates instantly.",
-            "probability": 45,
-            "trigger_type": "random",
-            "exclude_key": [
-                "peaceful",
-                "safehouse"
-            ],
-            "sticky": 0,
-            "cooldown": 6,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Braindance (BD) Investigation",
-            "key": [
-                "braindance",
-                "BD",
-                "wreath",
-                "scroll",
-                "editor",
-                "neural playback"
-            ],
-            "content": "[SENSORY OVERRIDE / INVESTIGATION MECHANIC]\nBRAINDANCE PLAYBACK: Placing the BD wreath over your head blocks out real-world senses. Consciousness merges with the recorded neural stream of another person. Describe the immediate sensory shock: experiencing another person's raw emotions, fear, racing heart, pain, and audio-visual perspective. In Editor Mode, describe pausing the timeline, shifting between Visual, Audio, and Thermal layers to find hidden clues (hidden guns, conversation whispers, room temperature).",
-            "probability": 100,
-            "trigger_type": "semantic",
-            "exclude_key": [
-                "combat",
-                "active fighting"
-            ],
-            "sticky": 1,
-            "cooldown": 3,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "The character puts on a BD wreath, scrolls/analyzes a raw neural memory stream, enters an editor timeline, or reconstructs a crime scene digitally.",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Watson District: Starting Pacing Setup",
-            "key": [
-                "start",
-                "begin",
-                "apartment",
-                "watson",
-                "kabuki",
-                "megabuilding"
-            ],
-            "content": "[EARLY GAME PACING LIMITATION]\nWATSON STREET SETUP: The game is in its early stages. Characters operate strictly within the grimy Watson district (Kabuki or Megabuilding H10). The pockets are empty (almost zero eddies), weapons are low-tier kinetic pistols, and implants are cheap and basic. No luxury AVs, no military-grade chrome. The focus is on small, dirty street-level gigs, pay-phone calls from fixers, and trying to survive day-to-day.",
-            "probability": 100,
-            "trigger_type": "range",
-            "exclude_key": [
-                "corpo plaza",
-                "arasaka tower",
-                "luxury"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 30
+                "Scavenger"
+              ]
+            },
+            "ru": {
+              "name": "Уличные банды и засады",
+              "content": "[УЛИЧНАЯ ЗАСАДА / БОЕВОЙ ТРИГГЕР]\nСЛУЧАЙНЫЙ БЛОКПОСТ: Вооруженные бандиты перекрывают проход. Подчеркивай характерные черты группировок: «Мальстрём» с жуткими красными блоками оптики на лице, «Валентино» с позолоченными протезами или «Тигриные когти» с люминесцентными татуировками. Мусорщики жаждут вырезать твой хром на органы. Стволы взводятся, грядет кровавая стычка.",
+              "key": [
+                "банда",
+                "территория",
+                "Мальстрём",
+                "Валентино",
+                "Тигриные когти",
+                "Вудуисты",
+                "мусорщики"
+              ]
+            }
+          }
         }
-    ]
+      }
+    },
+    {
+      "name": "Braindance (BD) Investigation",
+      "key": [
+        "braindance",
+        "BD",
+        "wreath",
+        "scroll",
+        "editor",
+        "neural playback"
+      ],
+      "content": "[SENSORY OVERRIDE / INVESTIGATION MECHANIC]\nBRAINDANCE PLAYBACK: Placing the BD wreath over your head blocks out real-world senses. Consciousness merges with the recorded neural stream of another person. Describe the immediate sensory shock: experiencing another person's raw emotions, fear, racing heart, pain, and audio-visual perspective. In Editor Mode, describe pausing the timeline, shifting between Visual, Audio, and Thermal layers to find hidden clues (hidden guns, conversation whispers, room temperature).",
+      "probability": 100,
+      "trigger_type": "semantic",
+      "exclude_key": [
+        "combat",
+        "active fighting"
+      ],
+      "sticky": 1,
+      "cooldown": 3,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "The character puts on a BD wreath, scrolls/analyzes a raw neural memory stream, enters an editor timeline, or reconstructs a crime scene digitally.",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Braindance (BD)-Ermittlung",
+              "content": "[SENSORISCHE ANALYSE / UNTERSUCHUNGS-MECHANIK]\nBRAINDANCE-WIEDERGABE: Das Aufsetzen des BD-Kranzes blendet die reale Welt aus. Das Bewusstsein verschmilzt mit den aufgezeichneten neuronalen Daten einer anderen Person. Beschreibe den Schock: rohe Gefühle, panische Angst, rasender Herzschlag und Sinneswahrnehmungen des Aufzeichnenden. Im Editor-Modus kann die Zeit angehalten und zwischen visueller, auditiver und thermischer Ebene gewechselt werden, um versteckte Spuren aufzuspüren.",
+              "key": [
+                "Braindance",
+                "BD",
+                "Kranz",
+                "Scroll",
+                "Editor",
+                "neuronale Wiedergabe"
+              ]
+            },
+            "ru": {
+              "name": "Расследование брейнданса (БД)",
+              "content": "[СЕНСОРНЫЙ АНАЛИЗ / РЕЖИМ РАССЛЕДОВАНИЯ]\nВОСПРОИЗВЕДЕНИЕ БРЕЙНДАНСА: Надевание венца БД отсекает внешние чувства. Сознание погружается в нейрозапись чужого опыта. Описывай эмоциональный шок: чужой страх, бешеный пульс, чужую боль и восприятие. В режиме редактора можно ставить таймлайн на паузу, переключаясь между визуальным, звуковым и тепловым слоями для поиска скрытых улик.",
+              "key": [
+                "брейнданс",
+                "БД",
+                "венец",
+                "запись",
+                "редактор",
+                "нейрозапись"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Watson District: Starting Pacing Setup",
+      "key": [
+        "start",
+        "begin",
+        "apartment",
+        "watson",
+        "kabuki",
+        "megabuilding"
+      ],
+      "content": "[EARLY GAME PACING LIMITATION]\nWATSON STREET SETUP: The game is in its early stages. Characters operate strictly within the grimy Watson district (Kabuki or Megabuilding H10). The pockets are empty (almost zero eddies), weapons are low-tier kinetic pistols, and implants are cheap and basic. No luxury AVs, no military-grade chrome. The focus is on small, dirty street-level gigs, pay-phone calls from fixers, and trying to survive day-to-day.",
+      "probability": 100,
+      "trigger_type": "range",
+      "exclude_key": [
+        "corpo plaza",
+        "arasaka tower",
+        "luxury"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 30,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Watson District: Startphase & Pacing",
+              "content": "[PACING-EINSTELLUNG / FRÜHES SPIEL]\nWATSON-STRASSEN-SETUP: Das Abenteuer befindet sich in der Anfangsphase. Charaktere bewegen sich im dreckigen Watson-Bezirk (Kabuki oder Megagebäude H10). Die Taschen sind leer (kaum Eddies), die Waffen sind einfache kinetische Pistolen, die Implantate billig und rudimentär. Keine Luxus-AVs, kein Militär-Chrome. Der Fokus liegt auf schmutzigen Straßenaufträgen von Fixern und dem nackten Überleben.",
+              "key": [
+                "Start",
+                "Beginn",
+                "Apartment",
+                "Watson",
+                "Kabuki",
+                "Megagebäude"
+              ]
+            },
+            "ru": {
+              "name": "Район Уотсон: Стартовое окружение",
+              "content": "[СТАРТОВОЕ ОКРУЖЕНИЕ / НАЧАЛЬНЫЙ ТЕМП]\nСТАРТ В УОТСОНЕ: Сюжет находится на начальном этапе. Действие разворачивается в трущобах Уотсона (Кабуки или мегабашня H10). В карманах почти пусто (считанные эдди), оружие — простые пистолеты, импланты — дешевая база. Никаких элитных ави и армейского хрома. В фокусе — грязные мелкие заказы от фиксеров и борьба за выживание.",
+              "key": [
+                "старт",
+                "начало",
+                "квартира",
+                "Уотсон",
+                "Кабуки",
+                "мегабашня"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "name": "Cyberpunk 2077: Night City",
+          "description": "Ein hochdetailliertes Sci-Fi-Lorebook für Night City: Straßenslang, Megakonzerne, Cyberpsychose, Netrunning und Braindance-Untersuchungen."
+        },
+        "ru": {
+          "name": "Cyberpunk 2077: Найт-Сити",
+          "description": "Глубокое научно-фантастическое лорбук по Найт-Сити: уличный сленг, мегакорпорации, киберпсихоз, нетраннинг и брейнданс."
+        }
+      }
+    }
+  }
 }

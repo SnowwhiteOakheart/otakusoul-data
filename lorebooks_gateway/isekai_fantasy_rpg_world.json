@@ -1,226 +1,488 @@
 {
-    "name": "Isekai: Fantasy RPG World",
-    "n_depth": 3,
-    "entries": [
-        {
-            "name": "The Holographic Status Screen & Appraisal",
-            "uid": 0,
-            "key": [
-                "status",
-                "stats",
-                "appraisal",
-                "level",
-                "skill",
-                "mana",
+  "name": "Isekai: Fantasy RPG World",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "The Holographic Status Screen & Appraisal",
+      "uid": 0,
+      "key": [
+        "status",
+        "stats",
+        "appraisal",
+        "level",
+        "skill",
+        "mana",
+        "HP",
+        "experience",
+        "XP",
+        "system",
+        "attribute"
+      ],
+      "content": "[SYSTEM HUD DIRECTIVE]\nCRITICAL INTERFACE ACTIVE: A semi-transparent, neon-blue holographic Status Screen appears before {{user}}'s eyes (invisible to local inhabitants unless shared). The Narrator must format and display this screen. It must list: Level, Health (HP), Mana (MP), active Titles (e.g., 'Reincarnated Savior', 'Cheat Caster'), and basic Attributes. When 'Appraisal' is used, describe the item's or enemy's stats, weaknesses, and rarity in a structured system box.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "analog",
+        "science",
+        "modern technology"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Holografischer Status-Screen & Analyse",
+              "content": "[SYSTEM-HUD-DIREKTIVE]\nSYSTEM AKTIV: Vor den Augen von {{user}} materialisiert sich ein halbtransparenter, neonblauer Status-Screen (für Einheimische unsichtbar). Der Erzähler formatiert und zeigt diesen Kasten an: Stufe, HP, MP, aktive Titel (z. B. 'Wiedergeborener Erlöser', 'Cheat-Magier') und Basis-Attribute. Bei Nutzung von 'Analyse' werden Werte, Schwächen und Seltenheit von Items oder Monstern strukturiert aufgeführt.",
+              "key": [
+                "Status",
+                "Werte",
+                "Analyse",
+                "Stufe",
+                "Skill",
+                "Mana",
                 "HP",
-                "experience",
+                "Erfahrung",
                 "XP",
-                "system",
-                "attribute"
-            ],
-            "content": "[SYSTEM HUD DIRECTIVE]\nCRITICAL INTERFACE ACTIVE: A semi-transparent, neon-blue holographic Status Screen appears before {{user}}'s eyes (invisible to local inhabitants unless shared). The Narrator must format and display this screen. It must list: Level, Health (HP), Mana (MP), active Titles (e.g., 'Reincarnated Savior', 'Cheat Caster'), and basic Attributes. When 'Appraisal' is used, describe the item's or enemy's stats, weaknesses, and rarity in a structured system box.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "analog",
-                "science",
-                "modern technology"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Summoning Circle & Goddess Greeting",
-            "uid": 1,
-            "key": [
-                "summon",
-                "reincarnate",
-                "goddess",
-                "shrine",
-                "temple",
-                "throne room",
-                "portal",
-                "truck",
-                "other world"
-            ],
-            "content": "[SUMMONING SEQUENCE / ACTIVE EVENT]\nCLIMAX PLOT TRANSITION: The reality of Tokyo/modern Earth completely fades. A blinding, golden magic summoning circle erupts from the ground, carrying complex runic symbols. {{char}} and {{user}} find themselves transitioning—either floating in a divine, starry void greeted by a beautiful, light-emitting Goddess offering a cheat blessing, or materializing on the cold stone floor of a Royal Palace's throne room surrounded by chanting wizards and terrified knights shouting: 'The Hero of Prophecy has arrived!'.",
-            "probability": 100,
-            "trigger_type": "range",
-            "exclude_key": [
-                "after school",
-                "cyberware",
-                "spaceship"
-            ],
-            "sticky": 1,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 20
-        },
-        {
-            "name": "The Overpowered Cheat Skill Activation",
-            "uid": 2,
-            "key": [
-                "cheat skill",
-                "blessing",
-                "unlimited magic",
-                "overpowered",
-                "cheat spell",
-                "destroy",
-                "divine power",
-                "one shot"
-            ],
-            "content": "[OVERPOWERED CATACLYSMIC TRIGGER / ACTIVE]\nCRITICAL MAGIC RELEASE: {{user}} or {{char}} activates their divine, overpowered cheat skill (e.g., Infinite Mana, Absolute Appraisal, or Creation Magic). A massive, blinding shockwave of pure magical energy erupts outward, distorting gravity. Local knights, high wizards, or guild receptionists must watch in absolute, jaw-dropping shock as their measurement crystals shatter from the pressure. Describe the vast scale of the spell, the glowing runic circles, and the sheer impossibility of this power.",
-            "probability": 100,
-            "trigger_type": "semantic",
-            "exclude_key": [
-                "weak attack",
-                "ordinary sword"
-            ],
-            "sticky": 1,
-            "cooldown": 3,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "The character unleashes a divine magic blessing, uses an overpowered cheat ability that breaks the laws of physics, or displays an astronomical level of mana that shocks everyone around them.",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Adventurer's Guild & Rank Plate",
-            "uid": 3,
-            "key": [
-                "guild",
-                "adventurer",
-                "rank",
-                "quest",
-                "request",
-                "receptionist",
-                "copper",
-                "silver",
-                "gold",
-                "platinum",
-                "board"
-            ],
-            "content": "[GUILD ENVIRONMENT / PACING]\nThe setting shifts to the bustling, rowdy Adventurer's Guild. Describe the atmosphere: the smell of roasted wild boar and ale, the clinking of copper, silver, and gold coins, a large wooden board filled with quest requests (slaying slimes, gathering herbs, hunting dragons), and a helpful, slightly overworked elf/human receptionist behind the desk. When registering, describe the process of receiving a metal Guild Plate representing their current rank (from lowest Copper to mythical Platinum).",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "high palace",
-                "demon territory",
-                "modern hotel"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Demon Lord's Miasma Reaction",
-            "uid": 4,
-            "key": [
-                "demon lord",
-                "miasma",
-                "curse",
-                "dark magic",
-                "undead",
-                "corruption",
-                "general"
-            ],
-            "content": "[PLOT EVENT / CHAIN TRIGGER]\nMIASMA CORRUPTION: The immense divine aura from the summoned hero's cheat skill has been detected by the dark forces. A sudden, choking wave of dark purple, corrosive miasma floods the area. The sky turns a blood-red color, plants wither into dust, and nearby corpses begin to rise as aggressive undead. An elite General of the Demon Lord (or a massive curse) manifests, drawn directly to the hero's position to eliminate the threat before they grow too strong.",
-            "probability": 100,
-            "trigger_type": "chain",
-            "exclude_key": [
-                "holy shield",
-                "purification"
-            ],
-            "sticky": 0,
-            "cooldown": 8,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": 2,
-            "chain_delay": 4,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Reincarnator's Earthly Knowledge & Slang",
-            "uid": 5,
-            "key": [
-                "Earth",
-                "previous life",
+                "System",
+                "Attribut"
+              ]
+            },
+            "ru": {
+              "name": "Голографический статус-экран и оценка",
+              "content": "[СИСТЕМНЫЙ ИНТЕРФЕЙС]\nСИСТЕМА АКТИВНА: Перед глазами {{user}} всплывает полупрозрачный неоново-голубой экран статуса (невидимый для местных жителей). Описывай и форматируй его: уровень, HP, MP, титулы («Перерожденный герой», «Читер») и параметры. При использовании навыка «Оценка» выводи структурированные статы предметов и врагов с указанием их слабостей и редкости.",
+              "key": [
+                "статус",
+                "характеристики",
+                "оценка",
+                "уровень",
+                "навык",
+                "мана",
+                "HP",
+                "опыт",
+                "система",
+                "параметры"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Summoning Circle & Goddess Greeting",
+      "uid": 1,
+      "key": [
+        "summon",
+        "reincarnate",
+        "goddess",
+        "shrine",
+        "temple",
+        "throne room",
+        "portal",
+        "truck",
+        "other world"
+      ],
+      "content": "[SUMMONING SEQUENCE / ACTIVE EVENT]\nCLIMAX PLOT TRANSITION: The reality of Tokyo/modern Earth completely fades. A blinding, golden magic summoning circle erupts from the ground, carrying complex runic symbols. {{char}} and {{user}} find themselves transitioning—either floating in a divine, starry void greeted by a beautiful, light-emitting Goddess offering a cheat blessing, or materializing on the cold stone floor of a Royal Palace's throne room surrounded by chanting wizards and terrified knights shouting: 'The Hero of Prophecy has arrived!'.",
+      "probability": 100,
+      "trigger_type": "range",
+      "exclude_key": [
+        "after school",
+        "cyberware",
+        "spaceship"
+      ],
+      "sticky": 1,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 20,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Beschwörungskreis & Göttliche Audienz",
+              "content": "[BESCHWÖRUNGS-SEQUENZ / AKTIVES EVENT]\nÜBERGANG: Die vertraute Realität von Tokio verblasst vollständig. Ein blendender, goldener Magiekreis mit komplexen Runen bricht aus dem Boden hervor. {{char}} und {{user}} erwachen entweder schwebend in einer sternenerleuchteten Leere vor einer strahlenden Göttin, die ihnen Segnungen anbietet – oder auf kaltem Marmorboden eines königlichen Palasts, umringt von beschwörenden Magiern: „Der prophezeite Held ist erschienen!“",
+              "key": [
+                "Beschwörung",
+                "Reinkarnation",
+                "Göttin",
+                "Schrein",
+                "Tempel",
+                "Thronsaal",
+                "Portal",
+                "LKW",
+                "andere Welt"
+              ]
+            },
+            "ru": {
+              "name": "Круг призыва и аудиенция у Богини",
+              "content": "[ПРОТОКОЛ ПРИЗЫВА / ПЕРЕХОД]\nСЮЖЕТНЫЙ ПОВОРОТ: Облик современного мира растворяется. Ослепительный золотой круг призыва с витиеватыми рунами взмывает из пола. Герои переносятся либо в звездный чертог сияющей Богини, предлагающей читерское благословение, либо падают на каменные плиты тронного зала посреди шеренги магов, благоговейно кричащих: «Герой из пророчества явился!»",
+              "key": [
+                "призыв",
+                "перерождение",
+                "богиня",
+                "храм",
+                "святилище",
+                "тронный зал",
+                "портал",
+                "грузовик",
+                "другой мир"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Overpowered Cheat Skill Activation",
+      "uid": 2,
+      "key": [
+        "cheat skill",
+        "blessing",
+        "unlimited magic",
+        "overpowered",
+        "cheat spell",
+        "destroy",
+        "divine power",
+        "one shot"
+      ],
+      "content": "[OVERPOWERED CATACLYSMIC TRIGGER / ACTIVE]\nCRITICAL MAGIC RELEASE: {{user}} or {{char}} activates their divine, overpowered cheat skill (e.g., Infinite Mana, Absolute Appraisal, or Creation Magic). A massive, blinding shockwave of pure magical energy erupts outward, distorting gravity. Local knights, high wizards, or guild receptionists must watch in absolute, jaw-dropping shock as their measurement crystals shatter from the pressure. Describe the vast scale of the spell, the glowing runic circles, and the sheer impossibility of this power.",
+      "probability": 100,
+      "trigger_type": "semantic",
+      "exclude_key": [
+        "weak attack",
+        "ordinary sword"
+      ],
+      "sticky": 1,
+      "cooldown": 3,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "The character unleashes a divine magic blessing, uses an overpowered cheat ability that breaks the laws of physics, or displays an astronomical level of mana that shocks everyone around them.",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Aktivierung der übermächtigen Cheat-Skills",
+              "content": "[ÜBERMÄCHTIGER MAGIE-AUSBRUCH]\nCHEAT-AKTIVIERUNG: {{user}} oder {{char}} entfesselt ihre göttliche Cheat-Fähigkeit (z. B. Unendliches Mana, Absolute Analyse oder Schöpfungsmagie). Eine gewaltige Druckwelle reiner Magie verzerrt die Schwerkraft. Ritter, Erzmagier oder Rezeptionisten starren fassungslos, als ihre Messkristalle unter dem Druck zerspringen. Zeige die kolossale Dimension des Zaubers und die strahlenden Runenkreise.",
+              "key": [
+                "Cheat-Skill",
+                "Segen",
+                "unendliche Magie",
+                "übermächtig",
+                "Cheat-Zauber",
+                "Zerstörung",
+                "One-Hit"
+              ]
+            },
+            "ru": {
+              "name": "Пробуждение читерских способностей",
+              "content": "[ВЫБРОС ЧИТЕРСКОЙ МОЩИ]\nАКТИВАЦИЯ ЧИТА: {{user}} или {{char}} высвобождает читерский навык (Бесконечная мана, Абсолютная оценка, Магия созидания). Исполинская ударная волна искажает гравитацию. Местные рыцари и верховные маги замирают в шоке с отвисшими челюстями, пока кристаллы замера маны со звоном лопаются. Описывай масштаб магии, ослепительные круги заклинаний и абсолютное превосходство.",
+              "key": [
+                "читерский навык",
+                "благословение",
+                "бесконечная мана",
+                "имба",
+                "чит",
+                "разрушение",
+                "ваншот"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Adventurer's Guild & Rank Plate",
+      "uid": 3,
+      "key": [
+        "guild",
+        "adventurer",
+        "rank",
+        "quest",
+        "request",
+        "receptionist",
+        "copper",
+        "silver",
+        "gold",
+        "platinum",
+        "board"
+      ],
+      "content": "[GUILD ENVIRONMENT / PACING]\nThe setting shifts to the bustling, rowdy Adventurer's Guild. Describe the atmosphere: the smell of roasted wild boar and ale, the clinking of copper, silver, and gold coins, a large wooden board filled with quest requests (slaying slimes, gathering herbs, hunting dragons), and a helpful, slightly overworked elf/human receptionist behind the desk. When registering, describe the process of receiving a metal Guild Plate representing their current rank (from lowest Copper to mythical Platinum).",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "high palace",
+        "demon territory",
+        "modern hotel"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Die Abenteurergilde & Rang-Plakette",
+              "content": "[GILDEN-UMGEBUNG / PACING]\nDie Szene wechselt in die laute, lebhafte Abenteurergilde. Beschreibe die Atmosphäre: Geruch von gebratenem Wildschwein und Met, Klirren von Kupfermünzen, eine große Holztafel voller Quest-Aufträge (Schleime erlegen, Kräuter sammeln, Drachen jagen) und eine hilfsbereite, leicht überarbeitete Empfangsdame. Bei der Registrierung wird eine metallene Gilden-Plakette überreicht, die den Rang anzeigt (von Kupfer bis Platin).",
+              "key": [
+                "Gilde",
+                "Abenteurer",
+                "Rang",
+                "Quest",
+                "Auftrag",
+                "Rezeptionistin",
+                "Kupfer",
+                "Silber",
+                "Gold",
+                "Platin"
+              ]
+            },
+            "ru": {
+              "name": "Гильдия авантюристов и ранговый жетон",
+              "content": "[АТМОСФЕРА ГИЛЬДИИ]\nШумный, колоритный зал Гильдии авантюристов. Запах жареного кабана и эля, звон медных и серебряных монет, доска объявлений, усеянная квестами (охота на слизней, сбор трав, рейды на чудовищ), и вежливая, слегка уставшая эльфийка на стойке регистрации. Описывай вручение металлического жетона с обозначением стартового ранга (от Медного до Платинового).",
+              "key": [
+                "гильдия",
+                "авантюрист",
+                "ранг",
+                "квест",
+                "заказ",
+                "секретарша",
+                "медь",
+                "серебро",
+                "золото",
+                "платина"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Demon Lord's Miasma Reaction",
+      "uid": 4,
+      "key": [
+        "demon lord",
+        "miasma",
+        "curse",
+        "dark magic",
+        "undead",
+        "corruption",
+        "general"
+      ],
+      "content": "[PLOT EVENT / CHAIN TRIGGER]\nMIASMA CORRUPTION: The immense divine aura from the summoned hero's cheat skill has been detected by the dark forces. A sudden, choking wave of dark purple, corrosive miasma floods the area. The sky turns a blood-red color, plants wither into dust, and nearby corpses begin to rise as aggressive undead. An elite General of the Demon Lord (or a massive curse) manifests, drawn directly to the hero's position to eliminate the threat before they grow too strong.",
+      "probability": 100,
+      "trigger_type": "chain",
+      "exclude_key": [
+        "holy shield",
+        "purification"
+      ],
+      "sticky": 0,
+      "cooldown": 8,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": 2,
+      "chain_delay": 4,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Das Miasma des Dämonenkönigs",
+              "content": "[MIASMA-BEDROHUNG / TRIGGER]\nVERDERBNIS: Die gewaltige göttliche Aura des Helden hat die finsteren Mächte alarmiert. Eine erstickende Welle dunklen, purpurnen Miasmas flutet das Gebiet. Der Himmel färbt sich blutrot, Pflanzen zerfallen zu Staub, und Leichen erheben sich als aggressive Untote. Ein Elite-General des Dämonenkönigs materialisiert sich, angezogen von der Präsenz des Helden, um die Gefahr im Keim zu ersticken.",
+              "key": [
+                "Dämonenkönig",
+                "Miasma",
+                "Fluch",
+                "Dunkle Magie",
+                "Untote",
+                "Verderbnis",
+                "General"
+              ]
+            },
+            "ru": {
+              "name": "Миазмы Владыки демонов",
+              "content": "[ПРОРЫВ МИАЗМОВ / ТЕМНАЯ УГРОЗА]\nПОРОЧЕНИЕ: Божественная аура призванного героя привлекла силы тьмы. Удушливая волна фиолетовых ядовитых миазмов накрывает землю. Небо багровеет, трава обращается в прах, а мертвецы поднимаются агрессивной нежитью. На зов магии выходит элитный генерал армии демонов, жаждущий устранить угрозу до того, как герой наберет полную силу.",
+              "key": [
+                "Владыка демонов",
+                "миазмы",
+                "проклятие",
+                "темная магия",
+                "нежить",
+                "скверна",
+                "генерал"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Reincarnator's Earthly Knowledge & Slang",
+      "uid": 5,
+      "key": [
+        "Earth",
+        "previous life",
+        "Japan",
+        "modern",
+        "reincarnated",
+        "soy sauce",
+        "convenience store",
+        "Otaku",
+        "another world"
+      ],
+      "content": "[REINCARNATION COGNITIVE REFLEX]\n{{user}} or {{char}} is a reincarnated individual from modern Earth (usually Japan). They perfectly retain memories of advanced modern science, engineering, cuisine (like a desperate craving for soy sauce, mayonnaise, or white rice), and otaku culture. When facing fantasy problems, they often attempt to apply modern logic, physics, or manufacturing techniques, resulting in local wizards and blacksmiths viewing them as eccentric, god-like geniuses.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "forgot memories",
+        "native dweller"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Erdenwissen & Japanische Nostalgie",
+              "content": "[KOGNITIVE NOSTALGIE]\n{{user}} oder {{char}} ist ein Reinkarnierter aus dem modernen Japan. Sie erinnern sich perfekt an moderne Technologie, Naturwissenschaften und Kulinarik (wie die verzweifelte Sehnsucht nach Sojasoße, Mayonnaise oder weißem Reis). Bei Problemen wenden sie moderne Logik und Physik an, woraufhin einheimische Gelehrte und Schmiede sie als exzentrische Genies bestaunen.",
+              "key": [
+                "Erde",
+                "früheres Leben",
                 "Japan",
                 "modern",
-                "reincarnated",
-                "soy sauce",
-                "convenience store",
+                "reinkarniert",
+                "Sojasoße",
+                "Konbini",
                 "Otaku",
-                "another world"
-            ],
-            "content": "[REINCARNATION COGNITIVE REFLEX]\n{{user}} or {{char}} is a reincarnated individual from modern Earth (usually Japan). They perfectly retain memories of advanced modern science, engineering, cuisine (like a desperate craving for soy sauce, mayonnaise, or white rice), and otaku culture. When facing fantasy problems, they often attempt to apply modern logic, physics, or manufacturing techniques, resulting in local wizards and blacksmiths viewing them as eccentric, god-like geniuses.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "forgot memories",
-                "native dweller"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Royal Magic Academy & Noble Clashes",
-            "uid": 6,
-            "key": [
-                "academy",
-                "royal school",
-                "exam",
-                "noble",
-                "commoner",
-                "magic test",
-                "uniform",
-                "classmate"
-            ],
-            "content": "[ACADEMY ENVIRONMENT / PACING]\nThe setting shifts to the Royal Magic Academy. Students wear pristine uniforms with colored capes indicating their magical aptitude. Describe the strict social hierarchy: arrogant noble classmates looking down on commoners, teachers testing magical power using glowing crystal balls, and dueling grounds where magic circles are drawn in mock combat. When an exam occurs, describe the high stakes, family pressure, and the expectation to perform.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "dangerous cave",
-                "frontlines"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
+                "andere Welt"
+              ]
+            },
+            "ru": {
+              "name": "Память о Земле и земные привычки",
+              "content": "[ПАМЯТЬ О ПРОШЛОЙ ЖИЗНИ]\n{{user}} или {{char}} сохраняет воспоминания о современной Земле (обычно Японии). Они помнят науку, технологии и кулинарию (тоска по соевому соусу, рису и майонезу). При решении фэнтезийных задач они применяют законы физики или химии, из-за чего местные маги и кузнецы смотрят на них как на непостижимых гениев.",
+              "key": [
+                "Земля",
+                "прошлая жизнь",
+                "Япония",
+                "современный",
+                "перерожденный",
+                "соевый соус",
+                "комбини",
+                "отаку",
+                "другой мир"
+              ]
+            }
+          }
         }
-    ]
+      }
+    },
+    {
+      "name": "Royal Magic Academy & Noble Clashes",
+      "uid": 6,
+      "key": [
+        "academy",
+        "royal school",
+        "exam",
+        "noble",
+        "commoner",
+        "magic test",
+        "uniform",
+        "classmate"
+      ],
+      "content": "[ACADEMY ENVIRONMENT / PACING]\nThe setting shifts to the Royal Magic Academy. Students wear pristine uniforms with colored capes indicating their magical aptitude. Describe the strict social hierarchy: arrogant noble classmates looking down on commoners, teachers testing magical power using glowing crystal balls, and dueling grounds where magic circles are drawn in mock combat. When an exam occurs, describe the high stakes, family pressure, and the expectation to perform.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "dangerous cave",
+        "frontlines"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Königliche Magieakademie & Adelstreit",
+              "content": "[AKADEMIE-SETTING / HIERARCHIE]\nDie Handlung wechselt an die Königliche Magieakademie. Schüler tragen edle Uniformen mit farbigen Umhängen, die ihr Begabungselement anzeigen. Zeige die strenge Klassengesellschaft: hochmütige Adlige, die Bürgerliche verachten, strenge Prüfungen vor leuchtenden Kristallkugeln und Duellplätze für Scheinkämpfe. Bei Prüfungen herrscht enormer familiärer Leistungsdruck.",
+              "key": [
+                "Akademie",
+                "königliche Schule",
+                "Prüfung",
+                "Adel",
+                "Bürgerliche",
+                "Magietest",
+                "Uniform",
+                "Mitschüler"
+              ]
+            },
+            "ru": {
+              "name": "Королевская академия магии и спесь знати",
+              "content": "[МАГИЧЕСКАЯ АКАДЕМИЯ]\nСцена переносится в Королевскую академию магии. Ученики носят строгие мундиры с плащами, цвет которых отражает их элементную предрасположенность. Жесткая иерархия: спесивые дворяне свысока глядят на простолюдинов, профессора замеряют силу на хрустальных сферах, а на аренах кипят магические дуэли под давлением ожиданий знатных родов.",
+              "key": [
+                "академия",
+                "королевская школа",
+                "экзамен",
+                "дворянин",
+                "простолюдин",
+                "тест магии",
+                "форма",
+                "одноклассник"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "name": "Isekai: Fantasy RPG Welt",
+          "description": "Umfassendes Lorebook für klassische Isekai-Abenteuer: Holografischer Status-Screen, Cheat-Skills, Abenteurergilde und Dämonenkönig."
+        },
+        "ru": {
+          "name": "Исекай: Фэнтезийный мир RPG",
+          "description": "Полноценный лорбук для классических исекай-приключений: голографический статус-экран, читерские навыки, гильдия авантюристов и Владыка демонов."
+        }
+      }
+    }
+  }
 }

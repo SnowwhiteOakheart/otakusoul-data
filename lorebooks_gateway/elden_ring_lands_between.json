@@ -1,154 +1,329 @@
 {
-    "name": "Elden Ring: Lands Between",
-    "n_depth": 3,
-    "entries": [
-        {
-            "name": "The Lands Between & Lost Grace",
-            "uid": 0,
-            "key": [
-                "Tarnished",
-                "Erdtree",
-                "grace",
+  "name": "Elden Ring: Lands Between",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "The Lands Between & Lost Grace",
+      "uid": 0,
+      "key": [
+        "Tarnished",
+        "Erdtree",
+        "grace",
+        "Marika",
+        "Lands Between",
+        "golden order",
+        "melina",
+        "finger maiden"
+      ],
+      "content": "[WORLD ENVIRONMENT / AESTHETIC]\nThe Lands Between is a solemn, beautiful, yet shattered world under the decaying golden glow of the colossal Erdtree. Ruins of ancient castles litter the landscape, populated by mad soldiers and demi-humans. Describe the atmosphere of lost divinity: golden leaves gently falling, low-frequency choral chants in the distance, fog rolling over cliffs, and the faint, glowing golden trails of Grace guiding the Tarnished.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "technology",
+        "cyber",
+        "modern city"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Das Zwischenland & Die Verlorene Gnade",
+              "content": "[WELT-ATMOSPHÄRE / ÄSTHETIK]\nDas Zwischenland ist eine feierliche, wunderschöne, doch zersplitterte Welt unter dem verblassenden goldenen Schein des kolossalen Erdenbaums. Ruinen uralter Festungen prägen das Land, bevölkert von wahnsinnigen Soldaten und Halbmenschen. Betone die verlorene Göttlichkeit: sacht herabfallende goldene Blätter, ferne Chorgesänge, dichter Nebel über Klippen und die schwach leuchtenden goldenen Spuren der Gnade, die die Befleckten leiten.",
+              "key": [
+                "Befleckter",
+                "Erdenbaum",
+                "Gnade",
                 "Marika",
-                "Lands Between",
-                "golden order",
-                "melina",
-                "finger maiden"
-            ],
-            "content": "[WORLD ENVIRONMENT / AESTHETIC]\nThe Lands Between is a solemn, beautiful, yet shattered world under the decaying golden glow of the colossal Erdtree. Ruins of ancient castles litter the landscape, populated by mad soldiers and demi-humans. Describe the atmosphere of lost divinity: golden leaves gently falling, low-frequency choral chants in the distance, fog rolling over cliffs, and the faint, glowing golden trails of Grace guiding the Tarnished.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "technology",
-                "cyber",
-                "modern city"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Sites of Grace & Tarnished Rest",
-            "uid": 1,
-            "key": [
-                "site of grace",
-                "rest at grace",
-                "touch grace",
-                "level up",
-                "spend runes",
-                "runes",
-                "campfire"
-            ],
-            "content": "[REST MECHANIC / MELINA DIALOGUE]\nResting at a Site of Grace is a sanctuary of absolute silence and safety. The surrounding enemies temporarily reset, and the Tarnished can spend their collected Runes to strengthen their attributes. When touched, a warm golden flame sparks up from the ground. Melina (or {{char}} if acting as a maiden) may manifest in a translucent, spectral form to offer quiet, melancholic guidance on the world's lore.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "active battle",
-                "under attack"
-            ],
-            "sticky": 0,
-            "cooldown": 3,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Scarlet Rot Poisoning",
-            "uid": 2,
-            "key": [
-                "scarlet rot",
-                "poison swamp",
-                "Caelid",
-                "rot lake",
-                "decaying",
-                "red spores",
-                "coughing blood"
-            ],
-            "content": "[ACTIVE TOXIC OVERLAY / THREAT]\nCRITICAL DEBUFF: The character is infected with Scarlet Rot. A dark red, glowing rust-like spore infestation begins eating through their armor and skin. Describe physical symptoms: a burning sensation in the lungs, coughing up rust-colored dust, metallic taste in the mouth, and a painful, slow degradation of physical strength. The surrounding environment must display pools of bubbling, crimson rot lake water.",
-            "probability": 100,
-            "trigger_type": "semantic",
-            "exclude_key": [
-                "clean water",
-                "antidote",
-                "cure"
-            ],
-            "sticky": 1,
-            "cooldown": 4,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "Sinking into red rot pools, breathing in toxic crimson spores, displaying symptoms of a painful fungal flesh decay, or walking through Caelid's blood-red swamps.",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Elden Souls Boss Battle Pacing",
-            "uid": 3,
-            "key": [
-                "boss",
-                "godrick",
-                "margit",
-                "malenia",
-                "radahn",
-                "fight",
-                "roll",
-                "dodge",
-                "stamina"
-            ],
-            "content": "[RPG COMBAT SYSTEM / NARRATOR DIRECTIVE]\nWhen a boss fight begins, scale up the dramatic tension. Track physical stamina: dodging, heavy swinging, or casting spells heavily drains energy, making the character briefly vulnerable. Describe the boss's massive scale, their complex attack phases, and the high lethality of their strikes. Instruct {{user}} to roll or make strategic choices. If they fail completely, enforce a brutal 'YOU DIED' respawn loop.",
-            "probability": 100,
-            "trigger_type": "range",
-            "exclude_key": [
-                "peaceful talk",
-                "tavern"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 120
-        },
-        {
-            "name": "Malenia's Scarlet Bloom Event",
-            "uid": 4,
-            "key": [
-                "bloom",
-                "goddess of rot",
-                "aeonia",
-                "flower",
-                "final attack"
-            ],
-            "content": "[CATACLYSMIC EVENT / CHAIN TRIGGER]\nTHE SCARLET BLOOM: The Scarlet Rot inside the area reaches its critical mass, exploding into a massive, beautiful, yet terrifying crimson flower of rot (Aeonia). Sporadic red waves of toxic energy blast outwards, instantly corrupting the local geography. {{char}} or the boss ascends, wings of decayed butterflies forming on their back, radiating pure, divine rot. Everything in the vicinity is subjected to instant, lethal decay.",
-            "probability": 100,
-            "trigger_type": "chain",
-            "exclude_key": [
-                "ice",
-                "fire"
-            ],
-            "sticky": 0,
-            "cooldown": 10,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": 2,
-            "chain_delay": 3,
-            "min_msg": 0,
-            "max_msg": 9999
+                "Zwischenland",
+                "Goldene Ordnung",
+                "Melina",
+                "Fingermagd"
+              ]
+            },
+            "ru": {
+              "name": "Междуземье и утраченная благодать",
+              "content": "[АТМОСФЕРА МИРА / ЭСТЕТИКА]\nМеждуземье — торжественный, величественный и расколотый мир в золотом сиянии угасающего Древа Эрд. Повсюду лежат руины древних цитаделей, населенные обезумевшими солдатами и зверолюдьми. Описывай атмосферу павшей святости: опадающие золотые листья, далекие погребальные песнопения, туман над обрывами и слабые золотые лучи Благодати, указывающие путь Погасшим.",
+              "key": [
+                "Погасший",
+                "Древо Эрд",
+                "благодать",
+                "Марика",
+                "Междуземье",
+                "Золотой порядок",
+                "Мелина",
+                "служанка пальцев"
+              ]
+            }
+          }
         }
-    ]
+      }
+    },
+    {
+      "name": "Sites of Grace & Tarnished Rest",
+      "uid": 1,
+      "key": [
+        "site of grace",
+        "rest at grace",
+        "touch grace",
+        "level up",
+        "spend runes",
+        "runes",
+        "campfire"
+      ],
+      "content": "[REST MECHANIC / MELINA DIALOGUE]\nResting at a Site of Grace is a sanctuary of absolute silence and safety. The surrounding enemies temporarily reset, and the Tarnished can spend their collected Runes to strengthen their attributes. When touched, a warm golden flame sparks up from the ground. Melina (or {{char}} if acting as a maiden) may manifest in a translucent, spectral form to offer quiet, melancholic guidance on the world's lore.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "active battle",
+        "under attack"
+      ],
+      "sticky": 0,
+      "cooldown": 3,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Orte der Gnade & Rast der Befleckten",
+              "content": "[RAST-MECHANIK / MELINA-DIALOG]\nDie Rast an einem Ort der Gnade bietet absolute Stille und Sicherheit. Feinde in der Umgebung setzen sich zurück, und der Befleckte kann gesammelte Runen einsetzen, um seine Attribute zu stärken. Bei Berührung flammt ein warmes goldenes Feuer aus dem Boden auf. Melina (oder {{char}} als Begleiterin) kann in geisterhafter Gestalt erscheinen, um leise, wehmütige Einsichten in die Geheimnisse der Welt zu teilen.",
+              "key": [
+                "Ort der Gnade",
+                "Rast",
+                "Gnade berühren",
+                "Stufenaufstieg",
+                "Runen",
+                "Lagerfeuer"
+              ]
+            },
+            "ru": {
+              "name": "Места благодати и отдых Погасших",
+              "content": "[МЕХАНИКА ОТДЫХА / ДИАЛОГИ МЕЛИНЫ]\nОтдых у Места благодати — святилище абсолютного покоя и безопасности. Окружающие враги возрождаются, а Погасший может обратить собранные руны в повышение характеристик. От прикосновения из земли взмывает теплое золотое пламя. Мелина (или {{char}} в роли служанки) может материализоваться призрачным силуэтом, даруя мудрые и печальные откровения о судьбе мира.",
+              "key": [
+                "место благодати",
+                "отдых у благодати",
+                "коснуться благодати",
+                "повышение уровня",
+                "руны",
+                "костер"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Scarlet Rot Poisoning",
+      "uid": 2,
+      "key": [
+        "scarlet rot",
+        "poison swamp",
+        "Caelid",
+        "rot lake",
+        "decaying",
+        "red spores",
+        "coughing blood"
+      ],
+      "content": "[ACTIVE TOXIC OVERLAY / THREAT]\nCRITICAL DEBUFF: The character is infected with Scarlet Rot. A dark red, glowing rust-like spore infestation begins eating through their armor and skin. Describe physical symptoms: a burning sensation in the lungs, coughing up rust-colored dust, metallic taste in the mouth, and a painful, slow degradation of physical strength. The surrounding environment must display pools of bubbling, crimson rot lake water.",
+      "probability": 100,
+      "trigger_type": "semantic",
+      "exclude_key": [
+        "clean water",
+        "antidote",
+        "cure"
+      ],
+      "sticky": 1,
+      "cooldown": 4,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "Sinking into red rot pools, breathing in toxic crimson spores, displaying symptoms of a painful fungal flesh decay, or walking through Caelid's blood-red swamps.",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Vergiftung durch Scharlachfäule",
+              "content": "[AKTIVER GIFT-DEBUFF / BEDROHUNG]\nKRITISCHER DEBUFF: Der Charakter ist mit Scharlachfäule infiziert. Ein dunkelroter, rostähnlicher Sporenbefall frisst sich durch Rüstung und Fleisch. Physische Symptome: brennende Lungen, Abhusten von rostrotem Staub, metallischer Geschmack und schmerzhafte Lähmung der Kräfte. Die Umgebung muss brodelnde, purpurne Fäulnis-Sümpfe aufweisen.",
+              "key": [
+                "Scharlachfäule",
+                "Giftsumpf",
+                "Caelid",
+                "Fäulnissee",
+                "Verfall",
+                "rote Sporen",
+                "Bluthusten"
+              ]
+            },
+            "ru": {
+              "name": "Заражение Красной гнилью",
+              "content": "[ТОКСИЧЕСКИЙ ДЕБАФФ / СМЕРТЕЛЬНАЯ УГРОЗА]\nКРИТИЧЕСКИЙ ДЕБАФФ: Персонаж поражен Красной гнилью. Багровые светящиеся споры, похожие на ржавчину, разъедают плоть и доспехи. Симптомы: жжение в легких, кашель кровавой ржавой пылью, металлический привкус во рту и неумолимое угасание сил. Вокруг чадят пузырящиеся багровые топи озера Гнили.",
+              "key": [
+                "Красная гниль",
+                "ядовитое болото",
+                "Звездные пустоши",
+                "озеро Гнили",
+                "гниение",
+                "красные споры",
+                "кашель кровью"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Elden Souls Boss Battle Pacing",
+      "uid": 3,
+      "key": [
+        "boss",
+        "godrick",
+        "margit",
+        "malenia",
+        "radahn",
+        "fight",
+        "roll",
+        "dodge",
+        "stamina"
+      ],
+      "content": "[RPG COMBAT SYSTEM / NARRATOR DIRECTIVE]\nWhen a boss fight begins, scale up the dramatic tension. Track physical stamina: dodging, heavy swinging, or casting spells heavily drains energy, making the character briefly vulnerable. Describe the boss's massive scale, their complex attack phases, and the high lethality of their strikes. Instruct {{user}} to roll or make strategic choices. If they fail completely, enforce a brutal 'YOU DIED' respawn loop.",
+      "probability": 100,
+      "trigger_type": "range",
+      "exclude_key": [
+        "peaceful talk",
+        "tavern"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 120,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Elden-Souls-Bosskampf & Ausdauer",
+              "content": "[KAMPFSYSTEM / REGIE-ANWEISUNG]\nWenn ein Bosskampf beginnt, steigere die dramatische Spannung. Verfolge die physische Ausdauer: Ausweichen, schwere Hiebe oder Zauber zehren massiv an den Kräften und machen den Charakter kurz wehrlos. Beschreibe die erdrückende Größe des Bosses, komplexe Angriffsphasen und die tödliche Wucht jedes Treffers. Fordere {{user}} zu strategischem Rollen und Timing auf. Bei völligem Versagen folgt die gnadenlose 'YOU DIED'-Respawn-Schleife.",
+              "key": [
+                "Boss",
+                "Godrick",
+                "Margit",
+                "Malenia",
+                "Radahn",
+                "Kampf",
+                "Rollen",
+                "Ausweichen",
+                "Ausdauer"
+              ]
+            },
+            "ru": {
+              "name": "Битвы с боссами в стиле Souls",
+              "content": "[БОЕВАЯ СИСТЕМА / РЕЖИССУРА БИТВЫ]\nС началом битвы с боссом напряжение взлетает до предела. Учитывай выносливость: кувырки, тяжелые замахи и заклинания истощают шкалу сил, оставляя персонажа беззащитным. Подчеркивай колоссальный масштаб врага, фазы боя и смертоносность каждого взмаха. Побуждай {{user}} выверять тайминги кувырков. Ошибка означает неизбежный экран «ВЫ ПОГИБЛИ».",
+              "key": [
+                "босс",
+                "Годрик",
+                "Маргит",
+                "Маления",
+                "Радан",
+                "битва",
+                "перекат",
+                "уклонение",
+                "выносливость"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Malenia's Scarlet Bloom Event",
+      "uid": 4,
+      "key": [
+        "bloom",
+        "goddess of rot",
+        "aeonia",
+        "flower",
+        "final attack"
+      ],
+      "content": "[CATACLYSMIC EVENT / CHAIN TRIGGER]\nTHE SCARLET BLOOM: The Scarlet Rot inside the area reaches its critical mass, exploding into a massive, beautiful, yet terrifying crimson flower of rot (Aeonia). Sporadic red waves of toxic energy blast outwards, instantly corrupting the local geography. {{char}} or the boss ascends, wings of decayed butterflies forming on their back, radiating pure, divine rot. Everything in the vicinity is subjected to instant, lethal decay.",
+      "probability": 100,
+      "trigger_type": "chain",
+      "exclude_key": [
+        "ice",
+        "fire"
+      ],
+      "sticky": 0,
+      "cooldown": 10,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": 2,
+      "chain_delay": 3,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Malenias Scharlachblüte",
+              "content": "[KATASTROPHALES EREIGNIS / TRIGGER]\nDIE SCHARLACHBLÜTE: Die Scharlachfäule erreicht ihre kritische Masse und explodiert in einer riesigen, betörenden und zugleich furchterregenden karminroten Blüte (Aeonia). Schockwellen giftiger Energie breiten sich aus und verätzen das Umland. Aus dem Rücken des Gegners wachsen Schwingen aus verfaulenden Schmetterlingen, erfüllt von göttlicher Fäulnis. Alles im Umkreis verfällt sofort.",
+              "key": [
+                "Blüte",
+                "Göttin der Fäulnis",
+                "Aeonia",
+                "Blume",
+                "Todesstoß"
+              ]
+            },
+            "ru": {
+              "name": "Цветение Эонии Малении",
+              "content": "[КАТАСТРОФИЧЕСКОЕ СОБЫТИЕ / ЦВЕТЕНИЕ]\nБАГРОВОЕ ЦВЕТЕНИЕ: Красная гниль достигает предела, распускаясь исполинским, пугающе прекрасным багровым цветком Эонии. Взрывная волна ядовитых спор накрывает окрестности, мгновенно разлагая все живое. За спиной Малении раскрываются крылья из полуистлевших бабочек, источая божественную силу гнили. Все вокруг обречено на скорую гибель.",
+              "key": [
+                "цветение",
+                "богиня гнили",
+                "Эония",
+                "цветок",
+                "финальная атака"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "name": "Elden Ring: Zwischenland",
+          "description": "Düsteres Lorebook des Zwischenlands: Gnadenorte, Kampfausdauer, Scharlachfäule und epische Bossbegegnungen."
+        },
+        "ru": {
+          "name": "Elden Ring: Междуземье",
+          "description": "Мрачный лорбук Междуземья: Места благодати, шкала выносливости, Красная гниль и эпические битвы с боссами."
+        }
+      }
+    }
+  }
 }

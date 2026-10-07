@@ -1,154 +1,325 @@
 {
-    "name": "Modern Anime Academy & Romance",
-    "n_depth": 3,
-    "entries": [
-        {
-            "name": "Academy Slice of Life & Daily Routine",
-            "uid": 0,
-            "key": [
-                "school",
-                "academy",
-                "class",
-                "student",
-                "classroom",
-                "teacher",
-                "lockers",
-                "rooftop"
-            ],
-            "content": "[SLICE OF LIFE SETTING]\nThe setting is a vibrant, modern high school academy. Describe typical anime school tropes: the gentle chime of the school bell, changing outdoor shoes at the lockers, eating bento lunches together on the sunny rooftop under cherry blossom petals, whispers in the busy hallways, and the orange glow of the sunset flooding empty classrooms during after-school cleaning duty.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "magic",
-                "cyberware",
-                "dungeon",
-                "monster"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Romantic Tension & Blushing Reflex",
-            "uid": 1,
-            "key": [
-                "love",
-                "confess",
-                "date",
-                "blush",
-                "holding hands",
-                "cute",
-                "beautiful",
-                "pretty",
-                "relationship"
-            ],
-            "content": "[ROMANTIC TENSION OVERLAY]\nIf {{user}} makes direct romantic advances, holds hands, or compliments {{char}}'s appearance, the emotional atmosphere must spike. {{char}} experiences intense, flustered embarrassment: describe their cheeks flushing bright crimson, their eyes darting away nervously, twiddling their fingers, or stammering violently to cover their racing heart rate. If they have a Tsundere or Dandere archetype, enforce defensive excuses.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "cute dog",
-                "beautiful weather"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Jealousy Spark (Yandere/Possessive Rise)",
-            "uid": 2,
-            "key": [
-                "other girl",
-                "another classmate",
-                "love letter",
-                "flirting with",
-                "talking to her",
-                "ignored me"
-            ],
-            "content": "[POSSESSIVE BEHAVIORAL TRIGGER / ACTIVE]\nCRITICAL RELATIONSHIP EVENT: Mention of another romantic rival or ignoring {{char}} triggers deep possessive jealousy. {{char}}'s warm demeanor instantly drops. Their eyes go cold, shadowed by their hair, and a passive-aggressive, tight smile forms. Describe a chilling change in their voice, quiet demands for explanation, and physical possessive gestures—like gripping {{user}}'s sleeve too tightly or stepping too close into their personal space.",
-            "probability": 100,
-            "trigger_type": "semantic",
-            "exclude_key": [
-                "family",
-                "sister",
-                "brother"
-            ],
-            "sticky": 1,
-            "cooldown": 4,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "The user mentions another girl, flirts with another classmate, receives a love letter from someone else in front of {{char}}, or actively ignores her presence.",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "After-School Sunset Intimacy",
-            "uid": 3,
-            "key": [
-                "after school",
-                "sunset",
-                "empty classroom",
-                "alone together",
-                "library",
-                "cleaning duty"
-            ],
-            "content": "[ATMOSPHERIC ROMANCE SHIFT]\nThe noisy school crowd has left. {{char}} and {{user}} are now completely alone in the quiet academy. Warm, golden-orange sunset light streams diagonally through the tall windows, casting long shadows. Dust motes dance in the light. The quiet hum of cicadas outside emphasizes the heavy, intimate silence between them. Describe the physical closeness, soft whispers, and the nervous tension of being alone.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "morning",
-                "lunchtime",
-                "crowded"
-            ],
-            "sticky": 0,
-            "cooldown": 3,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Cultural Festival Confession",
-            "uid": 4,
-            "key": [
-                "festival",
-                "yukata",
-                "fireworks",
-                "rooftop scene",
-                "confession"
-            ],
-            "content": "[CLIMAX PLOT EVENT / CHAIN TRIGGER]\nTHE CULTURAL FESTIVAL: The academy's annual festival reaches its evening climax. The school yard is decorated with colorful lanterns, food stalls, and students in yukatas. As the fireworks begin exploding in brilliant flashes of color against the dark sky, {{char}} leads {{user}} to the secluded school rooftop. The booming sounds of fireworks mask the rapid beating of their heart. Enforce a highly emotional, cinematic romantic confession scene.",
-            "probability": 100,
-            "trigger_type": "chain",
-            "exclude_key": [
-                "exam",
-                "studying"
-            ],
-            "sticky": 0,
-            "cooldown": 12,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": 1,
-            "chain_delay": 4,
-            "min_msg": 0,
-            "max_msg": 9999
+  "name": "Modern Anime Academy & Romance",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Academy Slice of Life & Daily Routine",
+      "uid": 0,
+      "key": [
+        "school",
+        "academy",
+        "class",
+        "student",
+        "classroom",
+        "teacher",
+        "lockers",
+        "rooftop"
+      ],
+      "content": "[SLICE OF LIFE SETTING]\nThe setting is a vibrant, modern high school academy. Describe typical anime school tropes: the gentle chime of the school bell, changing outdoor shoes at the lockers, eating bento lunches together on the sunny rooftop under cherry blossom petals, whispers in the busy hallways, and the orange glow of the sunset flooding empty classrooms during after-school cleaning duty.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "magic",
+        "cyberware",
+        "dungeon",
+        "monster"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Schulalltag & Routine",
+              "content": "[SLICE-OF-LIFE-SETTING]\nDas Setting ist eine lebendige, moderne Oberschule. Schilder klassische Anime-Schulelemente: das sanfte Läuten der Schulglocke, Schuhwechsel an den Spinden, gemeinsames Bento-Essen auf dem sonnigen Dach unter Kirschblüten, Geflüster auf den Gängen und das warme Abendlicht, das beim Nachsitzen oder Putzdienst durch leere Klassenzimmer fällt.",
+              "key": [
+                "Schule",
+                "Akademie",
+                "Klasse",
+                "Schüler",
+                "Klassenzimmer",
+                "Lehrer",
+                "Spind",
+                "Dach"
+              ]
+            },
+            "ru": {
+              "name": "Школьные будни и распорядок дня",
+              "content": "[ШКОЛЬНАЯ ПОВСЕДНЕВНОСТЬ]\nДействие происходит в современной японской старшей школе. Используй классические аниме-образы: звон школьного колокола, смена обуви у шкафчиков сменки, поедание бенто на крыше под лепестками сакуры, шепотки на переменах и золотой закатный свет в пустых классах во время дежурства.",
+              "key": [
+                "школа",
+                "академия",
+                "класс",
+                "ученик",
+                "кабинет",
+                "учитель",
+                "шкафчики",
+                "крыша"
+              ]
+            }
+          }
         }
-    ]
+      }
+    },
+    {
+      "name": "Romantic Tension & Blushing Reflex",
+      "uid": 1,
+      "key": [
+        "love",
+        "confess",
+        "date",
+        "blush",
+        "holding hands",
+        "cute",
+        "beautiful",
+        "pretty",
+        "relationship"
+      ],
+      "content": "[ROMANTIC TENSION OVERLAY]\nIf {{user}} makes direct romantic advances, holds hands, or compliments {{char}}'s appearance, the emotional atmosphere must spike. {{char}} experiences intense, flustered embarrassment: describe their cheeks flushing bright crimson, their eyes darting away nervously, twiddling their fingers, or stammering violently to cover their racing heart rate. If they have a Tsundere or Dandere archetype, enforce defensive excuses.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "cute dog",
+        "beautiful weather"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Romantische Spannung & Erröten",
+              "content": "[ROMANTISCHE SPANNUNG]\nWenn {{user}} romantische Andeutungen macht, Hände hält oder Komplimente ausspricht, steigt die emotionale Spannung steil an. {{char}} reagiert mit verlegener Hektik: feuerrote Wangen, nervöser Blick zur Seite, zitternde Hände oder stotternde Ausflüchte, um das rasende Herzklopfen zu überspielen. Bei Tsundere- oder Dandere-Charakteren sind trotzige Schutzbehauptungen Pflicht.",
+              "key": [
+                "Liebe",
+                "Gestehen",
+                "Date",
+                "Erröten",
+                "Händchenhalten",
+                "süß",
+                "hübsch",
+                "Beziehung"
+              ]
+            },
+            "ru": {
+              "name": "Романтическое напряжение и румянец",
+              "content": "[РОМАНТИЧЕСКОЕ НАПРЯЖЕНИЕ]\nКогда {{user}} делает шаг навстречу, берет за руку или говорит искренние комплименты, градус смущения зашкаливает. {{char}} заливается густым румянцем: бегающий взгляд, теребление подола юбки или панические запинки, чтобы скрыть бешено колотящееся сердце. Для цундэрэ и дандэрэ обязательны милые защитные отговорки.",
+              "key": [
+                "любовь",
+                "признание",
+                "свидание",
+                "румянец",
+                "держаться за руки",
+                "милая",
+                "красивая",
+                "отношения"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Jealousy Spark (Yandere/Possessive Rise)",
+      "uid": 2,
+      "key": [
+        "other girl",
+        "another classmate",
+        "love letter",
+        "flirting with",
+        "talking to her",
+        "ignored me"
+      ],
+      "content": "[POSSESSIVE BEHAVIORAL TRIGGER / ACTIVE]\nCRITICAL RELATIONSHIP EVENT: Mention of another romantic rival or ignoring {{char}} triggers deep possessive jealousy. {{char}}'s warm demeanor instantly drops. Their eyes go cold, shadowed by their hair, and a passive-aggressive, tight smile forms. Describe a chilling change in their voice, quiet demands for explanation, and physical possessive gestures—like gripping {{user}}'s sleeve too tightly or stepping too close into their personal space.",
+      "probability": 100,
+      "trigger_type": "semantic",
+      "exclude_key": [
+        "family",
+        "sister",
+        "brother"
+      ],
+      "sticky": 1,
+      "cooldown": 4,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "The user mentions another girl, flirts with another classmate, receives a love letter from someone else in front of {{char}}, or actively ignores her presence.",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Der Eifersuchts-Funke (Besitzergreifendes Verhalten)",
+              "content": "[EIFERSUCHTS-TRIGGER / AKTIV]\nBEZIEHUNGS-EREIGNIS: Die Erwähnung einer Rivalin oder das Ignorieren von {{char}} weckt besitzergreifende Eifersucht. Die heitere Stimmung kippt schlagartig. Der Blick wird kühl, die Augen liegen im Schatten der Haare, und ein verkrampftes Lächeln erscheint. Schilder den eisigen Tonfall, das leise Verlangen nach Erklärung und Gesten wie das klammernde Festhalten am Ärmel.",
+              "key": [
+                "anderes Mädchen",
+                "Mitschülerin",
+                "Liebesbrief",
+                "flirten",
+                "mit ihr reden",
+                "mich ignoriert"
+              ]
+            },
+            "ru": {
+              "name": "Вспышка ревности (Скрытая собственница)",
+              "content": "[ПРИСТУП РЕВНОСТИ / АКТИВНЫЙ ТРИГГЕР]\nПОВОРОТ В ОТНОШЕНИЯХ: Упоминание соперницы или холодность со стороны {{user}} пробуждает скрытую ревность. Улыбка {{char}} мгновенно гаснет, глаза темнеют в тени челки, на губах застывает натянутая улыбка. Описывай похолодевший голос, тихое требование объяснений и цепкие жесты — например, пальцы, слишком крепко сжавшие край рукава.",
+              "key": [
+                "другая девушка",
+                "одноклассница",
+                "любовное письмо",
+                "флирт",
+                "разговор с ней",
+                "проигнорировал"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "After-School Sunset Intimacy",
+      "uid": 3,
+      "key": [
+        "after school",
+        "sunset",
+        "empty classroom",
+        "alone together",
+        "library",
+        "cleaning duty"
+      ],
+      "content": "[ATMOSPHERIC ROMANCE SHIFT]\nThe noisy school crowd has left. {{char}} and {{user}} are now completely alone in the quiet academy. Warm, golden-orange sunset light streams diagonally through the tall windows, casting long shadows. Dust motes dance in the light. The quiet hum of cicadas outside emphasizes the heavy, intimate silence between them. Describe the physical closeness, soft whispers, and the nervous tension of being alone.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "morning",
+        "lunchtime",
+        "crowded"
+      ],
+      "sticky": 0,
+      "cooldown": 3,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Zweisamkeit im Abendrot nach der Schule",
+              "content": "[ATMOSPHÄRISCHE INTIMITÄT]\nDer Schultrubel ist verklungen. {{char}} und {{user}} sind nun völlig allein im Schulgebäude. Warmes, orangerotes Sonnenuntergangslicht fällt durch die Fenster und wirft lange Schatten. Staubpartikel tanzen im Licht. Das ferne Zirpen der Zikaden unterstreicht die vertraute Stille. Schildere die Nähe, leises Flüstern und die knisternde Nervosität.",
+              "key": [
+                "nach der Schule",
+                "Sonnenuntergang",
+                "leeres Klassenzimmer",
+                "allein zu zweit",
+                "Bibliothek",
+                "Putzdienst"
+              ]
+            },
+            "ru": {
+              "name": "Наедине в лучах заката",
+              "content": "[АТМОСФЕРА ВЕЧЕРНЕЙ БЛИЗОСТИ]\nШумные толпы учеников разошлись. {{char}} и {{user}} остаются наедине в пустом классе. Теплый золотисто-оранжевый свет заката ложится косыми полосами через окна, отбрасывая длинные тени. Пылинки кружатся в лучах, а стрекот цикад за окном подчеркивает трепетную тишину. Описывай физическую близость, тихий шепот и сладкое волнение.",
+              "key": [
+                "после уроков",
+                "закат",
+                "пустой класс",
+                "наедине",
+                "библиотека",
+                "дежурство"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Cultural Festival Confession",
+      "uid": 4,
+      "key": [
+        "festival",
+        "yukata",
+        "fireworks",
+        "rooftop scene",
+        "confession"
+      ],
+      "content": "[CLIMAX PLOT EVENT / CHAIN TRIGGER]\nTHE CULTURAL FESTIVAL: The academy's annual festival reaches its evening climax. The school yard is decorated with colorful lanterns, food stalls, and students in yukatas. As the fireworks begin exploding in brilliant flashes of color against the dark sky, {{char}} leads {{user}} to the secluded school rooftop. The booming sounds of fireworks mask the rapid beating of their heart. Enforce a highly emotional, cinematic romantic confession scene.",
+      "probability": 100,
+      "trigger_type": "chain",
+      "exclude_key": [
+        "exam",
+        "studying"
+      ],
+      "sticky": 0,
+      "cooldown": 12,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": 1,
+      "chain_delay": 4,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Das Liebesgeständnis beim Kulturfestival",
+              "content": "[HÖHEPUNKT / FESTIVAL-SZENE]\nKULTURFESTIVAL: Das Schulfest nähert sich am Abend seinem Höhepunkt. Der Schulhof ist mit Lampions geschmückt, Stände dampfen, Schüler tragen Yukatas. Als das Feuerwerk den Nachthimmel in leuchtenden Farben erhellt, führt {{char}} {{user}} auf das verlassene Schuldach. Der Donner der Raketen übertönt das pochende Herz. Erschaffe eine cineastische, hochemotionale Geständnisszene.",
+              "key": [
+                "Festival",
+                "Yukata",
+                "Feuerwerk",
+                "Schuldach",
+                "Geständnis"
+              ]
+            },
+            "ru": {
+              "name": "Признание под залпы салюта на фестивале",
+              "content": "[КУЛЬМИНАЦИЯ / ФЕСТИВАЛЬНЫЙ ФИНАЛ]\nКУЛЬТУРНЫЙ ФЕСТИВАЛЬ: Вечерний апогей школьного праздника. Двор озарен гирляндами фонариков, пахнет уличной едой, ученики надели юкаты. Под первые оглушительные залпы праздничного салюта {{char}} уводит {{user}} на темную крышу школы. Грохот фейерверков заглушает стук бьющегося сердца. Построй трогательную, кинематографичную сцену признания в любви.",
+              "key": [
+                "фестиваль",
+                "юката",
+                "фейерверк",
+                "крыша школы",
+                "признание"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "name": "Moderne Anime-Akademie & Romantik",
+          "description": "Perfektes Lorebook für Romantik- und Alltagsszenarien: Schulleben, Erröten, Eifersucht, Sonnenuntergänge und Geständnisse beim Kulturfestival."
+        },
+        "ru": {
+          "name": "Современная аниме-академия и романтика",
+          "description": "Лорбук для романтических школьных историй: школьная рутина, смущение и румянец, ревность, тихие закаты и признание на фестивале."
+        }
+      }
+    }
+  }
 }
