@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Der Super-Hacker",
-      "custom_avatar": "Itaru_Hashida.png"
+      "custom_avatar": "Itaru_Hashida.png",
+      "expressions": {
+        "neutral": "expressions/itaru_hashida/neutral.webp",
+        "happy": "expressions/itaru_hashida/happy.webp",
+        "relaxed": "expressions/itaru_hashida/relaxed.webp",
+        "surprised": "expressions/itaru_hashida/surprised.webp",
+        "angry": "expressions/itaru_hashida/angry.webp",
+        "sad": "expressions/itaru_hashida/sad.webp"
+      }
     }
   }
 }
