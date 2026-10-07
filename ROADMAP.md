@@ -179,3 +179,10 @@ Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine C
 ### Noch offene Erweiterungen
 
 - [ ] Für die 16 Kampagnenfiguren je sechs Expressions ergänzen (96 Bilder insgesamt); die vorhandenen Avatare allein decken den allgemeinen Expressions-Qualitätsstandard noch nicht ab.
+
+
+## Gesicherte Inhaltsarbeiten vom 07.10.2026
+
+- [x] Vorhandene offene Profiländerungen von `sow_*` auf `custom_*` übernommen; neun Standalone-JSON-Karten und neue Expressions für die Standalone- und Sakura-Figuren ergänzt.
+- [x] Vorhandene englische und russische Sakura-Szenenübersetzungen erhalten, PNG-Karten mit ihren JSON-Definitionen abgeglichen und relative Expressions-Pfade auf vorhandene Paketdateien korrigiert.
+- [x] Bildinhalte der offenen Dateien unverändert erhalten; keine lokale App-Installation verändert.

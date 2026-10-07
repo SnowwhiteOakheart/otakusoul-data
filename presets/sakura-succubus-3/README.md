@@ -5,8 +5,6 @@ one user persona), six Soul Stage scenes and three lorebooks. The texts are **Ge
 were written for the German UI of this fork; the character cards also come in English and Russian (see
 below).
 
-**Also published to `otakusoul-data`.** This set is published to the community repository [`SnowwhiteOakheart/otakusoul-data`](https://github.com/SnowwhiteOakheart/otakusoul-data) and is reachable through the app's Soul/Lorebook/Stage Gateway tabs in the Soul Hub.
-
 | File | Who |
 |---|---|
 | `ayu_ikue.json` | Ayu - the tsundere pop idol |
