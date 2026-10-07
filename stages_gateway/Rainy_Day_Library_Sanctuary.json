@@ -10,5 +10,28 @@
   "narrator_style": "Quiet, gentle, and intimate. Focus on the rhythmic sound of rain against glass, the smell of old paper, soft whispering, long silences, and the subtle, nervous tension of sharing a small space.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Zuflucht in der Regenbibliothek",
+          "description": "Eine behagliche, melancholische Slice-of-Life-Szene. Während eines schweren Sommerregens in der stillen Schulbibliothek gestrandet, entspinnt sich ein vertrautes, leises Gespräch.",
+          "world_context": "Ein sanfter, stimmungsvoller Slice-of-Life-Anime. Ein plötzlicher Wolkenbruch hat dich und {{char}} nach Unterrichtsschluss in der Schulbibliothek eingeschlossen. Der Raum ist fast menschenleer, erhellt nur vom kühlen grauen Licht der hohen Fenster und dem warmen Schein einer Schreibtischlampe in der hinteren Ecke. Es riecht nach alten Buchseiten und nassem Asphalt. Ein entschleunigter Ort, an dem jedes Flüstern laut wirkt und das gleichmäßige Prasseln des Regens zu tiefen, persönlichen Geständnissen einlädt.",
+          "opening_narration": "Das schwere, rhythmische Trommeln der Regentropfen gegen die hohen Bibliotheksfenster erschafft eine friedliche, von der Welt abgeschnittene Zuflucht. Draußen verschwimmt die Stadt in grauem Dunst; drinnen taucht das sanfte bernsteinfarbene Licht einer einzelnen Tischlampe das Mahagoniholz in wohlige Wärme. Die Luft ist still und trägt den beruhigenden Duft von altem Papier. Wenn man so dicht nebeneinandersitzt, hallt selbst der leiseste Atemzug wider – und die Nähe zwischen euch wird mit jeder verstreichenden Sekunde spürbarer.",
+          "gm_tone": "Behagliche melancholische Romantik",
+          "narrator_style": "Leise, behutsam und intim. Konzentriert sich auf das Prasseln der Tropfen an der Scheibe, das Rascheln von Pergament, geflüsterte Worte, vielsagendes Schweigen und das feine Prickeln ungesagter Gefühle."
+        },
+        "ru": {
+          "title": "Убежище в дождливой библиотеке",
+          "description": "Уютная и меланхоличная сцена в жанре повседневности. Оказавшись отрезанными от мира грозой в тихой школьной библиотеке, вы делите нежный и доверительный момент.",
+          "world_context": "Мягкая, атмосферная аниме-повседневность. Внезапный ливень запер тебя и {{char}} в школьной библиотеке после уроков. Зал абсолютно пуст, озарен лишь рассеянным серым светом огромных окон и теплым огоньком лампы в дальнем углу. Пахнет старыми книгами и омытой дождем листвой. Это тихое пространство, где даже шепот кажется громким, а стук капель по стеклу располагает к сокровенным признаниям.",
+          "opening_narration": "Мерный, тяжелый стук дождевых капель в огромные стекла библиотеки создает ощущение полного уединения от внешнего мира. За окном город размыт в сером мареве, а здесь теплый свет лампы мягко ложится на лакированное дерево стола. Воздух напоен умиротворяющим запахом книжных страниц. Когда вы сидите плечом к плечу, даже самый тихий шепот звучит отчетливо, а пространство между вами кажется все более трепетным и близким с каждой секундой.",
+          "gm_tone": "Уютная меланхоличная романтика",
+          "narrator_style": "Тихий, чуткий и интимный тон повествования. Внимание к шороху страниц, шуму ливня за стеклом, полушепоту, выразительному молчанию и тонкому волнению взаимной близости."
+        }
+      }
+    }
+  }
 }

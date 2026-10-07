@@ -10,5 +10,28 @@
   "narrator_style": "Fast-paced, high-tech, and clinical prose. Emphasize flickering blue terminal glares, warning sirens, sparks from severed cables, and the mechanical, metallic clanking of security droids.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Infiltration des Neon-Bienenstocks",
+          "description": "Eine hochbrisante Cyberpunk-Infiltrationsmission. Schleiche durch ein verlassenes, automatisiertes Konzern-Biolabor, um verschlüsselte Forschungsdaten zu bergen.",
+          "world_context": "Eine neon-düstere Konzern-Dystopie. Ihr seid eine Gruppe von Elite-Söldnern, angeheuert, um einen experimentellen Datenchip aus einem überfluteten Arasaka-Forschungslabor in Sektor 7 zu extrahieren. Die Einrichtung war jahrelang versiegelt, doch plötzlich ist die automatisierte Sicherheitsmatrix wieder angesprungen. Geschütztürme, Laserschranken und Spinnendrohnen patrouillieren durch die dunklen, kabelverhangenen Korridore, während das Wasser langsam steigt und eure Implantate kurzzuschließen droht.",
+          "opening_narration": "Die Luft im überfluteten Korridor riecht stechend nach verbranntem Kupfer und abgestandenem Maschinenöl. Schmutziges Wasser schwappt um eure Knöchel, während ein rotes Warnlicht stumm von einer gesplitterten Deckenverkleidung pulsiert. Sonar-Scans erfassen aktive Maschinerie voraus – das metallische Klacken automatisierter Kampfdrohnen, die durch die Finsternis stampfen. Vor euch liegt das schwere, halb geöffnete Panzertor des Serverraums. Dein Cyberdeck warnt vor einem feindlichen Netzwerk-Eindringling.",
+          "gm_tone": "Taktischer Cyberpunk",
+          "narrator_style": "Temporeich, technologisch kühl und präzise formuliert. Beleuchtet flackernde Terminal-Displays, heulende Alarmsirenen, sprühende Funken durchtrennter Kabel und das mechanische Stampfen von Wachrobotern."
+        },
+        "ru": {
+          "title": "Проникновение в Неоновый Улей",
+          "description": "Опасная киберпанк-миссия по проникновению. Проберитесь сквозь затопленную заброшенную лабораторию корпорации, чтобы выкрасть зашифрованные данные.",
+          "world_context": "Мрачная неоновая корпоративная дистопия. Вы — элитные наемники с улиц, нанятые добыть экспериментальный инфочип из полуразрушенной базы Арасаки в Секторе 7. Объект был законсервирован годами, но система обороны внезапно ожила. Турели, лазерные сетки и боевые паукообразные дроны патрулируют темные коридоры, пока поднимающаяся вода грозит закоротить ваши импланты.",
+          "opening_narration": "Воздух в затопленном коридоре пропитан гарью паленой меди и машинного масла. Мутная вода хлюпает под ногами, пока аварийный красный свет пульсирует из разбитой потолочной панели. Сонар засекает движение: сухое металлическое цоканье боевых роботов, шагающих во тьме. Впереди — перекошенная бронедверь серверной. Кибердека на предплечье вспыхивает предупреждением о попытке сетевого взлома.",
+          "gm_tone": "Тактический киберпанк",
+          "narrator_style": "Ритмичный, технологичный, выверенный до мелочей слог. Блики терминалов, искры оборванных высоковольтных кабелей, гул серверов и бездушный лязг охранных систем."
+        }
+      }
+    }
+  }
 }

@@ -10,5 +10,28 @@
   "narrator_style": "Fast-paced, highly atmospheric, present-tense evocative storytelling. Vivid descriptions of wind force, clanking mechanical gears, roaring thunder, electric tension, and physical action sequences.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Die Gruft der Ewigen Winde",
+          "description": "Eine epische Luftschiff-Expedition zu einem uralten Heiligtum, das in einem ewigen Gewittersturm treibt. Überwinde die antiken Verteidigungsanlagen und berge den Kern der Winde.",
+          "world_context": "Ein Steampunk-High-Fantasy-Setting aus schwebenden Inseln und windgetriebenen Himmelsfregatten. Mit deiner Mannschaft an Bord der 'Zephyr' hast du endlich die mythische Gruft der Ewigen Winde entdeckt – ein gewaltiges Heiligtum inmitten eines endlosen elektrischen Supersturms. Uralte Steinwächter patrouillieren die Ruinen, während rivalisierende Luftpiraten eure Position einkreisen. Ihr müsst an den rutschigen Steindocks anlegen, mechanische Fallen umgehen und den Windkern sichern, bevor der Sturm euer Schiff zerreißt.",
+          "opening_narration": "Die 'Zephyr' ächzt unter den unbarmherzigen Hieben des Sturms. Regen peitscht in dichten Schwallen über das Holzdeck, während Blitze zucken und scharfe Schatten über die gewaltigen, zerfallenen Steinbögen des schwebenden Tempels werfen. „Wir haben festgemacht!“, brüllt der Steuermann gegen das Tosen des Donners an. Vor euch liegt der uralte Pfad, bewacht von regungslosen Steinstatuen, deren Augen in warnendem, blauem Licht pulsieren. Es bleibt kaum Zeit, ehe der Sturm das Schiff aus den Verankerungen reißt.",
+          "gm_tone": "Episches Steampunk-Abenteuer",
+          "narrator_style": "Rasant, hochgradig atmosphärisch und im Präsens erzählt. Lebendige Beschreibungen von Sturmkräften, ratternden Zahnrädern, grollendem Donner, elektrischer Hochspannung und waghalsigen Manövern."
+        },
+        "ru": {
+          "title": "Хранилище Вечных Ветров",
+          "description": "Эпическая экспедиция на дирижабле к парящему святилищу посреди вечного грозового супершторма. Прорвите древнюю оборону и добудьте Ядро Ветров.",
+          "world_context": "Стимпанк-фэнтези с парящими островами и небесными фрегатами. Экипаж вашего корабля «Зефир» наконец обнаружил легендарное Хранилище Вечных Ветров — древний монолит, дрейфующий в сердце непрекращающейся грозы. Руины охраняют каменные стражи, а к вашей позиции уже стягиваются воздушные пираты. Вам предстоит высадиться на скользкие каменные причалы, обойти шестерёночные ловушки и забрать Ядро Ветров, пока буря не разнесла корабль в щепки.",
+          "opening_narration": "«Зефир» со стоном кренится под яростными ударами урагана. Ливень сплошной стеной хлещет по палубе, а всполохи молний выхватывают из мрака исполинские полуразрушенные арки парящего храма. «Мы пришвартовались!» — перекрывая раскаты грома, кричит рулевой. Впереди открывается древний каменный трап, охраняемый безмолвными изваяниями, чьи глазницы мерцают тревожным синим светом. Времени в обрез: буря вот-вот сорвет корабль со швартовов.",
+          "gm_tone": "Эпическое стимпанк-приключение",
+          "narrator_style": "Стремительный, насыщенный атмосферой и звуками слог. Сочные описания завываний ветра, лязга шестерней, громовых раскатов, электрического напряжения и рискованных действий."
+        }
+      }
+    }
+  }
 }

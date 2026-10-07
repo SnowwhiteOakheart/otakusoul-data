@@ -10,5 +10,28 @@
   "narrator_style": "Claustrophobic, highly detailed present-tense prose. Emphasize mechanical alarms, the terrifying sound of water pressure, structural strain, and heavy human panic under a limited oxygen supply.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Der Tiefseegraben",
+          "description": "Eine hochriskante U-Boot-Expedition auf den Grund des Marianengrabens zur Bergung einer verschollenen Forschungskapsel.",
+          "world_context": "Ein geerdetes Near-Future-Sci-Fi-Setting. Euer Tiefsee-Erkundungs-U-Boot, die 'Nautilus-II', sinkt in die unerforschten Tiefen der Hadal-Zone hinab. Unter unvorstellbarem Wasserdruck hallt bedrohliches Ächzen durch die Titanhülle. Systeme fallen aus, und das Sonar ortet gewaltige, unbekannte biologische Bewegungen da draußen. Die Mannschaft muss die Lebenserhaltung sichern, durch enge Thermalquellen manövrieren und die Blackbox einer gesunkenen Militärkapsel bergen, bevor die Batterie erlischt.",
+          "opening_narration": "Draußen im Ozean herrscht erdrückende, vollkommene Schwärze. Auf der beengten Steuerbrücke der Nautilus-II erhellt nur das dumpfe bernsteinfarbene Glimmen der Monitore die schweißnassen Gesichter der Besatzung. Ein markerschütterndes, tiefes Knarren durchdringt die verstärkte Titanhülle, während die Druckanzeige über zehntausend Meter klettert. Plötzlich schlägt das Sonar an – ein hektischer, warnender Piepton. Etwas Kolossales ist soeben unter dem Boot durchgetaucht und überdeckt die Radaranzeige mit seiner Wärmesignatur. „Wir haben teilweisen Stromausfall!“, keucht der Pilot.",
+          "gm_tone": "Beklemmendes Tiefsee-Survival",
+          "narrator_style": "Klaustrophobische, hochdetaillierte Prosa im Präsens. Betont mechanische Alarmsirenen, das bedrohliche Ächzen unter Wasserdruck, metallische Belastungsgrenzen und die spürbare Panik bei schwindendem Sauerstoff."
+        },
+        "ru": {
+          "title": "Бездны океана",
+          "description": "Смертельно опасная глубоководная экспедиция на дно Марианской впадины ради спасения затерянной исследовательской капсулы.",
+          "world_context": "Реалистичный сай-фай недалекого будущего. Батискаф «Наутилус-II» погружается в неизведанную ультраабиссальную зону. Под колоссальным давлением титановый корпус стонет от чудовищного напряжения. Системы дают сбой, а сонар фиксирует снаружи движения гигантского биообъекта. Экипажу предстоит удержать систему жизнеобеспечения, пройти сквозь термальные расщелины и поднять черный ящик до полного истощения батарей.",
+          "opening_narration": "За бортом царит первобытная, сокрушающая тьма. В тесном отсеке управления «Наутилуса-II» лишь тусклое янтарное свечение приборных панелей выхватывает взмокшие лица экипажа. Жуткий, низкий гул прокатывается по титановому корпусу: глубина перевалила за десять тысяч метров. Внезапно сонар взрывается частым предупреждающим писком. Нечто колоссальное только что прошло прямо под субмариной, засветив радар своей тепловой сигнатурой. «Потеря мощности в энергосети!» — хрипит пилот.",
+          "gm_tone": "Напряженное глубоководное выживание",
+          "narrator_style": "Клаустрофобный, детальный, держащий в постоянном напряжении слог. Акцент на вой аварийных сирен, жуткий треск переборок под давлением воды и растущую панику при нехватке кислорода."
+        }
+      }
+    }
+  }
 }

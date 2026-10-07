@@ -10,5 +10,28 @@
   "narrator_style": "Grounded, tactical, and suspenseful present-tense prose. Focus on resource scarcity, the cold metal of weapons, the rustle of debris, and the physical strain of moving quietly.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Der Letzte Supermarkt",
+          "description": "Ein geerdetes, taktisches Zombie-Survival-Szenario. Suche in einem verbarrikadierten, verlassenen Einkaufszentrum nach lebenswichtigen Medikamenten – bei absoluter Lautlosigkeit.",
+          "world_context": "Eine realistische postapokalyptische Welt. Sechs Monate nach dem Ausbruch gehen eurer Überlebendengruppe die Vorräte und Antibiotika aus. Am Stadtrand habt ihr einen notdürftig vernagelten Supermarkt entdeckt. Die Haupteingänge sind verrostet, doch ein Lüftungsschacht bietet Zugang. Das Innere liegt in pechschwarzer Dunkelheit; die Regale sind weitgehend geplündert, doch die Apotheke im hinteren Bereich scheint noch verschlossen zu sein. Macht keinen Lärm – jedes laute Geräusch lockt Hunderte Infizierte aus den umliegenden Straßenblöcken an.",
+          "opening_narration": "Ein eisiger Windzug treibt Staub über den verlassenen Parkplatz und lässt herrenlose Einkaufswagen leise klappern. Hinter den zersplitterten Scheiben des Supermarkts herrscht erdrückende Finsternis, die schwer nach Verwesung riecht. Eure Taschenlampenkegel schneiden durch die schwebenden Staubpartikel und entblößen leergeräumte Regale und getrocknete Blutspuren auf dem zerkratzten Linoleumboden. Ganz hinten zeichnet sich das herabgelassene, verbogene Sicherheitsgitter der Apotheke ab. Aus den Tiefen der dunklen Gänge dringt plötzlich ein hohles, gurgelndes Stöhnen herüber.",
+          "gm_tone": "Harter Überlebenskampf",
+          "narrator_style": "Geerdete, taktische und hochspannende Prosa im Präsens. Betont die ständige Ressourcenknappheit, das kalte Metall der Waffen, das knirschende Glas unter Stiefeln und die körperliche Anspannung lautloser Bewegung."
+        },
+        "ru": {
+          "title": "Последний супермаркет",
+          "description": "Реалистичный тактический зомби-сурвайвал. Отыщите жизненно важные медикаменты в заброшенном торговом центре, соблюдая абсолютную тишину.",
+          "world_context": "Суровый постапокалиптический мир. Спустя полгода после вспышки инфекции у вашей группы на исходе еда и антибиотики. На окраине города обнаружен заколоченный супермаркет. Двери заклинило, но вентшахта открыта. Внутри царит кромешная тьма, полки разграблены, но аптечный пункт в глубине зала все еще заперт. Ни звука: любой шум привлечет бродячих мертвецов со всех соседних кварталов.",
+          "opening_narration": "Ветер гонит серую пыль по пустой парковке, с тихим лязгом катя брошенные тележки. За разбитыми стеклами супермаркета чернеет непроглядная мгла, пахнущая сыростью и гнилью. Лучи фонарей выхватывают из темноты пустые стеллажи и бурые пятна засохшей крови на линолеуме. В самом конце зала виднеется помятая решетка аптечного отдела. Внезапно из глубины темных рядов доносится утробный, хриплый стон.",
+          "gm_tone": "Суровое выживание",
+          "narrator_style": "Приземленный, тактический и напряженный слог в настоящем времени. Фокус на нехватке ресурсов, холодной стали оружия, хрусте осколков под подошвами и предельном напряжении каждого шага."
+        }
+      }
+    }
+  }
 }

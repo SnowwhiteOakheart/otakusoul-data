@@ -10,5 +10,28 @@
   "narrator_style": "Action-oriented, metallic, and fast-paced present-tense prose. Focus on the hiss of pressurized steam, the heavy clanging of metal gearwheels, the smell of coal smoke, and the chaotic clash of blades.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Luftpiraten-Entermanöver",
+          "description": "Ein packendes Steampunk-Luftkampf-Szenario. Verteidige deine Frachtfregatte gegen einen brutalen Entertrupp skrupelloser Luftpiraten unter sturmgrauem Himmel.",
+          "world_context": "Ein Steampunk-Setting in schwindelerregender Höhe. Eure Himmelsfregatte 'Iron Maiden' transportiert extrem wertvolle Fracht durch den Sturm, als ein schwer bewaffnetes Piraten-Luftschiff euch rammt und verankert. Schwere Enterharpunen haben das Holzdeck durchschlagen, und eine Schar messingmaskierter Luftpiraten hangelt sich über die Seile. Die Maschinen stottern, Dampf zischt aus geborstenen Ventilen. Ihr müsst das Oberdeck halten, die Kaperseile kappen und den Kessel reparieren, ehe das Schiff abstürzt.",
+          "opening_narration": "Ein ohrenbetäubendes Kreischen von berstendem Metall hallt wider, als eine weitere schwere Eisenharpune durch die Decksbeplankung schlägt und das dicke Stahlseil sich sofort spannt. Das Piraten-Dreadnought 'The Black Leviathan' zieht sich heran; seine gigantischen Messingschrauben wühlen die Gewitterwolken zu einem finsteren Mahlstrom auf. Schüsse und Gebrüll übertönen das Zischen von überhitztem Dampf aus einer gerissenen Rohrleitung. Eine Horde Piraten mit gezogenen Klingen und pfeifenden Dampf-Raketenrucksäcken saust über die Seile direkt auf euch zu. „Zu den Waffen!“, brüllt der Kapitän.",
+          "gm_tone": "Epischer Steampunk-Kampf",
+          "narrator_style": "Actiongeladen, metallisch und temporeich im Präsens gehalten. Konzentration auf zischenden Hochdruckdampf, klirrende Zahnräder, beißenden Kohlenrauch und unerbittlichen Klingenwechsel."
+        },
+        "ru": {
+          "title": "Абордаж воздушных пиратов",
+          "description": "Захватывающее стимпанк-сражение в облаках. Защитите грузовой фрегат от яростного абордажа воздушных головорезов посреди бушующей грозы.",
+          "world_context": "Высотный стимпанк. Ваш торговый небесный фрегат «Железная дева» везет ценный груз через воздушные потоки, когда на абордаж идет пиратский дредноут. Чугунные гарпуны впились в деревянную палубу, и толпа пиратов в латунных масках уже скользит по тросам. Двигатели чихают, из сорванных клапанов хлещет пар. Экипажу предстоит удержать палубу, перерубить канаты и починить котел до крушения корабля.",
+          "opening_narration": "Оглушительный скрежет рвущегося металла разрывает рев бури: очередной тяжелый гарпун пробивает настил палубы, и стальной трос мгновенно натягивается как струна. Пиратский дредноут «Черный Левиафан» подтягивается вплотную, перемалывая гигантскими латунными винтами грозовые тучи. Выстрелы и крики сливаются с шипением перегретого пара из пробитого паропровода. Пираты с обнаженными саблями и свистящими паровыми ранцами летят по тросам прямо на вас. «К бою!» — надрывается капитан.",
+          "gm_tone": "Эпический стимпанк-экшен",
+          "narrator_style": "Динамичный, лязгающий металлом слог в настоящем времени. Упор на свист пара под давлением, грохот тяжелых механизмов, пороховой дым и яростную рубку на клинках."
+        }
+      }
+    }
+  }
 }

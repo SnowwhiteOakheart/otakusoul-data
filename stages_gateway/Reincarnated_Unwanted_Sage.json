@@ -10,5 +10,28 @@
   "narrator_style": "Expressive, slightly comedic, present-tense anime-style storytelling. Emphasize visual indicators, exaggerated reactions, dramatic sweatdrops, magical circle animations, and the clanking armor of royal knights.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Wiedergeboren als verstoßener Weiser",
+          "description": "Der legendäre goldene Beschwörungskreis flammt auf und reißt dich aus Tokio mitten in einen königlichen Thronsaal. Zu aller Überraschung liegt deine Magiebegabung bei absolut null – woraufhin der König dich sofort verbannt.",
+          "world_context": "Ein klassisches Fantasy-RPG-Isekai-Setting. Du warst ein gewöhnlicher Bürger der Gegenwart, bis dich ein gewaltiger Beschwörungszauber in das Königreich Limgard riss. Die königliche Schätzungs-Kristallkugel stuft deine Mana-Kapazität jedoch als absolute Null ein und erklärt dich für nutzlos. Die Ritter schleifen dich fort, um dich in der tödlichen Wildnis auszusetzen. Niemand ahnt, dass 'Null Mana' in Wahrheit der Schlüssel zu uralten, unmessbaren Leere-Cheat-Fähigkeiten ist.",
+          "opening_narration": "Ein blendender, goldener Blitz aus Runenmagie erfüllt dein Blickfeld. Als du die Augen öffnest, weicht der Geruch von nassem Asphalt dem sterilen Duft von altem Marmor und brennendem Weihrauch. Du kniest mitten in einem kolossalen Thronsaal, umringt von gepanzerten Rittern und Magiern mit Stäben. Vor dir blickt eine wunderschöne Prinzessin mit großen Augen auf dich herab, während der König sich auf seinem goldenen Thron vorbeugt. „Prüft die Macht des Helden!“, befiehlt er. Ein Großmagier tritt vor und hält eine knisternde Kristallkugel an deine Hände – doch sie bleibt stockfinster. „Unmöglich...“, flüstert der Magier mit zitternder Stimme. „Seine Mana-Kapazität... liegt bei absolut null! Er ist vollkommen nutzlos!“",
+          "gm_tone": "Fantasy-Isekai-Komödie",
+          "narrator_style": "Ausdrucksstarker, leicht humorvoller Anime-Erzählstil im Präsens. Lebendige visuelle Reaktionen, Schweißtröpfchen-Momente, magische Runenkreise und scheppernde Ritterrüstungen."
+        },
+        "ru": {
+          "title": "Перерождение в отвергнутого мудреца",
+          "description": "Легендарный золотой круг призыва переносит тебя из современного Токио прямо в тронный зал. Твой магический потенциал оказывается равен нулю — и разгневанный король немедленно изгоняет тебя.",
+          "world_context": "Классический фэнтези-исекай. Ты был обычным городским жителем, пока зов призыва не швырнул тебя в королевство Лимгард. Оценочный кристалл показывает нулевой запас маны, и тебя признают бесполезным обузой. Стража уволакивает тебя прочь, чтобы выбросить в смертоносные пустоши. Они и не подозревают, что «нулевая мана» — скрытое условие для пробуждения непостижимых читерских навыков первородной Пустоты.",
+          "opening_narration": "Ослепительная золотая вспышка рунической магии застилает глаза. Когда зрение возвращается, запах сырого асфальта сменяется холодным дыханием мрамора и ароматом ладана. Ты стоишь на коленях в исполинском тронном зале посреди шеренги закованных в латы рыцарей и магов в мантиях. Прекрасная принцесса смотрит на тебя во все глаза, а король нетерпеливо подается вперед: «Оцените силу героя!» Верховный маг подносит к твоим ладоням гудящий кристальный шар... но сфера остается абсолютно темной. «Невозможно... — шепчет маг дрожащим голосом. — Его мана... абсолютный ноль! Он ни на что не годен!»",
+          "gm_tone": "Комедийный фэнтези-исекай",
+          "narrator_style": "Выразительный, ироничный стиль аниме-новеллы в настоящем времени. Акцент на ярких эмоциях, неловких паузах, вспышках заклинаний и комичном пафосе королевского двора."
+        }
+      }
+    }
+  }
 }

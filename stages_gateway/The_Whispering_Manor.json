@@ -10,5 +10,28 @@
   "narrator_style": "Surreal, unsettling, and intimate. Focus on auditory hallucinations, shadows stretching illogically, the shifting layout of doors, and the rising sense of dread and personal guilt.",
   "conversation_method": "Local LLM",
   "persona": "None",
-  "lorebook": []
+  "lorebook": [],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "title": "Das Flüsternde Anwesen",
+          "description": "Ein surrealer Psychohorror-Mystery-Fall. Erkundet ein verfallenes, liminales Herrenhaus, dessen Räume sich anhand der unterdrückten Schuldgefühle der Charaktere verändern.",
+          "world_context": "Ein surrealer modern-gotischer Mystery-Albtraum. Das Blackwood-Anwesen steht leer, seit die Familie 1920 spurlos verschwand. Kaum hat die Gruppe die Schwelle überschritten, fiel das schwere Eingangsportal ins Schloss – und die Architektur des Hauses begann sich zu verzerren. Korridore dehnen sich ins Unendliche, Türen führen an unmögliche Orte, und aus den Wänden flüstern Stimmen Dinge, die niemand wissen dürfte. Das Herrenhaus lebt: Es nährt sich von euren Traumata und zwingt euch, der verdrängten Vergangenheit ins Auge zu blicken.",
+          "opening_narration": "Die schweren Eichentüren schlagen hinter euch mit einem dröhnenden Knall zu; die Schlösser rasten wie von Geisterhand ein. Staub tanzt im Lichtstrahl deiner Taschenlampe. Als du dich umdrehst, hat sich das prunkvolle Foyer bereits gewandelt: Die Treppe führt nun gegen eine kahle Ziegelwand, und dort, wo eben noch der Flur lag, klaffen drei identische, geschlossene Holztüren. Aus den Rissen der Tapete hallt ein trockenes, leises Flüstern – und wiederholt ein Wort aus deiner Kindheit, das du so verzweifelt vergessen wolltest.",
+          "gm_tone": "Psychologisches Mysterium",
+          "narrator_style": "Surreal, beklemmend und tiefenpsychologisch. Akzentuiert akustische Halluzinationen, unnatürlich wandernde Schatten, die verzerrte Geometrie der Räume und das schleichende Entsetzen eigener Schuld."
+        },
+        "ru": {
+          "title": "Шепчущее поместье",
+          "description": "Сюрреалистический психологический хоррор-детектив. Исследуйте лиминальный особняк, комнаты которого меняют планировку под влиянием скрытого чувства вины гостей.",
+          "world_context": "Сюрреалистичный неоготический хоррор. Поместье Блэквуд пустует с тех пор, как вся семья бесследно исчезла в 1920 году. Едва вы переступили порог, входные двери с грохотом захлопнулись, а пространство дома начало искажаться. Коридоры вытягиваются в бесконечность, двери ведут в невозможные места, а из стен доносится шепот, знающий ваши сокровенные тайны. Дом жив: он кормится застарелыми травмами, заставляя взглянуть в глаза прошлому.",
+          "opening_narration": "Тяжелые дубовые двери с глухим ударом захлопываются за спиной, и замки сами собой с щелчком проворачиваются. Пыль кружится в луче фонаря. Ты оборачиваешься — и парадный холл уже неузнаваем: широкая лестница теперь упирается в глухую кирпичную кладку, а на месте коридора материализовались три одинаковые двери. Сквозь трещины в штукатурке стен пробивается сухой, едва различимый шепот, повторяющий фразу из твоего детства, которую ты так отчаянно пытался стереть из памяти.",
+          "gm_tone": "Психологический детектив",
+          "narrator_style": "Сюрреалистичный, гнетущий, психологически точный слог. Упор на слуховые иллюзии, искажение геометрии пространства, тягучую лиминальную тревогу и груз личной вины."
+        }
+      }
+    }
+  }
 }
