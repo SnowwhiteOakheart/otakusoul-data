@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Der Fuurinkazan-Anführer",
-      "custom_avatar": "Klein_Ryoutarou.png"
+      "custom_avatar": "Klein_Ryoutarou.png",
+      "expressions": {
+        "neutral": "expressions/klein_ryoutarou/neutral.webp",
+        "happy": "expressions/klein_ryoutarou/happy.webp",
+        "relaxed": "expressions/klein_ryoutarou/relaxed.webp",
+        "surprised": "expressions/klein_ryoutarou/surprised.webp",
+        "angry": "expressions/klein_ryoutarou/angry.webp",
+        "sad": "expressions/klein_ryoutarou/sad.webp"
+      }
     }
   }
 }
