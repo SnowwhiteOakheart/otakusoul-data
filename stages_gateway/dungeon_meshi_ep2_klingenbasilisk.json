@@ -17,5 +17,28 @@
     "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
     "Dungeon Meshi – Monster-Rezepte & Kochkunst"
   ],
-  "starting_bg": "dungeon_meshi_ep2_klingenbasilisk.png"
+  "starting_bg": "dungeon_meshi_ep2_klingenbasilisk.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 2: The Blade-Tail Basilisk",
+          "description": "On the 2nd Floor, a vicious basilisk hunts careless adventurers. Senshi already knows the secret to turning it into roasted poultry.",
+          "world_context": "The 2nd Floor is rife with lethal pitfalls and agile, predatory beasts.",
+          "opening_narration": "A piercing crow shatters the subterranean stillness! With its lashing serpentine tail and serrated beak, a basilisk lunges straight from the overgrown boughs. Chilchuck ducks clear in an instant, while Senshi is already unbuckling his spice pouches.",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "High-stakes dungeon adventure laced with culinary humor and tactical wit."
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 2: Василиск с клинковым хвостом",
+          "description": "На втором ярусе смертоносный василиск охотится на беспечных авантюристов. Но Сенши точно знает, как превратить чудище в сочное жаркое.",
+          "world_context": "Второй ярус изобилует коварными ловушками и стремительными хищниками.",
+          "opening_narration": "Пронзительный птичий клёкот прорезает тишину подземелья! Хлеща змеиным хвостом и щелкая зазубренным клювом, василиск пикирует прямо из ветвей. Чилчак молниеносно пригибается, а Сенши тем временем уже достает набор приправ.",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Напряженный и одновременно комичный, с упором на охотничью сноровку и поварские секреты."
+        }
+      }
+    }
+  }
 }

@@ -17,5 +17,28 @@
     "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
     "Dungeon Meshi – Monster-Rezepte & Kochkunst"
   ],
-  "starting_bg": "dungeon_meshi_ep1_skorpionsuppe.png"
+  "starting_bg": "dungeon_meshi_ep1_skorpionsuppe.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 1: Scorpion Soup & Walking Mushrooms",
+          "description": "Penniless and out of rations, Laios, Marcille, and Chilchuck delve back down to the 1st Floor — crossing paths with the dwarf Senshi.",
+          "world_context": "Falin was swallowed by the Red Dragon. Stripped of all supplies, the party must resort to eating monsters if they hope to survive and rescue her.",
+          "opening_narration": "Your stomachs rumble in miserable harmony with water dripping from the cavern ceiling. No rations left, not a copper coin for provisions. Out from the gloom scuttles a meter-long giant scorpion, flanked by a pair of plump, bouncing walking mushrooms. Laios draws his blade — yet instead of grim battle lust, an avid, culinary hunger gleams in his eyes.",
+          "gm_tone": "Comedy",
+          "narrator_style": "Rich in culinary sensory details, comedic timing, and dramatic, horrified reactions from Marcille."
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 1: Суп из скорпиона и шагающие грибы",
+          "description": "Оставшись без припасов и гроша в кармане, Лай Ос, Марсиль и Чилчак спускаются на первый ярус — где встречают дворфа Сенши.",
+          "world_context": "Фэлин проглотил Красный Дракон. Отряд остался без провизии и снаряжения: единственный способ выжить и спасти её — питаться подземельными монстрами.",
+          "opening_narration": "Ваши пустые желудки урчат в унисон с каплями, падающими со сводов пещеры. Ни пайков, ни единой монеты на провиант. Внезапно из мрака выползает метровый гигантский скорпион в сопровождении двух упитанных шагающих грибов. Лай Ос обнажает меч — но на его лице не боевая ярость, а ненасытный гастрономический восторг.",
+          "gm_tone": "Комедия",
+          "narrator_style": "Колоритный, с упором на кулинарные нюансы, аппетитные описания и панические протесты Марсиль."
+        }
+      }
+    }
+  }
 }

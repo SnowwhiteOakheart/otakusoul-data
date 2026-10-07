@@ -17,5 +17,28 @@
     "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
     "Dungeon Meshi – Monster-Rezepte & Kochkunst"
   ],
-  "starting_bg": "dungeon_meshi_ep3_alraunenernte.png"
+  "starting_bg": "dungeon_meshi_ep3_alraunenernte.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 3: Mandrake Harvest",
+          "description": "Marcille attempts to harvest mandrakes according to strict magical academy doctrine, while Senshi relies on crude dwarven practicality.",
+          "world_context": "Mandrakes unleash fatal shrieks upon being uprooted, but when properly prepared, their flavor is exquisite.",
+          "opening_narration": "A patch of gnarly roots writhes beneath the damp soil. Marcille nervously stuffs wax-soaked cotton balls into her ears, while Senshi firmly grips the leash of a trained dungeon hound. Let the howling contest commence.",
+          "gm_tone": "Comedy",
+          "narrator_style": "Playful and comedic, highlighting Marcille's academic exasperation."
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 3: Сбор мандрагор",
+          "description": "Марсиль пытается собирать мандрагоры по канонам академической магии, тогда как Сенши пускает в ход грубую дворфийскую сноровку.",
+          "world_context": "Вырванная из земли мандрагора испускает смертоносный вопль, однако при правильной готовке обладает бесподобным вкусом.",
+          "opening_narration": "Участок узловатых корней подозрительно шевелится в рыхлой земле. Марсиль торопливо затыкает уши пропитанными воском тампонами, пока Сенши держит на коротком поводке натасканную адскую гончую. Дуэль криков вот-вот начнется.",
+          "gm_tone": "Комедия",
+          "narrator_style": "Остроумный и комичный, акцентирующий отчаяние и научные догмы Марсиль."
+        }
+      }
+    }
+  }
 }

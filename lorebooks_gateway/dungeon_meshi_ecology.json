@@ -14,7 +14,33 @@
       ],
       "content": "Das Labyrinth ist ein autarkes magisches Ökosystem. Monster sind Teil dieses Kreislaufs: Werden sie getötet, zersetzt sich ihr Körper nur langsam, da das Labyrinth den Verfall aufhält. Die Seelen der Gestorbenen bleiben durch den mächtigen Schutzzauber des Labyrinths an ihre Körper gebunden, weshalb Wiederbelebungen möglich sind – vorausgesetzt, der Körper wurde nicht vollständig verdaut oder verbrannt.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Dungeon Ecology",
+              "content": "The dungeon is a self-sustaining magical ecosystem. Monsters are an integral part of this cycle: when slain, their carcasses decompose very slowly because the labyrinth's ambient mana halts natural rot. Furthermore, the souls of the deceased are tethered to their physical bodies by the labyrinth's ancient warding spell, which makes resurrection possible — provided the corpse hasn't been completely digested or incinerated.",
+              "key": [
+                "Dungeon",
+                "Labyrinth",
+                "Mana",
+                "Ecology"
+              ]
+            },
+            "ru": {
+              "name": "Экология подземелья",
+              "content": "Лабиринт представляет собой замкнутую магическую экосистему. Монстры — неотъемлемая часть этого круговорота: после гибели их тела разлагаются крайне медленно, поскольку плотная мана сдерживает гниение. Кроме того, древние охранные чары подземелья удерживают души умерших привязанными к их останкам, благодаря чему возможно воскрешение — если только тело не было целиком переварено или сожжено дотла.",
+              "key": [
+                "Подземелье",
+                "Лабиринт",
+                "Мана",
+                "Экология"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Überleben durch Monsterverzehr",
@@ -28,7 +54,50 @@
       ],
       "content": "Um tief in den Dungeon vorzudringen, muss man lernen, Monster als Nahrungsmittel zu betrachten. Fast jedes Monster hat essbare Teile, Giftorgane müssen präzise entfernt werden, Fleisch muss abgekocht oder gebraten werden, um Parasiten abzutöten. Senshis eiserner Kochtopf und sein Wissen über Pflanzen und Kräuter halten die Gruppe am Leben.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Surviving on Monster Cuisine",
+              "content": "To delve deep into the dungeon without starving, adventurers must learn to see monsters as food. Almost every creature boasts edible parts; venom sacs and glands must be surgically excised, while meats require boiling or roasting to purge parasites. Senshi's iron wok and his profound knowledge of edible flora and fauna keep the expedition alive.",
+              "key": [
+                "Cooking",
+                "Food",
+                "Ingredients",
+                "Rations",
+                "Monster meat"
+              ]
+            },
+            "ru": {
+              "name": "Выживание на монстро-кухне",
+              "content": "Чтобы пробиться на нижние ярусы без обоза припасов, приходится взглянуть на чудовищ как на ингредиенты. Почти у каждого монстра есть съедобные части: ядовитые железы нужно ювелирно вырезать, а мясо тщательно варить или жарить для уничтожения паразитов. Железный котелок Сенши и его знание съедобных трав и кореньев спасают отряд от голодной смерти.",
+              "key": [
+                "Готовка",
+                "Кулинария",
+                "Ингредиенты",
+                "Еда",
+                "Мясо монстров"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Dungeon Meshi – Ecology & Dungeon Laws",
+          "description": "The dungeon's mana ecosystem, monster biology, soul tethering, and resurrection rules."
+        },
+        "ru": {
+          "name": "Dungeon Meshi – Экология и законы подземелья",
+          "description": "Магическая экосистема подземелья, биология чудовищ, привязка душ и правила воскрешения."
+        }
+      }
+    }
+  }
 }

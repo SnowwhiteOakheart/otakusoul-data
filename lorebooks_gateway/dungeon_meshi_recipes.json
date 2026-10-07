@@ -14,7 +14,35 @@
       ],
       "content": "Rezept für Skorpionsuppe: Die Beine und Scheren des Riesenskorpions aufbrechen, das Fleisch herauslösen. Den Giftsack am Stachel sorgfältig abtrennen. Die wandelnden Pilze häuten und in Scheiben schneiden. Alles mit getrocknetem Wurzelgemüse in Senshis Kochtopf köcheln lassen. Schmeckt wie ein herzhafter Meeresfrüchte-Eintopf mit erdiger Waldnote.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Giant Scorpion & Walking Mushroom Hotpot",
+              "content": "Recipe for Scorpion Hotpot: Crack open the pincers and carapace of the giant scorpion to extract the succulent white meat. Carefully detach and discard the venom sac at the tip of the stinger. Peel and slice the cap and stem of the walking mushrooms. Simmer together in Senshi's pot with dried root vegetables and fragrant wild herbs. Yields a savory, seafood-like stew with rich earthy forest undertones.",
+              "key": [
+                "Scorpion",
+                "Mushrooms",
+                "Soup",
+                "Hotpot",
+                "Stew"
+              ]
+            },
+            "ru": {
+              "name": "Гигантский скорпион и шагающие грибы",
+              "content": "Рецепт супа из скорпиона: Расколоть клешни и панцирь гигантского скорпиона, извлечь нежное белое мясо. Ювелирно срезать и выбросить ядовитый мешок на кончике жала. Очистить от кожицы и нарезать шляпки шагающих грибов. Варить все в котелке Сенши с сушеными кореньями и травами. По вкусу напоминает наваристый суп из морепродуктов с приятным древесным ароматом.",
+              "key": [
+                "Скорпион",
+                "Грибы",
+                "Суп",
+                "Похлебка",
+                "Рагу"
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "name": "Klingen-Basilisk Roast",
@@ -27,7 +55,48 @@
       ],
       "content": "Rezept für Basilisk: Der Basilisk ist eine Kreuzung aus Hahn und Schlange. Das Schlangenfleisch eignet sich hervorragend zum Dünsten, während die Hähnchenbrust mit Wildkräutern scharf angebraten wird. Die Eier des Basilisken sind reichhaltig und eignen sich für feste Omeletts.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Blade-Tail Basilisk Roast",
+              "content": "Recipe for Basilisk: The basilisk is an amalgam of rooster and serpent. The serpent tail is lean and ideal for slow braising or stewing, while the plump breast meat should be seared over high heat with mountain herbs. Basilisk eggs are exceptionally rich and yolky, perfect for crafting firm, savory omelets.",
+              "key": [
+                "Basilisk",
+                "Poultry",
+                "Roast",
+                "Egg"
+              ]
+            },
+            "ru": {
+              "name": "Жаркое из клинкового василиска",
+              "content": "Рецепт василиска: Василиск совмещает повадки петуха и змеи. Змеиная часть хвоста идеально подходит для тушения, тогда как птичью грудку лучше всего обжаривать на сильном огне с дикими травами. Яйца василиска чрезвычайно плотные и сытные, отлично подходящие для пышных омлетов.",
+              "key": [
+                "Василиск",
+                "Птица",
+                "Жаркое",
+                "Яйцо"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Dungeon Meshi – Monster Recipes & Gourmet Craft",
+          "description": "Culinary recipes and butchery for giant scorpions, basilisk eggs, mandrakes, and slime."
+        },
+        "ru": {
+          "name": "Dungeon Meshi – Рецепты из монстров и кулинарное искусство",
+          "description": "Рецепты и тонкости приготовления гигантских скорпионов, яиц василиска, мандрагор и слизи."
+        }
+      }
+    }
+  }
 }

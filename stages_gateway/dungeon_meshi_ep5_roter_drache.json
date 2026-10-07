@@ -18,5 +18,28 @@
     "Dungeon Meshi – Monster-Rezepte & Kochkunst",
     "Dungeon Meshi – Figuren & Goldene Dynastie"
   ],
-  "starting_bg": "dungeon_meshi_ep5_roter_drache.png"
+  "starting_bg": "dungeon_meshi_ep5_roter_drache.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 5: The Red Dragon",
+          "description": "The climactic clash in the scorching depths: battle against the Red Dragon to rescue Falin before it's too late.",
+          "world_context": "The 4th Floor: molten fortresses of the Red Dragon. Time is rapidly running out to save Falin from digestion.",
+          "opening_narration": "Scorching heat blasts against your faces. Massive leathery wings unfurl through clouds of ash and smoke. The Red Dragon bares its fiery maw — yet Laios stares unflinchingly at the soft scale on its throat: 'Once we take him down... we're having dragon steaks!'",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Dramatic, heroic, and intensely epic."
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 5: Красный Дракон",
+          "description": "Кульминация на раскаленных глубинах: битва с Красным Драконом ради спасения жизни Фэлин.",
+          "world_context": "Четвертый ярус: пылающие чертоги Красного Дракона. Время на спасение Фэлин стремительно тает.",
+          "opening_narration": "В лицо бьет обжигающий жар. Из пепла и дыма вздымаются исполинские крылья. Красный Дракон разевает пылающую пасть — но Лай Ос не сводит глаз с уязвимого места под горлом: «Если мы его одолеем... пожарим драконьих стейков!»",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Драматичный, героический и масштабный."
+        }
+      }
+    }
+  }
 }

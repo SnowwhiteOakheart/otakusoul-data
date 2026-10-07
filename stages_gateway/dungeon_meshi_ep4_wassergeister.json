@@ -17,5 +17,28 @@
     "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
     "Dungeon Meshi – Monster-Rezepte & Kochkunst"
   ],
-  "starting_bg": "dungeon_meshi_ep4_wassergeister.png"
+  "starting_bg": "dungeon_meshi_ep4_wassergeister.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 4: The Undines of the Deep",
+          "description": "A subterranean lake bars the way down. The party must hunt a predatory kelpie and simmer water elementals into clear broth.",
+          "world_context": "The 3rd Floor is crisscrossed by treacherous waterways and marshland caverns.",
+          "opening_narration": "Thick mist drifts across the ink-dark, mirror-still water. Without warning, glowing eyes surface from the depths: a carnivorous kelpie begins circling your makeshift ferry.",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Atmospheric and suspenseful dungeon exploration."
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 4: Духи воды и келпи",
+          "description": "Подземное озеро преграждает путь. Отряду предстоит добыть мясо хищного келпи и отварить духов воды.",
+          "world_context": "Третий ярус изрезан коварными протоками и подземными топями.",
+          "opening_narration": "Над черной, гладкой как зеркало водой клубится промозглый туман. Внезапно из глубин всплывают светящиеся хищные глаза: водяной келпи начинает нарезать круги вокруг вашего хлипкого плота.",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Атмосферный, таинственный и полный напряжения."
+        }
+      }
+    }
+  }
 }

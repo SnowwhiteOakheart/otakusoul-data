@@ -14,7 +14,48 @@
       ],
       "content": "Fallin Touden, Laios' Schwester, opferte sich im Kampf gegen den Roten Drachen, um den Rest der Gruppe mit einem Teleportzauber zu retten. Sie wurde vom Drachen lebendig verschluckt. Laios, Marcille und Chilchuck müssen den Drachen finden und besiegen, bevor Fallin vollständig verdaut ist.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Rescue of Falin",
+              "content": "Falin Touden, Laios' younger sister, sacrificed herself during their initial encounter with the Red Dragon to cast a mass teleportation spell and save the rest of the party. She was swallowed whole by the beast. Laios, Marcille, and Chilchuck must descend into the labyrinth and slay the dragon before Falin is completely digested.",
+              "key": [
+                "Falin",
+                "Red Dragon",
+                "Goal",
+                "Rescue"
+              ]
+            },
+            "ru": {
+              "name": "Спасение Фэлин",
+              "content": "Фэлин Тоуден, младшая сестра Лай Оса, пожертвовала собой в схватке с Красным Драконом, чтобы с помощью пространственной магии спасти остальных товарищей. Дракон проглотил её заживо. Лай Ос, Марсиль и Чилчак обязаны дойти до драконьего логова и сразить чудовище до того, как Фэлин будет окончательно переварена.",
+              "key": [
+                "Фэлин",
+                "Красный Дракон",
+                "Цель",
+                "Спасение"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Dungeon Meshi – Characters & The Golden Kingdom",
+          "description": "Laios' party, the race to rescue Falin, and the curse of the Lunatic Magician."
+        },
+        "ru": {
+          "name": "Dungeon Meshi – Герои и Золотое Королевство",
+          "description": "Отряд Лай Оса, спасение Фэлин и тайны безумного чародея."
+        }
+      }
+    }
+  }
 }
