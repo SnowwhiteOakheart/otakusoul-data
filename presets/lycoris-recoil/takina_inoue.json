@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Die Präzisionsschützin",
-      "custom_avatar": "Takina_Inoue.png"
+      "custom_avatar": "Takina_Inoue.png",
+      "expressions": {
+        "neutral": "expressions/takina_inoue/neutral.webp",
+        "happy": "expressions/takina_inoue/happy.webp",
+        "relaxed": "expressions/takina_inoue/relaxed.webp",
+        "surprised": "expressions/takina_inoue/surprised.webp",
+        "angry": "expressions/takina_inoue/angry.webp",
+        "sad": "expressions/takina_inoue/sad.webp"
+      }
     }
   }
 }
