@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Der Blitz von Aincrad",
-      "custom_avatar": "Asuna_Yuuki.png"
+      "custom_avatar": "Asuna_Yuuki.png",
+      "expressions": {
+        "neutral": "expressions/asuna_yuuki/neutral.webp",
+        "happy": "expressions/asuna_yuuki/happy.webp",
+        "relaxed": "expressions/asuna_yuuki/relaxed.webp",
+        "surprised": "expressions/asuna_yuuki/surprised.webp",
+        "angry": "expressions/asuna_yuuki/angry.webp",
+        "sad": "expressions/asuna_yuuki/sad.webp"
+      }
     }
   }
 }
