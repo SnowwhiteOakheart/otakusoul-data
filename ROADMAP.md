@@ -225,3 +225,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] 18 Gateway-Szenen und 6 Gateway-Lorebooks mit den vollständigen englischen und russischen Übersetzungen aus den Presets von No Game No Life und Sakura Succubus 3 synchronisiert.
 - [x] Englische und russische Übersetzungen für alle 4 Dungeon-Meshi-Charaktere (Laios, Marcille, Chilchuck, Senshi) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt und PNG-Payloads synchronisiert.
 - [x] Englische und russische Übersetzungen für alle 4 Steins;Gate-Charaktere (Okabe, Mayuri, Daru, Suzuha) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt und PNG-Payloads synchronisiert.
+- [x] Englische und russische Übersetzungen für alle 4 Lycoris-Recoil-Charaktere (Chisato, Takina, Mizuki, Kurumi) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt und PNG-Payloads synchronisiert.
