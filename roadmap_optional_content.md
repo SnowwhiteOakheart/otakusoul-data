@@ -165,3 +165,17 @@ Die Hintergründe liegen im jeweiligen Preset unter `backgrounds/`; Szenen refer
 ## Originalfiguren vom 07.10.2026
 
 - [x] Ren Takahashi und Aoi Mizuno, zwei 17-jährige Mitschüler der Klasse 2-B an der fiktiven Aobane-Oberschule in Yokohama. Vollständige V2-Profile auf DE/EN/RU, je ein Avatar, sechs Expressions, zwei alternative Begrüßungen und Hub-Karten. Paket: `presets/aobane-highschool/`. Ausschließlich im Repository bereitgestellt.
+
+
+## Repository-Hub vom 07.10.2026
+
+- [x] Ren Takahashi und Aoi Mizuno: zwei originale Mitschüler aus Klasse 2-B, vollständige Profile auf Deutsch, Englisch und Russisch, je ein V2-Porträt und sechs Expressions. Paket: `presets/aobane-highschool/`.
+- [x] Yor Forger, Megumin und Kaguya Shinomiya als eigenständige Gateway-Karten in `cards_gateway/` und `soul_registry.json` aufgenommen. Expressions der Gateway-Karten verwenden Repository-URLs, damit sie ohne lokale Preset-Verzeichnisse funktionieren.
+- [x] Alle 16 vorhandenen Kampagnenfiguren aus Dungeon Meshi, Steins;Gate, Lycoris Recoil und Sword Art Online mit ihren bestehenden Profilen und Avataren als Gateway-Karten registriert.
+- [x] Den veralteten Bildstatus in `ROADMAP.md` anhand der tatsächlich vorhandenen Dateien abgeglichen; beide Roadmap-Dateien sind synchron.
+
+Diese Arbeiten betreffen ausschließlich das Daten-Repository. Es wurden keine Charaktere, Bilder oder Szenen in eine lokale App-Installation importiert.
+
+### Noch offene Erweiterungen
+
+- [ ] Für die 16 Kampagnenfiguren je sechs Expressions ergänzen (96 Bilder insgesamt); die vorhandenen Avatare allein decken den allgemeinen Expressions-Qualitätsstandard noch nicht ab.
