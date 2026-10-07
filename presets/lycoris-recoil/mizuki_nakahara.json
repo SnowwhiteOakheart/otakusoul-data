@@ -54,7 +54,15 @@
         }
       },
       "custom_title": "Die temperamentvolle Schwester",
-      "custom_avatar": "Mizuki_Nakahara.png"
+      "custom_avatar": "Mizuki_Nakahara.png",
+      "expressions": {
+        "neutral": "expressions/mizuki_nakahara/neutral.webp",
+        "happy": "expressions/mizuki_nakahara/happy.webp",
+        "relaxed": "expressions/mizuki_nakahara/relaxed.webp",
+        "surprised": "expressions/mizuki_nakahara/surprised.webp",
+        "angry": "expressions/mizuki_nakahara/angry.webp",
+        "sad": "expressions/mizuki_nakahara/sad.webp"
+      }
     }
   }
 }
