@@ -226,3 +226,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Englische und russische Übersetzungen für alle 4 Dungeon-Meshi-Charaktere (Laios, Marcille, Chilchuck, Senshi) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt und PNG-Payloads synchronisiert.
 - [x] Englische und russische Übersetzungen für alle 4 Steins;Gate-Charaktere (Okabe, Mayuri, Daru, Suzuha) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt und PNG-Payloads synchronisiert.
 - [x] Englische und russische Übersetzungen für alle 4 Lycoris-Recoil-Charaktere (Chisato, Takina, Mizuki, Kurumi) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt und PNG-Payloads synchronisiert.
+- [x] Englische und russische Übersetzungen für alle 4 Sword-Art-Online-Charaktere (Kirito, Asuna, Klein, Lisbeth) vollständig an das deutsche Original angeglichen, Dialogbeispiele übersetzt und PNG-Payloads synchronisiert.
