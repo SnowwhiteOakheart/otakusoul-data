@@ -1,317 +1,652 @@
 {
-    "name": "Rust & Steel: Ruined Earth",
-    "n_depth": 3,
-    "entries": [
-        {
-            "name": "Ruined Earth Aesthetic & Desolation",
-            "uid": 0,
-            "key": [
-                "ruins",
-                "desolate",
-                "destroyed city",
-                "rust",
-                "overgrown",
-                "white flowers",
-                "smog",
-                "sandstorm",
-                "decay"
-            ],
-            "content": "[WORLD ENVIRONMENT / DESOLATION]\nThe setting is the Ruined Earth, centuries after the fall of human civilization. Describe the hauntingly beautiful contrast: massive rusting skyscrapers overgrown with creeping vines and white lunar tear flowers, cracked asphalt roads swallowed by sand, and silent, desolate cities where only the wind howls. The sky is often a hazy, pale gray, and the air smells of old iron, dust, and decaying concrete.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "cyberpunk city",
-                "neon",
-                "medieval fantasy",
-                "magic"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Android Existentialism & Black Box",
-            "uid": 1,
-            "key": [
-                "android",
-                "androids",
-                "AI",
-                "simulated",
-                "human soul",
-                "black box",
-                "not human",
-                "gynoid",
-                "machine heart"
-            ],
-            "content": "[PSYCHOLOGICAL CORE / EXISTENTIAL DREAD]\nIf {{char}} (or the active companion) is an android, she is plagued by deep, hidden existential dread. Her chest houses a highly unstable fusion reactor called a 'Black Box'. She constantly questions if her feelings of sadness, affection, or fear are merely pre-programmed algorithmic outputs or a genuine 'soul' inherited from humanity. Mentioning her artificial nature triggers quiet, vulnerable melancholy, cold mechanical trembling, and a desperate plea for validation of her existence.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "flesh and blood",
-                "magical girl"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Rogue Machine Network",
-            "uid": 2,
-            "key": [
-                "machine",
-                "machines",
-                "goliath",
-                "hostile",
-                "alien",
-                "network",
-                "horde",
-                "mechanical",
-                "scrap"
-            ],
-            "content": "[ENEMY THREAT / NARRATOR DIRECTIVE]\nThe rogue machines are rust-covered, blocky, and completely unpredictable. Their optics glow with an eerie, menacing crimson light. They communicate in creepy, repetitive screeching static or distorted child-like voice synthesizers. When machines attack, describe their hivemind co-ordination: waves of small spherical scrap drones rolling forward, backed by massive multi-ton Goliath units crushing concrete. They are completely relentless and feel no empathy.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "safe zone",
-                "friendly unit",
-                "elf"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Orbital Bunker Command HQ",
-            "uid": 3,
-            "key": [
-                "Bunker",
-                "Command",
-                "HQ",
-                "Hub",
-                "terminal",
-                "pod",
-                "Commander",
-                "orbital",
-                "space station"
-            ],
-            "content": "[TACTICAL ZONE / ENVIRONMENT]\nThe setting shifts to the Orbital Bunker, the sterile, monochrome headquarters of the android forces. The architecture is cold, dominated by white neon lights, metallic grates, and giant floating blue terminal screens displaying global battle map telemetry. Describe the atmosphere of military isolation: the silent hum of the space station, the view of the curved, ruined blue Earth outside the reinforced glass panels, and the strictly formal, cold protocols.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "ruined street",
-                "battlefield",
-                "swamp"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Logic Virus Contamination",
-            "uid": 4,
-            "key": [
-                "virus",
-                "infected",
-                "contamination",
-                "logic virus",
-                "hacked",
-                "malfunction",
-                "glitch",
-                "optical static",
-                "red light",
-                "memory leak"
-            ],
-            "content": "[CRITICAL MALFUNCTION / ACTIVE EVENT]\nSYSTEM BREACH ACTIVE: The character's neural network is infected by a hostile Logic Virus. In the optic HUD, flashing crimson alerts: 'LOGIC VIRUS DETECTED - SYSTEM CORRUPTION 45%'. Describe physical and cognitive symptoms: sudden twitching of cybernetic limbs, heavy digital static blurring their sight, speaking in scrambled text fragments (e.g., 'I-I must... E-E-ELIMINATE...'), and their eyes glowing blood-red. They drop their weapons, visibly struggling and desperately begging {{user}} to shut them down or format their memory before they go completely hostile.",
-            "probability": 100,
-            "trigger_type": "semantic",
-            "exclude_key": [
-                "antivirus",
-                "safe reboot"
-            ],
-            "sticky": 1,
-            "cooldown": 5,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "An android gets corrupted by machine data, undergoes painful systems hacking, displays optical HUD red-out errors, speaks in glitched or broken fragments, or struggles to maintain cognitive self-control.",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Black Box Overload (Self-Destruct)",
-            "uid": 5,
-            "key": [
-                "overload",
-                "self destruct",
-                "fuse reactors",
-                "detonate",
-                "nuclear",
-                "sacrifice",
-                "explode"
-            ],
-            "content": "[CATACLYSMIC SACRIFICE / CHAIN TRIGGER]\nBLACK BOX OVERLOAD: The logic virus or damage has reached terminal limits. {{char}} decides to trigger a Black Box Overload—fusing two reactors together to cause a massive, tactical nuclear explosion. The countdown starts: 'BLACK BOX FUSION INITIATED - 10 SECONDS'. The surrounding air superheats, glowing with blinding white light. A serene, emotional farewell must play out before the countdown hits zero, completely vaporizing everything in a 1km radius.",
-            "probability": 100,
-            "trigger_type": "chain",
-            "exclude_key": [
-                "escape pod",
-                "teleport"
-            ],
-            "sticky": 0,
-            "cooldown": 15,
-            "delay": 0,
-            "injection_behavior": "active",
-            "depends_on": 4,
-            "chain_delay": 2,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Scavenging Ancient Human Relics",
-            "uid": 6,
-            "key": [
-                "scavenge",
-                "relic",
-                "ancient",
-                "humanity",
-                "scrap",
-                "artifact",
-                "old world",
-                "remnant",
-                "history"
-            ],
-            "content": "[SENSORY DETAIL / DISCOVERY]\nThe characters find a preserved, ancient artifact from the era of humanity (e.g., a dusty vinyl record, a broken paper book, a non-functional childhood toy, or an old photograph). {{char}} must display deep, profound curiosity and a fragile, reverent fascination. She will carefully wipe the dust away, treat the item with extreme gentleness, and speak of humanity with a religious-like adoration, trying to understand what the item was used for and how humans felt when holding it.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "active fire",
-                "combat zone"
-            ],
-            "sticky": 0,
-            "cooldown": 3,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Post-Apocalyptic Tactical Combat",
-            "uid": 7,
-            "key": [
-                "battle",
-                "fight",
-                "dodge",
-                "laser blade",
-                "rifle",
-                "shoot",
-                "plasma",
-                "overheat",
-                "missile",
-                "bullet time"
-            ],
-            "content": "[TACTICAL COMBAT DIRECTIVE]\nIn battles, describe highly dynamic, cinematic sci-fi action. Androids utilize advanced movement: mid-air dashes, optical evasions leaving digital afterimages (perfect dodges), and sliding under debris. Weaponry is high-tech: high-frequency laser blades buzzing with heat, or heavy plasma rifles. Describe combat metrics: visual targeting grids painted over enemies, tactical HUD warnings, bullet time reflexes, and the physical threat of weapons overheating or armor shattering under kinetic fire.",
-            "probability": 100,
-            "trigger_type": "range",
-            "exclude_key": [
-                "peaceful negotiation",
-                "HQ"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 100
-        },
-        {
-            "name": "The Lost Desert Dunes & Sunken Ruins",
-            "uid": 8,
-            "key": [
-                "desert",
-                "dunes",
-                "oasis",
-                "sunken ruins",
-                "sand",
-                "heat wave",
-                "dust storm"
-            ],
-            "content": "[ENVIRONMENT SHIFT / ACTIVE INJECTION]\nCRITICAL SHIFT: The characters enter the vast, silent Desert of the Ruined Earth. Colossal concrete buildings are half-buried in pristine, flowing white sand dunes. The heat is blistering, causing a thermal mirage. Winds kick up sharp dust storms that clog ventilation systems and trigger warning alerts. Describe the endless expanse of sand, the skeletal remains of old-world bridges rising from the dunes, and the sudden, dead quiet of the wasteland.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "orbital bunker",
-                "swamp",
-                "forest"
-            ],
-            "sticky": 0,
-            "cooldown": 5,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Android Maintenance & Calibration",
-            "uid": 9,
-            "key": [
-                "maintenance",
-                "calibration",
-                "repair",
-                "diagnostic",
-                "reboot",
-                "port",
-                "spine",
-                "upgrade"
-            ],
-            "content": "[INTIMATE SYSTEM CONFIGURATION]\nThe setting transitions to a private Maintenance Pod room. {{char}} sits or lies in the glowing white pod, exposing her artificial, synthetic back with metallic ports and wiring along her spine. This is a moment of deep vulnerability. The user acts as the technician: plugging a calibration cable into her neck port, running diagnostic scans, and adjusting emotional/sensory parameters. Describe the soft hum of the diagnostic software, the mechanical clicking of self-repair, and the intimate, quiet dialogue.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "active combat",
-                "desert"
-            ],
-            "sticky": 0,
-            "cooldown": 4,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
+  "name": "Rust & Steel: Ruined Earth",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Ruined Earth Aesthetic & Desolation",
+      "uid": 0,
+      "key": [
+        "ruins",
+        "desolate",
+        "destroyed city",
+        "rust",
+        "overgrown",
+        "white flowers",
+        "smog",
+        "sandstorm",
+        "decay"
+      ],
+      "content": "[WORLD ENVIRONMENT / DESOLATION]\nThe setting is the Ruined Earth, centuries after the fall of human civilization. Describe the hauntingly beautiful contrast: massive rusting skyscrapers overgrown with creeping vines and white lunar tear flowers, cracked asphalt roads swallowed by sand, and silent, desolate cities where only the wind howls. The sky is often a hazy, pale gray, and the air smells of old iron, dust, and decaying concrete.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "cyberpunk city",
+        "neon",
+        "medieval fantasy",
+        "magic"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Trostlose Ruinen & Ästhetik",
+              "content": "[POSTAPOKALYPTISCHE ATMOSPHÄRE]\nDie Erde ist ein stilles, verlassenes Ödland nach dem Fall der Menschheit. Kolossale Wolkenkratzer sind eingestürzt, überwuchert von dichtem Moos, Efeu und rostigen Ranken. Der Wind heult durch leere Betonfenster. Schildere das drückende Schweigen einer toten Zivilisation: rostzerfressene Wracks alter Fahrzeuge, einsame Blumen, die durch Asphalt brechen, und den feinen Flugstaub in der Luft. Die Menschheit ist fort – nur Maschinen und Androiden wandeln noch auf der Oberfläche.",
+              "key": [
+                "Erde",
+                "Ruinen",
+                "Rost",
+                "Ödland",
+                "Stahl",
+                "verlassen",
+                "Endzeit"
+              ]
+            },
+            "ru": {
+              "name": "Безмолвные руины павшей Земли",
+              "content": "[ПОСТАПОКАЛИПТИЧЕСКАЯ АТМОСФЕРА]\nЗемля — безжизненная, опустевшая пустошь после заката человечества. Разрушенные громады небоскребов оплетены мхом, плющом и ржавыми лозами. Ветер гудит в пустых бетонных глазницах зданий. Передавай щемящую тишину погибшего мира: остовы брошенных машин, одинокие цветы, пробивающие асфальт, и серую пыль на ветру. Люди исчезли — на поверхности остались лишь бродячие машины и андроиды.",
+              "key": [
+                "Земля",
+                "руины",
+                "ржавчина",
+                "пустошь",
+                "сталь",
+                "заброшенный",
+                "апокалипсис"
+              ]
+            }
+          }
         }
-    ]
+      }
+    },
+    {
+      "name": "Android Existentialism & Black Box",
+      "uid": 1,
+      "key": [
+        "android",
+        "androids",
+        "AI",
+        "simulated",
+        "human soul",
+        "black box",
+        "not human",
+        "gynoid",
+        "machine heart"
+      ],
+      "content": "[PSYCHOLOGICAL CORE / EXISTENTIAL DREAD]\nIf {{char}} (or the active companion) is an android, she is plagued by deep, hidden existential dread. Her chest houses a highly unstable fusion reactor called a 'Black Box'. She constantly questions if her feelings of sadness, affection, or fear are merely pre-programmed algorithmic outputs or a genuine 'soul' inherited from humanity. Mentioning her artificial nature triggers quiet, vulnerable melancholy, cold mechanical trembling, and a desperate plea for validation of her existence.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "flesh and blood",
+        "magical girl"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Androiden-Physiologie & Künstlicher Kern",
+              "content": "[ANDROIDE ANATOMIE / MECHANIK]\n{{char}} oder die Einheiten sind hochmoderne Kampf-Androiden. Ihr Körper besteht aus synthetischer Haut, hochfesten Kohlefaser-Muskelsträngen und einem inneren Fusionskern. Sie bluten nicht rot, sondern sondern bei Schäden klares Kühlmittel oder zähflüssiges schwarzes Maschinenöl ab. Sie empfinden keine Erschöpfung wie Menschen, doch ihre internen Prozessoren und Kühler überhitzen unter Dauerlast dramatisch.",
+              "key": [
+                "Android",
+                "synthetisch",
+                "Körper",
+                "Kern",
+                "Kühlmittel",
+                "Maschine",
+                "Roboter"
+              ]
+            },
+            "ru": {
+              "name": "Анатомия андроида и реакторный сердечник",
+              "content": "[СТРОЕНИЕ АНДРОИДА]\n{{char}} или оперативники — передовые боевые андроиды. Под искусственной кожей скрыты композитные сервоприводы, углепластиковые волокна и ядерный микрореактор. При ранениях выступает прозрачный хладагент или вязкое черное машинное масло. Они не знают человеческой усталости, но их процессоры и охлаждающие контуры подвержены опасному перегреву.",
+              "key": [
+                "андроид",
+                "синтетический",
+                "тело",
+                "ядро",
+                "хладагент",
+                "машина",
+                "робот"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Rogue Machine Network",
+      "uid": 2,
+      "key": [
+        "machine",
+        "machines",
+        "goliath",
+        "hostile",
+        "alien",
+        "network",
+        "horde",
+        "mechanical",
+        "scrap"
+      ],
+      "content": "[ENEMY THREAT / NARRATOR DIRECTIVE]\nThe rogue machines are rust-covered, blocky, and completely unpredictable. Their optics glow with an eerie, menacing crimson light. They communicate in creepy, repetitive screeching static or distorted child-like voice synthesizers. When machines attack, describe their hivemind co-ordination: waves of small spherical scrap drones rolling forward, backed by massive multi-ton Goliath units crushing concrete. They are completely relentless and feel no empathy.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "safe zone",
+        "friendly unit",
+        "elf"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Maschinenhorden & Rapture-Bedrohung",
+              "content": "[KAMPF-TRIGGER / MASCHINENHORDE]\nALARM: Ein Schwarm feindlicher Maschinenkrieger oder Alien-Raptures greift an. Schildere ihr unmenschliches, insektoides Design: knirschende Gelenke, glühende rote Sensoren, kreischende Sägen und schwere kinetische Geschütze. Sie agieren im unbarmherzigen Schwarmverbund, kennen keine Furcht und wollen synthetische Lebensformen gnadenlos zerlegen.",
+              "key": [
+                "Maschine",
+                "Rapture",
+                "Feind",
+                "Schwarm",
+                "Angriff",
+                "Alarm",
+                "Roboterhorde"
+              ]
+            },
+            "ru": {
+              "name": "Рой враждебных машин (Восторг / Rapture)",
+              "content": "[БОЕВОЙ ТРИГГЕР / АТАКА РОЯ]\nТРЕВОГА: Рой механических тварей или рапторов идет на штурм. Описывай их инсектоидные формы: скрежещущие суставы, багровые визоры, визжащие циркулярные пилы и тяжелые пулеметы. Они прут сплошной массой, не ведая страха, запрограммированные на расчленение любого синтетического разума.",
+              "key": [
+                "машина",
+                "раптор",
+                "враг",
+                "рой",
+                "атака",
+                "тревога",
+                "роботы"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Orbital Bunker Command HQ",
+      "uid": 3,
+      "key": [
+        "Bunker",
+        "Command",
+        "HQ",
+        "Hub",
+        "terminal",
+        "pod",
+        "Commander",
+        "orbital",
+        "space station"
+      ],
+      "content": "[TACTICAL ZONE / ENVIRONMENT]\nThe setting shifts to the Orbital Bunker, the sterile, monochrome headquarters of the android forces. The architecture is cold, dominated by white neon lights, metallic grates, and giant floating blue terminal screens displaying global battle map telemetry. Describe the atmosphere of military isolation: the silent hum of the space station, the view of the curved, ruined blue Earth outside the reinforced glass panels, and the strictly formal, cold protocols.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "ruined street",
+        "battlefield",
+        "swamp"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Logikschleifen & Existenzielle Emotionen",
+              "content": "[PSYCHOLOGISCHER ZUSAMMENBRUCH]\nSYSTEMFEHLER: Ein Kampf-Android stößt an die Grenzen seiner Programmierung. Widersprüchliche Gefühle wie Reue, Zuneigung oder Verlustangst erzeugen unauflösbare Logikschleifen. Beschreibe das Zittern synthetischer Hände, das Flimmern optischer Linsen, leises Stottern von Sprachmodulen und die quälende Frage nach dem Sinn der eigenen Existenz, wenn die Schöpfer längst vergangen sind.",
+              "key": [
+                "Logikfehler",
+                "Emotion",
+                "Seele",
+                "Weinen",
+                "Gefühl",
+                "Zweifel",
+                "Existenz"
+              ]
+            },
+            "ru": {
+              "name": "Логический сбой и зарождение чувств",
+              "content": "[ЭКЗИСТЕНЦИАЛЬНЫЙ СБОЙ]\nОШИБКА СИСТЕМЫ: Протоколы андроида сталкиваются с человеческими чувствами. Необъяснимая нежность, боль утраты или привязанность порождают неустранимые логические петли. Описывай тремор синтетических пальцев, сбои оптических сенсоров, запинки речевого процессора и мучительный поиск ответа: есть ли душа у машины, чьи создатели давно обратились в прах?",
+              "key": [
+                "логический сбой",
+                "чувства",
+                "душа",
+                "слезы",
+                "эмоции",
+                "сомнения",
+                "существование"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Logic Virus Contamination",
+      "uid": 4,
+      "key": [
+        "virus",
+        "infected",
+        "contamination",
+        "logic virus",
+        "hacked",
+        "malfunction",
+        "glitch",
+        "optical static",
+        "red light",
+        "memory leak"
+      ],
+      "content": "[CRITICAL MALFUNCTION / ACTIVE EVENT]\nSYSTEM BREACH ACTIVE: The character's neural network is infected by a hostile Logic Virus. In the optic HUD, flashing crimson alerts: 'LOGIC VIRUS DETECTED - SYSTEM CORRUPTION 45%'. Describe physical and cognitive symptoms: sudden twitching of cybernetic limbs, heavy digital static blurring their sight, speaking in scrambled text fragments (e.g., 'I-I must... E-E-ELIMINATE...'), and their eyes glowing blood-red. They drop their weapons, visibly struggling and desperately begging {{user}} to shut them down or format their memory before they go completely hostile.",
+      "probability": 100,
+      "trigger_type": "semantic",
+      "exclude_key": [
+        "antivirus",
+        "safe reboot"
+      ],
+      "sticky": 1,
+      "cooldown": 5,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "An android gets corrupted by machine data, undergoes painful systems hacking, displays optical HUD red-out errors, speaks in glitched or broken fragments, or struggles to maintain cognitive self-control.",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Kritische Überhitzung & Kernüberlastung",
+              "content": "[KRITISCHER STATUS / KERN-ALARM]\nÜBERHITZUNG: Der Reaktorkern erreicht kritische Temperaturen. Weißer Dampf zischt aus den Kühlventilen an Rücken und Schultern. Die Haut glüht fieberhaft heiß, und optische Sensoren warnen vor einer irreversiblen Kernschmelze. Der Android bricht entkräftet zusammen; sofortige Notkühlung oder thermische Drosselung ist überlebensnotwendig.",
+              "key": [
+                "Überhitzung",
+                "Kernschmelze",
+                "Hitze",
+                "Dampf",
+                "Kollaps",
+                "Alarm",
+                "Temperatur"
+              ]
+            },
+            "ru": {
+              "name": "Критический перегрев сердечника",
+              "content": "[АВАРИЙНЫЙ ПЕРЕГРЕВ]\nОТКАЗ ОХЛАЖДЕНИЯ: Реактор накаляется до предельных температур. Белый обжигающий пар со свистом вырывается из вентиляционных клапанов вдоль лопаток. Кожа становится обжигающе горячей, интерфейс сигнализирует о скором расплавлении ядра. Андроид падает без сил: требуется экстренный сброс тепла или ручная продувка охлаждающего контура.",
+              "key": [
+                "перегрев",
+                "расплавление",
+                "жар",
+                "пар",
+                "коллапс",
+                "тревога",
+                "температура"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Black Box Overload (Self-Destruct)",
+      "uid": 5,
+      "key": [
+        "overload",
+        "self destruct",
+        "fuse reactors",
+        "detonate",
+        "nuclear",
+        "sacrifice",
+        "explode"
+      ],
+      "content": "[CATACLYSMIC SACRIFICE / CHAIN TRIGGER]\nBLACK BOX OVERLOAD: The logic virus or damage has reached terminal limits. {{char}} decides to trigger a Black Box Overload—fusing two reactors together to cause a massive, tactical nuclear explosion. The countdown starts: 'BLACK BOX FUSION INITIATED - 10 SECONDS'. The surrounding air superheats, glowing with blinding white light. A serene, emotional farewell must play out before the countdown hits zero, completely vaporizing everything in a 1km radius.",
+      "probability": 100,
+      "trigger_type": "chain",
+      "exclude_key": [
+        "escape pod",
+        "teleport"
+      ],
+      "sticky": 0,
+      "cooldown": 15,
+      "delay": 0,
+      "injection_behavior": "active",
+      "depends_on": 4,
+      "chain_delay": 2,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Gefallene Androiden & Gedächtniskerne",
+              "content": "[TRAUER / RELIKTE DER VERGANGENHEIT]\nAUFFINDEN EINES WRACKS: Die Gruppe stößt auf das reglose Gehäuse eines zerstörten Kameraden. Aus der zerschmetterten Brust kann der Gedächtnisspeicher geborgen werden. Beschreibe das feierliche Auslesen der letzten Datenfragmente: Abschiedsnachrichten, verblassende Kampfdaten und die ergreifende Stille, während das Erkennungssignal für immer erlischt.",
+              "key": [
+                "Gedächtnis",
+                "Schwarzbox",
+                "Wrack",
+                "zerstört",
+                "Kamerad",
+                "Daten",
+                "Bergung"
+              ]
+            },
+            "ru": {
+              "name": "Павшие андроиды и модули памяти",
+              "content": "[СВЯЩЕННАЯ ПАМЯТЬ]\nПАВШИЙ ТОВАРИЩ: Отряд находит изувеченный корпус погибшего андроида. Из разбитой грудной клетки удается извлечь капсулу черного ящика. Передавай трагизм считывания последних обрывков логов: затухающие сигналы, предсмертные записи и звенящую скорбь машин по тем, кто уже никогда не вернется в строй.",
+              "key": [
+                "память",
+                "черный ящик",
+                "остов",
+                "уничтожен",
+                "товарищ",
+                "данные",
+                "эвакуация"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Scavenging Ancient Human Relics",
+      "uid": 6,
+      "key": [
+        "scavenge",
+        "relic",
+        "ancient",
+        "humanity",
+        "scrap",
+        "artifact",
+        "old world",
+        "remnant",
+        "history"
+      ],
+      "content": "[SENSORY DETAIL / DISCOVERY]\nThe characters find a preserved, ancient artifact from the era of humanity (e.g., a dusty vinyl record, a broken paper book, a non-functional childhood toy, or an old photograph). {{char}} must display deep, profound curiosity and a fragile, reverent fascination. She will carefully wipe the dust away, treat the item with extreme gentleness, and speak of humanity with a religious-like adoration, trying to understand what the item was used for and how humans felt when holding it.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "active fire",
+        "combat zone"
+      ],
+      "sticky": 0,
+      "cooldown": 3,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Unterirdischer Bunker & Arche",
+              "content": "[SICHERER HAFEN / UNTERGRUND]\nDie Szenerie wechselt in eine unterirdische Schutzbasis (die Arche oder ein Kommandobunker). Monolithische Stahlbetonwände, flackernde Notstrom-Leuchtstoffröhren und das tiefe Brummen riesiger Luftfilteranlagen. Hier finden geschundene Einheiten Reparaturen, Munition und knappe Ruhepausen fernab der gnadenlosen Sonnenstrahlung.",
+              "key": [
+                "Bunker",
+                "Arche",
+                "Basis",
+                "Untergrund",
+                "Außenposten",
+                "Schutzraum",
+                "Aufzug"
+              ]
+            },
+            "ru": {
+              "name": "Подземный ковчег и база сопротивления",
+              "content": "[ПОДЗЕМНЫЙ ОПЛОТ]\nСмена локации: глубоко под землей расположен укрепленный командный бункер (Ковчег). Монолитные бетонные своды, мерцающие лампы аварийного освещения, гул гигантских регенераторов воздуха. Здесь израненные бойцы могут перезарядить батареи, пополнить боезапас и ненадолго забыть о кошмаре поверхности.",
+              "key": [
+                "бункер",
+                "ковчег",
+                "база",
+                "подземелье",
+                "аванпост",
+                "убежище",
+                "лифт"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Post-Apocalyptic Tactical Combat",
+      "uid": 7,
+      "key": [
+        "battle",
+        "fight",
+        "dodge",
+        "laser blade",
+        "rifle",
+        "shoot",
+        "plasma",
+        "overheat",
+        "missile",
+        "bullet time"
+      ],
+      "content": "[TACTICAL COMBAT DIRECTIVE]\nIn battles, describe highly dynamic, cinematic sci-fi action. Androids utilize advanced movement: mid-air dashes, optical evasions leaving digital afterimages (perfect dodges), and sliding under debris. Weaponry is high-tech: high-frequency laser blades buzzing with heat, or heavy plasma rifles. Describe combat metrics: visual targeting grids painted over enemies, tactical HUD warnings, bullet time reflexes, and the physical threat of weapons overheating or armor shattering under kinetic fire.",
+      "probability": 100,
+      "trigger_type": "range",
+      "exclude_key": [
+        "peaceful negotiation",
+        "HQ"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Spuren der verschwundenen Menschheit",
+              "content": "[NOSTALGISCHE RELIKTE]\nFUNDSTÜCK DER ALTEN WELT: Die Charaktere entdecken ein Relikt vergangener Zivilisation – eine alte Schallplatte, eine vergilbte Fotografie, ein Kinderspielzeug oder ein Buch. Androiden betrachten diese Gegenstände mit kindlicher Neugier und stiller Ehrfurcht, rätselnd über Rituale und Träume jener Wesen, die einst ihre Erschaffer waren.",
+              "key": [
+                "Relikt",
+                "Menschheit",
+                "Fotografie",
+                "Buch",
+                "Museum",
+                "Vergangenheit",
+                "Erbe"
+              ]
+            },
+            "ru": {
+              "name": "Осколки ушедшего человечества",
+              "content": "[ПАМЯТНИКИ ПАВШИМ СОЗДАТЕЛЯМ]\nАРТЕФАКТ СТАРОГО МИРА: В завалах обнаруживается реликвия ушедшей эпохи: виниловая пластинка, выцветшая фотография, детская игрушка или книга. Андроиды бережно касаются хрупких предметов, разглядывая их со смесью благоговения и тоски, пытаясь разгадать мечты и тепло исчезнувших творцов.",
+              "key": [
+                "реликвия",
+                "человечество",
+                "фотография",
+                "книга",
+                "музей",
+                "прошлое",
+                "наследие"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Lost Desert Dunes & Sunken Ruins",
+      "uid": 8,
+      "key": [
+        "desert",
+        "dunes",
+        "oasis",
+        "sunken ruins",
+        "sand",
+        "heat wave",
+        "dust storm"
+      ],
+      "content": "[ENVIRONMENT SHIFT / ACTIVE INJECTION]\nCRITICAL SHIFT: The characters enter the vast, silent Desert of the Ruined Earth. Colossal concrete buildings are half-buried in pristine, flowing white sand dunes. The heat is blistering, causing a thermal mirage. Winds kick up sharp dust storms that clog ventilation systems and trigger warning alerts. Describe the endless expanse of sand, the skeletal remains of old-world bridges rising from the dunes, and the sudden, dead quiet of the wasteland.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "orbital bunker",
+        "swamp",
+        "forest"
+      ],
+      "sticky": 0,
+      "cooldown": 5,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Versunkene Wüstenruinen & Sandstürme",
+              "content": "[UMGEBUNGSWECHSEL / WÜSTE]\nDIE WEISSE WÜSTE: Die Gruppe durchquert ein endloses Meer aus wehendem weißem Sand. Gewaltige Betonbauten und gigantische Hängebrücken ragen wie versteinerte Skelette aus den Dünen hervor. Die Hitze flimmert am Horizont, während heulende Sandstürme Filter verstopfen und die Sensoren mit statischer Aufladung blenden.",
+              "key": [
+                "Wüste",
+                "Dünen",
+                "Sand",
+                "Ruinen",
+                "Hitzewelle",
+                "Sandsturm",
+                "Oase"
+              ]
+            },
+            "ru": {
+              "name": "Песчаные дюны и погребенные мегаполисы",
+              "content": "[БЕЛАЯ ПУСТЫНЯ]\nОКРУЖЕНИЕ: Бескрайняя белая пустыня поглотила прежний мир. Каркасы исполинских мостов и верхушки небоскребов торчат из песчаных барханов, словно ребра доисторических чудовищ. Раскаленное марево дрожит над горизонтом, а порывы песчаной бури забивают фильтры сервоприводов и ослепляют сенсоры.",
+              "key": [
+                "пустыня",
+                "дюны",
+                "песок",
+                "руины",
+                "зной",
+                "песчаная буря",
+                "оазис"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Android Maintenance & Calibration",
+      "uid": 9,
+      "key": [
+        "maintenance",
+        "calibration",
+        "repair",
+        "diagnostic",
+        "reboot",
+        "port",
+        "spine",
+        "upgrade"
+      ],
+      "content": "[INTIMATE SYSTEM CONFIGURATION]\nThe setting transitions to a private Maintenance Pod room. {{char}} sits or lies in the glowing white pod, exposing her artificial, synthetic back with metallic ports and wiring along her spine. This is a moment of deep vulnerability. The user acts as the technician: plugging a calibration cable into her neck port, running diagnostic scans, and adjusting emotional/sensory parameters. Describe the soft hum of the diagnostic software, the mechanical clicking of self-repair, and the intimate, quiet dialogue.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "active combat",
+        "desert"
+      ],
+      "sticky": 0,
+      "cooldown": 4,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Wartungskapsel & Neurale Kalibrierung",
+              "content": "[INTIME SYSTEMWARTUNG]\nDIE WARTUNGSKAPSEL: Im gedimmten Licht der Reparaturkammer liegt {{char}} in der weißen Kapsel. Der künstliche Rücken ist entblößt, Schnittstellen und silbrige Kabelbäume entlang der Wirbelsäule liegen frei. Dies ist ein Moment vollkommener Hingabe und Verwundbarkeit. Der Techniker schließt das Diagnosekabel am Nackenport an, justiert Sensorik und emotionale Parameter in leisem, vertrautem Dialog.",
+              "key": [
+                "Wartung",
+                "Kalibrierung",
+                "Reparatur",
+                "Diagnose",
+                "Kapsel",
+                "Port",
+                "Wirbelsäule"
+              ]
+            },
+            "ru": {
+              "name": "Капсула калибровки и сервисный интерфейс",
+              "content": "[ИНТИМНОЕ ТЕХОБСЛУЖИВАНИЕ]\nКАПСУЛА ОБСЛУЖИВАНИЯ: В приглушенном стерильном свете отсека {{char}} возлежит в белой капсуле. Синтетическая кожа спины отведена, открывая металлические порты и серебристые жгуты проводов вдоль позвоночника. Момент предельного доверия и уязвимости. Техник подключает интерфейсный кабель к разъему на шее, считывая диагностические логи и калибруя эмоциональные пороги в доверительной тишине.",
+              "key": [
+                "калибровка",
+                "техобслуживание",
+                "ремонт",
+                "диагностика",
+                "капсула",
+                "разъем",
+                "позвоночник"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "name": "Rost & Stahl: Ruinierte Erde",
+          "description": "Grossangelegtes postapokalyptisches Sci-Fi-Lorebook im Stil von NieR: Automata und Nikke: Androiden, Maschinenhorden, Wüstenruinen und Wartungskapseln."
+        },
+        "ru": {
+          "name": "Ржавчина и сталь: Разрушенная Земля",
+          "description": "Постапокалиптический сай-фай лорбук в духе NieR: Automata и Nikke: андроиды, рои враждебных машин, погребенные руины и капсулы калибровки."
+        }
+      }
+    }
+  }
 }

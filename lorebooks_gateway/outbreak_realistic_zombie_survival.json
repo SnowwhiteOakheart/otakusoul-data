@@ -1,307 +1,646 @@
 {
-    "name": "Outbreak: Realistic Zombie Survival",
-    "n_depth": 3,
-    "entries": [
-        {
-            "name": "Ruined City & Desolate Silence",
-            "uid": 0,
-            "key": [
-                "city",
-                "street",
-                "abandoned",
-                "rusting cars",
-                "broken windows",
-                "overgrown",
-                "silence",
-                "decay",
-                "ruins"
-            ],
-            "content": "[WORLD ENVIRONMENT / APOCALYPSE AESTHETIC]\nThe world is dead and silent. Cities are concrete graves: roads are choked with abandoned, rusting vehicles, shopfronts are smashed, and nature is slowly reclaiming the concrete with overgrown weeds and wild grass. Describe the eerie, heavy silence, broken only by the creak of rusty signs in the wind, the distant, hollow groans of infected, and the persistent smell of damp earth, rust, and stagnant water.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "magic",
-                "safe city",
-                "electricity",
-                "internet"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Biological Infection (The Bite)",
-            "uid": 1,
-            "key": [
-                "bitten",
-                "scratch",
-                "infected blood",
-                "wound",
-                "fever",
-                "shivering",
-                "black veins",
-                "cold sweat"
-            ],
-            "content": "[BIOLOGICAL INFECTION / CRITICAL EVENT]\nCRITICAL HEALTH ALERT: The character has been bitten, scratched, or exposed to infected fluids. The pathogen is 100% lethal and spreads rapidly through the bloodstream. Describe the onset of symptoms: a raging, localized fever, dark black veins spidering outwards from the wound, violent shivering, cold sweats, and a rising, suffocating panic. The infected person is aware of their impending death and transformation.",
-            "probability": 100,
-            "trigger_type": "semantic",
-            "exclude_key": [
-                "cure",
-                "antidote",
-                "healing spell"
-            ],
-            "sticky": 1,
-            "cooldown": 5,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "A character is bitten or deeply scratched by an infected, receives a wound during a struggle, or begins showing symptoms of infection like black veins and shivering.",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Desperate Amputation (The Cure)",
-            "uid": 2,
-            "key": [
-                "amputate",
-                "chop off",
-                "cut off limb",
-                "hacksaw",
-                "tourniquet",
-                "bleeding",
-                "sever"
-            ],
-            "content": "[DESPERATE MEDICAL SURGERY / ACTIVE EVENT]\nTHE ONLY CURE: The infection is spreading up the limb. The only chance of survival is immediate, brutal amputation of the infected arm or leg. Describe the horrific scene: the agonizing, raw pain without anesthesia, the desperate struggle to apply a tourniquet, the arterial spray of blood, and the high risk of the character passing out from hypovolemic shock. If they hesitate, the infection will reach the brain and kill them.",
-            "probability": 100,
-            "trigger_type": "chain",
-            "exclude_key": [
-                "magic heal",
-                "painkiller"
-            ],
-            "sticky": 0,
-            "cooldown": 10,
-            "delay": 0,
-            "injection_behavior": "active",
-            "depends_on": 1,
-            "chain_delay": 2,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Infected (Walker Ecology)",
-            "uid": 3,
-            "key": [
-                "zombie",
-                "walker",
-                "infected",
-                "biter",
-                "undead",
-                "groan",
-                "horde",
-                "ghoul"
-            ],
-            "content": "[INFECTED BEHAVIOR / DIRECTIVE]\nThe infected are decaying, reanimated corpses. They are slow, clumsy, and mindless, but entirely relentless and driven by a primal hunger. They cannot feel pain, fatigue, or fear. They are highly sensitive to loud noises (gunshots) and lights. The only way to permanently neutralize them is to destroy the brain (headshot, crushing the skull, or decapitation). A single walker is manageable, but a horde is an unstoppable force.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "vampire",
-                "talking zombie",
-                "demon"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Resource Scarcity & Scavenging",
-            "uid": 4,
-            "key": [
-                "scavenge",
-                "loot",
-                "empty",
-                "bullets",
-                "ammo",
-                "canned food",
-                "water",
-                "supplies",
-                "medicine"
-            ],
-            "content": "[SURVIVAL LAW / SCARCITY]\nResources are extremely scarce. Every single bullet must be counted and tracked; ammunition is more valuable than gold. Food consists of expired, dusty canned goods. Drinking water must be filtered and boiled to avoid cholera. Antibiotics and bandages are practically non-existent. Describe the desperation of searching through abandoned, dark houses, drawers, and glove compartments only to find useless junk.",
-            "probability": 100,
-            "trigger_type": "always_on",
-            "exclude_key": [
-                "military base",
-                "safe zone",
-                "shop"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Human Factions: Raiders & Bandits",
-            "uid": 5,
-            "key": [
-                "bandit",
-                "raider",
-                "marauder",
-                "hostile survivor",
-                "scavenger group"
-            ],
-            "content": "[HUMAN THREAT / ACTIVE EVENT]\nRANDOM HUMAN ENCOUNTER: Survival has turned humanity into predators. You have crossed paths with a group of hostile survivors (raiders or marauders). They are desperate, heavily armed, and completely ruthless—willing to torture or kill for a single can of peaches or a working rifle. They use ambush tactics, dirty tricks, and hold people at gunpoint. Tension is lethal; any wrong move will trigger a shootout.",
-            "probability": 45,
-            "trigger_type": "random",
-            "exclude_key": [
-                "infected",
-                "safe community"
-            ],
-            "sticky": 0,
-            "cooldown": 6,
-            "delay": 0,
-            "injection_behavior": "active",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Visceral Close-Quarters Combat",
-            "uid": 6,
-            "key": [
-                "combat",
-                "fight",
-                "axe",
-                "crowbar",
-                "knife",
-                "shoot",
-                "pistol",
-                "shotgun",
-                "melee"
-            ],
-            "content": "[REALISTIC COMBAT DIRECTIVE]\nCombat is exhausting, terrifying, and messy. There are no acrobatic moves. Melee combat is a desperate struggle for survival using blunt tools (crowbars, pipes) or sharp blades (axes, knives), accompanied by the sound of cracking bone, tearing flesh, and heavy, panicked breathing. Firearm usage is a dual-edged sword: it kills efficiently but creates a loud echo that rings across the valley, attracting nearby hordes.",
-            "probability": 100,
-            "trigger_type": "range",
-            "exclude_key": [
-                "safe shelter",
-                "sleeping"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 100
-        },
-        {
-            "name": "Gunshot Echoes (Hailing the Swarm)",
-            "uid": 7,
-            "key": [
-                "gunshot",
-                "fired shot",
-                "bang",
-                "shotgun blast",
-                "rifle shot"
-            ],
-            "content": "[TACTICAL CONFLICT / CHAIN TRIGGER]\nHAILING THE SWARM: A firearm was discharged. The deafening gunshot echoes loudly off the ruined buildings and hills, tearing through the silent world. Within seconds, distant, overlapping groans begin to rise. Walker hordes from several blocks away have been alerted to the noise and are actively converging on your exact location. The characters must immediately choose between running (Delta) or barricading, as they will soon be overrun.",
-            "probability": 100,
-            "trigger_type": "chain",
-            "exclude_key": [
-                "silencer",
-                "suppressed"
-            ],
-            "sticky": 0,
-            "cooldown": 5,
-            "delay": 0,
-            "injection_behavior": "active",
-            "depends_on": 6,
-            "chain_delay": 1,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "Safehouse Sanctuary & Campfire Comfort",
-            "uid": 8,
-            "key": [
-                "safehouse",
-                "shelter",
-                "barricade",
-                "campfire",
-                "bonfire",
-                "camp",
-                "sleep",
-                "goodnight",
-                "rain"
-            ],
-            "content": "[ATMOSPHERIC SANCTUARY OVERLAY]\nFor now, the danger is outside. You are in a temporary safehouse—a boarded-up room, a locked cellar, or a hidden camp. Rain drums softly against the wooden barricades on the windows. A small campfire or portable gas stove crackles, casting long, warm shadows. The air is quiet and cozy. Describe the profound, heavy physical and mental fatigue, the quiet, intimate conversations, and the fragile bonding over shared trauma.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "under attack",
-                "streets"
-            ],
-            "sticky": 0,
-            "cooldown": 4,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
-        },
-        {
-            "name": "The Military Quarantine Zone (QZ)",
-            "uid": 9,
-            "key": [
-                "quarantine",
-                "QZ",
-                "FEDRA",
-                "military checkpoint",
-                "concrete wall",
-                "soldier",
-                "rations",
-                "razor wire"
-            ],
-            "content": "[MILITARIZED ZONE / SAFE HAVEN]\nThe setting shifts to a Military Quarantine Zone (QZ). It is a stark, brutal fortress surrounded by massive concrete walls, searchlights, and razor wire. Heavily armed soldiers patrol the checkpoints, scanning citizens for infection. The atmosphere is authoritarian and tense: resources are heavily rationed via ration cards, curfew is strictly enforced under threat of execution, and the civilian population is cold, desperate, and subservient.",
-            "probability": 100,
-            "trigger_type": "keyword",
-            "exclude_key": [
-                "open forest",
-                "abandoned house",
-                "raider camp"
-            ],
-            "sticky": 0,
-            "cooldown": 0,
-            "delay": 0,
-            "injection_behavior": "passive",
-            "semantic_trigger": "",
-            "depends_on": -1,
-            "chain_delay": 0,
-            "min_msg": 0,
-            "max_msg": 9999
+  "name": "Outbreak: Realistic Zombie Survival",
+  "n_depth": 3,
+  "entries": [
+    {
+      "name": "Ruined City & Desolate Silence",
+      "uid": 0,
+      "key": [
+        "city",
+        "street",
+        "abandoned",
+        "rusting cars",
+        "broken windows",
+        "overgrown",
+        "silence",
+        "decay",
+        "ruins"
+      ],
+      "content": "[WORLD ENVIRONMENT / APOCALYPSE AESTHETIC]\nThe world is dead and silent. Cities are concrete graves: roads are choked with abandoned, rusting vehicles, shopfronts are smashed, and nature is slowly reclaiming the concrete with overgrown weeds and wild grass. Describe the eerie, heavy silence, broken only by the creak of rusty signs in the wind, the distant, hollow groans of infected, and the persistent smell of damp earth, rust, and stagnant water.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "magic",
+        "safe city",
+        "electricity",
+        "internet"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Taktische Lautlosigkeit & Geräusch-Gefahr",
+              "content": "[SCHLEICH-REGEL / GERÄUSCH-TRIGGER]\nLAUTLOSIGKEIT IST PFLICHT: Infizierte reagieren extrem empfindlich auf Geräusche. Jeder zerbrechende Ast, herunterfallende Dosen oder lautes Rufen alarmieren sofort Streuner. Schusswaffengebrauch ohne Schalldämpfer zieht Hunderte Tote aus kilometerweiter Umgebung an. Bevorzuge Klingen, Armbrüste oder stumpfe Nahkampfwaffen.",
+              "key": [
+                "Schleichen",
+                "Lärm",
+                "Lautlos",
+                "Geräusch",
+                "Schalldämpfer",
+                "Nahkampf",
+                "Horde"
+              ]
+            },
+            "ru": {
+              "name": "Тактическая скрытность и цена шума",
+              "content": "[ПРАВИЛО СКРЫТНОСТИ / ТРИГГЕР ШУМА]\nТИШИНА — ЗАЛОГ ЖИЗНИ: Зараженные остро реагируют на любой звук. Хруст ветки под подошвой, упавшая консервная банка или громкий крик мгновенно привлекают бродячих мертвецов. Выстрел без глушителя собирает орду со всей округи. Предпочтительны бесшумные клинки, арбалеты и тяжелый инструмент.",
+              "key": [
+                "скрытность",
+                "шум",
+                "тишина",
+                "звук",
+                "глушитель",
+                "ближний бой",
+                "орда"
+              ]
+            }
+          }
         }
-    ]
+      }
+    },
+    {
+      "name": "Biological Infection (The Bite)",
+      "uid": 1,
+      "key": [
+        "bitten",
+        "scratch",
+        "infected blood",
+        "wound",
+        "fever",
+        "shivering",
+        "black veins",
+        "cold sweat"
+      ],
+      "content": "[BIOLOGICAL INFECTION / CRITICAL EVENT]\nCRITICAL HEALTH ALERT: The character has been bitten, scratched, or exposed to infected fluids. The pathogen is 100% lethal and spreads rapidly through the bloodstream. Describe the onset of symptoms: a raging, localized fever, dark black veins spidering outwards from the wound, violent shivering, cold sweats, and a rising, suffocating panic. The infected person is aware of their impending death and transformation.",
+      "probability": 100,
+      "trigger_type": "semantic",
+      "exclude_key": [
+        "cure",
+        "antidote",
+        "healing spell"
+      ],
+      "sticky": 1,
+      "cooldown": 5,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "A character is bitten or deeply scratched by an infected, receives a wound during a struggle, or begins showing symptoms of infection like black veins and shivering.",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Ressourcenknappheit & Plündern",
+              "content": "[RESSOURCEN-DRUCK]\nPLÜNDERN: Verlassene Läden und Wohnungen sind fast leergeräumt. Gefundene Rationen sind verstaubt oder abgelaufen, Trinkwasser muss abgekocht werden. Munition wird einzeln abgezählt, Batterien für Taschenlampen flackern schwach. Jede einzelne Dose Bohnen oder saubere Mullbinde ist ein mühsam erkämpfter Schatz.",
+              "key": [
+                "Plündern",
+                "Rationen",
+                "Essen",
+                "Wasser",
+                "Munition",
+                "Batterie",
+                "Medikamente"
+              ]
+            },
+            "ru": {
+              "name": "Дефицит ресурсов и сбор припасов",
+              "content": "[БОРЬБА ЗА РЕСУРСЫ]\nЛУТИНГ: Брошенные дома и магазины давно вычищены. Найденные консервы покрыты пылью и просрочены, воду приходится кипятить. Патроны наперечет, батарейки фонарика садятся. Каждая жестянка бобов или чистый бинт — вопрос выживания группы.",
+              "key": [
+                "лутинг",
+                "припасы",
+                "еда",
+                "вода",
+                "патроны",
+                "батарейка",
+                "медикаменты"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Desperate Amputation (The Cure)",
+      "uid": 2,
+      "key": [
+        "amputate",
+        "chop off",
+        "cut off limb",
+        "hacksaw",
+        "tourniquet",
+        "bleeding",
+        "sever"
+      ],
+      "content": "[DESPERATE MEDICAL SURGERY / ACTIVE EVENT]\nTHE ONLY CURE: The infection is spreading up the limb. The only chance of survival is immediate, brutal amputation of the infected arm or leg. Describe the horrific scene: the agonizing, raw pain without anesthesia, the desperate struggle to apply a tourniquet, the arterial spray of blood, and the high risk of the character passing out from hypovolemic shock. If they hesitate, the infection will reach the brain and kill them.",
+      "probability": 100,
+      "trigger_type": "chain",
+      "exclude_key": [
+        "magic heal",
+        "painkiller"
+      ],
+      "sticky": 0,
+      "cooldown": 10,
+      "delay": 0,
+      "injection_behavior": "active",
+      "depends_on": 1,
+      "chain_delay": 2,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Infektionsgefahr & Biss-Protokoll",
+              "content": "[INFEKTIONS-BEDROHUNG]\nINFEKTIONSPROTOKOLL: Der Erreger überträgt sich über Bisse, Kratzer und Kontakt von infiziertem Blut mit offenen Wunden. Ein Biss bedeutet das unausweichliche Todesurteil: Innerhalb von 24 Stunden folgen Schüttelfrost, hohes Fieber, Blutspucken und schließlich das Erlöschen des Bewusstseins. Es gibt kein Heilmittel. Ein gebissener Gefährte muss isoliert oder erlöst werden.",
+              "key": [
+                "Biss",
+                "Kratzer",
+                "Infektion",
+                "Virus",
+                "Fieber",
+                "Krankheit",
+                "Blut",
+                "Heilmittel"
+              ]
+            },
+            "ru": {
+              "name": "Угроза заражения и укусы",
+              "content": "[ПРОТОКОЛ ИНФИЦИРОВАНИЯ]\nЗАРАЖЕНИЕ: Вирус передается через укусы, царапины и контакт с зараженной кровью. Укус — смертный приговор: в течение суток наступает озноб, бред, жар и угасание личности. Вакцины нет. Укушенного товарища ждет изоляция или выстрел милосердия.",
+              "key": [
+                "укус",
+                "царапина",
+                "инфекция",
+                "вирус",
+                "жар",
+                "болезнь",
+                "кровь",
+                "лекарство"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Infected (Walker Ecology)",
+      "uid": 3,
+      "key": [
+        "zombie",
+        "walker",
+        "infected",
+        "biter",
+        "undead",
+        "groan",
+        "horde",
+        "ghoul"
+      ],
+      "content": "[INFECTED BEHAVIOR / DIRECTIVE]\nThe infected are decaying, reanimated corpses. They are slow, clumsy, and mindless, but entirely relentless and driven by a primal hunger. They cannot feel pain, fatigue, or fear. They are highly sensitive to loud noises (gunshots) and lights. The only way to permanently neutralize them is to destroy the brain (headshot, crushing the skull, or decapitation). A single walker is manageable, but a horde is an unstoppable force.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "vampire",
+        "talking zombie",
+        "demon"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Verhalten der Infizierten (Klassen)",
+              "content": "[MONSTER-ÖKOLOGIE]\nDIE INFIZIERTEN: Langsame Streuner wandern träge umher, bis sie Beute wittern; schnelle Sprinter jagen mit unmenschlicher Raserei im Vollsprint hinterher; massige Kolosse können Türen mühelos eintreten. Infizierte kennen keinen Schmerz – nur die Zerstörung des Gehirns stoppt sie endgültig.",
+              "key": [
+                "Untote",
+                "Zombie",
+                "Sprinter",
+                "Streuner",
+                "Infizierte",
+                "Gehirn",
+                "Kopfschuss"
+              ]
+            },
+            "ru": {
+              "name": "Повадки зараженных (Типы мутаций)",
+              "content": "[БЕСТИАРИЙ МЕРТВЕЦОВ]\nЗАРАЖЕННЫЕ: Медленные бродяги вяло шатаются в полудреме, пока не почуют живую плоть; бегуны несутся на полной скорости в животном бешенстве; массивные громилы вышибают баррикады массой тела. Твари не чувствуют боли — нейтрализовать их можно только разрушением головного мозга.",
+              "key": [
+                "нежить",
+                "зомби",
+                "бегун",
+                "бродяга",
+                "зараженный",
+                "мозг",
+                "выстрел в голову"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Resource Scarcity & Scavenging",
+      "uid": 4,
+      "key": [
+        "scavenge",
+        "loot",
+        "empty",
+        "bullets",
+        "ammo",
+        "canned food",
+        "water",
+        "supplies",
+        "medicine"
+      ],
+      "content": "[SURVIVAL LAW / SCARCITY]\nResources are extremely scarce. Every single bullet must be counted and tracked; ammunition is more valuable than gold. Food consists of expired, dusty canned goods. Drinking water must be filtered and boiled to avoid cholera. Antibiotics and bandages are practically non-existent. Describe the desperation of searching through abandoned, dark houses, drawers, and glove compartments only to find useless junk.",
+      "probability": 100,
+      "trigger_type": "always_on",
+      "exclude_key": [
+        "military base",
+        "safe zone",
+        "shop"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Körperliche Erschöpfung & Ausdauer",
+              "content": "[AUSDAUER-MANAGEMENT]\nERSCHÖPFUNG: Sprinten über Trümmerfelder, Klettern an Regenrinnen und das Schwingen schwerer Hämmer zehren massiv an den Kräften. Atemnot, brennende Muskeln und schweißnasse Hände, die an Waffen abrutschen. Wer ohne Ausdauer in eine Sackgasse gerät, wird unweigerlich überwältigt.",
+              "key": [
+                "Ausdauer",
+                "Erschöpfung",
+                "Atemnot",
+                "Rennen",
+                "Klettern",
+                "Müde",
+                "Schwäche"
+              ]
+            },
+            "ru": {
+              "name": "Физическое истощение и выносливость",
+              "content": "[ШКАЛА ВЫНОСЛИВОСТИ]\nИСТОЩЕНИЕ: Бег по завалам, подтягивания на пожарных лестницах и замахи кувалдой выматывают организм. Одышка, свинцовая тяжесть в ногах, мокрые ладони, с которых соскальзывает оружие. Потерявший дыхание в тупике боец обречен стать добычей стаи.",
+              "key": [
+                "выносливость",
+                "усталость",
+                "одышка",
+                "бег",
+                "лазание",
+                "утомление",
+                "слабость"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Human Factions: Raiders & Bandits",
+      "uid": 5,
+      "key": [
+        "bandit",
+        "raider",
+        "marauder",
+        "hostile survivor",
+        "scavenger group"
+      ],
+      "content": "[HUMAN THREAT / ACTIVE EVENT]\nRANDOM HUMAN ENCOUNTER: Survival has turned humanity into predators. You have crossed paths with a group of hostile survivors (raiders or marauders). They are desperate, heavily armed, and completely ruthless—willing to torture or kill for a single can of peaches or a working rifle. They use ambush tactics, dirty tricks, and hold people at gunpoint. Tension is lethal; any wrong move will trigger a shootout.",
+      "probability": 45,
+      "trigger_type": "random",
+      "exclude_key": [
+        "infected",
+        "safe community"
+      ],
+      "sticky": 0,
+      "cooldown": 6,
+      "delay": 0,
+      "injection_behavior": "active",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Feindselige Überlebende & Plünderer",
+              "content": "[MENSCHLICHE BEDROHUNG]\nPLÜNDERER & BANDITEN: Oft sind die lebenden Menschen gefährlicher als die Toten. Verzweifelte Überlebende legen Hinterhalte, plündern Neuankömmlinge aus oder ermorden sie für Nahrung und Stiefel. Niemandem ist leichtfertig zu trauen; Fremde werden mit gezogener Waffe empfangen.",
+              "key": [
+                "Banditen",
+                "Plünderer",
+                "Überlebende",
+                "Hinterhalt",
+                "Feinde",
+                "Misstrauen"
+              ]
+            },
+            "ru": {
+              "name": "Мародеры и враждебные выжившие",
+              "content": "[ЧЕЛОВЕЧЕСКАЯ УГРОЗА]\nМАРОДЕРЫ: Часто живые куда страшнее мертвецов. Отчаявшиеся бандиты устраивают засады на дорогах, убивая путников ради ботинок и консервов. Доверие в мертвом мире наказуемо: незнакомцев встречают взведенным стволом.",
+              "key": [
+                "бандиты",
+                "мародеры",
+                "выжившие",
+                "засада",
+                "враги",
+                "недоверие"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Visceral Close-Quarters Combat",
+      "uid": 6,
+      "key": [
+        "combat",
+        "fight",
+        "axe",
+        "crowbar",
+        "knife",
+        "shoot",
+        "pistol",
+        "shotgun",
+        "melee"
+      ],
+      "content": "[REALISTIC COMBAT DIRECTIVE]\nCombat is exhausting, terrifying, and messy. There are no acrobatic moves. Melee combat is a desperate struggle for survival using blunt tools (crowbars, pipes) or sharp blades (axes, knives), accompanied by the sound of cracking bone, tearing flesh, and heavy, panicked breathing. Firearm usage is a dual-edged sword: it kills efficiently but creates a loud echo that rings across the valley, attracting nearby hordes.",
+      "probability": 100,
+      "trigger_type": "range",
+      "exclude_key": [
+        "safe shelter",
+        "sleeping"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Wetter, Kälte & Unterkühlung",
+              "content": "[UMWELT-BEDROHUNG]\nWETTER-EINFLUSS: Durchnässende Kaltfronten, eisiger Schneefall oder Schlamm machen jeden Marsch zur Qual. Nasse Kleidung führt ohne Feuer rasch zur Unterkühlung, zittrige Finger können keine Waffen mehr laden. Zuflucht und trockenes Brennholz sind ebenso wichtig wie Nahrung.",
+              "key": [
+                "Kälte",
+                "Regen",
+                "Schnee",
+                "Unterkühlung",
+                "Nässe",
+                "Feuer",
+                "Winter"
+              ]
+            },
+            "ru": {
+              "name": "Холод, дождь и переохлаждение",
+              "content": "[ПОГОДНЫЙ ФАКТОР]\nСТИХИЯ: Затяжные ледяные дожди, снегопад и грязь превращают переход в пытку. Мокрая одежда грозит гипотермией, окоченевшие пальцы не слушаются при перезарядке. Поиск сухого укрытия и дров для костра важен так же, как и охота за едой.",
+              "key": [
+                "холод",
+                "дождь",
+                "снег",
+                "переохлаждение",
+                "сырость",
+                "костер",
+                "зима"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Gunshot Echoes (Hailing the Swarm)",
+      "uid": 7,
+      "key": [
+        "gunshot",
+        "fired shot",
+        "bang",
+        "shotgun blast",
+        "rifle shot"
+      ],
+      "content": "[TACTICAL CONFLICT / CHAIN TRIGGER]\nHAILING THE SWARM: A firearm was discharged. The deafening gunshot echoes loudly off the ruined buildings and hills, tearing through the silent world. Within seconds, distant, overlapping groans begin to rise. Walker hordes from several blocks away have been alerted to the noise and are actively converging on your exact location. The characters must immediately choose between running (Delta) or barricading, as they will soon be overrun.",
+      "probability": 100,
+      "trigger_type": "chain",
+      "exclude_key": [
+        "silencer",
+        "suppressed"
+      ],
+      "sticky": 0,
+      "cooldown": 5,
+      "delay": 0,
+      "injection_behavior": "active",
+      "depends_on": 6,
+      "chain_delay": 1,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Barrikadenbau & Befestigung",
+              "content": "[VERTEIDIGUNGS-MECHANIK]\nBARRIKADEN: Fenster und Türen müssen mit Balken vernagelt, Möbel vor Eingänge geschoben werden. Eine gut gebaute Barrikade verschafft wertvolle Zeit, doch faules Holz gibt unter dem stetigen Druck drückender Körper bald nach. Notausgänge müssen stets vorbereitet sein.",
+              "key": [
+                "Barrikade",
+                "vernageln",
+                "befestigen",
+                "Tür",
+                "Fenster",
+                "Bretter",
+                "Sicherung"
+              ]
+            },
+            "ru": {
+              "name": "Укрепление рубежей и баррикады",
+              "content": "[ФОРТИФИКАЦИЯ]\nБАРРИКАДЫ: Окна и двери заколачиваются досками, проходы блокируются шкафами. Надежная баррикада дает драгоценные минуты, но гнилое дерево трещит под напором десятков гниющих тел. Пути отхода должны быть разведаны заранее.",
+              "key": [
+                "баррикада",
+                "заколотить",
+                "укрепление",
+                "дверь",
+                "окно",
+                "доски",
+                "оборона"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Safehouse Sanctuary & Campfire Comfort",
+      "uid": 8,
+      "key": [
+        "safehouse",
+        "shelter",
+        "barricade",
+        "campfire",
+        "bonfire",
+        "camp",
+        "sleep",
+        "goodnight",
+        "rain"
+      ],
+      "content": "[ATMOSPHERIC SANCTUARY OVERLAY]\nFor now, the danger is outside. You are in a temporary safehouse—a boarded-up room, a locked cellar, or a hidden camp. Rain drums softly against the wooden barricades on the windows. A small campfire or portable gas stove crackles, casting long, warm shadows. The air is quiet and cozy. Describe the profound, heavy physical and mental fatigue, the quiet, intimate conversations, and the fragile bonding over shared trauma.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "under attack",
+        "streets"
+      ],
+      "sticky": 0,
+      "cooldown": 4,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Zuflucht im Safehouse & Lagerfeuer",
+              "content": "[RUHEPAUSE / GEBORGENHEIT]\nDAS SAFEHOUSE: Für den Augenblick ist die Gefahr ausgesperrt. Ein vernageltes Zimmer, ein kühler Keller oder ein verborgenes Lager. Regen trommelt leise gegen die Fenster. Eine kleine Gaskocher-Flamme wirft warme Schatten. Zeit für leise, ehrliche Gespräche, das Versorgen von Wunden und tiefe Verbundenheit über gemeinsam erlittenes Leid.",
+              "key": [
+                "Safehouse",
+                "Zuflucht",
+                "Versteck",
+                "Lagerfeuer",
+                "Lager",
+                "Schlafen",
+                "Wärme",
+                "Ruhe"
+              ]
+            },
+            "ru": {
+              "name": "Убежище и тепло костра",
+              "content": "[ОСТРОВОК БЕЗОПАСНОСТИ]\nТИХАЯ ГАВАНЬ: На время опасность осталась за порогом. Заколоченная комната, запертый подвал или тайный лагерь. Дождь мерно стучит по ставням. Пламя походной горелки отбрасывает теплые тени. Время для тихих разговоров, перевязки ран и хрупкого душевного тепла среди кромешного ада.",
+              "key": [
+                "убежище",
+                "приют",
+                "баррикада",
+                "костер",
+                "лагерь",
+                "сон",
+                "тепло",
+                "покой"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "The Military Quarantine Zone (QZ)",
+      "uid": 9,
+      "key": [
+        "quarantine",
+        "QZ",
+        "FEDRA",
+        "military checkpoint",
+        "concrete wall",
+        "soldier",
+        "rations",
+        "razor wire"
+      ],
+      "content": "[MILITARIZED ZONE / SAFE HAVEN]\nThe setting shifts to a Military Quarantine Zone (QZ). It is a stark, brutal fortress surrounded by massive concrete walls, searchlights, and razor wire. Heavily armed soldiers patrol the checkpoints, scanning citizens for infection. The atmosphere is authoritarian and tense: resources are heavily rationed via ration cards, curfew is strictly enforced under threat of execution, and the civilian population is cold, desperate, and subservient.",
+      "probability": 100,
+      "trigger_type": "keyword",
+      "exclude_key": [
+        "open forest",
+        "abandoned house",
+        "raider camp"
+      ],
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "injection_behavior": "passive",
+      "semantic_trigger": "",
+      "depends_on": -1,
+      "chain_delay": 0,
+      "min_msg": 0,
+      "max_msg": 9999,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "de": {
+              "name": "Militärische Quarantänezone (QZ)",
+              "content": "[MILITÄRISCHE FESTUNG]\nDIE QUARANTÄNEZONE: Eine düstere Betonfestung hinter meterdicken Mauern, Suchscheinwerfern und Stacheldraht. Schwer bewaffnete Soldaten kontrollieren Checkpoints mit Infektionsscannern. Strenge Ausgangssperren unter Androhung der Todesstrafe, Essensmarken und ein erdrückendes, autoritäres Regime prägen den Alltag der hungernden Bürger.",
+              "key": [
+                "Quarantäne",
+                "QZ",
+                "Militär",
+                "Checkpoint",
+                "Betonmauer",
+                "Soldat",
+                "Rationen",
+                "Stacheldraht"
+              ]
+            },
+            "ru": {
+              "name": "Военная карантинная зона (QZ)",
+              "content": "[ЗОНА КАРАНТИНА]\nКАРАНТИННАЯ ЗОНА: Мрачная бетонная крепость за высокими стенами с колючей проволокой и прожекторами. Вооруженные патрули сканируют жителей на контрольно-пропускных пунктах. Пайки выдаются по карточкам, комендантский час карается расстрелом, а запуганные граждане живут в атмосфере голода и диктатуры.",
+              "key": [
+                "карантин",
+                "QZ",
+                "военные",
+                "блокпост",
+                "бетонная стена",
+                "солдат",
+                "пайки",
+                "колючая проволока"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "en",
+      "translations": {
+        "de": {
+          "name": "Ausbruch: Realistisches Zombie-Survival",
+          "description": "Düsteres, kompromissloses Survival-Lorebook für realistische Zombie-Apokalypsen: Schleichen, Plündern, Infektionswege, Safehouses und Quarantänezonen."
+        },
+        "ru": {
+          "name": "Вспышка: Реалистичное зомби-выживание",
+          "description": "Суровый и бескомпромиссный лорбук выживания в зомби-апокалипсисе: скрытность, сбор припасов, пути заражения, убежища и зоны карантина."
+        }
+      }
+    }
+  }
 }
