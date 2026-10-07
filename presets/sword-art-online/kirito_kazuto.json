@@ -55,7 +55,15 @@
         }
       },
       "custom_title": "Der Schwarze Schwertkämpfer",
-      "custom_avatar": "Kirito_Kazuto.png"
+      "custom_avatar": "Kirito_Kazuto.png",
+      "expressions": {
+        "neutral": "expressions/kirito_kazuto/neutral.webp",
+        "happy": "expressions/kirito_kazuto/happy.webp",
+        "relaxed": "expressions/kirito_kazuto/relaxed.webp",
+        "surprised": "expressions/kirito_kazuto/surprised.webp",
+        "angry": "expressions/kirito_kazuto/angry.webp",
+        "sad": "expressions/kirito_kazuto/sad.webp"
+      }
     }
   }
 }
