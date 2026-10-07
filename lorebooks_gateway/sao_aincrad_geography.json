@@ -15,7 +15,50 @@
       ],
       "content": "Eine gigantische schwebende Eisenburg aus 100 übereinanderliegenden Ebenen. Jede Ebene bietet ein eigenes Biom (Wälder, Wüsten, Sümpfe) und ein mehrstöckiges Labyrinth, an dessen Spitze die Boss-Kammer den Durchgang zur nächsten Ebene versperrt.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The 100 Floors of Aincrad",
+              "content": "A colossal floating iron castle comprising 100 stacked circular floors suspended in midair. Each floor features distinct biomes (dense forests, scorching deserts, mist-shrouded swamps) and towering labyrinth spires, at the apex of which waits a boss chamber guarding the staircase to the floor above.",
+              "key": [
+                "Aincrad",
+                "Floor",
+                "Labyrinth",
+                "Boss chamber",
+                "Town of Beginnings"
+              ]
+            },
+            "ru": {
+              "name": "Сто этажей Айнкрада",
+              "content": "Колоссальная парящая железная крепость, состоящая из сотни этажей, возвышающихся друг над другом. Каждый этаж обладает уникальной экосистемой (густые леса, бескрайние пустыни, туманные болота) и многоярусным лабиринтом, венчаемым покоями босса, преграждающего путь на следующий уровень.",
+              "key": [
+                "Айнкрад",
+                "Этаж",
+                "Лабиринт",
+                "Комната босса",
+                "Город Начал"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sword Art Online – Geography of Aincrad",
+          "description": "The 100 floating castle floors, Town of Beginnings, labyrinth spires, and Floor 22."
+        },
+        "ru": {
+          "name": "Sword Art Online – География Айнкрада",
+          "description": "Сто парящих этажей крепости, Город Начал, башни-лабиринты и мирный 22-й этаж."
+        }
+      }
+    }
+  }
 }

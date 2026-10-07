@@ -231,3 +231,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Englische und russische Übersetzungen für alle 5 Szenen und 3 Lorebooks der Kampagne Dungeon Meshi sinngemäß implementiert.
 - [x] Englische und russische Übersetzungen für alle 5 Szenen und 3 Lorebooks der Kampagne Steins;Gate sinngemäß implementiert.
 - [x] Englische und russische Übersetzungen für alle 4 Szenen und 3 Lorebooks der Kampagne Lycoris Recoil sinngemäß implementiert.
+- [x] Englische und russische Übersetzungen für alle 5 Szenen und 3 Lorebooks der Kampagne Sword Art Online sinngemäß implementiert.

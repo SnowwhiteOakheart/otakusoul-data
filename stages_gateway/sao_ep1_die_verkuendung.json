@@ -15,5 +15,28 @@
     "Sword Art Online – Aincrad-Systemregeln",
     "Sword Art Online – Aincrad-Geografie"
   ],
-  "starting_bg": "sao_ep1_die_verkuendung.png"
+  "starting_bg": "sao_ep1_die_verkuendung.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 1: The Proclamation",
+          "description": "Day one in SAO: the central town bells toll, the logout button vanishes from the menu, and Akihiko Kayaba proclaims the laws of death.",
+          "world_context": "Town of Beginnings, 1st Floor. Ten thousand players realize they are trapped inside the death game.",
+          "opening_narration": "The sky bleeds crimson with geometric alert hexagons. A colossal, faceless phantom cloaked in flowing red robes materializes high above the roofs of Aincrad. The detached voice of Akihiko Kayaba thunders across the plaza: 'This is not a defect. This is how Sword Art Online was designed. Death in the virtual world equals death in reality.'",
+          "gm_tone": "Horror",
+          "narrator_style": "Shocking, atmospheric, and chillingly oppressive."
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 1: Провозглашение",
+          "description": "Первый день в SAO: бьют колокола, кнопка выхода исчезает из меню, а Акихико Каяба объявляет смертельные правила игры.",
+          "world_context": "Город Начал, 1-й этаж. Десять тысяч игроков осознают, что оказались в смертельной ловушке.",
+          "opening_narration": "Небо окрашивается в кроваво-красный цвет тревожных гексагонов. Исполинский безликий фантом в алом балахоне материализуется над шпилями Айнкрада. Бесстрастный голос Акихико Каябы раскатывается над площадью: «Это не сбой. Это истинная суть Sword Art Online. Смерть в игре означает смерть в реальном мире».",
+          "gm_tone": "Хоррор",
+          "narrator_style": "Шокирующий, гнетущий и атмосферный."
+        }
+      }
+    }
+  }
 }

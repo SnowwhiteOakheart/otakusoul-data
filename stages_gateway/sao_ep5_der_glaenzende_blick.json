@@ -17,5 +17,28 @@
     "Sword Art Online – Gilden & Fraktionen",
     "Sword Art Online – Aincrad-Geografie"
   ],
-  "starting_bg": "sao_ep5_der_glaenzende_blick.png"
+  "starting_bg": "sao_ep5_der_glaenzende_blick.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 5: The Gleam Eyes",
+          "description": "The slaughter on the 74th Floor: Kirito unleashes the unique Dual Blades skill to slay the demon Gleam Eyes.",
+          "world_context": "The 74th Floor Boss Chamber: absolute chaos as an Army reconnaissance unit is decimated.",
+          "opening_narration": "A demonic roar rattles the ancient stone pillars to their core. The Gleam Eyes heaves its monstrous greatsword high overhead. The party stands seconds from total wipeout. In that split second, Kirito reaches over his shoulder — drawing his second blade: Dark Repulser. 'Asuna! Hold him off for ten seconds!'",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Epic, legendary, and packed with maximum adrenaline."
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 5: Синеглазый демон",
+          "description": "Битва на 74-м этаже: Кирито раскрывает уникальный навык двух мечей против демона Синеглазого (The Gleam Eyes).",
+          "world_context": "Комната босса 74-го этажа: отряд Армии гибнет под сокрушительными ударами монстра.",
+          "opening_narration": "Демонический рев сотрясает массивные колонны зала. Синеглазый демон заносит над головой колоссальный двуручный меч. Игроки в шаге от гибели. В этот миг Кирито заводит руку за спину — и выхватывает второй клинок: «Вразумитель» (Dark Repulser). «Асуна! Задержи его на десять секунд!»",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Эпический, легендарный, на пределе напряжения и адреналина."
+        }
+      }
+    }
+  }
 }

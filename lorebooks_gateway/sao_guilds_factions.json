@@ -15,7 +15,52 @@
       ],
       "content": "Die Frontkämpfer ('Clearer') organisieren sich in Gilden. Die mächtigste ist die 'Ritter des Blutschwurs' (KoB) unter Commander Heathcliff. Im Untergrund lauern rote Gilden wie 'Laughing Coffin' – Player Killer (PK), die Mitspieler aus Sadismus ermorden.",
       "trigger_type": "keyword",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Guilds of Aincrad",
+              "content": "The elite frontline clearers organize into tight-knit combat guilds. The preeminent guild is the 'Knights of the Blood Oath' (KoB) commanded by the legendary Heathcliff. In the murky underworld stalk outlaw 'orange' and 'red' guilds such as 'Laughing Coffin' — psychotic player killers (PKs) who murder their fellow captives for twisted sport and profit.",
+              "key": [
+                "Guild",
+                "Knights of the Blood Oath",
+                "KoB",
+                "Laughing Coffin",
+                "PK",
+                "Clearers"
+              ]
+            },
+            "ru": {
+              "name": "Гильдии Айнкрада",
+              "content": "Игроки передовой («проходчики») объединяются в боевые гильдии. Сильнейшая из них — «Рыцари Крови» (Knights of the Blood Oath / KoB) под началом легендарного командора Хитклиффа. На теневой стороне Айнкрада орудуют «красные» гильдии убийц, самая свирепая из которых — «Весёлый гроб» (Laughing Coffin), хладнокровно истребляющая товарищей по несчастью ради садистского удовольствия.",
+              "key": [
+                "Гильдия",
+                "Рыцари Крови",
+                "KoB",
+                "Весёлый гроб",
+                "ПК",
+                "Проходчики"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sword Art Online – Guilds & Factions",
+          "description": "Knights of the Blood Oath, Fuurinkazan, merchant syndicates, and the killers of Laughing Coffin."
+        },
+        "ru": {
+          "name": "Sword Art Online – Гильдии и фракции",
+          "description": "Рыцари Крови, Фуринказан, торговые гильдии и убийцы из «Весёлого гроба»."
+        }
+      }
+    }
+  }
 }

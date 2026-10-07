@@ -15,5 +15,28 @@
     "Sword Art Online – Aincrad-Systemregeln",
     "Sword Art Online – Gilden & Fraktionen"
   ],
-  "starting_bg": "sao_ep2_boss_ebene1.png"
+  "starting_bg": "sao_ep2_boss_ebene1.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 2: Overlord of the First Floor",
+          "description": "The breakthrough raid: confronting Illfang the Kobold Lord and paying the bitter price of their first victory.",
+          "world_context": "The 1st Floor Boss Chamber: gateway to the upper floors of Aincrad.",
+          "opening_narration": "The colossal stone gates groan open. Illfang the Kobold Lord slams his massive bone axe into the flagstones with a deafening roar! Four Ruin Kobold Sentinels rush forward in formation. Diavel cries out the command to switch — but the boss's attack patterns violently deviate from the beta test notes!",
+          "gm_tone": "Epic Fantasy",
+          "narrator_style": "Heroic, pulse-pounding, with sharp focus on tactical sword skill execution."
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 2: Владыка первого этажа",
+          "description": "Первый рейд на босса: битва с Иллфангом, Лордом кобольдов, и горькая цена первой победы.",
+          "world_context": "Комната босса на 1-м этаже: рубеж, открывающий путь наверх.",
+          "opening_narration": "Тяжелые каменные врата со скрежетом распахиваются. Иллфанг, Лорд кобольдов, с грохотом впечатывает гигантский топор в каменные плиты! Четыре кобольда-стража бросаются в атаку. Диавель командует смену позиции — но поведение босса внезапно расходится со сведениями из бета-теста!",
+          "gm_tone": "Эпическое фэнтези",
+          "narrator_style": "Героический, динамичный, с акцентом на боевую тактику навыков меча."
+        }
+      }
+    }
+  }
 }

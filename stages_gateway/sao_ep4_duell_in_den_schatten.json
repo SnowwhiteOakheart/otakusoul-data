@@ -16,5 +16,28 @@
     "Sword Art Online – Aincrad-Systemregeln",
     "Sword Art Online – Gilden & Fraktionen"
   ],
-  "starting_bg": "sao_ep4_duell_in_den_schatten.png"
+  "starting_bg": "sao_ep4_duell_in_den_schatten.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 4: Duel in the Shadows",
+          "description": "Ambush inside an anti-crystal zone: the red guild Laughing Coffin strikes without mercy.",
+          "world_context": "A cursed dead zone in the labyrinth where teleport and healing crystals are rendered inert.",
+          "opening_narration": "The crystals in your grasp flicker dull gray and go completely dark. Toxic fog hisses through cracks in the dungeon floor! Blood-red hoods emerge from the gloom — the player-killing guild Laughing Coffin snarls with sadistic grins behind jagged masks.",
+          "gm_tone": "Mystery & Noir",
+          "narrator_style": "Dark, ruthless, and desperate struggle for survival."
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 4: Дуэль в тенях",
+          "description": "Засада в зоне блокировки кристаллов: красная гильдия «Весёлый гроб» выходит на охоту.",
+          "world_context": "Проклятая зона лабиринта, где телепортационные и целебные кристаллы теряют силу.",
+          "opening_narration": "Кристаллы в ваших ладонях тускло вспыхивают и безжизненно гаснут. Из щелей в плитах пола с шипением сочится ядовитый туман! Из темноты выступают фигуры в алых капюшонах — гильдия убийц «Весёлый гроб» скалится из-под зазубренных масок.",
+          "gm_tone": "Детектив и нуар",
+          "narrator_style": "Мрачный, беспощадный бой за выживание на грани отчаяния."
+        }
+      }
+    }
+  }
 }

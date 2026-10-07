@@ -16,7 +16,52 @@
       ],
       "content": "Sword Art Online ist ein VRMMO auf Leben und Tod: Sinkt der HP-Balken auf null, sendet das NerveGear einen tödlichen Mikrowellenimpuls ins Gehirn des Spielers. Magie existiert nicht; Kämpfe basieren auf 'Sword Skills' – vom System geführten Spezialangriffen mit Vor- und Nachverzögerung. Teleportkristalle ermöglichen Flucht in sichere Städte, außer in Anti-Kristall-Zonen.",
       "trigger_type": "always_on",
-      "probability": 100
+      "probability": 100,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Death Game & Core Mechanics",
+              "content": "Sword Art Online is a high-stakes VRMMO of life and death: should a player's HP gauge drop to absolute zero, the NerveGear headgear emits a high-powered microwave burst directly into the wearer's brainstem, causing real-life death. Magic does not exist in Aincrad; combat is governed by 'Sword Skills' — system-assisted pre-programmed weapon techniques accompanied by pre-motion and post-motion cooldown frames. Teleport crystals offer instant escape to safe-zone plazas, except when trapped inside anti-crystal corridors.",
+              "key": [
+                "SAO",
+                "System",
+                "HP",
+                "Permadeath",
+                "NerveGear",
+                "Sword Skills"
+              ]
+            },
+            "ru": {
+              "name": "Смертельная игра и системные правила",
+              "content": "Sword Art Online — это VRMMO на выживание: если шкала здоровья игрока опускается до нуля, шлем NerveGear испускает мощный микроволновый импульс, разрушающий клетки головного мозга и вызывающий мгновенную биологическую смерть. Магии в Айнкраде нет; сражения построены на «Навыках меча» (Sword Skills) — системных комбинациях с задержкой после завершения удара. Кристаллы телепортации спасают жизнь в критический момент, кроме зон блокировки кристаллов.",
+              "key": [
+                "SAO",
+                "Система",
+                "HP",
+                "Перманентная смерть",
+                "NerveGear",
+                "Навыки меча"
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sword Art Online – Aincrad System Mechanics",
+          "description": "Sword Skills, HP bars, permadeath rules, teleport crystals, and system menus."
+        },
+        "ru": {
+          "name": "Sword Art Online – Системные механики Айнкрада",
+          "description": "Навыки меча, шкалы HP, перманентная смерть, кристаллы телепортации и системное меню."
+        }
+      }
+    }
+  }
 }

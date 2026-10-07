@@ -15,5 +15,28 @@
     "Sword Art Online – Aincrad-Systemregeln",
     "Sword Art Online – Aincrad-Geografie"
   ],
-  "starting_bg": "sao_ep3_waerme_des_herzens.png"
+  "starting_bg": "sao_ep3_waerme_des_herzens.png",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 3: Warmth of the Heart",
+          "description": "An expedition up the frozen peak of the 55th Floor alongside master blacksmith Lisbeth.",
+          "world_context": "The 55th Floor: howling blizzards and the cavern lair of the frost dragon X'rphan.",
+          "opening_narration": "Biting gales slash across your faces. Far below at the bottom of the icy pit sleeps the crystalline frost dragon. Kirito and Lisbeth huddle close against the freezing stone overhang: 'We need that rare ingot... no matter what it takes!'",
+          "gm_tone": "Romance",
+          "narrator_style": "Warmhearted, adventurous, with tender romantic undertones amid the freezing cold."
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 3: Тепло сердца",
+          "description": "Опасная экспедиция на ледяную вершину 55-го этажа вместе с кузнецом Лизбет.",
+          "world_context": "55-й этаж: бушующая метель и логово морозного дракона Ксирфана.",
+          "opening_narration": "Ледяной ветер яростно хлещет в лицо. На дне глубокого ледяного разлома дремлет кристальный морозный дракон. Кирито и Лизбет укрываются за каменным выступом, прижимаясь друг к другу: «Нам нужен этот редкий слиток... чего бы это ни стоило!»",
+          "gm_tone": "Романтика",
+          "narrator_style": "Теплый, приключенческий, с искренней романтической ноткой среди вечной мерзлоты."
+        }
+      }
+    }
+  }
 }
