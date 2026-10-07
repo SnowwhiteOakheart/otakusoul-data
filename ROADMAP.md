@@ -55,6 +55,10 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - *Status:* **Text, Avatar und 6 Expressions fertig.**
   - *Dateien:* V2-Definition in `presets/kaguya-shinomiya/kaguya_shinomiya.json` mit psychologischem Liebeskrieg & Szenario.
   - *Bilder:* Avatar und 6 Expressions neu generiert; V2-PNG mit eingebetteter Definition vorhanden.
+- [x] **1.7 Lucy (Kaede / Nyu)** (*Elfen Lied*)
+  - *Status:* **Vollständig abgeschlossen.**
+  - *Bilder:* Avatar (700×937 PNG) + 6 Expressions (neutral, happy, relaxed, surprised, angry, sad; 640×800 WebP) neu generiert.
+  - *Dateien:* V2-PNG in `cards_gateway`, Preset in `presets/elfen-lied/`, in `soul_registry.json`. Dreisprachig (DE/EN/RU), Vektor-Mechanik & gespaltene Persönlichkeit.
 
 ---
 
@@ -236,3 +240,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Deutsche und russische Übersetzungen für 4 eigenständige Lorebooks (Cyberpunk 2077: Night City, Elden Ring: Lands Between, Modern Anime Academy & Romance, Isekai: Fantasy RPG World) sinngemäß implementiert.
 - [x] Deutsche und russische Übersetzungen für 4 weitere eigenständige Lorebooks (Rust & Steel: Ruined Earth, Dimensional Rift: Anime Crossover, Outbreak: Realistic Zombie Survival, Voidfarer: Hard Sci-Fi Space Survival) sinngemäß implementiert.
 - [x] Deutsche und russische Übersetzungen für das Spice and Wolf Lorebook sinngemäß implementiert.
+- [x] Neuer Einzel-Charakter Lucy (Kaede / Nyu) aus Elfen Lied mit 700×937 Avatar, 6 abgestimmten 640×800 Expressions, V2-Definition, DE/EN/RU-Übersetzungen und Hub-Registrierung implementiert.
