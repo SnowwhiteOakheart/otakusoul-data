@@ -1,15 +1,15 @@
-# No Game No Life - characters, scenes and lorebooks (German)
+# No Game No Life - characters, scenes and lorebooks (German, English, Russian)
 
 A ready-made Soul Stage campaign set in the world of *No Game No Life*: seven character cards (six canon
 characters and one user persona), twelve Soul Stage scenes - one per episode of Season 1 - and three
-lorebooks covering Disboard's rules, races/locations and cast. The texts are **German**, matching this
-fork's German UI, and were built from a detailed episode-by-episode research pass (Fandom wiki, MyAnimeList,
+lorebooks covering Disboard's rules, races/locations and cast. The texts were written in **German** (with English
+and Russian translations) and were built from a detailed episode-by-episode research pass (Fandom wiki, MyAnimeList,
 the official Yen Press light novel text for the Ten Pledges) rather than from memory alone.
 
 **Also published to `otakusoul-data`.** Unlike `presets/sakura-succubus-3/`, this set uses real, copyrighted anime
 characters (Sora, Shiro, Jibril, ...) rather than original characters. It started local-only for that reason;
 after an explicit go-ahead it was published to `SnowwhiteOakheart/otakusoul-data` as well, so it's also reachable
-through the app's Soul/Lorebook/Stage Gateway tabs, not just via the manual import below. Scene backgrounds
+through the app's Hub, not just via the manual import below. Scene backgrounds
 are included in `backgrounds/`. There is no separate backgrounds registry; background images can be imported manually.
 
 | File | Who |
@@ -100,33 +100,24 @@ portrait. The generated expression sets live under `expressions/<character>/` as
 
 All 12 are done - one per chapter, matching each scene's `starting_bg` field (e.g.
 `Horizontal Elkia Throne Room.png` for Chapter 1), resized to 1376x768 (same convention as
-`presets/sakura-succubus-3/backgrounds/`) to keep the repo lean. `tools/import_character_cards.py` deploys
-them to `assets/backgrounds/` automatically. **[BACKGROUND-PROMPTS.md](BACKGROUND-PROMPTS.md)** has the
+`presets/sakura-succubus-3/backgrounds/`) to keep the repo lean. **[BACKGROUND-PROMPTS.md](BACKGROUND-PROMPTS.md)** has the
 generation prompt and save path used for each, if you want to regenerate one.
 
 ## Importing
 
-Everything at once - characters, persona, lorebooks and scenes:
+**In the Hub (easiest).** Open **Hub** in OtakuSoul: the characters, lorebooks and scenes of this pack are
+listed there and are imported with one click each. Characters from the Hub load their emotion pictures from
+this repository.
 
-```bash
-app/data/envs/sow-linux/bin/python tools/import_character_cards.py presets/no-game-no-life \
-    --persona presets/no-game-no-life/persona_haru.json \
-    --lorebooks presets/no-game-no-life/lorebooks \
-    --scenes presets/no-game-no-life/scenes \
-    --scene-group "No Game No Life"
-```
+**By hand.** Download this folder and import in the app:
 
-`--scene-group` puts all 12 chapters into one **Scene Folder** named "No Game No Life" in the Soul Stage
-lobby - a single clickable campaign tile (with a 4-up preview of the chapter backgrounds) instead of 12 loose
-scene cards; clicking it opens a view with just these 12 chapters. Safe to omit or re-run - it only adds
-scenes to the folder, never creates duplicates.
+- character cards (`*.png` or `*.json`) in the character library via **Import**,
+- the user persona: create it under **Personas** with name and description from `persona_haru.json`,
+- the lorebooks from `lorebooks/` under **Lorebooks → Import**,
+- the scenes from `scenes/` in the Stage lobby via **Import JSON**,
+- the backgrounds from `backgrounds/` in the scene editor (start picture) or the chat style panel.
 
-Import the characters before the scenes: a scene names its party by character name, and the tool warns about
-every name it cannot find. Characters that already exist are left alone; `--update-avatars` refreshes only
-their picture (handy after you've swapped in the real art), `--replace` overwrites a whole character and
-deletes its chats, `--dry-run` shows what would happen without changing anything. Everything can also be
-imported by hand in the app: cards under **Create character -> Import character card**, lorebooks in the
-lorebook editor, scenes in the Soul Stage lobby.
+Import the characters before the scenes: a scene names its party by character name.
 
 ## About the pictures
 

@@ -1,9 +1,8 @@
-# Sakura Succubus 3 - characters, scenes and lorebooks (German)
+# Sakura Succubus 3 - characters, scenes and lorebooks (German, English, Russian)
 
 A ready-made set for the visual novel *Sakura Succubus 3*: seven character cards (six characters and
-one user persona), six Soul Stage scenes and three lorebooks. The texts are **German**, because they
-were written for the German UI of this fork; the character cards also come in English and Russian (see
-below).
+one user persona), six Soul Stage scenes and three lorebooks. The texts were written in **German**;
+cards, scenes and lorebooks also come in English and Russian (see below).
 
 | File | Who |
 |---|---|
@@ -24,8 +23,8 @@ Names and occupations follow the game's own script (Ayu **Ikue**, Marina **Wakat
 
 The files are plain **chara_card_v2** JSON and work in SillyTavern, Chub and anything else that
 reads that format. Every card points at its `<name>.png` next to it through
-`extensions.sow_avatar` (relative to the card), and at its matching Live2D model through
-`extensions.sow_live2d`.
+`extensions.custom_avatar` (relative to the card), at its emotion pictures through `extensions.expressions`
+and at its matching Live2D model through `extensions.custom_live2d`.
 
 **Translations.** The character cards also carry English and Russian versions in
 `extensions.otakusoul_i18n` (`{"source_language": "de", "translations": {"en": {...}, "ru": {...}}}`).
@@ -36,7 +35,7 @@ German card.
 ## Scenes and lorebooks
 
 `scenes/` holds six **Soul Stage** scenes, `lorebooks/` three lorebooks for the same universe - German
-as well, and written from the game's own story rather than from a summary of it.
+with English and Russian translations, and written from the game's own story rather than from a summary of it.
 
 | Scene | Tone | Party |
 |---|---|---|
@@ -61,30 +60,19 @@ nothing until they are needed.
 
 ## Importing
 
-Everything at once - characters, persona, lorebooks and scenes:
+**In the Hub (easiest).** Open **Hub** in OtakuSoul: the characters, lorebooks and scenes of this pack are
+listed there and are imported with one click each. Characters from the Hub load their emotion pictures from
+this repository.
 
-```bash
-app/data/envs/sow-linux/bin/python tools/import_character_cards.py presets/sakura-succubus-3 \
-    --persona presets/sakura-succubus-3/persona_hiroki.json \
-    --lorebooks presets/sakura-succubus-3/lorebooks \
-    --scenes presets/sakura-succubus-3/scenes
-```
+**By hand.** Download this folder and import in the app:
 
-Import the characters before the scenes: a scene names its party by character name, and the tool warns
-about every name it cannot find.
-Fetch the matching Live2D models before or after importing:
+- character cards (`*.png` or `*.json`) in the character library via **Import**,
+- the user persona: create it under **Personas** with name and description from `persona_hiroki.json`,
+- the lorebooks from `lorebooks/` under **Lorebooks → Import**,
+- the scenes from `scenes/` in the Stage lobby via **Import JSON**,
+- the backgrounds from `backgrounds/` in the scene editor (start picture) or the chat style panel.
 
-```bash
-app/data/envs/sow-linux/bin/python tools/fetch_live2d_models.py --all
-```
-
-Characters that already exist are left alone. `--update-avatars` refreshes only their picture,
-`--update-live2d` links their Live2D models, `--update-scenes` updates scene metadata (like backgrounds)
-while preserving existing chat logs, and all keep existing chats and settings;
-`--replace` overwrites the whole character and deletes its chats.
-`--dry-run` shows what would happen. Everything can also be imported in the app itself: cards under
-**Create character -> Import character card**, lorebooks in the lorebook editor, scenes in the Soul Stage
-lobby. Backgrounds from `backgrounds/` are deployed automatically to `assets/backgrounds/`.
+Import the characters before the scenes: a scene names its party by character name.
 
 ## Backgrounds
 
