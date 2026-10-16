@@ -72,6 +72,12 @@ Registries sind JSON-Objekte mit `version` und der entsprechenden Liste:
 - `soul_registry.json`: `characters`; Einträge mit `name`, `author`, `download_url`.
 - `lorebooks_registry.json`: `lorebooks`; Einträge mit `name`, `author`, `description`, `entry_count`, `download_url`.
 - `stages_registry.json`: `scenes`; Einträge mit `id`, `title`, `author`, `description`, `starting_location`, `download_url`.
+- Jeder Registry-Eintrag trägt `revision` (Ganzzahl ab 1) und `updated` (Datum `JJJJ-MM-TT`). Die App vergleicht die Revision
+  mit der installierten Kopie und bietet „Aktualisieren“ an. **Bei jeder inhaltlichen Änderung einer Karte, eines Lorebooks
+  oder einer Szene die `revision` des Eintrags um 1 erhöhen und `updated` setzen** (reine Formatierung zählt nicht).
+  Szenen behalten beim Update ihren Spielstand, Karten werden ersetzt (alte Fassung in den Papierkorb), lokal veränderte
+  Lorebooks bleiben als Kopie erhalten. Die Registry-`id` einer Szene bzw. der Name einer Karte/eines Lorebooks ist der
+  Schlüssel für Updates und darf nicht geändert werden.
 
 Vorhandene zusätzliche Felder erhalten. Jeder Download-Link muss auf eine vorhandene, eingecheckte Datei zeigen. Keine doppelten Einträge oder IDs. Keine lokalen Dateisystempfade in Registries.
 

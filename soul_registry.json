@@ -4,237 +4,331 @@
     {
       "name": "Akane Kurokawa",
       "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Akane_Kurokawa.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Akane_Kurokawa.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Makise Kurisu",
       "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Makise_Kurisu.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Makise_Kurisu.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Echidna The Witch of Greed",
       "author": "Monty",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Echidna_The_Witch_of_Greed.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Echidna_The_Witch_of_Greed.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Goddess Airis",
       "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Goddess_Airis.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Goddess_Airis.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Emilia",
       "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Emilia.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Emilia.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Holo The Wisewolf",
       "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Holo_the_Wisewolf.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Holo_the_Wisewolf.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Vivy",
       "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Vivy.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Vivy.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Amadeus Kurisu",
       "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Amadeus_Kurisu.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Amadeus_Kurisu.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Rory Mercury",
       "author": "Yamio",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Rory_Mercury.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Rory_Mercury.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Ayu Ikue",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Ayu_Ikue.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Ayu_Ikue.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Marina Wakatsuki",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Marina_Wakatsuki.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Marina_Wakatsuki.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Cosmos",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Cosmos.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Cosmos.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Hazel Williams",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Hazel_Williams.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Hazel_Williams.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Hifumi Yamamoto",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Hifumi_Yamamoto.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Hifumi_Yamamoto.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Yue",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Yue.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Yue.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Sora",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Sora.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Sora.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Shiro",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Shiro.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Shiro.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Jibril",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Jibril.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Jibril.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Stephanie Dola",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Stephanie_Dola.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Stephanie_Dola.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Izuna Hatsuse",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Izuna_Hatsuse.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Izuna_Hatsuse.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Chlammy Zell",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Chlammy_Zell.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Chlammy_Zell.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Fiel Nirvalen",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Fiel_Nirvalen.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Fiel_Nirvalen.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Hayase Nagatoro",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Hayase_Nagatoro.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Hayase_Nagatoro.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Marin Kitagawa",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Marin_Kitagawa.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Marin_Kitagawa.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Frieren",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Frieren.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Frieren.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Ren Takahashi",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Ren_Takahashi.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Ren_Takahashi.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Aoi Mizuno",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Aoi_Mizuno.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Aoi_Mizuno.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Yor Forger",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/yor_forger.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/yor_forger.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Megumin",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/megumin.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/megumin.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Kaguya Shinomiya",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/kaguya_shinomiya.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/kaguya_shinomiya.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Chilchuck Tims",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/chilchuck_tims.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/chilchuck_tims.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Laios Touden",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/laios_touden.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/laios_touden.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Marcille Donato",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/marcille_donato.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/marcille_donato.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Senshi",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/senshi.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/senshi.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Itaru Hashida",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/itaru_hashida.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/itaru_hashida.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Mayuri Shiina",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/mayuri_shiina.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/mayuri_shiina.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Okabe Rintarou",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/okabe_rintarou.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/okabe_rintarou.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Suzuha Amane",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/suzuha_amane.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/suzuha_amane.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Chisato Nishikigi",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/chisato_nishikigi.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/chisato_nishikigi.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Kurumi",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/kurumi.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/kurumi.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Mizuki Nakahara",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/mizuki_nakahara.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/mizuki_nakahara.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Takina Inoue",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/takina_inoue.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/takina_inoue.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Asuna Yuuki",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/asuna_yuuki.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/asuna_yuuki.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Kirito (Kazuto Kirigaya)",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/kirito_kazuto.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/kirito_kazuto.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Klein (Ryoutarou Tsuboi)",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/klein_ryoutarou.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/klein_ryoutarou.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Lisbeth (Rika Shinozaki)",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/lisbeth_rika.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/lisbeth_rika.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Lucy",
       "author": "SnowwhiteOakheart",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Lucy.png"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Lucy.png",
+      "revision": 1,
+      "updated": "2026-10-16"
     }
   ]
 }

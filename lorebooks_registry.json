@@ -6,189 +6,243 @@
       "author": "Jofi",
       "description": "A highly detailed sci-fi lorebook for Night City. Featuring the obligatory street slang, the cool presence of mega-corporations, clever cyberpsychosis triggers, network hacking sequences, and interactive braindance sessions.",
       "entry_count": 9,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/cyberpunk_night_city.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/cyberpunk_night_city.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Elden Ring: Lands Between",
       "author": "Jofi",
       "description": "A grim lorebook of The Lands Between. It introduces the Site of Grace gameplay mechanic, a stamina bar for tactical combat, the dangerous Red Rot poisoning, and a boss summoning chain during long journeys.",
       "entry_count": 5,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/elden_ring_lands_between.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/elden_ring_lands_between.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Modern Anime Academy & Romance",
       "author": "Jofi",
       "description": "The perfect lorebook for Dating Sim and everyday life. It simulates the learning process, the physiological reactions of embarrassment during flirting, the active triggers of jealousy, and the chain of confession at a festival accompanied by exploding fireworks.",
       "entry_count": 5,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/modern_anime_academy_romance.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/modern_anime_academy_romance.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Isekai: Fantasy RPG World",
       "author": "Jofi",
       "description": "A comprehensive lorebook for classic fantasy Isekai adventures.",
       "entry_count": 7,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/isekai_fantasy_rpg_world.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/isekai_fantasy_rpg_world.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Rust & Steel: Ruined Earth",
       "author": "Jofi",
       "description": "A large-scale sci-fi lorebook in a post-apocalyptic style (based on NieR: Automata and Goddess of Victory: Nikke).",
       "entry_count": 10,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/rust_and_steel_ruined_earth.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/rust_and_steel_ruined_earth.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Dimensional Rift: Anime Crossover",
       "author": "Jofi",
       "description": "A large-scale crossover lorebook for anime universes and multiverse scenarios",
       "entry_count": 10,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dimensional_rift_anime_crossover.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dimensional_rift_anime_crossover.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Outbreak: Realistic Zombie Survival",
       "author": "Jofi",
       "description": "A grim and uncompromising survival lorebook for realistic zombie apocalypse scenarios.",
       "entry_count": 10,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/outbreak_realistic_zombie_survival.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/outbreak_realistic_zombie_survival.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Voidfarer: Hard Sci-Fi Space Survival",
       "author": "Jofi",
       "description": "A comprehensive hard-sci-fi lorebook about survival on the drifting research ship Vanguard 9.",
       "entry_count": 10,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/voidfarer_hard_scifi_space_survival.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/voidfarer_hard_scifi_space_survival.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Spice and Wolf",
       "author": "Don Chacha Muchacho",
       "description": "This lorebook covers countries, cities, currencies, approximate exchange rates, as well as maritime transport and information about Holo itself.",
       "entry_count": 7,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/spice_and_wolf_lorebook.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/spice_and_wolf_lorebook.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Sakura Succubus 3 – Welt",
       "author": "SnowwhiteOakheart",
       "description": "World primer for Sakura Succubus 3: succubi living hidden among humans, the shared flat, the newspaper, secrecy and the household rules. German-language content.",
       "entry_count": 10,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_world.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_world.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Sakura Succubus 3 – Figuren",
       "author": "SnowwhiteOakheart",
       "description": "Character-focused lore for Sakura Succubus 3: all six housemates, Hiroki, and the people around them. German-language content.",
       "entry_count": 10,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_characters.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_characters.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Sakura Succubus 3 – Orte",
       "author": "SnowwhiteOakheart",
       "description": "Location lore for Sakura Succubus 3: the shared flat, newsroom, cosplay cafe, boardroom, stage, tennis court, tea room, throne hall and more. German-language content.",
       "entry_count": 9,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_locations.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_locations.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "No Game No Life – Welt & Gebote",
       "author": "SnowwhiteOakheart",
       "description": "Core rules and premise of No Game No Life's Disboard: the Ten Pledges (verified against the official light novel text), Tet's origin, resource wagers and Blank's reputation. German-language content.",
       "entry_count": 8,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_world.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_world.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "No Game No Life – Rassen & Orte",
       "author": "SnowwhiteOakheart",
       "description": "The sixteen races of Disboard and key locations: Imanity, Flügel, Elf, Werebeast, Elkia, Avant Heim, Elven Gard, the Eastern Union. German-language content.",
       "entry_count": 9,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_races_locations.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_races_locations.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "No Game No Life – Figuren",
       "author": "SnowwhiteOakheart",
       "description": "Quick-reference lore for the full No Game No Life cast plus lore-only figures: Tet, Riku Dola, Azril, the Eastern Union's Shrine Maiden. German-language content.",
       "entry_count": 10,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_characters.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_characters.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
       "author": "SnowwhiteOakheart",
       "description": "Das Mana-System des Dungeons, Monster-Biologie, Seelenbindung und Regenerationsregeln.",
       "entry_count": 2,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_ecology.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_ecology.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Dungeon Meshi – Monster-Rezepte & Kochkunst",
       "author": "SnowwhiteOakheart",
       "description": "Kulinarische Zubereitungen von Riesen-Skorpionen, Basiliskeneiern, Alraunen und Glibber.",
       "entry_count": 2,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_recipes.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_recipes.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Dungeon Meshi – Figuren & Goldene Dynastie",
       "author": "SnowwhiteOakheart",
       "description": "Laios' Gruppe, die Suche nach Fallin und das Geheimnis des Wahnsinnigen Magiers.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_world.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_world.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Steins;Gate – Weltlinien & Divergenz",
       "author": "SnowwhiteOakheart",
       "description": "Divergenz-Meter, Alpha- und Beta-Attraktorfelder, Konvergenz und Schicksalsfixpunkte.",
       "entry_count": 2,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_divergence.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_divergence.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Steins;Gate – Labor-Gadgets & D-Mails",
       "author": "SnowwhiteOakheart",
       "description": "Zukunftsgadgets, die Telefon-Mikrowelle, Zeitreisesprünge und der IBN 5100.",
       "entry_count": 2,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_gadgets.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_gadgets.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Steins;Gate – Akihabara 2010 & SERN",
       "author": "SnowwhiteOakheart",
       "description": "Das Zukunftsgadget-Labor, das Radiogebäude, MayQueen Nyan² und die Bedrohung durch SERN.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_akihabara.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_akihabara.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Lycoris Recoil – DA & Alan Institute",
       "author": "SnowwhiteOakheart",
       "description": "Direct Attack Organisation, Lycoris-Agentinnen, Alan-Kinder und das Gesetz der Ordnung.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_da.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_da.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Lycoris Recoil – Café LycoReco",
       "author": "SnowwhiteOakheart",
       "description": "Das gemütliche Café in Sumida, Speisekarte, Stammgäste und Tarnung.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_cafe.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_cafe.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Lycoris Recoil – Ausrüstung & Taktik",
       "author": "SnowwhiteOakheart",
       "description": "Chisatos Ausweichfähigkeiten, Nicht-tödliche Munition und Waffen.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_tactics.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_tactics.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Sword Art Online – Aincrad-Systemregeln",
       "author": "SnowwhiteOakheart",
       "description": "Sword Skills, HP-Regeln, Permadeath, Teleportkristalle und Menüführung.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_system_rules.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_system_rules.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Sword Art Online – Gilden & Fraktionen",
       "author": "SnowwhiteOakheart",
       "description": "Ritter des Blutschwurs, Fuurinkazan, Händlergilden und Laughing Coffin.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_guilds_factions.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_guilds_factions.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     },
     {
       "name": "Sword Art Online – Aincrad-Geografie",
       "author": "SnowwhiteOakheart",
       "description": "Die 100 schwebenden Ebenen, Startstadt, Labyrinthe und Ebene 22.",
       "entry_count": 1,
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_aincrad_geography.json"
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_aincrad_geography.json",
+      "revision": 1,
+      "updated": "2026-10-16"
     }
   ]
 }

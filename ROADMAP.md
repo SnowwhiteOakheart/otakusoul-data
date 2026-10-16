@@ -242,3 +242,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Deutsche und russische Übersetzungen für das Spice and Wolf Lorebook sinngemäß implementiert.
 - [x] Neuer Einzel-Charakter Lucy (Kaede / Nyu) aus Elfen Lied mit 700×937 Avatar, 6 abgestimmten 640×800 Expressions, V2-Definition, DE/EN/RU-Übersetzungen und Hub-Registrierung implementiert.
 - [x] Story-Daten (`extensions.otakusoul_story`: Genre, Dauer, Schwierigkeit, Inhaltshinweise, Einsteiger-Markierung, je drei Startvorschläge in DE/EN/RU) sowie übersetzte Startorte und Tageszeiten für alle 45 Gateway-Szenen und die 18 Paket-Szenen von No Game No Life und Sakura Succubus 3 ergänzt.
+- [x] Alle Registry-Einträge (47 Karten, 27 Lorebooks, 45 Szenen) mit `revision: 1` und `updated` versehen; Regel zum Erhöhen der Revision in `AI.md`; Spieltext „{name} (own version)“ in DE/RU ergänzt.
