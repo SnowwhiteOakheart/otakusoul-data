@@ -1,8 +1,57 @@
-Yuri (Doki Doki Literal Club).vrm:  https://hub.vroid.com/en/characters/4336227932743836004/models/1700604965229935902
-Freemodel.vrm: https://hub.vroid.com/en/characters/6997111234814927135/models/6071722136745758338
-Angel Egna.vrm: https://hub.vroid.com/en/characters/8559605736438220397/models/6856185847602907189
-Nyx Advent: https://hub.vroid.com/en/characters/1604943105772755711/models/6150833061750504767
-modelT2-bodyglove.vrm: https://hub.vroid.com/en/characters/6768471073562252128/models/2803042328906244342
-2B.vrm: https://hub.vroid.com/en/characters/7668160067984824906/models/2242061262413958110
-Mikku.vrm: https://hub.vroid.com/en/characters/7032412562763742257/models/4025778039146486049
-Hoshika.vrm: https://hub.vroid.com/en/characters/3990471198787218878/models/3661778864028306547
+# VRM-Modelle & Lizenzen / VRM Models & Licenses
+
+Die folgenden VRM-Modelle werden aus lizenzrechtlichen Gründen nicht im Git-Repository versioniert (`.gitignore`), sondern können für den persönlichen Gebrauch direkt über ihre VRoid-Hub-Quellen bezogen werden.
+
+The following VRM models are not tracked in the git repository (`.gitignore`) due to licensing restrictions, but may be downloaded for personal use from their official VRoid Hub sources.
+
+---
+
+## Community-Modelle (VRoid Hub)
+
+1. **Yuri** (*Doki Doki Literature Club*)
+   - Datei: `Yuri (Doki Doki Literal Club).vrm`
+   - Ersteller / Creator: Lala
+   - VRoid Hub: https://hub.vroid.com/en/characters/4336227932743836004/models/1700604965229935902
+   - Lizenz / Bedingungen: Weitergabe erlaubt (`allowRedistribution: True`), Namensnennung erforderlich (`creditNotation: required`), Avatar-Nutzungsbeschränkung beachten.
+
+2. **Freemodel オーロラグラデJK**
+   - Datei: `Freemodel.vrm`
+   - Ersteller / Creator: pinehead (Copyright 2026MercuryMaid)
+   - VRoid Hub: https://hub.vroid.com/en/characters/6997111234814927135/models/6071722136745758338
+   - Lizenz / Bedingungen: Weitergabe und Bearbeitung erlaubt (`allowRedistribution: True`, `allowModificationRedistribution`), Namensnennung nicht erforderlich.
+
+3. **Angel Egna**
+   - Datei: `Angel Egna.vrm`
+   - Ersteller / Creator: KANA
+   - VRoid Hub: https://hub.vroid.com/en/characters/8559605736438220397/models/6856185847602907189
+   - Lizenz / Bedingungen: Weitergabe und Modifikation erlaubt (`redistribution: allow`, `modification: allow`), kommerzielle Nutzung erlaubt, Namensnennung nicht erforderlich.
+
+4. **Nyx Advent**
+   - Datei: `Nyx Advent.vrm`
+   - Ersteller / Creator: Astral_Overseas
+   - VRoid Hub: https://hub.vroid.com/en/characters/1604943105772755711/models/6150833061750504767
+   - Lizenz / Bedingungen: Weitergabe und Bearbeitung erlaubt (`allowRedistribution: True`), Namensnennung erforderlich (`creditNotation: required`).
+
+5. **modelT2-bodyglove**
+   - Datei: `modelT2-bodyglove.vrm`
+   - Ersteller / Creator: hecote464748
+   - VRoid Hub: https://hub.vroid.com/en/characters/6768471073562252128/models/2803042328906244342
+   - Lizenz / Bedingungen: Weiterverbreitung untersagt (`allowRedistribution: False`), Bearbeitung erlaubt (`allowModification`), Namensnennung erforderlich (`creditNotation: required`). Nur Direkt-Download über VRoid Hub.
+
+6. **2B** (*NieR:Automata*)
+   - Datei: `2B.vrm`
+   - Ersteller / Creator: RAMMSIOO (©RAMMSIOO 2024, https://twitter.com/rammsioo)
+   - VRoid Hub: https://hub.vroid.com/en/characters/7668160067984824906/models/2242061262413958110
+   - Lizenz / Bedingungen: Weiterverbreitung untersagt (`allowRedistribution: False`), Modifikation untersagt (`modification: prohibited`). Nur Direkt-Download über VRoid Hub.
+
+7. **Mikku**
+   - Datei: `Mikku.vrm`
+   - Ersteller / Creator: VRoid Hub Modell 4025778039146486049
+   - VRoid Hub: https://hub.vroid.com/en/characters/7032412562763742257/models/4025778039146486049
+   - Lizenz / Bedingungen: Weitergabe und Modifikation erlaubt (`redistribution: allow`, `modification: allow`), Namensnennung erforderlich (`credit: necessary`).
+
+8. **Hoshika**
+   - Datei: `Hoshika.vrm`
+   - Ersteller / Creator: VRoid Hub Modell 3661778864028306547
+   - VRoid Hub: https://hub.vroid.com/en/characters/3990471198787218878/models/3661778864028306547
+   - Lizenz / Bedingungen: Weiterverbreitung untersagt (`redistribution: disallow`), Modifikation untersagt (`modification: disallow`), nur nicht-kommerzielle Nutzung. Nur Direkt-Download über VRoid Hub.

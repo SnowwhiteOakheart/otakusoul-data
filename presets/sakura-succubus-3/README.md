@@ -98,5 +98,5 @@ show original characters described by archetype - a blonde idol with twintails, 
 cat girl in a maid uniform and so on - and use no artwork, sprite or reference image from the game.
 The game's own art stays where it is, inside its archives.
 
-License of the cards and pictures: same as the rest of this repository (GPL-3.0). *Sakura Succubus*
-is a trademark of its publisher; this is unofficial fan content and not affiliated with them.
+License of the cards and pictures: same as the rest of this repository (MIT License for original contributions, see [LICENSE](../../LICENSE)). *Sakura Succubus*
+is a trademark of its publisher (Winged Cloud); this is unofficial fan content and not affiliated with them.

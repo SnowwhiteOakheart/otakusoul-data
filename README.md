@@ -15,14 +15,14 @@ Separates Inhaltsrepository für [OtakuSoul](https://github.com/SnowwhiteOakhear
 | `stages_registry.json` / `stages_gateway/` | Szenenkatalog und JSON-Dateien |
 | `presets/` | Themenpakete mit JSON-/PNG-Karten, Expressions, Hintergründen und Dokumentation; teilweise eigenen Szenen und Lorebooks |
 | `presets/cards/` | Einzelkarten als JSON und PNG |
-| `avatars/` | Zusätzliche Avatare; VRM-Modelle und Herkunftshinweise unter `avatars/vrm/` |
+| `avatars/` | Zusätzliche Avatare; Herkunftshinweise und Download-Quellen unter `avatars/vrm/lizenzen.txt` |
 | `locales/` | Deutsche und russische App-Sprachdateien; Englisch wird in der App gepflegt |
 | `recommended_models.json` | Modellempfehlungen und Metadaten, keine Modelldateien |
 | `tools/` | Wiederverwendbare Wartungs- und Prüfwerkzeuge |
 
 ### Inhalte und Verwendung
 
-Die Pakete umfassen **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, weitere Anime-Einzelkarten und die Originalfiguren **Ren Takahashi / Aoi Mizuno** aus der Aobane Highschool. Der Arbeitsstand einschließlich der Emotionsbilder steht in [ROADMAP.md](ROADMAP.md).
+Die Pakete umfassen **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, weitere Anime-Einzel-Presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) sowie die Originalfiguren **Ren Takahashi / Aoi Mizuno** aus der Aobane Highschool. Der Arbeitsstand einschließlich der Emotionsbilder steht in [ROADMAP.md](ROADMAP.md).
 
 Die App lädt die drei Registries über ihre Hub-/Gateway-Ansichten. PNG-Charakterkarten lassen sich auch manuell importieren: Sie enthalten die Character-Card-V2-Definition als `chara`-Metadaten. Preset-Karten verwenden relative Bildpfade; Gateway-Karten öffentliche Repository-URLs. Für den manuellen Paketimport die Verzeichnisstruktur beibehalten. Hintergründe und VRM-Modelle bei Bedarf separat importieren; es gibt keinen eigenen Hintergrundkatalog.
 
@@ -43,6 +43,30 @@ Der zweite Befehl prüft einen vorhandenen Kampagnencharakter. Mit `--manifest` 
 
 [LICENSE](LICENSE) enthält die Nutzungsbedingungen und Hinweise zu KI-generierter Fanart, eigenen Beiträgen und fremden Rechten. Herkunft, Bildprompts und vorhandene Lizenzhinweise bleiben bei den Paketen erhalten, insbesondere [VRM-Hinweise](avatars/vrm/lizenzen.txt). Die Veröffentlichung stellt keine pauschale Lizenz für zugrunde liegende Anime-/Spielwerke oder fremde Modelle dar.
 
+### Rechtliche Hinweise & Marken
+
+Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt. Alle dargestellten Charaktere, Titel, Namen, Logos und Markenzeichen sind geistiges Eigentum ihrer jeweiligen Urheber und Verlage:
+- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
+- **Sakura Succubus:** © Winged Cloud
+- **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
+- **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
+- **Lycoris Recoil:** © Spider Lily / Asaura / Aniplex / A-1 Pictures
+- **Sword Art Online:** © Reki Kawahara / abec / ASCII Media Works / KADOKAWA / A-1 Pictures
+- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
+- **Sousou no Frieren:** © Kanehito Yamada, Tsukasa Abe / Shogakukan / Madhouse
+- **My Dress-Up Darling:** © Shinichi Fukuda / Square Enix / CloverWorks
+- **Don't Toy With Me, Miss Nagatoro:** © Nanashi / Kodansha / Telecom Animation Film
+- **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
+- **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
+- **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
+- **Re:Zero - Starting Life in Another World:** © Tappei Nagatsuki / KADOKAWA / White Fox
+- **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
+- **Oshi no Ko:** © Aka Akasaka, Mengo Yokoyari / Shueisha / Doga Kobo
+- **Vivy: Fluorite Eye's Song:** © Tappei Nagatsuki, Eiji Umehara / Wit Studio
+- **GATE:** © Takumi Yanai / AlphaPolis / A-1 Pictures
+
+---
+
 ## English
 
 Separate content repository for [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): character cards, expression images, Soul Stage scenes, lorebooks, backgrounds, VRM avatars, language files and model recommendations. Repository changes do not import content into a local app installation.
@@ -56,14 +80,14 @@ Separate content repository for [OtakuSoul](https://github.com/SnowwhiteOakheart
 | `stages_registry.json` / `stages_gateway/` | Scene catalog and JSON files |
 | `presets/` | Themed packages with JSON/PNG cards, expressions, backgrounds and documentation; some include their own scenes and lorebooks |
 | `presets/cards/` | Individual JSON and PNG cards |
-| `avatars/` | Additional avatars; VRM models and attribution in `avatars/vrm/` |
+| `avatars/` | Additional avatars; attribution and download sources in `avatars/vrm/lizenzen.txt` |
 | `locales/` | German and Russian app language files; English is maintained in the app |
 | `recommended_models.json` | Model recommendations and metadata, without model binaries |
 | `tools/` | Reusable maintenance and validation tools |
 
 ### Content and usage
 
-Packages include **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, additional anime cards and original **Ren Takahashi / Aoi Mizuno** characters from Aobane Highschool. [ROADMAP.md](ROADMAP.md) tracks progress, including expression images.
+Packages include **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, additional anime character presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) and original **Ren Takahashi / Aoi Mizuno** characters from Aobane Highschool. [ROADMAP.md](ROADMAP.md) tracks progress, including expression images.
 
 The app reads the three registries through its Hub/Gateway views. PNG character cards also support manual import: they embed the Character Card V2 definition in `chara` metadata. Preset cards use relative image paths; Gateway cards use public repository URLs. Preserve the folder structure when importing a package manually. Import backgrounds and VRM models separately as needed; there is no dedicated background catalog.
 
@@ -84,6 +108,30 @@ The second command validates an existing campaign character. With `--manifest`, 
 
 [LICENSE](LICENSE) contains usage terms and notices about AI-generated fan art, original contributions and third-party rights. Attribution, image prompts and existing license notices remain with the packages, especially [VRM notices](avatars/vrm/lizenzen.txt). Publication does not grant a blanket license to underlying anime/game works or third-party models.
 
+### Legal Notices & Trademarks
+
+This repository is an independent, non-commercial fan project. All depicted characters, titles, names, logos and trademarks are the intellectual property of their respective creators and publishers:
+- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
+- **Sakura Succubus:** © Winged Cloud
+- **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
+- **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
+- **Lycoris Recoil:** © Spider Lily / Asaura / Aniplex / A-1 Pictures
+- **Sword Art Online:** © Reki Kawahara / abec / ASCII Media Works / KADOKAWA / A-1 Pictures
+- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
+- **Sousou no Frieren:** © Kanehito Yamada, Tsukasa Abe / Shogakukan / Madhouse
+- **My Dress-Up Darling:** © Shinichi Fukuda / Square Enix / CloverWorks
+- **Don't Toy With Me, Miss Nagatoro:** © Nanashi / Kodansha / Telecom Animation Film
+- **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
+- **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
+- **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
+- **Re:Zero - Starting Life in Another World:** © Tappei Nagatsuki / KADOKAWA / White Fox
+- **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
+- **Oshi no Ko:** © Aka Akasaka, Mengo Yokoyari / Shueisha / Doga Kobo
+- **Vivy: Fluorite Eye's Song:** © Tappei Nagatsuki, Eiji Umehara / Wit Studio
+- **GATE:** © Takumi Yanai / AlphaPolis / A-1 Pictures
+
+---
+
 ## Русский
 
 Отдельный репозиторий контента для [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): карточки персонажей, изображения эмоций, сцены Soul Stage, лорбуки, фоны, VRM-аватары, языковые файлы и рекомендации моделей. Изменения в репозитории не импортируют контент в локальную установку приложения.
@@ -97,14 +145,14 @@ The second command validates an existing campaign character. With `--manifest`, 
 | `stages_registry.json` / `stages_gateway/` | Каталог сцен и JSON-файлы |
 | `presets/` | Тематические наборы: JSON-/PNG-карточки, эмоции, фоны и документация; некоторые содержат собственные сцены и лорбуки |
 | `presets/cards/` | Отдельные карточки в JSON и PNG |
-| `avatars/` | Дополнительные аватары; VRM-модели и сведения об источниках в `avatars/vrm/` |
+| `avatars/` | Дополнительные аватары; сведения об источниках и ссылки в `avatars/vrm/lizenzen.txt` |
 | `locales/` | Немецкие и русские языковые файлы приложения; английский поддерживается в приложении |
 | `recommended_models.json` | Рекомендации и метаданные моделей без файлов самих моделей |
 | `tools/` | Повторно используемые инструменты обслуживания и проверки |
 
 ### Контент и использование
 
-Доступны наборы **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, дополнительные аниме-карточки и оригинальные персонажи **Ren Takahashi / Aoi Mizuno** из старшей школы Aobane. Ход работы, включая изображения эмоций, отражён в [ROADMAP.md](ROADMAP.md).
+Доступны наборы **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, дополнительные пресеты персонажей (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) и оригинальные персонажи **Ren Takahashi / Aoi Mizuno** из старшей школы Aobane. Ход работы, включая изображения эмоций, отражён в [ROADMAP.md](ROADMAP.md).
 
 Приложение читает три реестра в разделах Hub/Gateway. PNG-карточки также можно импортировать вручную: определение Character Card V2 встроено в метаданные `chara`. Карточки наборов используют относительные пути к изображениям, а карточки Gateway — публичные URL репозитория. При ручном импорте набора сохраняйте структуру каталогов. Фоны и VRM-модели при необходимости импортируются отдельно; отдельного каталога фонов нет.
 
@@ -112,7 +160,7 @@ The second command validates an existing campaign character. With `--manifest`, 
 
 ### Обслуживание и источники
 
-[AI.md](AI.md) описывает форматы файлов, переводы, требования к изображениям, реестры и публикацию. [AGENTS.md](AGENTS.md) и [CLAUDE.md](CLAUDE.md) ссылаются на него. Единственная поддерживаемая дорожная карта — [ROADMAP.md](ROADMAP.md).
+[AI.md](AI.md) beschreibt Dateiformate, Übersetzungen, Bildvorgaben, Registries und den Veröffentlichungsablauf. [AGENTS.md](AGENTS.md) и [CLAUDE.md](CLAUDE.md) ссылаются на него. Единственная поддерживаемая дорожная карта — [ROADMAP.md](ROADMAP.md).
 
 Python-инструменты предназначены для необязательного обслуживания репозитория и не являются зависимостью приложения. Установка: `python3 -m pip install -r tools/requirements.txt` в отдельном виртуальном окружении. Проверки без изменения файлов:
 
@@ -124,3 +172,25 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 Вторая команда проверяет существующего персонажа кампании. С параметром `--manifest` инструмент упаковывает новые изображения эмоций и обновляет дорожную карту; подробности — в [AI.md](AI.md).
 
 [LICENSE](LICENSE) содержит условия использования и сведения о фан-арте ИИ, собственных материалах и правах третьих лиц. Источники, промпты изображений и имеющиеся лицензионные сведения сохраняются в наборах, особенно [сведения о VRM](avatars/vrm/lizenzen.txt). Публикация не предоставляет общую лицензию на исходные аниме, игры или сторонние модели.
+
+### Правовые уведомления и товарные знаки
+
+Этот репозиторий является независимым некоммерческим фан-проектом. Все представленные персонажи, названия, логотипы и товарные знаки являются интеллектуальной собственностью их авторов и издателей:
+- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
+- **Sakura Succubus:** © Winged Cloud
+- **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
+- **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
+- **Lycoris Recoil:** © Spider Lily / Asaura / Aniplex / A-1 Pictures
+- **Sword Art Online:** © Reki Kawahara / abec / ASCII Media Works / KADOKAWA / A-1 Pictures
+- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
+- **Sousou no Frieren:** © Kanehito Yamada, Tsukasa Abe / Shogakukan / Madhouse
+- **My Dress-Up Darling:** © Shinichi Fukuda / Square Enix / CloverWorks
+- **Don't Toy With Me, Miss Nagatoro:** © Nanashi / Kodansha / Telecom Animation Film
+- **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
+- **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
+- **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
+- **Re:Zero - Starting Life in Another World:** © Tappei Nagatsuki / KADOKAWA / White Fox
+- **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
+- **Oshi no Ko:** © Aka Akasaka, Mengo Yokoyari / Shueisha / Doga Kobo
+- **Vivy: Fluorite Eye's Song:** © Tappei Nagatsuki, Eiji Umehara / Wit Studio
+- **GATE:** © Takumi Yanai / AlphaPolis / A-1 Pictures
