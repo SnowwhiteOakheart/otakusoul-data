@@ -3,7 +3,7 @@
   "description": "Ein unterirdischer See blockiert den Weg. Die Gruppe muss Kelpie-Fleisch erbeuten und Wassergeister abkochen.",
   "world_context": "Ebene 3 ist von tückischen Wasserläufen durchzogen.",
   "starting_location": "Ebene 3: Unterirdischer Sumpfsee",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Nebel wallt über dunklem, spiegelglattem Wasser. Plötzlich tauchen glühende Augen an der Oberfläche auf: Ein Raubfisch-Kelpie kreist um eure provisorische Fähre.",
   "party": [
     "Laios Touden",
@@ -28,7 +28,9 @@
           "world_context": "The 3rd Floor is crisscrossed by treacherous waterways and marshland caverns.",
           "opening_narration": "Thick mist drifts across the ink-dark, mirror-still water. Without warning, glowing eyes surface from the depths: a carnivorous kelpie begins circling your makeshift ferry.",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Atmospheric and suspenseful dungeon exploration."
+          "narrator_style": "Atmospheric and suspenseful dungeon exploration.",
+          "starting_location": "Level 3: Underground swamp lake",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 4: Духи воды и келпи",
@@ -36,8 +38,73 @@
           "world_context": "Третий ярус изрезан коварными протоками и подземными топями.",
           "opening_narration": "Над черной, гладкой как зеркало водой клубится промозглый туман. Внезапно из глубин всплывают светящиеся хищные глаза: водяной келпи начинает нарезать круги вокруг вашего хлипкого плота.",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Атмосферный, таинственный и полный напряжения."
+          "narrator_style": "Атмосферный, таинственный и полный напряжения.",
+          "starting_location": "Уровень 3: подземное болотное озеро",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "action",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Halt die Fähre mit aller Kraft im Gleichgewicht",
+            "badge": "Athletik",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Marcille nach einem Zauber gegen Wassergeister",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Beobachte, wohin die glühenden Augen schwimmen",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Keep the ferry balanced with all your strength",
+            "badge": "Athletics",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Marcille for a spell against water spirits",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Watch where the glowing eyes are swimming",
+            "badge": "Perception",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Изо всех сил удерживать паром в равновесии",
+            "badge": "Атлетика",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Марсиль о заклинании против водяных духов",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Следить, куда плывут светящиеся глаза",
+            "badge": "Восприятие",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

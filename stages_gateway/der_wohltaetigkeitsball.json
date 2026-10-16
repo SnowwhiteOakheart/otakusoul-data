@@ -3,7 +3,7 @@
   "description": "Auf dem Empfang verkauft jemand Fotos, die es nicht geben dürfte. {{user}} ist offiziell als Fotograf da.",
   "world_context": "Tokio in der Gegenwart. Sukkuben leben unerkannt unter den Menschen und nähren sich von Zuneigung und Aufmerksamkeit, weshalb sie Berufe wählen, die ihnen beides verschaffen. {{user}} ist Fotograf bei der Boulevardzeitung Sakura Daily und besitzt einen Duft, dem keine Sukkubus widerstehen kann. Sechs von ihnen leben mit ihm in einer zu kleinen Wohnung: das Idol Ayu, die Konzernchefin Marina, das Katzenmädchen Cosmos, die Tennisspielerin Hazel, die stille Hifumi und Yue, die für ihn ihre Krone als Königin des Sukkuben-Reichs abgelegt hat. Alle sechs lieben ihn, alle sechs müssen ihn teilen, und keine hat sich damit abgefunden. Heute Abend steht mehr auf dem Spiel als die Titelseite: In der Redaktion kursieren Bilder, auf denen ein Idol und ein unscheinbarer Fotograf zu nah beieinanderstehen. Marina hat {{user}} auf die Gästeliste gesetzt, um herauszufinden, wer sie anbietet. Ayu ist unter falschem Namen da und sollte eigentlich gar nicht hier sein.",
   "starting_location": "Ballsaal eines Hotels in Minato, Empore über dem Saal",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Von der Empore aus sieht der Saal aus wie ein Uhrwerk: Kellner auf festen Bahnen, Gespräche, die sich bilden und wieder auflösen, Kronleuchterlicht auf zu vielen Zähnen. Deine Kamera hängt schwer am Riemen - heute ist sie Vorwand und Werkzeug zugleich. Unten geht Marina durch die Menge, als gehöre ihr der Boden, und tatsächlich gehört er einem ihrer Fonds. Irgendwo in diesem Saal steht jemand, der Bilder von dir und Ayu an die Zeitungen verkauft. Und zwei Meter hinter dir hat gerade jemand die Tür zum Treppenhaus geöffnet.",
   "first_message": "",
   "party": [
@@ -36,7 +36,9 @@
           "world_context": "Present-day Tokyo. Succubi live unrecognized among humans, feeding on affection and attention, which is why they choose professions that provide both. {{user}} is a photographer for the tabloid Sakura Daily and possesses a scent no succubus can resist. Six of them live with him in an apartment that is too small: the idol Ayu, the CEO Marina, the catgirl Cosmos, the tennis player Hazel, the quiet Hifumi, and Yue, who gave up her crown as Queen of the Succubus Realm for him. All six love him, all six have to share him, and none have accepted this. Tonight, more is at stake than the front page: pictures are circulating in the editorial office showing an idol and an inconspicuous photographer standing too close together. Marina put {{user}} on the guest list to find out who is offering them. Ayu is there under a false name and shouldn't really be here at all.",
           "opening_narration": "From the gallery, the hall looks like clockwork: waiters on fixed paths, conversations that form and dissolve again, chandelier light on too many teeth. Your camera hangs heavy on its strap - today it is both a pretext and a tool. Below, Marina walks through the crowd as if she owns the floor, and in fact, it does belong to one of her funds. Somewhere in this hall stands someone selling pictures of you and Ayu to the newspapers. And two meters behind you, someone has just opened the door to the stairwell.",
           "gm_tone": "Mystery & Noir",
-          "narrator_style": "Cool, observant noir prose in the present tense. Short sentences, details instead of explanations: glasses, glances, paths through the room. The threat remains social, never violent."
+          "narrator_style": "Cool, observant noir prose in the present tense. Short sentences, details instead of explanations: glasses, glances, paths through the room. The threat remains social, never violent.",
+          "starting_location": "Ballroom of a hotel in Minato, gallery above the hall",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Благотворительный бал",
@@ -44,8 +46,72 @@
           "world_context": "Токио в наши дни. Суккубы живут неузнанными среди людей, питаясь привязанностью и вниманием, поэтому они выбирают профессии, которые обеспечивают и то, и другое. {{user}} - фотограф в бульварной газете Sakura Daily и обладает ароматом, перед которым не может устоять ни один суккуб. Шестеро из них живут с ним в слишком маленькой квартире: идол Аю, генеральный директор Марина, девочка-кошка Космос, теннисистка Хейзел, тихая Хифуми и Юэ, которая отказалась ради него от короны Королевы Царства Суккубов. Все шестеро любят его, все шестеро должны делить его, и ни одна с этим не смирилась. Сегодня вечером на кону стоит нечто большее, чем первая полоса: в редакции ходят фотографии, на которых идол и неприметный фотограф стоят слишком близко друг к другу. Марина внесла {{user}} в список гостей, чтобы выяснить, кто их предлагает. Аю находится здесь под вымышленным именем и вообще не должна была здесь быть.",
           "opening_narration": "С галереи зал выглядит как часовой механизм: официанты на фиксированных маршрутах, разговоры, которые образуются и снова распадаются, свет люстры на слишком большом количестве зубов. Твоя камера тяжело висит на ремне - сегодня это и предлог, и инструмент. Внизу Марина идет сквозь толпу так, будто ей принадлежит пол, и на самом деле он принадлежит одному из ее фондов. Где-то в этом зале стоит кто-то, кто продает фотографии тебя и Аю газетам. И в двух метрах позади тебя кто-то только что открыл дверь на лестничную клетку.",
           "gm_tone": "Мистика и нуар",
-          "narrator_style": "Прохладная, наблюдательная нуар-проза в настоящем времени. Короткие предложения, детали вместо объяснений: бокалы, взгляды, пути по комнате. Угроза остается социальной, никогда не переходя в насилие."
+          "narrator_style": "Прохладная, наблюдательная нуар-проза в настоящем времени. Короткие предложения, детали вместо объяснений: бокалы, взгляды, пути по комнате. Угроза остается социальной, никогда не переходя в насилие.",
+          "starting_location": "Бальный зал отеля в Минато, галерея над залом",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "mystery",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "suspense"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Such mit der Kamera nach dem Menschen, der dich fotografiert",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Schreib Marina eine kurze Nachricht",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Geh unauffällig die Treppe hinunter in den Saal",
+            "badge": "Heimlichkeit",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Use your camera to find the person photographing you",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Send Marina a short message",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Slip down the stairs into the hall unnoticed",
+            "badge": "Stealth",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Найти камерой того, кто тебя фотографирует",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Отправить Марине короткое сообщение",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Незаметно спуститься по лестнице в зал",
+            "badge": "Скрытность",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

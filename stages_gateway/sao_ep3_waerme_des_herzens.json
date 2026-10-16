@@ -3,7 +3,7 @@
   "description": "Expedition zum eisigen Drachenberg auf Ebene 55 mit Schmiedin Lisbeth.",
   "world_context": "Ebene 55: Schneesturm und der Hort des Eisdrachen X'rphan.",
   "starting_location": "Eisgipfel von Ebene 55",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Eisiger Wind schneidet ins Gesicht. Am Grund der tiefen Gletscherspalte schläft der gigantische Frostdrache. Kirito und Lisbeth kauern im Schutz der Felswand: 'Wir brauchen diesen Barren... egal was passiert!'",
   "party": [
     "Kirito (Kazuto Kirigaya)",
@@ -26,7 +26,9 @@
           "world_context": "The 55th Floor: howling blizzards and the cavern lair of the frost dragon X'rphan.",
           "opening_narration": "Biting gales slash across your faces. Far below at the bottom of the icy pit sleeps the crystalline frost dragon. Kirito and Lisbeth huddle close against the freezing stone overhang: 'We need that rare ingot... no matter what it takes!'",
           "gm_tone": "Romance",
-          "narrator_style": "Warmhearted, adventurous, with tender romantic undertones amid the freezing cold."
+          "narrator_style": "Warmhearted, adventurous, with tender romantic undertones amid the freezing cold.",
+          "starting_location": "Ice peak of floor 55",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 3: Тепло сердца",
@@ -34,8 +36,73 @@
           "world_context": "55-й этаж: бушующая метель и логово морозного дракона Ксирфана.",
           "opening_narration": "Ледяной ветер яростно хлещет в лицо. На дне глубокого ледяного разлома дремлет кристальный морозный дракон. Кирито и Лизбет укрываются за каменным выступом, прижимаясь друг к другу: «Нам нужен этот редкий слиток... чего бы это ни стоило!»",
           "gm_tone": "Романтика",
-          "narrator_style": "Теплый, приключенческий, с искренней романтической ноткой среди вечной мерзлоты."
+          "narrator_style": "Теплый, приключенческий, с искренней романтической ноткой среди вечной мерзлоты.",
+          "starting_location": "Ледяная вершина 55-го этажа",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "romance",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Frag Lisbeth, wozu sie den Barren braucht",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Schleich dich am schlafenden Frostdrachen vorbei",
+            "badge": "Heimlichkeit",
+            "action_type": "do"
+          },
+          {
+            "text": "Teil deinen Mantel mit Lisbeth gegen die Kälte",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Lisbeth why she needs the ingot",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Sneak past the sleeping frost dragon",
+            "badge": "Stealth",
+            "action_type": "do"
+          },
+          {
+            "text": "Share your cloak with Lisbeth against the cold",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Лизбет, зачем ей слиток",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Прокрасться мимо спящего ледяного дракона",
+            "badge": "Скрытность",
+            "action_type": "do"
+          },
+          {
+            "text": "Поделиться плащом с Лизбет, чтобы согреться",
+            "badge": null,
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

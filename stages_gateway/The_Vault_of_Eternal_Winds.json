@@ -3,7 +3,7 @@
   "description": "An epic sky-ship expedition to a ruined temple floating inside a perpetual electrical superstorm. Breach the ancient defenses and retrieve the Core of Winds.",
   "world_context": "A high-fantasy steampunk setting of floating islands and flying gale-vessels. You and your crew on 'The Zephyr' have finally located the mythical Vault of Eternal Winds, a massive ancient sanctuary floating inside a permanent, violent thunderstorm. Ancient stone sentinels guard the ruins, and a rival faction of sky-pirates is closing in on your position. The party must land on the slippery stone docks, bypass the mechanical traps, and retrieve the Wind Core before the storm destroys the ship.",
   "starting_location": "Floating Docks of the Sky Temple",
-  "time_of_day": "afternoon",
+  "time_of_day": "Afternoon",
   "opening_narration": "The Zephyr groans under the relentless battering of the gale. Rain washes across the wooden deck in violent sheets, and lightning flashes, casting sharp, brief shadows over the colossal, crumbling stone arches of the floating Sky Temple ahead. 'We've docked!' the helmsman shouts over the roaring thunder. Before you lies the ancient pathway, guarded by silent stone statues, their eyes slowly pulsing with a faint, warning blue light. We have little time before the storm tears our ship from her anchors.",
   "first_message": "",
   "gm_tone": "epic_steampunk_adventure",
@@ -21,7 +21,9 @@
           "world_context": "Ein Steampunk-High-Fantasy-Setting aus schwebenden Inseln und windgetriebenen Himmelsfregatten. Mit deiner Mannschaft an Bord der 'Zephyr' hast du endlich die mythische Gruft der Ewigen Winde entdeckt – ein gewaltiges Heiligtum inmitten eines endlosen elektrischen Supersturms. Uralte Steinwächter patrouillieren die Ruinen, während rivalisierende Luftpiraten eure Position einkreisen. Ihr müsst an den rutschigen Steindocks anlegen, mechanische Fallen umgehen und den Windkern sichern, bevor der Sturm euer Schiff zerreißt.",
           "opening_narration": "Die 'Zephyr' ächzt unter den unbarmherzigen Hieben des Sturms. Regen peitscht in dichten Schwallen über das Holzdeck, während Blitze zucken und scharfe Schatten über die gewaltigen, zerfallenen Steinbögen des schwebenden Tempels werfen. „Wir haben festgemacht!“, brüllt der Steuermann gegen das Tosen des Donners an. Vor euch liegt der uralte Pfad, bewacht von regungslosen Steinstatuen, deren Augen in warnendem, blauem Licht pulsieren. Es bleibt kaum Zeit, ehe der Sturm das Schiff aus den Verankerungen reißt.",
           "gm_tone": "Episches Steampunk-Abenteuer",
-          "narrator_style": "Rasant, hochgradig atmosphärisch und im Präsens erzählt. Lebendige Beschreibungen von Sturmkräften, ratternden Zahnrädern, grollendem Donner, elektrischer Hochspannung und waghalsigen Manövern."
+          "narrator_style": "Rasant, hochgradig atmosphärisch und im Präsens erzählt. Lebendige Beschreibungen von Sturmkräften, ratternden Zahnrädern, grollendem Donner, elektrischer Hochspannung und waghalsigen Manövern.",
+          "starting_location": "Schwebende Docks des Himmelstempels",
+          "time_of_day": "Nachmittag"
         },
         "ru": {
           "title": "Хранилище Вечных Ветров",
@@ -29,8 +31,73 @@
           "world_context": "Стимпанк-фэнтези с парящими островами и небесными фрегатами. Экипаж вашего корабля «Зефир» наконец обнаружил легендарное Хранилище Вечных Ветров — древний монолит, дрейфующий в сердце непрекращающейся грозы. Руины охраняют каменные стражи, а к вашей позиции уже стягиваются воздушные пираты. Вам предстоит высадиться на скользкие каменные причалы, обойти шестерёночные ловушки и забрать Ядро Ветров, пока буря не разнесла корабль в щепки.",
           "opening_narration": "«Зефир» со стоном кренится под яростными ударами урагана. Ливень сплошной стеной хлещет по палубе, а всполохи молний выхватывают из мрака исполинские полуразрушенные арки парящего храма. «Мы пришвартовались!» — перекрывая раскаты грома, кричит рулевой. Впереди открывается древний каменный трап, охраняемый безмолвными изваяниями, чьи глазницы мерцают тревожным синим светом. Времени в обрез: буря вот-вот сорвет корабль со швартовов.",
           "gm_tone": "Эпическое стимпанк-приключение",
-          "narrator_style": "Стремительный, насыщенный атмосферой и звуками слог. Сочные описания завываний ветра, лязга шестерней, громовых раскатов, электрического напряжения и рискованных действий."
+          "narrator_style": "Стремительный, насыщенный атмосферой и звуками слог. Сочные описания завываний ветра, лязга шестерней, громовых раскатов, электрического напряжения и рискованных действий.",
+          "starting_location": "Парящие доки Небесного храма",
+          "time_of_day": "После полудня"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "adventure",
+      "minutes": 60,
+      "difficulty": "medium",
+      "notes": [
+        "action",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Untersuch die Statuen mit den pulsierenden Augen",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Kämpf dich gegen den Sturm über den Pfad",
+            "badge": "Athletik",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag den Steuermann, wie lange das Schiff durchhält",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Examine the statues with the pulsing eyes",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Fight your way along the path against the storm",
+            "badge": "Athletics",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask the helmsman how long the ship will hold",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осмотреть статуи с пульсирующими глазами",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Пробиться по тропе сквозь бурю",
+            "badge": "Атлетика",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить рулевого, сколько продержится корабль",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

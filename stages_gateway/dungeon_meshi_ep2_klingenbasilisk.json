@@ -3,7 +3,7 @@
   "description": "Auf Ebene 2 jagt ein tödlicher Basilisk unvorsichtige Abenteurer. Senshi weiß, wie man Hühnchenbraten daraus macht.",
   "world_context": "Ebene 2 birgt gefährliche Fallen und agile Raubmonster.",
   "starting_location": "Ebene 2: Unterirdischer Wald der Basilisken",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Ein schrilles Krähen zerreißt die Höhlenstille! Mit peitschendem Schlangenschwanz und gezacktem Schnabel stürzt ein Basilisk aus dem Geäst herab. Chilchuck duckt sich blitzschnell weg, während Senshi bereits die Gewürzmischung bereitstellt.",
   "party": [
     "Laios Touden",
@@ -28,7 +28,9 @@
           "world_context": "The 2nd Floor is rife with lethal pitfalls and agile, predatory beasts.",
           "opening_narration": "A piercing crow shatters the subterranean stillness! With its lashing serpentine tail and serrated beak, a basilisk lunges straight from the overgrown boughs. Chilchuck ducks clear in an instant, while Senshi is already unbuckling his spice pouches.",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "High-stakes dungeon adventure laced with culinary humor and tactical wit."
+          "narrator_style": "High-stakes dungeon adventure laced with culinary humor and tactical wit.",
+          "starting_location": "Level 2: Underground forest of the basilisks",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 2: Василиск с клинковым хвостом",
@@ -36,8 +38,72 @@
           "world_context": "Второй ярус изобилует коварными ловушками и стремительными хищниками.",
           "opening_narration": "Пронзительный птичий клёкот прорезает тишину подземелья! Хлеща змеиным хвостом и щелкая зазубренным клювом, василиск пикирует прямо из ветвей. Чилчак молниеносно пригибается, а Сенши тем временем уже достает набор приправ.",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Напряженный и одновременно комичный, с упором на охотничью сноровку и поварские секреты."
+          "narrator_style": "Напряженный и одновременно комичный, с упором на охотничью сноровку и поварские секреты.",
+          "starting_location": "Уровень 2: подземный лес василисков",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "action"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Weiche dem Schnabel aus und lenk den Basilisken ab",
+            "badge": "Geschick",
+            "action_type": "do"
+          },
+          {
+            "text": "Ruf Chilchuck zu, er soll nach einer Falle suchen",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Achte auf den Schlangenschwanz – er greift getrennt an",
+            "badge": "Taktik",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Dodge the beak and distract the basilisk",
+            "badge": "Dexterity",
+            "action_type": "do"
+          },
+          {
+            "text": "Call to Chilchuck to look for a trap",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Watch the snake tail – it attacks on its own",
+            "badge": "Tactics",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Увернуться от клюва и отвлечь василиска",
+            "badge": "Ловкость",
+            "action_type": "do"
+          },
+          {
+            "text": "Крикнуть Чилчаку, чтобы он поискал ловушку",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Следить за змеиным хвостом – он атакует отдельно",
+            "badge": "Тактика",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

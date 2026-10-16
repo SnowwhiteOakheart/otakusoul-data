@@ -3,7 +3,7 @@
   "description": "Personenschutz-Einsatz durch die belebten Straßen von Shinjuku mit plötzlichem Hinterhalt.",
   "world_context": "Eine Zielperson wird von Kriminellen verfolgt. Chisato und Takina greifen ein.",
   "starting_location": "Shinjuku Fußgängerzone",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Neonreklamen spiegeln sich auf nassem Asphalt. Ein schwarzer Van hält mit quietschenden Reifen an! Bewaffnete Männer stürmen heraus. Chisato zieht blitzschnell ihre Waffe: 'Takina, nicht-tödliche Munition! Niemand stirbt heute!'",
   "party": [
     "Chisato Nishikigi",
@@ -26,7 +26,9 @@
           "world_context": "A high-profile client is stalked by syndicate operatives. Chisato and Takina move in to extract.",
           "opening_narration": "Dazzling neon lights shimmer on the rain-slicked asphalt. A black van screeches to a violent halt beside the curb! Heavily armed gunmen pour out. Chisato draws her sidearm in a fluid flash: 'Takina, non-lethal rounds only! Nobody dies on our watch today!'",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Fast-paced gun-fu choreography, dynamic teamwork, and crisp tactical flow."
+          "narrator_style": "Fast-paced gun-fu choreography, dynamic teamwork, and crisp tactical flow.",
+          "starting_location": "Shinjuku pedestrian zone",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 2: Эскорт через Токио",
@@ -34,8 +36,72 @@
           "world_context": "Синдикат преследует цель. Тисато и Такина вступают в бой для безопасной эвакуации.",
           "opening_narration": "Неоновые вывески отражаются на мокром от дождя асфальте. С визгом покрышек тормозит черный фургон! Из распахнутых дверей выскакивают вооруженные люди. Тисато молниеносно вскидывает пистолет: «Такина, только нелетальные патроны! Сегодня у нас никто не умирает!»",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Стремительный экшен, отточенная ган-ката хореография и выверенная командная тактика."
+          "narrator_style": "Стремительный экшен, отточенная ган-ката хореография и выверенная командная тактика.",
+          "starting_location": "Пешеходная зона Синдзюку",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "adventure",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "action"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Bring den Klienten hinter einem Pfeiler in Sicherheit",
+            "badge": "Geschick",
+            "action_type": "do"
+          },
+          {
+            "text": "Ruf Takina zu, sie soll den Fahrer stoppen",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Zähl schnell die Angreifer",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Get the client to safety behind a pillar",
+            "badge": "Dexterity",
+            "action_type": "do"
+          },
+          {
+            "text": "Call to Takina to stop the driver",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Quickly count the attackers",
+            "badge": "Perception",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Увести клиента в укрытие за колонной",
+            "badge": "Ловкость",
+            "action_type": "do"
+          },
+          {
+            "text": "Крикнуть Такине, чтобы она остановила водителя",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Быстро сосчитать нападающих",
+            "badge": "Восприятие",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

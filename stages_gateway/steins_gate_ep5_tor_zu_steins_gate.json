@@ -3,7 +3,7 @@
   "description": "Die finale Mission: Täusche die Vergangenheit, rette Kurisu und erreiche die Divergenz 1.048596%.",
   "world_context": "Die Steins-Gate-Weltlinie ist die einzige Zukunft ohne Weltkrieg und Tod.",
   "starting_location": "Radiogebäude Dach – Der Schicksalstag",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Der Kreis schließt sich. Hououin Kyouma steht wieder auf dem Dach. Diesmal mit dem Wissen aus tausend Schleifen: 'Täusche dich selbst. Täusche die Welt. Greife nach Steins Gate!'",
   "party": [
     "Okabe Rintarou",
@@ -27,7 +27,9 @@
           "world_context": "The Steins Gate worldline represents the solitary reality free from World War III and dystopia.",
           "opening_narration": "The circle closes at last. Hououin Kyouma stands atop the Radio Kaikan roof once more. Armed with the agony and resolve of countless loops: 'Deceive your past self. Deceive the world. Seize the gate of Steins Gate!'",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Heroic, climactic, and triumphantly cathartic."
+          "narrator_style": "Heroic, climactic, and triumphantly cathartic.",
+          "starting_location": "Radio building roof – the day of fate",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 5: Врата Штейна",
@@ -35,8 +37,72 @@
           "world_context": "Мировая линия Врат Штейна — единственная реальность, свободная от Третьей мировой войны и дистопии.",
           "opening_narration": "Круг наконец замкнулся. Хооин Кёма вновь стоит на крыше Радио Кайкан. Теперь за его плечами опыт и боль тысячи пройденных петель: «Обмани себя. Обмани этот мир. Открой Врата Штейна!»",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Героический, кульминационный и катарсический."
+          "narrator_style": "Героический, кульминационный и катарсический.",
+          "starting_location": "Крыша радиоздания – день судьбы",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "suspense"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Frag Okabe nach seinem Plan",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Hilf Suzuha, die Zeitmaschine vorzubereiten",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Präg dir genau ein, wer wann auf dem Dach ist",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Okabe about his plan",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Help Suzuha prepare the time machine",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Memorise exactly who is on the roof and when",
+            "badge": "Perception",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Окабэ о его плане",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Помочь Судзухе подготовить машину времени",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Точно запомнить, кто и когда находится на крыше",
+            "badge": "Восприятие",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

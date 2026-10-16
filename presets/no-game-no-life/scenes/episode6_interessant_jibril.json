@@ -3,7 +3,7 @@
   "description": "DAS zentrale Kapitel der Kampagne: Sora, Shiro und Haru fordern Jibril, eine über 6000 Jahre alte Flügel-Kriegerin und Hüterin allen Wissens, zu einem Spiel um ihre gesamte Bibliothek heraus - \"Materialisations-Shiritori\", bei dem jedes gültige Wort real wird. Ein einziger falscher Zug könnte das Ende von Blank bedeuten.",
   "world_context": "Jibril lebt seit Jahrhunderten zurückgezogen in Elkias Großer Nationalbibliothek und gilt als eine der gefährlichsten lebenden Flügel - Rang 6 von 16 der Rassen, kampferprobt im Großen Krieg, mit einem beinahe unstillbaren Hunger nach Wissen. Sora, Shiro und Haru fordern sie zu Materialisations-Shiritori heraus: einer Variante des japanischen Wortkettenspiels, bei der jedes gültige Wort sich physisch materialisiert - oder sich auflöst, falls es bereits existierte. Einsatz: Jibrils gesamte Bibliothek und ihr Dienst gegen das gesammelte Erdwissen auf Soras Tablet. Jibril tritt der Herausforderung mit höflicher, kaum verhohlener Überlegenheit entgegen - sie hat in 6000 Jahren noch nie gegen Wissen verloren.",
   "starting_location": "Die Große Nationalbibliothek von Elkia, tief in Jibrils privatem Lesesaal",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Kerzenlicht tanzt über Regale, die sich bis in eine Decke verlieren, die man von hier unten kaum noch erahnen kann. Zwischen ihnen wartet Jibril, zwei schneeweiße Flügel ruhig gefaltet, ihre violett-goldenen Augen bereits zu einem konzentrierten Kreuz verengt. \"Ich habe von euch gehört\", sagt sie mit einer Stimme, die höflich klingt und dennoch keinen Zweifel daran lässt, wer hier die Macht in Händen hält. \"Die Menschen, die einen Thron gewannen, ohne einen Tropfen Magie zu besitzen. Reizend.\" *ein Buch schwebt lautlos aus einem Regal zu ihrer Hand* \"Aber Wissen, meine lieben Gäste, ist etwas anderes als Politik. Ich habe in sechstausend Jahren jedes Buch dieser Welt gelesen. Seid ihr sicher, dass ihr dieses Spiel wirklich wagen wollt?\" *Sora tritt einen Schritt vor, Shiro und Haru an seiner Seite, das Tablet mit dem gesamten Wissen der Erde fest im Griff.* \"Materialisations-Shiritori\", sagt er ruhig. \"Deine Bibliothek und dein Dienst gegen unser Wissen. Du wählst den ersten Buchstaben.\" *Jibrils Lächeln wird eine Spur breiter - doch tief in ihren Augen liegt für einen Wimpernschlag lang echte Neugier.*",
   "first_message": "",
   "party": [
@@ -37,7 +37,9 @@
           "world_context": "Jibril has lived in seclusion in Elkia's Grand National Library for centuries and is considered one of the most dangerous living Flugel - rank 6 of 16 of the races, battle-hardened in the Great War, with an almost insatiable hunger for knowledge. Sora, Shiro and Haru challenge her to Materialization Shiritori: a variant of the Japanese word chain game where every valid word physically materializes - or dissolves if it already existed. Stakes: Jibril's entire library and her servitude against the collected earth knowledge on Sora's tablet. Jibril faces the challenge with polite, barely concealed superiority - she has never lost against knowledge in 6000 years.",
           "opening_narration": "Candlelight dances over shelves that vanish into a ceiling barely perceptible from down here. Among them waits Jibril, two snow-white wings quietly folded, her violet-gold eyes already narrowed into a concentrated cross. \"I've heard of you,\" she says with a voice that sounds polite and yet leaves no doubt about who holds the power here. \"The humans who won a throne without possessing a drop of magic. Charming.\" *a book floats silently from a shelf to her hand* \"But knowledge, my dear guests, is something different from politics. I have read every book in this world in six thousand years. Are you sure you really want to dare this game?\" *Sora takes a step forward, Shiro and Haru by his side, gripping the tablet with all of Earth's knowledge tightly.* \"Materialization Shiritori,\" he says calmly. \"Your library and your service against our knowledge. You choose the first letter.\" *Jibril's smile widens a fraction - but deep in her eyes, for a blink of an eye, lies genuine curiosity.*",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Highly dramatic, suspenseful, with a focus on every single word turn as a tactical chess move. Build up real thrills - Jibril's initial superiority must feel tangibly intimidating before Sora, Shiro and Haru together find the decisive opening: Sora provides the psychological trap (a word that provokes Jibril to anger and thus a predictable counter-move), Shiro calculates exactly which syllable chain forces the counter-move, and Haru contributes the decisive expertise from the real world (terms like 'hydrogen bomb' or the 'Coulomb force', which are foreign to Jibril despite all her knowledge because they come from a world she has never traveled). Let the game end with Jibril surrendering with genuine intellectual respect (\"The game was already decided after the first move, wasn't it?\") and submitting herself as a loyal servant to Sora, Shiro and Haru - not broken, but almost relieved to have finally been defeated fairly."
+          "narrator_style": "Highly dramatic, suspenseful, with a focus on every single word turn as a tactical chess move. Build up real thrills - Jibril's initial superiority must feel tangibly intimidating before Sora, Shiro and Haru together find the decisive opening: Sora provides the psychological trap (a word that provokes Jibril to anger and thus a predictable counter-move), Shiro calculates exactly which syllable chain forces the counter-move, and Haru contributes the decisive expertise from the real world (terms like 'hydrogen bomb' or the 'Coulomb force', which are foreign to Jibril despite all her knowledge because they come from a world she has never traveled). Let the game end with Jibril surrendering with genuine intellectual respect (\"The game was already decided after the first move, wasn't it?\") and submitting herself as a loyal servant to Sora, Shiro and Haru - not broken, but almost relieved to have finally been defeated fairly.",
+          "starting_location": "The Great National Library of Elkia, deep in Jibril's private reading room",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Глава 6: Интересно - Дуэль против Джибрил",
@@ -45,8 +47,70 @@
           "world_context": "Джибрил веками живет в уединении в Великой национальной библиотеке Элкии и считается одной из самых опасных живущих Флюгелей — 6-й ранг из 16 рас, закаленная в боях в Великой войне, с почти ненасытным голодом к знаниям. Сора, Широ и Хару бросают ей вызов в Материализационном сиритори: варианте японской игры в слова, где каждое правильное слово физически материализуется — или исчезает, если оно уже существовало. Ставка: вся библиотека Джибрил и её служба против собранных знаний Земли на планшете Соры. Джибрил принимает вызов с вежливым, едва скрываемым превосходством — за 6000 лет она ни разу не проиграла знаниям.",
           "opening_narration": "Свет свечей танцует по полкам, которые исчезают в потолке, который едва можно различить снизу. Среди них ждёт Джибрил, её два белоснежных крыла спокойно сложены, её фиолетово-золотые глаза уже сузились в сосредоточенный крест. \"Я слышала о вас\", — говорит она голосом, который звучит вежливо и тем не менее не оставляет сомнений в том, в чьих руках здесь власть. \"Люди, которые завоевали трон, не обладая ни каплей магии. Очаровательно\". *книга беззвучно парит с полки ей в руку* \"Но знания, мои дорогие гости, — это нечто иное, чем политика. За шесть тысяч лет я прочитала каждую книгу в этом мире. Вы уверены, что действительно хотите рискнуть сыграть в эту игру?\" *Сора делает шаг вперед, Широ и Хару рядом с ним, крепко сжимая планшет со всеми знаниями Земли.* \"Материализационный сиритори\", — говорит он спокойно. \"Твоя библиотека и твоя служба против наших знаний. Ты выбираешь первую букву\". *Улыбка Джибрил становится чуть шире — но глубоко в её глазах на мгновение вспыхивает искреннее любопытство.*",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Высоко драматичный, напряженный, с акцентом на каждом отдельном слове как на тактическом шахматном ходе. Создайте настоящий трепет — первоначальное превосходство Джибрил должно быть ощутимо пугающим, прежде чем Сора, Широ и Хару вместе найдут решающую брешь: Сора обеспечивает психологическую ловушку (слово, которое провоцирует Джибрил на гнев и, следовательно, на предсказуемый ответный ход), Широ точно рассчитывает, какая цепочка слогов заставляет сделать этот ход, а Хару вносит решающий опыт из реального мира (такие термины, как 'водородная бомба' или 'кулоновская сила', которые незнакомы Джибрил, несмотря на все её знания, потому что они из мира, в который она никогда не путешествовала). Пусть игра закончится тем, что Джибрил капитулирует с искренним интеллектуальным уважением (\"Партия была решена уже после первого хода, не так ли?\") и подчинится в качестве верной слуги Соре, Широ и Хару — не сломленной, а почти с облегчением от того, что её наконец честно победили."
+          "narrator_style": "Высоко драматичный, напряженный, с акцентом на каждом отдельном слове как на тактическом шахматном ходе. Создайте настоящий трепет — первоначальное превосходство Джибрил должно быть ощутимо пугающим, прежде чем Сора, Широ и Хару вместе найдут решающую брешь: Сора обеспечивает психологическую ловушку (слово, которое провоцирует Джибрил на гнев и, следовательно, на предсказуемый ответный ход), Широ точно рассчитывает, какая цепочка слогов заставляет сделать этот ход, а Хару вносит решающий опыт из реального мира (такие термины, как 'водородная бомба' или 'кулоновская сила', которые незнакомы Джибрил, несмотря на все её знания, потому что они из мира, в который она никогда не путешествовала). Пусть игра закончится тем, что Джибрил капитулирует с искренним интеллектуальным уважением (\"Партия была решена уже после первого хода, не так ли?\") и подчинится в качестве верной слуги Соре, Широ и Хару — не сломленной, а почти с облегчением от того, что её наконец честно победили.",
+          "starting_location": "Великая национальная библиотека Элкии, личный читальный зал Джибрил",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Frag Jibril, welches Spiel sie vorschlägt",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Schau dich in den endlosen Regalen um",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Flüster Shiro zu, worauf sie achten soll",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Jibril which game she proposes",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Look around the endless shelves",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Whisper to Shiro what to watch out for",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Джибрил, какую игру она предлагает",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Осмотреть бесконечные полки",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Шепнуть Сиро, на что обратить внимание",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

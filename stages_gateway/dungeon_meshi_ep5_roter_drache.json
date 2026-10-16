@@ -3,7 +3,7 @@
   "description": "Das Finale im tiefen Stockwerk: Kampf gegen den Roten Drachen um Fallins Leben.",
   "world_context": "Ebene 4: Die glühende Festung des Roten Drachen. Zeit drängt, Fallin zu retten.",
   "starting_location": "Ebene 4: Aschehalle des Roten Drachen",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Glühende Hitze schlägt euch entgegen. Gewaltige Schwingen erheben sich aus dem Rauch. Der Rote Drache öffnet sein flammendes Maul – doch Laios blickt direkt auf die Schwachstelle an der Kehle: 'Wenn wir ihn fällen... essen wir Drachensteak!'",
   "party": [
     "Laios Touden",
@@ -29,7 +29,9 @@
           "world_context": "The 4th Floor: molten fortresses of the Red Dragon. Time is rapidly running out to save Falin from digestion.",
           "opening_narration": "Scorching heat blasts against your faces. Massive leathery wings unfurl through clouds of ash and smoke. The Red Dragon bares its fiery maw — yet Laios stares unflinchingly at the soft scale on its throat: 'Once we take him down... we're having dragon steaks!'",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Dramatic, heroic, and intensely epic."
+          "narrator_style": "Dramatic, heroic, and intensely epic.",
+          "starting_location": "Level 4: Ash hall of the Red Dragon",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 5: Красный Дракон",
@@ -37,8 +39,72 @@
           "world_context": "Четвертый ярус: пылающие чертоги Красного Дракона. Время на спасение Фэлин стремительно тает.",
           "opening_narration": "В лицо бьет обжигающий жар. Из пепла и дыма вздымаются исполинские крылья. Красный Дракон разевает пылающую пасть — но Лай Ос не сводит глаз с уязвимого места под горлом: «Если мы его одолеем... пожарим драконьих стейков!»",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Драматичный, героический и масштабный."
+          "narrator_style": "Драматичный, героический и масштабный.",
+          "starting_location": "Уровень 4: пепельный зал Красного дракона",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 60,
+      "difficulty": "hard",
+      "notes": [
+        "action"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Lauf unter den Flammen hindurch zur Kehle des Drachen",
+            "badge": "Geschick",
+            "action_type": "do"
+          },
+          {
+            "text": "Bitte Marcille um einen Schutzzauber gegen das Feuer",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Lenk den Drachen ab, damit Laios zuschlagen kann",
+            "badge": "Taktik",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Run beneath the flames towards the dragon's throat",
+            "badge": "Dexterity",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Marcille for a protective spell against the fire",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Distract the dragon so Laios can strike",
+            "badge": "Tactics",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Пробежать под пламенем к горлу дракона",
+            "badge": "Ловкость",
+            "action_type": "do"
+          },
+          {
+            "text": "Попросить Марсиль о защитном заклинании от огня",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Отвлечь дракона, чтобы Лайос мог ударить",
+            "badge": "Тактика",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

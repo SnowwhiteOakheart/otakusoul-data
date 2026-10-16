@@ -3,7 +3,7 @@
   "description": "Die Zeitreisesprung-Maschine wird fertiggestellt – doch Schatten nähern sich dem Labor.",
   "world_context": "Die Maschine kann menschliche Erinnerungen in die Vergangenheit schicken.",
   "starting_location": "Zukunftsgadget-Labor",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Draußen schlägt die Uhr des Radiogebäudes acht Uhr abends. Mayuris Taschenuhr ist plötzlich stehen geblieben. Schwere Schritte hallen im Treppenhaus wider. Männer in schwarzen Anzügen stürmen den Flur.",
   "party": [
     "Okabe Rintarou",
@@ -28,7 +28,9 @@
           "world_context": "The completed device can compress human memories and project them into the past.",
           "opening_narration": "Outside, the clock at the station strikes eight in the evening. Mayuri's pocket watch has suddenly stopped ticking. Heavy, deliberate combat boots echo on the stairwell. Men in black tactical gear burst down the hallway.",
           "gm_tone": "Horror",
-          "narrator_style": "Tense, suffocating, and brutally dramatic."
+          "narrator_style": "Tense, suffocating, and brutally dramatic.",
+          "starting_location": "Future Gadget Laboratory",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 3: Операция Урд",
@@ -36,8 +38,73 @@
           "world_context": "Устройство способно оцифровать и отправить воспоминания человека в его прошлое тело.",
           "opening_narration": "На часах станции бьет восемь вечера. Карманные часы Маюри внезапно остановились. На лестничной клетке отдаются тяжелые шаги берцев. Люди в черной экипировке врываются в коридор.",
           "gm_tone": "Хоррор",
-          "narrator_style": "Напряженный, удушающий и драматичный."
+          "narrator_style": "Напряженный, удушающий и драматичный.",
+          "starting_location": "Лаборатория футуристических гаджетов",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "suspense",
+        "dark_themes"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Versteck Mayuri hinter dem Regal",
+            "badge": "Heimlichkeit",
+            "action_type": "do"
+          },
+          {
+            "text": "Schalte den Telefonmikrowelle-Prototyp aus",
+            "badge": "Technik",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Suzuha nach einem Ausweg",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Hide Mayuri behind the shelf",
+            "badge": "Stealth",
+            "action_type": "do"
+          },
+          {
+            "text": "Switch off the phone microwave prototype",
+            "badge": "Technology",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Suzuha for a way out",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спрятать Маюри за стеллажом",
+            "badge": "Скрытность",
+            "action_type": "do"
+          },
+          {
+            "text": "Выключить прототип телефона-микроволновки",
+            "badge": "Техника",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Судзуху о выходе",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

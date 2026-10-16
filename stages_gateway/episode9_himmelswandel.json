@@ -3,7 +3,7 @@
   "description": "Während Sora in einer Othello-Partie gegen Chlammy um seine eigene Existenz spielt, fordert Jibril Shiro zu einer Schachpartie heraus - Einsatz: Shiros Erinnerung an Sora selbst.",
   "world_context": "In einem verzweifelten Nebenkampf spielt Sora gegen Chlammy Othello um Erinnerungen und Existenz selbst - und etwas geht furchtbar schief. Nur Shiro erinnert sich noch klar an ihn. Aus Sorge um Soras Schicksal fordert Jibril Shiro zu einer Partie Schach heraus, mit dem Einsatz von Shiros Erinnerungen an Sora, in der Hoffnung, Shiro würde absichtlich verlieren, um 'reinen Tisch' zu machen. Doch im entscheidenden Moment spürt Shiro ein schwaches Signal von Sora - und entscheidet sich zu gewinnen, statt aufzugeben.",
   "starting_location": "Eine stille Kammer hoch oben in Elkia Castle, ein Schachbrett zwischen zwei Stühlen",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Etwas stimmt nicht. Die Luft selbst fühlt sich falsch an, als würde die Welt an einer unsichtbaren Naht knirschen. Irgendwo, weit entfernt, läuft eine Partie Othello, deren Ausgang niemand von euch kennt - nur, dass Sora seine eigene Erinnerung und Existenz als Einsatz gesetzt hat. Jibril kniet vor Shiro nieder, ihr Gesicht zum ersten Mal, seit ihr sie kennt, von echter Sorge gezeichnet. \"Shiro\", sagt sie leise, \"ich fordere dich heraus. Schach. Einsatz: deine Erinnerung an Meister Sora.\" *ein Schachbrett materialisiert zwischen ihnen, jede Figur bereits an ihrem Platz.* \"Ich bitte dich, absichtlich zu verlieren - damit, was auch geschieht, wenigstens dieser Schmerz dir erspart bleibt.\" *Shiros Finger zittern über der ersten Figur, doch ihre Augen bleiben fest auf das Brett gerichtet.*",
   "first_message": "",
   "party": [
@@ -38,7 +38,9 @@
           "world_context": "In a desperate side battle, Sora plays Othello against Chlammy for memories and existence itself - and something goes terribly wrong. Only Shiro clearly remembers him. Concerned about Sora's fate, Jibril challenges Shiro to a game of chess, wagering Shiro's memories of Sora in the hope that Shiro would lose on purpose to 'wipe the slate clean'. However, at the crucial moment, Shiro senses a weak signal from Sora - and decides to win instead of giving up.",
           "opening_narration": "Something is wrong. The air itself feels wrong, as if the world is creaking at an invisible seam. Somewhere far away, a game of Othello is being played, the outcome of which none of you know - only that Sora has wagered his own memory and existence. Jibril kneels before Shiro, her face marked by genuine concern for the first time since you've known her. \"Shiro,\" she says softly, \"I challenge you. Chess. Wager: your memory of Master Sora.\" *a chessboard materializes between them, every piece already in place.* \"I beg you to lose on purpose - so that no matter what happens, at least this pain will be spared from you.\" *Shiro's fingers tremble over the first piece, but her eyes remain fixed on the board.*",
           "gm_tone": "Horror",
-          "narrator_style": "Oppressive, eerie, with genuine emotional weight - the threat is not physical, but existential. Let the tension steadily build up until Shiro's decision."
+          "narrator_style": "Oppressive, eerie, with genuine emotional weight - the threat is not physical, but existential. Let the tension steadily build up until Shiro's decision.",
+          "starting_location": "A quiet chamber high up in Elkia Castle, a chessboard between two chairs",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Глава 9: Небесная прогулка",
@@ -46,8 +48,72 @@
           "world_context": "В отчаянной побочной битве Сора играет в Отелло против Клами на воспоминания и само существование - и что-то идет ужасно не так. Только Широ ясно помнит его. Беспокоясь о судьбе Соры, Джибрил вызывает Широ на партию в шахматы, ставя на кон воспоминания Широ о Соре в надежде, что Широ намеренно проиграет, чтобы «начать с чистого листа». Однако в решающий момент Широ чувствует слабый сигнал от Соры - и решает победить вместо того, чтобы сдаться.",
           "opening_narration": "Что-то не так. Сам воздух кажется неправильным, словно мир скрипит по невидимому шву. Где-то далеко идет партия в Отелло, исход которой никому из вас неизвестен - только то, что Сора поставил на кон свою собственную память и существование. Джибрил опускается на колени перед Широ, ее лицо впервые за все время вашего знакомства выражает искреннюю тревогу. «Широ», — тихо говорит она, — «я бросаю тебе вызов. Шахматы. Ставка: твои воспоминания о господине Соре». *между ними материализуется шахматная доска, каждая фигура уже на своем месте.* «Умоляю тебя проиграть намеренно — чтобы, что бы ни случилось, хотя бы от этой боли ты была избавлена». *Пальцы Широ дрожат над первой фигурой, но ее глаза остаются прикованы к доске.*",
           "gm_tone": "Ужас",
-          "narrator_style": "Гнетущий, жуткий, с настоящим эмоциональным весом - угроза не физическая, а экзистенциальная. Позвольте напряжению неуклонно расти вплоть до решения Широ."
+          "narrator_style": "Гнетущий, жуткий, с настоящим эмоциональным весом - угроза не физическая, а экзистенциальная. Позвольте напряжению неуклонно расти вплоть до решения Широ.",
+          "starting_location": "Тихая комната высоко в замке Элкии, шахматная доска между двумя стульями",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "dark_themes"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Sprich Shiro Mut zu",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Untersuch das Schachbrett zwischen den Stühlen",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Jibril, was sie über die Partie weiß",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Give Shiro courage",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Examine the chessboard between the chairs",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Jibril what she knows about the game",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Подбодрить Сиро",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Изучить шахматную доску между стульями",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Джибрил, что она знает об этой партии",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

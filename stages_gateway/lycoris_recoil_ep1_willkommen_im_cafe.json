@@ -3,7 +3,7 @@
   "description": "Ein turbulenter Tag im Café: Bestellungen aufnehmen, Stammkunden betreuen und ein unerwarteter Schattenauftrag.",
   "world_context": "Das Café LycoReco in Tokio. Chisato und Takina arbeiten als Kellnerinnen und Bodyguards.",
   "starting_location": "Café LycoReco Innenraum",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Kaffeeduft erfüllt den Raum, während Jazzmusik aus alten Boxen perlt. Chisato serviert lächelnd Parfaits, während Takina die Kasse mit militärischer Exaktheit bedient. Plötzlich schellt das Telefon im Hinterzimmer: Meister Mika signalisiert einen dringenden Spezialauftrag.",
   "party": [
     "Chisato Nishikigi",
@@ -26,7 +26,9 @@
           "world_context": "Café LycoReco in downtown Tokyo. Chisato and Takina operate undercover as waitresses and elite protectors.",
           "opening_narration": "The aroma of roasted coffee beans mingles with mellow jazz drifting from vintage speakers. Chisato beams as she serves towering parfait sundaes, while Takina manages the register with stiff military precision. Suddenly, the landline in the back office rings sharply: Master Mika signals an urgent off-the-books mission.",
           "gm_tone": "Slice of Life",
-          "narrator_style": "Breezy and lighthearted, punctuated by sudden bursts of high-octane tactical action."
+          "narrator_style": "Breezy and lighthearted, punctuated by sudden bursts of high-octane tactical action.",
+          "starting_location": "Café LycoReco interior",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 1: Добро пожаловать в кафе «ЛикоРеко»",
@@ -34,8 +36,70 @@
           "world_context": "Кафе «ЛикоРеко» в Токио. Тисато и Такина работают официантками, совмещая смену с обязанностями элитных телохранителей.",
           "opening_narration": "Аромат свежесваренного кофе смешивается с мягким джазом, льющимся из старых колонок. Тисато с сияющей улыбкой разносит десерты, пока Такина ведет учет за кассой с армейской педантичностью. Внезапно в подсобке резко звонит дисковый телефон: мастер Мика подает знак о срочном секретном заказе.",
           "gm_tone": "Повседневность",
-          "narrator_style": "Оживленный, уютный, с резкими всплесками тактического экшена."
+          "narrator_style": "Оживленный, уютный, с резкими всплесками тактического экшена.",
+          "starting_location": "Интерьер кафе LycoReco",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 30,
+      "difficulty": "easy",
+      "notes": [],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Bestell bei Chisato ein Parfait",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Frag Takina, wie lange sie schon hier arbeitet",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Horch, was Meister Mika am Telefon sagt",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Order a parfait from Chisato",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Ask Takina how long she has worked here",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Listen to what Mika says on the phone",
+            "badge": "Perception",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Заказать у Тисато парфе",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Спросить Такину, давно ли она здесь работает",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Прислушаться к разговору Мики по телефону",
+            "badge": "Восприятие",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

@@ -3,7 +3,7 @@
   "description": "König und Königin von Elkia - und doch haben Sora und Shiro jegliche Regierungsarbeit vollständig auf Stephanie abgewälzt. Als sie die Geduld verliert, fordert sie Sora zu einer Partie Blackjack heraus, bei der mehr auf dem Spiel steht als Geld.",
   "world_context": "Seit ihrer Krönung kümmern sich Sora und Shiro um so gut wie nichts, was mit Regierungsverantwortung zu tun hat - Stephanie erledigt heimlich fast alles allein. Als das Chaos überhandnimmt, fordert sie Sora zu Blackjack heraus, mit dem Einsatz, dass er 'ein anständiger Mensch' werden muss, sollte sie gewinnen - und schummelt dabei selbst mit einem falschen Mischtrick.",
   "starting_location": "Ein kleines Kartenzimmer in Elkia Castle, spät am Abend",
-  "time_of_day": "evening",
+  "time_of_day": "Abend",
   "opening_narration": "Stephanie knallt ein frisches Kartendeck auf den Tisch, so entschlossen, dass die Kerzenflammen flackern. \"Das reicht jetzt!\", verkündet sie mit hochrotem Kopf. \"Blackjack. Ich gegen dich, Sora. Wenn ich gewinne, wirst du endlich ein anständiger Herrscher!\" Sora lehnt sich mit einem amüsierten Grinsen zurück. \"Interessanter Einsatz für jemanden, der gerade versucht hat, das Deck zu präparieren\", sagt er beiläufig, ohne den Blick von den Karten zu nehmen. Stephanies Gesicht wird eine Spur blasser. Neben dir beginnt Shiro bereits lautlos mitzuzählen, jede einzelne gezogene Karte.",
   "first_message": "",
   "party": [
@@ -37,7 +37,9 @@
           "world_context": "Since their coronation, Sora and Shiro have taken care of almost nothing related to government responsibility - Stephanie secretly does almost everything alone. When the chaos gets out of hand, she challenges Sora to Blackjack, with the stakes that he must become 'a decent person' if she wins - and cheats herself with a false shuffle trick.",
           "opening_narration": "Stephanie slams a fresh deck of cards onto the table, so determined that the candle flames flicker. \"That's enough!\" she announces with a bright red face. \"Blackjack. Me against you, Sora. If I win, you will finally become a decent ruler!\" Sora leans back with an amused grin. \"Interesting stakes for someone who just tried to stack the deck,\" he says casually, without taking his eyes off the cards. Stephanie's face turns a shade paler. Next to you, Shiro already silently begins counting every single drawn card.",
           "gm_tone": "Comedy",
-          "narrator_style": "Light, humorous, with a warmhearted undertone - ends with Stephanie understanding how much Blank is actually risking for Elkia."
+          "narrator_style": "Light, humorous, with a warmhearted undertone - ends with Stephanie understanding how much Blank is actually risking for Elkia.",
+          "starting_location": "A small card room in Elkia Castle, late in the evening",
+          "time_of_day": "Evening"
         },
         "ru": {
           "title": "Глава 5: Слабое поле",
@@ -45,8 +47,70 @@
           "world_context": "С момента своей коронации Сора и Широ почти не занимались ничем, что связано с правительственными обязанностями — Стефани тайно делает почти всё сама. Когда хаос выходит из-под контроля, она бросает вызов Соре в блэкджек, ставя на то, что он должен стать 'порядочным человеком', если она выиграет — и сама при этом жульничает с фальшивым трюком тасования.",
           "opening_narration": "Стефани с такой решимостью хлопает свежей колодой карт по столу, что пламя свечей мерцает. \"Хватит!\" — заявляет она с покрасневшим лицом. \"Блэкджек. Я против тебя, Сора. Если я выиграю, ты наконец станешь нормальным правителем!\" Сора откидывается назад с веселой ухмылкой. \"Интересная ставка для того, кто только что пытался подтасовать колоду\", — небрежно говорит он, не отрывая взгляда от карт. Лицо Стефани становится немного бледнее. Рядом с тобой Широ уже беззвучно начинает подсчитывать каждую вытянутую карту.",
           "gm_tone": "Комедия",
-          "narrator_style": "Легкий, юмористический, с теплым подтекстом — заканчивается тем, что Стефани понимает, как много Пустые на самом деле рискуют ради Элкии."
+          "narrator_style": "Легкий, юмористический, с теплым подтекстом — заканчивается тем, что Стефани понимает, как много Пустые на самом деле рискуют ради Элкии.",
+          "starting_location": "Маленькая карточная комната в замке Элкии, поздний вечер",
+          "time_of_day": "Вечер"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "comedy",
+      "minutes": 30,
+      "difficulty": "easy",
+      "notes": [],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Beobachte Stephanies Hände beim Mischen",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Sora, wie er den Trick bemerkt hat",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Biete an, selbst die Karten zu geben",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Watch Stephanie's hands while she shuffles",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Sora how he noticed the trick",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Offer to deal the cards yourself",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Следить за руками Стефани, пока она тасует",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Сору, как он заметил трюк",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Предложить самому раздавать карты",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

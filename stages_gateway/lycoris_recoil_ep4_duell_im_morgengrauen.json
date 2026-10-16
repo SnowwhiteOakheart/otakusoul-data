@@ -3,7 +3,7 @@
   "description": "Showdown auf dem alten Funkturm von Tokio: Chisato und Takina gegen das Alan-Institute.",
   "world_context": "Der historische Radioturm, Symbol des Lycoris-Mythos.",
   "starting_location": "Aussichtsplattform des alten Funkturms",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Die Morgensonne bricht durch den Dunst über Tokio. Der Wind pfeift durch das Stahlskelett des Turms. Chisato und Takina stehen Rücken an Rücken. 'Bereit, Takina?' – 'Jederzeit, Chisato.'",
   "party": [
     "Chisato Nishikigi",
@@ -26,7 +26,9 @@
           "world_context": "The historic Tokyo Tower: iconic monument and cradle of the original Lycoris legend.",
           "opening_narration": "The dawn sun cuts through the morning haze blanketing Tokyo's skyline. Wind howls through the red steel girders of the tower. Chisato and Takina stand back-to-back, breathing in sync. 'Ready, Takina?' — 'Always, Chisato.'",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Heroic, breathtaking, and resonant with emotional sisterhood."
+          "narrator_style": "Heroic, breathtaking, and resonant with emotional sisterhood.",
+          "starting_location": "Observation platform of the old radio tower",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 4: Дуэль на рассвете",
@@ -34,8 +36,72 @@
           "world_context": "Историческая Токийская башня — главный символ и арена легенды о Ликорис.",
           "opening_narration": "Лучи восходящего солнца пробиваются сквозь утреннюю дымку над Токио. Ветер свистит в стальных перекрытиях башни. Тисато и Такина стоят спина к спине, выравнивая дыхание. «Готова, Такина?» — «Всегда готова, Тисато».",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Кульминационный, величественный и полный глубокой эмоциональной связи."
+          "narrator_style": "Кульминационный, величественный и полный глубокой эмоциональной связи.",
+          "starting_location": "Смотровая площадка старой радиовышки",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "adventure",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "action"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Sag Chisato und Takina, dass du ihnen den Rücken freihältst",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Such im Stahlskelett nach dem Gegner",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Kletter eine Ebene höher für einen besseren Überblick",
+            "badge": "Athletik",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Tell Chisato and Takina you've got their backs",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Look for the opponent in the steel frame",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Climb one level higher for a better view",
+            "badge": "Athletics",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Сказать Тисато и Такине, что прикроешь их",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Высмотреть противника среди стальных конструкций",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Забраться уровнем выше для лучшего обзора",
+            "badge": "Атлетика",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

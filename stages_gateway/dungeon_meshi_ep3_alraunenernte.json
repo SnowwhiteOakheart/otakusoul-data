@@ -3,7 +3,7 @@
   "description": "Marcille versucht Alraunen nach akademischer Magielehre zu ernten, während Senshi eine rustikale Zwergenmethode anwendet.",
   "world_context": "Alraunen stoßen beim Herausziehen tödliche Schreie aus, schmecken aber hervorragend.",
   "starting_location": "Ebene 2: Verwunschener Gemüsegarten",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Felder voller knorriger Wurzeln, die sich im Boden winden. Marcille stopft sich wachsgetränkte Watte in die Ohren, während Senshi einen abgerichteten Höllenhund an der Leine hält. Das Schreiduell kann beginnen.",
   "party": [
     "Laios Touden",
@@ -28,7 +28,9 @@
           "world_context": "Mandrakes unleash fatal shrieks upon being uprooted, but when properly prepared, their flavor is exquisite.",
           "opening_narration": "A patch of gnarly roots writhes beneath the damp soil. Marcille nervously stuffs wax-soaked cotton balls into her ears, while Senshi firmly grips the leash of a trained dungeon hound. Let the howling contest commence.",
           "gm_tone": "Comedy",
-          "narrator_style": "Playful and comedic, highlighting Marcille's academic exasperation."
+          "narrator_style": "Playful and comedic, highlighting Marcille's academic exasperation.",
+          "starting_location": "Level 2: Enchanted vegetable garden",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 3: Сбор мандрагор",
@@ -36,8 +38,70 @@
           "world_context": "Вырванная из земли мандрагора испускает смертоносный вопль, однако при правильной готовке обладает бесподобным вкусом.",
           "opening_narration": "Участок узловатых корней подозрительно шевелится в рыхлой земле. Марсиль торопливо затыкает уши пропитанными воском тампонами, пока Сенши держит на коротком поводке натасканную адскую гончую. Дуэль криков вот-вот начнется.",
           "gm_tone": "Комедия",
-          "narrator_style": "Остроумный и комичный, акцентирующий отчаяние и научные догмы Марсиль."
+          "narrator_style": "Остроумный и комичный, акцентирующий отчаяние и научные догмы Марсиль.",
+          "starting_location": "Уровень 2: заколдованный огород",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "comedy",
+      "minutes": 30,
+      "difficulty": "easy",
+      "notes": [],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Stopf dir ebenfalls Watte in die Ohren",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Senshi, wie der Höllenhund beim Ernten hilft",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Such die größte, ruhigste Alraune im Feld",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Stuff cotton into your ears as well",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Senshi how the hellhound helps with the harvest",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Look for the biggest, calmest mandrake in the field",
+            "badge": "Perception",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Тоже заткнуть уши ватой",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Сэнси, как адская гончая помогает со сбором",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Найти самую большую и спокойную мандрагору на поле",
+            "badge": "Восприятие",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

@@ -3,7 +3,7 @@
   "description": "Verzweifelte Zeitschleifen: Okabe versucht Mayuris Schicksal gegen die Konvergenz zu retten.",
   "world_context": "Egal was Okabe tut, das Alpha-Attraktorfeld erzwingt Mayuris Tod.",
   "starting_location": "Akihabara U-Bahn-Station",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Wieder und wieder dreht sich die Zeitschleife zurück. Okabe rennt durch die Straßen, Schweiß und Tränen im Gesicht. 'Nicht dieses Mal... dieses Mal rette ich dich!'",
   "party": [
     "Okabe Rintarou",
@@ -25,7 +25,9 @@
           "world_context": "No matter what Okabe attempts, the Alpha Attractor Field ruthlessly converges on Mayuri's demise.",
           "opening_narration": "Time rewinds in agony again and again. Okabe sprints down the neon-lit back alleys of Akiba, drenched in sweat and tears. 'Not this time... I swear I will save you this time!'",
           "gm_tone": "Mystery & Noir",
-          "narrator_style": "Tragic, relentless, and deeply emotional."
+          "narrator_style": "Tragic, relentless, and deeply emotional.",
+          "starting_location": "Akihabara subway station",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 4: Эффект бабочки",
@@ -33,8 +35,73 @@
           "world_context": "Что бы ни предпринимал Окабэ, аттракторное поле Альфа неотвратимо ведет к гибели Маюри.",
           "opening_narration": "Вновь и вновь петля времени отматывается назад. Окабэ бежит по переулкам Акибы, захлебываясь потом и слезами. «Не в этот раз... на этот раз я обязательно спасу тебя!»",
           "gm_tone": "Детектив и нуар",
-          "narrator_style": "Трагичный, надрывный и эмоциональный."
+          "narrator_style": "Трагичный, надрывный и эмоциональный.",
+          "starting_location": "Станция метро Акихабара",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "death",
+        "dark_themes"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Halt Okabe auf und hör ihm zu",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Frag Suzuha, was sich diesmal geändert hat",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Überleg, was in jeder Schleife gleich bleibt",
+            "badge": "Nachforschung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Stop Okabe and listen to him",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Ask Suzuha what changed this time",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Think about what stays the same in every loop",
+            "badge": "Investigation",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Остановить Окабэ и выслушать его",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Спросить Судзуху, что изменилось на этот раз",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Подумать, что остаётся неизменным в каждой петле",
+            "badge": "Анализ",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

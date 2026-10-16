@@ -3,7 +3,7 @@
   "description": "Die Schlacht auf Ebene 74: Kiritos Enthüllung des geheimen Dual-Blades-Skills gegen den Gleam Eyes Dämon.",
   "world_context": "Ebene 74: Verzweifelter Kampf, als ein Korps-Trupp zerfetzt wird.",
   "starting_location": "Bosskammer Ebene 74",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Ein dämonisches Brüllen lässt die Pfeiler der Halle erzittern. Der Gleam Eyes schwingt sein monströses Großschwert. Die Gruppe steht kurz vor der Vernichtung. Da greift Kirito hinter seinen Rücken – und zieht die zweite Klinge: Dark Repulser. 'Asuna! Halt ihn für zehn Sekunden auf!'",
   "party": [
     "Kirito (Kazuto Kirigaya)",
@@ -28,7 +28,9 @@
           "world_context": "The 74th Floor Boss Chamber: absolute chaos as an Army reconnaissance unit is decimated.",
           "opening_narration": "A demonic roar rattles the ancient stone pillars to their core. The Gleam Eyes heaves its monstrous greatsword high overhead. The party stands seconds from total wipeout. In that split second, Kirito reaches over his shoulder — drawing his second blade: Dark Repulser. 'Asuna! Hold him off for ten seconds!'",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Epic, legendary, and packed with maximum adrenaline."
+          "narrator_style": "Epic, legendary, and packed with maximum adrenaline.",
+          "starting_location": "Boss chamber of floor 74",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 5: Синеглазый демон",
@@ -36,8 +38,72 @@
           "world_context": "Комната босса 74-го этажа: отряд Армии гибнет под сокрушительными ударами монстра.",
           "opening_narration": "Демонический рев сотрясает массивные колонны зала. Синеглазый демон заносит над головой колоссальный двуручный меч. Игроки в шаге от гибели. В этот миг Кирито заводит руку за спину — и выхватывает второй клинок: «Вразумитель» (Dark Repulser). «Асуна! Задержи его на десять секунд!»",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Эпический, легендарный, на пределе напряжения и адреналина."
+          "narrator_style": "Эпический, легендарный, на пределе напряжения и адреналина.",
+          "starting_location": "Комната босса 74-го этажа",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "action"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Halt mit Asuna den Gleam Eyes zehn Sekunden auf",
+            "badge": "Athletik",
+            "action_type": "do"
+          },
+          {
+            "text": "Ruf Klein zu, die Verletzten zurückzuziehen",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Such eine Schwachstelle im Schwertschwung des Bosses",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Hold off the Gleam Eyes with Asuna for ten seconds",
+            "badge": "Athletics",
+            "action_type": "do"
+          },
+          {
+            "text": "Call to Klein to pull back the wounded",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Look for a weakness in the boss's sword swing",
+            "badge": "Perception",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Сдерживать Глим Айз вместе с Асуной десять секунд",
+            "badge": "Атлетика",
+            "action_type": "do"
+          },
+          {
+            "text": "Крикнуть Кляйну, чтобы он отвёл раненых",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Найти слабое место в замахе босса",
+            "badge": "Восприятие",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

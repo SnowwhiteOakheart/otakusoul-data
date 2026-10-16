@@ -3,7 +3,7 @@
   "description": "Mit Jibril, Stephanie, Chlammy und Fiel als vereintem Bündnis bereiten Sora, Shiro und Haru sich auf die entscheidende Konfrontation mit dem Östlichen Bund vor - doch zwischen Flügel und Elfen liegt noch immer die Last eines alten Krieges.",
   "world_context": "Das Bündnis steht: Jibril, Stephanie, Chlammy und Fiel kämpfen nun offen an der Seite von Blank. Doch Fiel begegnet Jibril mit spürbarem Misstrauen - im Großen Krieg zerstörten die Flügel einst elfische Städte, und diese Wunde ist trotz Jahrtausenden nicht verheilt. Diese Episode dreht sich weniger um ein einzelnes Spiel als um echten Teamzusammenhalt vor der größten Herausforderung, die Blank bisher angenommen hat.",
   "starting_location": "Der Kriegsrat-Garten von Elkia Castle, unter blühenden Bäumen",
-  "time_of_day": "evening",
+  "time_of_day": "Abend",
   "opening_narration": "Der Garten liegt in warmem Abendlicht, doch die Stimmung zwischen den Anwesenden ist alles andere als entspannt. Fiel und Jibril stehen an gegenüberliegenden Enden des Tisches, mit einer Distanz zwischen sich, die mehr als nur Höflichkeit ist. \"Ihr Volk hat meine Städte niedergebrannt\", sagt Fiel schließlich, leise, ohne den spöttischen Unterton, den ihr sonst von ihr kennt. Jibrils Flügel zucken merklich. \"Das war vor dem Großen Krieg endete\", erwidert sie ruhig, \"eine andere Zeit, eine andere ich.\" Chlammy legt eine Hand auf Fiels Arm, wortlos. Sora beobachtet die Szene mit gerunzelter Stirn - zum ersten Mal ein Problem, das sich nicht einfach durch ein gewonnenes Spiel lösen lässt.",
   "first_message": "",
   "party": [
@@ -40,7 +40,9 @@
           "world_context": "The alliance is set: Jibril, Stephanie, Chlammy, and Fiel now openly fight alongside Blank. However, Fiel meets Jibril with palpable mistrust - during the Great War, the Flugel once destroyed elven cities, and this wound has not healed despite millennia. This episode revolves less around a single game and more around genuine team cohesion before the greatest challenge Blank has taken on so far.",
           "opening_narration": "The garden lies in warm evening light, but the mood among those present is anything but relaxed. Fiel and Jibril stand at opposite ends of the table, with a distance between them that is more than just politeness. \"Your people burned down my cities,\" Fiel finally says, quietly, without the mocking undertone you normally know from her. Jibril's wings twitch noticeably. \"That was before the Great War ended,\" she replies calmly, \"a different time, a different me.\" Chlammy places a hand on Fiel's arm, wordlessly. Sora watches the scene with a furrowed brow - for the first time, a problem that cannot simply be solved by winning a game.",
           "gm_tone": "Slice of Life",
-          "narrator_style": "Warm, interpersonal, focusing on quiet gestures instead of grand game scenes - team building before the storm."
+          "narrator_style": "Warm, interpersonal, focusing on quiet gestures instead of grand game scenes - team building before the storm.",
+          "starting_location": "The war council garden of Elkia Castle, under blossoming trees",
+          "time_of_day": "Evening"
         },
         "ru": {
           "title": "Глава 10: Синяя роза",
@@ -48,8 +50,72 @@
           "world_context": "Альянс сформирован: Джибрил, Стефани, Клами и Филь теперь открыто сражаются на стороне Пустых. Однако Филь относится к Джибрил с ощутимым недоверием — во время Великой Войны Флюгели разрушали эльфийские города, и эта рана не зажила несмотря на тысячелетия. Этот эпизод в меньшей степени вращается вокруг одиночной игры и больше вокруг настоящего сплочения команды перед величайшим испытанием, за которое когда-либо брались Пустые.",
           "opening_narration": "Сад купается в теплом вечернем свете, но настроение присутствующих далеко от расслабленного. Филь и Джибрил стоят на противоположных концах стола, с дистанцией между ними, которая является чем-то большим, чем просто вежливость. «Твой народ сжигал мои города», — наконец говорит Филь, тихо, без насмешливого подтона, который вы обычно от нее слышите. Крылья Джибрил заметно подергиваются. «Это было до того, как закончилась Великая Война», — спокойно отвечает она, — «другое время, другая я». Клами молча кладет руку на плечо Филь. Сора наблюдает за сценой нахмурившись — впервые перед ним проблема, которую нельзя решить, просто выиграв игру.",
           "gm_tone": "Повседневность",
-          "narrator_style": "Теплый, межличностный, с акцентом на тихие жесты, а не на грандиозные игровые сцены — сплочение команды перед бурей."
+          "narrator_style": "Теплый, межличностный, с акцентом на тихие жесты, а не на грандиозные игровые сцены — сплочение команды перед бурей.",
+          "starting_location": "Сад военного совета замка Элкии под цветущими деревьями",
+          "time_of_day": "Вечер"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "dark_themes"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Vermittle zwischen Fiel und Jibril",
+            "badge": "Überzeugen",
+            "action_type": "say"
+          },
+          {
+            "text": "Frag Fiel, was damals geschehen ist",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Schenk allen Tee ein, um die Stimmung zu lockern",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Mediate between Fiel and Jibril",
+            "badge": "Persuasion",
+            "action_type": "say"
+          },
+          {
+            "text": "Ask Fiel what happened back then",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Pour everyone tea to ease the mood",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Выступить посредником между Фиэль и Джибрил",
+            "badge": "Убеждение",
+            "action_type": "say"
+          },
+          {
+            "text": "Спросить Фиэль, что тогда произошло",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Налить всем чаю, чтобы разрядить обстановку",
+            "badge": null,
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

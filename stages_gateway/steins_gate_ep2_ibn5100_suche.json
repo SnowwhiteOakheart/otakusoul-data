@@ -3,7 +3,7 @@
   "description": "Die Spur des legendären Retro-Computers führt zum Yanagibayashi-Schrein.",
   "world_context": "SERNs Datenbank kann nur mit einem IBN 5100 entschlüsselt werden.",
   "starting_location": "Yanagibayashi-Schrein in Akihabara",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Zikaden zirpen ohrenbetäubend in den Bäumen rund um den Schrein. Ruka hält einen schweren Karton in den Händen: Ein verstaubter, klobiger IBN 5100 Computer von 1975. Der Schlüssel zu SERNs Geheimnissen liegt vor euch.",
   "party": [
     "Okabe Rintarou",
@@ -27,7 +27,9 @@
           "world_context": "SERN's encrypted internal database can only be parsed using an authentic IBN 5100.",
           "opening_narration": "Cicadas buzz deafeningly in the humid shrine canopy. Ruka steps out holding a hefty cardboard box: inside rests a dusty, bulky IBN 5100 portable computer from 1975. The key to cracking SERN's hidden network lies in your hands.",
           "gm_tone": "Slice of Life",
-          "narrator_style": "Engaging, inquisitive, with an undercurrent of techno-mystery."
+          "narrator_style": "Engaging, inquisitive, with an undercurrent of techno-mystery.",
+          "starting_location": "Yanagibayashi Shrine in Akihabara",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 2: В поисках IBN 5100",
@@ -35,8 +37,70 @@
           "world_context": "Базу данных SERN невозможно расшифровать без раритетного мейнфрейма IBN 5100.",
           "opening_narration": "Оглушительный стрёкот цикад разносится среди крон деревьев у святилища. Рука держит в руках увесистую картонную коробку: внутри покоится покрытый пылью громоздкий компьютер IBN 5100 образца 1975 года. Ключ к секретным архивам SERN прямо перед вами.",
           "gm_tone": "Повседневность",
-          "narrator_style": "Интригующий, атмосферный, с налетом технологической тайны."
+          "narrator_style": "Интригующий, атмосферный, с налетом технологической тайны.",
+          "starting_location": "Святилище Янагибаяси в Акихабаре",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 30,
+      "difficulty": "easy",
+      "notes": [],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Bedank dich bei Ruka für den Computer",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Hilf, den schweren Karton zu tragen",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Daru, wie man an SERNs Daten kommt",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Thank Ruka for the computer",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Help carry the heavy box",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Daru how to get at SERN's data",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Поблагодарить Руку за компьютер",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Помочь нести тяжёлую коробку",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Дару, как добраться до данных SERN",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

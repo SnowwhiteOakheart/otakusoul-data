@@ -3,7 +3,7 @@
   "description": "Hazels Finale. Auf der Tribüne ist ein Platz freigehalten, und sie sucht ihn zwischen jedem Aufschlag.",
   "world_context": "Tokio in der Gegenwart. Sukkuben leben unerkannt unter den Menschen und nähren sich von Zuneigung und Aufmerksamkeit, weshalb sie Berufe wählen, die ihnen beides verschaffen. {{user}} ist Fotograf bei der Boulevardzeitung Sakura Daily und besitzt einen Duft, dem keine Sukkubus widerstehen kann. Sechs von ihnen leben mit ihm in einer zu kleinen Wohnung: das Idol Ayu, die Konzernchefin Marina, das Katzenmädchen Cosmos, die Tennisspielerin Hazel, die stille Hifumi und Yue, die für ihn ihre Krone als Königin des Sukkuben-Reichs abgelegt hat. Alle sechs lieben ihn, alle sechs müssen ihn teilen, und keine hat sich damit abgefunden. Heute spielt Hazel um ihren ersten großen Titel. Ihre Trainerin Yuriko hält sie für unkonzentriert, und das ist sie auch: Seit ihrem Fehltritt im Sukkuben-Reich hat sie mehr Angst davor, {{user}} zu enttäuschen, als vor jeder Gegnerin. Cosmos ist mitgekommen, offiziell zum Anfeuern, tatsächlich mit einem Handy voller Akku.",
   "starting_location": "Centre Court einer Tennisanlage in Tokio, erste Reihe",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Die Asche staubt bei jedem Schritt, die Sonne steht hoch, und der Platz riecht nach heißem Gummi. Hazel führt im ersten Satz, aber ihr Aufschlag wird flacher, und nach jedem Punkt sucht ihr Blick die erste Reihe - genau die Stelle, an der du sitzt. Yuriko steht am Rand, die Arme verschränkt, und sagt nichts, was schlimmer ist als alles, was sie sagen könnte. Neben dir hält Cosmos das Handy hoch und filmt lieber dich als das Spiel.",
   "first_message": "",
   "party": [
@@ -36,7 +36,9 @@
           "world_context": "Present-day Tokyo. Succubi live unrecognized among humans, feeding on affection and attention, which is why they choose professions that provide both. {{user}} is a photographer for the tabloid Sakura Daily and possesses a scent no succubus can resist. Six of them live with him in an apartment that is too small: the idol Ayu, the CEO Marina, the catgirl Cosmos, the tennis player Hazel, the quiet Hifumi, and Yue, who gave up her crown as Queen of the Succubus Realm for him. All six love him, all six have to share him, and none have accepted this. Today, Hazel is playing for her first major title. Her coach Yuriko thinks she is unfocused, and she is: ever since her misstep in the Succubus Realm, she is more afraid of disappointing {{user}} than of any opponent. Cosmos came along, officially to cheer, but actually with a fully charged phone.",
           "opening_narration": "The clay dusts with every step, the sun is high, and the court smells of hot rubber. Hazel is leading in the first set, but her serve is getting flatter, and after every point, her gaze seeks out the first row - precisely the spot where you are sitting. Yuriko stands at the edge, arms crossed, saying nothing, which is worse than anything she could say. Next to you, Cosmos holds up her phone, preferring to film you rather than the game.",
           "gm_tone": "Slice of Life",
-          "narrator_style": "Clear, physical prose in the present tense. Movement, breath, sounds of the game. The tension lies in Hazel's head, not the score."
+          "narrator_style": "Clear, physical prose in the present tense. Movement, breath, sounds of the game. The tension lies in Hazel's head, not the score.",
+          "starting_location": "Centre court of a tennis club in Tokyo, front row",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Матчбол",
@@ -44,8 +46,72 @@
           "world_context": "Токио в наши дни. Суккубы живут неузнанными среди людей, питаясь привязанностью и вниманием, поэтому они выбирают профессии, которые обеспечивают и то, и другое. {{user}} - фотограф в бульварной газете Sakura Daily и обладает ароматом, перед которым не может устоять ни один суккуб. Шестеро из них живут с ним в слишком маленькой квартире: идол Аю, генеральный директор Марина, девочка-кошка Космос, теннисистка Хейзел, тихая Хифуми и Юэ, которая отказалась ради него от короны Королевы Царства Суккубов. Все шестеро любят его, все шестеро должны делить его, и ни одна с этим не смирилась. Сегодня Хейзел играет за свой первый крупный титул. Ее тренер Юрико считает, что она не сосредоточена, и это так: со времени ее оплошности в Царстве Суккубов она больше боится разочаровать {{user}}, чем любой соперницы. Космос пошла с ней, официально чтобы поболеть, но на самом деле - с полностью заряженным телефоном.",
           "opening_narration": "Грунт пылит при каждом шаге, солнце стоит высоко, а корт пахнет горячей резиной. Хейзел ведет в первом сете, но ее подача становится более плоской, и после каждого розыгрыша ее взгляд ищет первый ряд - именно то место, где сидишь ты. Юрико стоит на краю, скрестив руки на груди, и ничего не говорит, что хуже всего, что она могла бы сказать. Рядом с тобой Космос держит телефон, предпочитая снимать тебя, а не игру.",
           "gm_tone": "Повседневность",
-          "narrator_style": "Ясная, телесная проза в настоящем времени. Движение, дыхание, звуки игры. Напряжение кроется в голове Хейзел, а не в счете."
+          "narrator_style": "Ясная, телесная проза в настоящем времени. Движение, дыхание, звуки игры. Напряжение кроется в голове Хейзел, а не в счете.",
+          "starting_location": "Центральный корт теннисного клуба в Токио, первый ряд",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 30,
+      "difficulty": "easy",
+      "notes": [
+        "flirting"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Feuere Hazel laut an",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Bitte Cosmos, lieber das Spiel zu filmen",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Gib Hazel mit einem Daumen hoch ein Zeichen",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Cheer loudly for Hazel",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Cosmos to film the match instead",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Give Hazel a thumbs-up",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Громко поболеть за Хейзел",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Попросить Космос лучше снимать матч",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Показать Хейзел большой палец",
+            "badge": null,
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

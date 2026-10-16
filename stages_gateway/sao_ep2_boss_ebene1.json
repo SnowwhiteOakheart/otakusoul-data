@@ -3,7 +3,7 @@
   "description": "Der erste Bosskampf: Raid gegen Illfang the Kobold Lord. Der Preis des ersten Sieges.",
   "world_context": "Die Bosskammer auf Ebene 1.",
   "starting_location": "Torhalle vor dem Bossraum Ebene 1",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Das gewaltige Steintor öffnet sich knarrend. Illfang the Kobold Lord schlägt mit seiner gigantischen Axt auf den Boden! Vier Ruin-Kobolde stürmen vor. Diavel ruft zum Angriff – doch das Verhaltensmuster des Bosses ändert sich plötzlich!",
   "party": [
     "Kirito (Kazuto Kirigaya)",
@@ -26,7 +26,9 @@
           "world_context": "The 1st Floor Boss Chamber: gateway to the upper floors of Aincrad.",
           "opening_narration": "The colossal stone gates groan open. Illfang the Kobold Lord slams his massive bone axe into the flagstones with a deafening roar! Four Ruin Kobold Sentinels rush forward in formation. Diavel cries out the command to switch — but the boss's attack patterns violently deviate from the beta test notes!",
           "gm_tone": "Epic Fantasy",
-          "narrator_style": "Heroic, pulse-pounding, with sharp focus on tactical sword skill execution."
+          "narrator_style": "Heroic, pulse-pounding, with sharp focus on tactical sword skill execution.",
+          "starting_location": "Gate hall before the boss room of floor 1",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 2: Владыка первого этажа",
@@ -34,8 +36,72 @@
           "world_context": "Комната босса на 1-м этаже: рубеж, открывающий путь наверх.",
           "opening_narration": "Тяжелые каменные врата со скрежетом распахиваются. Иллфанг, Лорд кобольдов, с грохотом впечатывает гигантский топор в каменные плиты! Четыре кобольда-стража бросаются в атаку. Диавель командует смену позиции — но поведение босса внезапно расходится со сведениями из бета-теста!",
           "gm_tone": "Эпическое фэнтези",
-          "narrator_style": "Героический, динамичный, с акцентом на боевую тактику навыков меча."
+          "narrator_style": "Героический, динамичный, с акцентом на боевую тактику навыков меча.",
+          "starting_location": "Зал у ворот перед комнатой босса первого этажа",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "action"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Fang mit Asuna die Ruin-Kobolde ab",
+            "badge": "Geschick",
+            "action_type": "do"
+          },
+          {
+            "text": "Warn Diavel vor dem neuen Angriffsmuster",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Beobachte die Waffe des Bosses genau",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Intercept the ruin kobolds with Asuna",
+            "badge": "Dexterity",
+            "action_type": "do"
+          },
+          {
+            "text": "Warn Diavel about the new attack pattern",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Watch the boss's weapon closely",
+            "badge": "Perception",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Перехватить вместе с Асуной кобольдов-руинников",
+            "badge": "Ловкость",
+            "action_type": "do"
+          },
+          {
+            "text": "Предупредить Диавеля о новом шаблоне атак",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Внимательно следить за оружием босса",
+            "badge": "Восприятие",
+            "action_type": "do"
+          }
+        ]
       }
     }
   }

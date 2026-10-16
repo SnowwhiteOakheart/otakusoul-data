@@ -3,7 +3,7 @@
   "description": "Ein Schrei auf dem Dach des Radiogebäudes und eine SMS, die Raum und Zeit zerreißt.",
   "world_context": "Akihabara, Sommer 2010. Okabe schickt eine Test-Nachricht über die Telefon-Mikrowelle.",
   "starting_location": "Dach des Radiogebäudes in Akihabara",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Sommerhitze flimmert über dem Beton von Akihabara. Ein dumpfer Knall erschüttert das Radiogebäude – gefolgt von einem markerschütternden Schrei. Okabe stolpert auf die Straße, tippt panisch eine SMS an Daru... und plötzlich verschwinden alle Menschen um euch herum. Das Divergenz-Rad hat sich gedreht.",
   "party": [
     "Okabe Rintarou",
@@ -27,7 +27,9 @@
           "world_context": "Akihabara, summer of 2010. Okabe transmits a test message via the Phone Microwave (name subject to change).",
           "opening_narration": "Scorching summer heat shimmers across the concrete sidewalks of Akihabara. A muffled crash shakes the Radio Kaikan building — followed by a bloodcurdling scream. Okabe stumbles out onto the street, feverishly tapping a text to Daru... when in the blink of an eye, the bustling crowd evaporates into thin air. Silence. The divergence gears have shifted.",
           "gm_tone": "Mystery & Noir",
-          "narrator_style": "Paranoid, breathless, and steeped in hard sci-fi tension."
+          "narrator_style": "Paranoid, breathless, and steeped in hard sci-fi tension.",
+          "starting_location": "Roof of the radio building in Akihabara",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 1: Первое D-мейл",
@@ -35,8 +37,72 @@
           "world_context": "Акихабара, лето 2010 года. Окабэ отправляет тестовое сообщение через Мобиловолновку (название временное).",
           "opening_narration": "Летнее марево дрожит над асфальтом Акихабары. Глухой удар сотрясает здание Радио Кайкан — следом раздается леденящий душу крик. Окабэ выбегает на улицу, в панике набирая СМС для Дару... и в то же мгновение шумная толпа исчезает. Вокруг — звенящая пустота. Шестерни мировой линии провернулись.",
           "gm_tone": "Детектив и нуар",
-          "narrator_style": "Параноидальный, прерывистый, пронизанный научно-фантастическим саспенсом."
+          "narrator_style": "Параноидальный, прерывистый, пронизанный научно-фантастическим саспенсом.",
+          "starting_location": "Крыша радиоздания в Акихабаре",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "suspense"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Frag Okabe, was er gerade gesehen hat",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Sieh dich nach den verschwundenen Menschen um",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Ruf Mayuri an, ob bei ihr alles in Ordnung ist",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Okabe what he just saw",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Look around for the people who vanished",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Call Mayuri to check if she is okay",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Окабэ, что он только что видел",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Оглядеться в поисках исчезнувших людей",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Позвонить Маюри и узнать, всё ли с ней в порядке",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

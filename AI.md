@@ -75,7 +75,15 @@ Registries sind JSON-Objekte mit `version` und der entsprechenden Liste:
 
 Vorhandene zusätzliche Felder erhalten. Jeder Download-Link muss auf eine vorhandene, eingecheckte Datei zeigen. Keine doppelten Einträge oder IDs. Keine lokalen Dateisystempfade in Registries.
 
-Neue Szenen/Lorebooks nach einem bestehenden vollständigen Beispiel desselben Pakets erstellen. Szenen verwenden unter anderem `title`, `description`, `world_context`, `starting_location`, `opening_narration`, `first_message`, `party` und optionale Hintergrund-/Erzählparameter. Figurenbezüge und Bildpfade tatsächlich prüfen. Lorebooks müssen vollständige Einträge enthalten; `entry_count` muss zur veröffentlichten Datei passen.
+Neue Szenen/Lorebooks nach einem bestehenden vollständigen Beispiel desselben Pakets erstellen. Szenen verwenden unter anderem `title`, `description`, `world_context`, `starting_location`, `opening_narration`, `first_message`, `party` und optionale Hintergrund-/Erzählparameter. Figurenbezüge und Bildpfade tatsächlich prüfen.
+
+Szenen tragen zusätzlich Story-Daten für die Story-Galerie der App (ab OtakuSoul 0.5):
+`extensions.otakusoul_story` mit `genre` (`fantasy`, `adventure`, `slice_of_life`, `comedy`, `romance`, `mystery`, `scifi`,
+`horror`), `minutes` (typische Spieldauer), `difficulty` (`easy`/`medium`/`hard`), `notes` (Inhaltshinweise: `mild_danger`,
+`mild_violence`, `action`, `spooky`, `suspense`, `flirting`, `romance`, `dark_themes`, `death`), `beginner` (für Einsteiger
+empfohlen, z. B. erste Episode) und `choices` = je Sprache (`de`, `en`, `ru`) drei Startvorschläge
+`{text, badge, action_type}` (`action_type` `say`/`do`, `badge` optional eine Fertigkeit wie „Wahrnehmung“). `time_of_day`
+steht in der Ausgangssprache; `translations` enthalten auch `starting_location` und `time_of_day`. Lorebooks müssen vollständige Einträge enthalten; `entry_count` muss zur veröffentlichten Datei passen.
 
 Übersetzungen in bestehenden Erweiterungsstrukturen vollständig erhalten. Die Repo-Datei allein garantiert nicht, dass jede App-Version jede Erweiterung beim Import übernimmt; keine App-Kompatibilität behaupten, die nicht geprüft wurde. App-Code nur nach gesondertem Auftrag ändern. Englisch benötigt hier keine künstliche `locales/en.json`: die englische App-Basis liegt im App-Repository.
 

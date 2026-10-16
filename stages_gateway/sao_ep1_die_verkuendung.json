@@ -3,7 +3,7 @@
   "description": "Tag eins in SAO: Die Glocken läuten, der Logout-Knopf verschwindet und Kayaba Akihiko verkündet die Regeln des Todes.",
   "world_context": "Startstadt, Ebene 1. Zehntausend Spieler begreifen, dass sie gefangen sind.",
   "starting_location": "Zentraler Platz der Startstadt",
-  "time_of_day": "day",
+  "time_of_day": "Tag",
   "opening_narration": "Der Himmel färbt sich blutrot. Ein riesiges gesichtsloses Phantom im roten Gewand manifestiert sich über den Dächern von Aincrad. Die Stimme von Kayaba Akihiko hallt über den Platz: 'Dies ist kein Bug. Dies ist ein Feature. Tod im Spiel bedeutet Tod im echten Leben.'",
   "party": [
     "Kirito (Kazuto Kirigaya)",
@@ -26,7 +26,9 @@
           "world_context": "Town of Beginnings, 1st Floor. Ten thousand players realize they are trapped inside the death game.",
           "opening_narration": "The sky bleeds crimson with geometric alert hexagons. A colossal, faceless phantom cloaked in flowing red robes materializes high above the roofs of Aincrad. The detached voice of Akihiko Kayaba thunders across the plaza: 'This is not a defect. This is how Sword Art Online was designed. Death in the virtual world equals death in reality.'",
           "gm_tone": "Horror",
-          "narrator_style": "Shocking, atmospheric, and chillingly oppressive."
+          "narrator_style": "Shocking, atmospheric, and chillingly oppressive.",
+          "starting_location": "Central plaza of the Town of Beginnings",
+          "time_of_day": "Day"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 1: Провозглашение",
@@ -34,8 +36,73 @@
           "world_context": "Город Начал, 1-й этаж. Десять тысяч игроков осознают, что оказались в смертельной ловушке.",
           "opening_narration": "Небо окрашивается в кроваво-красный цвет тревожных гексагонов. Исполинский безликий фантом в алом балахоне материализуется над шпилями Айнкрада. Бесстрастный голос Акихико Каябы раскатывается над площадью: «Это не сбой. Это истинная суть Sword Art Online. Смерть в игре означает смерть в реальном мире».",
           "gm_tone": "Хоррор",
-          "narrator_style": "Шокирующий, гнетущий и атмосферный."
+          "narrator_style": "Шокирующий, гнетущий и атмосферный.",
+          "starting_location": "Центральная площадь Города начал",
+          "time_of_day": "День"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "death",
+        "dark_themes"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Frag Kirito, was ihr jetzt tun sollt",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Sieh dich in der panischen Menge um",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Beruhig Klein, der seine Freunde sucht",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Kirito what you should do now",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Look around the panicking crowd",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Calm down Klein, who is looking for his friends",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Кирито, что теперь делать",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Оглядеть охваченную паникой толпу",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Успокоить Кляйна, который ищет друзей",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

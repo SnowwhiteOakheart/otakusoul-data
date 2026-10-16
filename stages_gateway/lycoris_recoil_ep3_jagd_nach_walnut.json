@@ -3,7 +3,7 @@
   "description": "Ein Cyberangriff erschüttert das Café. Kurumi muss vor feindlichen Söldnern evakuiert werden.",
   "world_context": "Söldner haben Walnuts Aufenthaltsort lokalisiert.",
   "starting_location": "Hinterhof von Café LycoReco",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Schüsse zerschlagen die Fenster des Cafés! Kurumi krallt sich an ihren Server-Koffer. Chisato duckt sich unter Querschlägern hindurch, während Takina Deckungsfeuer gibt.",
   "party": [
     "Chisato Nishikigi",
@@ -27,7 +27,9 @@
           "world_context": "Hostile operators have pinpointed master hacker Walnut's physical sanctuary.",
           "opening_narration": "A volley of suppressed gunfire shatters the front display windows! Kurumi clutches her armored server briefcase white-knuckled. Chisato effortlessly slips between ricocheting bullets while Takina lays down precision suppressing fire.",
           "gm_tone": "Mystery & Noir",
-          "narrator_style": "High-stakes cyber-thriller pacing, dense urban shootouts, and razor-sharp reflexes."
+          "narrator_style": "High-stakes cyber-thriller pacing, dense urban shootouts, and razor-sharp reflexes.",
+          "starting_location": "Back yard of Café LycoReco",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 3: Охота на Уолнат",
@@ -35,8 +37,72 @@
           "world_context": "Вражеские отряды вычислили физическое местоположение легендарного хакера Уолнат.",
           "opening_narration": "Очередь выстрелов разносит витринные стекла кафе! Куруми мертвой хваткой вцепляется в чемодан с сервером. Тисато виртуозно уклоняется от рикошетов, пока Такина ведет точный подавляющий огонь.",
           "gm_tone": "Детектив и нуар",
-          "narrator_style": "Напряженный, динамичный кибертриллер с яростными городскими перестрелками."
+          "narrator_style": "Напряженный, динамичный кибертриллер с яростными городскими перестрелками.",
+          "starting_location": "Задний двор кафе LycoReco",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "adventure",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "action"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Zieh Kurumi und ihren Koffer in Deckung",
+            "badge": "Geschick",
+            "action_type": "do"
+          },
+          {
+            "text": "Finde heraus, woher die Schüsse kommen",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Chisato nach einem Fluchtweg",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Pull Kurumi and her case into cover",
+            "badge": "Dexterity",
+            "action_type": "do"
+          },
+          {
+            "text": "Find out where the shots are coming from",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Chisato for an escape route",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Утащить Куруми и её кейс в укрытие",
+            "badge": "Ловкость",
+            "action_type": "do"
+          },
+          {
+            "text": "Выяснить, откуда стреляют",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Тисато о пути отхода",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
       }
     }
   }

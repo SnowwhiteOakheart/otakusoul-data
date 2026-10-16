@@ -3,7 +3,7 @@
   "description": "Hinterhalt in einer Anti-Kristall-Zone: Laughing Coffin schlägt zu.",
   "world_context": "Eine Zone im Labyrinth, in der Heil- und Teleportkristalle deaktiviert sind.",
   "starting_location": "Anti-Kristall-Kammer auf Ebene 60",
-  "time_of_day": "night",
+  "time_of_day": "Nacht",
   "opening_narration": "Die Kristalle in euren Händen glimmen dumpf auf und erlöschen. Giftnebel zischt aus Bodenritzen! Rote Umhänge schälen sich aus der Dunkelheit – die Mördergilde Laughing Coffin grinst hinter gezackten Masken hervor.",
   "party": [
     "Kirito (Kazuto Kirigaya)",
@@ -27,7 +27,9 @@
           "world_context": "A cursed dead zone in the labyrinth where teleport and healing crystals are rendered inert.",
           "opening_narration": "The crystals in your grasp flicker dull gray and go completely dark. Toxic fog hisses through cracks in the dungeon floor! Blood-red hoods emerge from the gloom — the player-killing guild Laughing Coffin snarls with sadistic grins behind jagged masks.",
           "gm_tone": "Mystery & Noir",
-          "narrator_style": "Dark, ruthless, and desperate struggle for survival."
+          "narrator_style": "Dark, ruthless, and desperate struggle for survival.",
+          "starting_location": "Anti-crystal chamber on floor 60",
+          "time_of_day": "Night"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 4: Дуэль в тенях",
@@ -35,8 +37,73 @@
           "world_context": "Проклятая зона лабиринта, где телепортационные и целебные кристаллы теряют силу.",
           "opening_narration": "Кристаллы в ваших ладонях тускло вспыхивают и безжизненно гаснут. Из щелей в плитах пола с шипением сочится ядовитый туман! Из темноты выступают фигуры в алых капюшонах — гильдия убийц «Весёлый гроб» скалится из-под зазубренных масок.",
           "gm_tone": "Детектив и нуар",
-          "narrator_style": "Мрачный, беспощадный бой за выживание на грани отчаяния."
+          "narrator_style": "Мрачный, беспощадный бой за выживание на грани отчаяния.",
+          "starting_location": "Антикристальная комната на 60-м этаже",
+          "time_of_day": "Ночь"
         }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "adventure",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "action",
+        "death"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Halt den Atem an und lauf aus dem Giftnebel",
+            "badge": "Athletik",
+            "action_type": "do"
+          },
+          {
+            "text": "Stell dich mit Asuna und Klein Rücken an Rücken",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Fordere die Mördergilde heraus, sich zu zeigen",
+            "badge": "Überzeugen",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Hold your breath and run out of the poison mist",
+            "badge": "Athletics",
+            "action_type": "do"
+          },
+          {
+            "text": "Stand back to back with Asuna and Klein",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Challenge the murder guild to show themselves",
+            "badge": "Persuasion",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Задержать дыхание и выбежать из ядовитого тумана",
+            "badge": "Атлетика",
+            "action_type": "do"
+          },
+          {
+            "text": "Встать спина к спине с Асуной и Кляйном",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Вызвать гильдию убийц показаться",
+            "badge": "Убеждение",
+            "action_type": "say"
+          }
+        ]
       }
     }
   }
