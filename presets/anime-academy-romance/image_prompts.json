@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in ImageGen",
+  "date": "2026-10-17",
+  "mode": "Text-to-image 16:9 visual novel background illustrations (no characters, no text)",
+  "backgrounds": {
+    "romance_rainy_clubroom.png": "Anime visual novel background art, wide 16:9 establishing shot, cozy Japanese high school clubroom interior on a rainy late afternoon. Large windows streaked with raindrops overlooking grey clouds and wet cherry trees, warm indoor lamp light, a wooden table in the center with a porcelain teapot and four teacups, shelves with art folders, a dressmaker mannequin with fabric, and two folded umbrellas resting by the sliding door. Strictly no people, no characters, no text or watermarks.",
+    "romance_rooftop_festival_dusk.png": "Anime visual novel background art, wide 16:9 establishing shot, Japanese high school rooftop terrace at twilight during a school cultural festival. Chain-link safety fence decorated with warm glowing fairy lights and paper lanterns, a wooden bench, twilight sky transitioning from warm sunset orange to deep indigo with the very first distant firework sparks blooming over the town and illuminated festival stalls in the courtyard below. Strictly no people, no characters, no text or watermarks.",
+    "romance_sakuragaoka_school_gate_rain.png": "Anime visual novel background art, wide 16:9 establishing shot, entrance gate and tree-lined walkway of a Japanese high school in the early evening after rain. Wet stone pavement reflecting warm glowing streetlamps, cherry blossom trees with glistening leaves, school building windows glowing softly in the background, romantic and nostalgic atmosphere. Strictly no people, no characters, no text or watermarks."
+  },
+  "postprocessing": [
+    "Resized/cropped to 1376x768 PNG (16:9 standard background format for OtakuSoul)."
+  ],
+  "provenance": "New AI-generated background art created from text descriptions only."
+}

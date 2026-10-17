@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in ImageGen",
+  "date": "2026-10-17",
+  "mode": "Text-to-image 16:9 visual novel background illustrations (no characters, no text)",
+  "backgrounds": {
+    "cyberpunk_kabuki_safehouse.png": "Anime visual novel background art, wide 16:9 establishing shot, interior of a hidden high-tech cyberpunk netrunner safehouse apartment above a rainy neon market at night. In the room: a metallic cooling tub with mist, glowing server racks with fiber-optic cables, a desk with holographic monitors and a small containment case glowing crimson, crimson emergency lighting mixed with cyan neon light filtering through rain-streaked armored window blinds overlooking a dense dystopian megacity skyline. Strictly no people, no characters, no readable text or watermarks.",
+    "cyberpunk_afterlife_vip_booth.png": "Anime visual novel background art, wide 16:9 establishing shot, interior of a soundproofed VIP booth inside a legendary underground cyberpunk mercenary bar built in a former morgue. Dark leather booth seating, a low table with a sleek silver corporate briefcase and two glowing neon cocktail glasses, a frosted armored glass partition showing blurred magenta and cyan neon lights of the club outside, moody atmospheric lighting. Strictly no people, no characters, no readable text or watermarks.",
+    "cyberpunk_watson_neon_alley.png": "Anime visual novel background art, wide 16:9 establishing shot, rain-slicked cyberpunk megacity street and alley at night in Night City. Wet asphalt reflecting towering cyan and magenta holographic advertisements, steam rising from street vents, tangled overhead cables, distant silhouettes of megabuildings and a hovering armored aerodyne in the rainy fog. Strictly no people, no characters, no readable text or watermarks."
+  },
+  "postprocessing": [
+    "Resized/cropped to 1376x768 PNG (16:9 standard background format for OtakuSoul)."
+  ],
+  "provenance": "New AI-generated background art created from text descriptions only. No third-party or game screenshots were used as input."
+}

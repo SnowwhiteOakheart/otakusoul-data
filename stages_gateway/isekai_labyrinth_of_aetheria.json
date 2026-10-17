@@ -19,7 +19,7 @@
   "solo_mode": false,
   "max_actor_depth": 3,
   "dice_rolls_enabled": true,
-  "starting_bg": "dungeon_meshi_ep4_wassergeister.png",
+  "starting_bg": "isekai_aetheria_star_chamber.png",
   "starting_ambient": "None",
   "lock_bg": false,
   "disable_ambient": false,
@@ -116,16 +116,16 @@
     "otakusoul_assets": {
       "backgrounds": [
         {
-          "file": "dungeon_meshi_ep4_wassergeister.png",
-          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep4_wassergeister.png"
+          "file": "isekai_aetheria_star_chamber.png",
+          "path": "presets/isekai-aetheria/backgrounds/isekai_aetheria_star_chamber.png"
         },
         {
-          "file": "dungeon_meshi_ep5_roter_drache.png",
-          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep5_roter_drache.png"
+          "file": "isekai_lumina_guild_hall.png",
+          "path": "presets/isekai-aetheria/backgrounds/isekai_lumina_guild_hall.png"
         },
         {
-          "file": "sao_ep2_boss_ebene1.png",
-          "path": "presets/sword-art-online/backgrounds/sao_ep2_boss_ebene1.png"
+          "file": "isekai_lumina_summoning_hall.png",
+          "path": "presets/isekai-aetheria/backgrounds/isekai_lumina_summoning_hall.png"
         }
       ]
     }

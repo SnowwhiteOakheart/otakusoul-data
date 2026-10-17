@@ -20,7 +20,7 @@
   "solo_mode": false,
   "max_actor_depth": 3,
   "dice_rolls_enabled": true,
-  "starting_bg": "Horizontal Elkia Archive.png",
+  "starting_bg": "romance_rainy_clubroom.png",
   "starting_ambient": "None",
   "lock_bg": false,
   "disable_ambient": false,
@@ -116,16 +116,16 @@
     "otakusoul_assets": {
       "backgrounds": [
         {
-          "file": "Horizontal Elkia Archive.png",
-          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Archive.png"
+          "file": "romance_rainy_clubroom.png",
+          "path": "presets/anime-academy-romance/backgrounds/romance_rainy_clubroom.png"
         },
         {
-          "file": "Horizontal Tokyo Living Room.png",
-          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tokyo Living Room.png"
+          "file": "romance_sakuragaoka_school_gate_rain.png",
+          "path": "presets/anime-academy-romance/backgrounds/romance_sakuragaoka_school_gate_rain.png"
         },
         {
-          "file": "Horizontal Japanese Tea Room.png",
-          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Japanese Tea Room.png"
+          "file": "romance_rooftop_festival_dusk.png",
+          "path": "presets/anime-academy-romance/backgrounds/romance_rooftop_festival_dusk.png"
         }
       ]
     }

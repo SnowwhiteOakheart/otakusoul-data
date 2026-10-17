@@ -19,7 +19,7 @@
   "solo_mode": false,
   "max_actor_depth": 3,
   "dice_rolls_enabled": true,
-  "starting_bg": "Horizontal Elkia Throne Room.png",
+  "starting_bg": "isekai_lumina_summoning_hall.png",
   "starting_ambient": "None",
   "lock_bg": false,
   "disable_ambient": false,
@@ -115,16 +115,16 @@
     "otakusoul_assets": {
       "backgrounds": [
         {
-          "file": "Horizontal Elkia Throne Room.png",
-          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Throne Room.png"
+          "file": "isekai_lumina_summoning_hall.png",
+          "path": "presets/isekai-aetheria/backgrounds/isekai_lumina_summoning_hall.png"
         },
         {
-          "file": "Horizontal Elkia Grand Library.png",
-          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Grand Library.png"
+          "file": "isekai_lumina_guild_hall.png",
+          "path": "presets/isekai-aetheria/backgrounds/isekai_lumina_guild_hall.png"
         },
         {
-          "file": "dungeon_meshi_ep1_skorpionsuppe.png",
-          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep1_skorpionsuppe.png"
+          "file": "isekai_aetheria_star_chamber.png",
+          "path": "presets/isekai-aetheria/backgrounds/isekai_aetheria_star_chamber.png"
         }
       ]
     }

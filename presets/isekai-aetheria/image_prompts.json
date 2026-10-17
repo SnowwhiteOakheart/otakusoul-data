@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in ImageGen",
+  "date": "2026-10-17",
+  "mode": "Text-to-image 16:9 visual novel background illustrations (no characters, no text)",
+  "backgrounds": {
+    "isekai_lumina_summoning_hall.png": "Anime visual novel background art, wide 16:9 establishing shot, grand cathedral summoning hall in a high-fantasy royal capital. Towering white marble pillars with gold filigree, tall stained-glass windows streaming golden morning light, a massive intricate glowing golden and azure magic summoning circle engraved into the polished stone floor with floating mana motes rising into the air. Strictly no people, no characters, no text or watermarks.",
+    "isekai_aetheria_star_chamber.png": "Anime visual novel background art, wide 16:9 establishing shot, ancient subterranean elven star chamber deep inside a fantasy dungeon labyrinth. High vaulted ceiling covered in glowing blue star-crystal formations like a night sky, carved stone channels in the floor filled with luminous liquid cyan mana, a raised stone altar in the center holding an ornate rune-carved treasure chest, mystical and tense atmosphere. Strictly no people, no characters, no text or watermarks.",
+    "isekai_lumina_guild_hall.png": "Anime visual novel background art, wide 16:9 establishing shot, warm and inviting fantasy Adventurer's Guild hall interior. Timber-framed architecture with warm stone walls, a large wooden quest board covered in pinned parchment notices and wax seals, a polished wooden reception counter, hanging warm mana lanterns, sunlit windows. Strictly no people, no characters, no text or watermarks."
+  },
+  "postprocessing": [
+    "Resized/cropped to 1376x768 PNG (16:9 standard background format for OtakuSoul)."
+  ],
+  "provenance": "New AI-generated background art created from text descriptions only."
+}

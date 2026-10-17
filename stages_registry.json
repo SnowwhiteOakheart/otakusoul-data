@@ -822,7 +822,7 @@
       "description": "Tief unter Japantown liegt ein geflutetes Arasaka-Schattenlabor. Du drichst mit der Hackerin Kurumi und der Schwertkämpferin Shinku ein, um einen Relikt-Splitter zu bergen – bevor das Schwarze ICE zuschnappt.",
       "starting_location": "Gefluteter Serverkorridor des Schattenlabors Kuro-7 (Japantown)",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_ghost_in_subgrid.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-17",
       "translations": {
         "en": {
@@ -844,7 +844,7 @@
       "description": "Eine Übergabe in einer regennassen Seitengasse nahe dem Afterlife läuft aus dem Ruder: Der Konzern-Käufer will den Biochip, ohne zu zahlen – und am Himmel kreisen bereits bewaffnete AVs.",
       "starting_location": "Neon-Hinterhofgasse nahe dem Afterlife (Watson)",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_afterlife_deal.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-17",
       "translations": {
         "en": {
@@ -866,7 +866,7 @@
       "description": "Im Thronsaal von Limgard zeigt die königliche Schätzungskugel bei dir „Mana: 0“ – woraufhin dich der Hof vor die Tore setzt. Doch Frieren und Megumin entdecken an deinem Statusfenster etwas, das den Hofmagiern entgangen ist.",
       "starting_location": "Vorplatz der Freien Abenteurergilde von Astralis",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_null_mana_summoning.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-17",
       "translations": {
         "en": {
@@ -888,7 +888,7 @@
       "description": "Eine Notfall-Quest der Abenteurergilde führt dich mit Rem und Marcille tief in ein versunkenes Ruinen-Labyrinth – wo das Weltsystem vor einem erwachenden Dungeon-Kern warnt.",
       "starting_location": "Unterirdisches Kristall-Sanktuarium vor der Kammer des Dungeon-Kerns",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_labyrinth_of_aetheria.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-17",
       "translations": {
         "en": {
@@ -910,7 +910,7 @@
       "description": "Ein plötzlicher Wolkenbruch hält dich nach Unterrichtsschluss mit Marin, Nagatoro und Aoi im Klubraum fest. Jede der drei wollte heute eigentlich allein mit dir nach Hause gehen – und du hast nur einen einzigen Schirm.",
       "starting_location": "Klubraum im dritten Stock bei prasselndem Sommerregen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rainy_clubroom_confessions.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-17",
       "translations": {
         "en": {
@@ -932,7 +932,7 @@
       "description": "Die Legende des großen Abendballs besagt: Wer beim ersten Feuerwerk auf dem Balkon zusammensteht, bleibt für immer verbunden. Kaguya, Asuna und Rem haben dich alle drei zur selben Minute dorthin bestellt.",
       "starting_location": "Mit Lampions beleuchtete Dachterrasse über dem Festsaal kurz vor dem Feuerwerk",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rooftop_festival_fireworks.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-17",
       "translations": {
         "en": {

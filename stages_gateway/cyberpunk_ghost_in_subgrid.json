@@ -19,7 +19,7 @@
   "solo_mode": false,
   "max_actor_depth": 3,
   "dice_rolls_enabled": true,
-  "starting_bg": "Horizontal Digital Battlefield.png",
+  "starting_bg": "cyberpunk_kabuki_safehouse.png",
   "starting_ambient": "None",
   "lock_bg": false,
   "disable_ambient": false,
@@ -115,16 +115,16 @@
     "otakusoul_assets": {
       "backgrounds": [
         {
-          "file": "Horizontal Digital Battlefield.png",
-          "path": "presets/no-game-no-life/backgrounds/Horizontal Digital Battlefield.png"
+          "file": "cyberpunk_kabuki_safehouse.png",
+          "path": "presets/cyberpunk-night-city/backgrounds/cyberpunk_kabuki_safehouse.png"
         },
         {
-          "file": "lycoris_recoil_ep3_jagd_nach_walnut.png",
-          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep3_jagd_nach_walnut.png"
+          "file": "cyberpunk_watson_neon_alley.png",
+          "path": "presets/cyberpunk-night-city/backgrounds/cyberpunk_watson_neon_alley.png"
         },
         {
-          "file": "lycoris_recoil_ep2_geleitschutz_tokio.png",
-          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep2_geleitschutz_tokio.png"
+          "file": "cyberpunk_afterlife_vip_booth.png",
+          "path": "presets/cyberpunk-night-city/backgrounds/cyberpunk_afterlife_vip_booth.png"
         }
       ]
     }
