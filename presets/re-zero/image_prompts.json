@@ -1,0 +1,34 @@
+{
+  "tool": "OpenAI built-in ImageGen",
+  "date": "2026-10-17",
+  "mode": "Five text-to-image master portraits; six independent identity-preserving edits per character",
+  "shared_portrait_prompt": "Use case: stylized-concept. Asset type: OtakuSoul character-card portrait. Create one solo vertical 3:4 anime illustration faithful to Re:Zero's recognizable character design, refined crisp lineart and soft cel shading. Composition: centered waist-up, complete head and hair ornaments with generous headroom, eyes clearly visible, tasteful canonical outfit, age-appropriate nonsexual presentation. Soft understated fantasy background, polished face, no text, logo, watermark, panels, duplicate characters or borders. ",
+  "portrait_subjects": {
+    "rem": "Rem: teenage oni maid, short sky-blue bob, bangs covering her right eye, visible blue left eye, white maid headdress with pale pink flower and ribbon hair ornaments, canonical black-and-white frilled maid uniform with covered bodice, white apron and sleeves, hands calmly folded, restrained gentle smile, soft blue-lit Roswaal mansion corridor.",
+    "ram": "Ram: teenage oni maid, short pastel pink bob, bangs covering her left eye, visible red-pink right eye, white maid headdress with pale pink flower and ribbon ornaments, canonical modest black-and-white frilled maid uniform, white apron and sleeves, upright proud stance, dry composed expression, soft rose-lit Roswaal mansion corridor.",
+    "echidna": "Echidna, Witch of Greed: long flowing snow-white hair, pale skin, dark gray eyes, long distinctive white eyelashes, black butterfly-shaped hair ornament, canonical high-neck long-sleeved black dress with white trim and small white chest bow, elegant composed curious smile, misty white tea garden in background.",
+    "beatrice": "Beatrice: small childlike spirit librarian with canonical youthful proportions, huge blonde twin drill curls tied with pink bows, blue eyes with pink butterfly-shaped pupils, elaborate fully covered pink-red Victorian dress with white frills, blue ribbon and small crown-like hair ornament, both hands holding a closed book at chest height, proud pout, warm magical library background. Strictly wholesome childlike character, no adult proportions.",
+    "subaru_natsuki": "Subaru Natsuki: teenage boy with short spiky black hair, slightly angular expressive brown eyes, canonical black-white-orange zip-up tracksuit jacket and black sports trousers, athletic ordinary build, lively but earnest grin, one hand loosely raised in greeting, soft fantasy mansion courtyard background."
+  },
+  "expression_reference": "Each character's own generated master, corresponding to <slug>.png; no external image input.",
+  "expression_prompt_template": "Use case: identity-preserve. Input image 1 is the portrait edit target. Make one standalone emotion portrait of this exact Re:Zero character for an OtakuSoul chat card. Change only the facial expression to MOOD. Preserve the exact face identity, age, canonical eye colors, covered eye if present, hairstyle, hair ornaments, clothing, body proportions, pose, hands, background, lighting, and clean anime linework. Keep a centered vertical portrait and sufficient headroom. No text, watermark, grid, extra people, new objects, adult restyling or sexualization. Emotion must be visibly legible while the rest stays consistent.",
+  "emotion_descriptions": {
+    "neutral": "a genuinely neutral attentive expression: level relaxed brow, mouth closed without a smile, calm open eyes",
+    "happy": "a clearly happy delighted expression: warm broad smile with corners lifted, cheeks raised and bright joyful eyes",
+    "relaxed": "a distinctly relaxed restful expression: eyelids gently closed, soft contented small smile, completely unknotted brow",
+    "surprised": "a clearly surprised expression: eye or eyes widened, eyebrows raised, lips forming a small open O",
+    "angry": "a clearly angry determined expression: lowered inward eyebrows, narrowed eye or eyes and a tight frown; no violence",
+    "sad": "a clearly sad vulnerable expression: inward raised eyebrows, downturned mouth, eye or eyes glistening with one restrained tear"
+  },
+  "sources": [
+    "https://re-zero-anime.jp/tv/character/",
+    "https://www.re-zero.com/character/",
+    "https://re-zero.com/character/エキドナ/"
+  ],
+  "postprocessing": [
+    "Master portraits center-fitted with ImageMagick to 700x937 PNG.",
+    "Expression edits center-fitted with Pillow to 640x800 WebP, quality 92.",
+    "Complete V2 JSON embedded in PNG tEXt/chara; gateway expressions rewritten to public repository URLs; portrait pixels preserved during embedding."
+  ],
+  "provenance": "New AI-generated unofficial fan art. No official artwork or third-party fan art was used as image input."
+}

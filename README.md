@@ -22,7 +22,7 @@ Separates Inhaltsrepository für [OtakuSoul](https://github.com/SnowwhiteOakhear
 
 ### Inhalte und Verwendung
 
-Die Pakete umfassen **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, weitere Anime-Einzel-Presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) sowie die Originalfiguren **Ren Takahashi / Aoi Mizuno** aus der Aobane Highschool. Der Arbeitsstand einschließlich der Emotionsbilder steht in [ROADMAP.md](ROADMAP.md).
+Die Pakete umfassen **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, [**Re:Zero**](presets/re-zero/README.md), weitere Anime-Einzel-Presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) sowie die Originalfiguren **Ren Takahashi / Aoi Mizuno** aus der Aobane Highschool. Der Arbeitsstand einschließlich der Emotionsbilder steht in [ROADMAP.md](ROADMAP.md).
 
 Die App lädt die drei Registries über ihre Hub-/Gateway-Ansichten. PNG-Charakterkarten lassen sich auch manuell importieren: Sie enthalten die Character-Card-V2-Definition als `chara`-Metadaten. Preset-Karten verwenden relative Bildpfade; Gateway-Karten öffentliche Repository-URLs. Für den manuellen Paketimport die Verzeichnisstruktur beibehalten. Beim Import einer Szene aus dem Hub lädt die App deren Hintergrundbilder automatisch mit. VRM-Modelle bei Bedarf separat importieren; es gibt keinen eigenen Hintergrundkatalog.
 
@@ -61,6 +61,7 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt. Alle da
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
 - **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
 - **Neverness to Everness:** © Hotta Studio / Perfect World
+- **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 
 ---
 
@@ -84,7 +85,7 @@ Separate content repository for [OtakuSoul](https://github.com/SnowwhiteOakheart
 
 ### Content and usage
 
-Packages include **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, additional anime character presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) and original **Ren Takahashi / Aoi Mizuno** characters from Aobane Highschool. [ROADMAP.md](ROADMAP.md) tracks progress, including expression images.
+Packages include **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, [**Re:Zero**](presets/re-zero/README.md), additional anime character presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) and original **Ren Takahashi / Aoi Mizuno** characters from Aobane Highschool. [ROADMAP.md](ROADMAP.md) tracks progress, including expression images.
 
 The app reads the three registries through its Hub/Gateway views. PNG character cards also support manual import: they embed the Character Card V2 definition in `chara` metadata. Preset cards use relative image paths; Gateway cards use public repository URLs. Preserve the folder structure when importing a package manually. When a scene is imported from the Hub, the app downloads its background pictures along with it. Import VRM models separately as needed; there is no dedicated background catalog.
 
@@ -123,6 +124,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
 - **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
 - **Neverness to Everness:** © Hotta Studio / Perfect World
+- **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 
 ---
 
@@ -146,7 +148,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 
 ### Контент и использование
 
-Доступны наборы **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, дополнительные пресеты персонажей (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) и оригинальные персонажи **Ren Takahashi / Aoi Mizuno** из старшей школы Aobane. Ход работы, включая изображения эмоций, отражён в [ROADMAP.md](ROADMAP.md).
+Доступны наборы **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **Elfen Lied**, [**Re:Zero**](presets/re-zero/README.md), дополнительные пресеты персонажей (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) и оригинальные персонажи **Ren Takahashi / Aoi Mizuno** из старшей школы Aobane. Ход работы, включая изображения эмоций, отражён в [ROADMAP.md](ROADMAP.md).
 
 Приложение читает три реестра в разделах Hub/Gateway. PNG-карточки также можно импортировать вручную: определение Character Card V2 встроено в метаданные `chara`. Карточки наборов используют относительные пути к изображениям, а карточки Gateway — публичные URL репозитория. При ручном импорте набора сохраняйте структуру каталогов. При импорте сцены из Hub приложение автоматически загружает её фоновые изображения. VRM-модели при необходимости импортируются отдельно; отдельного каталога фонов нет.
 
@@ -185,3 +187,4 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
 - **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
 - **Neverness to Everness:** © Hotta Studio / Perfect World
+- **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project

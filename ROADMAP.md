@@ -249,3 +249,16 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] `recommended_models.json` als Spiegel des Starter-Katalogs der App neu aufgebaut (5 Apache-2.0-Modelle mit SHA-256, Grafikspeicher und DE/EN/RU-Beschreibung); ungeprüfte 70B-Liste vom Juni entfernt.
 - [x] `AI.md` um Szenen- und Lorebook-Format der App, Hintergrund-Assets, 5e-Regeln, Spieltexte und Modellkatalog ergänzt; README DE/EN/RU („Stage“, automatische Hintergründe, Modellübersicht); Spieltext „None.“ in DE/RU.
 - [x] `recommended_models.json` wird von der App beim Start geladen und ersetzt deren mitgelieferten Katalog, wenn die `version` höher ist; Format und Prüfregeln in `AI.md`.
+
+
+<!-- re-zero:start -->
+### Re:Zero-Charaktere mit Expressions
+
+1/5 Figuren mit DE/EN/RU-Profilen, je einem Hauptporträt und sechs Emotionsbildern veröffentlicht.
+
+- [x] Rem: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
+- [ ] Ram: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
+- [ ] Echidna: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
+- [ ] Beatrice: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
+- [ ] Subaru Natsuki: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
+<!-- re-zero:end -->
