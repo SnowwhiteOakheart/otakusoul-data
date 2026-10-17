@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Checks the structure of the content repository (cards, scenes, lorebooks, registries).
+"""Checks the structure of the content repository (cards, scenes, lorebooks, registries, model catalogue).
 
 Usage (from the repository root):
     python3 tools/validate_content.py                  # check only, exit code 1 on errors
@@ -263,6 +263,43 @@ def sync_registry(file: str, key: str, fields: dict[str, str]):
     print(f'{file}: {changed} Einträge abgeglichen')
 
 
+OPEN_LICENSES = {'apache-2.0', 'mit', 'bsd-2-clause', 'bsd-3-clause'}
+
+
+def check_models():
+    """recommended_models.json: what the app's model catalogue needs (model_catalog.rs)."""
+    content = load_json(os.path.join(ROOT, 'recommended_models.json'))
+    if not content:
+        return 0
+    if not content.get('version'):
+        errors.append('recommended_models.json: version fehlt')
+    seen = set()
+    for m in content.get('models') or []:
+        label = f'recommended_models.json: {m.get("id")}'
+        for field in ('id', 'name', 'hf_id', 'file', 'size_bytes', 'sha256', 'license', 'quantization', 'runtime', 'vram_mb'):
+            if not m.get(field):
+                errors.append(f'{label}: Feld {field} fehlt')
+        if m.get('id') in seen:
+            errors.append(f'{label}: doppelt')
+        seen.add(m.get('id'))
+        sha = str(m.get('sha256', ''))
+        if len(sha) != 64 or any(c not in '0123456789abcdef' for c in sha.lower()):
+            errors.append(f'{label}: sha256 ungültig')
+        repo = str(m.get('hf_id', ''))
+        if repo.count('/') != 1 or '..' in repo or not str(m.get('file', '')).lower().endswith('.gguf') or '/' in str(m.get('file', '')):
+            errors.append(f'{label}: hf_id oder file ungültig')
+        if m.get('runtime') not in ('standard', 'prism'):
+            errors.append(f'{label}: runtime {m.get("runtime")!r} unbekannt')
+        if set((m.get('description') or {})) != LANGS:
+            warnings.append(f'{label}: description nicht in {sorted(LANGS)}')
+        if str(m.get('license', '')).lower() not in OPEN_LICENSES and set((m.get('license_note') or {})) != LANGS:
+            errors.append(f'{label}: Lizenz {m.get("license")!r} ist nicht frei – license_note in {sorted(LANGS)} nötig')
+        url = m.get('license_url')
+        if url and not str(url).startswith('https://'):
+            errors.append(f'{label}: license_url muss https sein')
+    return len(content.get('models') or [])
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument('--sync-registry', action='store_true', help='Listentexte aus den Dateien in die Registries übernehmen')
@@ -325,11 +362,13 @@ def main():
                     if scene:
                         check_scene(os.path.join(dirpath, name), scene, names, lorebook_names)
 
+    models = check_models()
+
     for line in warnings:
         print(f'Warnung: {line}')
     for line in errors:
         print(f'FEHLER:  {line}')
-    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen geprüft: '
+    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {models} Modelle geprüft: '
           f'{len(errors)} Fehler, {len(warnings)} Warnungen')
     sys.exit(1 if errors else 0)
 

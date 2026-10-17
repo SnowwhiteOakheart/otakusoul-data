@@ -142,16 +142,20 @@ im App-Repository) und lädt beim Start diese Datei; es gilt die höhere `versio
 `version` erhöhen (`last_updated` setzen); bei einem App-Release die mitgelieferte Kopie angleichen.
 
 - Eintrag: `id` (eindeutig), `name`, `hf_id` (`besitzer/repo` auf Hugging Face), `file` (`.gguf` im Repo-Hauptzweig),
-  `size_bytes`, `sha256` (der Datei laut Hugging Face), `license`, `quantization`, `runtime` (`standard` oder `prism` für
-  PrismML-Dateien wie PQ2_0), `vram_mb` (Grafikspeicher samt Start-Kontext), optional `preferred` (wird empfohlen, sobald
-  es passt), `description` mit `de`, `en`, `ru`.
-- Die App überspringt Einträge mit anderer Lizenz als Apache-2.0, MIT oder BSD, fehlerhafter SHA-256, Pfadangaben im
-  Dateinamen oder unbekannter Laufzeit. Bleibt nichts übrig, nutzt sie ihre Kopie.
-- Empfehlung: das `preferred`-Modell, wenn es in Grafikspeicher − `desktop_reserve_mb` passt, sonst das größte passende.
-- Nur frei lizenzierte, ohne Anmeldung ladbare Modelle; keine Modellgewichte im Repository, keine nicht-kommerziellen
-  Sprachmodelle. Größe und SHA-256 vor dem Eintragen an der Quelle prüfen.
-
-Übersetzungen in bestehenden Erweiterungsstrukturen vollständig erhalten. Die Repo-Datei allein garantiert nicht, dass jede App-Version jede Erweiterung beim Import übernimmt; keine App-Kompatibilität behaupten, die nicht geprüft wurde. App-Code nur nach gesondertem Auftrag ändern. Englisch benötigt hier keine künstliche `locales/en.json`: die englische App-Basis liegt im App-Repository.
+  `size_bytes`, `sha256` (der Datei laut Hugging Face), `license` (SPDX-Kennung bzw. Lizenzname wie `llama3.3`, `gemma`,
+  `nvidia-open-model-license`; ohne Angabe beim Autor `unknown`), `quantization`, `runtime` (`standard` oder `prism` für
+  PrismML-Dateien wie PQ2_0), `vram_mb` (Grafikspeicher samt Start-Kontext, möglichst mit `gpu_e2e llm` gemessen), optional
+  `preferred` (wird empfohlen, sobald es passt), `description` mit `de`, `en`, `ru`.
+- Lizenzen: Nur Modelle, die sich **ohne Login** laden lassen (nicht „gated“). Freie Lizenzen (Apache-2.0, MIT, BSD) brauchen
+  nichts weiter. Jede andere Lizenz (Llama, Gemma, NVIDIA, nicht-kommerziell, keine Angabe) ist erlaubt, braucht aber
+  `license_note` mit `de`, `en`, `ru` (ein Satz, was sie einschränkt) und optional `license_url` (sonst die Modellseite). Die
+  App kennzeichnet solche Modelle und empfiehlt automatisch nur frei lizenzierte.
+- Die App überspringt Einträge mit fehlerhafter SHA-256, Pfadangaben im Dateinamen, leerer Lizenz oder unbekannter Laufzeit.
+  Bleibt nichts übrig, nutzt sie ihre Kopie.
+- Empfehlung: das `preferred`-Modell, wenn es in Grafikspeicher − `desktop_reserve_mb` passt, sonst das größte passende –
+  jeweils nur unter frei lizenzierten.
+- Keine Modellgewichte im Repository. Größe und SHA-256 vor dem Eintragen an der Quelle prüfen; `tools/validate_content.py`
+  prüft den Katalog mit.
 
 ## Werkzeuge und Prüfungen
 
