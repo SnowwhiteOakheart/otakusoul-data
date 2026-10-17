@@ -1,0 +1,29 @@
+{
+  "generator": "OpenAI built-in ImageGen",
+  "mode": "text-to-image, one call per character",
+  "date": "2026-10-17",
+  "input_images": [],
+  "shared_prompt": "Use case: stylized-concept. Asset type: OtakuSoul character-card portrait, final crop 700x937. Create one polished vertical anime game character portrait faithful to the canonical default design. Solo centered upper-thigh three-quarter framing, complete head and distinguishing features visible, safe margin for a 3:4 crop. Premium modern anime RPG key art, crisp cel shading blended with a soft painterly finish, understated supernatural urban or dreamlike gradient backdrop. Exactly one main character (plus only the specifically named small companion), adult or young-adult proportions, no text, logo, watermark, UI, or border.",
+  "characters": {
+    "mint": "Mint: very long vivid turquoise high ponytail, turquoise cat ears with white tufts and dark cat ornament, reddish-magenta eyes, white sleeveless high-collar cropped uniform, gold bell and black ribbon, fitted black corset, short black pleated skirt, fingerless gloves, utility straps, cat-faced tech pouch; friendly confident expression; teal-and-charcoal urban lighting.",
+    "iroi": "Iroi: long mint-green layered hair with curled ends, pink-magenta eyes, large dark curled ram horns with magenta accents, small sheep ears, white-and-silver futuristic fantasy uniform with restrained hot-pink details; calm warm smile; one small white-and-gray mechanical dream-sheep near her shoulder; pale mint dreamscape.",
+    "lacrimosa": "Lacrimosa: petite young adult, split-color bob with black left side and silver-white right side, red eyes, red X hair clip, white ribbon ornaments, sleepy expression; red cropped streetwear jacket, white ruffled blouse and black bow, black corset, layered black-and-white skirt, straps and buckles; small tomato drink can; crimson urban lighting.",
+    "nanally": "Nanally Colucci: short young adult cat hybrid, long red-pink hair, curled ahoge, black cat ears with white tufts, dark tail, matching eyes, round boss-style glasses; black cropped blazer, white shirt and tie, hot-pink pleated skirt, gloves and pouches; grand pointing pose and exuberant grin; magenta antique-shop lighting.",
+    "linko": "Linko: fluffy short bubblegum-pink hair, tiny side ponytail and curled ahoge, green-cyan eyes, two black spiral antenna accessories, tech headphones, teal oversized futuristic jacket with white patterned sleeves and pink trim, dark top with green circular symbol; saluting, curious expression. Xiaozhen appears only as a small cyan ghost companion emerging from the compact TV backpack; teal-pink frequency backdrop.",
+    "zero_female": "Female Esper Zero: shoulder-length silver-gray hair, black headband, small ahoge, gray-violet eyes, white button-up shirt, lavender tie, cropped dark short-sleeve jacket with buckles, pleated dark skirt, fingerless gloves, utility belt and left-thigh strap; poised appraiser stance with restrained sci-fi sword; black-silver-lavender rift lighting.",
+    "zero_male": "Male Esper Zero: short tousled silver-gray hair with two small ahoges, gray-violet eyes, white button-up shirt, lavender tie, structured dark jacket with buckles, fitted dark trousers, fingerless gloves and utility belt; thoughtful appraiser stance with restrained sci-fi sword; black-silver-lavender rift lighting."
+  },
+  "references": [
+    "https://nte.perfectworld.com/en/character/index.html",
+    "https://nte.perfectworld.com/en/article/news/gamenews/20240830/252475.html",
+    "https://nte.perfectworld.com/en/article/news/gamenews/20240830/252474.html",
+    "https://nte.perfectworld.com/en/article/news/gamenews/20241122/253815.html",
+    "https://nte.perfectworld.com/en/article/news/gamenews/20260728/263296.html",
+    "https://nte.perfectworld.com/en/article/news/gamenews/20260908/263947.html"
+  ],
+  "postprocessing": [
+    "Each generated PNG was center-cropped and resized with ImageMagick to exactly 700x937 pixels.",
+    "The complete matching UTF-8 Character Card V2 JSON was Base64-encoded into the PNG tEXt field named chara with Pillow.",
+    "Preset and gateway PNGs use the same portrait pixels and the same embedded profile because these cards contain no relative expression paths."
+  ]
+}
