@@ -336,6 +336,13 @@
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/mint.png",
       "revision": 1,
       "updated": "2026-10-17"
+    },
+    {
+      "name": "Iroi",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/iroi.png",
+      "revision": 1,
+      "updated": "2026-10-17"
     }
   ]
 }
