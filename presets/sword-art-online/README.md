@@ -26,5 +26,5 @@ Die zugehörigen Soul-Stage-Szenen und Lorebooks sind im Gateway veröffentlicht
 
 Alle Charakterporträts und Hintergründe sind originäre KI-generierte Fanarts, die aus Textbeschreibungen entstanden sind. Es wurden keine Original-Screenshots oder Grafiken aus dem Anime oder der Light Novel übernommen.
 
-- **Eigene Texte und Skripte:** Unterliegen der MIT-Lizenz (siehe [LICENSE](../../LICENSE)).
+- **Eigene Texte und Skripte:** Unterliegen der GNU General Public License v3.0 (`GPL-3.0-only`, siehe [LICENSE](../../LICENSE)).
 - **Marken & Urheberrecht:** *Sword Art Online* ist das geistige Eigentum von Reki Kawahara / abec / ASCII Media Works / KADOKAWA / A-1 Pictures. Dies ist ein inoffizielles Fanprojekt ohne kommerzielle Absicht oder Verbindung zu den Rechteinhabern.

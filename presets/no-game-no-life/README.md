@@ -125,6 +125,6 @@ The portraits and the 12 scene backgrounds are original AI-generated art in the 
 of official art or screenshots - see [AVATAR-PROMPTS.md](AVATAR-PROMPTS.md) and
 [BACKGROUND-PROMPTS.md](BACKGROUND-PROMPTS.md) for the prompts used.
 
-License of the cards and lorebook text: same as the rest of this repository (MIT License for original contributions, see [LICENSE](../../LICENSE)). *No Game No Life* is a
+License of the cards and lorebook text: same as the rest of this repository (GNU GPLv3 / `GPL-3.0-only` for original contributions, see [LICENSE](../../LICENSE)). *No Game No Life* is a
 trademark of its respective copyright holders (Yuu Kamiya / Media Factory / KADOKAWA / MADHOUSE); this is unofficial fan
 content, not affiliated with them, and is not published outside this repository.

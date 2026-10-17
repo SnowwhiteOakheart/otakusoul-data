@@ -41,7 +41,7 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 
 Der zweite Befehl prüft einen vorhandenen Kampagnencharakter. Mit `--manifest` paketiert das Werkzeug neue Expressions und aktualisiert die Roadmap; Details stehen in [AI.md](AI.md).
 
-[LICENSE](LICENSE) enthält die Nutzungsbedingungen und Hinweise zu KI-generierter Fanart, eigenen Beiträgen und fremden Rechten. Herkunft, Bildprompts und vorhandene Lizenzhinweise bleiben bei den Paketen erhalten, insbesondere [VRM-Hinweise](avatars/vrm/lizenzen.txt). Die Veröffentlichung stellt keine pauschale Lizenz für zugrunde liegende Anime-/Spielwerke oder fremde Modelle dar.
+[LICENSE](LICENSE) enthält die **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) für eigene Skripte, Texte und Beiträge sowie dreisprachige Hinweise zu KI-generierter Fanart, Credits (u. a. [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) von [jofizcd](https://github.com/jofizcd)) und fremden Rechten. Herkunft, Bildprompts und vorhandene Lizenzhinweise bleiben bei den Paketen erhalten, insbesondere [VRM-Hinweise](avatars/vrm/lizenzen.txt). Die Veröffentlichung stellt keine pauschale Lizenz für zugrunde liegende Anime-/Spielwerke oder fremde Modelle dar.
 
 ### Rechtliche Hinweise & Marken
 
@@ -104,7 +104,7 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 
 The second command validates an existing campaign character. With `--manifest`, the tool packages new expressions and updates the roadmap; see [AI.md](AI.md).
 
-[LICENSE](LICENSE) contains usage terms and notices about AI-generated fan art, original contributions and third-party rights. Attribution, image prompts and existing license notices remain with the packages, especially [VRM notices](avatars/vrm/lizenzen.txt). Publication does not grant a blanket license to underlying anime/game works or third-party models.
+[LICENSE](LICENSE) contains the **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) for original scripts, texts and contributions, together with trilingual notices about AI-generated fan art, credits (including [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) by [jofizcd](https://github.com/jofizcd)) and third-party rights. Attribution, image prompts and existing license notices remain with the packages, especially [VRM notices](avatars/vrm/lizenzen.txt). Publication does not grant a blanket license to underlying anime/game works or third-party models.
 
 ### Legal Notices & Trademarks
 
@@ -167,7 +167,7 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 
 Вторая команда проверяет существующего персонажа кампании. С параметром `--manifest` инструмент упаковывает новые изображения эмоций и обновляет дорожную карту; подробности — в [AI.md](AI.md).
 
-[LICENSE](LICENSE) содержит условия использования и сведения о фан-арте ИИ, собственных материалах и правах третьих лиц. Источники, промпты изображений и имеющиеся лицензионные сведения сохраняются в наборах, особенно [сведения о VRM](avatars/vrm/lizenzen.txt). Публикация не предоставляет общую лицензию на исходные аниме, игры или сторонние модели.
+[LICENSE](LICENSE) содержит лицензию **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) для собственных скриптов, текстов и материалов, а также трёхъязычные уведомления о фан-арте ИИ, благодарностях (включая [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) от [jofizcd](https://github.com/jofizcd)) и правах третьих лиц. Источники, промпты изображений и имеющиеся лицензионные сведения сохраняются в наборах, особенно [сведения о VRM](avatars/vrm/lizenzen.txt). Публикация не предоставляет общую лицензию на исходные аниме, игры или сторонние модели.
 
 ### Правовые уведомления и товарные знаки
 

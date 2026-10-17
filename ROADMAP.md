@@ -249,6 +249,7 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] `recommended_models.json` als Spiegel des Starter-Katalogs der App neu aufgebaut (5 Apache-2.0-Modelle mit SHA-256, Grafikspeicher und DE/EN/RU-Beschreibung); ungeprüfte 70B-Liste vom Juni entfernt.
 - [x] `AI.md` um Szenen- und Lorebook-Format der App, Hintergrund-Assets, 5e-Regeln, Spieltexte und Modellkatalog ergänzt; README DE/EN/RU („Stage“, automatische Hintergründe, Modellübersicht); Spieltext „None.“ in DE/RU.
 - [x] `recommended_models.json` wird von der App beim Start geladen und ersetzt deren mitgelieferten Katalog, wenn die `version` höher ist; Format und Prüfregeln in `AI.md`.
+- [x] `LICENSE`, `README.md` (DE/EN/RU) und die Lizenzhinweise der Paket-READMEs analog zu OtakuSoul auf die GNU General Public License v3.0 (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) mit dreisprachigen Hinweisen zu Fanart, KI, Marken, VRM und Credits für Soul of Waifu (`jofizcd`) aktualisiert.
 
 
 <!-- re-zero:start -->
