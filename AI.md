@@ -25,8 +25,8 @@ lorebooks_registry.json          Lorebook-Index
 lorebooks_gateway/*.json         veröffentlichte Lorebooks
 stages_registry.json             Szenenindex
 stages_gateway/*.json            veröffentlichte Szenen
-recommended_models.json         Empfehlungen, keine Modellgewichte
-locales/de.json / ru.json        externe App-Sprachdateien
+recommended_models.json         Spiegel des Starter-Katalogs der App, keine Modellgewichte
+locales/de.json / ru.json        Spieltexte der App (Schlüssel = englischer Text)
 avatars/                        zusätzliche Avatar-Dateien
 avatars/vrm/lizenzen.txt         Herkunft und Bedingungen der VRM-Modelle
 presets/cards/                  bestehende Einzelkarten
@@ -79,17 +79,67 @@ Registries sind JSON-Objekte mit `version` und der entsprechenden Liste:
   Lorebooks bleiben als Kopie erhalten. Die Registry-`id` einer Szene bzw. der Name einer Karte/eines Lorebooks ist der
   Schlüssel für Updates und darf nicht geändert werden.
 
-Vorhandene zusätzliche Felder erhalten. Jeder Download-Link muss auf eine vorhandene, eingecheckte Datei zeigen. Keine doppelten Einträge oder IDs. Keine lokalen Dateisystempfade in Registries.
+Vorhandene zusätzliche Felder erhalten (Ausnahme: die unten genannten veralteten Felder). Jeder Download-Link muss auf eine vorhandene, eingecheckte Datei zeigen. Keine doppelten Einträge oder IDs. Keine lokalen Dateisystempfade in Registries.
 
-Neue Szenen/Lorebooks nach einem bestehenden vollständigen Beispiel desselben Pakets erstellen. Szenen verwenden unter anderem `title`, `description`, `world_context`, `starting_location`, `opening_narration`, `first_message`, `party` und optionale Hintergrund-/Erzählparameter. Figurenbezüge und Bildpfade tatsächlich prüfen.
+Neue Szenen/Lorebooks nach einem bestehenden vollständigen Beispiel desselben Pakets erstellen. Figurenbezüge und Bildpfade tatsächlich prüfen.
 
-Szenen tragen zusätzlich Story-Daten für die Story-Galerie der App (ab OtakuSoul 0.5):
-`extensions.otakusoul_story` mit `genre` (`fantasy`, `adventure`, `slice_of_life`, `comedy`, `romance`, `mystery`, `scifi`,
-`horror`), `minutes` (typische Spieldauer), `difficulty` (`easy`/`medium`/`hard`), `notes` (Inhaltshinweise: `mild_danger`,
-`mild_violence`, `action`, `spooky`, `suspense`, `flirting`, `romance`, `dark_themes`, `death`), `beginner` (für Einsteiger
-empfohlen, z. B. erste Episode) und `choices` = je Sprache (`de`, `en`, `ru`) drei Startvorschläge
-`{text, badge, action_type}` (`action_type` `say`/`do`, `badge` optional eine Fertigkeit wie „Wahrnehmung“). `time_of_day`
-steht in der Ausgangssprache; `translations` enthalten auch `starting_location` und `time_of_day`. Lorebooks müssen vollständige Einträge enthalten; `entry_count` muss zur veröffentlichten Datei passen.
+### Szenen (`stages_gateway/*.json`)
+
+- Felder: `title`, `description`, `world_context`, `starting_location`, `time_of_day`, `opening_narration`, `first_message`,
+  `party` (Figurennamen wie in `soul_registry.json`), `gm_tone`, `narrator_style`, `persona`, `lorebook`, optional
+  `solo_mode`, `max_actor_depth`, `dice_rolls_enabled`, `starting_bg`, `starting_ambient` (`"None"` = Stille), `lock_bg`,
+  `disable_ambient`. Die `id` vergibt die App beim Import (`hub_<registry-id>`).
+- `persona`: Name, mit dem die Figuren den Spieler ansprechen (z. B. eine feste Hauptfigur der Geschichte). Leer = die
+  aktive Persona des Nutzers. Nie einen Platzhalter wie `"None"` eintragen – die App würde ihn als Namen verwenden.
+- `lorebook`: Liste von Lorebook-Namen in der Ausgangssprache des Lorebooks (Feld `name`, nicht die Übersetzung).
+- Übersetzt werden in `extensions.otakusoul_i18n.translations.<sprache>` genau diese Felder: `title`, `description`,
+  `world_context`, `starting_location`, `time_of_day`, `opening_narration`, `first_message`, `gm_tone`, `narrator_style`.
+- Hintergründe: `starting_bg` ist der Dateiname. Damit die App die Bilder beim Hub-Import mitlädt, listet
+  `extensions.otakusoul_assets.backgrounds` sie als `[{ "file": "<datei>", "path": "presets/<paket>/backgrounds/<datei>" }]`
+  (Startbild zuerst, dann die übrigen Bilder des Pakets, zwischen denen der Spielleiter wechseln kann). Nur PNG/JPG/WebP,
+  `path` relativ zum Repository unter `presets/`, ohne `..`; vorhandene Dateien überschreibt die App nicht.
+- 5e-Regeln (optional): `rules` mit `ruleset: "5e"`, `hero_classes` (Figur → Klasse), `control_companions`,
+  `heroic_death`, `map_id`, `goals`, `next_scene`. Monster, Zauber, Karten und Klassen müssen in der jeweiligen App-Version
+  existieren (SRD-Daten im App-Repository unter `presets/srd5/`); ohne Prüfung keine 5e-Szenen veröffentlichen.
+- Story-Daten für die Story-Galerie (ab OtakuSoul 0.5): `extensions.otakusoul_story` mit `genre` (`fantasy`, `adventure`,
+  `slice_of_life`, `comedy`, `romance`, `mystery`, `scifi`, `horror`), `minutes` (typische Spieldauer), `difficulty`
+  (`easy`/`medium`/`hard`), `notes` (Inhaltshinweise: `mild_danger`, `mild_violence`, `action`, `spooky`, `suspense`,
+  `flirting`, `romance`, `dark_themes`, `death`), `beginner` (für Einsteiger empfohlen, z. B. erste Episode) und `choices` =
+  je Sprache (`de`, `en`, `ru`) drei Startvorschläge `{text, badge, action_type}` (`action_type` `say`/`do`, `badge`
+  optional eine Fertigkeit wie „Wahrnehmung“).
+- Veraltet und zu entfernen: `conversation_method` (die App wählt das Modell selbst).
+
+### Lorebooks (`lorebooks_gateway/*.json`)
+
+Format der App (`LorebookEntry` in `src-tauri/src/modules/lorebook.rs`):
+
+- Buch: `name`, `description`, `scan_depth` (wie viele letzte Nachrichten durchsucht werden, Standard 5), optional
+  `is_global`, `entries`, `extensions.otakusoul_i18n` (übersetzt `name`, `description`). Keine `id` – die vergibt der Import.
+- Eintrag: `uid` (eindeutige Ganzzahl im Buch), `name`, `key` (Schlüsselwörter), optional `secondary_keys`, `exclude_key`
+  (verhindert das Auslösen), `regex_keys`, `content`, `trigger_type`, `probability` (0–100), optional `priority` (höher =
+  früher, Standard 10), `enabled`, `injection_behavior` (`passive` = Weltwissen, `active` = Anweisung an das Modell),
+  optional `case_sensitive`, `match_whole_words`, `chain_requires` / `chain_activates` (UIDs als Text, z. B. `["4"]`),
+  `tension_threshold`, `extensions.otakusoul_i18n` (übersetzt `name`, `content`, `key`).
+- `trigger_type`: `keyword` (Schlüsselwort im Verlauf), `regex`, `always_on` (immer, mit `probability` als Zufall),
+  `tension` (ab `tension_threshold` Szenenspannung). Ein Folge-Eintrag, der nur zusammen mit einem anderen erscheinen soll,
+  ist `always_on` mit `chain_requires`.
+- Alte Soul-of-Waifu-Felder wertet die App nicht aus; nicht mehr verwenden: `n_depth` (→ `scan_depth`), `depends_on`
+  (→ `chain_requires`), `sticky`, `cooldown`, `delay`, `chain_delay`, `min_msg`/`max_msg`, `semantic_trigger`, Trigger
+  `semantic`/`range` (→ `keyword`), `random` (→ `always_on`), `chain` (→ `always_on` + `chain_requires`), `sow_*`-Erweiterungen.
+  Die App wandelt solche Dateien beim Import zwar um, im Repository steht nur das App-Format.
+- Lorebooks müssen vollständige Einträge enthalten; `entry_count` muss zur veröffentlichten Datei passen.
+
+### Spieltexte (`locales/`)
+
+`locales/de.json` und `ru.json` übersetzen Texte, die die App selbst in Geschichten schreibt (`ContentLang::t`). Schlüssel ist
+der englische Text aus dem App-Code, Platzhalter wie `{name}` bleiben erhalten. Die App lädt die Dateien beim Start nach;
+neue Texte zuerst im App-Code anlegen und hier in beiden Sprachen ergänzen.
+
+### Modelle (`recommended_models.json`)
+
+Spiegel des eingebauten Starter-Katalogs der App (`models_hub::STARTERS`). Maßgeblich ist der Katalog in der App; Änderungen
+dort hier nachziehen (`version` erhöhen, `last_updated` setzen). Nur frei lizenzierte, ohne Anmeldung ladbare Modelle mit
+SHA-256 aus der Quelle; keine Modellgewichte im Repository, keine nicht-kommerziellen Sprachmodelle.
 
 Übersetzungen in bestehenden Erweiterungsstrukturen vollständig erhalten. Die Repo-Datei allein garantiert nicht, dass jede App-Version jede Erweiterung beim Import übernimmt; keine App-Kompatibilität behaupten, die nicht geprüft wurde. App-Code nur nach gesondertem Auftrag ändern. Englisch benötigt hier keine künstliche `locales/en.json`: die englische App-Basis liegt im App-Repository.
 

@@ -1,6 +1,6 @@
 # 🗺️ Roadmap: Optionale Inhalte für OtakuSoul (`otakusoul-data`)
 
-Dieses Dokument koordiniert die Erstellung und schrittweise Implementierung von modularen, optionalen Inhalten für **OtakuSoul**. Alle hier definierten Charaktere, Lorebooks und Soul-Stage-Kampagnen werden im Repository **[`SnowwhiteOakheart/otakusoul-data`](https://github.com/SnowwhiteOakheart/otakusoul-data)** gepflegt und stehen lokal in der App zur Verfügung, ohne das Basis-Release der Anwendung aufzublähen.
+Dieses Dokument koordiniert die Erstellung und schrittweise Implementierung von modularen, optionalen Inhalten für **OtakuSoul**. Alle hier definierten Charaktere, Lorebooks und Stage-Geschichten werden im Repository **[`SnowwhiteOakheart/otakusoul-data`](https://github.com/SnowwhiteOakheart/otakusoul-data)** gepflegt und stehen lokal in der App zur Verfügung, ohne das Basis-Release der Anwendung aufzublähen.
 
 ---
 
@@ -23,7 +23,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
      - `angry` (Schmollend / Wütend / Fokussiert)
      - `sad` (Betrübt / Nachdenklich / Pout)
 3. **Kampagnen & Lorebooks:**
-   - Strukturierte Soul-Stage-Szenarien mit Ziel-SG, GM-Tonalität, Anfangsort, Weltkontext und passenden `party`-Zusammenstellungen.
+   - Strukturierte Stage-Szenarien mit Ziel-SG, GM-Tonalität, Anfangsort, Weltkontext und passenden `party`-Zusammenstellungen.
    - Passende 16:9-Szenenhintergründe (1376×768 PNG) ohne Figuren im Bild für freie Avatar-Darstellung.
    - Detaillierte Welten-, Regel- und Orts-Lorebooks mit Keyword-Triggern.
 
@@ -62,7 +62,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 
 ---
 
-## 🗺️ Phase 2: Umfassende Serien-Kampagnen (Soul Stage, Lorebooks & Party-Cast)
+## 🗺️ Phase 2: Umfassende Serien-Kampagnen (Stage, Lorebooks & Party-Cast)
 
 ---
 
@@ -73,7 +73,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Dungeon-Ökologie:* Manafluss, Geister-Kreislauf, Labyrinth-Regeln (`dungeon_meshi_ecology.json`).
   - [x] *Monster-Küche & Rezepte:* Zubereitung von Riesen-Skorpionen, Basilisken (`dungeon_meshi_recipes.json`).
   - [x] *Figuren & Goldene Dynastie:* Labyrinth-Geschichte, Fallin-Rettung (`dungeon_meshi_world.json`).
-- **Soul-Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
+- **Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
   - [x] *Episode 1: Skorpionsuppe & Pilze* (`dungeon_meshi_ep1_skorpionsuppe.json`)
   - [x] *Episode 2: Der Klingen-Basilisk* (`dungeon_meshi_ep2_klingenbasilisk.json`)
   - [x] *Episode 3: Alraunen-Ernte* (`dungeon_meshi_ep3_alraunenernte.json`)
@@ -93,7 +93,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Weltlinien & Divergenz:* Alpha/Beta-Attraktorfelder, Reading Steiner (`steins_gate_divergence.json`).
   - [x] *Labor-Gadgets & D-Mails:* Telefon-Mikrowelle, IBN 5100 (`steins_gate_gadgets.json`).
   - [x] *Akihabara 2010 & SERN:* Zukunftsgadget-Labor, Radiogebäude (`steins_gate_akihabara.json`).
-- **Soul-Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
+- **Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
   - [x] *Episode 1: Die erste D-Mail* (`steins_gate_ep1_erste_dmail.json`)
   - [x] *Episode 2: Suche nach dem IBN 5100* (`steins_gate_ep2_ibn5100_suche.json`)
   - [x] *Episode 3: Operation Urd* (`steins_gate_ep3_operation_urd.json`)
@@ -113,7 +113,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *DA & Alan Institute:* Organisation, Lycoris-Agentinnen (`lycoris_recoil_da.json`).
   - [x] *Café LycoReco:* Café in Sumida, Menü, Stammkunden (`lycoris_recoil_cafe.json`).
   - [x] *Ausrüstung & Taktik:* Nicht-tödliche Munition, Chisatos Ausweichen (`lycoris_recoil_tactics.json`).
-- **Soul-Stage-Szenarien (Episoden):** *(Alle 4 in `stages_gateway` & `stages_registry.json` registriert)*
+- **Stage-Szenarien (Episoden):** *(Alle 4 in `stages_gateway` & `stages_registry.json` registriert)*
   - [x] *Episode 1: Willkommen im Café LycoReco* (`lycoris_recoil_ep1_willkommen_im_cafe.json`)
   - [x] *Episode 2: Geleitschutz durch Tokio* (`lycoris_recoil_ep2_geleitschutz_tokio.json`)
   - [x] *Episode 3: Jagd nach Walnut* (`lycoris_recoil_ep3_jagd_nach_walnut.json`)
@@ -132,7 +132,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Aincrad-Systemregeln:* Sword Skills, HP-Regeln, Permadeath (`sao_system_rules.json`).
   - [x] *Gilden & Fraktionen:* KoB, Fuurinkazan, Laughing Coffin (`sao_guilds_factions.json`).
   - [x] *Aincrad-Geografie:* Die 100 Ebenen, Startstadt, Labyrinthzonen (`sao_aincrad_geography.json`).
-- **Soul-Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
+- **Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
   - [x] *Episode 1: Die Verkündung* (`sao_ep1_die_verkuendung.json`)
   - [x] *Episode 2: Der Herrscher der ersten Ebene* (`sao_ep2_boss_ebene1.json`)
   - [x] *Episode 3: Wärme des Herzens* (`sao_ep3_waerme_des_herzens.json`)
@@ -164,7 +164,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 
 22 neue Avatare (700×937 PNG mit V2-Payload), 36 Expressions (640×800 WebP), eine zusätzliche Grimoire-Pose und 19 leere Szenenhintergründe (1376×768 PNG). Alle Avatare wurden ausschließlich aus Text generiert. Die Expressions und Grimoire-Pose verwenden nur die jeweils neu generierten Avatare als Referenz. Vorhandene Roadmap-Bilder wurden ersetzt.
 
-Die Hintergründe liegen im jeweiligen Preset unter `backgrounds/`; Szenen referenzieren ihren Dateinamen über `starting_bg`. Zur lokalen Nutzung die gewünschten Hintergründe über Soul Stage importieren. Expressions liegen unter `presets/<paket>/expressions/`; die Karten-Zuordnung verwendet `expressions/<paket>/<emotion>.webp` für das lokale Expressions-Verzeichnis. Bereits importierte lokale Karten bei Bedarf erneut importieren.
+Die Hintergründe liegen im jeweiligen Preset unter `backgrounds/`; Szenen referenzieren ihren Dateinamen über `starting_bg`. Beim Hub-Import einer Szene lädt die App die in `extensions.otakusoul_assets` gelisteten Hintergründe automatisch mit. Expressions liegen unter `presets/<paket>/expressions/`; die Karten-Zuordnung verwendet `expressions/<paket>/<emotion>.webp` für das lokale Expressions-Verzeichnis. Bereits importierte lokale Karten bei Bedarf erneut importieren.
 
 ## Originalfiguren vom 07.10.2026
 
@@ -243,3 +243,7 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Neuer Einzel-Charakter Lucy (Kaede / Nyu) aus Elfen Lied mit 700×937 Avatar, 6 abgestimmten 640×800 Expressions, V2-Definition, DE/EN/RU-Übersetzungen und Hub-Registrierung implementiert.
 - [x] Story-Daten (`extensions.otakusoul_story`: Genre, Dauer, Schwierigkeit, Inhaltshinweise, Einsteiger-Markierung, je drei Startvorschläge in DE/EN/RU) sowie übersetzte Startorte und Tageszeiten für alle 45 Gateway-Szenen und die 18 Paket-Szenen von No Game No Life und Sakura Succubus 3 ergänzt.
 - [x] Alle Registry-Einträge (47 Karten, 27 Lorebooks, 45 Szenen) mit `revision: 1` und `updated` versehen; Regel zum Erhöhen der Revision in `AI.md`; Spieltext „{name} (own version)“ in DE/RU ergänzt.
+- [x] Alle 27 Gateway-Lorebooks und die 6 Paket-Lorebooks (No Game No Life, Sakura Succubus 3) ins App-Format umgestellt: `scan_depth` statt `n_depth`, `depends_on` → `chain_requires`, Trigger `semantic`/`range` → `keyword`, `random` → `always_on`, `chain` → `always_on` mit Voraussetzung, fehlende UIDs im Cyberpunk-Lorebook ergänzt, wirkungslose Soul-of-Waifu-Felder entfernt; Revisionen erhöht.
+- [x] Alle 45 Gateway-Szenen: `extensions.otakusoul_assets` mit den Hintergründen ihres Pakets (die App lädt sie beim Hub-Import mit), veraltetes `conversation_method` entfernt (auch in den 18 Paket-Szenen), Platzhalter-Persona `"None"` der 8 eigenständigen Szenen geleert; Revisionen erhöht.
+- [x] `recommended_models.json` als Spiegel des Starter-Katalogs der App neu aufgebaut (5 Apache-2.0-Modelle mit SHA-256, Grafikspeicher und DE/EN/RU-Beschreibung); ungeprüfte 70B-Liste vom Juni entfernt.
+- [x] `AI.md` um Szenen- und Lorebook-Format der App, Hintergrund-Assets, 5e-Regeln, Spieltexte und Modellkatalog ergänzt; README DE/EN/RU („Stage“, automatische Hintergründe, Modellübersicht); Spieltext „None.“ in DE/RU.
