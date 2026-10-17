@@ -256,6 +256,8 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 
 - [x] 20 verwaiste Altkarten in `cards_gateway/` entfernt (17 davon unterschieden sich nur in der Groß-/Kleinschreibung von den aktuellen und brachen das Klonen unter Windows/macOS) sowie die drei überholten Karten in `presets/cards/`.
 
+- [x] `post_history_instructions` (die Anweisung, die jede Runde an das Modell geht) für 20 Figuren aus Dungeon Meshi, Steins;Gate, Lycoris Recoil, Sword Art Online, Frieren, Megumin, Kaguya und Yor in EN/RU ergänzt (Preset-JSON, Preset-PNG und Gateway-PNG); Registry-Revisionen erhöht.
+
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 
