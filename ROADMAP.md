@@ -100,7 +100,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
   - [x] *Episode 4: Der Schmetterlingseffekt* (`steins_gate_ep4_schmetterlingseffekt.json`)
   - [x] *Episode 5: Das Tor zu Steins Gate* (`steins_gate_ep5_tor_zu_steins_gate.json`)
 - **Charaktere (V2-Karten in `presets/steins-gate/`):**
-  - [x] Okabe Rintarou (Hououin Kyouma), Mayuri Shiina, Itaru Hashida (Daru), Suzuha Amane (JSONs angelegt; Kurisu existiert bereits im Gateway).
+  - [x] Okabe Rintarou (Hououin Kyouma), Mayuri Shiina, Itaru Hashida (Daru), Suzuha Amane.
 - **Bilder:**
   - [x] Neu generiert: 4 Charakter-Avatare & 5 Akiba-Hintergründe.
 

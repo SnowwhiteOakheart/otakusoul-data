@@ -59,11 +59,8 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt. Alle da
 - **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
 - **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
-- **Re:Zero - Starting Life in Another World:** © Tappei Nagatsuki / KADOKAWA / White Fox
 - **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
-- **Oshi no Ko:** © Aka Akasaka, Mengo Yokoyari / Shueisha / Doga Kobo
-- **Vivy: Fluorite Eye's Song:** © Tappei Nagatsuki, Eiji Umehara / Wit Studio
-- **GATE:** © Takumi Yanai / AlphaPolis / A-1 Pictures
+- **Neverness to Everness:** © Hotta Studio / Perfect World
 
 ---
 
@@ -124,11 +121,8 @@ This repository is an independent, non-commercial fan project. All depicted char
 - **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
 - **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
-- **Re:Zero - Starting Life in Another World:** © Tappei Nagatsuki / KADOKAWA / White Fox
 - **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
-- **Oshi no Ko:** © Aka Akasaka, Mengo Yokoyari / Shueisha / Doga Kobo
-- **Vivy: Fluorite Eye's Song:** © Tappei Nagatsuki, Eiji Umehara / Wit Studio
-- **GATE:** © Takumi Yanai / AlphaPolis / A-1 Pictures
+- **Neverness to Everness:** © Hotta Studio / Perfect World
 
 ---
 
@@ -189,8 +183,5 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 - **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
 - **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
-- **Re:Zero - Starting Life in Another World:** © Tappei Nagatsuki / KADOKAWA / White Fox
 - **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
-- **Oshi no Ko:** © Aka Akasaka, Mengo Yokoyari / Shueisha / Doga Kobo
-- **Vivy: Fluorite Eye's Song:** © Tappei Nagatsuki, Eiji Umehara / Wit Studio
-- **GATE:** © Takumi Yanai / AlphaPolis / A-1 Pictures
+- **Neverness to Everness:** © Hotta Studio / Perfect World

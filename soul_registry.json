@@ -2,69 +2,6 @@
   "version": "1.0",
   "characters": [
     {
-      "name": "Akane Kurokawa",
-      "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Akane_Kurokawa.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Makise Kurisu",
-      "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Makise_Kurisu.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Echidna The Witch of Greed",
-      "author": "Monty",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Echidna_The_Witch_of_Greed.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Goddess Airis",
-      "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Goddess_Airis.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Emilia",
-      "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Emilia.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Holo The Wisewolf",
-      "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Holo_the_Wisewolf.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Vivy",
-      "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Vivy.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Amadeus Kurisu",
-      "author": "Jofi",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Amadeus_Kurisu.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
-      "name": "Rory Mercury",
-      "author": "Yamio",
-      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Rory_Mercury.png",
-      "revision": 1,
-      "updated": "2026-10-16"
-    },
-    {
       "name": "Ayu Ikue",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/Ayu_Ikue.png",

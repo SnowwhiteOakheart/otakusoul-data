@@ -11,8 +11,6 @@ Ein vollständiges Rollenspiel- und Kampagnenpaket für **Steins;Gate** (シュ�
 | **Itaru Hashida (Daru)** | `itaru_hashida.json` / `itaru_hashida.png` | Meister-Hacker, Otaku und technisches Rückgrat des Labors |
 | **Suzuha Amane** | `suzuha_amane.json` / `suzuha_amane.png` | Teilzeitangestellte im Röhrenfernseher-Laden, begeisterte Radfahrerin und Zeitreisende |
 
-*Hinweis:* **Kurisu Makise** und **Amadeus Kurisu** sind ebenfalls als spielbare Einzelkarten unter `presets/cards/` bzw. `cards_gateway/` verfügbar.
-
 - **Bilder:** Haupt-Avatare als 700×937 PNG mit integrierter Character-Card-V2-Definition (`chara`).
 - **Expressions:** Je 6 Mimik-Porträts (640×800 WebP) unter `expressions/<figur>/`: `neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`.
 - **Sprachen:** Deutsch als Ausgangssprache mit vollständigen englischen und russischen Übersetzungen (`extensions.otakusoul_i18n`).
