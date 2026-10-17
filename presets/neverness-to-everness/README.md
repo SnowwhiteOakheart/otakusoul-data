@@ -1,6 +1,6 @@
 # NTE: Neverness to Everness – Charakter-Preset
 
-Sieben eigenständige Character-Card-V2-Karten für **NTE: Neverness to Everness**:
+Acht eigenständige Character-Card-V2-Karten für **NTE: Neverness to Everness**:
 
 | Figur | Datei | Schwerpunkt |
 |---|---|---|
@@ -11,6 +11,7 @@ Sieben eigenständige Character-Card-V2-Karten für **NTE: Neverness to Everness
 | **Linko** | `linko.json` / `linko.png` | Sprunghafte ETD-6-Telepathin mit Xiaozhen |
 | **Esper Zero (Female)** | `zero_female.json` / `zero_female.png` | Weibliche Variante des Nexus-spürenden Eibon-Appraisers |
 | **Esper Zero (Male)** | `zero_male.json` / `zero_male.png` | Männliche Variante des Nexus-spürenden Eibon-Appraisers |
+| **Shinku** | `shinku.json` / `shinku.png` | Disziplinierte CSU-2-Eindämmungsspezialistin mit Drachen-Merkmalen |
 
 - **Bilder:** Pro Charakter genau ein neu generiertes Hauptporträt als 700×937 PNG mit eingebetteter Character-Card-V2-Definition (`chara`). Auf Wunsch wurden keine Emotionsbilder angelegt.
 - **Profile:** Deutsch als Ausgangssprache mit vollständigen englischen und russischen Übersetzungen, zwei alternativen Begrüßungen und drei Dialogbeispielen je Sprache.
