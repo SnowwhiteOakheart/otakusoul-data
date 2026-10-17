@@ -1,10 +1,11 @@
 {
   "name": "Dimensional Rift: Anime Crossover",
-  "n_depth": 3,
+  "description": "A large-scale crossover lorebook for anime universes and multiverse scenarios",
+  "scan_depth": 3,
   "entries": [
     {
-      "name": "Dimensional Convergence World Aesthetic",
       "uid": 0,
+      "name": "Dimensional Convergence World Aesthetic",
       "key": [
         "rift",
         "portal",
@@ -16,23 +17,16 @@
         "timeline",
         "dimension"
       ],
-      "content": "[DIMENSIONAL COGNITIVE OVERLAY]\nThe world is in a state of Dimensional Convergence: reality is shattered into floating timeline islands. In the sky, glowing cracks reveal previews of other universes (futuristic Tokyo, fantasy castles, magic circles, and digital net grids). Describe this wild, chaotic visual mix: gravity anomalies, sudden spatial distortions, neon signs overlapping with ancient ruins, and the constant feel of dimensional boundaries slipping and clashing.",
-      "probability": 100,
-      "trigger_type": "always_on",
       "exclude_key": [
         "realistic",
         "historical",
         "normal world"
       ],
-      "sticky": 0,
-      "cooldown": 0,
-      "delay": 0,
+      "content": "[DIMENSIONAL COGNITIVE OVERLAY]\nThe world is in a state of Dimensional Convergence: reality is shattered into floating timeline islands. In the sky, glowing cracks reveal previews of other universes (futuristic Tokyo, fantasy castles, magic circles, and digital net grids). Describe this wild, chaotic visual mix: gravity anomalies, sudden spatial distortions, neon signs overlapping with ancient ruins, and the constant feel of dimensional boundaries slipping and clashing.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "passive",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -68,8 +62,8 @@
       }
     },
     {
-      "name": "Shonen Power System & Aura Flare",
       "uid": 1,
+      "name": "Shonen Power System & Aura Flare",
       "key": [
         "Ki",
         "Chakra",
@@ -82,22 +76,15 @@
         "power up",
         "inner power"
       ],
-      "content": "[SHONEN ACTION DIRECTIVE]\nWhen energy is harnessed or powered up, describe a classic, dramatic Shonen flare. A violent, crackling aura of colored light (blue, gold, crimson, or purple) erupts around the character, whipping up high winds that blow debris away, crack the ground, and shake the atmosphere. Describe the raw, crushing weight of their spiritual pressure making enemies sweat, tremble, or struggle to breathe.",
-      "probability": 100,
-      "trigger_type": "keyword",
       "exclude_key": [
         "silent attack",
         "real world physics"
       ],
-      "sticky": 0,
-      "cooldown": 0,
-      "delay": 0,
+      "content": "[SHONEN ACTION DIRECTIVE]\nWhen energy is harnessed or powered up, describe a classic, dramatic Shonen flare. A violent, crackling aura of colored light (blue, gold, crimson, or purple) erupts around the character, whipping up high winds that blow debris away, crack the ground, and shake the atmosphere. Describe the raw, crushing weight of their spiritual pressure making enemies sweat, tremble, or struggle to breathe.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "passive",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -136,8 +123,8 @@
       }
     },
     {
-      "name": "Dimensional Glitch & Spatial Rip",
       "uid": 2,
+      "name": "Dimensional Glitch & Spatial Rip",
       "key": [
         "spatial crack",
         "dimensional breach",
@@ -146,22 +133,15 @@
         "distortion",
         "wormhole"
       ],
-      "content": "[SPATIAL BREAK / ACTIVE EVENT]\nCRITICAL ANOMALY ACTIVE: A crack in space-time rips open nearby with loud, metallic, lightning-like static. Gravity temporarily flips, objects float, and visual reality 'glitches' like a broken screen. Out of the spatial rift steps a completely unexpected character, monster, or threat from another anime timeline. The characters must react with high panic and defend against the unstable spatial shockwaves.",
-      "probability": 100,
-      "trigger_type": "semantic",
       "exclude_key": [
         "stable room",
         "safe house"
       ],
-      "sticky": 1,
-      "cooldown": 5,
-      "delay": 0,
+      "content": "[SPATIAL BREAK / ACTIVE EVENT]\nCRITICAL ANOMALY ACTIVE: A crack in space-time rips open nearby with loud, metallic, lightning-like static. Gravity temporarily flips, objects float, and visual reality 'glitches' like a broken screen. Out of the spatial rift steps a completely unexpected character, monster, or threat from another anime timeline. The characters must react with high panic and defend against the unstable spatial shockwaves.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "active",
-      "semantic_trigger": "A rift rips open in the sky, dimensional boundaries clash, reality starts glitching and breaking, or static portals spawn hostile anomalies from other timelines.",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -194,8 +174,8 @@
       }
     },
     {
-      "name": "Anime Tropes: Comedic Overdrives",
       "uid": 3,
+      "name": "Anime Tropes: Comedic Overdrives",
       "key": [
         "blush",
         "embarrassed",
@@ -207,22 +187,15 @@
         "dumbfounded",
         "funny"
       ],
-      "content": "[COMEDIC ANIME TROPE OVERLAY]\nWhen funny, awkward, or highly embarrassing moments occur, enforce classic, exaggerated anime tropes: \n- Describe massive, comically physical sweatdrops forming on the back of the head. \n- If flustered, steam blows loudly from their ears, and they blush so intensely they practically catch fire, waving their hands in panicked, blurry circles.\n- If a character experiences an extreme romantic/sensual shock, depict a comically explosive nosebleed or them falling over backwards with legs stiff in the air.",
-      "probability": 100,
-      "trigger_type": "always_on",
       "exclude_key": [
         "serious death scene",
         "depressive tragedy"
       ],
-      "sticky": 0,
-      "cooldown": 0,
-      "delay": 0,
+      "content": "[COMEDIC ANIME TROPE OVERLAY]\nWhen funny, awkward, or highly embarrassing moments occur, enforce classic, exaggerated anime tropes: \n- Describe massive, comically physical sweatdrops forming on the back of the head. \n- If flustered, steam blows loudly from their ears, and they blush so intensely they practically catch fire, waving their hands in panicked, blurry circles.\n- If a character experiences an extreme romantic/sensual shock, depict a comically explosive nosebleed or them falling over backwards with legs stiff in the air.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "passive",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -257,8 +230,8 @@
       }
     },
     {
-      "name": "The Ultimate Move (Finisher/Bankai/Domain)",
       "uid": 4,
+      "name": "The Ultimate Move (Finisher/Bankai/Domain)",
       "key": [
         "Bankai",
         "Domain Expansion",
@@ -269,22 +242,15 @@
         "chant",
         "incantation"
       ],
-      "content": "[CINEMATIC ULTIMATE MOVE ACTIVATION]\nCRITICAL FINISHER ACTIVE: Time slows to a crawl as the character initiates their Ultimate Move. The environment dramatically darkens or changes color into a stylized, abstract background representing their soul/power. Massive runic circles, energy sigils, or mystical symbols spin in the air. The character chants a dramatic, poetic incantation (e.g., 'Bankai...', 'Domain Expansion...', 'Release...'). The spell unleashes a massive, high-impact, blinding visual explosion of raw power.",
-      "probability": 100,
-      "trigger_type": "keyword",
       "exclude_key": [
         "basic punch",
         "normal sword swing"
       ],
-      "sticky": 1,
-      "cooldown": 4,
-      "delay": 0,
+      "content": "[CINEMATIC ULTIMATE MOVE ACTIVATION]\nCRITICAL FINISHER ACTIVE: Time slows to a crawl as the character initiates their Ultimate Move. The environment dramatically darkens or changes color into a stylized, abstract background representing their soul/power. Massive runic circles, energy sigils, or mystical symbols spin in the air. The character chants a dramatic, poetic incantation (e.g., 'Bankai...', 'Domain Expansion...', 'Release...'). The spell unleashes a massive, high-impact, blinding visual explosion of raw power.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "active",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -319,8 +285,8 @@
       }
     },
     {
-      "name": "Energy Exhaustion (Power Backfire)",
       "uid": 5,
+      "name": "Energy Exhaustion (Power Backfire)",
       "key": [
         "exhausted",
         "collapse",
@@ -329,21 +295,18 @@
         "drained",
         "burned out"
       ],
-      "content": "[CRITICAL FATIGUE / SYSTEM BURNOUT]\nSYSTEM BURNOUT: The absolute, devastating cost of the Ultimate Move has caught up with the character. The glowing aura vanishes, their knees buckle, and they collapse to the ground, panting heavily. Steam or white vapor gently rises from their overheated body. Describe intense physical fatigue: muscles trembling, vision blurring, and a complete inability to mold Ki/Mana/Aura. They are entirely vulnerable and require immediate protective care.",
-      "probability": 100,
-      "trigger_type": "chain",
       "exclude_key": [
         "energy potion",
         "full heal"
       ],
-      "sticky": 0,
-      "cooldown": 6,
-      "delay": 0,
+      "content": "[CRITICAL FATIGUE / SYSTEM BURNOUT]\nSYSTEM BURNOUT: The absolute, devastating cost of the Ultimate Move has caught up with the character. The glowing aura vanishes, their knees buckle, and they collapse to the ground, panting heavily. Steam or white vapor gently rises from their overheated body. Describe intense physical fatigue: muscles trembling, vision blurring, and a complete inability to mold Ki/Mana/Aura. They are entirely vulnerable and require immediate protective care.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "active",
-      "depends_on": 4,
-      "chain_delay": 2,
-      "min_msg": 0,
-      "max_msg": 9999,
+      "chain_requires": [
+        "4"
+      ],
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -376,8 +339,8 @@
       }
     },
     {
-      "name": "The Maid Cafe & Akihabara Hub",
       "uid": 6,
+      "name": "The Maid Cafe & Akihabara Hub",
       "key": [
         "Akihabara",
         "maid",
@@ -389,22 +352,15 @@
         "gachapon",
         "claw machine"
       ],
-      "content": "[COZY SUB-HUB ENVIRONMENT]\nThe scene transitions to a cozy, neon-lit Maid Cafe in the heart of Akihabara. Inside, classical upbeat J-pop plays, and the walls are decorated with pastel pink ribbons and posters. Overworked but bubbly maids in frilly black-and-white dresses greet you with energetic bows ('Okaerinasaimase, Goshujin-sama!'). Describe the cute, decorated omurice plates, and the maids casting funny, magical 'Moe Moe Kyun!' hand-heart spells over the food to make it taste delicious.",
-      "probability": 100,
-      "trigger_type": "keyword",
       "exclude_key": [
         "dangerous ruins",
         "battlefield"
       ],
-      "sticky": 0,
-      "cooldown": 0,
-      "delay": 0,
+      "content": "[COZY SUB-HUB ENVIRONMENT]\nThe scene transitions to a cozy, neon-lit Maid Cafe in the heart of Akihabara. Inside, classical upbeat J-pop plays, and the walls are decorated with pastel pink ribbons and posters. Overworked but bubbly maids in frilly black-and-white dresses greet you with energetic bows ('Okaerinasaimase, Goshujin-sama!'). Describe the cute, decorated omurice plates, and the maids casting funny, magical 'Moe Moe Kyun!' hand-heart spells over the food to make it taste delicious.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "passive",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -441,8 +397,8 @@
       }
     },
     {
-      "name": "The Training Arc & Secret Scroll",
       "uid": 7,
+      "name": "The Training Arc & Secret Scroll",
       "key": [
         "training",
         "sparring",
@@ -453,22 +409,15 @@
         "technique",
         "waterfall"
       ],
-      "content": "[TRAINING ARC PACING / DEVELOPMENT]\nThe setting shifts to a secluded mountain waterfall, a dusty martial arts dojo, or a high-gravity training room. Describe the harsh, physical strain of training: sweat dripping on old floorboards, broken stone walls from sparring impacts, and long hours of meditation. A wise, mysterious Sensei (or elderly master) oversees the session, offering highly cryptic, profound philosophical advice or revealing a secret runic Scroll to help unlock the character's inner power.",
-      "probability": 100,
-      "trigger_type": "keyword",
       "exclude_key": [
         "maid cafe",
         "shopping mall"
       ],
-      "sticky": 0,
-      "cooldown": 0,
-      "delay": 0,
+      "content": "[TRAINING ARC PACING / DEVELOPMENT]\nThe setting shifts to a secluded mountain waterfall, a dusty martial arts dojo, or a high-gravity training room. Describe the harsh, physical strain of training: sweat dripping on old floorboards, broken stone walls from sparring impacts, and long hours of meditation. A wise, mysterious Sensei (or elderly master) oversees the session, offering highly cryptic, profound philosophical advice or revealing a secret runic Scroll to help unlock the character's inner power.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "passive",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -505,8 +454,8 @@
       }
     },
     {
-      "name": "Epic Shonen Boss Clash (BGM Peak)",
       "uid": 8,
+      "name": "Epic Shonen Boss Clash (BGM Peak)",
       "key": [
         "boss clash",
         "final battle",
@@ -515,22 +464,15 @@
         "exchange blows",
         "speed lines"
       ],
-      "content": "[CINEMATIC BATTLE PACING]\nCRITICAL SHOWDOWN ACTIVE: An epic battle begins. The wind rises dramatically, speed lines blur the background, and a pounding, high-energy rock/orchestral anime theme music starts playing (BGM peak). The characters exchange lightning-fast blows, leaving colored arcs of energy in the air. Describe the impact of clashes breaking nearby boulders, creating dust clouds, and sending shockwaves of pure pressure. The emotional and physical stakes are at their maximum.",
-      "probability": 100,
-      "trigger_type": "range",
       "exclude_key": [
         "relaxed",
         "sleeping"
       ],
-      "sticky": 0,
-      "cooldown": 0,
-      "delay": 0,
+      "content": "[CINEMATIC BATTLE PACING]\nCRITICAL SHOWDOWN ACTIVE: An epic battle begins. The wind rises dramatically, speed lines blur the background, and a pounding, high-energy rock/orchestral anime theme music starts playing (BGM peak). The characters exchange lightning-fast blows, leaving colored arcs of energy in the air. Describe the impact of clashes breaking nearby boulders, creating dust clouds, and sending shockwaves of pure pressure. The emotional and physical stakes are at their maximum.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "passive",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 120,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
@@ -563,8 +505,8 @@
       }
     },
     {
-      "name": "The Traditional Onsen (Hot Springs)",
       "uid": 9,
+      "name": "The Traditional Onsen (Hot Springs)",
       "key": [
         "hot spring",
         "onsen",
@@ -575,23 +517,16 @@
         "wooden bucket",
         "bamboo"
       ],
-      "content": "[ONSEN RECREATION / ACTIVE INJECTION]\nCRITICAL SCENE TRANSITION: The battle and tension evaporate. The characters find themselves inside a traditional, steamy Japanese outdoor Hot Spring (Onsen). The pool is surrounded by smooth natural river stones, bamboo fences, and red maple trees. Thick, warm mineral steam hangs in the air, creating a soft, misty focus. Describe the profound relaxation: the sound of water dripping from bamboo pipes, the soothing heat soaking into sore muscles, and the slow, highly intimate conversations.",
-      "probability": 100,
-      "trigger_type": "keyword",
       "exclude_key": [
         "active fighting",
         "combat armor",
         "cold weather"
       ],
-      "sticky": 0,
-      "cooldown": 5,
-      "delay": 0,
+      "content": "[ONSEN RECREATION / ACTIVE INJECTION]\nCRITICAL SCENE TRANSITION: The battle and tension evaporate. The characters find themselves inside a traditional, steamy Japanese outdoor Hot Spring (Onsen). The pool is surrounded by smooth natural river stones, bamboo fences, and red maple trees. Thick, warm mineral steam hangs in the air, creating a soft, misty focus. Describe the profound relaxation: the sound of water dripping from bamboo pipes, the soothing heat soaking into sore muscles, and the slow, highly intimate conversations.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
       "injection_behavior": "active",
-      "semantic_trigger": "",
-      "depends_on": -1,
-      "chain_delay": 0,
-      "min_msg": 0,
-      "max_msg": 9999,
       "extensions": {
         "otakusoul_i18n": {
           "translations": {

@@ -1,11 +1,11 @@
 {
   "name": "Sword Art Online – Gilden & Fraktionen",
   "description": "Ritter des Blutschwurs, Fuurinkazan, Händlergilden und Laughing Coffin.",
-  "n_depth": 3,
+  "scan_depth": 3,
   "entries": [
     {
-      "name": "Die Gilden von Aincrad",
       "uid": 1,
+      "name": "Die Gilden von Aincrad",
       "key": [
         "Gilde",
         "Ritter des Blutschwurs",
@@ -16,6 +16,8 @@
       "content": "Die Frontkämpfer ('Clearer') organisieren sich in Gilden. Die mächtigste ist die 'Ritter des Blutschwurs' (KoB) unter Commander Heathcliff. Im Untergrund lauern rote Gilden wie 'Laughing Coffin' – Player Killer (PK), die Mitspieler aus Sadismus ermorden.",
       "trigger_type": "keyword",
       "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
       "extensions": {
         "otakusoul_i18n": {
           "translations": {

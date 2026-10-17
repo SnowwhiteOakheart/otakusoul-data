@@ -1,11 +1,11 @@
 {
   "name": "Sword Art Online – Aincrad-Geografie",
   "description": "Die 100 schwebenden Ebenen, Startstadt, Labyrinthe und Ebene 22.",
-  "n_depth": 3,
+  "scan_depth": 3,
   "entries": [
     {
-      "name": "Die 100 Ebenen von Aincrad",
       "uid": 1,
+      "name": "Die 100 Ebenen von Aincrad",
       "key": [
         "Aincrad",
         "Ebene",
@@ -16,6 +16,8 @@
       "content": "Eine gigantische schwebende Eisenburg aus 100 übereinanderliegenden Ebenen. Jede Ebene bietet ein eigenes Biom (Wälder, Wüsten, Sümpfe) und ein mehrstöckiges Labyrinth, an dessen Spitze die Boss-Kammer den Durchgang zur nächsten Ebene versperrt.",
       "trigger_type": "always_on",
       "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
       "extensions": {
         "otakusoul_i18n": {
           "translations": {

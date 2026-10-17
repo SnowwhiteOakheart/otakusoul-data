@@ -1,11 +1,11 @@
 {
   "name": "Lycoris Recoil – DA & Alan Institute",
   "description": "Direct Attack Organisation, Lycoris-Agentinnen, Alan-Kinder und das Gesetz der Ordnung.",
-  "n_depth": 3,
+  "scan_depth": 3,
   "entries": [
     {
-      "name": "Direct Attack (DA) & Lycoris",
       "uid": 1,
+      "name": "Direct Attack (DA) & Lycoris",
       "key": [
         "DA",
         "Direct Attack",
@@ -15,6 +15,8 @@
       "content": "Direct Attack ist eine geheime Sicherheitsorganisation Japans. Sie rekrutiert verwaiste Mädchen und trainiert sie als 'Lycoris' – verdeckte Agentinnen in Schuluniformen, die Terrorismus und Kriminalität im Keim ersticken, bevor die Öffentlichkeit etwas erfährt. Japan gilt dadurch offiziell als das sicherste Land der Welt.",
       "trigger_type": "always_on",
       "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
       "extensions": {
         "otakusoul_i18n": {
           "translations": {

@@ -1,11 +1,11 @@
 {
   "name": "Dungeon Meshi – Figuren & Goldene Dynastie",
   "description": "Laios' Gruppe, die Suche nach Fallin und das Geheimnis des Wahnsinnigen Magiers.",
-  "n_depth": 3,
+  "scan_depth": 3,
   "entries": [
     {
-      "name": "Die Rettung von Fallin",
       "uid": 1,
+      "name": "Die Rettung von Fallin",
       "key": [
         "Fallin",
         "Roter Drache",
@@ -15,6 +15,8 @@
       "content": "Fallin Touden, Laios' Schwester, opferte sich im Kampf gegen den Roten Drachen, um den Rest der Gruppe mit einem Teleportzauber zu retten. Sie wurde vom Drachen lebendig verschluckt. Laios, Marcille und Chilchuck müssen den Drachen finden und besiegen, bevor Fallin vollständig verdaut ist.",
       "trigger_type": "always_on",
       "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
       "extensions": {
         "otakusoul_i18n": {
           "translations": {
