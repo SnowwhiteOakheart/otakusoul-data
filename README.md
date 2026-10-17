@@ -59,7 +59,6 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt. Alle da
 - **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
 - **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
-- **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 
@@ -122,7 +121,6 @@ This repository is an independent, non-commercial fan project. All depicted char
 - **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
 - **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
-- **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 
@@ -185,6 +183,5 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 - **Spy x Family:** © Tatsuya Endo / Shueisha / WIT STUDIO / CloverWorks
 - **KonoSuba:** © Natsume Akatsuki, Kurone Mishima / KADOKAWA / Studio Deen / Drive
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
-- **Spice and Wolf:** © Isuna Hasekura / ASCII Media Works / KADOKAWA
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project

@@ -252,6 +252,8 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] `LICENSE`, `README.md` (DE/EN/RU) und die Lizenzhinweise der Paket-READMEs analog zu OtakuSoul auf die GNU General Public License v3.0 (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) mit dreisprachigen Hinweisen zu Fanart, KI, Marken, VRM und Credits für Soul of Waifu (`jofizcd`) aktualisiert.
 
 
+- [x] Fremde Inhalte entfernt: 8 Lorebooks und 8 Szenen von Jofi (Soul of Waifu / `sow-data`) sowie das Lorebook „Spice and Wolf“ (Don Chacha Muchacho); Registries, LICENSE-Credits und README angepasst. Das Repository enthält nur noch eigene Inhalte.
+
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 
