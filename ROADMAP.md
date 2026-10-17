@@ -254,10 +254,10 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 
-1/5 Figuren mit DE/EN/RU-Profilen, je einem Hauptporträt und sechs Emotionsbildern veröffentlicht.
+2/5 Figuren mit DE/EN/RU-Profilen, je einem Hauptporträt und sechs Emotionsbildern veröffentlicht.
 
 - [x] Rem: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
-- [ ] Ram: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
+- [x] Ram: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [ ] Echidna: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [ ] Beatrice: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [ ] Subaru Natsuki: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
