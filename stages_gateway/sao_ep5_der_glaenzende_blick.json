@@ -105,6 +105,30 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sao_ep5_der_glaenzende_blick.png",
+          "path": "presets/sword-art-online/backgrounds/sao_ep5_der_glaenzende_blick.png"
+        },
+        {
+          "file": "sao_ep1_die_verkuendung.png",
+          "path": "presets/sword-art-online/backgrounds/sao_ep1_die_verkuendung.png"
+        },
+        {
+          "file": "sao_ep2_boss_ebene1.png",
+          "path": "presets/sword-art-online/backgrounds/sao_ep2_boss_ebene1.png"
+        },
+        {
+          "file": "sao_ep3_waerme_des_herzens.png",
+          "path": "presets/sword-art-online/backgrounds/sao_ep3_waerme_des_herzens.png"
+        },
+        {
+          "file": "sao_ep4_duell_in_den_schatten.png",
+          "path": "presets/sword-art-online/backgrounds/sao_ep4_duell_in_den_schatten.png"
+        }
+      ]
     }
   }
 }

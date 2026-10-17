@@ -16,7 +16,6 @@
   ],
   "gm_tone": "Comedy",
   "narrator_style": "Schnelle, warme Komödie im Präsens. Kurze Schlagabtausche, alle sechs bleiben klar unterscheidbar, niemand wird gedemütigt. Situationskomik statt Kalauer.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",

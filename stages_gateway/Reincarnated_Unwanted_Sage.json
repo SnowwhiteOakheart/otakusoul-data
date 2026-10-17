@@ -8,8 +8,7 @@
   "first_message": "",
   "gm_tone": "fantasy_isekai_comedy",
   "narrator_style": "Expressive, slightly comedic, present-tense anime-style storytelling. Emphasize visual indicators, exaggerated reactions, dramatic sweatdrops, magical circle animations, and the clanking armor of royal knights.",
-  "conversation_method": "Local LLM",
-  "persona": "None",
+  "persona": "",
   "lorebook": [],
   "extensions": {
     "otakusoul_i18n": {

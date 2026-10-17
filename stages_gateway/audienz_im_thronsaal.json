@@ -13,7 +13,6 @@
   ],
   "gm_tone": "Epic Fantasy",
   "narrator_style": "Getragene, bildstarke Prosa im Präsens, ohne Schwulst. Höfische Sprache in der Rede, Macht wird durch Haltung und Schweigen verhandelt, nicht durch Kampf.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",
@@ -112,6 +111,46 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Succubus Throne Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Succubus Throne Room.png"
+        },
+        {
+          "file": "Horizontal Corporate Office.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Corporate Office.png"
+        },
+        {
+          "file": "Horizontal Cosplay Cafe.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Cosplay Cafe.png"
+        },
+        {
+          "file": "Horizontal Gala Ballroom.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Gala Ballroom.png"
+        },
+        {
+          "file": "Horizontal Idol Stage.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Idol Stage.png"
+        },
+        {
+          "file": "Horizontal Japanese Tea Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Japanese Tea Room.png"
+        },
+        {
+          "file": "Horizontal Newsroom Office.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Newsroom Office.png"
+        },
+        {
+          "file": "Horizontal Tennis Court.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tennis Court.png"
+        },
+        {
+          "file": "Horizontal Tokyo Living Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tokyo Living Room.png"
+        }
+      ]
     }
   }
 }

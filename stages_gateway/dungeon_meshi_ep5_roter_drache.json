@@ -106,6 +106,30 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "dungeon_meshi_ep5_roter_drache.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep5_roter_drache.png"
+        },
+        {
+          "file": "dungeon_meshi_ep1_skorpionsuppe.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep1_skorpionsuppe.png"
+        },
+        {
+          "file": "dungeon_meshi_ep2_klingenbasilisk.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep2_klingenbasilisk.png"
+        },
+        {
+          "file": "dungeon_meshi_ep3_alraunenernte.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep3_alraunenernte.png"
+        },
+        {
+          "file": "dungeon_meshi_ep4_wassergeister.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep4_wassergeister.png"
+        }
+      ]
     }
   }
 }

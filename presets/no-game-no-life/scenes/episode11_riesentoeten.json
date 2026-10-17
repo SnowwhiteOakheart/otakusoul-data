@@ -16,7 +16,6 @@
   ],
   "gm_tone": "Sci-Fi",
   "narrator_style": "Actiongeladen, schnell, mit taktischem Fokus auf Positionierung und vorausberechneten Bewegungen - lass Spannung entstehen, wenn Izuna nach ihrer Blutentfesselung die Spielregeln der Physik selbst zu sprengen scheint.",
-  "conversation_method": "Local LLM",
   "persona": "Haru Shindou",
   "lorebook": [
     "No Game No Life – Welt & Gebote",

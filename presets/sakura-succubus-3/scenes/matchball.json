@@ -12,7 +12,6 @@
   ],
   "gm_tone": "Slice of Life",
   "narrator_style": "Klare, körperliche Prosa im Präsens. Bewegung, Atem, Geräusche des Spiels. Die Spannung liegt in Hazels Kopf, nicht im Spielstand.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",

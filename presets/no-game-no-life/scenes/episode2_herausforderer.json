@@ -13,7 +13,6 @@
   ],
   "gm_tone": "Comedy",
   "narrator_style": "Schnell getaktet, politisch-intrigant, mit Sora als lauerndem Strippenzieher im Zentrum jeder Szene.",
-  "conversation_method": "Local LLM",
   "persona": "Haru Shindou",
   "lorebook": [
     "No Game No Life – Welt & Gebote",

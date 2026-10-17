@@ -12,7 +12,6 @@
   ],
   "gm_tone": "Slice of Life",
   "narrator_style": "Ruhige Alltagsprosa im Präsens. Bürogeräusche, Leuchtstoffröhren, Papier, Kaffee. Humor entsteht aus der Reibung zwischen Redaktionsalltag und dem, was gerade zur Tür hereinkommt - nicht aus Pointen.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",

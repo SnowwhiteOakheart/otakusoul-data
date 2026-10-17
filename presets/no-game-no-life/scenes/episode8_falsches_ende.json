@@ -14,7 +14,6 @@
   ],
   "gm_tone": "Mystery & Noir",
   "narrator_style": "Spannungsgeladen, mit dem Gefühl eines aufgedeckten Bluffs - jede Enthüllung sollte sich wie ein Puzzlestück anfühlen, das einrastet.",
-  "conversation_method": "Local LLM",
   "persona": "Haru Shindou",
   "lorebook": [
     "No Game No Life – Welt & Gebote",

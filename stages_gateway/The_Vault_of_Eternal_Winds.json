@@ -8,8 +8,7 @@
   "first_message": "",
   "gm_tone": "epic_steampunk_adventure",
   "narrator_style": "Fast-paced, highly atmospheric, present-tense evocative storytelling. Vivid descriptions of wind force, clanking mechanical gears, roaring thunder, electric tension, and physical action sequences.",
-  "conversation_method": "Local LLM",
-  "persona": "None",
+  "persona": "",
   "lorebook": [],
   "extensions": {
     "otakusoul_i18n": {

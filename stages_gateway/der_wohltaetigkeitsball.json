@@ -12,7 +12,6 @@
   ],
   "gm_tone": "Mystery & Noir",
   "narrator_style": "Kühle, beobachtende Noir-Prosa im Präsens. Kurze Sätze, Details statt Erklärungen: Gläser, Blicke, Wege durch den Raum. Die Bedrohung bleibt gesellschaftlich, nie gewalttätig.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",
@@ -113,6 +112,46 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Gala Ballroom.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Gala Ballroom.png"
+        },
+        {
+          "file": "Horizontal Corporate Office.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Corporate Office.png"
+        },
+        {
+          "file": "Horizontal Cosplay Cafe.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Cosplay Cafe.png"
+        },
+        {
+          "file": "Horizontal Idol Stage.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Idol Stage.png"
+        },
+        {
+          "file": "Horizontal Japanese Tea Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Japanese Tea Room.png"
+        },
+        {
+          "file": "Horizontal Newsroom Office.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Newsroom Office.png"
+        },
+        {
+          "file": "Horizontal Succubus Throne Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Succubus Throne Room.png"
+        },
+        {
+          "file": "Horizontal Tennis Court.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tennis Court.png"
+        },
+        {
+          "file": "Horizontal Tokyo Living Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tokyo Living Room.png"
+        }
+      ]
     }
   }
 }

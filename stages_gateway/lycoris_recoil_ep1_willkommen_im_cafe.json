@@ -101,6 +101,26 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "lycoris_recoil_ep1_willkommen_im_cafe.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep1_willkommen_im_cafe.png"
+        },
+        {
+          "file": "lycoris_recoil_ep2_geleitschutz_tokio.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep2_geleitschutz_tokio.png"
+        },
+        {
+          "file": "lycoris_recoil_ep3_jagd_nach_walnut.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep3_jagd_nach_walnut.png"
+        },
+        {
+          "file": "lycoris_recoil_ep4_duell_im_morgengrauen.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep4_duell_im_morgengrauen.png"
+        }
+      ]
     }
   }
 }

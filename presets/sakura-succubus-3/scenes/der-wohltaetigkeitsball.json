@@ -12,7 +12,6 @@
   ],
   "gm_tone": "Mystery & Noir",
   "narrator_style": "Kühle, beobachtende Noir-Prosa im Präsens. Kurze Sätze, Details statt Erklärungen: Gläser, Blicke, Wege durch den Raum. Die Bedrohung bleibt gesellschaftlich, nie gewalttätig.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",

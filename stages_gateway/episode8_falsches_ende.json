@@ -14,7 +14,6 @@
   ],
   "gm_tone": "Mystery & Noir",
   "narrator_style": "Spannungsgeladen, mit dem Gefühl eines aufgedeckten Bluffs - jede Enthüllung sollte sich wie ein Puzzlestück anfühlen, das einrastet.",
-  "conversation_method": "Local LLM",
   "persona": "Haru Shindou",
   "lorebook": [
     "No Game No Life – Welt & Gebote",
@@ -113,6 +112,58 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Eastern Union Embassy.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Eastern Union Embassy.png"
+        },
+        {
+          "file": "Horizontal Castle War Garden.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Castle War Garden.png"
+        },
+        {
+          "file": "Horizontal Chamber of Memory.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Chamber of Memory.png"
+        },
+        {
+          "file": "Horizontal Chessboard Climax.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Chessboard Climax.png"
+        },
+        {
+          "file": "Horizontal Digital Battlefield.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Digital Battlefield.png"
+        },
+        {
+          "file": "Horizontal Eastern Union Throne Hall.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Eastern Union Throne Hall.png"
+        },
+        {
+          "file": "Horizontal Elkia Archive.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Archive.png"
+        },
+        {
+          "file": "Horizontal Elkia Card Room.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Card Room.png"
+        },
+        {
+          "file": "Horizontal Elkia Council Chamber.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Council Chamber.png"
+        },
+        {
+          "file": "Horizontal Elkia Grand Library.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Grand Library.png"
+        },
+        {
+          "file": "Horizontal Elkia Throne Room.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Throne Room.png"
+        },
+        {
+          "file": "Horizontal Living Chessboard.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Living Chessboard.png"
+        }
+      ]
     }
   }
 }

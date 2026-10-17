@@ -14,7 +14,6 @@
   ],
   "gm_tone": "Horror",
   "narrator_style": "Bedrückend, unheimlich, mit echtem emotionalem Gewicht - die Bedrohung ist nicht körperlich, sondern existenziell. Lass die Anspannung bis zu Shiros Entscheidung stetig wachsen.",
-  "conversation_method": "Local LLM",
   "persona": "Haru Shindou",
   "lorebook": [
     "No Game No Life – Welt & Gebote",

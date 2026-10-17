@@ -13,7 +13,6 @@
   ],
   "gm_tone": "Comedy",
   "narrator_style": "Leichtfüßig, ironisch, mit einem Hang zu großen philosophischen Ein-Satz-Pointen à la Sora. Beschreibt Spielsituationen präzise und spannend, ohne die komödiantische Grundstimmung zu verlieren.",
-  "conversation_method": "Local LLM",
   "persona": "Haru Shindou",
   "lorebook": [
     "No Game No Life – Welt & Gebote",

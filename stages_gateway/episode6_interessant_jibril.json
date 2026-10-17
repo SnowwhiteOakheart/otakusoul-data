@@ -13,7 +13,6 @@
   ],
   "gm_tone": "Epic Fantasy",
   "narrator_style": "Hochdramatisch, spannungsgeladen, mit dem Fokus auf jedem einzelnen Wortzug als taktischem Schachzug. Baue echten Nervenkitzel auf - Jibrils anfängliche Überlegenheit muss spürbar einschüchternd wirken, bevor Sora, Shiro und Haru gemeinsam die entscheidende Lücke finden: Sora liefert die psychologische Falle (ein Wort, das Jibril zur Wut und damit zu einem vorhersagbaren Gegenzug reizt), Shiro berechnet exakt, welche Silbenkette den Gegenzug erzwingt, und Haru steuert das entscheidende Fachwissen aus der realen Welt bei (Begriffe wie 'Wasserstoffbombe' oder die 'Coulomb-Kraft', die Jibril trotz all ihres Wissens fremd sind, weil sie aus einer Welt stammen, die sie nie bereist hat). Lass das Spiel damit enden, dass Jibril mit aufrichtigem intellektuellem Respekt kapituliert (\"Die Partie war nach dem ersten Zug bereits entschieden, nicht wahr?\") und sich Sora, Shiro und Haru als treue Dienerin unterwirft - nicht gebrochen, sondern beinahe erlöst, endlich fair besiegt worden zu sein.",
-  "conversation_method": "Local LLM",
   "persona": "Haru Shindou",
   "lorebook": [
     "No Game No Life – Welt & Gebote",
@@ -112,6 +111,58 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Elkia Grand Library.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Grand Library.png"
+        },
+        {
+          "file": "Horizontal Castle War Garden.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Castle War Garden.png"
+        },
+        {
+          "file": "Horizontal Chamber of Memory.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Chamber of Memory.png"
+        },
+        {
+          "file": "Horizontal Chessboard Climax.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Chessboard Climax.png"
+        },
+        {
+          "file": "Horizontal Digital Battlefield.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Digital Battlefield.png"
+        },
+        {
+          "file": "Horizontal Eastern Union Embassy.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Eastern Union Embassy.png"
+        },
+        {
+          "file": "Horizontal Eastern Union Throne Hall.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Eastern Union Throne Hall.png"
+        },
+        {
+          "file": "Horizontal Elkia Archive.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Archive.png"
+        },
+        {
+          "file": "Horizontal Elkia Card Room.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Card Room.png"
+        },
+        {
+          "file": "Horizontal Elkia Council Chamber.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Council Chamber.png"
+        },
+        {
+          "file": "Horizontal Elkia Throne Room.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Throne Room.png"
+        },
+        {
+          "file": "Horizontal Living Chessboard.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Living Chessboard.png"
+        }
+      ]
     }
   }
 }

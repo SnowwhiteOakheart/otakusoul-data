@@ -8,8 +8,7 @@
   "first_message": "",
   "gm_tone": "visceral_survival",
   "narrator_style": "Grounded, tactical, and suspenseful present-tense prose. Focus on resource scarcity, the cold metal of weapons, the rustle of debris, and the physical strain of moving quietly.",
-  "conversation_method": "Local LLM",
-  "persona": "None",
+  "persona": "",
   "lorebook": [],
   "extensions": {
     "otakusoul_i18n": {

@@ -8,8 +8,7 @@
   "first_message": "",
   "gm_tone": "cyberpunk_tactical",
   "narrator_style": "Fast-paced, high-tech, and clinical prose. Emphasize flickering blue terminal glares, warning sirens, sparks from severed cables, and the mechanical, metallic clanking of security droids.",
-  "conversation_method": "Local LLM",
-  "persona": "None",
+  "persona": "",
   "lorebook": [],
   "extensions": {
     "otakusoul_i18n": {

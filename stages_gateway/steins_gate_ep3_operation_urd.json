@@ -106,6 +106,30 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "steins_gate_ep3_operation_urd.png",
+          "path": "presets/steins-gate/backgrounds/steins_gate_ep3_operation_urd.png"
+        },
+        {
+          "file": "steins_gate_ep1_erste_dmail.png",
+          "path": "presets/steins-gate/backgrounds/steins_gate_ep1_erste_dmail.png"
+        },
+        {
+          "file": "steins_gate_ep2_ibn5100_suche.png",
+          "path": "presets/steins-gate/backgrounds/steins_gate_ep2_ibn5100_suche.png"
+        },
+        {
+          "file": "steins_gate_ep4_schmetterlingseffekt.png",
+          "path": "presets/steins-gate/backgrounds/steins_gate_ep4_schmetterlingseffekt.png"
+        },
+        {
+          "file": "steins_gate_ep5_tor_zu_steins_gate.png",
+          "path": "presets/steins-gate/backgrounds/steins_gate_ep5_tor_zu_steins_gate.png"
+        }
+      ]
     }
   }
 }

@@ -8,8 +8,7 @@
   "first_message": "",
   "gm_tone": "psychological_mystery",
   "narrator_style": "Surreal, unsettling, and intimate. Focus on auditory hallucinations, shadows stretching illogically, the shifting layout of doors, and the rising sense of dread and personal guilt.",
-  "conversation_method": "Local LLM",
-  "persona": "None",
+  "persona": "",
   "lorebook": [],
   "extensions": {
     "otakusoul_i18n": {

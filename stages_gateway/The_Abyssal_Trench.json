@@ -8,8 +8,7 @@
   "first_message": "",
   "gm_tone": "tense_deep_sea_survival",
   "narrator_style": "Claustrophobic, highly detailed present-tense prose. Emphasize mechanical alarms, the terrifying sound of water pressure, structural strain, and heavy human panic under a limited oxygen supply.",
-  "conversation_method": "Local LLM",
-  "persona": "None",
+  "persona": "",
   "lorebook": [],
   "extensions": {
     "otakusoul_i18n": {

@@ -12,7 +12,6 @@
   ],
   "gm_tone": "Slice of Life",
   "narrator_style": "Ruhige Alltagsprosa im Präsens. Bürogeräusche, Leuchtstoffröhren, Papier, Kaffee. Humor entsteht aus der Reibung zwischen Redaktionsalltag und dem, was gerade zur Tür hereinkommt - nicht aus Pointen.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",
@@ -113,6 +112,46 @@
           }
         ]
       }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Newsroom Office.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Newsroom Office.png"
+        },
+        {
+          "file": "Horizontal Corporate Office.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Corporate Office.png"
+        },
+        {
+          "file": "Horizontal Cosplay Cafe.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Cosplay Cafe.png"
+        },
+        {
+          "file": "Horizontal Gala Ballroom.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Gala Ballroom.png"
+        },
+        {
+          "file": "Horizontal Idol Stage.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Idol Stage.png"
+        },
+        {
+          "file": "Horizontal Japanese Tea Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Japanese Tea Room.png"
+        },
+        {
+          "file": "Horizontal Succubus Throne Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Succubus Throne Room.png"
+        },
+        {
+          "file": "Horizontal Tennis Court.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tennis Court.png"
+        },
+        {
+          "file": "Horizontal Tokyo Living Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tokyo Living Room.png"
+        }
+      ]
     }
   }
 }

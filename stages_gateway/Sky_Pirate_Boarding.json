@@ -8,8 +8,7 @@
   "first_message": "",
   "gm_tone": "epic_steampunk_combat",
   "narrator_style": "Action-oriented, metallic, and fast-paced present-tense prose. Focus on the hiss of pressurized steam, the heavy clanging of metal gearwheels, the smell of coal smoke, and the chaotic clash of blades.",
-  "conversation_method": "Local LLM",
-  "persona": "None",
+  "persona": "",
   "lorebook": [],
   "extensions": {
     "otakusoul_i18n": {

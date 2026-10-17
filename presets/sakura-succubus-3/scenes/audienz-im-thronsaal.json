@@ -13,7 +13,6 @@
   ],
   "gm_tone": "Epic Fantasy",
   "narrator_style": "Getragene, bildstarke Prosa im Präsens, ohne Schwulst. Höfische Sprache in der Rede, Macht wird durch Haltung und Schweigen verhandelt, nicht durch Kampf.",
-  "conversation_method": "Local LLM",
   "persona": "Hiroki Ogasawara",
   "lorebook": [
     "Sakura Succubus 3 – Welt",
