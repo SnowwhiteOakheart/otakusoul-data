@@ -258,6 +258,8 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 
 - [x] `post_history_instructions` (die Anweisung, die jede Runde an das Modell geht) für 20 Figuren aus Dungeon Meshi, Steins;Gate, Lycoris Recoil, Sword Art Online, Frieren, Megumin, Kaguya und Yor in EN/RU ergänzt (Preset-JSON, Preset-PNG und Gateway-PNG); Registry-Revisionen erhöht.
 
+- [x] Je eine weitere alternative Begrüßung (DE/EN/RU) für Chlammy, Fiel, Izuna, Jibril und Stephanie, damit alle Karten mindestens zwei haben.
+
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 
