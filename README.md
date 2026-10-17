@@ -14,7 +14,6 @@ Separates Inhaltsrepository für [OtakuSoul](https://github.com/SnowwhiteOakhear
 | `lorebooks_registry.json` / `lorebooks_gateway/` | Lorebook-Katalog und JSON-Dateien |
 | `stages_registry.json` / `stages_gateway/` | Szenenkatalog und JSON-Dateien |
 | `presets/` | Themenpakete mit JSON-/PNG-Karten, Expressions, Hintergründen und Dokumentation; teilweise eigenen Szenen und Lorebooks |
-| `presets/cards/` | Einzelkarten als JSON und PNG |
 | `avatars/` | Zusätzliche Avatare; Herkunftshinweise und Download-Quellen unter `avatars/vrm/lizenzen.txt` |
 | `locales/` | Deutsche und russische App-Sprachdateien; Englisch wird in der App gepflegt |
 | `recommended_models.json` | Startmodelle für den Einrichtungsassistenten der App (die App lädt die Datei beim Start, wenn sie neuer ist), keine Modelldateien |
@@ -76,7 +75,6 @@ Separate content repository for [OtakuSoul](https://github.com/SnowwhiteOakheart
 | `lorebooks_registry.json` / `lorebooks_gateway/` | Lorebook catalog and JSON files |
 | `stages_registry.json` / `stages_gateway/` | Scene catalog and JSON files |
 | `presets/` | Themed packages with JSON/PNG cards, expressions, backgrounds and documentation; some include their own scenes and lorebooks |
-| `presets/cards/` | Individual JSON and PNG cards |
 | `avatars/` | Additional avatars; attribution and download sources in `avatars/vrm/lizenzen.txt` |
 | `locales/` | German and Russian app language files; English is maintained in the app |
 | `recommended_models.json` | Starter models for the app's setup wizard (the app loads the file at start when it is newer), without model binaries |
@@ -138,7 +136,6 @@ This repository is an independent, non-commercial fan project. All depicted char
 | `lorebooks_registry.json` / `lorebooks_gateway/` | Каталог лорбуков и JSON-файлы |
 | `stages_registry.json` / `stages_gateway/` | Каталог сцен и JSON-файлы |
 | `presets/` | Тематические наборы: JSON-/PNG-карточки, эмоции, фоны и документация; некоторые содержат собственные сцены и лорбуки |
-| `presets/cards/` | Отдельные карточки в JSON и PNG |
 | `avatars/` | Дополнительные аватары; сведения об источниках и ссылки в `avatars/vrm/lizenzen.txt` |
 | `locales/` | Немецкие и русские языковые файлы приложения; английский поддерживается в приложении |
 | `recommended_models.json` | Стартовые модели для мастера настройки приложения (приложение загружает файл при запуске, если он новее) без файлов самих моделей |

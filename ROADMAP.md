@@ -254,6 +254,8 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 
 - [x] Fremde Inhalte entfernt: 8 Lorebooks und 8 Szenen von Jofi (Soul of Waifu / `sow-data`) sowie das Lorebook „Spice and Wolf“ (Don Chacha Muchacho); Registries, LICENSE-Credits und README angepasst. Das Repository enthält nur noch eigene Inhalte.
 
+- [x] 20 verwaiste Altkarten in `cards_gateway/` entfernt (17 davon unterschieden sich nur in der Groß-/Kleinschreibung von den aktuellen und brachen das Klonen unter Windows/macOS) sowie die drei überholten Karten in `presets/cards/`.
+
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 

@@ -29,7 +29,6 @@ recommended_models.json         Startmodelle für den Einrichtungsassistenten, k
 locales/de.json / ru.json        Spieltexte der App (Schlüssel = englischer Text)
 avatars/                        zusätzliche Avatar-Dateien
 avatars/vrm/lizenzen.txt         Herkunft und Bedingungen der VRM-Modelle
-presets/cards/                  bestehende Einzelkarten
 presets/<paket>/                 zusammengehörige Inhalte
   <figur>.json / <figur>.png     Profil und eingebettete PNG-Karte
   expressions/<figur>/          sechs Emotionsbilder und Promptnachweise
