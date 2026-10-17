@@ -11,7 +11,8 @@
     "nanally": "Nanally Colucci: short young adult cat hybrid, long red-pink hair, curled ahoge, black cat ears with white tufts, dark tail, matching eyes, round boss-style glasses; black cropped blazer, white shirt and tie, hot-pink pleated skirt, gloves and pouches; grand pointing pose and exuberant grin; magenta antique-shop lighting.",
     "linko": "Linko: fluffy short bubblegum-pink hair, tiny side ponytail and curled ahoge, green-cyan eyes, two black spiral antenna accessories, tech headphones, teal oversized futuristic jacket with white patterned sleeves and pink trim, dark top with green circular symbol; saluting, curious expression. Xiaozhen appears only as a small cyan ghost companion emerging from the compact TV backpack; teal-pink frequency backdrop.",
     "zero_female": "Female Esper Zero: shoulder-length silver-gray hair, black headband, small ahoge, gray-violet eyes, white button-up shirt, lavender tie, cropped dark short-sleeve jacket with buckles, pleated dark skirt, fingerless gloves, utility belt and left-thigh strap; poised appraiser stance with restrained sci-fi sword; black-silver-lavender rift lighting.",
-    "zero_male": "Male Esper Zero: short tousled silver-gray hair with two small ahoges, gray-violet eyes, white button-up shirt, lavender tie, structured dark jacket with buckles, fitted dark trousers, fingerless gloves and utility belt; thoughtful appraiser stance with restrained sci-fi sword; black-silver-lavender rift lighting."
+    "zero_male": "Male Esper Zero: short tousled silver-gray hair with two small ahoges, gray-violet eyes, white button-up shirt, lavender tie, structured dark jacket with buckles, fitted dark trousers, fingerless gloves and utility belt; thoughtful appraiser stance with restrained sci-fi sword; black-silver-lavender rift lighting.",
+    "shinku": "Shinku: very long black hair with crimson-magenta inner layers, red eyes, large angular black-and-red dragon horns, and an armored dragon tail with luminous crimson plates; tailored white CSU-style shirt with black harness details, red-black shorts, white thigh-highs with red trim, and fingerless gloves; cool neutral expression while adjusting one glove; deep violet urban anomaly lighting."
   },
   "references": [
     "https://nte.perfectworld.com/en/character/index.html",
@@ -19,7 +20,9 @@
     "https://nte.perfectworld.com/en/article/news/gamenews/20240830/252474.html",
     "https://nte.perfectworld.com/en/article/news/gamenews/20241122/253815.html",
     "https://nte.perfectworld.com/en/article/news/gamenews/20260728/263296.html",
-    "https://nte.perfectworld.com/en/article/news/gamenews/20260908/263947.html"
+    "https://nte.perfectworld.com/en/article/news/gamenews/20260908/263947.html",
+    "https://nte.perfectworld.com/de/article/news/gamenews/20260706/263030.html",
+    "https://www.youtube.com/watch?v=FVhLNdcAVyI"
   ],
   "postprocessing": [
     "Each generated PNG was center-cropped and resized with ImageMagick to exactly 700x937 pixels.",

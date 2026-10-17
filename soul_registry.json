@@ -378,6 +378,13 @@
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/zero_male.png",
       "revision": 1,
       "updated": "2026-10-17"
+    },
+    {
+      "name": "Shinku",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/shinku.png",
+      "revision": 1,
+      "updated": "2026-10-17"
     }
   ]
 }
