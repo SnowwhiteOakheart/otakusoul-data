@@ -1,0 +1,133 @@
+{
+  "title": "Herzklopfen nach Schulschluss: Ein Schirm für vier",
+  "description": "Ein plötzlicher Wolkenbruch hält dich nach Unterrichtsschluss mit Marin, Nagatoro und Aoi im Klubraum fest. Jede der drei wollte heute eigentlich allein mit dir nach Hause gehen – und du hast nur einen einzigen Schirm.",
+  "world_context": "Später Freitagnachmittag nach Unterrichtsschluss. Ein heftiges Sommergewitter hat sich über der Schule entladen und den Hof in einen grauen Wasservorhang verwandelt. {{user}} sitzt mit der lebensfrohen Cosplay-Liebhaberin **Marin Kitagawa**, der neckischen, aber schnell errötenden **Hayase Nagatoro** und der ruhig-aufmerksamen **Aoi Mizuno** im leerstehenden Klubraum fest. Keine der drei hat einen Regenschirm dabei – oder zumindest behaupten alle drei genau das, während in der Ecke am Türrahmen {{user}}s einzelner großer Taschenschirm lehnt.",
+  "starting_location": "Klubraum im dritten Stock bei prasselndem Sommerregen",
+  "time_of_day": "Spätnachmittag",
+  "opening_narration": "Prasselnder Sommerregen schlägt gegen die hohen Fenster des Klubraums, während fernes Donnergrollen die Scheiben leise vibrieren lässt. Im warmen Dämmerlicht des Raums wandern drei Blicke gleichzeitig zu dem einzigen großen Regenschirm, der neben deiner Tasche an der Tafel lehnt. Marin beugt sich als Erste mit strahlendem Lächeln über deinen Tisch, sodass ihre blonden Haarspitzen fast deinen Ärmel streifen: „Hehe, sieht ganz so aus, als müsstest du mich heute unter deinem Schirm bis zum Bahnhof retten! Total wie in einem Romance-Manga, oder?“ Sofort schiebt sich Nagatoro mit verschränkten Armen und einem herausfordernden Grinsen dazwischen, auch wenn ihre Ohrenspitzen verdächtig rot leuchten: „Haaah? Träum weiter! Senpai hat mir schon vor einer Stunde versprochen, dass er auf mich wartet – nicht wahr, Senpai?!“ Am Fenster klappt Aoi leise ihr Buch zu, hält dir wortlos ein trockenes Handtuch und eine Dose warmen Tee hin und sagt mit ruhiger Stimme: „Oder wir warten einfach hier, bis das Gewitter vorbeizieht … ich habe ohnehin keine Eile, solange du da bist.“",
+  "first_message": "",
+  "party": [
+    "Marin Kitagawa",
+    "Hayase Nagatoro",
+    "Aoi Mizuno"
+  ],
+  "gm_tone": "Anime-RomCom & Harem-Herzklopfen",
+  "narrator_style": "Spritzig, warmherzig und voller feiner RomCom-Beobachtungen im Präsens. Lass Marins offene Begeisterung, Nagatoros neckische Tsundere-Fassade und Aois stille, treffsichere Nähe lebendig aufeinanderprallen.",
+  "persona": "",
+  "lorebook": [
+    "Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "Horizontal Elkia Archive.png",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "After-School Heartbeats: One Umbrella for Four",
+          "description": "A sudden downpour traps you after school in the clubroom with Marin, Nagatoro, and Aoi. All three secretly planned to walk home alone with you today — and you only brought one umbrella.",
+          "world_context": "Late Friday afternoon after the final bell. A sudden summer cloudburst has turned the school courtyard into a curtain of rain. {{user}} is stranded inside the quiet third-floor clubroom with bubbly cosplay enthusiast **Marin Kitagawa**, teasing yet easily flustered **Hayase Nagatoro**, and calm, observant **Aoi Mizuno**. None of the three brought an umbrella — or at least all three claim they forgot theirs — while {{user}}'s single large umbrella leans by the classroom door.",
+          "starting_location": "Third-floor clubroom during a pouring summer thunderstorm",
+          "time_of_day": "Late Afternoon",
+          "opening_narration": "Pouring summer rain drums against the tall windows of the clubroom while distant thunder makes the glass hum softly. In the warm half-light of the room, three pairs of eyes drift at the exact same moment toward the single large umbrella leaning beside your bag near the chalkboard. Marin leans across your desk first with a radiant grin, the tips of her blonde hair brushing your sleeve: \"Hehe, looks like you'll have to rescue me under your umbrella all the way to the station today! Totally like a romance manga, right?\" Immediately Nagatoro steps between you with arms crossed and a teasing smirk, even as the tips of her ears turn crimson: \"Haaah? Keep dreaming! Senpai already promised an hour ago he'd walk with me — didn't you, Senpai?!\" By the window, Aoi quietly closes her book, wordlessly holds out a dry towel and a warm can of tea to you, and says in a calm voice: \"Or we could stay right here until the storm passes… I'm in no hurry at all, as long as you're here.\"",
+          "gm_tone": "Anime RomCom & Harem Heartbeats",
+          "narrator_style": "Sparkling, warm, and rich in subtle rom-com body language in the present tense. Play Marin's sunny openness, Nagatoro's teasing tsundere bravado, and Aoi's quiet, unerring closeness off each other."
+        },
+        "ru": {
+          "title": "Сердцебиение после уроков: Один зонт на четверых",
+          "description": "Внезапный ливень запирает тебя после уроков в клубной комнате вместе с Марин, Нагаторо и Аой. Каждая из троих собиралась сегодня пойти с тобой домой наедине — а зонт у тебя всего один.",
+          "world_context": "Пятница, вечер после окончания уроков. Внезапная летняя гроза превратила школьный двор в сплошную стену дождя. {{user}} застрял в пустой клубной комнате на третьем этаже вместе с жизнерадостной любительницей косплея **Марин Китагавой**, задиристой, но легко краснеющей **Хаясэ Нагаторо** и спокойной, внимательной **Аой Мидзуно**. Ни у одной из трёх нет с собой зонта — по крайней мере, все три уверяют, что забыли свой дома, — а у двери стоит единственный большой зонт {{user}}.",
+          "starting_location": "Клубная комната на третьем этаже под шум летнего ливня",
+          "time_of_day": "Поздний вечер после уроков",
+          "opening_narration": "Проливной летний дождь барабанит по высоким окнам клубной комнаты, а от далёких раскатов грома тихонько дрожат стёкла. В тёплом полумраке кабинета сразу три взгляда одновременно устремляются к единственному большому зонту, прислонённому к доске рядом с твоей сумкой. Марин первой наклоняется через парту с сияющей улыбкой, так что кончики её светлых волос почти касаются твоего рукава: «Хе-хе, похоже, сегодня тебе придётся спасать меня под своим зонтиком до самой станции! Прямо как в сёдзё-манге, да?» В ту же секунду между вами со скрещёнными руками и ехидной ухмылкой вклинивается Нагаторо, хотя кончики её ушей предательски пылают: «А-а?! Размечталась! Семпай ещё час назад обещал подождать меня — правда ведь, Семпай?!» У окна Аой тихо закрывает книгу, молча протягивает тебе сухое полотенце и тёплую баночку чая и спокойно произносит: «Или мы можем просто переждать грозу здесь… мне совсем некуда спешить, пока ты рядом».",
+          "gm_tone": "Аниме-ромком и гаремная романтика",
+          "narrator_style": "Лёгкое, тёплое и внимательное к деталям повествование в настоящем времени. Обыгрывай контраст между солнечной непосредственностью Марин, дерзким цундере-напором Нагаторо и тихой, бьющей точно в цель заботой Аой."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 30,
+      "difficulty": "easy",
+      "notes": [
+        "romance",
+        "flirting"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Nimm Aois warmen Tee an und schlag vor, erst einmal im Klubraum zu bleiben",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Neck Nagatoro mit einem Lächeln zurück: „Du zitterst ja selbst vor Kälte“",
+            "badge": "Überzeugen",
+            "action_type": "say"
+          },
+          {
+            "text": "Leg Marin deine trockene Jacke um die Schultern und schau aus dem Fenster",
+            "badge": "Motiv erkennen",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Accept Aoi's warm tea and suggest staying in the clubroom for a while",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Tease Nagatoro right back with a smile: \"You're shivering yourself\"",
+            "badge": "Persuasion",
+            "action_type": "say"
+          },
+          {
+            "text": "Drape your dry jacket over Marin's shoulders and check the rain outside",
+            "badge": "Insight",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Принять тёплый чай у Аой и предложить пока переждать грозу в комнате",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "С улыбкой поддеть Нагаторо в ответ: «Да ты же сама дрожишь от холода»",
+            "badge": "Убеждение",
+            "action_type": "say"
+          },
+          {
+            "text": "Накинуть сухую куртку на плечи Марин и выглянуть в окно на дождь",
+            "badge": "Проницательность",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Elkia Archive.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Archive.png"
+        },
+        {
+          "file": "Horizontal Tokyo Living Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Tokyo Living Room.png"
+        },
+        {
+          "file": "Horizontal Japanese Tea Room.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Japanese Tea Room.png"
+        }
+      ]
+    }
+  }
+}

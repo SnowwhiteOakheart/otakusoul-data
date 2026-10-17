@@ -61,6 +61,7 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt. Alle da
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
+- **Cyberpunk 2077:** © CD PROJEKT S.A. / Mike Pondsmith, R. Talsorian Games
 
 ---
 
@@ -123,6 +124,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
+- **Cyberpunk 2077:** © CD PROJEKT S.A. / Mike Pondsmith, R. Talsorian Games
 
 ---
 
@@ -185,3 +187,4 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 - **Kaguya-sama: Love Is War:** © Aka Akasaka / Shueisha / A-1 Pictures
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
+- **Cyberpunk 2077:** © CD PROJEKT S.A. / Mike Pondsmith, R. Talsorian Games

@@ -342,6 +342,63 @@
           "name": "Sword Art Online – География Айнкрада"
         }
       }
+    },
+    {
+      "name": "Night City 2077 – Edgerunner, Konzerne & das Netz",
+      "author": "SnowwhiteOakheart",
+      "description": "Megakonzerne, Bezirke, Gangs, Cyberware, Ripperdocs, Netrunning hinter der Blackwall und das Gesetz der Straße im Jahr 2077.",
+      "entry_count": 12,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/cyberpunk_night_city.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Megacorporations, districts, gangs, cyberware, ripperdocs, netrunning beyond the Blackwall, and the law of the street in 2077.",
+          "name": "Night City 2077 – Edgerunners, Megacorps & The Net"
+        },
+        "ru": {
+          "description": "Мегакорпорации, районы, банды, киберимпланты, рипперы, нетраннинг за Чёрным заслоном и законы улиц 2077 года.",
+          "name": "Найт-Сити 2077 – Эджраннеры, корпорации и Сеть"
+        }
+      }
+    },
+    {
+      "name": "Aetheria Chronicles – Isekai-Abenteuer, Gilden & Systemmagie",
+      "author": "SnowwhiteOakheart",
+      "description": "Klassische Isekai-Fantasy-Welt: das Weltsystem mit Statusfenstern und Einzigartigen Skills, die Abenteurergilde (Rang F bis S), Labyrinthe, Reiche und der Dämonenkönig.",
+      "entry_count": 12,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/isekai_fantasy_rpg_world.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Classic isekai fantasy world: the World System with status windows and Unique Skills, the Adventurers' Guild (Ranks F to S), labyrinths, realms, and the Demon Lord.",
+          "name": "Aetheria Chronicles – Isekai Adventure, Guilds & System Magic"
+        },
+        "ru": {
+          "description": "Классический фэнтези-исекай: Мировая Система с окнами статуса и Уникальными навыками, Гильдия авантюристов (ранги F–S), лабиринты, королевства и Владыка Демонов.",
+          "name": "Хроники Этерии – Исекай-приключение, гильдии и магия Системы"
+        }
+      }
+    },
+    {
+      "name": "Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik",
+      "author": "SnowwhiteOakheart",
+      "description": "Dramaturgie, Tropes und Schauplätze für klassische Anime-Romance-, Slice-of-Life- und Harem-Geschichten: Charakter-Dynamik, Eifersucht, Feste, Dates und Schlüsselmomente.",
+      "entry_count": 12,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/modern_anime_academy_romance.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Dramaturgy, tropes, and settings for classic anime romance, slice-of-life, and harem stories: character chemistry, jealousy sparks, festivals, dates, and key moments.",
+          "name": "Heartbeats & Cherry Blossoms – Anime Romance & Harem Dynamics"
+        },
+        "ru": {
+          "description": "Драматургия, тропы и локации для классической аниме-романтики, повседневности и гаремных историй: химия характеров, ревность, фестивали, свидания и ключевые моменты.",
+          "name": "Биение сердец и лепестки сакуры – Аниме-романтика и гаремная динамика"
+        }
+      }
     }
   ]
 }

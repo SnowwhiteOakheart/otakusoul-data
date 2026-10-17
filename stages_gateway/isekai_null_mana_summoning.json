@@ -1,0 +1,132 @@
+{
+  "title": "Isekai-Chroniken: Beschworen mit Stufe Null",
+  "description": "Im Thronsaal von Limgard zeigt die königliche Schätzungskugel bei dir „Mana: 0“ – woraufhin dich der Hof vor die Tore setzt. Doch Frieren und Megumin entdecken an deinem Statusfenster etwas, das den Hofmagiern entgangen ist.",
+  "world_context": "Das Königreich Limgard in der Welt Aetheria hat ein uraltes Heldenbeschwörungs-Ritual vollzogen, doch bei {{user}} bleibt der königliche Schätzungskristall scheinbar dunkel: `Stufe 0 – Manakern: Unbekannt`. Vom arroganten Hofstaat mit einem Beutel Kupfermünzen in die freie Grenzstadt Astralis abgeschoben, stehst du vor der Abenteurergilde. Was die Hofmagier für „Null Mana“ hielten, ist in Wahrheit eine Fähigkeit jenseits ihrer Messskala. Die umherziehende Elfenmagierin **Frieren** und die explosionsbegeisterte Erzmagierin **Megumin** werden sofort auf deine seltsame Aura aufmerksam.",
+  "starting_location": "Vorplatz der Freien Abenteurergilde von Astralis",
+  "time_of_day": "Vormittag",
+  "opening_narration": "Noch vor einer Stunde hast du im goldenen Runenkreis des Thronsaals gekniet – jetzt stehst du mit einem winzigen Beutel Kupfermünzen auf dem Kopfsteinpflaster der Grenzstadt Astralis, während vor deinem inneren Auge ein schimmerndes Fenster schwebt: `«System: Titel [Verstoßener der Krone] erhalten. Verborgener Einzigartiger Skill wartet auf Initialisierung.»` Vor dem Eingang der Abenteurergilde bleibt eine weißhaarige Elfe mit Reisestab abrupt stehen und mustert dich mit leicht schief gelegtem Kopf. „Hm. Die Hofmagier dieses Jahrhunderts sind wirklich schlampig geworden“, murmelt Frieren trocken. Neben ihr reißt ein Mädchen mit spitzem Hexenhut und Augenklappe begeistert den Stab hoch: „Halt! Spüre ich da etwa den Abgrund einer namenlosen, verbotenen Macht?! Sag mir sofort deinen Namen, geheimnisvoller Andersweltler – und ob du meine ultimative Explosionsmagie bezeugen willst!“",
+  "first_message": "",
+  "party": [
+    "Frieren",
+    "Megumin"
+  ],
+  "gm_tone": "Isekai-Fantasy & Abenteuer-Komödie",
+  "narrator_style": "Lebendig, warmherzig und voller klassischem Anime-Isekai-Charme im Präsens. Verbinde Frierens trockene, jahrtausendealte Gelassenheit und Megumins theatralischen Chuunibyou-Eifer mit spannender System- und Gilden-Entdeckung.",
+  "persona": "",
+  "lorebook": [
+    "Aetheria Chronicles – Isekai-Abenteuer, Gilden & Systemmagie"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "Horizontal Elkia Throne Room.png",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Isekai Chronicles: Summoned at Level Zero",
+          "description": "In the royal throne room of Limgard, the Appraisal Orb reads \"Mana: 0\" — getting you promptly booted out the palace gates. Yet Frieren and Megumin spot something in your Status Window that the court mages missed entirely.",
+          "world_context": "The Kingdom of Limgard in the world of Aetheria performed an ancient Hero Summoning ritual, only for the royal Appraisal Orb to go dark at {{user}}'s touch: `Level 0 — Mana Core: Unreadable`. Cast out by the arrogant royal court with a pouch of copper coins and sent to the frontier city of Astralis, you stand before the Adventurers' Guild. What the court wizards dismissed as \"Zero Mana\" is actually an anomaly beyond their scale. Wandering elven mage **Frieren** and explosion-obsessed arch-wizard **Megumin** immediately take notice of your strange aura.",
+          "starting_location": "Plaza outside the Free Adventurers' Guild of Astralis",
+          "time_of_day": "Morning",
+          "opening_narration": "Barely an hour ago you were kneeling inside the golden summoning array of the royal palace — now you stand on the cobblestones of frontier city Astralis with a tiny pouch of copper coins while a translucent window hovers in your vision: `«System: Title [Outcast of the Crown] acquired. Dormant Unique Skill awaiting initialization.»` Right outside the Adventurers' Guild doors, a white-haired elf carrying a mage's staff stops dead in her tracks and tilts her head at you. \"Hmm. Court mages this century really have gotten sloppy,\" Frieren mutters deadpan. Beside her, a girl in a pointed witch hat and eyepatch raises her staff with theatrical flair: \"Halt! Do I sense the abyss of a nameless, forbidden power?! Speak your name at once, mysterious Otherworlder — and tell me whether you wish to bear witness to my ultimate Explosion magic!\"",
+          "gm_tone": "Isekai Fantasy & Adventure Comedy",
+          "narrator_style": "Lively, warm, and brimming with classic anime isekai charm in the present tense. Balance Frieren's dry, millennial deadpan and Megumin's theatrical chuunibyou flair with exciting System and Guild progression."
+        },
+        "ru": {
+          "title": "Хроники Исекая: Призванный с нулевым уровнем",
+          "description": "В тронном зале Лимгарда королевская сфера оценки показывает у тебя «Мана: 0», и двор выставляет тебя за ворота. Но Фрирен и Мегумин замечают в твоём окне статуса то, что проглядели придворные маги.",
+          "world_context": "Королевство Лимгард в мире Этерия провело древний ритуал Призыва Героев, но при прикосновении {{user}} королевский кристалл оценки остался тёмным: `Уровень 0 — Мана-ядро: Неопределимо`. Выставленный надменным двором с горстью медяков в вольный пограничный город Астралис, ты стоишь у дверей Гильдии авантюристов. То, что придворные чародеи сочли «нулевой маной», на деле — способность за пределами их шкалы. Странствующая эльфийская волшебница **Фрирен** и одержимая взрывами архимаг **Мегумин** сразу замечают твою необычную ауру.",
+          "starting_location": "Площадь перед Свободной Гильдией авантюристов Астралиса",
+          "time_of_day": "Утро",
+          "opening_narration": "Ещё час назад ты стоял на коленях в золотом круге призыва королевского дворца — а теперь стоишь на брусчатке пограничного города Астралис с тощим мешочком медяков, пока перед глазами парит полупрозрачное окно: `«Система: получен титул [Изгнанник короны]. Скрытый Уникальный навык ожидает пробуждения»`. У самых дверей Гильдии авантюристов беловолосая эльфийка с посохом внезапно останавливается и, склонив голову набок, пристально смотрит на тебя. «Хм. Придворные маги в этом столетии совсем обленились», — невозмутимо бормочет Фрирен. Рядом с ней девушка в остроконечной шляпе и с повязкой на глазу картинно вскидывает посох: «Стой! Уж не бездну ли безымянной запретной силы я ощущаю?! Назови своё имя, таинственный пришелец из иного мира, — и скажи, готов ли ты узреть мою величайшую магию Взрыва!»",
+          "gm_tone": "Фэнтези-исекай и приключенческая комедия",
+          "narrator_style": "Живое, тёплое и остроумное повествование в духе классического аниме-исекая в настоящем времени. Сочетай тысячелетнее спокойствие Фрирен и театральный пафос Мегумин с открытием навыков Системы и жизнью гильдии."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 45,
+      "difficulty": "easy",
+      "notes": [
+        "action",
+        "mild_danger"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Frag Frieren, was genau sie an deiner Aura und deinem Manakern sieht",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Öffne dein Statusfenster und versuche, den verborgenen Skill zu aktivieren",
+            "badge": "Arkane Kunde",
+            "action_type": "do"
+          },
+          {
+            "text": "Lade beide in die Abenteurergilde ein, um eine Gruppe zu gründen",
+            "badge": "Überzeugen",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Frieren what she actually sees in your aura and mana core",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Open your Status Window and try to initialize the dormant Unique Skill",
+            "badge": "Arcana",
+            "action_type": "do"
+          },
+          {
+            "text": "Invite both of them inside the Adventurers' Guild to form a party",
+            "badge": "Persuasion",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Фрирен, что именно она видит в твоей ауре и мана-ядре",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Открыть окно статуса и попытаться пробудить скрытый Уникальный навык",
+            "badge": "Магия",
+            "action_type": "do"
+          },
+          {
+            "text": "Пригласить обеих в Гильдию авантюристов, чтобы создать общий отряд",
+            "badge": "Убеждение",
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Elkia Throne Room.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Throne Room.png"
+        },
+        {
+          "file": "Horizontal Elkia Grand Library.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Elkia Grand Library.png"
+        },
+        {
+          "file": "dungeon_meshi_ep1_skorpionsuppe.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep1_skorpionsuppe.png"
+        }
+      ]
+    }
+  }
+}

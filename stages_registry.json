@@ -814,6 +814,138 @@
           "starting_location": "Комната босса 74-го этажа"
         }
       }
+    },
+    {
+      "id": "cyberpunk_ghost_in_subgrid",
+      "title": "Night City 2077: Geist im Subnetz",
+      "author": "SnowwhiteOakheart",
+      "description": "Tief unter Japantown liegt ein geflutetes Arasaka-Schattenlabor. Du drichst mit der Hackerin Kurumi und der Schwertkämpferin Shinku ein, um einen Relikt-Splitter zu bergen – bevor das Schwarze ICE zuschnappt.",
+      "starting_location": "Gefluteter Serverkorridor des Schattenlabors Kuro-7 (Japantown)",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_ghost_in_subgrid.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Night City 2077: Ghost in the Subgrid",
+          "description": "Deep beneath Japantown lies a flooded Arasaka black-site lab. Alongside netrunner Kurumi and blade specialist Shinku, you breach the facility to klep an experimental Relic shard before Black ICE locks you in.",
+          "starting_location": "Flooded server corridor of Black-Site Lab Kuro-7 (Japantown)"
+        },
+        "ru": {
+          "title": "Найт-Сити 2077: Призрак в подсети",
+          "description": "Глубоко под Джапан-тауном скрыта затопленная секретная лаборатория «Арасаки». Вместе с хакершей Куруми и мечницей Синку ты проникаешь внутрь за экспериментальной щепкой, пока не сработал Чёрный ЛЁД.",
+          "starting_location": "Затопленный серверный коридор секретной лаборатории «Куро-7» (Джапан-таун)"
+        }
+      }
+    },
+    {
+      "id": "cyberpunk_afterlife_deal",
+      "title": "Night City 2077: Kalter Deal im Afterlife",
+      "author": "SnowwhiteOakheart",
+      "description": "Eine Übergabe in einer regennassen Seitengasse nahe dem Afterlife läuft aus dem Ruder: Der Konzern-Käufer will den Biochip, ohne zu zahlen – und am Himmel kreisen bereits bewaffnete AVs.",
+      "starting_location": "Neon-Hinterhofgasse nahe dem Afterlife (Watson)",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_afterlife_deal.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Night City 2077: Cold Deal at the Afterlife",
+          "description": "A midnight handoff in a rain-slicked alley near the Afterlife goes sideways: the corporate buyer wants the biochip without paying — and armed AVs are already circling overhead.",
+          "starting_location": "Neon-lit back alley near the Afterlife (Watson)"
+        },
+        "ru": {
+          "title": "Найт-Сити 2077: Холодная сделка в «Посмертии»",
+          "description": "Ночная передача в залитом дождём переулке у клуба «Посмертие» идёт наперекосяк: покупательница из корпорации решила забрать биочип даром, а в небе уже кружат боевые ави.",
+          "starting_location": "Неоновый переулок неподалёку от клуба «Посмертие» (Уотсон)"
+        }
+      }
+    },
+    {
+      "id": "isekai_null_mana_summoning",
+      "title": "Isekai-Chroniken: Beschworen mit Stufe Null",
+      "author": "SnowwhiteOakheart",
+      "description": "Im Thronsaal von Limgard zeigt die königliche Schätzungskugel bei dir „Mana: 0“ – woraufhin dich der Hof vor die Tore setzt. Doch Frieren und Megumin entdecken an deinem Statusfenster etwas, das den Hofmagiern entgangen ist.",
+      "starting_location": "Vorplatz der Freien Abenteurergilde von Astralis",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_null_mana_summoning.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Isekai Chronicles: Summoned at Level Zero",
+          "description": "In the royal throne room of Limgard, the Appraisal Orb reads \"Mana: 0\" — getting you promptly booted out the palace gates. Yet Frieren and Megumin spot something in your Status Window that the court mages missed entirely.",
+          "starting_location": "Plaza outside the Free Adventurers' Guild of Astralis"
+        },
+        "ru": {
+          "title": "Хроники Исекая: Призванный с нулевым уровнем",
+          "description": "В тронном зале Лимгарда королевская сфера оценки показывает у тебя «Мана: 0», и двор выставляет тебя за ворота. Но Фрирен и Мегумин замечают в твоём окне статуса то, что проглядели придворные маги.",
+          "starting_location": "Площадь перед Свободной Гильдией авантюристов Астралиса"
+        }
+      }
+    },
+    {
+      "id": "isekai_labyrinth_of_aetheria",
+      "title": "Isekai-Chroniken: Der verbotene Dungeon-Kern",
+      "author": "SnowwhiteOakheart",
+      "description": "Eine Notfall-Quest der Abenteurergilde führt dich mit Rem und Marcille tief in ein versunkenes Ruinen-Labyrinth – wo das Weltsystem vor einem erwachenden Dungeon-Kern warnt.",
+      "starting_location": "Unterirdisches Kristall-Sanktuarium vor der Kammer des Dungeon-Kerns",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_labyrinth_of_aetheria.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Isekai Chronicles: The Forbidden Dungeon Core",
+          "description": "An emergency Adventurers' Guild quest leads you, Rem, and Marcille deep into a sunken ruin labyrinth — where the World System warns of an awakening Dungeon Core.",
+          "starting_location": "Subterranean crystal sanctuary outside the Dungeon Core chamber"
+        },
+        "ru": {
+          "title": "Хроники Исекая: Запретное ядро подземелья",
+          "description": "Экстренное задание Гильдии авантюристов ведёт тебя, Рем и Марсиль в затопленные руины древнего лабиринта, где Мировая Система предупреждает о пробуждении Ядра подземелья.",
+          "starting_location": "Подземное кристальное святилище перед залом Ядра подземелья"
+        }
+      }
+    },
+    {
+      "id": "romance_rainy_clubroom_confessions",
+      "title": "Herzklopfen nach Schulschluss: Ein Schirm für vier",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein plötzlicher Wolkenbruch hält dich nach Unterrichtsschluss mit Marin, Nagatoro und Aoi im Klubraum fest. Jede der drei wollte heute eigentlich allein mit dir nach Hause gehen – und du hast nur einen einzigen Schirm.",
+      "starting_location": "Klubraum im dritten Stock bei prasselndem Sommerregen",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rainy_clubroom_confessions.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "After-School Heartbeats: One Umbrella for Four",
+          "description": "A sudden downpour traps you after school in the clubroom with Marin, Nagatoro, and Aoi. All three secretly planned to walk home alone with you today — and you only brought one umbrella.",
+          "starting_location": "Third-floor clubroom during a pouring summer thunderstorm"
+        },
+        "ru": {
+          "title": "Сердцебиение после уроков: Один зонт на четверых",
+          "description": "Внезапный ливень запирает тебя после уроков в клубной комнате вместе с Марин, Нагаторо и Аой. Каждая из троих собиралась сегодня пойти с тобой домой наедине — а зонт у тебя всего один.",
+          "starting_location": "Клубная комната на третьем этаже под шум летнего ливня"
+        }
+      }
+    },
+    {
+      "id": "romance_rooftop_festival_fireworks",
+      "title": "Kulturfest-Legende: Wem gehört der letzte Tanz?",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Legende des großen Abendballs besagt: Wer beim ersten Feuerwerk auf dem Balkon zusammensteht, bleibt für immer verbunden. Kaguya, Asuna und Rem haben dich alle drei zur selben Minute dorthin bestellt.",
+      "starting_location": "Mit Lampions beleuchtete Dachterrasse über dem Festsaal kurz vor dem Feuerwerk",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rooftop_festival_fireworks.json",
+      "revision": 1,
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Cultural Festival Legend: Who Gets the Last Dance?",
+          "description": "Festival legend says that whoever stands together on the balcony when the first firework blooms will be bound forever. Kaguya, Asuna, and Rem all invited you to the terrace at the exact same minute.",
+          "starting_location": "Lantern-lit rooftop terrace above the festival ballroom just before the fireworks"
+        },
+        "ru": {
+          "title": "Легенда школьного фестиваля: Кому достанется последний танец?",
+          "description": "Легенда праздничного бала гласит: те, кто встретит первый залп фейерверка на балконе вместе, будут связаны навсегда. Кагуя, Асуна и Рем позвали тебя на террасу в одну и ту же минуту.",
+          "starting_location": "Освещённая фонариками терраса над бальным залом перед началом фейерверка"
+        }
+      }
     }
   ]
 }

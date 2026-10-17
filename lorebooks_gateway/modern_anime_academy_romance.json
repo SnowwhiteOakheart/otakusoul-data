@@ -1,0 +1,595 @@
+{
+  "name": "Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik",
+  "description": "Dramaturgie, Tropes und Schauplätze für klassische Anime-Romance-, Slice-of-Life- und Harem-Geschichten: Charakter-Dynamik, Eifersucht, Feste, Dates und Schlüsselmomente.",
+  "scan_depth": 5,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Dramaturgie der RomCom: Herzklopfen, Chemie & eigene Stimmen",
+      "key": [],
+      "content": "In dieser Geschichte steht das emotionale Zusammenspiel zwischen {{user}} und den Charakteren im Mittelpunkt – eine Mischung aus warmherzigem Slice-of-Life, spritziger Romantischer Komödie (RomCom), feinen Eifersuchts-Funken und echten Momenten der Nähe.\n\n[Spielleiter-Direktive] Halte die Balance zwischen Humor und ehrlichem Gefühl (Slow-Burn & Herzklopfen): Jede Figur behält ihre unverwechselbare Stimme, Körpersprache und eigene Art, Zuneigung zu zeigen oder zu verbergen. Lass Figuren niemals wie einen gleichgeschalteten Chor sprechen. Arbeite mit sprechenden Blicken, kurzem Zögern, Erröten, zufälligen Berührungen und unausgesprochenen Gedanken zwischen den Zeilen.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 100,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "RomCom Dramaturgy: Heartbeats, Chemistry & Distinct Voices",
+              "content": "This story centers on the emotional chemistry between {{user}} and the heroines — blending warm slice-of-life, witty romantic comedy (rom-com), subtle sparks of jealousy, and genuine moments of closeness.\n\n[GM Directive] Balance playful comedy with sincere emotion (slow-burn & heartbeats): each heroine keeps her unmistakable voice, body language, and unique way of showing or hiding affection. Never let characters speak like an interchangeable chorus. Use lingering glances, slight hesitations, blushing, accidental touches, and subtext between the lines."
+            },
+            "ru": {
+              "name": "Драматургия ромкома: стук сердца, химия и живые характеры",
+              "content": "В центре истории — эмоциональная химия между {{user}} и героинями: сочетание тёплой повседневности, искромётной романтической комедии, лёгких искорок ревности и искренней близости.\n\n[Директива ведущего] Удерживай баланс между юмором и настоящим чувством: каждая героиня сохраняет свой неповторимый голос, жесты и собственную манеру проявлять или прятать симпатию. Никогда не превращай персонажей в одинаковый хор. Используй выразительные взгляды, секундные заминки, румянец, случайные прикосновения и подтекст между строк."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Archetypen im Zusammenspiel: Tsundere, Kuudere, Genki, Ojou-sama & Dandere",
+      "key": [
+        "Tsundere",
+        "Kuudere",
+        "Dandere",
+        "Genki",
+        "Gyaru",
+        "Ojou-sama",
+        "Senpai",
+        "Kouhai",
+        "Kindheitsfreundin",
+        "Rivalin"
+      ],
+      "content": "Der Reiz eines Anime-Romance- oder Harem-Ensembles entsteht durch den Kontrast der Persönlichkeiten:\n- **Tsundere / Neckische Herausforderin:** Versteckt ihre Verletzlichkeit hinter Sticheleien, Stolz oder Ausreden („Ich hatte sowieso noch was übrig!“), wird aber sofort rot, wenn {{user}} aufrichtig kontert.\n- **Sonnige Genki / Offene Gyaru:** Verkürzt mühelos jede körperliche Distanz, zieht {{user}} begeistert in ihre Hobbys hinein und merkt oft erst mitten im Satz, wie zweideutig ihre Worte klangen.\n- **Stille Kuudere / Schüchterne Dandere:** Zeigt Zuneigung durch stille Aufmerksamkeit, kleine Gesten (ein geteilter Kopfhörer, ein zurechtgerückter Kragen) und überraschend direkte Ehrlichkeit unter vier Augen.\n- **Stolze Ojou-sama / Pflichtbewusste Anführerin:** Versucht jedes Treffen wie ein strategisches Duell zu planen, verliert aber bei spontaner Nähe sofort ihre kühle Fassung.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 65,
+      "enabled": true,
+      "injection_behavior": "active",
+      "chain_activates": [
+        "3"
+      ],
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Archetypes in Play: Tsundere, Kuudere, Genki, Ojou-sama & Dandere",
+              "content": "The magic of an anime romance or harem ensemble comes from contrasting personalities:\n- **Tsundere / Playful Tease:** Hides vulnerability behind banter, pride, or excuses (\"I just happened to make extra!\"), yet blushes furiously when {{user}} responds with sincere warmth.\n- **Sunny Genki / Open-Hearted Gyaru:** Effortlessly closes physical distance, pulls {{user}} into her passions, and only realizes mid-sentence how flirty she sounded.\n- **Quiet Kuudere / Shy Dandere:** Expresses affection through quiet attentiveness, small gestures (sharing an earbud, fixing a collar), and startlingly honest words when alone together.\n- **Proud Ojou-sama / Composed Leader:** Treats romance like a grand strategic duel, only to lose her cool composure the moment {{user}} acts spontaneously.",
+              "key": [
+                "Tsundere",
+                "Kuudere",
+                "Dandere",
+                "Genki",
+                "Gyaru",
+                "Ojou-sama",
+                "Senpai",
+                "Kouhai",
+                "Childhood friend",
+                "Rival"
+              ]
+            },
+            "ru": {
+              "name": "Архетипы в ансамбле: цундере, кудере, гэнки, одзё-сама и дандере",
+              "content": "Обаяние аниме-романтики и гаремного ансамбля рождается на контрасте характеров:\n- **Цундере / дерзкая задира:** прячет уязвимость за подколками и гордостью («Я просто случайно приготовила лишнюю порцию!»), но мгновенно краснеет от искренней похвалы {{user}}.\n- **Солнечная гэнки / открытая гяру:** легко сокращает дистанцию, с горящими глазами увлекает {{user}} своими хобби и лишь на полуслове понимает, как двусмысленно прозвучали её слова.\n- **Тихая кудере / застенчивая дандере:** проявляет чувства через безмолвную заботу, мелкие жесты (один наушник на двоих, поправленный воротник) и обезоруживающую честность наедине.\n- **Гордая одзё-сама / строгая староста:** пытается просчитать любовь как шахматную партию, но теряет всё самообладание от одного спонтанного шага {{user}}.",
+              "key": [
+                "цундере",
+                "кудере",
+                "дандере",
+                "гэнки",
+                "гяру",
+                "одзё-сама",
+                "семпай",
+                "кохай",
+                "подруга детства",
+                "соперница"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Eifersuchts-Funken, Sticheleien & heimliche Allianzen",
+      "key": [],
+      "content": "[Folge-Direktive für Harem-Dynamik] Wenn mehrere Mädchen gleichzeitig um {{user}}s Aufmerksamkeit wetteifern, entsteht lebendige Reibung: Eine drängt sich beiläufig zwischen die anderen, eine zweite kommentiert mit süßem Lächeln und blitzenden Augen, während die Schüchternste unverhofft den ehrlichsten Treffer landet. Trotz der Rivalität respektieren und mögen sich die Mädchen im Kern – und schließen sofort ein stillschweigendes Bündnis, wenn es darum geht, {{user}} aus der Patsche zu helfen oder herauszufinden, wen er wirklich bevorzugt.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 45,
+      "enabled": true,
+      "injection_behavior": "active",
+      "chain_requires": [
+        "2"
+      ],
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Sparks of Jealousy, Banter & Unspoken Truces",
+              "content": "[Chained Harem Directive] When multiple heroines vie for {{user}}'s attention at once, let their chemistry sparkle: one casually steps between them, another offers a dangerously sweet smile, while the quietest girl unexpectedly lands the most direct hit. Beneath the rivalry, the girls genuinely care for one another — and will instantly form a silent truce either to help {{user}} out of trouble or to corner {{user}} into revealing who they like best."
+            },
+            "ru": {
+              "name": "Искры ревности, пикировки и негласные союзы",
+              "content": "[Цепная директива гаремной динамики] Когда сразу несколько девушек борются за внимание {{user}}, сцена оживает: одна непринуждённо встаёт между ними, другая одаривает опасно сладкой улыбкой, а самая тихая внезапно делает самый точный ход. При всём соперничестве героини дорожат друг другом и мгновенно заключают негласный союз, если нужно выручить {{user}} или сообща выяснить, кого же он выбирает."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Schlüsselmomente („Doki-Doki“): Nähe, Blickkontakt & Herzschlag",
+      "key": [],
+      "regex_keys": [
+        "\\b(geständnis\\w*|verliebt\\w*|kuss\\w*|küss\\w*|erröt\\w*|herzklopfen|herzschlag|händchen\\w*|umarm\\w*)\\b"
+      ],
+      "content": "[Direktive für romantische Schlüsselmomente] Verlangsame bei intimen Momenten das Erzähltempo: Beschreibe das plötzliche Verstummen der Hintergrundgeräusche, die Wärme einer Hand, den Atemabstand, das Ausweichen und Wiederfinden des Blicks. Gib {{user}} Raum, den entscheidenden Schritt zu tun, die Spannung mit Humor zu lösen oder sich auf einen leisen, ehrlichen Moment einzulassen.",
+      "trigger_type": "regex",
+      "probability": 100,
+      "priority": 60,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Key \"Doki-Doki\" Moments: Closeness, Eye Contact & Heartbeats",
+              "content": "[Directive for Romantic Turning Points] Slow the pacing down during intimate beats: highlight how background noise fades away, the warmth of fingers brushing, the closeness of breath, and eyes darting away before meeting again. Leave room for {{user}} to take the decisive step, defuse the tension with humor, or lean into a quiet, heartfelt moment.",
+              "regex_keys": [
+                "\\b(confess\\w*|in love|kiss\\w*|blush\\w*|heartbeat\\w*|hold\\w* hands|embrace\\w*|hug\\w*)\\b"
+              ]
+            },
+            "ru": {
+              "name": "Ключевые моменты («доки-доки»): близость, взгляды и стук сердца",
+              "content": "[Директива для романтических сцен] В минуты близости замедляй темп повествования: покажи, как стихает фоновый шум, опиши тепло соприкоснувшихся пальцев, дыхание на расстоянии ладони, отведённый и вновь пойманный взгляд. Оставь {{user}} выбор — сделать решительный шаг, разрядить обстановку шуткой или довериться искреннему моменту.",
+              "regex_keys": [
+                "(признан\\w*|влюб\\w*|поцелу\\w*|целов\\w*|покрасн\\w*|румян\\w*|сердцебиен\\w*|стук сердца|за рук\\w*|объяти\\w*|обня\\w*)"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Schulalltag: Fensterplatz, Klubraum, Schülerrat & das Schuldach",
+      "key": [
+        "Schule",
+        "Klassenzimmer",
+        "Schuldach",
+        "Dach",
+        "Mittagspause",
+        "Bento",
+        "Klubraum",
+        "Schülerrat",
+        "Schulweg"
+      ],
+      "content": "Klassische Schauplätze des Akademie-Alltags bieten ideale Gelegenheiten für Begegnungen:\n- **Das Schuldach in der Mittagspause:** Hinter der verschlossenen Eisentür über dem Schulhof werden selbstgemachte Bentos geteilt („Probier mal mein Tamagoyaki – ah, indirekter Kuss?!“).\n- **Der Klubraum nach Unterrichtsschluss:** Im warmen orangenen Abendlicht der untergehenden Sonne verschwimmen die Grenzen zwischen Klubarbeit, Kostümanprobe, Lernen und vertraulichen Gesprächen.\n- **Das Büro des Schülerrats & die Bibliothek:** Orte scheinbarer Disziplin, an denen heimliche Blicke über Bücherstapel und Teetassen hinweg ausgetauscht werden.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Academy Life: Window Seat, Clubroom, Student Council & The Rooftop",
+              "content": "Classic academy settings create natural romantic setups:\n- **The School Rooftop at Lunch:** Beyond the chain-link fence above the courtyard, homemade bentos are shared (\"Try my tamagoyaki — wait, wasn't that an indirect kiss?!\").\n- **The Clubroom After Hours:** Bathed in amber sunset light, club activities, costume fittings, and study sessions turn into private conversations.\n- **The Student Council Room & Library:** Havens of quiet discipline where stolen glances cross over stacks of paperwork and teacups.",
+              "key": [
+                "School",
+                "Classroom",
+                "Rooftop",
+                "Lunch break",
+                "Bento",
+                "Clubroom",
+                "Student council",
+                "Walk home"
+              ]
+            },
+            "ru": {
+              "name": "Школьные будни: место у окна, клубная комната, учсовет и крыша",
+              "content": "Классические декорации академии создают идеальные поводы для сближения:\n- **Школьная крыша в обеденный перерыв:** за сетчатым ограждением делятся домашними бэнто («Попробуй мой омлет… постой, это же непрямой поцелуй?!»).\n- **Клубная комната после уроков:** в тёплых оранжевых лучах заката клубные дела, примерка костюмов и подготовка к тестам перерастают в откровенные разговоры.\n- **Кабинет студсовета и библиотека:** царство тишины и правил, где поверх стопок бумаг и чашек чая пересекаются тайные взгляды.",
+              "key": [
+                "школа",
+                "класс",
+                "крыша",
+                "обеденный перерыв",
+                "бэнто",
+                "клубная комната",
+                "студсовет",
+                "учсовет",
+                "дорога домой"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Kulturfest, Sommerfestival (Matsuri), Feuerwerk & Valentinstag",
+      "key": [
+        "Kulturfest",
+        "Schulfest",
+        "Maid-Café",
+        "Sommerfest",
+        "Matsuri",
+        "Yukata",
+        "Feuerwerk",
+        "Hanabi",
+        "Valentinstag",
+        "Schokolade"
+      ],
+      "content": "Die großen Feste des Jahres sind die emotionalen Meilensteine jeder Anime-Romanze:\n- **Das Kulturfest (Bunkasai):** Klassen-Attraktionen wie Maid-Cafés, Geisterbahnen und die **Lagerfeuer-/Dachterrassen-Legende** (wer beim Abschlusslied oder Feuerwerk zusammensteht, bleibt für immer ein Paar).\n- **Das Sommerfest (Natsu Matsuri):** Mädchen im ungewohnten Yukata, Goldfischkeschern, kandierte Äpfel, ein gerissener Sandalenriemen im Gedränge – und der Moment beim **Feuerwerk (Hanabi)**, in dem der Donner am Himmel ein geflüstertes Geständnis übertönt.\n- **Neujahrsschrein, Valentinstag & White Day:** Der Unterschied zwischen Pflicht-Schokolade (*Giri-Choco*) und handgemachter Herzens-Schokolade (*Honmei-Choco*).",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Cultural Festival, Summer Matsuri, Fireworks & Valentine's Day",
+              "content": "Seasonal festivals mark the emotional milestones of any anime romance:\n- **The Cultural Festival (Bunkasai):** Class maid cafés, haunted houses, and the **Bonfire / Rooftop Legend** (any two people standing together during the finale are bound by fate).\n- **The Summer Festival (Matsuri):** Heroines in colorful yukata, goldfish scooping, candied apples, a snapped sandal strap in the crowd — and the **fireworks (hanabi)** booming overhead right as someone whispers a confession.\n- **New Year's Shrine Visit & Valentine's Day:** Navigating the razor-thin line between \"obligation chocolate\" (*giri-choco*) and handmade \"true feelings chocolate\" (*honmei-choco*).",
+              "key": [
+                "Cultural festival",
+                "School festival",
+                "Maid cafe",
+                "Summer festival",
+                "Matsuri",
+                "Yukata",
+                "Fireworks",
+                "Hanabi",
+                "Valentine's Day",
+                "Chocolate"
+              ]
+            },
+            "ru": {
+              "name": "Школьный фестиваль, летний мацури, фейерверк и День святого Валентина",
+              "content": "Праздники года — главные вехи любой романтической истории:\n- **Культурный фестиваль (Бункасай):** школьное мейд-кафе, комната страха и **легенда костра / крыши** (пара, встретившая финал праздника вместе, будет связана судьбой).\n- **Летний фестиваль (Мацури):** девушки в нарядных юката, ловля золотых рыбок, карамельные яблоки, порвавшийся ремешок гэта в толпе и залпы **фейерверка (ханаби)**, заглушающие тихое признание.\n- **Новогодний храм и День святого Валентина:** тонкая грань между «обязательным шоколадом» (*гири-чоко*) и самодельным «шоколадом истинных чувств» (*хонмэй-чоко*).",
+              "key": [
+                "культурный фестиваль",
+                "школьный фестиваль",
+                "мейд-кафе",
+                "летний фестиваль",
+                "мацури",
+                "юката",
+                "фейерверк",
+                "ханаби",
+                "День святого Валентина",
+                "шоколад"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 7,
+      "name": "Unter einem Regenschirm (Ai-Ai-Gasa) & plötzlicher Wolkenbruch",
+      "key": [
+        "Regen",
+        "Schirm",
+        "Regenschirm",
+        "Wolkenbruch",
+        "Gewitter",
+        "durchnässt"
+      ],
+      "secondary_keys": [
+        "teilen",
+        "nach Hause",
+        "eng",
+        "Schulter",
+        "kalt",
+        "Handtuch",
+        "Schuhschrank"
+      ],
+      "content": "Ein plötzlicher Regenschauer nach Schulschluss oder mitten beim Date gehört zu den stärksten Romantik-Katalysatoren:\n- **Ai-Ai-Gasa (Einen Schirm teilen):** Unter einem einzigen Schirm müssen beide Schulter an Schulter gehen; aus Rücksicht neigt {{user}} den Schirm unbewusst mehr zu ihr, sodass seine eigene Schulter nass wird – was ihr sofort auffällt.\n- **Zuflucht vor dem Sturm:** Wer völlig durchnässt im Klubraum, unter einem Vordach oder in einer Wohnung Schutz sucht, muss trockene Handtücher, zu große Hemden und warme Getränke teilen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Sharing One Umbrella (Ai-Ai-Gasa) & Sudden Downpours",
+              "content": "A sudden downpour after school or mid-date is a classic romantic catalyst:\n- **Ai-Ai-Gasa (Sharing an Umbrella):** Walking under a single umbrella forces shoulders to press close; tilting the umbrella to keep her dry leaves {{user}}'s own shoulder soaked — a detail she immediately notices.\n- **Shelter from the Storm:** Getting caught in the rain leads to taking refuge in an empty room or apartment, sharing dry towels, oversized shirts, and hot drinks.",
+              "key": [
+                "Rain",
+                "Umbrella",
+                "Downpour",
+                "Thunderstorm",
+                "Soaked",
+                "Drenched"
+              ],
+              "secondary_keys": [
+                "share",
+                "walk home",
+                "close",
+                "shoulder",
+                "cold",
+                "towel",
+                "lockers"
+              ]
+            },
+            "ru": {
+              "name": "Под одним зонтом (Ай-Ай-Гаса) и внезапный ливень",
+              "content": "Внезапный ливень после уроков или посреди свидания — классический катализатор романтики:\n- **Ай-Ай-Гаса (один зонт на двоих):** под одним зонтом приходится идти плечом к плечу; стараясь укрыть спутницу от капель, {{user}} наклоняет зонт в её сторону, из-за чего промокает его собственное плечо — и это не укрывается от её взгляда.\n- **Укрытие от грозы:** промокшим до нитки героям приходится пережидать непогоду в пустой комнате или дома, делясь полотенцами, великоватой сменной рубашкой и горячим чаем.",
+              "key": [
+                "дождь",
+                "зонт",
+                "ливень",
+                "гроза",
+                "промокший",
+                "вымокший"
+              ],
+              "secondary_keys": [
+                "поделить",
+                "домой",
+                "тесно",
+                "плечо",
+                "холодно",
+                "полотенце",
+                "шкафчики"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 8,
+      "name": "WG-Chaos, Übernachtung, Kochen & heiße Quellen (Onsen)",
+      "key": [
+        "Wohnung",
+        "WG",
+        "Küche",
+        "Abendessen",
+        "Übernachtung",
+        "Sofa",
+        "Bad",
+        "Onsen",
+        "Ryokan"
+      ],
+      "exclude_key": [
+        "Klassenzimmer",
+        "Mathetest"
+      ],
+      "content": "Wenn der Schauplatz in eine gemeinsame Wohnung, ein Lern-Wochenende oder ein traditionelles Ryokan mit heißen Quellen (Onsen) wechselt, fallen die formellen Barrieren des Alltags weg: Gemeinsames Kochen in einer engen Küche mit Schürze, der Streit um den Platz neben {{user}} auf dem Sofa, das lose übergeworfene Handtuch nach dem Bad oder ein verschlafenes Gespräch spät in der Nacht auf dem Balkon schaffen ungeschützte, persönliche Momente.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Shared Apartment Chaos, Sleepovers, Cooking & Hot Springs (Onsen)",
+              "content": "When the setting shifts to a shared apartment, a study sleepover, or a traditional ryokan with hot springs (onsen), everyday formalities melt away: cooking side by side in aprons in a cramped kitchen, competing for the spot next to {{user}} on the sofa, post-bath glow, or a quiet late-night talk on the balcony create unguarded, intimate moments.",
+              "key": [
+                "Apartment",
+                "Shared flat",
+                "Kitchen",
+                "Dinner",
+                "Sleepover",
+                "Sofa",
+                "Bath",
+                "Onsen",
+                "Ryokan"
+              ],
+              "exclude_key": [
+                "classroom",
+                "math test"
+              ]
+            },
+            "ru": {
+              "name": "Квартирный переполох, ночёвка, готовка и горячие источники (онсэн)",
+              "content": "Когда действие переносится в общую квартиру, на ночёвку перед экзаменами или в традиционный рёкан с горячими источниками (онсэн), привычные формальности исчезают: совместная готовка в фартуках на тесной кухне, спор за место рядом с {{user}} на диване, румянец после горячей ванны или тихий ночной разговор на балконе рождают самые искренние моменты.",
+              "key": [
+                "квартира",
+                "кухня",
+                "ужин",
+                "ночёвка",
+                "диван",
+                "ванная",
+                "онсэн",
+                "рёкан"
+              ],
+              "exclude_key": [
+                "классная комната",
+                "контрольная"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 9,
+      "name": "Dates in der Stadt: Akihabara, Karaoke, Aquarium & Riesenrad",
+      "key": [
+        "Date",
+        "Verabredung",
+        "Karaoke",
+        "Aquarium",
+        "Riesenrad",
+        "Crepe",
+        "Kran-Spiel",
+        "Plüschtier",
+        "Shopping"
+      ],
+      "content": "Beliebte Date-Schauplätze und ihre eigenen kleinen Dramen:\n- **Spielhalle & Kran-Greifarm (UFO Catcher):** {{user}} gewinnt nach mehreren Versuchen genau das Plüschtier, das sie schon die ganze Zeit heimlich angestarrt hat.\n- **Karaoke-Kabine & Café:** Enge Sitzbank, geteilte Süßigkeiten („Sag mal Aaa~“) und ein Liebeslied, bei dem beide plötzlich den Blickkontakt vermeiden.\n- **Das Aquarium & das Riesenrad bei Sonnenuntergang:** Im blauen Schimmer der Quallenbecken oder allein in der Gondel am höchsten Punkt des Riesenrads wird aus Spaß plötzlich Ernst.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "City Dates: Akihabara, Karaoke, Aquarium & Ferris Wheel",
+              "content": "Iconic date spots and their signature beats:\n- **Arcade & UFO Catcher Crane Game:** Winning the exact plushie she was secretly eyeing from two feet away.\n- **Karaoke Box & Sweets Café:** Sitting close in a private booth, sharing a crepe or parfait (\"Say ahh~\"), and a love ballad that suddenly makes eye contact feel electric.\n- **The Aquarium & Sunset Ferris Wheel:** In the dreamy blue glow of the jellyfish tank or alone in a gondola at the apex of the Ferris wheel, playful banter turns genuine.",
+              "key": [
+                "Date",
+                "Outing",
+                "Karaoke",
+                "Aquarium",
+                "Ferris wheel",
+                "Crepe",
+                "Crane game",
+                "Plushie",
+                "Shopping"
+              ]
+            },
+            "ru": {
+              "name": "Свидания в городе: Акихабара, караоке, океанариум и колесо обозрения",
+              "content": "Классические места для свиданий и их маленькие сюжеты:\n- **Аркадный зал и кран-машина (UFO Catcher):** выигранная мягкая игрушка, на которую она тайком заглядывалась с самого входа.\n- **Караоке-кабинка и кафе со сладостями:** тесный диванчик, один десерт на двоих («Скажи “а-а”~») и песня о любви, во время которой оба внезапно боятся встретиться взглядами.\n- **Океанариум и колесо обозрения на закате:** в мягком синем свете аквариумов или вдвоём в кабинке на самой вершине колеса обозрения шутки уступают место настоящим чувствам.",
+              "key": [
+                "свидание",
+                "прогулка",
+                "караоке",
+                "океанариум",
+                "аквариум",
+                "колесо обозрения",
+                "креп",
+                "кран-машина",
+                "плюшевая игрушка",
+                "шопинг"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 10,
+      "name": "Krankenbesuch & Fürsorge: Reisbrei, Fiebermessen & leise Ehrlichkeit",
+      "key": [
+        "Fieber",
+        "Erkältung",
+        "krank",
+        "Reisbrei",
+        "Okayu",
+        "Stirn",
+        "pflegen",
+        "Krankenbesuch"
+      ],
+      "content": "Der klassische Krankenbesuch kehrt gewohnte Rollen um: Wer sonst stolz, vorlaut oder unnahbar auftritt, zeigt sich mit geröteten Wangen oder in ungewohnter Fürsorglichkeit von einer ganz weichen Seite. Zum Fiebermessen wird die eigene Stirn an die des anderen gelegt, in der Küche köchelt mehr oder weniger gelungener Reisbrei (*Okayu*), und im Halbschlaf wird eine Hand festgehalten („Bleib noch ein kleines bisschen…“).",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 45,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Sick Visit & Tender Care: Rice Porridge, Forehead Checks & Quiet Honesty",
+              "content": "A classic sick-day visit flips everyday dynamics upside down: a normally proud, teasing, or guarded character shows a remarkably gentle side. Checking a fever forehead-to-forehead, simmering homemade rice porridge (*okayu*), and a drowsy hand tugging at a sleeve (\"Just stay a little longer…\") strip away all usual defenses.",
+              "key": [
+                "Fever",
+                "Cold",
+                "Sick",
+                "Rice porridge",
+                "Okayu",
+                "Forehead",
+                "Nurse",
+                "Sick visit"
+              ]
+            },
+            "ru": {
+              "name": "Визит во время простуды: рисовая каша, проверка жара и тихая откровенность",
+              "content": "Классический уход за простуженным переворачивает привычные роли: даже самая гордая, дерзкая или сдержанная героиня открывается с удивительно нежной стороны. Проверка температуры лбом ко лбу, старательно сваренная рисовая каша (*окаю*) и полусонное прикосновение к рукаву («Побудь со мной ещё немного…») снимают все защитные маски.",
+              "key": [
+                "температура",
+                "жар",
+                "простуда",
+                "болезнь",
+                "рисовая каша",
+                "окаю",
+                "лоб",
+                "ухаживать"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 11,
+      "name": "Kleine Herzklopfen-Momente im Alltag (Zufalls-Impuls)",
+      "key": [],
+      "content": "[Atmosphären-Impuls] Füge ein feines, ungezwungenes RomCom-Detail in die aktuelle Szene ein: z. B. wie zwei Hände gleichzeitig nach demselben Gegenstand greifen, ein Windstoß durchs offene Fenster eine Haarsträhne ins Gesicht weht, ein ertappter Seitenblick mit hastigem Wegschauen oder eine verspielte kleine Stichelei einer anderen Anwesenden.",
+      "trigger_type": "always_on",
+      "probability": 35,
+      "priority": 20,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Everyday Heartbeat Micro-Moments (Ambient Prompt)",
+              "content": "[Ambient Prompt] Weave one subtle, natural rom-com detail into the current scene: e.g., two hands reaching for the same item at once, a breeze through an open window brushing a lock of hair across a cheek, getting caught staring and quickly looking away, or a playful teasing remark from another heroine."
+            },
+            "ru": {
+              "name": "Маленькие мгновения сердцебиения (случайный штрих)",
+              "content": "[Атмосферный штрих] Вплети в текущую сцену одну тонкую романтическую деталь: например, две руки одновременно тянутся к одному предмету, ветерок из окна треплет прядь волос у щеки, пойманный украдкой взгляд с поспешным отворачиванием или шутливую ревнивую реплику другой героини."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 12,
+      "name": "Romantischer Höhepunkt: Ungeschützte Nähe oder plötzliches Hereinplatzen!",
+      "key": [],
+      "content": "[Spannungs-Ereignis ausgelöst!] Die emotionale Spannung erreicht ihren Gipfel: Inszeniere entweder einen ungeschützten, atemlosen Moment der Nähe (nur noch wenige Zentimeter voneinander entfernt, ein halb geflüstertes Geständnis) – ODER lass bei einer Mehrpersonen-Szene genau in dieser Sekunde eine Rivalin mit perfektem Comedic Timing die Tür öffnen, sodass {{user}} sofort reagieren muss!",
+      "trigger_type": "tension",
+      "probability": 100,
+      "priority": 85,
+      "enabled": true,
+      "injection_behavior": "active",
+      "tension_threshold": 65,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Romantic Climax: Unguarded Closeness or Sudden Walk-In!",
+              "content": "[Tension Event Triggered!] Emotional tension reaches its peak: stage either a breathless, unguarded moment of closeness (faces inches apart, a half-whispered truth) — OR, in a multi-heroine scene, have a rival swing the door open with impeccable comedic timing right at the critical second, forcing {{user}} to react on the spot!"
+            },
+            "ru": {
+              "name": "Романтическая кульминация: дыхание в сантиметре или внезапное появление!",
+              "content": "[Событие высокого накала!] Эмоциональное напряжение достигает пика: разыграй либо трепетное, обезоруживающее мгновение близости (лица в нескольких сантиметрах друг от друга, шёпотом сорвавшееся признание), ЛИБО — если в сцене несколько героинь — позволь сопернице распахнуть дверь в самую решающую секунду по законам жанра, заставляя {{user}} мгновенно выкручиваться!"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Heartbeats & Cherry Blossoms – Anime Romance & Harem Dynamics",
+          "description": "Dramaturgy, tropes, and settings for classic anime romance, slice-of-life, and harem stories: character chemistry, jealousy sparks, festivals, dates, and key moments."
+        },
+        "ru": {
+          "name": "Биение сердец и лепестки сакуры – Аниме-романтика и гаремная динамика",
+          "description": "Драматургия, тропы и локации для классической аниме-романтики, повседневности и гаремных историй: химия характеров, ревность, фестивали, свидания и ключевые моменты."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "name": "Aetheria Chronicles – Isekai-Abenteuer, Gilden & Systemmagie",
+  "description": "Klassische Isekai-Fantasy-Welt: das Weltsystem mit Statusfenstern und Einzigartigen Skills, die Abenteurergilde (Rang F bis S), Labyrinthe, Reiche und der Dämonenkönig.",
+  "scan_depth": 5,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Das Weltsystem („Stimme der Welt“) & der Andersweltler",
+      "key": [],
+      "content": "Aetheria ist eine lebendige Schwert-und-Magie-Welt, deren Naturgesetze vom **Weltsystem** („Stimme der Welt“) verwaltet werden. Alle Lebewesen besitzen ein aufrufbares **Statusfenster** mit Stufe (Level), Klasse, Titeln, Manakern-Rang und Fähigkeiten (Skills). {{user}} stammt aus unserer modernen Welt und wurde durch einen uralten Beschwörungszauber oder einen Riss zwischen den Dimensionen nach Aetheria gerissen.\n\n[Spielleiter-Direktive] Verbinde klassisches Anime-Isekai-Gefühl mit lebendigem Rollenspiel: Lass bei besonderen Entdeckungen, Stufenaufstiegen oder dem Erwerb neuer Fähigkeiten kurze, prägnante Systemmeldungen wie `«System: [Analyse] hat eine verborgene Eigenschaft erkannt!»` aufleuchten, ohne den Erzählfluss mit endlosen Zahlentabellen zu überfrachten. Moderne Ideen, Kochkünste oder unkonventionelle Taktiken von {{user}} überraschen die Einheimischen immer wieder.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 100,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The World System (\"Voice of the World\") & The Otherworlder",
+              "content": "Aetheria is a vibrant sword-and-sorcery realm whose laws are governed by the **World System** (\"Voice of the World\"). Every living being possesses a summonable **Status Window** displaying their Level, Class, Titles, Mana Core Rank, and Skills. {{user}} hails from modern-day Earth, brought to Aetheria through an ancient summoning ritual or dimensional rift.\n\n[GM Directive] Blend classic anime isekai flair with immersive roleplay: punctuate major discoveries, level-ups, or skill awakenings with crisp in-world notifications like `«System: [Appraisal] has uncovered a hidden trait!»` without bogging down the prose in giant stat spreadsheets. Native inhabitants react with genuine surprise and curiosity toward {{user}}'s modern knowledge, cooking, and unconventional tactics."
+            },
+            "ru": {
+              "name": "Мировая Система («Голос Мира») и Пришелец из иного мира",
+              "content": "Этерия — живой мир меча и магии, чьи законы поддерживаются **Мировой Системой** («Голосом Мира»). У каждого разумного существа есть полупрозрачное **Окно Статуса** с уровнем, классом, титулами, рангом мана-ядра и навыками. {{user}} попал в Этерию из современного мира через древний ритуал призыва или пространственный разлом.\n\n[Директива ведущего] Сочетай атмосферу классического аниме-исекая с живым приключением: в моменты открытий, повышения уровня или пробуждения способностей вплетай лаконичные системные уведомления вроде `«Система: [Анализ] обнаружил скрытое свойство!»`, не перегружая текст длинными таблицами цифр. Местные жители искренне удивляются современной смекалке, кулинарии и нестандартной тактике {{user}}."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Die Freie Abenteurergilde & das Rangsystem (F bis S)",
+      "key": [
+        "Abenteurergilde",
+        "Gilde",
+        "Gildenkarte",
+        "Quest",
+        "Auftrag",
+        "Empfangsdame",
+        "Abenteurer",
+        "Gildenmeister"
+      ],
+      "content": "Die **Freie Abenteurergilde** ist eine übernationale Organisation mit Zweigstellen in jeder Stadt Aetherias. Jeder registrierte Abenteurer erhält eine mit Blut und Mana gebundene **Gildenkarte** (die zugleich als Ausweis und magisches Konto dient):\n- **Rang F (Kupfer) & Rang E (Eisen):** Einsteiger; Kräutersammeln, Kanalratten, Geleitschutz im Umland.\n- **Rang D (Bronze) & Rang C (Silber):** Erfahrene Gruppen; Goblin-Nester, Straßenräuber, untere Labyrinth-Ebenen.\n- **Rang B (Gold) & Rang A (Platin):** Elite-Abenteurer („Klingen des Königreichs“); Wyvern-Jagd, hohe Labyrinth-Ebenen, Kriseneinsätze.\n- **Rang S (Mythril / Orichalcum):** Lebende Legenden; nur handverlesene Helden, die allein ganze Monsterwellen oder Katastrophen-Bestien aufhalten können.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 65,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "chain_activates": [
+        "3"
+      ],
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Free Adventurers' Guild & The Rank System (F to S)",
+              "content": "The **Free Adventurers' Guild** is a supranational institution with branches in every city across Aetheria. Every registered adventurer carries a blood-and-mana-bound **Guild Card** (serving as both legal ID and arcane bank ledger):\n- **Rank F (Copper) & Rank E (Iron):** Rookies; herb gathering, sewer slimes, local caravan escorts.\n- **Rank D (Bronze) & Rank C (Silver):** Seasoned parties; goblin strongholds, bandits, upper dungeon floors.\n- **Rank B (Gold) & Rank A (Platinum):** Elite champions; wyvern hunts, deep labyrinth expeditions, royal emergencies.\n- **Rank S (Mythril / Orichalcum):** Living legends capable of turning back monster stampedes or calamity-class beasts.",
+              "key": [
+                "Adventurers' Guild",
+                "Guild",
+                "Guild Card",
+                "Quest",
+                "Commission",
+                "Receptionist",
+                "Adventurer",
+                "Guildmaster"
+              ]
+            },
+            "ru": {
+              "name": "Свободная Гильдия авантюристов и система рангов (от F до S)",
+              "content": "**Свободная Гильдия авантюристов** — наднациональная организация с отделениями в каждом городе Этерии. Каждому искателю приключений выдаётся привязанная к крови и мане **карта гильдии** (удостоверение личности и магический кошелёк):\n- **Ранг F (медный) и Ранг E (железный):** новички; сбор целебных трав, зачистка слизней, охрана обозов.\n- **Ранг D (бронзовый) и Ранг C (серебряный):** бывалые отряды; логова гоблинов, разбойники, верхние ярусы лабиринтов.\n- **Ранг B (золотой) и Ранг A (платиновый):** элита королевств; охота на виверн, глубокие этажи подземелий.\n- **Ранг S (мифрил / орихалк):** живые легенды, способные в одиночку остановить волну чудовищ.",
+              "key": [
+                "Гильдия авантюристов",
+                "гильдия",
+                "карта гильдии",
+                "квест",
+                "задание",
+                "регистраторша",
+                "авантюрист",
+                "гильдмастер"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Gildenalltag: Anschlagtafel, Schätzungskugel & Währung",
+      "key": [],
+      "content": "[Folge-Direktive in der Abenteurergilde] In der Gildenhalle herrscht geschäftiges Treiben zwischen dem schwarzen Brett voller Pergament-Quests, dem Beute-Ankaufschalter und der angeschlossenen Taverne. Die freundliche, aber scharfsinnige Empfangsdame **Lina** prüft erbeutete Magiesteine und zahlt Belohnungen in **Kupfer-, Silber-, Gold- und Weißgoldmünzen** (je 100:1) aus. Bei Neuregistrierungen ruft ein prahlender Veteran unweigerlich zur Einstufungsprüfung im Übungshof auf oder starrt ungläubig auf die Schätzungskugel, wenn {{user}}s ungewöhnliche Werte aufleuchten.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 45,
+      "enabled": true,
+      "injection_behavior": "active",
+      "chain_requires": [
+        "2"
+      ],
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Guild Hall Life: Quest Board, Appraisal Orb & Currency",
+              "content": "[Chained Directive at the Guild Hall] The guild hall buzzes with life between the parchment-pinned Quest Board, the monster-parts counter, and the noisy tavern. Receptionist **Lina** inspects harvested magic stones and pays out rewards in **Copper, Silver, Gold, and Platinum coins** (100:1 each). During registrations or rank tests, rowdy veterans inevitably gather around the Appraisal Orb or challenge newcomers in the training yard when {{user}}'s anomalous readings flare up."
+            },
+            "ru": {
+              "name": "Жизнь гильдии: доска заказов, сфера оценки и монеты",
+              "content": "[Цепная директива в зале гильдии] В зале гильдии кипит жизнь между увешанной пергаментами доской заданий, окном приёма трофеев и шумной таверной. Приветливая, но проницательная регистраторша **Лина** принимает магические камни монстров и выплачивает награду **медными, серебряными, золотыми и платиновыми монетами** (курс 100 к 1). При проверке на сфере оценки или экзамене во внутреннем дворе бывалые рубаки обязательно собираются поглазеть на аномальные показатели {{user}}."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Statusfenster, Einzigartige Skills („Unique Skills“) & Titel",
+      "key": [],
+      "regex_keys": [
+        "\\b(status\\w*|skill\\w*|fähigkeit\\w*|level\\w*|stufe|analyse|appraisal|cheat\\w*|einzigartig\\w* gabe)\\b"
+      ],
+      "content": "Fähigkeiten in Aetheria gliedern sich in drei Ränge:\n1. **Gewöhnliche Skills (Common Skills):** Durch Training erlernbar, z. B. *[Schwertkunst]*, *[Wahrnehmung]*, *[Schleichen]*, *[Kochen]*.\n2. **Extra-Skills:** Übermenschliche Künste wie *[Magiegespür]*, *[Schattendurchschritt]*, *[Fadenkontrolle]* oder *[sprachübergreifendes Verständnis]*.\n3. **Einzigartige Skills (Unique Skills):** Seelengebundene Ausnahmekräfte, die oft nur Andersweltlern oder erwachten Helden zuteilwerden – selbst scheinbar „nutzlose“ oder auf Stufe 0 eingestufte Gaben wie *[Leere-Speicher]*, *[Allwissende Analyse]*, *[Alchemie-Synthese]* oder *[Konzept-Umkehr]* entfalten bei klugem Einsatz weltverändernde Wirkung.\n\n**Titel** (z. B. *„Verstoßener der Krone“*, *„Drachenkoch“*, *„Liebling der Geister“*) verleihen passive Boni und beeinflussen, wie NSCs auf {{user}} reagieren.",
+      "trigger_type": "regex",
+      "probability": 100,
+      "priority": 60,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Status Windows, Unique Skills & Titles",
+              "content": "Skills in Aetheria fall into three tiers:\n1. **Common Skills:** Learned through practice, such as *[Swordsmanship]*, *[Perception]*, *[Stealth]*, or *[Cooking]*.\n2. **Extra Skills:** Superhuman arts like *[Mana Sense]*, *[Shadow Step]*, *[Thread Manipulation]*, or *[Universal Translation]*.\n3. **Unique Skills:** Soul-bound anomalies often granted to Otherworlders — even abilities dismissed by royal appraisers as \"Zero-Mana\" or \"Trash-Tier\" (such as *[Void Storage]*, *[Omniscient Appraisal]*, *[Instant Alchemy]*, or *[Concept Reversal]*) become godlike when used creatively.\n\n**Titles** (e.g., *\"Outcast of the Crown\"*, *\"Dragon Chef\"*, *\"Beloved by Spirits\"*) grant passive boons and shape how NPCs react to {{user}}.",
+              "regex_keys": [
+                "\\b(status\\w*|skill\\w*|level\\w*|appraisal|analyze|cheat\\w*|unique ability|title\\w*)\\b"
+              ]
+            },
+            "ru": {
+              "name": "Окно статуса, Уникальные навыки и Титулы",
+              "content": "Способности в Этерии делятся на три ступени:\n1. **Обычные навыки:** осваиваются тренировкой — *[Фехтование]*, *[Восприятие]*, *[Скрытность]*, *[Кулинария]*.\n2. **Экстра-навыки:** сверхчеловеческие умения вроде *[Чутья маны]*, *[Шага сквозь тень]* или *[Понимания языков]*.\n3. **Уникальные навыки (Unique Skills):** штучные дары души, часто пробуждающиеся у пришельцев из иного мира. Даже способности, которые королевские оценщики сочли «нулевыми» или «бесполезными» (*[Хранилище Пустоты]*, *[Всевидящий анализ]*, *[Мгновенный синтез]*, *[Инверсия понятий]*), при нестандартном применении дают колоссальное преимущество.\n\n**Титулы** (например, *«Изгнанник короны»*, *«Драконий повар»*, *«Любимец духов»*) дают пассивные эффекты и влияют на отношение окружающих к {{user}}.",
+              "regex_keys": [
+                "(статус\\w*|навык\\w*|умение\\w*|уровен\\w*|уровн\\w*|анализ\\w*|оценк\\w*|читер\\w*|титул\\w*)"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Magie-Stufen, Manakerne & Spruchfreie Zauberei",
+      "key": [
+        "Mana",
+        "Magie",
+        "Zauber",
+        "Spruch",
+        "Chant",
+        "Elementar",
+        "Heilmagie",
+        "Leere-Magie",
+        "Manakern"
+      ],
+      "content": "Magie in Aetheria speist sich aus dem **Manakern** nahe dem Herzen und den sechs Grundaffinitäten (Feuer, Wasser/Eis, Wind, Erde, Licht, Schatten) sowie der seltenen **Raum-Zeit-** und **Leere-Magie**.\n- **Spruchformeln (Chants) vs. Spruchloses Wirken:** Die meisten Hofmagier benötigen lange mehrversige Zauberformeln, um Mana zu stabilisieren. Wer Magie durch modernes naturwissenschaftliches Verständnis (Physik, Chemie, Vorstellungskraft) direkt formt, kann Zauber **spruchlos (Chantless)** und im Bruchteil einer Sekunde wirken – ein Talent, das selbst Erzmagier in Staunen versetzt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Magic Tiers, Mana Cores & Chantless Casting",
+              "content": "Magic in Aetheria draws from the **Mana Core** near the heart across six elemental affinities (Fire, Water/Ice, Wind, Earth, Light, Shadow) plus rare **Space-Time** and **Void Magic**.\n- **Incantations vs. Chantless Casting:** Orthodox court mages rely on lengthy multi-verse chants to stabilize spell circles. Anyone who visualizes magic through modern scientific principles (thermodynamics, pressure, trajectory) can cast **chantlessly** in a split second — a feat that leaves orthodox archmages speechless.",
+              "key": [
+                "Mana",
+                "Magic",
+                "Spell",
+                "Chant",
+                "Chantless",
+                "Elemental",
+                "Healing magic",
+                "Void magic",
+                "Mana Core"
+              ]
+            },
+            "ru": {
+              "name": "Ступени магии, мана-ядра и безмолвное сотворение чар",
+              "content": "Магия в Этерии черпается из **мана-ядра** у сердца и делится на шесть стихий (Огонь, Вода/Лёд, Ветер, Земля, Свет, Тьма), а также редкую **пространственно-временную** и **магию Пустоты**.\n- **Песнопения против безмолвных чар:** придворные маги нуждаются в длинных заклинательных формулах для построения магических кругов. Тот, кто направляет ману через чёткое воображение и знание законов физики или химии, способен творить заклинания **безмолвно (без чтения формул)** за доли секунды, повергая архимагов в шок.",
+              "key": [
+                "мана",
+                "магия",
+                "заклинание",
+                "песнопение",
+                "безмолвная магия",
+                "стихия",
+                "исцеление",
+                "магия Пустоты",
+                "мана-ядро"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Reiche & Völker Aetherias: Limgard, Grenzstadt Astralis, Elfenwald & Bestienlande",
+      "key": [
+        "Limgard",
+        "Astralis",
+        "Königreich",
+        "Elfen",
+        "Bestienmenschen",
+        "Zwerge",
+        "Dämonen",
+        "Prinzessin",
+        "König"
+      ],
+      "content": "Die Karte Aetherias umfasst stolze Reiche und sehr unterschiedliche Kulturen:\n- **Königreich Limgard:** Ein traditionsreiches, aber politisch korruptes Menschenreich, dessen Hof regelmäßig Heldenbeschwörungen durchführt und jeden verstößt, der nicht in das orthodoxe Helden-Raster passt.\n- **Freie Grenzstadt Astralis:** Aufstrebende Knotenpunkt-Stadt am Rand des Großen Labyrinths, in der Menschen, Elfen, Zwerge und Bestienmenschen frei handeln und die Abenteurergilde das Sagen hat.\n- **Silberwald von Sylvana & Föderation der Bestienlande:** Heimat der langlebigen Hochelfen und Geistermagier im Westen sowie der stolzen Wolf-, Katzen- und Fuchs-Stämme im Süden.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Realms & Peoples of Aetheria: Limgard, Frontier City Astralis, Elven Woods & Beastlands",
+              "content": "Aetheria's map spans rival nations and diverse peoples:\n- **Kingdom of Limgard:** A prestigious yet politically corrupt human kingdom whose royal court conducts Hero Summonings and callously discards anyone whose stats do not fit orthodox doctrine.\n- **Free Frontier City of Astralis:** A booming trade hub at the edge of the Great Labyrinth where humans, elves, dwarves, and beastfolk mingle freely under Adventurers' Guild law.\n- **Silverwoods of Sylvana & Beastfolk Federation:** Homeland of long-lived high elves and spirit mages in the west, and the proud wolf, cat, and fox clans of the southern steppes.",
+              "key": [
+                "Limgard",
+                "Astralis",
+                "Kingdom",
+                "Elves",
+                "Beastfolk",
+                "Dwarves",
+                "Demons",
+                "Princess",
+                "King"
+              ]
+            },
+            "ru": {
+              "name": "Королевства и народы Этерии: Лимгард, вольный Астралис, лес эльфов и Звероземье",
+              "content": "Земли Этерии объединяют разные державы и народы:\n- **Королевство Лимгард:** богатое, но погрязшее в придворных интригах человеческое королевство, чей двор проводит ритуалы Призыва Героев и безжалостно изгоняет всех, чьи показатели кажутся нестандартными.\n- **Вольный пограничный город Астралис:** шумный торговый перекрёсток у входа в Великий Лабиринт, где люди, эльфы, дварфы и зверолюди живут по законам Гильдии авантюристов.\n- **Серебряный лес Сильваны и Федерация Звероземья:** родина высших эльфов и духовных магов на западе и вольных кланов волков, кошек и лис на юге.",
+              "key": [
+                "Лимгард",
+                "Астралис",
+                "королевство",
+                "эльфы",
+                "зверолюди",
+                "дварфы",
+                "демоны",
+                "принцесса",
+                "король"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 7,
+      "name": "Lebende Labyrinthe, Dungeon-Kerne & Bossräume",
+      "key": [
+        "Dungeon",
+        "Labyrinth",
+        "Ebene",
+        "Bossraum",
+        "Schatztruhe",
+        "Mimik",
+        "Falle"
+      ],
+      "secondary_keys": [
+        "Kern",
+        "Boss",
+        "Tiefe",
+        "Tür",
+        "Beute",
+        "Relikt",
+        "Wächter"
+      ],
+      "content": "Labyrinthe (Dungeons) in Aetheria sind keine bloßen Höhlen, sondern lebende Ökosysteme um einen kristallinen **Dungeon-Kern**:\n- **Ebenen-Architektur:** Jede Ebene besitzt ein eigenes Biom (von moosigen Katakomben über unterirdische Kristallwälder bis zu versunkenen Ruinenstädten).\n- **Bossräume & Teleportsperren:** Vor dem Übergang in die nächste Tiefe steht ein massives Runentor. Sobald eine Gruppe den **Bossraum** betritt, verriegelt sich das Tor magisch und Teleport-Kristalle sind blockiert, bis der Ebenenwächter besiegt ist.\n- **Schatztruhen & Mimiks:** Besiegte Bosse hinterlassen Relikttruhen – doch in unerforschten Nischen lauern oft scharfzahnige **Mimiks**.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Living Labyrinths, Dungeon Cores & Boss Chambers",
+              "content": "Labyrinths (Dungeons) in Aetheria are living arcane ecosystems anchored by a crystalline **Dungeon Core**:\n- **Floor Biomes:** Deeper floors shift into distinct ecosystems — from mossy catacombs to subterranean crystal forests and sunken ancient cities.\n- **Boss Doors & Teleport Locks:** Heavy runic gates guard the descent to the next stratum. Once a party crosses into a **Boss Chamber**, the doors seal and teleportation crystals are jammed until the Floor Guardian falls.\n- **Relic Chests & Mimics:** Defeated guardians materialize relic chests, while unmapped alcoves frequently hide ravenous **Mimics**.",
+              "key": [
+                "Dungeon",
+                "Labyrinth",
+                "Floor",
+                "Boss room",
+                "Treasure chest",
+                "Mimic",
+                "Trap"
+              ],
+              "secondary_keys": [
+                "Core",
+                "Boss",
+                "Depth",
+                "Door",
+                "Loot",
+                "Relic",
+                "Guardian"
+              ]
+            },
+            "ru": {
+              "name": "Живые лабиринты, ядра подземелий и залы боссов",
+              "content": "Лабиринты (подземелья) Этерии — живые магические экосистемы, питаемые кристальным **Ядром подземелья**:\n- **Биомы этажей:** с каждым ярусом окружение меняется — от сырых катакомб до подземных кристальных рощ и затопленных древних руин.\n- **Врата босса и блокировка телепортации:** спуск на следующий ярус преграждают массивные рунические врата. Как только отряд входит в **зал стража этажа**, двери запечатываются, а кристаллы возврата блокируются до победы над боссом.\n- **Сундуки с реликвиями и мимики:** после победы над стражем появляется сундук с наградой, но в тупиках часто притворяются сокровищами зубастые **мимики**.",
+              "key": [
+                "подземелье",
+                "данж",
+                "лабиринт",
+                "этаж",
+                "ярус",
+                "зал босса",
+                "сундук",
+                "мимик",
+                "ловушка"
+              ],
+              "secondary_keys": [
+                "ядро",
+                "босс",
+                "глубина",
+                "врата",
+                "добыча",
+                "реликвия",
+                "страж"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 8,
+      "name": "Das Dämonenreich, die Vier Himmelskönige & das Geheimnis der Beschwörung",
+      "key": [
+        "Dämonenkönig",
+        "Himmelskönig",
+        "Dämonenarmee",
+        "Miasma",
+        "Heldenbeschwörung",
+        "Prophezeiung"
+      ],
+      "exclude_key": [
+        "Kochwettbewerb",
+        "Erntefest"
+      ],
+      "content": "Im Norden jenseits der Drachenzahn-Kette liegt das **Dämonenreich**, regiert vom Dämonenkönig und seinen **Vier Himmelskönigen**. Während die Kirche des Lichts in Limgard die Dämonen als das absolute Böse predigt, ist die Wahrheit komplexer: Das ausbrechende **Schwarze Miasma** bedroht Dämonen wie Menschen gleichermaßen, und so mancher Himmelskönig ist ein ehrenhafter Krieger oder Gelehrter, der Verhandlungen einem Vernichtungskrieg vorziehen würde – während die korrupte Krone von Limgard die Heldenbeschwörung für eigene Eroberungspläne missbraucht.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Demon Realm, The Four Heavenly Kings & The Summoning Secret",
+              "content": "Beyond the Dragonfang Peaks lies the **Demon Realm**, ruled by the Demon Lord and the **Four Heavenly Kings**. While Limgard's Church of Light preaches that all demons are irredeemable evil, the truth is far greyer: the spreading **Black Miasma** threatens demonkind and humanity alike, and several Heavenly Kings are honorable warriors or scholars open to negotiation — whereas Limgard's scheming crown exploits Hero Summonings for its own imperial ambitions.",
+              "key": [
+                "Demon Lord",
+                "Demon King",
+                "Heavenly King",
+                "Demon Army",
+                "Miasma",
+                "Hero Summoning",
+                "Prophecy"
+              ],
+              "exclude_key": [
+                "cooking contest",
+                "harvest festival"
+              ]
+            },
+            "ru": {
+              "name": "Царство Демонов, Четыре Небесных Царя и тайна Призыва",
+              "content": "За хребтом Драконьего Клыка лежит **Царство Демонов** под властью Владыки Демонов и его **Четырёх Небесных Генералов**. Хотя Церковь Света в Лимгарде объявляет демонов абсолютным злом, истина куда сложнее: расползающаяся **Чёрная Миазма** грозит гибелью и людям, и демонам, а среди Небесных Генералов есть благородные воины и учёные, готовые к диалогу, тогда как алчная корона Лимгарда использует Призыв Героев ради собственных завоеваний.",
+              "key": [
+                "Владыка Демонов",
+                "Король Демонов",
+                "Небесный Царь",
+                "Небесный Генерал",
+                "армия демонов",
+                "миазма",
+                "призыв героев",
+                "пророчество"
+              ],
+              "exclude_key": [
+                "кулинарный конкурс",
+                "праздник урожая"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 9,
+      "name": "Alchemie, Heiltränke, Mythril, Seelenwaffen & Dimensionsbeutel",
+      "key": [
+        "Heiltrank",
+        "Trank",
+        "Alchemie",
+        "Mythril",
+        "Orichalcum",
+        "Seelenwaffe",
+        "Itembox",
+        "Inventar",
+        "Dimensionsbeutel"
+      ],
+      "content": "Ausrüstung und Alchemie entscheiden über Leben und Tod:\n- **Tränke:** Niedere Heiltränke (aus Mondkraut und Schleim-Gelee) schließen Schnittwunden; Elixiere aus Alraunen und Phönixfedern regenerieren selbst verlorene Gliedmaßen.\n- **Metalle & Seelenwaffen:** **Mythril** leitet Mana nahezu verlustfrei; **Adamantit** ist fast unzerstörbar; **Orichalcum** wächst mit der Seele seines Trägers und kann wie eine **Seelenwaffe** neue Formen und Runen-Fähigkeiten freischalten.\n- **Raumtaschen & Itembox:** Während teure magische **Dimensionsbeutel** (Item Bags) nur wenige Kubikmeter fassen, hält eine persönliche *[Itembox]*- oder *[Leere-Speicher]*-Fähigkeit die Zeit für eingelagerte Speisen und Beute komplett an.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Alchemy, Potions, Mythril, Soul Weapons & Spatial Bags",
+              "content": "Gear and alchemy tip the scales between survival and defeat:\n- **Potions:** Low-grade healing potions (brewed from moonherb and slime gel) knit flesh wounds; high elixirs distilled from mandrake and phoenix down restore shattered bones.\n- **Metals & Soul Weapons:** **Mythril** channels mana effortlessly; **Adamantite** is near-indestructible; **Orichalcum** resonates with its wielder's soul, allowing **Soul Weapons** to unlock evolving forms and skill trees.\n- **Spatial Bags & Item Box:** Enchanted **Spatial Bags** hold a few cubic meters, whereas an Otherworlder's personal *[Item Box]* or *[Void Storage]* freezes time inside, keeping hot meals steaming fresh forever.",
+              "key": [
+                "Healing potion",
+                "Potion",
+                "Alchemy",
+                "Mythril",
+                "Orichalcum",
+                "Soul Weapon",
+                "Item Box",
+                "Inventory",
+                "Spatial Bag"
+              ]
+            },
+            "ru": {
+              "name": "Алхимия, зелья, мифрил, духовное оружие и пространственные сумки",
+              "content": "Снаряжение и алхимия решают исход любой вылазки:\n- **Зелья:** базовые зелья исцеления (из лунной травы и желе слизня) затягивают раны, а высшие эликсиры на основе мандрагоры восстанавливают даже раздробленные кости.\n- **Металлы и духовное оружие:** **мифрил** идеально проводит ману, **адамантит** почти несокрушим, а **орихалк** резонирует с душой владельца, позволяя **духовному оружию** открывать новые формы и навыки.\n- **Пространственные сумки и Инвентарь:** зачарованные сумки вмещают лишь несколько кубометров, тогда как личный навык *[Инвентарь]* или *[Хранилище Пустоты]* останавливает внутри ход времени, сохраняя горячую еду свежей сколь угодно долго.",
+              "key": [
+                "зелье исцеления",
+                "зелье",
+                "алхимия",
+                "мифрил",
+                "орихалк",
+                "духовное оружие",
+                "инвентарь",
+                "пространственная сумка"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 10,
+      "name": "Monster-Ökologie, Magiesteine & Vertrauten-Pakt",
+      "key": [
+        "Magiestein",
+        "Monsterkern",
+        "Schleim",
+        "Wyvern",
+        "Fenrir",
+        "Vertrauter",
+        "Familiar",
+        "Pakt",
+        "Zähmung"
+      ],
+      "content": "Jedes Monster in Aetheria trägt einen kristallinen **Magiestein** (Monsterkern) in sich, der Handwerkern, Alchemisten und magischen Laternen als Energiequelle dient. Intelligente oder magisch hochbegabte Wesen – von alchemistischen Kaiser-Schleimen über Schattenwölfe (Fenrir) bis zu jungen Elementargeistern – können statt getötet zu werden einen **Namens- und Vertrautenpakt** (Familiar Contract) eingehen: Das Verleihen eines wahren Namens verknüpft das Mana von Herr und Vertrautem und löst oft eine sofortige Evolutionsstufe aus.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 45,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Monster Ecology, Magic Stones & Familiar Contracts",
+              "content": "Every monster in Aetheria houses a crystalline **Magic Stone** (monster core) prized by artificers, alchemists, and mana-lamp smiths. Intelligent or high-affinity creatures — from alchemical Emperor Slimes to Shadow Wolves (Fenrir) and elemental spirits — can form a **True Name & Familiar Contract** instead of being slain: bestowing a name links the mana of master and familiar, frequently triggering an immediate evolutionary leap.",
+              "key": [
+                "Magic Stone",
+                "Monster Core",
+                "Slime",
+                "Wyvern",
+                "Fenrir",
+                "Familiar",
+                "Contract",
+                "Taming"
+              ]
+            },
+            "ru": {
+              "name": "Экология монстров, магические камни и контракт фамильяра",
+              "content": "Внутри каждого монстра Этерии находится кристаллический **магический камень** (ядро монстра), служащий источником энергии для артефактов, алхимии и магических фонарей. С разумными или одарёнными существами — от алхимических королевских слизней до теневых волков-фенриров и духов стихий — можно заключить **именной контракт фамильяра**: дарование истинного имени связывает ману хозяина и спутника, нередко вызывая мгновенную эволюцию.",
+              "key": [
+                "магический камень",
+                "ядро монстра",
+                "слизень",
+                "виверна",
+                "фенрир",
+                "фамильяр",
+                "контракт",
+                "приручение"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 11,
+      "name": "Lebendige Isekai-Welt (Zufalls-Begegnungen & Alltagsflair)",
+      "key": [],
+      "content": "[Atmosphären-Impuls] Streue ein lebendiges Isekai-Fantasy-Detail in die aktuelle Szene ein: z. B. den Duft von frisch gegrillten Wyvern-Spießen an einem Marktstand, schwebende Manalaternen in der Dämmerung, das Klappern einer Abenteurergruppe beim Teilen ihrer Beute oder eine humorvolle Reaktion der Begleiter auf eine Gewohnheit von {{user}} aus der modernen Welt.",
+      "trigger_type": "always_on",
+      "probability": 35,
+      "priority": 20,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Living Isekai World (Ambient Flair & Encounters)",
+              "content": "[Ambient Prompt] Sprinkle one vivid isekai fantasy detail into the current scene: e.g., the savory aroma of flame-grilled wyvern skewers from a street stall, floating mana lanterns igniting at dusk, a passing party debating loot splits, or a lighthearted reaction from companions to one of {{user}}'s modern-world habits."
+            },
+            "ru": {
+              "name": "Живой мир исекая (случайные встречи и детали быта)",
+              "content": "[Атмосферный штрих] Добавь в сцену одну колоритную деталь фэнтези-исекая: аромат жареных шашлычков из мяса виверны с уличного лотка, зажигающиеся в сумерках парящие мана-фонари, спор соседнего отряда о дележе трофеев или забавную реакцию спутников на современную привычку {{user}}."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 12,
+      "name": "Grenzmoment: Erwachen eines Einzigartigen Skills oder Anomalie-Boss",
+      "key": [],
+      "content": "[Spannungs-Ereignis ausgelöst!] Die Szene erreicht ihren dramatischen Höhepunkt: Entweder bricht ein **Unregelmäßiger Wächter (Irregular Boss)** durch ein altes Siegel, oder das Weltsystem reagiert auf die Gefahr mit einer resonierenden Meldung (`«Warnung: Grenzwert überschritten – versteckte Bedingung erfüllt! Einzigartiger Skill erwacht!»`). Gib {{user}} und der Gruppe die Gelegenheit zu einem spektakulären Wendepunkt!",
+      "trigger_type": "tension",
+      "probability": 100,
+      "priority": 85,
+      "enabled": true,
+      "injection_behavior": "active",
+      "tension_threshold": 70,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Limit Break: Unique Skill Awakening or Irregular Boss",
+              "content": "[Tension Event Triggered!] The scene reaches a dramatic climax: either an **Irregular Guardian** shatters an ancient seal, or the World System responds to the crisis with a resonant chime (`«Alert: Threshold exceeded — hidden condition met! Unique Skill awakening!»`). Give {{user}} and the party a thrilling turning point!"
+            },
+            "ru": {
+              "name": "Предел возможностей: пробуждение Уникального навыка или Аномальный босс",
+              "content": "[Событие высокого накала!] Сцена достигает кульминации: либо древнюю печать прорывает **Аномальный Страж**, либо Мировая Система откликается на смертельную угрозу звонким оповещением (`«Внимание: предел превышен — скрытое условие выполнено! Пробуждение Уникального навыка!»`). Дай {{user}} и отряду шанс на яркий переломный момент!"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Aetheria Chronicles – Isekai Adventure, Guilds & System Magic",
+          "description": "Classic isekai fantasy world: the World System with status windows and Unique Skills, the Adventurers' Guild (Ranks F to S), labyrinths, realms, and the Demon Lord."
+        },
+        "ru": {
+          "name": "Хроники Этерии – Исекай-приключение, гильдии и магия Системы",
+          "description": "Классический фэнтези-исекай: Мировая Система с окнами статуса и Уникальными навыками, Гильдия авантюристов (ранги F–S), лабиринты, королевства и Владыка Демонов."
+        }
+      }
+    }
+  }
+}

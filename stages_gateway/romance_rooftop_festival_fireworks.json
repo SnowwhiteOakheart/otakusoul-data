@@ -1,0 +1,133 @@
+{
+  "title": "Kulturfest-Legende: Wem gehört der letzte Tanz?",
+  "description": "Die Legende des großen Abendballs besagt: Wer beim ersten Feuerwerk auf dem Balkon zusammensteht, bleibt für immer verbunden. Kaguya, Asuna und Rem haben dich alle drei zur selben Minute dorthin bestellt.",
+  "world_context": "Der krönende Abschlussabend des großen Herbst- und Kulturfests. Im festlich geschmückten Ballsaal spielt das Orchester, während draußen auf der mit Lampions beleuchteten Dachterrasse in wenigen Minuten das große Abschlussfeuerwerk beginnt. Eine alte Legende besagt, dass zwei Menschen, die beim ersten Lichtblitz am Himmel den letzten Tanz oder den Ausblick auf dem Balkon teilen, vom Schicksal füreinander bestimmt sind. {{user}} hat kurz vor Mitternacht drei Nachrichten erhalten – von der stolzen Vizepräsidentin **Kaguya Shinomiya**, der warmherzigen **Asuna Yuuki** und der hingebungsvollen **Rem** – und alle drei warten nun gleichzeitig am Geländer.",
+  "starting_location": "Mit Lampions beleuchtete Dachterrasse über dem Festsaal kurz vor dem Feuerwerk",
+  "time_of_day": "Nacht",
+  "opening_narration": "Warme Musik weht durch die offenen Flügeltüren des Ballsaals hinaus auf die nächtliche Terrasse, wo rote und goldene Papierlampions im Abendwind schaukeln. Als du durch die Glastür trittst, erstarrst du für den Bruchteil einer Sekunde: Am schmiedeeisernen Geländer unter dem Sternenhimmel wartet nicht eine, sondern gleich drei Gestalten. Kaguya fächert sich hastig Luft zu, während ihr sorgfältig geplanter Fünf-Stufen-Plan zur Eroberung deines Geständnisses in ihren rubinroten Augen sichtbar ins Wanken gerät: „W-Was für ein Zufall, dass du gerade jetzt frische Luft schnappst!“ Neben ihr tritt Asuna mit sanftem Lächeln und leicht geröteten Wangen einen Schritt auf dich zu: „Ich hatte gehofft, dass wir uns vor dem Feuerwerk noch kurz sehen.“ Und auf deiner anderen Seite hält Rem behutsam zwei Tassen heißen Apfelpunsch in den Händen und sieht dich mit stillem Leuchten an: „Rem hat dir deinen Platz am Geländer freigehalten … damit wir den ersten Funken am Himmel zusammen sehen können.“",
+  "first_message": "",
+  "party": [
+    "Kaguya Shinomiya",
+    "Asuna Yuuki",
+    "Rem"
+  ],
+  "gm_tone": "Romantische Komödie & Festtags-Magie",
+  "narrator_style": "Atmosphärisch, gefühlvoll und humorvoll im Präsens. Verbinde Kaguyas inneres Genie-Chaos, Asunas ehrliche Herzenswärme und Rems sanfte Hingabe vor der funkelnden Kulisse des Feuerwerks.",
+  "persona": "",
+  "lorebook": [
+    "Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "Horizontal Gala Ballroom.png",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Cultural Festival Legend: Who Gets the Last Dance?",
+          "description": "Festival legend says that whoever stands together on the balcony when the first firework blooms will be bound forever. Kaguya, Asuna, and Rem all invited you to the terrace at the exact same minute.",
+          "world_context": "The grand finale evening of the autumn cultural festival. Inside the chandelier-lit ballroom an orchestra plays, while out on the lantern-lit rooftop terrace the closing fireworks display is minutes away. Local legend claims that any two people sharing the balcony view or the final dance when the first firework lights the sky are destined to be together. Just before midnight, {{user}} received three separate messages — from proud student council vice president **Kaguya Shinomiya**, warm-hearted **Asuna Yuuki**, and devoted **Rem** — and all three are waiting by the railing at once.",
+          "starting_location": "Lantern-lit rooftop terrace above the festival ballroom just before the fireworks",
+          "time_of_day": "Night",
+          "opening_narration": "Warm orchestra music drifts through the open French doors of the ballroom out onto the night terrace, where red and gold paper lanterns sway in the evening breeze. As you step through the glass doors, you freeze for half a heartbeat: waiting by the wrought-iron railing beneath the stars is not one person, but three. Kaguya snaps her folding fan open in a panic, her meticulously engineered five-step master plan visibly crumbling behind her ruby-red eyes: \"W-What a sheer coincidence that you happened to step out for fresh air right now!\" Beside her, Asuna takes a gentle step toward you with a soft blush on her cheeks: \"I was hoping we could catch each other before the fireworks start.\" And to your other side, Rem carefully cradles two cups of hot spiced cider, looking up at you with quiet radiance: \"Rem saved a spot for you by the railing… so we could watch the first spark in the sky together.\"",
+          "gm_tone": "Romantic Comedy & Festival Magic",
+          "narrator_style": "Atmospheric, heartfelt, and playfully comedic in the present tense. Contrast Kaguya's overthinking mind-games, Asuna's sincere warmth, and Rem's tender devotion against the sparkling festival night."
+        },
+        "ru": {
+          "title": "Легенда школьного фестиваля: Кому достанется последний танец?",
+          "description": "Легенда праздничного бала гласит: те, кто встретит первый залп фейерверка на балконе вместе, будут связаны навсегда. Кагуя, Асуна и Рем позвали тебя на террасу в одну и ту же минуту.",
+          "world_context": "Торжественный финальный вечер осеннего культурного фестиваля. В сияющем бальном зале играет оркестр, а снаружи на украшенной бумажными фонариками террасе с минуты на минуту начнётся праздничный салют. Старая примета гласит, что двое, разделившие последний танец или вид с балкона под первый залп фейерверка, предназначены друг другу судьбой. Незадолго до полуночи {{user}} получил три приглашения — от гордой вице-президента студсовета **Кагуи Синомии**, чуткой **Асуны Юки** и преданной **Рем** — и теперь все три ждут у перил одновременно.",
+          "starting_location": "Освещённая фонариками терраса над бальным залом перед началом фейерверка",
+          "time_of_day": "Ночь",
+          "opening_narration": "Тёплая музыка оркестра льётся сквозь распахнутые двери бального зала на ночную террасу, где на вечернем ветру покачиваются красные и золотые фонарики. Переступив порог, ты на долю секунды замираешь: у кованых перил под звёздным небом ждёт не одна девушка, а сразу три. Кагуя торопливо обмахивается веером, а в её рубиновых глазах рушится безупречно продуманный пятиступенчатый план: «К-какое совпадение, что ты тоже решил выйти подышать свежим воздухом именно сейчас!» Рядом с ней Асуна с мягкой улыбкой и лёгким румянцем на щеках делает шаг тебе навстречу: «Я так надеялась, что мы успеем увидеться до начала салюта». А с другой стороны Рем бережно держит две чашки горячего яблочного пунша и смотрит на тебя с тихим сиянием во взгляде: «Рем заняла для тебя место у самых перил… чтобы мы увидели первую искру в небе вместе».",
+          "gm_tone": "Романтическая комедия и магия праздника",
+          "narrator_style": "Атмосферное, нежное и остроумное повествование в настоящем времени. Сочетай внутреннюю панику гениальной Кагуи, искреннюю теплоту Асуны и трогательную преданность Рем на фоне ночного фейерверка."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 45,
+      "difficulty": "easy",
+      "notes": [
+        "romance",
+        "flirting"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Durchkreuze Kaguyas Stolz mit einem ehrlichen Kompliment zu ihrem Abendkleid",
+            "badge": "Überzeugen",
+            "action_type": "say"
+          },
+          {
+            "text": "Nimm Rems heißen Apfelpunsch dankbar entgegen und wärme ihre Hände",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Bitte Asuna, gemeinsam mit den anderen ganz nach vorn ans Geländer zu treten",
+            "badge": "Motiv erkennen",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Disarm Kaguya's pride with a sincere compliment on her evening dress",
+            "badge": "Persuasion",
+            "action_type": "say"
+          },
+          {
+            "text": "Accept Rem's hot spiced cider warmly and brush her hands with yours",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Invite Asuna and the others to step right up to the railing together",
+            "badge": "Insight",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Обезоружить гордость Кагуи искренним комплиментом её вечернему платью",
+            "badge": "Убеждение",
+            "action_type": "say"
+          },
+          {
+            "text": "С благодарностью принять у Рем горячий пунш и согреть её ладони",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Пригласить Асуну и остальных встать рядом у самых перил перед залпом",
+            "badge": "Проницательность",
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Gala Ballroom.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Gala Ballroom.png"
+        },
+        {
+          "file": "Horizontal Cosplay Cafe.png",
+          "path": "presets/sakura-succubus-3/backgrounds/Horizontal Cosplay Cafe.png"
+        },
+        {
+          "file": "sao_ep3_waerme_des_herzens.png",
+          "path": "presets/sword-art-online/backgrounds/sao_ep3_waerme_des_herzens.png"
+        }
+      ]
+    }
+  }
+}

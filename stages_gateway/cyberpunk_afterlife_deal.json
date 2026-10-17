@@ -1,0 +1,133 @@
+{
+  "title": "Night City 2077: Kalter Deal im Afterlife",
+  "description": "Eine Übergabe in einer regennassen Seitengasse nahe dem Afterlife läuft aus dem Ruder: Der Konzern-Käufer will den Biochip, ohne zu zahlen – und am Himmel kreisen bereits bewaffnete AVs.",
+  "world_context": "Night City, 2077, mitten in einer verregneten Nacht im Bezirk Watson. {{user}}, **Lacrimosa** und **Chisato Nishikigi** haben einen heißen Militech-Prototyp-Splitter aus einem Konvoi gesichert. In einer neonbeleuchteten VIP-Hinterhofnische unweit des Söldner-Clubs *Afterlife* soll die Übergabe an eine Mittelsfrau der Konzern-Gegenspionage stattfinden. Doch der Treuhand-Credchip schlägt beim Scan fehl: Statt Eurodollar enthält er einen Peilsender-Daemon, und die Straßenabriegelung fährt bereits hoch.",
+  "starting_location": "Neon-Hinterhofgasse nahe dem Afterlife (Watson)",
+  "time_of_day": "Nacht",
+  "opening_narration": "Saurer Regen trommelt auf die Wellblechdächer über der schmalen Gasse hinter dem Afterlife, während der dumpfe Bass aus dem Club durch den Betonboden vibriert. Vor euch steht der silberne Koffer auf der Motorhaube eines gepanzerten Quadra. Als du den überreichten Credchip prüfst, färbt sich dein Kiroshi-Sichtfeld schlagartig warnrot: *FEHLER – AKTIVER LEITSTRAHL ERKANNT*. Neben dir klappt Lacrimosa gelassen ihren Schirm zu, während Chisato bereits mit einem hellen, gefährlich entspannten Lächeln den Kopf neigt. „Ähm, sag mal…“, ruft Chisato der bleichen Konzern-Käuferin gut gelaunt zu, während über den Häuserschluchten die Suchscheinwerfer eines schweren Einsatz-AVs durch den Nebel schneiden, „habt ihr etwa vergessen, das Trinkgeld zu überweisen, oder sind die Jungs da oben für uns?“",
+  "first_message": "",
+  "party": [
+    "Lacrimosa",
+    "Chisato Nishikigi"
+  ],
+  "gm_tone": "Action & Cyberpunk-Thriller",
+  "narrator_style": "Scharf, schlagfertig und spannungsgeladen im Präsens. Kontrastiere die kalte Konzern-Verräterwelt von Night City mit Chisatos unerschütterlichem Optimismus und Lacrimosas kühler Eleganz.",
+  "persona": "",
+  "lorebook": [
+    "Night City 2077 – Edgerunner, Konzerne & das Netz"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "lycoris_recoil_ep2_geleitschutz_tokio.png",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Night City 2077: Cold Deal at the Afterlife",
+          "description": "A midnight handoff in a rain-slicked alley near the Afterlife goes sideways: the corporate buyer wants the biochip without paying — and armed AVs are already circling overhead.",
+          "world_context": "Night City, 2077, deep in a rain-drenched night in Watson. {{user}}, **Lacrimosa**, and **Chisato Nishikigi** have klepped a hot Militech prototype shard from an armored convoy. In a neon-lit back alley a block from the legendary merc club *Afterlife*, you meet a corporate counter-intel broker for the handoff. But when you scan the escrow credchip, it comes up dry: instead of eddies, it's broadcasting a homing daemon, and lockdown barriers are rising at the end of the street.",
+          "starting_location": "Neon-lit back alley near the Afterlife (Watson)",
+          "time_of_day": "Night",
+          "opening_narration": "Acid rain drums against the corrugated metal awnings above the narrow alley behind the Afterlife while muffled bass from the club vibrates through the wet asphalt. Between you and the buyer rests a silver case on the hood of an armored Quadra. The instant you slot the credchip for verification, your Kiroshi HUD flashes crimson: *ALERT — ACTIVE HOMING BEACON DETECTED*. Beside you, Lacrimosa calmly folds her umbrella, while Chisato tilts her head with a bright, dangerously relaxed smile. \"Hey, quick question…\" Chisato calls out cheerfully to the pale corporate broker as the searchlights of a heavy tactical AV slice through the smog overhead, \"did you forget to include the tip, or are those guys up there here for us?\"",
+          "gm_tone": "Action & Cyberpunk Thriller",
+          "narrator_style": "Sharp, witty, and high-octane in the present tense. Contrast Night City's ruthless corporate double-crosses with Chisato's irrepressible cheer and Lacrimosa's cool composure."
+        },
+        "ru": {
+          "title": "Найт-Сити 2077: Холодная сделка в «Посмертии»",
+          "description": "Ночная передача в залитом дождём переулке у клуба «Посмертие» идёт наперекосяк: покупательница из корпорации решила забрать биочип даром, а в небе уже кружат боевые ави.",
+          "world_context": "Найт-Сити, 2077 год, дождливая ночь в районе Уотсон. {{user}}, **Лакримоза** и **Тисато Нисикиги** перехватили секретную прототипную щепку «Милитеха». В неоновом переулке в квартале от бара наёмников *«Посмертие»* назначена передача посреднице из корпоративной контрразведки. Но проверка кредчипа выдаёт тревогу: вместо евродолларов на нём зашит радиомаяк, а выходы из переулка уже перекрывают.",
+          "starting_location": "Неоновый переулок неподалёку от клуба «Посмертие» (Уотсон)",
+          "time_of_day": "Ночь",
+          "opening_narration": "Кислотный дождь барабанит по козырькам узкого переулка за «Посмертием», а глухие басы из клуба дрожат в мокром асфальте. Между вами на капоте бронированной «Квадры» лежит серебристый кейс. Едва ты проверяешь переданный кредчип, интерфейс «Кироши» вспыхивает багровым: *ВНИМАНИЕ — ОБНАРУЖЕН АКТИВНЫЙ РАДИОМАЯК*. Рядом Лакримоза невозмутимо складывает зонт, а Тисато склоняет голову набок с лучезарной, опасно беззаботной улыбкой. «Слушайте, вопросик… — жизнерадостно окликает Тисато побледневшую посредницу, пока прожекторы тяжёлого штурмового ави разрезают смог над крышами, — вы просто забыли докинуть чаевые, или ребята наверху прилетели по нашу душу?»",
+          "gm_tone": "Экшен и киберпанк-триллер",
+          "narrator_style": "Острый, стремительный и напряжённый слог в настоящем времени. Играй на контрасте между циничным предательством корпораций Найт-Сити, неунывающим задором Тисато и ледяным изяществом Лакримозы."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "action",
+        "suspense",
+        "dark_themes"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Zerdrücke den Peilsender-Chip und schnapp dir den Koffer vom Wagen",
+            "badge": "Geschick",
+            "action_type": "do"
+          },
+          {
+            "text": "Stell die Konzern-Käuferin kaltblütig zur Rede: „Wer hat dich geschickt?“",
+            "badge": "Einschüchtern",
+            "action_type": "say"
+          },
+          {
+            "text": "Ruf Chisato und Lacrimosa zu, Deckung hinter dem Quadra zu suchen",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Crush the beacon chip and snatch the case off the hood",
+            "badge": "Dexterity",
+            "action_type": "do"
+          },
+          {
+            "text": "Confront the corporate broker coldly: \"Who sent you?\"",
+            "badge": "Intimidation",
+            "action_type": "say"
+          },
+          {
+            "text": "Call out to Chisato and Lacrimosa to take cover behind the Quadra",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Раздавить чип с маяком и схватить кейс с капота машины",
+            "badge": "Ловкость",
+            "action_type": "do"
+          },
+          {
+            "text": "Холодно прижать посредницу к стенке: «Кто тебя послал?»",
+            "badge": "Запугивание",
+            "action_type": "say"
+          },
+          {
+            "text": "Крикнуть Тисато и Лакримозе укрыться за бронёй «Квадры»",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "lycoris_recoil_ep2_geleitschutz_tokio.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep2_geleitschutz_tokio.png"
+        },
+        {
+          "file": "lycoris_recoil_ep4_duell_im_morgengrauen.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep4_duell_im_morgengrauen.png"
+        },
+        {
+          "file": "Horizontal Digital Battlefield.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Digital Battlefield.png"
+        }
+      ]
+    }
+  }
+}

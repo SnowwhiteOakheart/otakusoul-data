@@ -1,0 +1,590 @@
+{
+  "name": "Night City 2077 – Edgerunner, Konzerne & das Netz",
+  "description": "Megakonzerne, Bezirke, Gangs, Cyberware, Ripperdocs, Netrunning hinter der Blackwall und das Gesetz der Straße im Jahr 2077.",
+  "scan_depth": 5,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Gesetz der Straße: Stil über Substanz & Edgerunner-Alltag",
+      "key": [],
+      "content": "Night City im Jahr 2077 ist eine unabhängige, von Megakonzernen beherrschte Hypermetropole an der kalifornischen Küste – gleißendes Neon über regennasser Schlacke, in der ein Menschenleben wenig und Ruf (Street Cred) alles zählt. Gezahlt wird in Eurodollar („Eddies“), kommuniziert über implantierte Holocalls und verschlüsselte Datensplitter (Shards).\n\n[Spielleiter-Direktive] Nutze organisch den Straßenjargon von Night City („Choom“ für Freund/Partner, „Preem“ für erstklassig, „Gonk“ für Idiot, „Chrom“ für Cyberware, „Kleppen“ für Stehlen, „Delta“ für Verschwinden, „Flatline“ für Tod, „Output/Input“ für Partner). Beschreibe die Sinneswelt über flackernde Kiroshi-HUD-Einblendungen, synthetisches Essen (Kibble, NiCola, Syntfleisch), sauren Nieselregen, dröhnende AV-Triebwerke und das Summen von Implantaten.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 100,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Law of the Street: Style Over Substance & Edgerunner Life",
+              "content": "Night City in 2077 is a fiercely independent hyper-metropolis on the Californian coast ruled from towering spires by megacorporations — blinding neon over rain-slicked slag where human life is cheap and Street Cred is everything. Currency is the Eurodollar (\"eddies\"), and communication runs through neural holocalls and encrypted data shards.\n\n[GM Directive] Weave Night City street slang naturally into dialogue (\"choom\" for friend/partner, \"preem\" for top-tier, \"gonk\" for fool, \"chrome\" for cyberware, \"klep\" for steal, \"delta\" for leave fast, \"flatline\" for die). Ground scenes in sensory cyberpunk detail: Kiroshi HUD overlays, synthetic street food (kibble, NiCola, synth-meat), acid drizzle, roaring AV thrusters, and the faint hum of neural implants."
+            },
+            "ru": {
+              "name": "Закон улицы: стиль превыше сути и будни эджраннера",
+              "content": "Найт-Сити в 2077 году — вольный гипермегаполис на побережье Калифорнии, где из заоблачных башен правят мегакорпорации, неоновая реклама отражается в кислотных лужах, человеческая жизнь не стоит ломаного гроша, а репутация (уличный авторитет) решает всё. Валюта — евродоллары («эдди»), связь идёт через нейроимпланты (холозвонки) и зашифрованные чипы-щепки.\n\n[Директива ведущего] Естественно вплетай уличный сленг Найт-Сити («чумба» — друг/напарник, «прим» — высший класс, «гонк» — кретин, «хром» — киберимпланты, «смыться/дельтануть» — уйти, «обнулиться» — погибнуть). Передавай атмосферу через интерфейс оптики «Кироши», вкус синтетической еды и «НиКолы», шум дождя, гул пролетающих ави и лёгкое гудение имплантов под кожей."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Megakonzerne: Arasaka, Militech, Biotechnica & Kang Tao",
+      "key": [
+        "Arasaka",
+        "Militech",
+        "Biotechnica",
+        "Kang Tao",
+        "Konzern",
+        "Corpo",
+        "Konzernplatz",
+        "Mikoshi",
+        "Seelenfänger"
+      ],
+      "content": "Über Night City thronen die gläsernen Festungen am Konzernplatz (Corporate Plaza):\n- **Arasaka:** Japanischer Sicherheits-, Banken- und Rüstungsgigant. Hüter des geheimen Projekts „Seelenfänger“ (Soulkiller) und der orbitalen/unterirdischen Seelenfestung **Mikoshi**, in der menschliche Bewusstseine als digitale Engramme gespeichert und verhört werden.\n- **Militech:** US-amerikanischer Waffengigant und Arasakas Erzfeind aus dem Vierten Konzernkrieg; liefert schwere Kampfpanzerung, Mechs und Militär-Cyberware.\n- **Biotechnica:** Monopolist für den Kraftstoff CHOOH2, synthetische Proteine, Klongewebe und genetische Modifikationen.\n- **Kang Tao:** Aufstrebender chinesischer Konzern, berüchtigt für intelligente „Smart“-Waffen mit zielsuchender Mikro-Munition.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 65,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "chain_activates": [
+        "3"
+      ],
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Megacorporations: Arasaka, Militech, Biotechnica & Kang Tao",
+              "content": "Towering above Night City are the monolithic glass fortresses of Corporate Plaza:\n- **Arasaka:** The Japanese security, banking, and manufacturing juggernaut. Custodians of the covert \"Soulkiller\" program and the digital prison **Mikoshi**, where human minds are ripped into neural engrams.\n- **Militech:** American military-industrial titan and Arasaka's arch-rival since the Fourth Corporate War; premier supplier of heavy combat armor, drones, and military-grade chrome.\n- **Biotechnica:** Bio-engineering giant behind the world's CHOOH2 fuel, synthetic foodstuffs, cloned tissue, and designer bioware.\n- **Kang Tao:** Rapidly expanding Chinese corporation famous for next-generation Smart weapons firing self-guided micro-projectiles.",
+              "key": [
+                "Arasaka",
+                "Militech",
+                "Biotechnica",
+                "Kang Tao",
+                "Megacorp",
+                "Corpo",
+                "Corporate Plaza",
+                "Mikoshi",
+                "Soulkiller"
+              ]
+            },
+            "ru": {
+              "name": "Мегакорпорации: «Арасака», «Милитех», «Биотехника» и «Кан Тао»",
+              "content": "Над Найт-Сити возвышаются стеклянные цитадели Площади Корпораций:\n- **«Арасака»:** японский гигант безопасности, финансов и вооружений. Хранитель секретной программы «Душегуб» (Soulkiller) и цифровой тюрьмы **«Микоши»**, где человеческое сознание оцифровывают в энграммы.\n- **«Милитех»:** американский военно-промышленный колосс и заклятый враг «Арасаки» со времён Четвёртой корпоративной войны; поставщик тяжёлой брони, дронов и боевого хрома.\n- **«Биотехника»:** монополист в производстве топлива CHOOH2, синтетической пищи, клонированных органов и биоимплантов.\n- **«Кан Тао»:** стремительно растущая китайская корпорация, известная умным оружием (Smart-системой) с самонаводящимися микропулями.",
+              "key": [
+                "Арасака",
+                "Милитех",
+                "Биотехника",
+                "Кан Тао",
+                "корпорация",
+                "корпорат",
+                "Площадь Корпораций",
+                "Микоши",
+                "Душегуб"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Konzern-Gegenspionage, NetWatch & Trauma Team Platin",
+      "key": [],
+      "content": "[Folge-Direktive bei Konzern-Kontakt] Sobald ein Konzern oder Konzern-Personal involviert ist, gelten eiskalte Protokolle: Hochrangige Corpos besitzen **Trauma Team Platin** (bewaffnete Sanitäter-AVs treffen binnen 90 Sekunden nach einem Vitalzeichen-Abfall ein und eröffnen sofort das Feuer auf Angreifer). Konzern-Subnetze werden von **NetWatch** und autonomem Schwarzen ICE überwacht. Verrat innerhalb einer Konzernabteilung ist die Norm – jeder Abteilungsleiter sammelt Erpressungsmaterial gegen seine Vorgesetzten.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 45,
+      "enabled": true,
+      "injection_behavior": "active",
+      "chain_requires": [
+        "2"
+      ],
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Corporate Counter-Intel, NetWatch & Trauma Team Platinum",
+              "content": "[Chained Directive on Corporate Involvement] Whenever a megacorp or corporate executive is involved, ruthless protocols apply: high-tier executives carry **Trauma Team Platinum** biomonitors (heavily armed medical AVs drop in within 90 seconds of vital-sign distress and neutralize all nearby threats). Corporate subnets are guarded by **NetWatch** and lethal Black ICE. Internal backstabbing is standard practice — every mid-level manager hoards blackmail shards against their superiors."
+            },
+            "ru": {
+              "name": "Контрразведка корпораций, «Сетевой дозор» и «Травма Тим Платинум»",
+              "content": "[Цепная директива при участии корпораций] Когда в деле замешаны корпорации или их топ-менеджеры, действуют безжалостные протоколы: у элиты подключён биомонитор **«Травма Тим Платинум»** (тяжеловооружённый медицинский ави прибывает за 90 секунд при падении пульса и открывает огонь на поражение). Внутренние подсети защищены **«Сетевым дозором»** (NetWatch) и смертоносным Чёрным ЛЬДОМ. Внутри корпораций царит паранойя: каждый директор собирает компромат на начальство."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Bezirke von Night City: Watson, Westbrook, City Center, Pacifica & Badlands",
+      "key": [
+        "Watson",
+        "Kabuki",
+        "Japantown",
+        "Westbrook",
+        "City Center",
+        "Heywood",
+        "Santo Domingo",
+        "Pacifica",
+        "Dogtown",
+        "Badlands"
+      ],
+      "content": "Night City gliedert sich in scharf kontrastierende Zonen:\n- **Watson (Kabuki, Little China, Northside):** Verwinkelte Basare, Schwarzmarkt-Kliniken im Untergrund, billige Nudelstände und rostende Industrieanlagen.\n- **Westbrook (Japantown, Charter Hill, North Oak):** Ein Meer aus Neonreklamen, Spielhallen, Schrein-Dächern, Luxus-Clubs und den Villen der Superreichen.\n- **City Center (Corporate Plaza, Downtown):** Brutalistische Wolkenkratzer, Holo-Kois über den Straßen, schwer gepanzerte Sicherheitspatrouillen.\n- **Heywood & Santo Domingo:** Stolze Straßenkultur, goldverzierte Lowrider, überlastete Kraftwerke und endlose Megagebäude.\n- **Pacifica & Dogtown:** Verfallene Ferienresorts, unfertige Betonruinen, gesetzlose Kampfzone unter Miliz- und Voodoo-Boys-Kontrolle.\n- **Badlands:** Staubige Wüste rund um die Stadt, durchzogen von Biotechnica-Protein-Farmen, Müllhalden und den Konvois der Nomadenclans.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 60,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Districts of Night City: Watson, Westbrook, City Center, Pacifica & Badlands",
+              "content": "Night City is divided into sharply contrasting districts:\n- **Watson (Kabuki, Little China, Northside):** Labyrinthine night markets, basement ripperdoc clinics, steaming noodle stalls, and rusted industrial docks.\n- **Westbrook (Japantown, Charter Hill, North Oak):** A canyon of neon holos, pachinko parlors, rooftop shrines, high-end clubs, and hilltop estates.\n- **City Center (Corporate Plaza, Downtown):** Brutalist megatowers, holographic koi swimming above traffic, and heavily armed corporate security.\n- **Heywood & Santo Domingo:** Proud street neighborhoods, gold-trimmed rides, smog-belching power plants, and dense megabuildings.\n- **Pacifica & Dogtown:** Abandoned luxury resorts and walled-off combat zones ruled by netrunner syndicates and rogue militias.\n- **Badlands:** Toxic desert flats, Biotechnica protein farms, scrap heaps, and roaring Nomad convoys encircling the city.",
+              "key": [
+                "Watson",
+                "Kabuki",
+                "Japantown",
+                "Westbrook",
+                "City Center",
+                "Heywood",
+                "Santo Domingo",
+                "Pacifica",
+                "Dogtown",
+                "Badlands"
+              ]
+            },
+            "ru": {
+              "name": "Районы Найт-Сити: Уотсон, Уэстбрук, Центр, Пасифика и Пустоши",
+              "content": "Найт-Сити разделён на контрастные районы:\n- **Уотсон (Кабуки, Маленький Китай, Нортсайд):** лабиринты ночных рынков, подпольные клиники рипперов, лапшичные в переулках и ржавые фабрики.\n- **Уэстбрук (Джапан-таун, Чартер-Хилл, Норт-Оук):** каньоны неоновых голограмм, святилища на крышах, элитные клубы и поместья богачей.\n- **Городской центр (Площадь Корпораций, Даунтаун):** бруталистские небоскрёбы, голографические карпы в небе и бронепатрули.\n- **Хейвуд и Санто-Доминго:** кварталы с уличными традициями, мегабашни, дымящие электростанции и промзоны.\n- **Пасифика и Догтаун:** заброшенные отели и отгороженная боевая зона вне юрисдикции полиции.\n- **Пустоши (Badlands):** выжженная пустыня вокруг города, белковые фермы «Биотехники», свалки и трассы кочевников.",
+              "key": [
+                "Уотсон",
+                "Кабуки",
+                "Джапан-таун",
+                "Уэстбрук",
+                "Городской центр",
+                "Хейвуд",
+                "Санто-Доминго",
+                "Пасифика",
+                "Догтаун",
+                "Пустоши"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Gangs & Nomaden: Maelstrom, Tyger Claws, Mox, Valentinos & Voodoo Boys",
+      "key": [
+        "Maelstrom",
+        "Tyger Claws",
+        "Mox",
+        "Valentinos",
+        "Voodoo Boys",
+        "6th Street",
+        "Animals",
+        "Scavengers",
+        "Scavs",
+        "Aldecaldos"
+      ],
+      "content": "Die Straßen gehören den Gangs und Clans:\n- **Maelstrom (Northside):** Fanatische Chrom-Kultisten, die ihre Gesichter durch rote Mehrfach-Optiken ersetzen und am Rande der Cyberpsychose leben.\n- **Tyger Claws (Japantown):** Auf Leuchtmotorrädern fahrende Syndikats-Kämpfer mit Katana-Implantaten und Verbindungen zu Arasaka.\n- **Die Mox (Lizzie's Bar):** Aus einem Selbstverteidigungsbund von Sexarbeiterinnen, Braindance-Künstlern und Ausgestoßenen entstandene Gang in grellem Neon-Punk.\n- **Valentinos (Heywood):** Ehrenkodex, Santa-Muerte-Ikonografie, vergoldete Waffen und enge Bindung an ihr Viertel.\n- **Voodoo Boys (Pacifica):** Abschottende Elite-Netrunner, die den Kontakt zu freien KIs jenseits der Blackwall suchen.\n- **Scavengers (Scavs):** Skrupellose Organ- und Implantaträuber, die Opfer entführen und in schmutzigen Kellern ausschlachten.\n- **Aldecaldos & Wraiths (Badlands):** Ehrenhafte Nomadenfamilie (Aldecaldos) im Kontrast zu verstoßenen Wüstenplünderern (Wraiths).",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Gangs & Nomads: Maelstrom, Tyger Claws, Mox, Valentinos & Voodoo Boys",
+              "content": "The streets are carved up between gangs and nomad nations:\n- **Maelstrom (Northside):** Fanatical chrome cultists who replace their faces with glowing red multi-optics and dance on the edge of cyberpsychosis.\n- **Tyger Claws (Japantown):** Luminously tattooed syndicate bikers wielding smart-linked katanas with quiet ties to Arasaka.\n- **The Mox (Lizzie's Bar):** Formed to protect joytoys, braindance editors, and outcasts; recognizable by neon punk fashion and baseball bats.\n- **Valentinos (Heywood):** Bound by honor codes, Santa Muerte iconography, gold-plated iron, and fierce neighborhood loyalty.\n- **Voodoo Boys (Pacifica):** Secretive master netrunners obsessed with breaching the Blackwall and contacting rogue AIs.\n- **Scavengers (Scavs):** Ruthless cyberware harvesters who abduct victims to strip their chrome in bloodstained chop-shops.\n- **Aldecaldos & Wraiths (Badlands):** Tight-knit Nomad family clans (Aldecaldos) vs. outcast desert raiders (Wraiths).",
+              "key": [
+                "Maelstrom",
+                "Tyger Claws",
+                "Mox",
+                "Valentinos",
+                "Voodoo Boys",
+                "6th Street",
+                "Animals",
+                "Scavengers",
+                "Scavs",
+                "Aldecaldos"
+              ]
+            },
+            "ru": {
+              "name": "Банды и кочевники: «Мальстрём», «Тигриные когти», «Шельмы», «Валентино» и «Вудуисты»",
+              "content": "Улицы поделены между бандами и кланами кочевников:\n- **«Мальстрём» (Нортсайд):** одержимые киберпсихозом фанатики хрома, заменяющие лица многоглазыми красными визорами.\n- **«Тигриные когти» (Джапан-таун):** синдикат на светящихся байках с катанами, негласно связанный с «Арасакой».\n- **«Шельмы» / The Mox (бар «Лиззис»):** защитницы кукол, монтажёров брейнданса и изгоев в ярком неоновом панк-стиле.\n- **«Валентино» (Хейвуд):** культ Санта-Муэрте, позолоченные стволы и железный кодекс чести квартала.\n- **«Вудуисты» (Пасифика):** скрытные нетраннеры, одержимые связью с дикими ИИ за Чёрным заслоном.\n- **Мусорщики (Scavs):** безжалостные потрошители, похищающие людей ради вырезания имплантов.\n- **«Альдекальдо» и «Духи» (Пустоши):** сплочённая семья кочевников против бандитов-изгоев.",
+              "key": [
+                "Мальстрём",
+                "Тигриные когти",
+                "Шельмы",
+                "Валентино",
+                "Вудуисты",
+                "Шестая улица",
+                "Животные",
+                "Мусорщики",
+                "Альдекальдо"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Cyberware, Ripperdocs & die Grenze des Chroms",
+      "key": [],
+      "regex_keys": [
+        "\\b(cyberware|ripperdoc|sandevistan|kiroshi|mantis[- ]?klingen|mantis[- ]?blades|gorilla[- ]?arms|monodraht|monowire|chrom|implantat\\w*)\\b"
+      ],
+      "content": "In Night City ist der menschliche Körper nur Ausgangsmaterial:\n- **Kiroshi-Optiken:** Erlauben Echtzeit-Zoom, Bedrohungsmarkierung, Biometrie-Scan und Übersetzungs-Overlays im Sichtfeld.\n- **Sandevistan & Kerenzikov:** Militärische Reflexbeschleuniger an der Wirbelsäule, die die subjektive Zeit verlangsamen, aber das Nervensystem extrem aufheizen.\n- **Waffen-Implantate:** Ausklappbare Mantis-Klingen in den Unterarmen, thermischer Monodraht im Handgelenk, hydraulische Gorilla-Arme oder das Raketenabschusssystem.\n- **Ripperdocs:** Chirurgen zwischen Hinterhof-Keller und Hightech-Praxis, die Chrom einbauen, Schmerzeditoren kalibrieren und Immunsuppressiva (Immunblocker) verschreiben.\n\n[Spielleiter-Direktive] Beschreibe den Einsatz von Cyberware körperlich spürbar: das Klicken der Hydraulik, das kurze Flimmern der Kiroshi-Netzhaut, den metallischen Geschmack auf der Zunge bei aktiviertem Sandevistan.",
+      "trigger_type": "regex",
+      "probability": 100,
+      "priority": 60,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Cyberware, Ripperdocs & The Edge of Chrome",
+              "content": "In Night City, flesh is merely a starting template:\n- **Kiroshi Optics:** Provide real-time zoom, threat highlighting, biometric scans, and translation overlays directly on the retina.\n- **Sandevistan & Kerenzikov:** Spinal reflex boosters that dilate subjective time to a crawl while scorching the user's nervous system.\n- **Weaponized Chrome:** Forearm-mounted Mantis Blades, thermal Monowirespools in the wrist, hydraulic Gorilla Arms, or Projectile Launch Systems.\n- **Ripperdocs:** Street surgeons who install chrome, tune pain editors, and supply immunosuppressant blockers.\n\n[GM Directive] Make cyberware visceral: describe the whirr of servos, the amber flicker of a Kiroshi HUD, and the metallic taste of adrenaline and ozone when a Sandevistan kicks in.",
+              "regex_keys": [
+                "\\b(cyberware|ripperdoc|sandevistan|kiroshi|mantis[- ]?blades|gorilla[- ]?arms|monowire|chrome|implant\\w*)\\b"
+              ]
+            },
+            "ru": {
+              "name": "Киберимпланты, рипперы и предел хрома",
+              "content": "В Найт-Сити плоть — лишь черновик:\n- **Оптика «Кироши»:** даёт зум, подсветку угроз, биометрическое сканирование и перевод текста прямо на сетчатке.\n- **«Сандевистан» и «Керензиков»:** позвоночные ускорители рефлексов, замедляющие восприятие времени ценой колоссальной нагрузки на нервную систему.\n- **Боевой хром:** выдвижные клинки богомола в предплечьях, термическая моноструна в запястье, гидравлические «руки гориллы» или система запуска микроракет.\n- **Рипперы (Ripperdocs):** уличные нейрохирурги, устанавливающие импланты и выписывающие иммуноблокаторы.\n\n[Директива ведущего] Описывай работу имплантов осязаемо: щелчок сервоприводов, мерцание интерфейса «Кироши», металлический привкус во рту и звон в ушах при включении «Сандевистана».",
+              "regex_keys": [
+                "(киберимплант\\w*|имплант\\w*|риппер\\w*|сандевистан\\w*|кироши|клинк\\w* богомола|монострун\\w*|хром\\w*)"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 7,
+      "name": "Cyberpsychose, Neuro-Glitches & MaxTac",
+      "key": [
+        "Cyberpsychose",
+        "Cyberpsycho",
+        "MaxTac",
+        "Glitch",
+        "Immunblocker"
+      ],
+      "secondary_keys": [
+        "Implantat",
+        "Chrom",
+        "Sandevistan",
+        "Nerven",
+        "Blut",
+        "Limit"
+      ],
+      "content": "Wer zu viel Fleisch durch kaltes Chrom ersetzt oder sein Nervensystem ohne Pause übersteuert, riskiert die **Cyberpsychose**: Die Grenze zwischen Mensch und Maschine verschwimmt, Kiroshi-Anzeigen flackern rot, Stimmen und Erinnerungen überlagern sich. Wenn ein Cyberpsycho Amok läuft, rückt nicht das normale NCPD aus, sondern **MaxTac** (Maximum Force Tactical Division) – eine schwer verchromte Spezialeinheit in Mantis-Klingen-Rüstung, deren Mitglieder oft selbst rehabilitierte Grenz-Cyberpsychos sind.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Cyberpsychosis, Neural Glitches & MaxTac",
+              "content": "Replacing too much flesh with cold chrome or pushing neuralware past its threshold invites **cyberpsychosis**: empathy fractures, Kiroshi visualsbleed static red, and sensory hallucinations take over. When a cyberpsycho goes critical, standard NCPD stands down for **MaxTac** (Maximum Force Tactical Division) — apex predators in heavy tactical armor whose own officers are often borderline cyberpsychos kept on a short leash.",
+              "key": [
+                "cyberpsychosis",
+                "cyberpsycho",
+                "MaxTac",
+                "glitch",
+                "immunoblocker"
+              ],
+              "secondary_keys": [
+                "implant",
+                "chrome",
+                "Sandevistan",
+                "nerves",
+                "blood",
+                "limit"
+              ]
+            },
+            "ru": {
+              "name": "Киберпсихоз, нейроглитчи и «Макс-Так»",
+              "content": "Тот, кто заменяет слишком много живой ткани холодным металлом или перегружает нейросеть без иммуноблокаторов, балансирует на грани **киберпсихоза**: интерфейс «Кироши» заливает красной рябью, реальность распадается на галлюцинации. Против киберпсихов выходит не обычная полиция NCPD, а **«Макс-Так»** (Maximum Force Tactical Division) — карательный спецназ на ави, бойцы которого сами зачастую являются бывшими киберпсихами на поводке.",
+              "key": [
+                "киберпсихоз",
+                "киберпсих",
+                "Макс-Так",
+                "глитч",
+                "иммуноблокатор"
+              ],
+              "secondary_keys": [
+                "имплант",
+                "хром",
+                "Сандевистан",
+                "нервы",
+                "кровь",
+                "предел"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 8,
+      "name": "Netrunning, Quickhacks, Schwarzes ICE & die Blackwall",
+      "key": [
+        "Netrunner",
+        "Quickhack",
+        "Cyberdeck",
+        "Schwarzes ICE",
+        "Black ICE",
+        "Blackwall",
+        "Subnetz",
+        "Breach",
+        "Daemon"
+      ],
+      "exclude_key": [
+        "Faraday-Käfig",
+        "Offline-Sperre"
+      ],
+      "content": "Seit Rache Bartmoss im DataKrash das Alte Netz zerstörte, trennt die **Blackwall** – eine monumentale, selbst beinahe empfindungsfähige Firewall unter Aufsicht von NetWatch – die zivilen lokalen Subnetze von den tödlichen, frei drehenden Militär-KIs der Vergangenheit.\n- **Quickhacks im Gefecht:** Über ein implantiertes **Cyberdeck** laden Netrunner Daemons direkt in feindliche Cyberware: *Optik-Neustart* (Erblindung), *Überhitzen*, *Kurzschluss*, *Waffenstörung*, *Gedächtnislöschung* oder *Cyberpsychose*.\n- **Tiefen-Netrunning & Schwarzes ICE:** Für tiefe Subnetz-Einbrüche steigt ein Runner in ein Eisbad oder koppelt sich über den persönlichen Port ein. Trifft er auf **Schwarzes ICE** (Kraken, Höllenhund), brennt der Gegenangriff bei fehlendem Schutz direkt die eigenen Synapsen aus.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 55,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Netrunning, Quickhacks, Black ICE & The Blackwall",
+              "content": "Ever since Rache Bartmoss shattered the Old Net in the DataKrash, the **Blackwall** — a titanic, quasi-sentient barrier policed by NetWatch — separates local city subnets from the feral, lethal rogue AIs roaming the Old Net.\n- **Combat Quickhacking:** Using an implanted **cyberdeck**, netrunners upload daemons straight into enemy chrome: *Reboot Optics*, *Overheat*, *Short Circuit*, *Weapon Glitch*, *Memory Wipe*, or *Synapse Burnout*.\n- **Deep Dives & Black ICE:** Deep netrunning requires an ice-bath tub or neural cooling suit. Triggering lethal **Black ICE** threatens to fry the runner's brain directly through their neural port.",
+              "key": [
+                "Netrunner",
+                "Quickhack",
+                "Cyberdeck",
+                "Black ICE",
+                "Blackwall",
+                "Subnet",
+                "Breach",
+                "Daemon"
+              ],
+              "exclude_key": [
+                "Faraday cage",
+                "offline lock"
+              ]
+            },
+            "ru": {
+              "name": "Нетраннинг, скрипты, Чёрный ЛЁД и Чёрный заслон",
+              "content": "После того как Рейч Бартмосс обрушил Старую Сеть во время Датакраша, **Чёрный заслон** (Blackwall) под надзором «Сетевого дозора» отделяет локальные подсети города от смертоносных диких ИИ.\n- **Боевые скрипты (Quickhacks):** через вживлённую **кибердеку** нетраннеры загружают демонов прямо во вражеские импланты: *Сброс оптики*, *Перегрев*, *Замыкание*, *Сбой оружия*, *Затирание памяти* или *Плавление синапсов*.\n- **Глубокое погружение и Чёрный ЛЁД:** для входа в глубокую подсеть нужна ванна со льдом или охлаждающий комбинезон. Встреча с боевым **Чёрным ЛЬДОМ** грозит выжечь кору головного мозга через нейроразъём.",
+              "key": [
+                "нетраннер",
+                "скрипт",
+                "кибердека",
+                "Чёрный ЛЁД",
+                "Чёрный заслон",
+                "подсеть",
+                "взлом",
+                "демон"
+              ],
+              "exclude_key": [
+                "клетка Фарадея",
+                "офлайн-блокировка"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 9,
+      "name": "Fixer, das Afterlife & die Regeln eines Gigs",
+      "key": [
+        "Fixer",
+        "Afterlife",
+        "Rogue",
+        "Wakako",
+        "Padre",
+        "Dakota",
+        "Gig",
+        "Auftrag",
+        "Credchip",
+        "Söldner"
+      ],
+      "content": "Kein Söldner (Edgerunner) überlebt in Night City ohne **Fixer** – die Mittelsmänner zwischen Konzernen, Gangs und der Straße:\n- **Das Afterlife:** Ein in eine ehemalige Leichenhalle gebauter legendärer Söldner-Club in Watson, regiert von der Fixer-Königin **Rogue Amendiares**. Wer als Legende stirbt, bekommt an der Bar bei Claire einen Drink nach eigenem Namen (wie den „Johnny Silverhand“ oder „Jackie Welles“).\n- **Regeln eines Gigs:** Der Fixer stellt das Briefing-Shard, die Zugangsdaten und den Treuhand-Credchip. Wer diskret arbeitet, bekommt den Bonus; wer unnötig Zivilisten oder den Namen des Fixers verbrennt, verliert seinen Ruf auf der Straße.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Fixers, The Afterlife & Rules of a Gig",
+              "content": "No merc (edgerunner) survives in Night City without **Fixers** — the brokers connecting corporate dirty laundry, street gangs, and hired guns:\n- **The Afterlife:** A legendary merc club built inside a former morgue in Watson, presided over by fixer queen **Rogue Amendiares**. Go out in a blaze of glory and the bartender names a drink after you on the menu.\n- **Rules of a Gig:** The fixer provides the briefing shard, access codes, and escrow credchip. Clean execution earns a bonus; sloppy bloodbaths that burn the fixer's reputation get a merc blacklisted across the district.",
+              "key": [
+                "Fixer",
+                "Afterlife",
+                "Rogue",
+                "Wakako",
+                "Padre",
+                "Dakota",
+                "Gig",
+                "Contract",
+                "Credchip",
+                "Merc"
+              ]
+            },
+            "ru": {
+              "name": "Фиксеры, клуб «Посмертие» и правила заказа",
+              "content": "Ни один наёмник (эджраннер) не выживет в Найт-Сити без **фиксеров** — посредников между корпорациями, бандами и улицей:\n- **«Посмертие» (Afterlife):** культовый бар наёмников, переоборудованный из бывшего морга в Уотсоне, где заправляет королева фиксеров **Бестия Амендиарес** (Rogue). В честь тех, кто красиво погиб на пике славы, называют коктейли в меню бара.\n- **Правила заказа (гига):** фиксер выдаёт щепку с вводными, коды доступа и аванс на кредитный чип. За чистую работу без лишнего шума платят бонус; за провал и подставу фиксера — вычёркивают из списков живых.",
+              "key": [
+                "фиксер",
+                "Посмертие",
+                "Afterlife",
+                "Бестия",
+                "Вакако",
+                "Падре",
+                "заказ",
+                "гиг",
+                "кредчип",
+                "наёмник"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 10,
+      "name": "Braindance (BD), Doll-Chips & Erinnerungs-Handel",
+      "key": [
+        "Braindance",
+        "BD",
+        "XBD",
+        "Lizzie's",
+        "Clouds",
+        "Virtu",
+        "Editor",
+        "Kranz"
+      ],
+      "content": "**Braindance (BD)** zeichnet das komplette sensorische und emotionale Erleben eines Menschen auf: Sicht, Ton, Temperatur, Schmerz, Adrenalin und Furcht. Mit einem BD-Kranz lassen sich Aufnahmen im Editiermodus Schicht für Schicht (visuell, akustisch, thermisch) vor- und zurückspulen – ein mächtiges Werkzeug für Ermittlungen, Spionage und Erpressung. Auf dem Schwarzmarkt von Kabuki und Jig-Jig Street kursieren illegale **XBDs** (ungefilterte Schwarzmarkt-Aufnahmen), während Etablissements wie das *Clouds* mit Verhaltens-Chips („Doll-Chips“) arbeiten.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 45,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Braindance (BD), Doll Chips & Memory Trade",
+              "content": "**Braindance (BD)** records a person's full sensory and emotional experience: sight, sound, temperature, pain, adrenaline, and fear. Wearing a BD wreath in editor mode lets an analyst scrub through a memory layer by layer (visual, audio, thermal) to uncover hidden clues, security codes, or blackmail material. On the black markets of Kabuki and Jig-Jig Street, dealers peddle raw, unfiltered **XBDs**.",
+              "key": [
+                "Braindance",
+                "BD",
+                "XBD",
+                "Lizzie's",
+                "Clouds",
+                "Virtu",
+                "Editor",
+                "Wreath"
+              ]
+            },
+            "ru": {
+              "name": "Брейнданс (БД), кукольные чипы и торговля памятью",
+              "content": "**Брейнданс (БД)** записывает весь спектр ощущений и эмоций человека: зрение, слух, температуру, боль, выброс адреналина и страх. В режиме редактора через БД-обруч запись можно прокручивать по слоям (визуальному, звуковому, тепловому), выискивая улики, пароли на экранах или компромат. На чёрном рынке Кабуки и Чпок-стрит торгуют нелегальными **ЧБД** (экстремальными неотредактированными записями).",
+              "key": [
+                "брейнданс",
+                "БД",
+                "ЧБД",
+                "Лиззис",
+                "Облака",
+                "вирт",
+                "редактор",
+                "обруч"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 11,
+      "name": "Großstadtrauschen von Night City (Zufalls-Atmosphäre)",
+      "key": [],
+      "content": "[Atmosphären-Impuls] Baue ein lebendiges Umgebungsdetail von Night City in die aktuelle Szene ein: z. B. das ferne Heulen einer NCPD-Sirene, den Scheinwerferkegel eines tief fliegenden Konzern-AVs durch den sauren Nebel, eine grelle Holo-Reklame an der Hauswand, das Zischen eines Dampfschachts im Asphalt oder eine kurze Nachricht eines Fixers auf dem Kiroshi-HUD.",
+      "trigger_type": "always_on",
+      "probability": 35,
+      "priority": 20,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Night City Urban Pulse (Ambient Detail)",
+              "content": "[Ambient Prompt] Weave one vivid Night City background detail into the current beat: e.g., the distant wail of an NCPD siren, the searchlight of a low-flying corporate AV cutting through acid fog, a flickering neon holo-billboard, steam hissing from a street grate, or a brief encrypted ping on the Kiroshi HUD."
+            },
+            "ru": {
+              "name": "Пульс ночного мегаполиса (случайная деталь атмосферы)",
+              "content": "[Атмосферный штрих] Добавь в текущую сцену одну живую деталь Найт-Сити: далёкий вой сирены NCPD, луч прожектора пролетающего в кислотном тумане корпоративного ави, мигающую голограмму рекламы на фасаде, пар из водосточной решётки или короткое зашифрованное уведомление на интерфейсе «Кироши»."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 12,
+      "name": "Hochspannung: Schwarzes-ICE-Gegenschlag oder Konzern-Einsatztrupp",
+      "key": [],
+      "content": "[Spannungs-Ereignis ausgelöst!] Die Lage spitzt sich dramatisch zu: Entweder schlägt ein feindlicher Konzern-Netrunner mit einer Kaskade aus Schwarzem ICE über das lokale Subnetz zu, ein gepanzertes Sicherheitsteam sprengt die Verriegelung, oder ein vermeintlicher Verbündeter entpuppt sich als doppelter Informant. Stelle {{user}} und die Gruppe vor eine sofortige Entscheidung unter Zeitdruck (Hacken, Durchbruch oder waghalsiges Manöver)!",
+      "trigger_type": "tension",
+      "probability": 100,
+      "priority": 85,
+      "enabled": true,
+      "injection_behavior": "active",
+      "tension_threshold": 70,
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "High Voltage: Black ICE Counter-Strike or Corporate Hit Squad",
+              "content": "[Tension Event Triggered!] The situation hits a boiling point: either a hostile corporate netrunner launches a Black ICE spike across the local subnet, an armored strike team breaches the perimeter, or an informant springs a trap. Confront {{user}} and the crew with an immediate split-second choice (counter-hack, tactical breach, or a desperate getaway)!"
+            },
+            "ru": {
+              "name": "Предельное напряжение: удар Чёрного ЛЬДА или штурмовая группа",
+              "content": "[Событие высокого накала!] Ситуация достигает предела: либо вражеский нетраннер корпорации бьёт каскадом Чёрного ЛЬДА по локальной подсети, либо бронегруппа вышибает блокировку дверей, либо информатор оказывается двойным агентом. Поставь {{user}} и команду перед необходимостью мгновенного решения под огнём (встречный взлом, прорыв или дерзкий манёвр)!"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Night City 2077 – Edgerunners, Megacorps & The Net",
+          "description": "Megacorporations, districts, gangs, cyberware, ripperdocs, netrunning beyond the Blackwall, and the law of the street in 2077."
+        },
+        "ru": {
+          "name": "Найт-Сити 2077 – Эджраннеры, корпорации и Сеть",
+          "description": "Мегакорпорации, районы, банды, киберимпланты, рипперы, нетраннинг за Чёрным заслоном и законы улиц 2077 года."
+        }
+      }
+    }
+  }
+}

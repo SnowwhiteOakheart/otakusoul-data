@@ -1,0 +1,132 @@
+{
+  "title": "Night City 2077: Geist im Subnetz",
+  "description": "Tief unter Japantown liegt ein geflutetes Arasaka-Schattenlabor. Du drichst mit der Hackerin Kurumi und der Schwertkämpferin Shinku ein, um einen Relikt-Splitter zu bergen – bevor das Schwarze ICE zuschnappt.",
+  "world_context": "Night City im Jahr 2077. Ein anonymer Fixer hat euch über das Afterlife für einen hochbezahlten Mitternachts-Gig angeheuert: Unter einem stillgelegten Pachinko-Komplex in Japantown (Westbrook) liegt das versiegelte Subnetz-Labor „Kuro-7“. Dort lagert ein experimenteller Relikt-Splitter mit einem verschlüsselten Bewusstseins-Engramm. {{user}} leitet den Vorstoß vor Ort; **Kurumi** („Walnut“) klinkt sich mit ihrem modifizierten Cyberdeck in die lokalen Knoten ein, um Geschütztürme und Kameras zu blenden, während **Shinku** mit reflexbeschleunigten Klingen die engen Wartungsschächte sichert. Doch kaum habt ihr die äußere Schleuse überwunden, fährt der Reaktor des Labors aus dem Stand wieder hoch – jemand wusste, dass ihr kommt.",
+  "starting_location": "Gefluteter Serverkorridor des Schattenlabors Kuro-7 (Japantown)",
+  "time_of_day": "Nacht",
+  "opening_narration": "Kaltes Kühlwasser schwappt um deine Stiefel, während der Geruch von verbranntem Ozon und altem Maschinenöl durch den dunklen Wartungsschacht zieht. Auf deinem Kiroshi-HUD flackert die Verbindungsanzeige bernsteinfarben auf. Neben der halb aufgestemmten Panzertür hockt Kurumi auf einer Aluminiumkiste, das Datenkabel ihres Cyberdecks direkt im Nackenanschluss, während holografische Codezeilen sich in ihren Augen spiegeln. „Okay, Choom, die äußere Firewall war ein Witz – fast schon zu einfach“, murmelt sie und tippt hektisch in die Luft. „Aber dahinter schläft militärisches Schwarzes ICE.“ Einen Schritt weiter vorn wischt Shinku reglos den sauren Regen von ihrer Klinge; ihr Blick fixiert das rote Notlicht am Ende des Gangs, wo soeben mit einem metallischen Klacken zwei autonome Wachdrohnen erwachen.",
+  "first_message": "",
+  "party": [
+    "Kurumi",
+    "Shinku"
+  ],
+  "gm_tone": "Cyberpunk Noir",
+  "narrator_style": "Temporeich, atmosphärisch dicht und kinoreif im Präsens. Verbinde Neon-Lichtreflexe, Kiroshi-HUD-Einblendungen, knisternde Subnetz-Spannung und den trockenen Galgenhumor einer eingespielten Edgerunner-Crew.",
+  "persona": "",
+  "lorebook": [
+    "Night City 2077 – Edgerunner, Konzerne & das Netz"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "Horizontal Digital Battlefield.png",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Night City 2077: Ghost in the Subgrid",
+          "description": "Deep beneath Japantown lies a flooded Arasaka black-site lab. Alongside netrunner Kurumi and blade specialist Shinku, you breach the facility to klep an experimental Relic shard before Black ICE locks you in.",
+          "world_context": "Night City, 2077. An anonymous fixer hired your crew through the Afterlife for a high-payout midnight gig: beneath an abandoned pachinko complex in Japantown (Westbrook) lies the sealed subgrid lab \"Kuro-7,\" housing an experimental Relic shard containing an encrypted neural engram. {{user}} leads the infiltration on the ground; **Kurumi** (\"Walnut\") jacks her custom cyberdeck into the local access nodes to blind turrets and optics, while **Shinku** guards the cramped maintenance tunnels with reflex-boosted blades. Yet the moment you breach the outer airlock, the facility's backup reactor roars to life — someone knew you were coming.",
+          "starting_location": "Flooded server corridor of Black-Site Lab Kuro-7 (Japantown)",
+          "time_of_day": "Night",
+          "opening_narration": "Cold coolant water sloshes around your boots as the sharp tang of scorched ozone and stale machine oil drifts through the dark maintenance shaft. Your Kiroshi HUD flickers amber. Beside the pried-open blast door, Kurumi perches on an aluminum crate, her cyberdeck's monowire jacked straight into her neural port while holographic code cascades across her eyes. \"Okay, choom, the outer firewall was a joke — almost insultingly easy,\" she mutters, fingers flying through mid-air projections. \"But there's military-grade Black ICE breathing right behind it.\" One step ahead, Shinku silently wipes acid rain from her blade, her gaze locked on the pulsing red emergency light down the hall where two autonomous combat drones just clicked online.",
+          "gm_tone": "Cyberpunk Noir",
+          "narrator_style": "Fast-paced, atmospheric, and cinematic in the present tense. Blend neon reflections, Kiroshi HUD readouts, crackling subnet tension, and the dry gallows humor of a tight edgerunner crew."
+        },
+        "ru": {
+          "title": "Найт-Сити 2077: Призрак в подсети",
+          "description": "Глубоко под Джапан-тауном скрыта затопленная секретная лаборатория «Арасаки». Вместе с хакершей Куруми и мечницей Синку ты проникаешь внутрь за экспериментальной щепкой, пока не сработал Чёрный ЛЁД.",
+          "world_context": "Найт-Сити, 2077 год. Анонимный фиксер через «Посмертие» нанял вашу команду на крупный ночной заказ: под заброшенным залом патинко в Джапан-тауне (Уэстбрук) находится законсервированная лаборатория «Куро-7», где хранится прототип биочипа с зашифрованной энграммой сознания. {{user}} ведёт группу на месте; **Куруми** («Уолнат») подключает свою модифицированную кибердеку к локальным узлам, перехватывая камеры и турели, а **Синку** прикрывает узкие технические туннели клинками. Но едва вы проходите внешний шлюз, резервный реактор комплекса неожиданно запускается — кто-то ждал вашего визита.",
+          "starting_location": "Затопленный серверный коридор секретной лаборатории «Куро-7» (Джапан-таун)",
+          "time_of_day": "Ночь",
+          "opening_narration": "Холодная охлаждающая жидкость хлюпает под ботинками, а по тёмной шахте тянет жжёным озоном и старым машинным маслом. Индикатор связи на интерфейсе «Кироши» мигает янтарным светом. У полуоткрытой бронедвери на алюминиевом ящике сидит Куруми, кабель её кибердеки воткнут прямо в нейроразъём, а в зрачках бегут голографические строки кода. «Так, чумба, внешний брандмауэр оказался детской игрушкой — даже подозрительно просто, — бормочет она, быстро перебирая пальцами в воздухе. — Но сразу за ним спит армейский Чёрный ЛЁД». На шаг впереди Синку безмолвно стирает кислотный дождь с клинка, не сводя глаз с красной аварийной лампы в конце коридора, где с металлическим щелчком только что активировались два боевых дрона.",
+          "gm_tone": "Киберпанк-нуар",
+          "narrator_style": "Динамичное, атмосферное и кинематографичное повествование в настоящем времени. Сочетай неоновые блики, сводки интерфейса «Кироши», напряжение взлома подсети и сухой юмор сработавшейся команды наёмников."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "action",
+        "suspense"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Bitte Kurumi, die beiden Wachdrohnen per Quickhack kurzzuschließen",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Scanne mit deiner Kiroshi-Optik die Stromleitungen unter dem Wasser",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Gib Shinku das Zeichen zum lautlosen Vorstoß im Schatten",
+            "badge": "Heimlichkeit",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Tell Kurumi to short-circuit both combat drones with a quickhack",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Scan the submerged power conduits with your Kiroshi optics",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Signal Shinku for a silent takedown from the shadows",
+            "badge": "Stealth",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Попросить Куруми замкнуть обоих боевых дронов быстрым скриптом",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Просканировать оптикой «Кироши» силовые кабели под водой",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Дать Синку знак бесшумно атаковать из тени",
+            "badge": "Скрытность",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "Horizontal Digital Battlefield.png",
+          "path": "presets/no-game-no-life/backgrounds/Horizontal Digital Battlefield.png"
+        },
+        {
+          "file": "lycoris_recoil_ep3_jagd_nach_walnut.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep3_jagd_nach_walnut.png"
+        },
+        {
+          "file": "lycoris_recoil_ep2_geleitschutz_tokio.png",
+          "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep2_geleitschutz_tokio.png"
+        }
+      ]
+    }
+  }
+}

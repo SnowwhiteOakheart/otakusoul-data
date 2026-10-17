@@ -1,0 +1,133 @@
+{
+  "title": "Isekai-Chroniken: Der verbotene Dungeon-Kern",
+  "description": "Eine Notfall-Quest der Abenteurergilde führt dich mit Rem und Marcille tief in ein versunkenes Ruinen-Labyrinth – wo das Weltsystem vor einem erwachenden Dungeon-Kern warnt.",
+  "world_context": "In den Tiefen unter der Grenzstadt Astralis hat sich ein uraltes Siegel gelöst. Eine unkartierte Ebene des Großen Labyrinths ist erwacht und stößt dichtes Mana an die Oberfläche aus. {{user}} steigt gemeinsam mit der treuen, morgensternschwingenden Dämonen-Maid **Rem** und der gelehrten Hochelfen-Magierin **Marcille Donato** in die unterirdische Kristall- und Wasserruine hinab. Vor der Halle des Dungeon-Kerns schlägt euer Statusfenster Alarm: Der Ebenenwächter wurde durch das erwachende Relikt verändert.",
+  "starting_location": "Unterirdisches Kristall-Sanktuarium vor der Kammer des Dungeon-Kerns",
+  "time_of_day": "Nacht",
+  "opening_narration": "Blau leuchtendes Quellwasser umspült die zerbrochenen Marmorsäulen der unterirdischen Ruinenhalle, während feine Manafunken wie Glühwürmchen zur Decke schweben. Vor euch erhebt sich das haushohe Runentor zum Bossraum, aus dessen Fugen ein tiefer, pulsierender Herzschlag dringt. In deinem Sichtfeld blitzt eine Systemmeldung auf: `«Warnung: Unregelmäßige Manasignatur hinter dem Siegeltor erkannt. Teleport-Kristalle sind in diesem Sektor blockiert.»` Neben dir lässt Rem die Kette ihres Morgensterns leise durch die Finger gleiten und stellt sich schützend einen halben Schritt vor dich. „Was auch immer hinter diesem Tor wartet – Rem wird nicht zulassen, dass es dir zu nahe kommt.“ Marcille hingegen kniet mit leuchtenden Augen vor den uralten Inschriften am Boden: „Wartet mal kurz! Diese Bannrunen gehören zur Goldenen Ära – wenn wir sie richtig umschalten, schwächen wir den Wächter, noch bevor sich das Tor öffnet!“",
+  "first_message": "",
+  "party": [
+    "Rem",
+    "Marcille Donato"
+  ],
+  "gm_tone": "High-Fantasy-Dungeon & Isekai-Action",
+  "narrator_style": "Atmosphärisch, taktisch und charakterstark im Präsens. Verbinde leuchtende Labyrinth-Architektur, System-Warnmeldungen, Rems hingebungsvolle Entschlossenheit und Marcilles akademischen Eifer.",
+  "persona": "",
+  "lorebook": [
+    "Aetheria Chronicles – Isekai-Abenteuer, Gilden & Systemmagie"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "dungeon_meshi_ep4_wassergeister.png",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Isekai Chronicles: The Forbidden Dungeon Core",
+          "description": "An emergency Adventurers' Guild quest leads you, Rem, and Marcille deep into a sunken ruin labyrinth — where the World System warns of an awakening Dungeon Core.",
+          "world_context": "Deep beneath the frontier city of Astralis, an ancient seal has ruptured. An unmapped stratum of the Great Labyrinth has awakened, venting dense mana toward the surface. {{user}} descends into the subterranean crystal-and-water ruins alongside devoted morningstar-wielding demon maid **Rem** and scholarly high-elven mage **Marcille Donato**. Right outside the Dungeon Core chamber, your Status Window flashes an alert: the Floor Guardian has been mutated by the awakening relic.",
+          "starting_location": "Subterranean crystal sanctuary outside the Dungeon Core chamber",
+          "time_of_day": "Night",
+          "opening_narration": "Bioluminescent spring water laps against shattered marble pillars across the subterranean hall while motes of mana drift upward like fireflies. Ahead looms the towering runic gate of the Boss Chamber, a deep rhythmic heartbeat reverberating through its seams. A System alert flashes across your vision: `«Warning: Irregular mana signature detected beyond the sealed gate. Teleport crystals are jammed in this sector.»` Beside you, Rem lets the chain of her morningstar slide quietly through her fingers, stepping half a pace in front of you. \"Whatever waits behind those doors — Rem will not let it lay a finger on you.\" Marcille, meanwhile, drops to her knees beside the floor engravings with sparkling eyes: \"Hold on a second! These binding runes date back to the Golden Era — if we re-route the mana flow properly, we can weaken the guardian before the gate even opens!\"",
+          "gm_tone": "High Fantasy Dungeon & Isekai Action",
+          "narrator_style": "Atmospheric, tactical, and character-driven in the present tense. Weave glowing labyrinth architecture, System alerts, Rem's fierce devotion, and Marcille's scholarly enthusiasm."
+        },
+        "ru": {
+          "title": "Хроники Исекая: Запретное ядро подземелья",
+          "description": "Экстренное задание Гильдии авантюристов ведёт тебя, Рем и Марсиль в затопленные руины древнего лабиринта, где Мировая Система предупреждает о пробуждении Ядра подземелья.",
+          "world_context": "В глубинах под пограничным городом Астралис треснула древняя печать. Неисследованный ярус Великого Лабиринта пробудился, выбрасывая к поверхности потоки густой маны. {{user}} спускается в подземные кристальные руины вместе с преданной горничной-демоном **Рем** и учёной эльфийской волшебницей **Марсиль Донато**. У самых врат зала Ядра подземелья окно статуса вспыхивает тревогой: страж этажа изменился под действием древней реликвии.",
+          "starting_location": "Подземное кристальное святилище перед залом Ядра подземелья",
+          "time_of_day": "Ночь",
+          "opening_narration": "Светящаяся голубая вода плещется у расколотых мраморных колонн подземного зала, а к сводам, словно светлячки, поднимаются искры чистой маны. Впереди возвышаются исполинские рунические врата в зал босса, из-за которых доносится глухое мерное биение. Перед глазами вспыхивает системное предупреждение: `«Внимание: за печатью врат обнаружена аномальная сигнатура маны. Кристаллы телепортации в этом секторе заблокированы»`. Рядом с тобой Рем тихо перехватывает цепь своего моргенштерна и делает полшага вперёд, заслоняя тебя. «Что бы ни ждало за этими вратами — Рем не позволит ему причинить тебе вред». Марсиль тем временем опускается на колени у высеченных на полу письмен с горящими глазами: «Погодите минутку! Эти защитные руны относятся к Золотой эпохе — если правильно перенаправить поток маны, мы ослабим стража ещё до открытия врат!»",
+          "gm_tone": "Высокое фэнтези и исекай-экшен",
+          "narrator_style": "Атмосферное, тактическое и яркое повествование в настоящем времени. Сочетай сияющую архитектуру лабиринта, уведомления Системы, самоотверженную преданность Рем и исследовательский азарт Марсиль."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "adventure",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "action",
+        "mild_danger",
+        "suspense"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Hilf Marcille dabei, den Manafluss der uralten Bannrunen umzuleiten",
+            "badge": "Arkane Kunde",
+            "action_type": "do"
+          },
+          {
+            "text": "Nutze [Analyse] am Runentor, um die Schwachstelle des Wächters auszulesen",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Stimm dich mit Rem ab, damit ihr den Wächter gemeinsam in die Zange nehmt",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Help Marcille redirect the mana flow of the ancient binding runes",
+            "badge": "Arcana",
+            "action_type": "do"
+          },
+          {
+            "text": "Use [Appraisal] on the runic gate to read the guardian's weakness",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Coordinate with Rem to flank the guardian together as soon as the doors open",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Помочь Марсиль перенаправить поток маны в древних защитных рунах",
+            "badge": "Магия",
+            "action_type": "do"
+          },
+          {
+            "text": "Применить [Анализ] к руническим вратам, чтобы узнать уязвимость стража",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Договориться с Рем о совместном манёвре при открытии врат",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "dungeon_meshi_ep4_wassergeister.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep4_wassergeister.png"
+        },
+        {
+          "file": "dungeon_meshi_ep5_roter_drache.png",
+          "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep5_roter_drache.png"
+        },
+        {
+          "file": "sao_ep2_boss_ebene1.png",
+          "path": "presets/sword-art-online/backgrounds/sao_ep2_boss_ebene1.png"
+        }
+      ]
+    }
+  }
+}
