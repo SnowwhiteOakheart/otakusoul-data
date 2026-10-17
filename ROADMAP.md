@@ -260,6 +260,8 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 
 - [x] Je eine weitere alternative Begrüßung (DE/EN/RU) für Chlammy, Fiel, Izuna, Jibril und Stephanie, damit alle Karten mindestens zwei haben.
 
+- [x] `tools/validate_content.py`: allgemeiner Validator für Karten, Szenen, Lorebooks und Registries; `--sync-registry` übernimmt Listentexte samt Übersetzungen in die Registries (die App zeigt die Hub-Liste damit in der Oberflächensprache).
+
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 

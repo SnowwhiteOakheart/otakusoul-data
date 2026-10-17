@@ -1,0 +1,338 @@
+#!/usr/bin/env python3
+"""Checks the structure of the content repository (cards, scenes, lorebooks, registries).
+
+Usage (from the repository root):
+    python3 tools/validate_content.py                  # check only, exit code 1 on errors
+    python3 tools/validate_content.py --sync-registry  # also copy list texts from the files into the registries
+
+Errors break the app or the hub (missing files, unknown party members, files that differ only in
+case, …); warnings are worth a look (missing translations, fewer than two greetings).
+`--sync-registry` sets title/name, description and starting location of every scene and lorebook
+entry from its file, with the file's translations under `translations.<lang>`; the registry name of a
+lorebook and the id of a scene stay as they are (they are the keys for updates).
+"""
+import argparse
+import base64
+import collections
+import json
+import os
+import struct
+import sys
+import urllib.parse
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LANGS = {'de', 'en', 'ru'}
+EMOTIONS = {'neutral', 'happy', 'relaxed', 'surprised', 'angry', 'sad'}
+CARD_TEXT = ['description', 'personality', 'scenario', 'first_mes', 'mes_example', 'system_prompt',
+             'post_history_instructions', 'creator_notes']
+SCENE_TEXT = ['title', 'description', 'world_context', 'starting_location', 'time_of_day',
+              'opening_narration', 'first_message', 'gm_tone', 'narrator_style']
+TRIGGERS = {'keyword', 'regex', 'always_on', 'tension'}
+OBSOLETE_SCENE_FIELDS = {'conversation_method'}
+
+errors: list[str] = []
+warnings: list[str] = []
+
+
+def rel(path: str) -> str:
+    return os.path.relpath(path, ROOT)
+
+
+def load_json(path: str):
+    try:
+        with open(path, encoding='utf-8') as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError) as e:
+        errors.append(f'{rel(path)}: kein gültiges JSON ({e})')
+        return None
+
+
+def png_card(path: str):
+    """The Character Card V2 in a PNG's `chara` text chunk, or None."""
+    with open(path, 'rb') as f:
+        data = f.read()
+    if not data.startswith(b'\x89PNG\r\n\x1a\n'):
+        return None
+    i = 8
+    while i + 8 <= len(data):
+        length = struct.unpack('>I', data[i:i + 4])[0]
+        kind, body = data[i + 4:i + 8], data[i + 8:i + 8 + length]
+        if kind == b'tEXt' and body.startswith(b'chara\0'):
+            return json.loads(base64.b64decode(body[6:]))
+        i += 12 + length
+    return None
+
+
+def repo_file(url: str) -> str:
+    return os.path.join(ROOT, urllib.parse.unquote(url.split('/main/', 1)[-1]))
+
+
+def short_name(name: str) -> str:
+    return name.split(' (')[0].strip().lower()
+
+
+# ---------------------------------------------------------------------------------------------
+# Character cards
+
+def check_card(path: str, card: dict):
+    data = card.get('data') or {}
+    where = rel(path)
+    if card.get('spec') != 'chara_card_v2' or card.get('spec_version') != '2.0':
+        errors.append(f'{where}: spec/spec_version fehlen oder falsch')
+    for key in ('name', 'description', 'first_mes'):
+        if not data.get(key):
+            errors.append(f'{where}: Feld {key} leer')
+    ext = data.get('extensions') or {}
+    legacy = [k for k in ext if k.startswith('sow_')]
+    if legacy:
+        warnings.append(f'{where}: alte Schlüssel {legacy} (custom_* verwenden)')
+    i18n = ext.get('otakusoul_i18n')
+    if not i18n:
+        warnings.append(f'{where}: keine Übersetzungen (otakusoul_i18n)')
+    else:
+        source = i18n.get('source_language')
+        translations = i18n.get('translations') or {}
+        if set(translations) != LANGS - {source}:
+            warnings.append(f'{where}: Übersetzungen {sorted(translations)} bei Ausgangssprache {source}')
+        for lang, t in translations.items():
+            missing = [k for k in CARD_TEXT if data.get(k) and not t.get(k)]
+            if missing:
+                warnings.append(f'{where} [{lang}]: nicht übersetzt {missing}')
+            greetings = t.get('alternate_greetings')
+            if greetings is not None and len(greetings) != len(data.get('alternate_greetings') or []):
+                warnings.append(f'{where} [{lang}]: Anzahl alternate_greetings weicht ab')
+    if len(data.get('alternate_greetings') or []) < 2:
+        warnings.append(f'{where}: weniger als zwei alternative Begrüßungen')
+    expressions = ext.get('expressions')
+    if isinstance(expressions, dict):
+        missing = EMOTIONS - set(expressions)
+        if missing:
+            warnings.append(f'{where}: Emotionsbilder fehlen {sorted(missing)}')
+        for key, value in expressions.items():
+            if isinstance(value, str) and not value.startswith(('http://', 'https://', 'data:')):
+                if not os.path.exists(os.path.join(os.path.dirname(path), value)):
+                    errors.append(f'{where}: Emotionsbild {key} fehlt ({value})')
+
+
+def collect_cards() -> dict[str, tuple[str, dict]]:
+    cards = {}
+    for folder, _, files in os.walk(ROOT):
+        if '/.git' in folder or '/venv' in folder or '/.venv' in folder or '/expressions' in folder:
+            continue
+        for name in files:
+            path = os.path.join(folder, name)
+            card = None
+            if name.endswith('.png'):
+                card = png_card(path)
+            elif name.endswith('.json') and '/presets/' in path and '/scenes/' not in path and '/lorebooks/' not in path:
+                content = load_json(path)
+                card = content if isinstance(content, dict) and content.get('spec') == 'chara_card_v2' else None
+            if card:
+                cards[path] = (path, card)
+                check_card(path, card)
+    # A preset JSON and its PNG carry the same card.
+    for path, (_, card) in cards.items():
+        if path.endswith('.json'):
+            png = path[:-5] + '.png'
+            if png in cards and cards[png][1] != card:
+                errors.append(f'{rel(path)}: JSON und PNG-Payload unterscheiden sich')
+    return cards
+
+
+# ---------------------------------------------------------------------------------------------
+# Registries, scenes, lorebooks
+
+def check_gateway_files(registry: list[dict]):
+    folder = os.path.join(ROOT, 'cards_gateway')
+    files = [f for f in os.listdir(folder) if not f.startswith('.')]
+    by_lower = collections.defaultdict(list)
+    for name in files:
+        by_lower[name.lower()].append(name)
+    for names in by_lower.values():
+        if len(names) > 1:
+            errors.append(f'cards_gateway: Namen unterscheiden sich nur in der Groß-/Kleinschreibung {names} (Windows/macOS)')
+    used = {os.path.basename(repo_file(e['download_url'])) for e in registry}
+    for name in files:
+        if name not in used:
+            warnings.append(f'cards_gateway/{name}: steht in keiner Registry')
+
+
+def check_registry(file: str, key: str, required: list[str]) -> list[dict]:
+    content = load_json(os.path.join(ROOT, file))
+    if not content:
+        return []
+    entries = content.get(key) or []
+    seen = set()
+    for e in entries:
+        label = e.get('id') or e.get('name') or e.get('title')
+        for field in required + ['download_url', 'revision', 'updated']:
+            if field not in e:
+                errors.append(f'{file}: {label}: Feld {field} fehlt')
+        if label in seen:
+            errors.append(f'{file}: {label} doppelt')
+        seen.add(label)
+        if not os.path.exists(repo_file(e.get('download_url', ''))):
+            errors.append(f'{file}: {label}: Datei fehlt ({e.get("download_url")})')
+    return entries
+
+
+def check_scene(path: str, scene: dict, names: set[str], lorebooks: set[str]):
+    where = rel(path)
+    for field in OBSOLETE_SCENE_FIELDS & set(scene):
+        warnings.append(f'{where}: veraltetes Feld {field}')
+    if scene.get('persona') == 'None':
+        errors.append(f'{where}: persona "None" (leer lassen für die aktive Persona)')
+    for member in scene.get('party') or []:
+        name = member if isinstance(member, str) else (member or {}).get('name', '')
+        if name.lower() not in names and short_name(name) not in names:
+            errors.append(f'{where}: Mitspieler „{name}“ hat keine Karte')
+    for book in scene.get('lorebook') or []:
+        if book not in lorebooks:
+            errors.append(f'{where}: Lorebook „{book}“ unbekannt')
+    ext = scene.get('extensions') or {}
+    for asset in (ext.get('otakusoul_assets') or {}).get('backgrounds') or []:
+        if not os.path.exists(os.path.join(ROOT, asset.get('path', ''))):
+            errors.append(f'{where}: Hintergrund fehlt ({asset.get("path")})')
+    i18n = ext.get('otakusoul_i18n')
+    if not i18n:
+        warnings.append(f'{where}: keine Übersetzungen')
+    else:
+        for lang in LANGS - {i18n.get('source_language')}:
+            t = (i18n.get('translations') or {}).get(lang) or {}
+            missing = [k for k in SCENE_TEXT if scene.get(k) and not t.get(k)]
+            if missing:
+                warnings.append(f'{where} [{lang}]: nicht übersetzt {missing}')
+    story = ext.get('otakusoul_story')
+    if not story:
+        warnings.append(f'{where}: keine Story-Daten (otakusoul_story)')
+    else:
+        for lang in sorted(LANGS):
+            if len((story.get('choices') or {}).get(lang) or []) != 3:
+                warnings.append(f'{where} [{lang}]: nicht genau drei Startvorschläge')
+
+
+def check_lorebook(path: str, book: dict):
+    where = rel(path)
+    uids = [e.get('uid') for e in book.get('entries') or []]
+    if None in uids or len(set(uids)) != len(uids):
+        errors.append(f'{where}: uid fehlt oder doppelt')
+    for entry in book.get('entries') or []:
+        label = f'{where}: {entry.get("name")}'
+        if entry.get('trigger_type') not in TRIGGERS:
+            errors.append(f'{label}: trigger_type {entry.get("trigger_type")!r} (erlaubt: {sorted(TRIGGERS)})')
+        if entry.get('trigger_type') == 'keyword' and not entry.get('key'):
+            errors.append(f'{label}: keyword ohne Schlüsselwörter')
+        for req in entry.get('chain_requires') or []:
+            if str(req) not in {str(u) for u in uids}:
+                errors.append(f'{label}: chain_requires {req} zeigt auf keinen Eintrag')
+        legacy = {'n_depth', 'depends_on', 'sticky', 'cooldown', 'delay', 'semantic_trigger'} & set(entry)
+        if legacy:
+            warnings.append(f'{label}: alte Felder {sorted(legacy)}')
+
+
+def localized(content: dict, fields: list[str]) -> dict:
+    i18n = (content.get('extensions') or {}).get('otakusoul_i18n') or {}
+    out = {}
+    for lang, t in (i18n.get('translations') or {}).items():
+        texts = {f: t[f] for f in fields if isinstance(t.get(f), str) and t[f]}
+        if texts:
+            out[lang] = texts
+    return out
+
+
+def sync_registry(file: str, key: str, fields: dict[str, str]):
+    """Copies list texts (`fields`: registry field → file field) and their translations."""
+    path = os.path.join(ROOT, file)
+    content = load_json(path)
+    changed = 0
+    for e in content.get(key) or []:
+        source = load_json(repo_file(e['download_url']))
+        if not source:
+            continue
+        before = json.dumps(e, sort_keys=True)
+        for reg_field, file_field in fields.items():
+            if isinstance(source.get(file_field), str):
+                e[reg_field] = source[file_field]
+        texts = localized(source, list(fields.values()))
+        if texts:
+            e['translations'] = {lang: {reg: t[f] for reg, f in fields.items() if f in t} for lang, t in sorted(texts.items())}
+        if json.dumps(e, sort_keys=True) != before:
+            changed += 1
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(json.dumps(content, ensure_ascii=False, indent=2) + '\n')
+    print(f'{file}: {changed} Einträge abgeglichen')
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument('--sync-registry', action='store_true', help='Listentexte aus den Dateien in die Registries übernehmen')
+    args = parser.parse_args()
+
+    if args.sync_registry:
+        # The lorebook name is its update key and stays; only its translations are taken over.
+        sync_registry('stages_registry.json', 'scenes', {'title': 'title', 'description': 'description', 'starting_location': 'starting_location'})
+        sync_registry('lorebooks_registry.json', 'lorebooks', {'description': 'description'})
+        books = load_json(os.path.join(ROOT, 'lorebooks_registry.json'))
+        for e in books['lorebooks']:
+            source = load_json(repo_file(e['download_url']))
+            for lang, t in localized(source, ['name']).items():
+                e.setdefault('translations', {}).setdefault(lang, {})['name'] = t['name']
+        with open(os.path.join(ROOT, 'lorebooks_registry.json'), 'w', encoding='utf-8') as f:
+            f.write(json.dumps(books, ensure_ascii=False, indent=2) + '\n')
+
+    cards = collect_cards()
+    names = set()
+    for _, card in cards.values():
+        name = (card.get('data') or {}).get('name', '')
+        names.update({name.lower(), short_name(name)})
+
+    souls = check_registry('soul_registry.json', 'characters', ['name', 'author'])
+    check_gateway_files(souls)
+    books = check_registry('lorebooks_registry.json', 'lorebooks', ['name', 'author', 'description', 'entry_count'])
+    scenes = check_registry('stages_registry.json', 'scenes', ['id', 'title', 'author', 'description', 'starting_location'])
+
+    lorebook_names = set()
+    for e in books:
+        book = load_json(repo_file(e['download_url']))
+        if book:
+            lorebook_names.add(book.get('name'))
+            check_lorebook(repo_file(e['download_url']), book)
+            if e.get('entry_count') != len(book.get('entries') or []):
+                errors.append(f'lorebooks_registry.json: {e["name"]}: entry_count {e.get("entry_count")} ≠ {len(book.get("entries") or [])}')
+            if e.get('description') != book.get('description'):
+                warnings.append(f'lorebooks_registry.json: {e["name"]}: Beschreibung weicht von der Datei ab (--sync-registry)')
+    for folder in ('presets',):
+        for dirpath, _, files in os.walk(os.path.join(ROOT, folder)):
+            if dirpath.endswith('/lorebooks'):
+                for name in files:
+                    if name.endswith('.json'):
+                        book = load_json(os.path.join(dirpath, name))
+                        if book:
+                            lorebook_names.add(book.get('name'))
+                            check_lorebook(os.path.join(dirpath, name), book)
+    for e in scenes:
+        scene = load_json(repo_file(e['download_url']))
+        if scene:
+            check_scene(repo_file(e['download_url']), scene, names, lorebook_names)
+            for field in ('title', 'description', 'starting_location'):
+                if e.get(field) != scene.get(field):
+                    warnings.append(f'stages_registry.json: {e.get("id")}: {field} weicht von der Datei ab (--sync-registry)')
+    for dirpath, _, files in os.walk(os.path.join(ROOT, 'presets')):
+        if dirpath.endswith('/scenes'):
+            for name in files:
+                if name.endswith('.json'):
+                    scene = load_json(os.path.join(dirpath, name))
+                    if scene:
+                        check_scene(os.path.join(dirpath, name), scene, names, lorebook_names)
+
+    for line in warnings:
+        print(f'Warnung: {line}')
+    for line in errors:
+        print(f'FEHLER:  {line}')
+    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen geprüft: '
+          f'{len(errors)} Fehler, {len(warnings)} Warnungen')
+    sys.exit(1 if errors else 0)
+
+
+if __name__ == '__main__':
+    main()

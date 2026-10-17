@@ -5,181 +5,397 @@
       "id": "redaktionsschluss",
       "title": "Redaktionsschluss",
       "author": "SnowwhiteOakheart",
-      "description": "Zwei Stunden bis zum Andruck, und die Redaktion füllt sich mit Besuch, den niemand hier erwartet hätte. (Slice of Life, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Cosmos, Ayu Ikue) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "description": "Zwei Stunden bis zum Andruck, und die Redaktion füllt sich mit Besuch, den niemand hier erwartet hätte.",
       "starting_location": "Redaktion der Sakura Daily, Großraumbüro am Fenster",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/redaktionsschluss.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Editorial Deadline",
+          "description": "Two hours until printing, and the newsroom is filling up with visitors no one here would have expected.",
+          "starting_location": "Editorial office of the Sakura Daily, open-plan office by the window"
+        },
+        "ru": {
+          "title": "Сдача номера",
+          "description": "Два часа до печати, и редакция наполняется посетителями, которых здесь никто не ожидал.",
+          "starting_location": "Редакция «Сакура Дейли», опенспейс у окна"
+        }
+      }
     },
     {
       "id": "der_wohltaetigkeitsball",
       "title": "Der Wohltätigkeitsball",
       "author": "SnowwhiteOakheart",
-      "description": "Auf dem Empfang verkauft jemand Fotos, die es nicht geben dürfte. {{user}} ist offiziell als Fotograf da. (Mystery & Noir, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Marina Wakatsuki, Ayu Ikue) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "description": "Auf dem Empfang verkauft jemand Fotos, die es nicht geben dürfte. {{user}} ist offiziell als Fotograf da.",
       "starting_location": "Ballsaal eines Hotels in Minato, Empore über dem Saal",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/der_wohltaetigkeitsball.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "The Charity Ball",
+          "description": "At the reception, someone is selling photos that shouldn't exist. {{user}} is officially there as a photographer.",
+          "starting_location": "Ballroom of a hotel in Minato, gallery above the hall"
+        },
+        "ru": {
+          "title": "Благотворительный бал",
+          "description": "На приеме кто-то продает фотографии, которых не должно существовать. {{user}} официально присутствует там как фотограф.",
+          "starting_location": "Бальный зал отеля в Минато, галерея над залом"
+        }
+      }
     },
     {
       "id": "wohnungskrieg",
       "title": "Wohnungskrieg",
       "author": "SnowwhiteOakheart",
-      "description": "Eine Fernbedienung, sechs Sukkuben, ein Sofa. Es ist Freitagabend, und niemand gibt nach. (Comedy, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: all six housemates) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "description": "Eine Fernbedienung, sechs Sukkuben, ein Sofa. Es ist Freitagabend, und niemand gibt nach.",
       "starting_location": "Wohnzimmer der gemeinsamen Wohnung",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/wohnungskrieg.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Apartment War",
+          "description": "One remote control, six succubi, one sofa. It's Friday evening, and no one is backing down.",
+          "starting_location": "Living room of the shared flat"
+        },
+        "ru": {
+          "title": "Квартирная война",
+          "description": "Один пульт, шесть суккубов, один диван. Вечер пятницы, и никто не уступает.",
+          "starting_location": "Гостиная общей квартиры"
+        }
+      }
     },
     {
       "id": "audienz_im_thronsaal",
       "title": "Audienz im Thronsaal",
       "author": "SnowwhiteOakheart",
-      "description": "Das Reich schickt eine Gesandtschaft: Die Königin möge zurückkehren. Yue hat abgedankt - aber der Thron steht leer. (Epic Fantasy, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Yue, Marina Wakatsuki, Hazel Williams) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "description": "Das Reich schickt eine Gesandtschaft: Die Königin möge zurückkehren. Yue hat abgedankt - aber der Thron steht leer.",
       "starting_location": "Thronsaal des Palasts im Sukkuben-Reich",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/audienz_im_thronsaal.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Audience in the Throne Room",
+          "description": "The realm sends an embassy: the Queen must return. Yue has abdicated - but the throne remains empty.",
+          "starting_location": "Throne room of the palace in the succubus realm"
+        },
+        "ru": {
+          "title": "Аудиенция в тронном зале",
+          "description": "Королевство присылает посольство: Королева должна вернуться. Юэ отреклась от престола, но он пустует.",
+          "starting_location": "Тронный зал дворца в королевстве суккубов"
+        }
+      }
     },
     {
       "id": "ein_tee_zu_zweit",
       "title": "Ein Tee zu zweit",
       "author": "SnowwhiteOakheart",
-      "description": "Hifumi hat das Teezimmer hergerichtet, und heute will sie eine Frage stellen, die sie seit Monaten aufschiebt. (Romance, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Hifumi Yamamoto) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "description": "Hifumi hat das Teezimmer hergerichtet, und heute will sie eine Frage stellen, die sie seit Monaten aufschiebt.",
       "starting_location": "Hifumis Teezimmer, Schiebetüren zum Garten",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ein_tee_zu_zweit.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Tea for Two",
+          "description": "Hifumi has prepared the tea room, and today she wants to ask a question she's been putting off for months.",
+          "starting_location": "Hifumi's tea room, sliding doors to the garden"
+        },
+        "ru": {
+          "title": "Чай на двоих",
+          "description": "Хифуми подготовила чайную комнату, и сегодня она хочет задать вопрос, который откладывала месяцами.",
+          "starting_location": "Чайная комната Хифуми, раздвижные двери в сад"
+        }
+      }
     },
     {
       "id": "matchball",
       "title": "Matchball",
       "author": "SnowwhiteOakheart",
-      "description": "Hazels Finale. Auf der Tribüne ist ein Platz freigehalten, und sie sucht ihn zwischen jedem Aufschlag. (Slice of Life, German-language.) Requires the Sakura Succubus 3 character set + Hiroki persona + lorebooks imported first (party: Hazel Williams, Cosmos) - see the Soul Gateway and Lorebook Gateway tabs for the matching entries.",
+      "description": "Hazels Finale. Auf der Tribüne ist ein Platz freigehalten, und sie sucht ihn zwischen jedem Aufschlag.",
       "starting_location": "Centre Court einer Tennisanlage in Tokio, erste Reihe",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/matchball.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Match Point",
+          "description": "Hazel's finale. A seat is kept free in the stands, and she looks for it between every serve.",
+          "starting_location": "Centre court of a tennis club in Tokyo, front row"
+        },
+        "ru": {
+          "title": "Матчбол",
+          "description": "Финал Хейзел. На трибуне забронировано место, и она ищет его между каждой подачей.",
+          "starting_location": "Центральный корт теннисного клуба в Токио, первый ряд"
+        }
+      }
     },
     {
       "id": "episode1_anfaenger",
       "title": "Kapitel 1: Anfänger",
       "author": "SnowwhiteOakheart",
-      "description": "Eine Schachpartie gegen einen unbekannten Account reißt Sora, Shiro und Haru mitten aus der realen Welt - hinein nach Disboard, wo ein spielverliebter Gott namens Tet auf sie wartet und ihnen eine Welt ohne Krieg, aber voller Spiele verspricht. (Comedy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "description": "Eine Schachpartie gegen einen unbekannten Account reißt Sora, Shiro und Haru mitten aus der realen Welt - hinein nach Disboard, wo ein spielverliebter Gott namens Tet auf sie wartet und ihnen eine Welt ohne Krieg, aber voller Spiele verspricht.",
       "starting_location": "Thronsaal von Elkia Castle, während eines improvisierten Glücksspielturniers",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode1_anfaenger.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 1: Beginner",
+          "description": "A chess game against an unknown account pulls Sora, Shiro, and Haru out of the real world - right into Disboard, where a game-loving god named Tet awaits them and promises a world without war, but full of games.",
+          "starting_location": "Throne room of Elkia Castle, during an improvised gambling tournament"
+        },
+        "ru": {
+          "title": "Глава 1: Новичок",
+          "description": "Шахматная игра против неизвестного аккаунта вырывает Сору, Широ и Хару из реального мира прямо в Дисборд, где их ждет любящий игры бог по имени Тет, обещающий им мир без войн, но полный игр.",
+          "starting_location": "Тронный зал замка Элкии во время импровизированного турнира азартных игр"
+        }
+      }
     },
     {
       "id": "episode2_herausforderer",
       "title": "Kapitel 2: Herausforderer",
       "author": "SnowwhiteOakheart",
-      "description": "Imanity - die Menschheit - ist auf eine einzige Stadt zusammengeschrumpft. Während Sora, Shiro und Haru noch die Regeln dieser neuen Welt begreifen, meldet sich bereits die erste ernsthafte Bedrohung für Stephanies Thron an: Chlammy Zell, unterstützt von den Elfen. (Comedy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "description": "Imanity - die Menschheit - ist auf eine einzige Stadt zusammengeschrumpft. Während Sora, Shiro und Haru noch die Regeln dieser neuen Welt begreifen, meldet sich bereits die erste ernsthafte Bedrohung für Stephanies Thron an: Chlammy Zell, unterstützt von den Elfen.",
       "starting_location": "Ratssaal von Elkia Castle",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode2_herausforderer.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 2: Challenger",
+          "description": "Imanity - humanity - has shrunk down to a single city. While Sora, Shiro, and Haru are still grasping the rules of this new world, the first serious threat to Stephanie's throne appears: Chlammy Zell, supported by the elves.",
+          "starting_location": "Council chamber of Elkia Castle"
+        },
+        "ru": {
+          "title": "Глава 2: Претендент",
+          "description": "Иманити - человечество - сократилось до одного города. Пока Сора, Широ и Хару все еще пытаются понять правила этого нового мира, появляется первая серьезная угроза трону Стефани: Клами Целл, поддерживаемая эльфами.",
+          "starting_location": "Зал совета замка Элкии"
+        }
+      }
     },
     {
       "id": "episode3_experte",
       "title": "Kapitel 3: Experte",
       "author": "SnowwhiteOakheart",
-      "description": "Chlammy Zell hat ihr Spiel gewählt: lebensgroßes, beseeltes Schach, bei dem jede Figur einen eigenen Willen besitzt. Was wie Taktik aussieht, ist in Wahrheit ein Kräftemessen um Moral, Führung - und um eine verbotene Magie, die im Verborgenen wirkt. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "description": "Chlammy Zell hat ihr Spiel gewählt: lebensgroßes, beseeltes Schach, bei dem jede Figur einen eigenen Willen besitzt. Was wie Taktik aussieht, ist in Wahrheit ein Kräftemessen um Moral, Führung - und um eine verbotene Magie, die im Verborgenen wirkt.",
       "starting_location": "Ein magisch erschaffenes Schlachtfeld in Form eines gigantischen Schachbretts",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode3_experte.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 3: Expert",
+          "description": "Chlammy Zell has chosen her game: life-sized, animated chess where every piece has its own will. What looks like tactics is actually a test of strength over morale, leadership - and a forbidden magic operating in secret.",
+          "starting_location": "A magically created battlefield in the shape of a gigantic chessboard"
+        },
+        "ru": {
+          "title": "Глава 3: Эксперт",
+          "description": "Клами Целл выбрала свою игру: живые шахматы в натуральную величину, где каждая фигура имеет собственную волю. То, что кажется тактикой, на самом деле является испытанием на прочность боевого духа, лидерства - и запрещенной магии, действующей в тайне.",
+          "starting_location": "Магическое поле боя в форме гигантской шахматной доски"
+        }
+      }
     },
     {
       "id": "episode4_grossmeister",
       "title": "Kapitel 4: Großmeister",
       "author": "SnowwhiteOakheart",
-      "description": "Die Schachschlacht eskaliert: Chlammy setzt ihre letzte, verbotene Karte ein - Gedankenkontrolle. Doch Sora hat eine eigene, subtilere Waffe: die Kunst der Verführung durch Worte allein. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "description": "Die Schachschlacht eskaliert: Chlammy setzt ihre letzte, verbotene Karte ein - Gedankenkontrolle. Doch Sora hat eine eigene, subtilere Waffe: die Kunst der Verführung durch Worte allein.",
       "starting_location": "Dasselbe gigantische Schachfeld, kurz vor der Entscheidung",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode4_grossmeister.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 4: Grandmaster",
+          "description": "The chess battle escalates: Chlammy plays her last, forbidden card - mind control. But Sora has his own, more subtle weapon: the art of seduction through words alone.",
+          "starting_location": "The same gigantic chessboard, just before the decision"
+        },
+        "ru": {
+          "title": "Глава 4: Гроссмейстер",
+          "description": "Шахматная битва обостряется: Клами использует свою последнюю, запрещенную карту - контроль разума. Но у Соры есть свое, более тонкое оружие: искусство соблазнения одними лишь словами.",
+          "starting_location": "Та же гигантская шахматная доска незадолго до решающего хода"
+        }
+      }
     },
     {
       "id": "episode5_schwaches_feld",
       "title": "Kapitel 5: Schwaches Feld",
       "author": "SnowwhiteOakheart",
-      "description": "König und Königin von Elkia - und doch haben Sora und Shiro jegliche Regierungsarbeit vollständig auf Stephanie abgewälzt. Als sie die Geduld verliert, fordert sie Sora zu einer Partie Blackjack heraus, bei der mehr auf dem Spiel steht als Geld. (Comedy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Stephanie Dola).",
+      "description": "König und Königin von Elkia - und doch haben Sora und Shiro jegliche Regierungsarbeit vollständig auf Stephanie abgewälzt. Als sie die Geduld verliert, fordert sie Sora zu einer Partie Blackjack heraus, bei der mehr auf dem Spiel steht als Geld.",
       "starting_location": "Ein kleines Kartenzimmer in Elkia Castle, spät am Abend",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode5_schwaches_feld.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 5: Weak Field",
+          "description": "King and Queen of Elkia - and yet Sora and Shiro have completely offloaded all government work onto Stephanie. When she loses her patience, she challenges Sora to a game of Blackjack where more is at stake than money.",
+          "starting_location": "A small card room in Elkia Castle, late in the evening"
+        },
+        "ru": {
+          "title": "Глава 5: Слабое поле",
+          "description": "Король и Королева Элкии — и всё же Сора и Широ полностью свалили всю правительственную работу на Стефани. Когда она теряет терпение, она бросает вызов Соре на партию в блэкджек, где на кону стоит больше, чем деньги.",
+          "starting_location": "Маленькая карточная комната в замке Элкии, поздний вечер"
+        }
+      }
     },
     {
       "id": "episode6_interessant_jibril",
       "title": "Kapitel 6: Interessant - Das Duell gegen Jibril",
       "author": "SnowwhiteOakheart",
-      "description": "DAS zentrale Kapitel der Kampagne: Sora, Shiro und Haru fordern Jibril, eine über 6000 Jahre alte Flügel-Kriegerin und Hüterin allen Wissens, zu einem Spiel um ihre gesamte Bibliothek heraus - \"Materialisations-Shiritori\", bei dem jedes gültige Wort real wird. Ein einziger falscher Zug könnte das Ende von Blank bedeuten. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril).",
+      "description": "DAS zentrale Kapitel der Kampagne: Sora, Shiro und Haru fordern Jibril, eine über 6000 Jahre alte Flügel-Kriegerin und Hüterin allen Wissens, zu einem Spiel um ihre gesamte Bibliothek heraus - \"Materialisations-Shiritori\", bei dem jedes gültige Wort real wird. Ein einziger falscher Zug könnte das Ende von Blank bedeuten.",
       "starting_location": "Die Große Nationalbibliothek von Elkia, tief in Jibrils privatem Lesesaal",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode6_interessant_jibril.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 6: Interesting - The Duel against Jibril",
+          "description": "THE central chapter of the campaign: Sora, Shiro and Haru challenge Jibril, an over 6000-year-old Flugel warrior and guardian of all knowledge, to a game for her entire library - 'Materialization Shiritori', where every valid word becomes real. A single wrong move could mean the end of Blank.",
+          "starting_location": "The Great National Library of Elkia, deep in Jibril's private reading room"
+        },
+        "ru": {
+          "title": "Глава 6: Интересно - Дуэль против Джибрил",
+          "description": "ГЛАВНАЯ глава кампании: Сора, Широ и Хару бросают вызов Джибрил, воительнице Флюгель старше 6000 лет и хранительнице всех знаний, на игру за всю её библиотеку — 'Материализационный сиритори', где каждое правильное слово становится реальным. Единственный неверный ход может означать конец Пустых.",
+          "starting_location": "Великая национальная библиотека Элкии, личный читальный зал Джибрил"
+        }
+      }
     },
     {
       "id": "episode7_opfer",
       "title": "Kapitel 7: Opfer",
       "author": "SnowwhiteOakheart",
-      "description": "Auf der Suche nach einer Strategie gegen den Östlichen Bund stößt Sora auf eine erschütternde Wahrheit: Jede Rasse, die je gegen die Werbeasts verlor - auch Jibril selbst -, wurde ihrer Erinnerung an diese Niederlage magisch beraubt. Ohne Informationen droht Soras gesamte Strategie zu scheitern. (Mystery & Noir, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril, Stephanie Dola).",
+      "description": "Auf der Suche nach einer Strategie gegen den Östlichen Bund stößt Sora auf eine erschütternde Wahrheit: Jede Rasse, die je gegen die Werbeasts verlor - auch Jibril selbst -, wurde ihrer Erinnerung an diese Niederlage magisch beraubt. Ohne Informationen droht Soras gesamte Strategie zu scheitern.",
       "starting_location": "Das private Archiv von Elkia Castle, spät in der Nacht",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode7_opfer.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 7: Sacrifice",
+          "description": "In search of a strategy against the Eastern Union, Sora stumbles upon a shocking truth: Every race that ever lost against the Werebeasts - including Jibril herself - was magically robbed of their memory of this defeat. Without information, Sora's entire strategy threatens to fail.",
+          "starting_location": "The private archive of Elkia Castle, late at night"
+        },
+        "ru": {
+          "title": "Глава 7: Жертва",
+          "description": "В поисках стратегии против Восточного Союза Сора натыкается на шокирующую правду: каждая раса, когда-либо проигравшая Зверолюдям — включая саму Джибрил, — была магически лишена памяти об этом поражении. Без информации вся стратегия Соры грозит провалиться.",
+          "starting_location": "Личный архив замка Элкии, глубокая ночь"
+        }
+      }
     },
     {
       "id": "episode8_falsches_ende",
       "title": "Kapitel 8: Falsches Ende",
       "author": "SnowwhiteOakheart",
-      "description": "Mithilfe der Aufzeichnungen von Stephanies Großvater durchschaut Sora den wahren Trick des Östlichen Bundes - und setzt Imanitys gesamte Souveränität als Einsatz, um sie formell herauszufordern. (Mystery & Noir, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril, Stephanie Dola).",
+      "description": "Mithilfe der Aufzeichnungen von Stephanies Großvater durchschaut Sora den wahren Trick des Östlichen Bundes - und setzt Imanitys gesamte Souveränität als Einsatz, um sie formell herauszufordern.",
       "starting_location": "Die Botschaft des Östlichen Bundes in Elkia",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode8_falsches_ende.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 8: False End",
+          "description": "With the help of Stephanie's grandfather's records, Sora sees through the true trick of the Eastern Union - and wagers Imanity's entire sovereignty as the stakes to formally challenge them.",
+          "starting_location": "The embassy of the Eastern Federation in Elkia"
+        },
+        "ru": {
+          "title": "Глава 8: Ложный конец",
+          "description": "С помощью записей дедушки Стефани Сора разгадывает истинный трюк Восточного Союза — и ставит на кон весь суверенитет Иманити, чтобы официально бросить им вызов.",
+          "starting_location": "Посольство Восточного союза в Элкии"
+        }
+      }
     },
     {
       "id": "episode9_himmelswandel",
       "title": "Kapitel 9: Himmelswandel",
       "author": "SnowwhiteOakheart",
-      "description": "Während Sora in einer Othello-Partie gegen Chlammy um seine eigene Existenz spielt, fordert Jibril Shiro zu einer Schachpartie heraus - Einsatz: Shiros Erinnerung an Sora selbst. (Horror, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: Sora, Shiro, Jibril, Stephanie Dola).",
+      "description": "Während Sora in einer Othello-Partie gegen Chlammy um seine eigene Existenz spielt, fordert Jibril Shiro zu einer Schachpartie heraus - Einsatz: Shiros Erinnerung an Sora selbst.",
       "starting_location": "Eine stille Kammer hoch oben in Elkia Castle, ein Schachbrett zwischen zwei Stühlen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode9_himmelswandel.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 9: Sky Walk",
+          "description": "While Sora plays against Chlammy in a game of Othello for his very existence, Jibril challenges Shiro to a game of chess - wager: Shiro's memory of Sora himself.",
+          "starting_location": "A quiet chamber high up in Elkia Castle, a chessboard between two chairs"
+        },
+        "ru": {
+          "title": "Глава 9: Небесная прогулка",
+          "description": "Пока Сора играет против Клами в Отелло на собственное существование, Джибрил бросает вызов Широ в шахматы - ставка: память Широ о самом Соре.",
+          "starting_location": "Тихая комната высоко в замке Элкии, шахматная доска между двумя стульями"
+        }
+      }
     },
     {
       "id": "episode10_blaue_rose",
       "title": "Kapitel 10: Blaue Rose",
       "author": "SnowwhiteOakheart",
-      "description": "Mit Jibril, Stephanie, Chlammy und Fiel als vereintem Bündnis bereiten Sora, Shiro und Haru sich auf die entscheidende Konfrontation mit dem Östlichen Bund vor - doch zwischen Flügel und Elfen liegt noch immer die Last eines alten Krieges. (Slice of Life, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: + Chlammy Zell, Fiel Nirvalen).",
+      "description": "Mit Jibril, Stephanie, Chlammy und Fiel als vereintem Bündnis bereiten Sora, Shiro und Haru sich auf die entscheidende Konfrontation mit dem Östlichen Bund vor - doch zwischen Flügel und Elfen liegt noch immer die Last eines alten Krieges.",
       "starting_location": "Der Kriegsrat-Garten von Elkia Castle, unter blühenden Bäumen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode10_blaue_rose.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 10: Blue Rose",
+          "description": "With Jibril, Stephanie, Chlammy, and Fiel as a united alliance, Sora, Shiro, and Haru prepare for the decisive confrontation with the Eastern Union - but between the Flugel and Elves still lies the burden of an ancient war.",
+          "starting_location": "The war council garden of Elkia Castle, under blossoming trees"
+        },
+        "ru": {
+          "title": "Глава 10: Синяя роза",
+          "description": "Вместе с Джибрил, Стефани, Клами и Филь в качестве единого альянса, Сора, Широ и Хару готовятся к решающему противостоянию с Восточным Союзом — но между Флюгелями и Эльфами все еще лежит бремя древней войны.",
+          "starting_location": "Сад военного совета замка Элкии под цветущими деревьями"
+        }
+      }
     },
     {
       "id": "episode11_riesentoeten",
       "title": "Kapitel 11: Riesentöten",
       "author": "SnowwhiteOakheart",
-      "description": "Der große Showdown gegen den Östlichen Bund beginnt: ein Vollimmersions-Ego-Shooter namens 'Love or Loved 2', in dem Liebeskugeln über den Sieg entscheiden. Blanks Gegnerin: das achtjährige Spielgenie Izuna Hatsuse. (Sci-Fi, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: + Chlammy Zell, Fiel Nirvalen).",
+      "description": "Der große Showdown gegen den Östlichen Bund beginnt: ein Vollimmersions-Ego-Shooter namens 'Love or Loved 2', in dem Liebeskugeln über den Sieg entscheiden. Blanks Gegnerin: das achtjährige Spielgenie Izuna Hatsuse.",
       "starting_location": "Ein digitales Schlachtfeld irgendwo zwischen zerstörten Häuserzeilen, vollimmersiv erschaffen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode11_riesentoeten.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 11: Giant Killing",
+          "description": "The grand showdown against the Eastern Union begins: a full-immersion first-person shooter named 'Love or Loved 2', in which love bullets decide the victory. Blank's opponent: the eight-year-old gaming genius Izuna Hatsuse.",
+          "starting_location": "A digital battlefield somewhere between destroyed rows of houses, fully immersive"
+        },
+        "ru": {
+          "title": "Глава 11: Убийство гигантов",
+          "description": "Начинается грандиозное противостояние с Восточным Союзом: шутер от первого лица с полным погружением под названием «Love or Loved 2», в котором победу решают пули любви. Противница Пустых: восьмилетний игровой гений Идзуна Хацусэ.",
+          "starting_location": "Цифровое поле боя среди разрушенных улиц, полное погружение"
+        }
+      }
     },
     {
       "id": "episode12_regel_nummer_zehn",
       "title": "Kapitel 12: Regel Nummer Zehn",
       "author": "SnowwhiteOakheart",
-      "description": "Izunas Blutentfesselung droht, Blank endgültig in die Enge zu treiben - doch der entscheidende Schuss kommt von unerwarteter Seite. Season-Finale: Sieg über den Östlichen Bund, ein gewagter Münzwurf gegen die Schrein-Priesterin, und die Geburt des Commonwealth of Elkia. (Epic Fantasy, German-language, part of a 12-chapter No Game No Life campaign - see the other 'No Game No Life' scenes.) Requires the matching character cards + lorebooks + Haru persona imported first (party: + Chlammy Zell, Fiel Nirvalen).",
+      "description": "Izunas Blutentfesselung droht, Blank endgültig in die Enge zu treiben - doch der entscheidende Schuss kommt von unerwarteter Seite. Season-Finale: Sieg über den Östlichen Bund, ein gewagter Münzwurf gegen die Schrein-Priesterin, und die Geburt des Commonwealth of Elkia.",
       "starting_location": "Das digitale Schlachtfeld, kurz vor dem Ende, danach der Thronsaal des Östlichen Bundes",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode12_regel_nummer_zehn.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Chapter 12: Rule Number Ten",
+          "description": "Izuna's Blood Destruction threatens to corner Blank for good - but the decisive shot comes from an unexpected side. Season Finale: Victory over the Eastern Union, a daring coin toss against the Shrine Priestess, and the birth of the Commonwealth of Elkia.",
+          "starting_location": "The digital battlefield near the end, then the throne room of the Eastern Federation"
+        },
+        "ru": {
+          "title": "Глава 12: Правило номер десять",
+          "description": "Разрушение Крови Идзуны грозит окончательно загнать Пустых в угол — но решающий выстрел приходит с неожиданной стороны. Финал сезона: Победа над Восточным Союзом, смелый бросок монеты против Жрицы Храма и рождение Содружества Элькии.",
+          "starting_location": "Цифровое поле боя перед самым концом, затем тронный зал Восточного союза"
+        }
+      }
     },
     {
       "id": "dungeon_meshi_ep1_skorpionsuppe",
@@ -189,7 +405,19 @@
       "starting_location": "Ebene 1: Feuchte Steinkatakomben",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep1_skorpionsuppe.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 1: Scorpion Soup & Walking Mushrooms",
+          "description": "Penniless and out of rations, Laios, Marcille, and Chilchuck delve back down to the 1st Floor — crossing paths with the dwarf Senshi.",
+          "starting_location": "Level 1: Damp stone catacombs"
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 1: Суп из скорпиона и шагающие грибы",
+          "description": "Оставшись без припасов и гроша в кармане, Лай Ос, Марсиль и Чилчак спускаются на первый ярус — где встречают дворфа Сенши.",
+          "starting_location": "Уровень 1: сырые каменные катакомбы"
+        }
+      }
     },
     {
       "id": "dungeon_meshi_ep2_klingenbasilisk",
@@ -199,7 +427,19 @@
       "starting_location": "Ebene 2: Unterirdischer Wald der Basilisken",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep2_klingenbasilisk.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 2: The Blade-Tail Basilisk",
+          "description": "On the 2nd Floor, a vicious basilisk hunts careless adventurers. Senshi already knows the secret to turning it into roasted poultry.",
+          "starting_location": "Level 2: Underground forest of the basilisks"
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 2: Василиск с клинковым хвостом",
+          "description": "На втором ярусе смертоносный василиск охотится на беспечных авантюристов. Но Сенши точно знает, как превратить чудище в сочное жаркое.",
+          "starting_location": "Уровень 2: подземный лес василисков"
+        }
+      }
     },
     {
       "id": "dungeon_meshi_ep3_alraunenernte",
@@ -209,7 +449,19 @@
       "starting_location": "Ebene 2: Verwunschener Gemüsegarten",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep3_alraunenernte.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 3: Mandrake Harvest",
+          "description": "Marcille attempts to harvest mandrakes according to strict magical academy doctrine, while Senshi relies on crude dwarven practicality.",
+          "starting_location": "Level 2: Enchanted vegetable garden"
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 3: Сбор мандрагор",
+          "description": "Марсиль пытается собирать мандрагоры по канонам академической магии, тогда как Сенши пускает в ход грубую дворфийскую сноровку.",
+          "starting_location": "Уровень 2: заколдованный огород"
+        }
+      }
     },
     {
       "id": "dungeon_meshi_ep4_wassergeister",
@@ -219,7 +471,19 @@
       "starting_location": "Ebene 3: Unterirdischer Sumpfsee",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep4_wassergeister.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 4: The Undines of the Deep",
+          "description": "A subterranean lake bars the way down. The party must hunt a predatory kelpie and simmer water elementals into clear broth.",
+          "starting_location": "Level 3: Underground swamp lake"
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 4: Духи воды и келпи",
+          "description": "Подземное озеро преграждает путь. Отряду предстоит добыть мясо хищного келпи и отварить духов воды.",
+          "starting_location": "Уровень 3: подземное болотное озеро"
+        }
+      }
     },
     {
       "id": "dungeon_meshi_ep5_roter_drache",
@@ -229,7 +493,19 @@
       "starting_location": "Ebene 4: Aschehalle des Roten Drachen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep5_roter_drache.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Dungeon Meshi – Episode 5: The Red Dragon",
+          "description": "The climactic clash in the scorching depths: battle against the Red Dragon to rescue Falin before it's too late.",
+          "starting_location": "Level 4: Ash hall of the Red Dragon"
+        },
+        "ru": {
+          "title": "Dungeon Meshi – Эпизод 5: Красный Дракон",
+          "description": "Кульминация на раскаленных глубинах: битва с Красным Драконом ради спасения жизни Фэлин.",
+          "starting_location": "Уровень 4: пепельный зал Красного дракона"
+        }
+      }
     },
     {
       "id": "steins_gate_ep1_erste_dmail",
@@ -239,7 +515,19 @@
       "starting_location": "Dach des Radiogebäudes in Akihabara",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep1_erste_dmail.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 1: The First D-Mail",
+          "description": "A bloodcurdling scream echoes across the Radio Kaikan rooftop, and a single text message tears open the fabric of space and time.",
+          "starting_location": "Roof of the radio building in Akihabara"
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 1: Первое D-мейл",
+          "description": "Крик на крыше Радио Кайкан и короткое текстовое сообщение, разорвавшее ткань пространства и времени.",
+          "starting_location": "Крыша радиоздания в Акихабаре"
+        }
+      }
     },
     {
       "id": "steins_gate_ep2_ibn5100_suche",
@@ -249,7 +537,19 @@
       "starting_location": "Yanagibayashi-Schrein in Akihabara",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep2_ibn5100_suche.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 2: Hunt for the IBN 5100",
+          "description": "The trail of the mythical vintage mainframe leads straight to the Yanagibayashi Shrine.",
+          "starting_location": "Yanagibayashi Shrine in Akihabara"
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 2: В поисках IBN 5100",
+          "description": "След легендарного ретро-компьютера приводит лабораторию к синтоистскому святилищу Янагибаяси.",
+          "starting_location": "Святилище Янагибаяси в Акихабаре"
+        }
+      }
     },
     {
       "id": "steins_gate_ep3_operation_urd",
@@ -259,7 +559,19 @@
       "starting_location": "Zukunftsgadget-Labor",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep3_operation_urd.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 3: Operation Urd",
+          "description": "The Time Leap Machine is completed — but grim shadows converge on the second-floor laboratory.",
+          "starting_location": "Future Gadget Laboratory"
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 3: Операция Урд",
+          "description": "Машина прыжков во времени завершена — но к лаборатории уже стягиваются безжалостные тени.",
+          "starting_location": "Лаборатория футуристических гаджетов"
+        }
+      }
     },
     {
       "id": "steins_gate_ep4_schmetterlingseffekt",
@@ -269,7 +581,19 @@
       "starting_location": "Akihabara U-Bahn-Station",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep4_schmetterlingseffekt.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 4: The Butterfly Effect",
+          "description": "Desperate temporal loops: Okabe battles against fate itself to avert Mayuri's death.",
+          "starting_location": "Akihabara subway station"
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 4: Эффект бабочки",
+          "description": "Отчаянные временные петли: Окабэ пытается вырвать Маюри из железных тисков конвергенции.",
+          "starting_location": "Станция метро Акихабара"
+        }
+      }
     },
     {
       "id": "steins_gate_ep5_tor_zu_steins_gate",
@@ -279,7 +603,19 @@
       "starting_location": "Radiogebäude Dach – Der Schicksalstag",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep5_tor_zu_steins_gate.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Steins;Gate – Episode 5: The Gate to Steins Gate",
+          "description": "The final operation: deceive your past self, save Kurisu, and breach the 1.048596% divergence barrier.",
+          "starting_location": "Radio building roof – the day of fate"
+        },
+        "ru": {
+          "title": "Steins;Gate – Эпизод 5: Врата Штейна",
+          "description": "Финальная операция: обмани самого себя из прошлого, спаси Курису и преодолей рубеж дивергенции 1.048596%.",
+          "starting_location": "Крыша радиоздания – день судьбы"
+        }
+      }
     },
     {
       "id": "lycoris_recoil_ep1_willkommen_im_cafe",
@@ -289,7 +625,19 @@
       "starting_location": "Café LycoReco Innenraum",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep1_willkommen_im_cafe.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 1: Welcome to Café LycoReco",
+          "description": "A bustling day at the café: taking orders, greeting quirky regulars, and fielding an unexpected clandestine contract.",
+          "starting_location": "Café LycoReco interior"
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 1: Добро пожаловать в кафе «ЛикоРеко»",
+          "description": "Бурный день в уютном кафе: заказы, беседы с завсегдатаями и внезапный тайный контракт из подполья.",
+          "starting_location": "Интерьер кафе LycoReco"
+        }
+      }
     },
     {
       "id": "lycoris_recoil_ep2_geleitschutz_tokio",
@@ -299,7 +647,19 @@
       "starting_location": "Shinjuku Fußgängerzone",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep2_geleitschutz_tokio.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 2: Escort Through Tokyo",
+          "description": "An executive protection assignment through bustling Shinjuku boils over into an armed ambush.",
+          "starting_location": "Shinjuku pedestrian zone"
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 2: Эскорт через Токио",
+          "description": "Операция по сопровождению ВИП-клиента на оживленных улицах Синдзюку оборачивается внезапной засадой.",
+          "starting_location": "Пешеходная зона Синдзюку"
+        }
+      }
     },
     {
       "id": "lycoris_recoil_ep3_jagd_nach_walnut",
@@ -309,7 +669,19 @@
       "starting_location": "Hinterhof von Café LycoReco",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep3_jagd_nach_walnut.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 3: The Hunt for Walnut",
+          "description": "A coordinated cyber raid breaches the café's perimeter. Kurumi must be extracted from closing mercenary squads.",
+          "starting_location": "Back yard of Café LycoReco"
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 3: Охота на Уолнат",
+          "description": "Кибератака вскрывает убежище кафе. Куруми нужно срочно спасать от окружающих наемников.",
+          "starting_location": "Задний двор кафе LycoReco"
+        }
+      }
     },
     {
       "id": "lycoris_recoil_ep4_duell_im_morgengrauen",
@@ -319,7 +691,19 @@
       "starting_location": "Aussichtsplattform des alten Funkturms",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep4_duell_im_morgengrauen.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Lycoris Recoil – Episode 4: Duel at Dawn",
+          "description": "Climactic showdown high atop the old Tokyo Radio Tower: Chisato and Takina stand against the Alan Institute.",
+          "starting_location": "Observation platform of the old radio tower"
+        },
+        "ru": {
+          "title": "Lycoris Recoil – Эпизод 4: Дуэль на рассвете",
+          "description": "Решающий бой на вершине старой Токийской телебашни: Тисато и Такина бросают вызов Институту Алана.",
+          "starting_location": "Смотровая площадка старой радиовышки"
+        }
+      }
     },
     {
       "id": "sao_ep1_die_verkuendung",
@@ -329,7 +713,19 @@
       "starting_location": "Zentraler Platz der Startstadt",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep1_die_verkuendung.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 1: The Proclamation",
+          "description": "Day one in SAO: the central town bells toll, the logout button vanishes from the menu, and Akihiko Kayaba proclaims the laws of death.",
+          "starting_location": "Central plaza of the Town of Beginnings"
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 1: Провозглашение",
+          "description": "Первый день в SAO: бьют колокола, кнопка выхода исчезает из меню, а Акихико Каяба объявляет смертельные правила игры.",
+          "starting_location": "Центральная площадь Города начал"
+        }
+      }
     },
     {
       "id": "sao_ep2_boss_ebene1",
@@ -339,7 +735,19 @@
       "starting_location": "Torhalle vor dem Bossraum Ebene 1",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep2_boss_ebene1.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 2: Overlord of the First Floor",
+          "description": "The breakthrough raid: confronting Illfang the Kobold Lord and paying the bitter price of their first victory.",
+          "starting_location": "Gate hall before the boss room of floor 1"
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 2: Владыка первого этажа",
+          "description": "Первый рейд на босса: битва с Иллфангом, Лордом кобольдов, и горькая цена первой победы.",
+          "starting_location": "Зал у ворот перед комнатой босса первого этажа"
+        }
+      }
     },
     {
       "id": "sao_ep3_waerme_des_herzens",
@@ -349,7 +757,19 @@
       "starting_location": "Eisgipfel von Ebene 55",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep3_waerme_des_herzens.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 3: Warmth of the Heart",
+          "description": "An expedition up the frozen peak of the 55th Floor alongside master blacksmith Lisbeth.",
+          "starting_location": "Ice peak of floor 55"
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 3: Тепло сердца",
+          "description": "Опасная экспедиция на ледяную вершину 55-го этажа вместе с кузнецом Лизбет.",
+          "starting_location": "Ледяная вершина 55-го этажа"
+        }
+      }
     },
     {
       "id": "sao_ep4_duell_in_den_schatten",
@@ -359,7 +779,19 @@
       "starting_location": "Anti-Kristall-Kammer auf Ebene 60",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep4_duell_in_den_schatten.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 4: Duel in the Shadows",
+          "description": "Ambush inside an anti-crystal zone: the red guild Laughing Coffin strikes without mercy.",
+          "starting_location": "Anti-crystal chamber on floor 60"
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 4: Дуэль в тенях",
+          "description": "Засада в зоне блокировки кристаллов: красная гильдия «Весёлый гроб» выходит на охоту.",
+          "starting_location": "Антикристальная комната на 60-м этаже"
+        }
+      }
     },
     {
       "id": "sao_ep5_der_glaenzende_blick",
@@ -369,7 +801,19 @@
       "starting_location": "Bosskammer Ebene 74",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep5_der_glaenzende_blick.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "title": "Sword Art Online – Episode 5: The Gleam Eyes",
+          "description": "The slaughter on the 74th Floor: Kirito unleashes the unique Dual Blades skill to slay the demon Gleam Eyes.",
+          "starting_location": "Boss chamber of floor 74"
+        },
+        "ru": {
+          "title": "Sword Art Online – Эпизод 5: Синеглазый демон",
+          "description": "Битва на 74-м этаже: Кирито раскрывает уникальный навык двух мечей против демона Синеглазого (The Gleam Eyes).",
+          "starting_location": "Комната босса 74-го этажа"
+        }
+      }
     }
   ]
 }

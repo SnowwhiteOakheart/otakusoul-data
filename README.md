@@ -34,11 +34,12 @@ Charakterübersetzungen für **DE, EN und RU** liegen in `data.extensions.otakus
 Die Python-Werkzeuge sind optionale Repository-Wartung, keine App-Abhängigkeit. Installation: `python3 -m pip install -r tools/requirements.txt` in einer eigenen virtuellen Umgebung. Prüfungen ohne Schreibzugriff:
 
 ```sh
+python3 tools/validate_content.py
 python3 tools/validate_aobane.py
 python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 ```
 
-Der zweite Befehl prüft einen vorhandenen Kampagnencharakter. Mit `--manifest` paketiert das Werkzeug neue Expressions und aktualisiert die Roadmap; Details stehen in [AI.md](AI.md).
+`validate_content.py` prüft Karten, Szenen, Lorebooks und Registries des ganzen Repositorys (Exit-Code 1 bei Fehlern); mit `--sync-registry` übernimmt es Titel, Beschreibungen und deren Übersetzungen aus den Dateien in die Registries. Der dritte Befehl prüft einen vorhandenen Kampagnencharakter. Mit `--manifest` paketiert das Werkzeug neue Expressions und aktualisiert die Roadmap; Details stehen in [AI.md](AI.md).
 
 [LICENSE](LICENSE) enthält die **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) für eigene Skripte, Texte und Beiträge sowie dreisprachige Hinweise zu KI-generierter Fanart, Credits (u. a. [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) von [jofizcd](https://github.com/jofizcd)) und fremden Rechten. Herkunft, Bildprompts und vorhandene Lizenzhinweise bleiben bei den Paketen erhalten, insbesondere [VRM-Hinweise](avatars/vrm/lizenzen.txt). Die Veröffentlichung stellt keine pauschale Lizenz für zugrunde liegende Anime-/Spielwerke oder fremde Modelle dar.
 
@@ -95,11 +96,12 @@ Character translations for **DE, EN and RU** are stored in `data.extensions.otak
 Python tools are optional repository maintenance utilities, not app dependencies. Install with `python3 -m pip install -r tools/requirements.txt` in a dedicated virtual environment. Read-only checks:
 
 ```sh
+python3 tools/validate_content.py
 python3 tools/validate_aobane.py
 python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 ```
 
-The second command validates an existing campaign character. With `--manifest`, the tool packages new expressions and updates the roadmap; see [AI.md](AI.md).
+`validate_content.py` checks cards, scenes, lorebooks and registries of the whole repository (exit code 1 on errors); with `--sync-registry` it copies titles, descriptions and their translations from the files into the registries. The third command validates an existing campaign character. With `--manifest`, the tool packages new expressions and updates the roadmap; see [AI.md](AI.md).
 
 [LICENSE](LICENSE) contains the **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) for original scripts, texts and contributions, together with trilingual notices about AI-generated fan art, credits (including [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) by [jofizcd](https://github.com/jofizcd)) and third-party rights. Attribution, image prompts and existing license notices remain with the packages, especially [VRM notices](avatars/vrm/lizenzen.txt). Publication does not grant a blanket license to underlying anime/game works or third-party models.
 
@@ -156,11 +158,12 @@ This repository is an independent, non-commercial fan project. All depicted char
 Python-инструменты предназначены для необязательного обслуживания репозитория и не являются зависимостью приложения. Установка: `python3 -m pip install -r tools/requirements.txt` в отдельном виртуальном окружении. Проверки без изменения файлов:
 
 ```sh
+python3 tools/validate_content.py
 python3 tools/validate_aobane.py
 python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 ```
 
-Вторая команда проверяет существующего персонажа кампании. С параметром `--manifest` инструмент упаковывает новые изображения эмоций и обновляет дорожную карту; подробности — в [AI.md](AI.md).
+`validate_content.py` проверяет карточки, сцены, лорбуки и реестры всего репозитория (код выхода 1 при ошибках); с `--sync-registry` переносит названия, описания и их переводы из файлов в реестры. Третья команда проверяет существующего персонажа кампании. С параметром `--manifest` инструмент упаковывает новые изображения эмоций и обновляет дорожную карту; подробности — в [AI.md](AI.md).
 
 [LICENSE](LICENSE) содержит лицензию **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) для собственных скриптов, текстов и материалов, а также трёхъязычные уведомления о фан-арте ИИ, благодарностях (включая [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) от [jofizcd](https://github.com/jofizcd)) и правах третьих лиц. Источники, промпты изображений и имеющиеся лицензионные сведения сохраняются в наборах, особенно [сведения о VRM](avatars/vrm/lizenzen.txt). Публикация не предоставляет общую лицензию на исходные аниме, игры или сторонние модели.
 

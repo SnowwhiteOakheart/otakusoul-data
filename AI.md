@@ -71,6 +71,7 @@ Registries sind JSON-Objekte mit `version` und der entsprechenden Liste:
 - `soul_registry.json`: `characters`; Einträge mit `name`, `author`, `download_url`.
 - `lorebooks_registry.json`: `lorebooks`; Einträge mit `name`, `author`, `description`, `entry_count`, `download_url`.
 - `stages_registry.json`: `scenes`; Einträge mit `id`, `title`, `author`, `description`, `starting_location`, `download_url`.
+- Szenen- und Lorebook-Einträge tragen optional `translations` (`{"en": {"title": …, "description": …}}`); die App zeigt die Hub-Liste damit in der Oberflächensprache. Gepflegt wird das mit `tools/validate_content.py --sync-registry`, nicht von Hand.
 - Jeder Registry-Eintrag trägt `revision` (Ganzzahl ab 1) und `updated` (Datum `JJJJ-MM-TT`). Die App vergleicht die Revision
   mit der installierten Kopie und bietet „Aktualisieren“ an. **Bei jeder inhaltlichen Änderung einer Karte, eines Lorebooks
   oder einer Szene die `revision` des Eintrags um 1 erhöhen und `updated` setzen** (reine Formatierung zählt nicht).
@@ -157,17 +158,18 @@ im App-Repository) und lädt beim Start diese Datei; es gilt die höhere `versio
 Python und Pillow werden nur für optionale Wartung benötigt. Abhängigkeit: `tools/requirements.txt`; virtuelle Umgebung außerhalb versionierter Inhalte bzw. unter ignoriertem `.venv/`.
 
 ```sh
+python3 tools/validate_content.py
 python3 tools/validate_aobane.py
 python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 ```
 
-Beide Befehle prüfen ausschließlich. Das zweite Werkzeug unterstützt die 16 Figuren der Pakete `dungeon-meshi`, `steins-gate`, `lycoris-recoil`, `sword-art-online` gemäß seiner `CAST`-Liste. Es ist kein allgemeiner Validator aller Karten.
+`validate_content.py` ist der allgemeine Validator: Karten (Pflichtfelder, Übersetzungen, Begrüßungen, Emotionsbilder, JSON = PNG-Payload), `cards_gateway/` (Namen, die sich nur in Groß-/Kleinschreibung unterscheiden, verwaiste Dateien), Registries (Pflichtfelder, Dubletten, Dateien, `entry_count`), Szenen (Mitspieler mit Karte – exakt oder Name vor der Klammer wie in der App –, Lorebooks, Hintergründe, Übersetzungen, Story-Daten, veraltete Felder) und Lorebooks (uid, Trigger, Ketten). Fehler beenden mit Exit-Code 1. `--sync-registry` übernimmt Titel/Beschreibung/Startort und deren Übersetzungen aus den Dateien in die Registries (`translations.<sprache>`, Lorebook-Name und Szenen-ID bleiben als Update-Schlüssel); nach jeder Text- oder Übersetzungsänderung ausführen. Die anderen beiden Befehle prüfen ausschließlich. Das zweite Werkzeug unterstützt die 16 Figuren der Pakete `dungeon-meshi`, `steins-gate`, `lycoris-recoil`, `sword-art-online` gemäß seiner `CAST`-Liste. Es ist kein allgemeiner Validator aller Karten.
 
 Mit `--manifest <datei.json>` schreibt es neue Expressions, Kartenmetadaten und die Roadmap. Manifest: Liste mit je einem Eintrag pro Emotion; Feldschema vor Verwendung in `package()` prüfen. Vorhandene Bilder werden nicht überschrieben. Die Generierung erfolgt separat; das Werkzeug erzeugt selbst keine KI-Bilder.
 
 Vor Veröffentlichung passend zum Umfang prüfen:
 
-1. Alle geänderten JSON-Dateien lassen sich laden; Übersetzungen und Pflichtfelder sind vollständig.
+1. `python3 tools/validate_content.py` meldet keine Fehler (nach Textänderungen vorher `--sync-registry`).
 2. PNG-Payloads entsprechen den JSON-Profilen; Gateway-Karten erhalten deren Inhalte.
 3. Bildformat, Maße, sechs tatsächlich unterschiedliche Emotionsbilder und alle Pfade/URLs stimmen.
 4. Registry-Verweise führen zu vorhandenen Dateien; entfernte Dateien werden nirgends mehr benötigt.

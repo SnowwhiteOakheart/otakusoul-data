@@ -4,56 +4,116 @@
     {
       "name": "Sakura Succubus 3 – Welt",
       "author": "SnowwhiteOakheart",
-      "description": "World primer for Sakura Succubus 3: succubi living hidden among humans, the shared flat, the newspaper, secrecy and the household rules. German-language content.",
+      "description": "Grundlagen des Universums: Sukkuben, das Reich, Hirokis Duft, die WG, Presse und Geheimhaltung.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_world.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Foundations of the universe: Succubi, the Realm, Hiroki's scent, the shared apartment, press, and secrecy.",
+          "name": "Sakura Succubus 3 – World Lore"
+        },
+        "ru": {
+          "description": "Основы вселенной: суккубы, Царство, запах Хироки, совместная жизнь в квартире, пресса и конспирация.",
+          "name": "Sakura Succubus 3 – Мироустройство"
+        }
+      }
     },
     {
       "name": "Sakura Succubus 3 – Figuren",
       "author": "SnowwhiteOakheart",
-      "description": "Character-focused lore for Sakura Succubus 3: all six housemates, Hiroki, and the people around them. German-language content.",
+      "description": "Kurzprofile aller Haupt- und Nebenfiguren, für Szenen, in denen eine Figur nicht als Charakterkarte geladen ist.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_characters.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Short profiles of all main and supporting characters, for scenes where a character is not loaded as an individual character card.",
+          "name": "Sakura Succubus 3 – Characters"
+        },
+        "ru": {
+          "description": "Краткие профили всех основных и второстепенных персонажей для сцен, где персонаж не загружен в виде отдельной карточки.",
+          "name": "Sakura Succubus 3 – Персонажи"
+        }
+      }
     },
     {
       "name": "Sakura Succubus 3 – Orte",
       "author": "SnowwhiteOakheart",
-      "description": "Location lore for Sakura Succubus 3: the shared flat, newsroom, cosplay cafe, boardroom, stage, tennis court, tea room, throne hall and more. German-language content.",
+      "description": "Schauplätze: Wohnung, Redaktion, Cosplay-Café, Vorstandsetage, Bühne, Tennisanlage, Teezimmer, Thronsaal, Empfänge.",
       "entry_count": 9,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_locations.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Key settings: Apartment, Newsroom, Cosplay Café, Executive Boardroom, Stage, Tennis Courts, Tea Room, Throne Room, and Galas.",
+          "name": "Sakura Succubus 3 – Locations"
+        },
+        "ru": {
+          "description": "Ключевые локации: квартира, редакция, косплей-кафе, кабинет президента, сцена, теннисный корт, чайная комната, тронный зал и приёмы.",
+          "name": "Sakura Succubus 3 – Места действия"
+        }
+      }
     },
     {
       "name": "No Game No Life – Welt & Gebote",
       "author": "SnowwhiteOakheart",
-      "description": "Core rules and premise of No Game No Life's Disboard: the Ten Pledges (verified against the official light novel text), Tet's origin, resource wagers and Blank's reputation. German-language content.",
+      "description": "Grundregeln Disboards: die Zehn Gebote, Tets Ursprung, Rasseneinsätze und der Ruf von Blank.",
       "entry_count": 8,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_world.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Core laws of Disboard: the Ten Pledges, Tet's origin, Race Pieces, and the reputation of Blank.",
+          "name": "No Game No Life – World & The Ten Pledges"
+        },
+        "ru": {
+          "description": "Законы Дисборда: Десять Заповедей, происхождение Тета, расовые фигуры и слава «Пустых».",
+          "name": "No Game No Life – Мир и Десять Заповедей"
+        }
+      }
     },
     {
       "name": "No Game No Life – Rassen & Orte",
       "author": "SnowwhiteOakheart",
-      "description": "The sixteen races of Disboard and key locations: Imanity, Flügel, Elf, Werebeast, Elkia, Avant Heim, Elven Gard, the Eastern Union. German-language content.",
+      "description": "Die sechzehn Rassen Disboards und die wichtigsten Schauplätze: Elkia, Avant Heim, Elfengard, der Östliche Bund.",
       "entry_count": 9,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_races_locations.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "The sixteen races of Disboard and its key locations: Elkia, Avant Heim, Elfengard, and the Eastern Union.",
+          "name": "No Game No Life – Races & Locations"
+        },
+        "ru": {
+          "description": "Шестнадцать рас Дисборда и главные места действия: Элкия, Авант Хейм, Эльфенгард и Восточный Союз.",
+          "name": "No Game No Life – Расы и места"
+        }
+      }
     },
     {
       "name": "No Game No Life – Figuren",
       "author": "SnowwhiteOakheart",
-      "description": "Quick-reference lore for the full No Game No Life cast plus lore-only figures: Tet, Riku Dola, Azril, the Eastern Union's Shrine Maiden. German-language content.",
+      "description": "Kurzreferenzen zu Sora, Shiro und allen wichtigen Neben- und Hintergrundfiguren der Kampagne.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_characters.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Quick references for Sora, Shiro, and key supporting characters across the campaign.",
+          "name": "No Game No Life – Characters"
+        },
+        "ru": {
+          "description": "Краткие справки о Соре, Сиро и ключевых второстепенных персонажах кампании.",
+          "name": "No Game No Life – Персонажи"
+        }
+      }
     },
     {
       "name": "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
@@ -62,7 +122,17 @@
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_ecology.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "The dungeon's mana ecosystem, monster biology, soul tethering, and resurrection rules.",
+          "name": "Dungeon Meshi – Ecology & Dungeon Laws"
+        },
+        "ru": {
+          "description": "Магическая экосистема подземелья, биология чудовищ, привязка душ и правила воскрешения.",
+          "name": "Dungeon Meshi – Экология и законы подземелья"
+        }
+      }
     },
     {
       "name": "Dungeon Meshi – Monster-Rezepte & Kochkunst",
@@ -71,7 +141,17 @@
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_recipes.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Culinary recipes and butchery for giant scorpions, basilisk eggs, mandrakes, and slime.",
+          "name": "Dungeon Meshi – Monster Recipes & Gourmet Craft"
+        },
+        "ru": {
+          "description": "Рецепты и тонкости приготовления гигантских скорпионов, яиц василиска, мандрагор и слизи.",
+          "name": "Dungeon Meshi – Рецепты из монстров и кулинарное искусство"
+        }
+      }
     },
     {
       "name": "Dungeon Meshi – Figuren & Goldene Dynastie",
@@ -80,7 +160,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_world.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Laios' party, the race to rescue Falin, and the curse of the Lunatic Magician.",
+          "name": "Dungeon Meshi – Characters & The Golden Kingdom"
+        },
+        "ru": {
+          "description": "Отряд Лай Оса, спасение Фэлин и тайны безумного чародея.",
+          "name": "Dungeon Meshi – Герои и Золотое Королевство"
+        }
+      }
     },
     {
       "name": "Steins;Gate – Weltlinien & Divergenz",
@@ -89,7 +179,17 @@
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_divergence.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "The Divergence Meter, Alpha and Beta Attractor Fields, convergence points, and temporal causality.",
+          "name": "Steins;Gate – Worldlines & Divergence"
+        },
+        "ru": {
+          "description": "Счётчик дивергенции, аттракторные поля Альфа и Бета, точки конвергенции и законы причинности.",
+          "name": "Steins;Gate – Мировые линии и дивергенция"
+        }
+      }
     },
     {
       "name": "Steins;Gate – Labor-Gadgets & D-Mails",
@@ -98,7 +198,17 @@
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_gadgets.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Future Gadget Laboratory inventions, the Phone Microwave, time leaping, and the IBN 5100.",
+          "name": "Steins;Gate – Future Gadgets & D-Mails"
+        },
+        "ru": {
+          "description": "Изобретения Лаборатории гаджетов будущего, Мобиловолновка, прыжки во времени и IBN 5100.",
+          "name": "Steins;Gate – Гаджеты лаборатории и D-мейлы"
+        }
+      }
     },
     {
       "name": "Steins;Gate – Akihabara 2010 & SERN",
@@ -107,7 +217,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_akihabara.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "The Future Gadget Lab, Radio Kaikan, MayQueen Nyan², and the looming shadow of SERN.",
+          "name": "Steins;Gate – Akihabara 2010 & SERN"
+        },
+        "ru": {
+          "description": "Лаборатория гаджетов будущего, Радио Кайкан, МэйКвин Нян-Нян и нависшая тень SERN.",
+          "name": "Steins;Gate – Акихабара 2010 и SERN"
+        }
+      }
     },
     {
       "name": "Lycoris Recoil – DA & Alan Institute",
@@ -116,7 +236,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_da.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "The Direct Attack organization, covert schoolgirl Lycoris agents, Alan Children, and the illusion of public peace.",
+          "name": "Lycoris Recoil – Direct Attack & The Alan Institute"
+        },
+        "ru": {
+          "description": "Секретная организация Direct Attack, школьницы-агенты Ликорис, Дети Алана и иллюзия абсолютной безопасности.",
+          "name": "Lycoris Recoil – DA и Институт Алана"
+        }
+      }
     },
     {
       "name": "Lycoris Recoil – Café LycoReco",
@@ -125,7 +255,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_cafe.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "The cozy Sumida branch café, seasonal menu, loyal patrons, and covert operations.",
+          "name": "Lycoris Recoil – Café LycoReco"
+        },
+        "ru": {
+          "description": "Уютное традиционное кафе в районе Сумида, десертное меню, завсегдатаи и секретное прикрытие.",
+          "name": "Lycoris Recoil – Кафе «ЛикоРеко»"
+        }
+      }
     },
     {
       "name": "Lycoris Recoil – Ausrüstung & Taktik",
@@ -134,7 +274,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_tactics.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Chisato's predictive evasion, specialized non-lethal munitions, and combat equipment.",
+          "name": "Lycoris Recoil – Armament & Tactical Doctrine"
+        },
+        "ru": {
+          "description": "Сверхъестественное уклонение Тисато, нелетальные боеприпасы и тактическое снаряжение.",
+          "name": "Lycoris Recoil – Вооружение и тактика"
+        }
+      }
     },
     {
       "name": "Sword Art Online – Aincrad-Systemregeln",
@@ -143,7 +293,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_system_rules.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Sword Skills, HP bars, permadeath rules, teleport crystals, and system menus.",
+          "name": "Sword Art Online – Aincrad System Mechanics"
+        },
+        "ru": {
+          "description": "Навыки меча, шкалы HP, перманентная смерть, кристаллы телепортации и системное меню.",
+          "name": "Sword Art Online – Системные механики Айнкрада"
+        }
+      }
     },
     {
       "name": "Sword Art Online – Gilden & Fraktionen",
@@ -152,7 +312,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_guilds_factions.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "Knights of the Blood Oath, Fuurinkazan, merchant syndicates, and the killers of Laughing Coffin.",
+          "name": "Sword Art Online – Guilds & Factions"
+        },
+        "ru": {
+          "description": "Рыцари Крови, Фуринказан, торговые гильдии и убийцы из «Весёлого гроба».",
+          "name": "Sword Art Online – Гильдии и фракции"
+        }
+      }
     },
     {
       "name": "Sword Art Online – Aincrad-Geografie",
@@ -161,7 +331,17 @@
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_aincrad_geography.json",
       "revision": 2,
-      "updated": "2026-10-17"
+      "updated": "2026-10-17",
+      "translations": {
+        "en": {
+          "description": "The 100 floating castle floors, Town of Beginnings, labyrinth spires, and Floor 22.",
+          "name": "Sword Art Online – Geography of Aincrad"
+        },
+        "ru": {
+          "description": "Сто парящих этажей крепости, Город Начал, башни-лабиринты и мирный 22-й этаж.",
+          "name": "Sword Art Online – География Айнкрада"
+        }
+      }
     }
   ]
 }
