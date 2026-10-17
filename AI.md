@@ -25,7 +25,7 @@ lorebooks_registry.json          Lorebook-Index
 lorebooks_gateway/*.json         veröffentlichte Lorebooks
 stages_registry.json             Szenenindex
 stages_gateway/*.json            veröffentlichte Szenen
-recommended_models.json         Spiegel des Starter-Katalogs der App, keine Modellgewichte
+recommended_models.json         Startmodelle für den Einrichtungsassistenten, keine Modellgewichte
 locales/de.json / ru.json        Spieltexte der App (Schlüssel = englischer Text)
 avatars/                        zusätzliche Avatar-Dateien
 avatars/vrm/lizenzen.txt         Herkunft und Bedingungen der VRM-Modelle
@@ -137,9 +137,19 @@ neue Texte zuerst im App-Code anlegen und hier in beiden Sprachen ergänzen.
 
 ### Modelle (`recommended_models.json`)
 
-Spiegel des eingebauten Starter-Katalogs der App (`models_hub::STARTERS`). Maßgeblich ist der Katalog in der App; Änderungen
-dort hier nachziehen (`version` erhöhen, `last_updated` setzen). Nur frei lizenzierte, ohne Anmeldung ladbare Modelle mit
-SHA-256 aus der Quelle; keine Modellgewichte im Repository, keine nicht-kommerziellen Sprachmodelle.
+Startmodelle, die der Einrichtungsassistent der App anbietet. Die App bringt eine Kopie mit (`presets/recommended_models.json`
+im App-Repository) und lädt beim Start diese Datei; es gilt die höhere `version`. Neue Empfehlungen also hier eintragen und
+`version` erhöhen (`last_updated` setzen); bei einem App-Release die mitgelieferte Kopie angleichen.
+
+- Eintrag: `id` (eindeutig), `name`, `hf_id` (`besitzer/repo` auf Hugging Face), `file` (`.gguf` im Repo-Hauptzweig),
+  `size_bytes`, `sha256` (der Datei laut Hugging Face), `license`, `quantization`, `runtime` (`standard` oder `prism` für
+  PrismML-Dateien wie PQ2_0), `vram_mb` (Grafikspeicher samt Start-Kontext), optional `preferred` (wird empfohlen, sobald
+  es passt), `description` mit `de`, `en`, `ru`.
+- Die App überspringt Einträge mit anderer Lizenz als Apache-2.0, MIT oder BSD, fehlerhafter SHA-256, Pfadangaben im
+  Dateinamen oder unbekannter Laufzeit. Bleibt nichts übrig, nutzt sie ihre Kopie.
+- Empfehlung: das `preferred`-Modell, wenn es in Grafikspeicher − `desktop_reserve_mb` passt, sonst das größte passende.
+- Nur frei lizenzierte, ohne Anmeldung ladbare Modelle; keine Modellgewichte im Repository, keine nicht-kommerziellen
+  Sprachmodelle. Größe und SHA-256 vor dem Eintragen an der Quelle prüfen.
 
 Übersetzungen in bestehenden Erweiterungsstrukturen vollständig erhalten. Die Repo-Datei allein garantiert nicht, dass jede App-Version jede Erweiterung beim Import übernimmt; keine App-Kompatibilität behaupten, die nicht geprüft wurde. App-Code nur nach gesondertem Auftrag ändern. Englisch benötigt hier keine künstliche `locales/en.json`: die englische App-Basis liegt im App-Repository.
 

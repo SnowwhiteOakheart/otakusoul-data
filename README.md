@@ -17,7 +17,7 @@ Separates Inhaltsrepository für [OtakuSoul](https://github.com/SnowwhiteOakhear
 | `presets/cards/` | Einzelkarten als JSON und PNG |
 | `avatars/` | Zusätzliche Avatare; Herkunftshinweise und Download-Quellen unter `avatars/vrm/lizenzen.txt` |
 | `locales/` | Deutsche und russische App-Sprachdateien; Englisch wird in der App gepflegt |
-| `recommended_models.json` | Übersicht der Startmodelle aus dem Einrichtungsassistenten der App (Größe, Grafikspeicher, SHA-256), keine Modelldateien |
+| `recommended_models.json` | Startmodelle für den Einrichtungsassistenten der App (die App lädt die Datei beim Start, wenn sie neuer ist), keine Modelldateien |
 | `tools/` | Wiederverwendbare Wartungs- und Prüfwerkzeuge |
 
 ### Inhalte und Verwendung
@@ -82,7 +82,7 @@ Separate content repository for [OtakuSoul](https://github.com/SnowwhiteOakheart
 | `presets/cards/` | Individual JSON and PNG cards |
 | `avatars/` | Additional avatars; attribution and download sources in `avatars/vrm/lizenzen.txt` |
 | `locales/` | German and Russian app language files; English is maintained in the app |
-| `recommended_models.json` | Overview of the starter models from the app's setup wizard (size, VRAM, SHA-256), without model binaries |
+| `recommended_models.json` | Starter models for the app's setup wizard (the app loads the file at start when it is newer), without model binaries |
 | `tools/` | Reusable maintenance and validation tools |
 
 ### Content and usage
@@ -147,7 +147,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 | `presets/cards/` | Отдельные карточки в JSON и PNG |
 | `avatars/` | Дополнительные аватары; сведения об источниках и ссылки в `avatars/vrm/lizenzen.txt` |
 | `locales/` | Немецкие и русские языковые файлы приложения; английский поддерживается в приложении |
-| `recommended_models.json` | Обзор стартовых моделей из мастера настройки приложения (размер, видеопамять, SHA-256) без файлов самих моделей |
+| `recommended_models.json` | Стартовые модели для мастера настройки приложения (приложение загружает файл при запуске, если он новее) без файлов самих моделей |
 | `tools/` | Повторно используемые инструменты обслуживания и проверки |
 
 ### Контент и использование

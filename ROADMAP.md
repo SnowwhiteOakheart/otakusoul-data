@@ -247,3 +247,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Alle 45 Gateway-Szenen: `extensions.otakusoul_assets` mit den Hintergründen ihres Pakets (die App lädt sie beim Hub-Import mit), veraltetes `conversation_method` entfernt (auch in den 18 Paket-Szenen), Platzhalter-Persona `"None"` der 8 eigenständigen Szenen geleert; Revisionen erhöht.
 - [x] `recommended_models.json` als Spiegel des Starter-Katalogs der App neu aufgebaut (5 Apache-2.0-Modelle mit SHA-256, Grafikspeicher und DE/EN/RU-Beschreibung); ungeprüfte 70B-Liste vom Juni entfernt.
 - [x] `AI.md` um Szenen- und Lorebook-Format der App, Hintergrund-Assets, 5e-Regeln, Spieltexte und Modellkatalog ergänzt; README DE/EN/RU („Stage“, automatische Hintergründe, Modellübersicht); Spieltext „None.“ in DE/RU.
+- [x] `recommended_models.json` wird von der App beim Start geladen und ersetzt deren mitgelieferten Katalog, wenn die `version` höher ist; Format und Prüfregeln in `AI.md`.
