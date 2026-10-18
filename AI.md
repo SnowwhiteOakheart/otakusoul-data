@@ -1,6 +1,6 @@
 # AI.md – Wegweiser für dieses Inhaltsrepository
 
-Vor jeder Änderung vollständig lesen. Dieses Repository ist `SnowwhiteOakheart/otakusoul-data`, das separate Inhaltsrepository von OtakuSoul. Es enthält Daten und Bilder, keinen App-Code. Keine Inhalte in eine lokale App-Installation importieren, sofern nicht ausdrücklich beauftragt.
+Dieses Dokument ist der verbindliche Leitfaden für `SnowwhiteOakheart/otakusoul-data`, das separate Inhaltsrepository von OtakuSoul. Es enthält Daten und Bilder, keinen App-Code. Eine tokensparende Schnellreferenz aller Charaktere, Stages, Lorebooks und Validierungs-Checks bietet [`CONTENT_INDEX.md`](CONTENT_INDEX.md) – schlage hier in `AI.md` gezielt die jeweiligen Themenabschnitte nach. Keine Inhalte in eine lokale App-Installation importieren, sofern nicht ausdrücklich beauftragt.
 
 ## Zusammenarbeit und Veröffentlichung
 
@@ -16,7 +16,7 @@ Vor jeder Änderung vollständig lesen. Dieses Repository ist `SnowwhiteOakheart
 ```text
 README.md                       Einstieg in DE / EN / RU
 AI.md                           dieser verbindliche Wegweiser
-AGENTS.md / CLAUDE.md            kurze Verweise auf AI.md
+AGENTS.md / CLAUDE.md            Verweise auf CONTENT_INDEX.md und AI.md
 CONTENT_INDEX.md                tokensparende Inhalts- und Architekturreferenz für Agenten
 LICENSE                         Rechte- und Nutzungshinweise
 ROADMAP.md                      Arbeitsstand, einzige Roadmap

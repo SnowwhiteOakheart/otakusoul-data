@@ -1,3 +1,5 @@
-# AGENTS.md
+@CONTENT_INDEX.md
 
-Der Projekt-Wegweiser für KI-Assistenten steht in [AI.md](AI.md). Lies ihn vor jeder Änderung. Struktur- und Arbeitsregeln ausschließlich dort pflegen. Eine tokensparende Schnellreferenz aller Charaktere, Stages und Lorebooks samt App-Aufrufen und Validierungs-Checks bietet [CONTENT_INDEX.md](CONTENT_INDEX.md).
+Wegweiser für Claude Code:
+- `CONTENT_INDEX.md` dient als primäre, tokensparende Schnellreferenz für Inhalte (Charaktere, Stages, Lorebooks, Presets), App-Integration und Validierungs-Checks.
+- Die verbindlichen Arbeitsregeln und Detailvorgaben stehen in [`AI.md`](AI.md). Konsultiere gezielt die jeweiligen Themenabschnitte in `AI.md`, anstatt die gesamte Datei zu laden.
