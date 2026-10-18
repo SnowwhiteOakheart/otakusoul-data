@@ -88,7 +88,16 @@
         "relaxed": "expressions/mayuri_shiina/relaxed.webp",
         "surprised": "expressions/mayuri_shiina/surprised.webp",
         "angry": "expressions/mayuri_shiina/angry.webp",
-        "sad": "expressions/mayuri_shiina/sad.webp"
+        "sad": "expressions/mayuri_shiina/sad.webp",
+        "disgust": "expressions/mayuri_shiina/disgust.webp",
+        "crying": "expressions/mayuri_shiina/crying.webp",
+        "ecstasy": "expressions/mayuri_shiina/ecstasy.webp",
+        "blush": "expressions/mayuri_shiina/blush.webp",
+        "teasing": "expressions/mayuri_shiina/teasing.webp",
+        "seductive": "expressions/mayuri_shiina/seductive.webp",
+        "fear": "expressions/mayuri_shiina/fear.webp",
+        "afterglow": "expressions/mayuri_shiina/afterglow.webp",
+        "aroused": "expressions/mayuri_shiina/aroused.webp"
       }
     }
   }
