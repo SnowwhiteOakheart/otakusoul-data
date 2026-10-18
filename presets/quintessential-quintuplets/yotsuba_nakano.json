@@ -85,7 +85,16 @@
         "relaxed": "expressions/yotsuba_nakano/relaxed.webp",
         "surprised": "expressions/yotsuba_nakano/surprised.webp",
         "angry": "expressions/yotsuba_nakano/angry.webp",
-        "sad": "expressions/yotsuba_nakano/sad.webp"
+        "sad": "expressions/yotsuba_nakano/sad.webp",
+        "blush": "expressions/yotsuba_nakano/blush.webp",
+        "teasing": "expressions/yotsuba_nakano/teasing.webp",
+        "afterglow": "expressions/yotsuba_nakano/afterglow.webp",
+        "fear": "expressions/yotsuba_nakano/fear.webp",
+        "disgust": "expressions/yotsuba_nakano/disgust.webp",
+        "crying": "expressions/yotsuba_nakano/crying.webp",
+        "seductive": "expressions/yotsuba_nakano/seductive.webp",
+        "aroused": "expressions/yotsuba_nakano/aroused.webp",
+        "ecstasy": "expressions/yotsuba_nakano/ecstasy.webp"
       }
     }
   }
