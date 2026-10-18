@@ -87,7 +87,16 @@
         "relaxed": "expressions/ren_takahashi/relaxed.webp",
         "surprised": "expressions/ren_takahashi/surprised.webp",
         "angry": "expressions/ren_takahashi/angry.webp",
-        "sad": "expressions/ren_takahashi/sad.webp"
+        "sad": "expressions/ren_takahashi/sad.webp",
+        "disgust": "expressions/ren_takahashi/disgust.webp",
+        "seductive": "expressions/ren_takahashi/seductive.webp",
+        "blush": "expressions/ren_takahashi/blush.webp",
+        "teasing": "expressions/ren_takahashi/teasing.webp",
+        "crying": "expressions/ren_takahashi/crying.webp",
+        "fear": "expressions/ren_takahashi/fear.webp",
+        "aroused": "expressions/ren_takahashi/aroused.webp",
+        "ecstasy": "expressions/ren_takahashi/ecstasy.webp",
+        "afterglow": "expressions/ren_takahashi/afterglow.webp"
       }
     }
   }
