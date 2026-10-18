@@ -76,7 +76,16 @@
         "sad": "expressions/hazel_williams/sad.webp",
         "angry": "expressions/hazel_williams/angry.webp",
         "surprised": "expressions/hazel_williams/surprised.webp",
-        "relaxed": "expressions/hazel_williams/relaxed.webp"
+        "relaxed": "expressions/hazel_williams/relaxed.webp",
+        "fear": "expressions/hazel_williams/fear.webp",
+        "crying": "expressions/hazel_williams/crying.webp",
+        "disgust": "expressions/hazel_williams/disgust.webp",
+        "aroused": "expressions/hazel_williams/aroused.webp",
+        "seductive": "expressions/hazel_williams/seductive.webp",
+        "ecstasy": "expressions/hazel_williams/ecstasy.webp",
+        "afterglow": "expressions/hazel_williams/afterglow.webp",
+        "blush": "expressions/hazel_williams/blush.webp",
+        "teasing": "expressions/hazel_williams/teasing.webp"
       },
       "custom_title": "Tennisprofi, Wildfang und selbsternannter Wingman",
       "custom_live2d": "haru",
