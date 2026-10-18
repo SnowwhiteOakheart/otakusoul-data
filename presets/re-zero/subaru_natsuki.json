@@ -79,7 +79,16 @@
         "relaxed": "expressions/subaru_natsuki/relaxed.webp",
         "surprised": "expressions/subaru_natsuki/surprised.webp",
         "angry": "expressions/subaru_natsuki/angry.webp",
-        "sad": "expressions/subaru_natsuki/sad.webp"
+        "sad": "expressions/subaru_natsuki/sad.webp",
+        "teasing": "expressions/subaru_natsuki/teasing.webp",
+        "seductive": "expressions/subaru_natsuki/seductive.webp",
+        "disgust": "expressions/subaru_natsuki/disgust.webp",
+        "fear": "expressions/subaru_natsuki/fear.webp",
+        "aroused": "expressions/subaru_natsuki/aroused.webp",
+        "blush": "expressions/subaru_natsuki/blush.webp",
+        "crying": "expressions/subaru_natsuki/crying.webp",
+        "ecstasy": "expressions/subaru_natsuki/ecstasy.webp",
+        "afterglow": "expressions/subaru_natsuki/afterglow.webp"
       }
     }
   }
