@@ -159,8 +159,14 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 - **Charaktere (V2-Karten in `presets/quintessential-quintuplets/`):**
   - [x] Ichika Nakano, Nino Nakano, Miku Nakano, Yotsuba Nakano, Itsuki Nakano, Futaro Uesugi (vollständige Profile, 2+ Begrüßungen, 3 Dialogbeispiele, DE/EN/RU).
 - **Bilder:**
-  - [x] 6 Charakter-Avatare & 36 Expressions (als standardkonforme Platzhalter angelegt; bereit für finalen Artwork-Austausch).
-  - [x] 5 Szenen-Hintergründe angelegt.
+  - [x] Finale KI-Fanart: 6 Charakter-Avatare & 36 eigenständige, identitätserhaltende Expressions (Formate, PNG-Metadaten und Hub-Pfade geprüft).
+  - [x] Quintuplets: Futaro Uesugi – finales Porträt und sechs eigenständige Emotionen, Preset- und Hub-Karte synchronisiert.
+  - [x] Quintuplets: Ichika Nakano – finales Porträt und sechs eigenständige Emotionen, Preset- und Hub-Karte synchronisiert.
+  - [x] Quintuplets: Itsuki Nakano – finales Porträt und sechs eigenständige Emotionen, Preset- und Hub-Karte synchronisiert.
+  - [x] Quintuplets: Miku Nakano – finales Porträt und sechs eigenständige Emotionen, Preset- und Hub-Karte synchronisiert.
+  - [x] Quintuplets: Nino Nakano – finales Porträt und sechs eigenständige Emotionen, Preset- und Hub-Karte synchronisiert.
+  - [x] Quintuplets: Yotsuba Nakano – finales Porträt und sechs eigenständige Emotionen, Preset- und Hub-Karte synchronisiert.
+  - [x] 5 finale KI-Szenenhintergründe (1376×768 PNG); eindeutige lokale Importnamen verhindern, dass vorhandene Platzhalter den Download blockieren.
 
 ---
 
@@ -178,7 +184,7 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
    - [x] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
    - [x] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
    - [x] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
-   - [x] **Kampagne 2.5: The Quintessential Quintuplets** *(3 Lorebooks, 5 Episoden & 6 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; 6 Avatare, 36 Expressions und 5 Hintergründe als Platzhalter)*
+   - [x] **Kampagne 2.5: The Quintessential Quintuplets** *(3 Lorebooks, 5 Episoden & 6 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; 6 finale KI-Porträts, 36 eigenständige Expressions und 5 finale Hintergründe; Prompts dokumentiert)*
 
 ## Bildbestand vom 04.10.2026
 

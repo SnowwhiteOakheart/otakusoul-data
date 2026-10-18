@@ -20,7 +20,7 @@
     "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt",
     "The Quintessential Quintuplets – Orte & Schulalltag"
   ],
-  "starting_bg": "schulfest_abenddaemmerung.png",
+  "starting_bg": "quintuplets_schulfest_abenddaemmerung_artwork.png",
   "starting_ambient": "None",
   "extensions": {
     "otakusoul_i18n": {
@@ -114,24 +114,24 @@
     "otakusoul_assets": {
       "backgrounds": [
         {
-          "file": "penthouse_wohnzimmer.png",
+          "file": "quintuplets_schulfest_abenddaemmerung_artwork.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
+        },
+        {
+          "file": "quintuplets_penthouse_wohnzimmer_artwork.png",
           "path": "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
         },
         {
-          "file": "sommerfest_schreintreppe.png",
+          "file": "quintuplets_sommerfest_schreintreppe_artwork.png",
           "path": "presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png"
         },
         {
-          "file": "klassenzimmer_nachmittag.png",
+          "file": "quintuplets_klassenzimmer_nachmittag_artwork.png",
           "path": "presets/quintessential-quintuplets/backgrounds/klassenzimmer_nachmittag.png"
         },
         {
-          "file": "skihuette_kaminfeuer.png",
+          "file": "quintuplets_skihuette_kaminfeuer_artwork.png",
           "path": "presets/quintessential-quintuplets/backgrounds/skihuette_kaminfeuer.png"
-        },
-        {
-          "file": "schulfest_abenddaemmerung.png",
-          "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
         }
       ]
     }

@@ -24,4 +24,14 @@ Paket für **OtakuSoul**: Die fünf Nakano-Schwestern (*Ichika*, *Nino*, *Miku*,
 - **Hintergründe (5):**
   - Penthouse-Wohnzimmer, Sommerfest-Schreintreppe, Klassenzimmer, Skihütte, Schuldach bei Abenddämmerung.
 
-*Hinweis zu den Porträts und Expressions:* Die Bilddateien sind als standardkonforme 700×937 PNGs (Avatare) und 640×800 WebPs (sechs Emotionen) als Platzhalter hinterlegt und können mit einem KI-Bildgenerator durch finale Artworks ersetzt werden.
+## Bildherkunft und Formate
+
+Die Platzhalter wurden durch KI-generierte Fanart mit dem eingebauten OpenAI-Bildgenerator (`image_gen`) ersetzt: sechs Porträts (700×937 PNG), je sechs eigenständige Emotionen (640×800 WebP: neutral, happy, relaxed, surprised, angry, sad) und fünf Hintergründe (1376×768 PNG). Alle Emotionsbilder wurden mit dem jeweiligen Masterporträt als Identitätsreferenz erstellt; Yotsubas Profil zeigt die fröhliche und Itsukis Profil die neutrale Variante mit erweitertem Bildausschnitt. Frisur, Kleidung und Zeichenstil bleiben je Figur konsistent. Preset- und Gateway-PNGs enthalten weiterhin die vollständigen bisherigen V2-Kartendaten.
+
+Die tatsächlich verwendeten Prompts, Referenzen und Nachbearbeitung stehen in [`image_prompts.json`](image_prompts.json) sowie `expressions/<figur>/prompts.json`. Die ursprünglichen Promptentwürfe bleiben zur Nachvollziehbarkeit erhalten. Es handelt sich um inoffizielle Fanart; Rechte an Figuren und Originalwerk verbleiben bei den jeweiligen Rechteinhabern.
+
+Die fünf Soulstages laden die Bilder unter eindeutigen lokalen Namen (`quintuplets_*_artwork.png`), damit bereits importierte Platzhalter den Download beim Szenenupdate nicht verhindern. Die öffentlichen Bildpfade im Repository bleiben erhalten. Die Schauplätze entsprechen zugleich den Orten der drei Lorebooks; Lorebooks selbst unterstützen derzeit keine Hintergrundbild-Zuordnung.
+
+EN: AI-generated fan art created with OpenAI image_gen: six portraits, 36 individual expressions and five scene backgrounds. Exact prompts and processing are documented in image_prompts.json and expressions/<character>/prompts.json. Character and original-work rights remain with their respective owners. Updated scenes use new local background filenames so installed placeholders do not prevent downloading the final artwork.
+
+RU: Неофициальный фан-арт, созданный с помощью OpenAI image_gen: шесть портретов, 36 отдельных эмоций и пять фонов. Точные запросы и обработка описаны в image_prompts.json и expressions/<персонаж>/prompts.json. Права на персонажей и оригинальное произведение принадлежат соответствующим правообладателям. Обновлённые сцены используют новые локальные имена фонов, чтобы установленные заглушки не мешали загрузке готовых изображений.

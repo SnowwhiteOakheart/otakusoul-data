@@ -1,7 +1,7 @@
 {
-  "tool": "OpenAI built-in ImageGen / ComfyUI / SDXL",
+  "tool": "OpenAI image_gen (eingebaut)",
   "date": "2026-10-18",
-  "mode": "Six text-to-image master portraits; six independent identity-preserving edits per character; five 16:9 scene backgrounds",
+  "mode": "Einzelporträts und je sechs eigenständige, identitätserhaltende Bildbearbeitungen; fünf separate Szenenhintergründe.",
   "shared_portrait_prompt": "Use case: stylized-concept. Asset type: OtakuSoul character-card portrait. Create one solo vertical 3:4 anime illustration faithful to The Quintessential Quintuplets (5-toubun no Hanayome) recognizable anime character design, refined crisp lineart, vibrant colors and soft cel shading. Composition: centered waist-up, complete head with generous headroom, eyes clearly visible, tasteful canonical high school uniform or casual outfit, age-appropriate nonsexual presentation. Soft understated background, polished face, no text, logo, watermark, panels, duplicate characters or borders.",
   "portrait_subjects": {
     "ichika_nakano": "Ichika Nakano: teenage high school girl, short pale pinkish-blonde asymmetrical hair with a longer side fringe on the right, light hazel-amber eyes, single hoop earring on left ear, canonical Asahiyama high school uniform (pale yellow cardigan worn loosely over shoulders over white collared shirt and red necktie, dark pleated skirt), mature relaxed and playful onee-san smile, soft blurred modern penthouse living room interior in background.",
@@ -47,5 +47,38 @@
       "format": "PNG",
       "target_path_pattern": "presets/quintessential-quintuplets/backgrounds/<filename>.png"
     }
+  },
+  "generated_backgrounds": {
+    "penthouse_wohnzimmer.png": {
+      "prompt": "Use case: stylized-concept. Asset: landscape background for The Quintessential Quintuplets roleplay scene. High-end luxury high-rise penthouse living room in Tokyo, modern aesthetic, large dining table with textbooks and notebooks, floor-to-ceiling windows showing city skyline, plush sofa, warm ambient afternoon lighting, anime background art style, clean lines, no characters, 16:9 widescreen. Polished detailed anime background painting, cinematic composition, coherent architecture, gentle atmospheric depth, no people, no legible text, watermark or borders. Wide 16:9.",
+      "postprocessing": "Lanczos-Ausschnitt auf 1376×768 PNG"
+    },
+    "sommerfest_schreintreppe.png": {
+      "prompt": "Use case: stylized-concept. Asset: landscape background for The Quintessential Quintuplets roleplay scene. Traditional Japanese hillside Shinto shrine stone staircase during an evening summer festival (Hanabi), glowing paper lanterns hanging along cedar trees, stalls with banners at the base, distant fireworks exploding in the purple twilight sky, romantic anime scenery, no characters, 16:9 widescreen. Polished detailed anime background painting, cinematic composition, coherent architecture, gentle atmospheric depth, no people, no legible text, watermark or borders. Wide 16:9.",
+      "postprocessing": "Lanczos-Ausschnitt auf 1376×768 PNG"
+    },
+    "klassenzimmer_nachmittag.png": {
+      "prompt": "Use case: stylized-concept. Asset: landscape background for The Quintessential Quintuplets roleplay scene. Japanese high school classroom during late golden hour sunset, rows of wooden desks with study papers and scattered stationery, orange-amber sunlight slanting through tall windows, chalkboard with lesson notes, peaceful nostalgic anime background, no characters, 16:9 widescreen. Polished detailed anime background painting, cinematic composition, coherent architecture, gentle atmospheric depth, no people, no legible text, watermark or borders. Wide 16:9.",
+      "postprocessing": "Lanczos-Ausschnitt auf 1376×768 PNG"
+    },
+    "skihuette_kaminfeuer.png": {
+      "prompt": "Use case: stylized-concept. Asset: landscape background for The Quintessential Quintuplets roleplay scene. Cozy rustic wooden ski lodge interior at night, crackling stone fireplace with warm glowing amber embers, comfortable wool blankets on a wooden bench, snowstorm visible through frosted window panes, intimate cozy winter atmosphere, anime scenery, no characters, 16:9 widescreen. Polished detailed anime background painting, cinematic composition, coherent architecture, gentle atmospheric depth, no people, no legible text, watermark or borders. Wide 16:9.",
+      "postprocessing": "Lanczos-Ausschnitt auf 1376×768 PNG"
+    },
+    "schulfest_abenddaemmerung.png": {
+      "prompt": "Use case: stylized-concept. Asset: landscape background for The Quintessential Quintuplets roleplay scene. Rooftop of a Japanese high school during the annual school festival evening, colorful decorative festival bunting and string lights along the safety fence, panoramic view of festive illuminated school courtyard and dusk sky, emotional anime aesthetic, no characters, 16:9 widescreen. Polished detailed anime background painting, cinematic composition, coherent architecture, gentle atmospheric depth, no people, no legible text, watermark or borders. Wide 16:9.",
+      "postprocessing": "Lanczos-Ausschnitt auf 1376×768 PNG"
+    }
+  },
+  "documentation_note": "Die ursprünglichen shared_*-, *_subjects- und Template-Felder dokumentieren den Entwurfsplan. Die tatsächlich verwendeten Prompts stehen je Figur unter expressions/<slug>/prompts.json und für die Hintergründe unter generated_backgrounds.",
+  "provenance": "KI-generierte Fanart zu The Quintessential Quintuplets (5-toubun no Hanayome). Figuren und Originalwerk gehören den jeweiligen Rechteinhabern; keine offizielle Illustration.",
+  "postprocessing": "Porträts: Lanczos-Ausschnitt oben ausgerichtet auf 700×937 PNG, vorhandene Character-Card-V2-Metadaten unverändert eingebettet. Expressions: oben ausgerichteter Lanczos-Ausschnitt auf 640×800 WebP, Qualität 92. Hintergründe: mittiger Lanczos-Ausschnitt auf 1376×768 PNG.",
+  "final_character_prompt_files": {
+    "ichika_nakano": "expressions/ichika_nakano/prompts.json",
+    "nino_nakano": "expressions/nino_nakano/prompts.json",
+    "miku_nakano": "expressions/miku_nakano/prompts.json",
+    "yotsuba_nakano": "expressions/yotsuba_nakano/prompts.json",
+    "itsuki_nakano": "expressions/itsuki_nakano/prompts.json",
+    "futaro_uesugi": "expressions/futaro_uesugi/prompts.json"
   }
 }

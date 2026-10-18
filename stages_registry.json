@@ -954,7 +954,7 @@
       "description": "Futaros erster Tag als Nachhilfelehrer im Luxus-Penthouse der fünf Schwestern stößt auf eisige Ablehnung und handfeste Sabotage.",
       "starting_location": "Wohnzimmer im Penthouse der Nakano-Schwestern",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep1_penthouse_nachhilfe.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-18",
       "translations": {
         "en": {
@@ -976,7 +976,7 @@
       "description": "Beim Sommerfest trennen sich die Schwestern in der Menschenmenge, und eine verabredete Aussprache droht im Trubel unterzugehen.",
       "starting_location": "Schreintreppe über der Stadt beim Sommerfest",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep2_feuerwerk_gestaendnis.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-18",
       "translations": {
         "en": {
@@ -998,7 +998,7 @@
       "description": "Die Zwischenprüfungen stehen bevor. Wenn auch nur eine Schwester durchfällt, wird Futaro gefeuert und die Fünflinge werden getrennt.",
       "starting_location": "Klassenzimmer der Asahiyama-Oberschule am späten Nachmittag",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep3_zwischenpruefung.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-18",
       "translations": {
         "en": {
@@ -1020,7 +1020,7 @@
       "description": "Ein plötzlicher Schneesturm schneidet die Gruppe in einer alten Schutzhütte ab. Kälte, Kerzenschein und eine uralte Lagerfeuer-Legende.",
       "starting_location": "Verlassene Skihütte am Berghang",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep4_schneefahrt_huette.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-18",
       "translations": {
         "en": {
@@ -1042,7 +1042,7 @@
       "description": "Das letzte Schulfest vor dem Abschluss. Essenstände, Bühnenauftritte und fünf Schwestern, die um einen entscheidenden Moment kämpfen.",
       "starting_location": "Dach der Asahiyama-Oberschule während des Schulfest-Feuerwerks",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep5_schulfest_gestaendnisse.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-10-18",
       "translations": {
         "en": {
