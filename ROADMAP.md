@@ -312,3 +312,10 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] **Ainz Ooal Gown**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.
 - [x] **Albedo**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.
 - [x] **Shalltear Bloodfallen**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.
+
+
+### Zusatzemotionen – bestehende Figuren (ohne NTE)
+
+49 Figuren erhalten je neun Zusatzbilder (441 insgesamt). Nur bestehende Emotionssätze; NTE bleibt ausgeschlossen.
+
+- [x] **Ichika Nakano** (quintessential-quintuplets): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
