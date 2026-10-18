@@ -33,7 +33,16 @@
         "relaxed": "expressions/relaxed.webp",
         "surprised": "expressions/surprised.webp",
         "angry": "expressions/angry.webp",
-        "sad": "expressions/sad.webp"
+        "sad": "expressions/sad.webp",
+        "teasing": "expressions/frieren/teasing.webp",
+        "crying": "expressions/frieren/crying.webp",
+        "ecstasy": "expressions/frieren/ecstasy.webp",
+        "fear": "expressions/frieren/fear.webp",
+        "seductive": "expressions/frieren/seductive.webp",
+        "blush": "expressions/frieren/blush.webp",
+        "aroused": "expressions/frieren/aroused.webp",
+        "afterglow": "expressions/frieren/afterglow.webp",
+        "disgust": "expressions/frieren/disgust.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
