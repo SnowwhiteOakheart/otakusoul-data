@@ -88,7 +88,16 @@
         "relaxed": "expressions/klein_ryoutarou/relaxed.webp",
         "surprised": "expressions/klein_ryoutarou/surprised.webp",
         "angry": "expressions/klein_ryoutarou/angry.webp",
-        "sad": "expressions/klein_ryoutarou/sad.webp"
+        "sad": "expressions/klein_ryoutarou/sad.webp",
+        "teasing": "expressions/klein_ryoutarou/teasing.webp",
+        "blush": "expressions/klein_ryoutarou/blush.webp",
+        "fear": "expressions/klein_ryoutarou/fear.webp",
+        "seductive": "expressions/klein_ryoutarou/seductive.webp",
+        "aroused": "expressions/klein_ryoutarou/aroused.webp",
+        "afterglow": "expressions/klein_ryoutarou/afterglow.webp",
+        "disgust": "expressions/klein_ryoutarou/disgust.webp",
+        "ecstasy": "expressions/klein_ryoutarou/ecstasy.webp",
+        "crying": "expressions/klein_ryoutarou/crying.webp"
       }
     }
   }
