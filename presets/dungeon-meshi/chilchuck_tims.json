@@ -88,7 +88,16 @@
         "relaxed": "expressions/chilchuck_tims/relaxed.webp",
         "surprised": "expressions/chilchuck_tims/surprised.webp",
         "angry": "expressions/chilchuck_tims/angry.webp",
-        "sad": "expressions/chilchuck_tims/sad.webp"
+        "sad": "expressions/chilchuck_tims/sad.webp",
+        "blush": "expressions/chilchuck_tims/blush.webp",
+        "teasing": "expressions/chilchuck_tims/teasing.webp",
+        "aroused": "expressions/chilchuck_tims/aroused.webp",
+        "disgust": "expressions/chilchuck_tims/disgust.webp",
+        "ecstasy": "expressions/chilchuck_tims/ecstasy.webp",
+        "fear": "expressions/chilchuck_tims/fear.webp",
+        "crying": "expressions/chilchuck_tims/crying.webp",
+        "afterglow": "expressions/chilchuck_tims/afterglow.webp",
+        "seductive": "expressions/chilchuck_tims/seductive.webp"
       }
     }
   }
