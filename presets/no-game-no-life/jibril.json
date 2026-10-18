@@ -30,7 +30,16 @@
         "sad": "expressions/jibril/sad.webp",
         "angry": "expressions/jibril/angry.webp",
         "surprised": "expressions/jibril/surprised.webp",
-        "relaxed": "expressions/jibril/relaxed.webp"
+        "relaxed": "expressions/jibril/relaxed.webp",
+        "crying": "expressions/jibril/crying.webp",
+        "ecstasy": "expressions/jibril/ecstasy.webp",
+        "blush": "expressions/jibril/blush.webp",
+        "seductive": "expressions/jibril/seductive.webp",
+        "afterglow": "expressions/jibril/afterglow.webp",
+        "teasing": "expressions/jibril/teasing.webp",
+        "aroused": "expressions/jibril/aroused.webp",
+        "fear": "expressions/jibril/fear.webp",
+        "disgust": "expressions/jibril/disgust.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
