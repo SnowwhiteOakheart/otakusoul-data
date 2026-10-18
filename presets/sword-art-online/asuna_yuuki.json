@@ -88,7 +88,16 @@
         "relaxed": "expressions/asuna_yuuki/relaxed.webp",
         "surprised": "expressions/asuna_yuuki/surprised.webp",
         "angry": "expressions/asuna_yuuki/angry.webp",
-        "sad": "expressions/asuna_yuuki/sad.webp"
+        "sad": "expressions/asuna_yuuki/sad.webp",
+        "teasing": "expressions/asuna_yuuki/teasing.webp",
+        "blush": "expressions/asuna_yuuki/blush.webp",
+        "fear": "expressions/asuna_yuuki/fear.webp",
+        "afterglow": "expressions/asuna_yuuki/afterglow.webp",
+        "disgust": "expressions/asuna_yuuki/disgust.webp",
+        "crying": "expressions/asuna_yuuki/crying.webp",
+        "seductive": "expressions/asuna_yuuki/seductive.webp",
+        "aroused": "expressions/asuna_yuuki/aroused.webp",
+        "ecstasy": "expressions/asuna_yuuki/ecstasy.webp"
       }
     }
   }
