@@ -946,6 +946,116 @@
           "starting_location": "Освещённая фонариками терраса над бальным залом перед началом фейерверка"
         }
       }
+    },
+    {
+      "id": "quintuplets_ep1_penthouse_nachhilfe",
+      "title": "The Quintessential Quintuplets – Episode 1: Nachhilfe im Penthouse",
+      "author": "SnowwhiteOakheart",
+      "description": "Futaros erster Tag als Nachhilfelehrer im Luxus-Penthouse der fünf Schwestern stößt auf eisige Ablehnung und handfeste Sabotage.",
+      "starting_location": "Wohnzimmer im Penthouse der Nakano-Schwestern",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep1_penthouse_nachhilfe.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 1: Penthouse Tutoring",
+          "description": "Futaro's first day as tutor at the lavish Nakano penthouse meets icy suspicion, stubborn pride, and outright sabotage.",
+          "starting_location": "Living room of the Nakano penthouse"
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 1: Репетитор в пентхаусе",
+          "description": "Первый день Футаро в роли репетитора в роскошном пентхаусе сестер Накано оборачивается ледяным приемом и прямым бунтом.",
+          "starting_location": "Гостиная в пентхаусе сестер Накано"
+        }
+      }
+    },
+    {
+      "id": "quintuplets_ep2_feuerwerk_gestaendnis",
+      "title": "The Quintessential Quintuplets – Episode 2: Das Sommer-Feuerwerk",
+      "author": "SnowwhiteOakheart",
+      "description": "Beim Sommerfest trennen sich die Schwestern in der Menschenmenge, und eine verabredete Aussprache droht im Trubel unterzugehen.",
+      "starting_location": "Schreintreppe über der Stadt beim Sommerfest",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep2_feuerwerk_gestaendnis.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 2: Summer Fireworks",
+          "description": "At the annual summer festival, the sisters get separated in the crowd, and long-awaited feelings risk getting lost in the chaos.",
+          "starting_location": "Stone shrine steps overlooking the city during the festival"
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 2: Летний фейерверк",
+          "description": "Во время летнего фестиваля толпа разделяет сестер, и долгожданное признание рискует утонуть в шуме праздника.",
+          "starting_location": "Каменная лестница к святилищу во время праздника"
+        }
+      }
+    },
+    {
+      "id": "quintuplets_ep3_zwischenpruefung",
+      "title": "The Quintessential Quintuplets – Episode 3: Die Bewährungsprobe",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Zwischenprüfungen stehen bevor. Wenn auch nur eine Schwester durchfällt, wird Futaro gefeuert und die Fünflinge werden getrennt.",
+      "starting_location": "Klassenzimmer der Asahiyama-Oberschule am späten Nachmittag",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep3_zwischenpruefung.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 3: Trial by Midterms",
+          "description": "Midterm exams arrive. If even a single sister flunks, Futaro gets fired and the quintuplets will be forcibly separated.",
+          "starting_location": "Asahiyama High classroom in late afternoon light"
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 3: Испытание экзаменами",
+          "description": "На носу промежуточные экзамены. Если хотя бы одна из сестер провалится, Футаро уволят, а пятерняшек разлучат.",
+          "starting_location": "Классная комната школы Асахияма в лучах заката"
+        }
+      }
+    },
+    {
+      "id": "quintuplets_ep4_schneefahrt_huette",
+      "title": "The Quintessential Quintuplets – Episode 4: Eingeschneit im Skigebiet",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein plötzlicher Schneesturm schneidet die Gruppe in einer alten Schutzhütte ab. Kälte, Kerzenschein und eine uralte Lagerfeuer-Legende.",
+      "starting_location": "Verlassene Skihütte am Berghang",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep4_schneefahrt_huette.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 4: Snowbound Cabin",
+          "description": "A sudden mountain blizzard traps the group inside an old ski cabin. Warm hearthfire, whispered secrets, and the legend of the bonfire.",
+          "starting_location": "Rustic ski cabin nestled on the mountain slope"
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 4: Метель в хижине",
+          "description": "Внезапный буран отрезает группу в старой горной хижине. Треск камина, откровенные признания и легенда о костре.",
+          "starting_location": "Старая бревенчатая хижина на склоне горы"
+        }
+      }
+    },
+    {
+      "id": "quintuplets_ep5_schulfest_gestaendnisse",
+      "title": "The Quintessential Quintuplets – Episode 5: Das Schulfest der Erinnerungen",
+      "author": "SnowwhiteOakheart",
+      "description": "Das letzte Schulfest vor dem Abschluss. Essenstände, Bühnenauftritte und fünf Schwestern, die um einen entscheidenden Moment kämpfen.",
+      "starting_location": "Dach der Asahiyama-Oberschule während des Schulfest-Feuerwerks",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep5_schulfest_gestaendnisse.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 5: School Festival of Memories",
+          "description": "The final school festival before graduation. Food stalls, stage plays, and five sisters each fighting for an irreplaceable confession.",
+          "starting_location": "Rooftop of Asahiyama High during festival fireworks"
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 5: Фестиваль воспоминаний",
+          "description": "Последний школьный фестиваль перед выпуском. Шумные палатки, выступления и пять сестер, готовых открыть свои сердца.",
+          "starting_location": "Крыша школы Асахияма во время салюта"
+        }
+      }
     }
   ]
 }

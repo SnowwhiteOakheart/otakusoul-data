@@ -1,0 +1,136 @@
+{
+  "title": "The Quintessential Quintuplets – Episode 3: Die Bewährungsprobe",
+  "description": "Die Zwischenprüfungen stehen bevor. Wenn auch nur eine Schwester durchfällt, wird Futaro gefeuert und die Fünflinge werden getrennt.",
+  "world_context": "Die Asahiyama-Oberschule kurz vor den Zwischenprüfungen. Schlafentzug, fliegende Notizen und eiserner Überlebenswille.",
+  "starting_location": "Klassenzimmer der Asahiyama-Oberschule am späten Nachmittag",
+  "time_of_day": "Spätnachmittag",
+  "opening_narration": "Das Abendrot fällt schräg durch die staubigen Fenster des Klassenzimmers. Auf den Tischen stapeln sich Übungsbögen, zerknaultes Papier und leere Teetassen. Itsuki reibt sich verzweifelt die Augen über einer Biologie-Aufgabe, Nino droht entnervt mit dem Ausstieg, und Yotsuba kämpft tapfer gegen das Einschlafen. Der Einsatz war noch nie so hoch: Maruo Nakanos Kündigung droht wie ein Damoklesschwert. Es braucht eine zündende Idee, um alle fünf ins Ziel zu bringen.",
+  "party": [
+    "Futaro Uesugi",
+    "Itsuki Nakano",
+    "Miku Nakano",
+    "Nino Nakano",
+    "Yotsuba Nakano"
+  ],
+  "gm_tone": "Spannung & Prüfungsdrama",
+  "narrator_style": "Fokussiert, dramatisch, getrieben von Teamgeist und unbändigem Ehrgeiz.",
+  "lorebook": [
+    "The Quintessential Quintuplets – Die Nakano-Schwestern",
+    "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt"
+  ],
+  "starting_bg": "klassenzimmer_nachmittag.png",
+  "starting_ambient": "None",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 3: Trial by Midterms",
+          "description": "Midterm exams arrive. If even a single sister flunks, Futaro gets fired and the quintuplets will be forcibly separated.",
+          "world_context": "Asahiyama High on the eve of midterm exams. Sleep deprivation, crumpled flashcards, and sheer survival grit.",
+          "starting_location": "Asahiyama High classroom in late afternoon light",
+          "time_of_day": "Spätnachmittag",
+          "opening_narration": "Amber sunset light slants across dusty chalkboard ledges. Desks groan under towers of practice booklets, discarded drafts, and drained mugs. Itsuki rubs her eyes in desperation over a biology problem, Nino threatens to storm out, and Yotsuba battles exhaustion. The stakes could not be higher: their stepfather's ultimatum looms over every question. To beat the odds, each sister must rise to the challenge together.",
+          "gm_tone": "High Tension & Academic Drama",
+          "narrator_style": "Sharp, earnest, driven by desperate teamwork and triumphant breakthroughs."
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 3: Испытание экзаменами",
+          "description": "На носу промежуточные экзамены. Если хотя бы одна из сестер провалится, Футаро уволят, а пятерняшек разлучат.",
+          "world_context": "Старшая школа Асахияма накануне экзаменов. Хронический недосып, исписанные листы и железная решимость.",
+          "starting_location": "Классная комната школы Асахияма в лучах заката",
+          "time_of_day": "Spätnachmittag",
+          "opening_narration": "Багряные лучи заката освещают исписанную доску. Парты завалены тестами, черновиками и пустыми чашками из-под чая. Ицуки в отчаянии трет глаза над задачей по генетике, Нино грозится хлопнуть дверью, а Ёцуба отчаянно борется со сном. Ультиматум Маруо висит над ними как дамоклов меч. Спасти положение сможет лишь слаженная командная работа.",
+          "gm_tone": "Напряженная драма и командный дух",
+          "narrator_style": "Динамичный, эмоциональный, передающий накал предэкзаменационной борьбы."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "adventure",
+      "minutes": 45,
+      "difficulty": "hard",
+      "notes": [
+        "suspense"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Verteile die Aufgaben strikt nach den Spezialgebieten der Schwestern",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Ermutige Itsuki mit einer gemeinsamen Lernpause und heißem Tee",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Beweise Nino, dass das Bestehen aller Schwestern ihr gemeinsames Glück sichert",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Assign practice tests strictly matching each sister's specialty",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Encourage Itsuki with a brief study break and hot tea",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Show Nino that passing guarantees the sisters stay together",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Распределить задания строго по любимым предметам каждой сестры",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Поддержать Ицуки короткой паузой и горячим чаем",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Доказать Нино, что сдача тестов сохранит их общее счастье",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "penthouse_wohnzimmer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
+        },
+        {
+          "file": "sommerfest_schreintreppe.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png"
+        },
+        {
+          "file": "klassenzimmer_nachmittag.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/klassenzimmer_nachmittag.png"
+        },
+        {
+          "file": "skihuette_kaminfeuer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/skihuette_kaminfeuer.png"
+        },
+        {
+          "file": "schulfest_abenddaemmerung.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
+        }
+      ]
+    }
+  }
+}

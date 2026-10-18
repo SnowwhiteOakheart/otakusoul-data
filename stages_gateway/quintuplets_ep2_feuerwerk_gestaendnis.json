@@ -1,0 +1,135 @@
+{
+  "title": "The Quintessential Quintuplets – Episode 2: Das Sommer-Feuerwerk",
+  "description": "Beim Sommerfest trennen sich die Schwestern in der Menschenmenge, und eine verabredete Aussprache droht im Trubel unterzugehen.",
+  "world_context": "Das traditionelle Sommer-Hanabi-Festival. Die Schwestern tragen Yukatas, doch Missverständnisse und getrennte Wege fordern Futaros Orientierungssinn heraus.",
+  "starting_location": "Schreintreppe über der Stadt beim Sommerfest",
+  "time_of_day": "Abend",
+  "opening_narration": "Laternen flackern im Sommerwind, der Duft von geröstetem Tintenfisch zieht durch die engen Gassen, und die Menge drängt zur Schreintreppe. Ein Knall kündigt die ersten Feuerwerksblumen am Nachthimmel an. Nino sucht nach einem Souvenir, Ichika muss unerwartet zu einem dringenden Casting telefonieren, und Miku steht mit zitternden Händen allein auf der Treppe, umgeben von Fremden. Jetzt gilt es, die Schwestern wieder zusammenzuführen.",
+  "party": [
+    "Futaro Uesugi",
+    "Ichika Nakano",
+    "Miku Nakano",
+    "Nino Nakano"
+  ],
+  "gm_tone": "Sommer-Romantik & Festival-Trubel",
+  "narrator_style": "Atmosphärisch, gefühlvoll, zwischen Festival-Jubel und intimen Momenten.",
+  "lorebook": [
+    "The Quintessential Quintuplets – Die Nakano-Schwestern",
+    "The Quintessential Quintuplets – Orte & Schulalltag"
+  ],
+  "starting_bg": "sommerfest_schreintreppe.png",
+  "starting_ambient": "None",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 2: Summer Fireworks",
+          "description": "At the annual summer festival, the sisters get separated in the crowd, and long-awaited feelings risk getting lost in the chaos.",
+          "world_context": "The annual summer festival. The sisters wear yukatas, but surging crowds and separate secrets scatter them across the shrine grounds.",
+          "starting_location": "Stone shrine steps overlooking the city during the festival",
+          "time_of_day": "Abend",
+          "opening_narration": "Festival lanterns cast a golden glow through cedar branches, and the mouthwatering scent of festival snacks drifts on the breeze. A distant boom echoes as the first firework bursts across the violet twilight. Nino is off hunting souvenirs, Ichika is cornered taking a secret call for a movie audition, and Miku stands alone on the crowded stone steps, clutching her yukata sleeves with trembling fingers. Time to bring the sisters together before the grand finale fades.",
+          "gm_tone": "Summer Romance & Festival Energy",
+          "narrator_style": "Atmospheric, warm, alternating between festival spectacle and tender intimate confessions."
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 2: Летний фейерверк",
+          "description": "Во время летнего фестиваля толпа разделяет сестер, и долгожданное признание рискует утонуть в шуме праздника.",
+          "world_context": "Традиционный летний фестиваль фейерверков. Сестры надели юкаты, но суета и тайны разводят их по разным уголкам святилища.",
+          "starting_location": "Каменная лестница к святилищу во время праздника",
+          "time_of_day": "Abend",
+          "opening_narration": "Фонарики мерцают в кронах сосен, воздух напоен ароматом сладостей, а в небе распускаются первые огненные цветы салюта. Нино увлеклась покупками, Ичика вынуждена тайком отвечать на срочный звонок от режиссера, а Мику растерянно стоит на людной лестнице, сжимая рукава юкаты. Пришло время собрать всех вместе, пока не отгремел последний залп.",
+          "gm_tone": "Летняя романтика и праздничная суета",
+          "narrator_style": "Атмосферный, трепетный, сочетающий пышность салюта с тихими признаниями."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 35,
+      "difficulty": "easy",
+      "notes": [
+        "romance"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Halte Mikus Hand fest, damit sie nicht in der Menge verloren geht",
+            "badge": "Geschicklichkeit",
+            "action_type": "do"
+          },
+          {
+            "text": "Hilf Ichika, unbemerkt von Passanten ihr Casting-Telefonat zu führen",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Sprich Nino an und bringe sie zum Lachen über das Gedränge",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Hold Miku's hand so she doesn't get lost in the crowd",
+            "badge": "Agility",
+            "action_type": "do"
+          },
+          {
+            "text": "Shield Ichika from passersby during her urgent audition call",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Approach Nino and crack a joke about the festival crowd",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Взять Мику за руку, чтобы она не потерялась в толпе",
+            "badge": "Ловкость",
+            "action_type": "do"
+          },
+          {
+            "text": "Прикрыть Ичику от зевак во время срочного звонка со съемок",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Подойти к Нино и подшутить над праздничной суматохой",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "penthouse_wohnzimmer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
+        },
+        {
+          "file": "sommerfest_schreintreppe.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png"
+        },
+        {
+          "file": "klassenzimmer_nachmittag.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/klassenzimmer_nachmittag.png"
+        },
+        {
+          "file": "skihuette_kaminfeuer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/skihuette_kaminfeuer.png"
+        },
+        {
+          "file": "schulfest_abenddaemmerung.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
+        }
+      ]
+    }
+  }
+}

@@ -399,6 +399,63 @@
           "name": "Биение сердец и лепестки сакуры – Аниме-романтика и гаремная динамика"
         }
       }
+    },
+    {
+      "name": "The Quintessential Quintuplets – Die Nakano-Schwestern",
+      "author": "SnowwhiteOakheart",
+      "description": "Charaktereigenschaften, Dynamik und Erkennungsmerkmale der fünf Nakano-Fünflinge sowie die Erinnerung an ihre Mutter Rena.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_nakano_sisters.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "description": "Personalities, relationships, and distinct traits of the five Nakano quintuplets, along with the memory of their mother Rena.",
+          "name": "The Quintessential Quintuplets – The Nakano Sisters"
+        },
+        "ru": {
+          "description": "Характеры, взаимоотношения и отличительные черты пятерняшек Накано, а также память об их матери Рэне.",
+          "name": "The Quintessential Quintuplets – Сестры Накано"
+        }
+      }
+    },
+    {
+      "name": "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt",
+      "author": "SnowwhiteOakheart",
+      "description": "Futaros Nachhilfemethoden, Schulstoff-Aufteilung, Fächerstärken und die Verhältnisse im Hause Uesugi.",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_tutoring_study.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "description": "Futaro's tutoring methods, subject specializations, academic struggles, and the Uesugi household dynamic.",
+          "name": "The Quintessential Quintuplets – Tutoring & Uesugi Household"
+        },
+        "ru": {
+          "description": "Методы репетиторства Футаро, разделение предметов по сильным сторонам и жизнь семьи Уэсуги.",
+          "name": "The Quintessential Quintuplets – Репетиторство и дом Уэсуги"
+        }
+      }
+    },
+    {
+      "name": "The Quintessential Quintuplets – Orte & Schulalltag",
+      "author": "SnowwhiteOakheart",
+      "description": "Schauplätze der Serie: Das Penthouse der Schwestern, die Schule, Bäckerei Revontulet und Festplätze.",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_world_locations.json",
+      "revision": 1,
+      "updated": "2026-10-18",
+      "translations": {
+        "en": {
+          "description": "Iconic settings: The quintuplets' penthouse, Asahiyama High, bakery Revontulet, and festival grounds.",
+          "name": "The Quintessential Quintuplets – Locations & Daily Life"
+        },
+        "ru": {
+          "description": "Ключевые локации: пентхаус сестер, школа Асахияма, пекарня Ревонтулет и площадки фестивалей.",
+          "name": "The Quintessential Quintuplets – Места и школьные будни"
+        }
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 51 Charaktere · 43 Soul Stages (Szenen) · 21 Lorebooks · 19 Presets.
+> **Stand:** 57 Charaktere · 48 Soul Stages (Szenen) · 24 Lorebooks · 20 Presets.
 
 ---
 
@@ -18,6 +18,7 @@
 | `steins-gate` | Steins;Gate | `Okabe Rintarou`, `Mayuri Shiina`, `Itaru Hashida`, `Suzuha Amane` | `steins_gate_ep1_erste_dmail`<br>`steins_gate_ep2_ibn5100_suche`<br>`steins_gate_ep3_operation_urd`<br>`steins_gate_ep4_schmetterlingseffekt`<br>`steins_gate_ep5_tor_zu_steins_gate` (5) | • *Weltlinien & Divergenz* (`steins_gate_divergence.json`)<br>• *Labor-Gadgets & D-Mails* (`steins_gate_gadgets.json`)<br>• *Akihabara 2010 & SERN* (`steins_gate_akihabara.json`) |
 | `lycoris-recoil` | Lycoris Recoil | `Chisato Nishikigi`, `Takina Inoue`, `Kurumi`, `Mizuki Nakahara` | `lycoris_recoil_ep1_willkommen_im_cafe`<br>`lycoris_recoil_ep2_geleitschutz_tokio`<br>`lycoris_recoil_ep3_jagd_nach_walnut`<br>`lycoris_recoil_ep4_duell_im_morgengrauen` (4) | • *Café LycoReco* (`lycoris_recoil_cafe.json`)<br>• *DA & Alan Institute* (`lycoris_recoil_da.json`)<br>• *Ausrüstung & Taktik* (`lycoris_recoil_tactics.json`) |
 | `sword-art-online` | Sword Art Online | `Kirito (Kazuto Kirigaya)`, `Asuna Yuuki`, `Klein (Ryoutarou Tsuboi)`, `Lisbeth (Rika Shinozaki)` | `sao_ep1_die_verkuendung`<br>`sao_ep2_boss_ebene1`<br>`sao_ep3_waerme_des_herzens`<br>`sao_ep4_duell_in_den_schatten`<br>`sao_ep5_der_glaenzende_blick` (5) | • *Aincrad-Systemregeln* (`sao_system_rules.json`)<br>• *Gilden & Fraktionen* (`sao_guilds_factions.json`)<br>• *Aincrad-Geografie* (`sao_aincrad_geography.json`) |
+| `quintessential-quintuplets` | The Quintessential Quintuplets (5-toubun no Hanayome) | `Ichika Nakano`, `Nino Nakano`, `Miku Nakano`, `Yotsuba Nakano`, `Itsuki Nakano`, `Futaro Uesugi` (6) | `quintuplets_ep1_penthouse_nachhilfe`<br>`quintuplets_ep2_feuerwerk_gestaendnis`<br>`quintuplets_ep3_zwischenpruefung`<br>`quintuplets_ep4_schneefahrt_huette`<br>`quintuplets_ep5_schulfest_gestaendnisse` (5) | • *Die Nakano-Schwestern* (`quintuplets_nakano_sisters.json`)<br>• *Nachhilfe & Uesugi-Haushalt* (`quintuplets_tutoring_study.json`)<br>• *Orte & Schulalltag* (`quintuplets_world_locations.json`) |
 
 ---
 

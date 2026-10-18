@@ -1,0 +1,136 @@
+{
+  "title": "The Quintessential Quintuplets – Episode 4: Eingeschneit im Skigebiet",
+  "description": "Ein plötzlicher Schneesturm schneidet die Gruppe in einer alten Schutzhütte ab. Kälte, Kerzenschein und eine uralte Lagerfeuer-Legende.",
+  "world_context": "Klassenfahrt ins Hochgebirge. Ein dichter Blizzard zwingt Futaro und die Schwestern zu einer ungeplanten Nacht am Kamin.",
+  "starting_location": "Verlassene Skihütte am Berghang",
+  "time_of_day": "Nacht",
+  "opening_narration": "Draußen heult der Schneesturm und peitscht eisige Flocken gegen die verwitterten Holzläden. Drinnen knistert das Kaminfeuer und taucht die kleine Schutzhütte in bernsteinfarbenes Licht. Ichika wärmt sich die Hände am Feuer, Miku rückt verlegen näher an deine Seite, und Yotsuba schaufelt noch Schnee vom Türspalt. Bei Kerzenlicht kochen Emotionen hoch – und die Frage nach der Klassenfahrt-Legende des ewigen Bundes steht unausgesprochen im Raum.",
+  "party": [
+    "Futaro Uesugi",
+    "Ichika Nakano",
+    "Miku Nakano",
+    "Yotsuba Nakano"
+  ],
+  "gm_tone": "Intim, atmosphärisch & winterlich",
+  "narrator_style": "Kuschelig, leise knisternd, von romantischer Spannung aufgeladen.",
+  "lorebook": [
+    "The Quintessential Quintuplets – Die Nakano-Schwestern",
+    "The Quintessential Quintuplets – Orte & Schulalltag"
+  ],
+  "starting_bg": "skihuette_kaminfeuer.png",
+  "starting_ambient": "None",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 4: Snowbound Cabin",
+          "description": "A sudden mountain blizzard traps the group inside an old ski cabin. Warm hearthfire, whispered secrets, and the legend of the bonfire.",
+          "world_context": "School ski retreat in the snowy mountains. A heavy blizzard strands Futaro and the sisters for an unplanned overnight stay.",
+          "starting_location": "Rustic ski cabin nestled on the mountain slope",
+          "time_of_day": "Nacht",
+          "opening_narration": "Outside, howling gale winds whip blinding snow against weathered wooden shutters. Inside, dry logs crackle in the stone hearth, bathing the cozy cabin in flickering ember light. Ichika warms her hands near the flames with a contemplative gaze, Miku inches closer to your side under her wool shawl, and Yotsuba brushes frost from the windowsill. In the quiet warmth of candlelight, the school legend of hearts bound forever feels closer than ever.",
+          "gm_tone": "Intimate, Atmospheric & Winter Romance",
+          "narrator_style": "Cozy, hushed, charged with sweet romantic vulnerability."
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 4: Метель в хижине",
+          "description": "Внезапный буран отрезает группу в старой горной хижине. Треск камина, откровенные признания и легенда о костре.",
+          "world_context": "Школьная поездка в заснеженные горы. Метель вынуждает Футаро и девушек провести ночь у очага.",
+          "starting_location": "Старая бревенчатая хижина на склоне горы",
+          "time_of_day": "Nacht",
+          "opening_narration": "За стенами завывает ледяной ветер, швыряя хлопья снега в ставни. Внутри уютно потрескивает очаг, заливая бревенчатые стены янтарным светом. Ичика задумчиво греет ладони у огня, Мику робко подсаживается ближе, укутавшись в плед, а Ёцуба смахивает иней с подоконника. В полумраке хижины школьная легенда о вечной любви звучит особенно близко.",
+          "gm_tone": "Уютная зимняя романтика и саспенс",
+          "narrator_style": "Мягкий, камерный, наполненный трепетным теплом камина."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "romance",
+        "suspense"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Lege vorsichtig eine Decke über Mikus zitternde Schultern",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Ichika im Feuerschein nach ihren wahren Zukunftswünschen",
+            "badge": "Wahrnehmung",
+            "action_type": "say"
+          },
+          {
+            "text": "Bringe Holz nach und sorge dafür, dass Yotsuba sich am Kamin ausruht",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Gently drape a warm blanket over Miku's shivering shoulders",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Ichika by the firelight about her true hopes for the future",
+            "badge": "Perception",
+            "action_type": "say"
+          },
+          {
+            "text": "Add firewood and make sure Yotsuba rests by the hearth",
+            "badge": null,
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осторожно накинуть теплое одеяло на дрожащие плечи Мику",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Ичику у огня о ее сокровенных мечтах на будущее",
+            "badge": "Восприятие",
+            "action_type": "say"
+          },
+          {
+            "text": "Подбросить поленьев в камин и усадить Ёцубу греться",
+            "badge": null,
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "penthouse_wohnzimmer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
+        },
+        {
+          "file": "sommerfest_schreintreppe.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png"
+        },
+        {
+          "file": "klassenzimmer_nachmittag.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/klassenzimmer_nachmittag.png"
+        },
+        {
+          "file": "skihuette_kaminfeuer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/skihuette_kaminfeuer.png"
+        },
+        {
+          "file": "schulfest_abenddaemmerung.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
+        }
+      ]
+    }
+  }
+}

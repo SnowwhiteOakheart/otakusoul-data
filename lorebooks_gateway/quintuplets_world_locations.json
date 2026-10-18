@@ -1,0 +1,198 @@
+{
+  "name": "The Quintessential Quintuplets – Orte & Schulalltag",
+  "description": "Schauplätze der Serie: Das Penthouse der Schwestern, die Schule, Bäckerei Revontulet und Festplätze.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Das Penthouse-Appartement",
+      "key": [
+        "Penthouse",
+        "Wohnung",
+        "Wohnzimmer",
+        "Küche",
+        "Zimmer"
+      ],
+      "content": "Die luxuriöse Hochhauswohnung der Nakano-Schwestern mit riesigem Wohnzimmer, moderner Küche und fünf individuellen Schlafzimmern. Hauptschauplatz der täglichen Nachhilfestunden und hitzigen Familiendiskussionen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Penthouse Apartment",
+              "content": "The sprawling luxury high-rise apartment where the Nakano sisters live, featuring a spacious living room, gourmet kitchen, and five private bedrooms. The primary setting for tutoring sessions and sisterly conferences.",
+              "key": [
+                "penthouse",
+                "apartment",
+                "living room",
+                "kitchen",
+                "room"
+              ]
+            },
+            "ru": {
+              "name": "Пентхаус сестер",
+              "content": "Просторная квартира в элитной высотке, где живут сестры Накано, с огромной гостиной, современной кухней и пятью спальнями. Главное место ежедневных уроков и бурных семейных совещаний.",
+              "key": [
+                "пентхаус",
+                "квартира",
+                "гостиная",
+                "кухня",
+                "комната"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Bäckerei & Café Revontulet",
+      "key": [
+        "Revontulet",
+        "Bäckerei",
+        "Café",
+        "Nebenjob",
+        "Kuchen"
+      ],
+      "content": "Eine charmante Konditorei, in der Futaro und später auch Nino einen Teilzeitjob annehmen. Hier verfeinert Nino ihre Backkünste, während Futaro hart für Raihas Zukunft arbeitet.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Bakery & Café Revontulet",
+              "content": "A charming local pastry shop where Futaro and later Nino take on part-time jobs. Here Nino hones her baking expertise while Futaro earns money for Raiha's well-being.",
+              "key": [
+                "Revontulet",
+                "bakery",
+                "cafe",
+                "part-time",
+                "pastry"
+              ]
+            },
+            "ru": {
+              "name": "Пекарня-кафе Ревонтулет",
+              "content": "Уютная кондитерская, где Футаро, а позже и Нино, устраиваются на подработку. Здесь Нино оттачивает кулинарные шедевры, а Футаро зарабатывает деньги на семью.",
+              "key": [
+                "Ревонтулет",
+                "пекарня",
+                "кафе",
+                "подработка",
+                "выпечка"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Sommerfest & Schreintreppe",
+      "key": [
+        "Sommerfest",
+        "Schrein",
+        "Feuerwerk",
+        "Treppe",
+        "Yukata"
+      ],
+      "content": "Das traditionelle Sommer-Hanabi-Festival mit beleuchteten Buden und der langen Steintreppe zum Schrein, von der aus man einen atemberaubenden Blick auf das Feuerwerk hat.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Summer Festival & Shrine Steps",
+              "content": "The traditional summer fireworks festival bustling with food stalls and crowned by the long stone stairway to the hillside shrine, offering a stunning panoramic view of the fireworks.",
+              "key": [
+                "summer festival",
+                "shrine",
+                "fireworks",
+                "steps",
+                "yukata"
+              ]
+            },
+            "ru": {
+              "name": "Летний фестиваль и лестница к храму",
+              "content": "Традиционный летний праздник с уличными лотками и длинной каменной лестницей к святилищу на холме, откуда открывается захватывающий вид на фейерверки.",
+              "key": [
+                "летний фестиваль",
+                "храм",
+                "фейерверк",
+                "лестница",
+                "юката"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Skigebiet & Berghütte",
+      "key": [
+        "Skigebiet",
+        "Schnee",
+        "Hütte",
+        "Lagerfeuer",
+        "Klassenfahrt"
+      ],
+      "content": "Ziel der Schul-Klassenfahrt in die verschneiten Berge. Ein plötzlicher Schneesturm isoliert die Schüler, und eine alte Schullegende besagt, dass Paare, die am Lagerfeuer Händchen halten, ewig verbunden bleiben.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Ski Resort & Mountain Cabin",
+              "content": "The destination of the school winter retreat high in the snow-covered mountains. A sudden blizzard strands the group, bringing to light the legend that holding hands around the bonfire binds hearts for life.",
+              "key": [
+                "ski resort",
+                "snow",
+                "cabin",
+                "campfire",
+                "field trip"
+              ]
+            },
+            "ru": {
+              "name": "Горнолыжный курорт и хижина",
+              "content": "Место зимней школьной поездки в заснеженные горы. Внезапная метель отрезает путь, напоминая о школьной легенде: взявшиеся за руки у костра останутся вместе навсегда.",
+              "key": [
+                "горнолыжный курорт",
+                "снег",
+                "хижина",
+                "костер",
+                "поездка"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "The Quintessential Quintuplets – Locations & Daily Life",
+          "description": "Iconic settings: The quintuplets' penthouse, Asahiyama High, bakery Revontulet, and festival grounds."
+        },
+        "ru": {
+          "name": "The Quintessential Quintuplets – Места и школьные будни",
+          "description": "Ключевые локации: пентхаус сестер, школа Асахияма, пекарня Ревонтулет и площадки фестивалей."
+        }
+      }
+    }
+  }
+}

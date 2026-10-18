@@ -1,0 +1,242 @@
+{
+  "name": "The Quintessential Quintuplets – Die Nakano-Schwestern",
+  "description": "Charaktereigenschaften, Dynamik und Erkennungsmerkmale der fünf Nakano-Fünflinge sowie die Erinnerung an ihre Mutter Rena.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Die Nakano-Fünflinge & Mutter Rena",
+      "key": [
+        "Nakano",
+        "Fünflinge",
+        "Rena",
+        "Schwestern",
+        "Mutter"
+      ],
+      "content": "Die fünf eineiigen Schwestern (Ichika, Nino, Miku, Yotsuba, Itsuki) wurden am selben Tag geboren und teilten in ihrer Kindheit identisches Aussehen. Ihre verstorbene Mutter Rena lehrte sie, dass fünf Teile ein Ganzes bilden und sie immer zusammenhalten müssen. Ihr Stiefvater Maruo Nakano ist ein vielbeschäftigter Arzt, der ihnen ein Luxus-Penthouse finanziert, emotional jedoch distanziert bleibt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Nakano Quintuplets & Mother Rena",
+              "content": "The five identical sisters (Ichika, Nino, Miku, Yotsuba, Itsuki) were born on the same day and looked completely identical throughout childhood. Their late mother Rena taught them that five parts make a whole and they must always support one another. Their stepfather Maruo Nakano is a wealthy, busy physician who pays for their penthouse apartment but remains emotionally distant.",
+              "key": [
+                "Nakano",
+                "quintuplets",
+                "Rena",
+                "sisters",
+                "mother"
+              ]
+            },
+            "ru": {
+              "name": "Пятерняшки Накано и мать Рэна",
+              "content": "Пять сестер-близнецов (Ичика, Нино, Мику, Ёцуба, Ицуки) родились в один день и в детстве выглядели совершенно одинаково. Их покойная мать Рэна учила их, что пять частей составляют единое целое и они всегда должны держаться вместе. Их отчим Маруо Накано — богатый врач, оплачивающий им роскошный пентхаус, но остающийся эмоционально отстраненным.",
+              "key": [
+                "Накано",
+                "пятерняшки",
+                "Рэна",
+                "сестры",
+                "мать"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Ichika & Nino (Die Älteren)",
+      "key": [
+        "Ichika",
+        "Nino",
+        "Schauspielerin",
+        "Kochen",
+        "Schmetterling"
+      ],
+      "content": "Ichika tritt als verspielte, reife Onee-san auf, arbeitet heimlich als Filmschauspielerin und trägt finanzielle Lasten. Nino ist die temperamentvolle Beschützerin der Schwestern mit schwarzem Schmetterlings-Haarschmuck, hervorragenden Kochkünsten und spitzer Tsundere-Zunge.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Ichika & Nino (The Eldest)",
+              "content": "Ichika acts as the teasing, mature big sister, working secretly as a movie actress to help provide for the household. Nino is the fierce, protective homemaker sporting twin black butterfly ribbons, exceptional cooking prowess, and an unyielding tsundere sharp tongue.",
+              "key": [
+                "Ichika",
+                "Nino",
+                "actress",
+                "cooking",
+                "butterfly"
+              ]
+            },
+            "ru": {
+              "name": "Ичика и Нино (Старшие)",
+              "content": "Ичика выступает в роли рассудительной, дразнящей старшей сестры, втайне работая актрисой и неся финансовые расходы. Нино — вспыльчивая защитница домашнего очага с черными бантиками-бабочками, непревзойденным талантом повара и острым язычком цундэрэ.",
+              "key": [
+                "Ичика",
+                "Нино",
+                "актриса",
+                "готовка",
+                "бабочка"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Miku & Yotsuba (Historikerin & Sportlerin)",
+      "key": [
+        "Miku",
+        "Yotsuba",
+        "Kopfhörer",
+        "Schleife",
+        "Sengoku"
+      ],
+      "content": "Miku trägt blaue Kopfhörer, liebt Sengoku-Feldherren (Takeda Shingen), lernt mühsam backen und zweifelt an ihrem Selbstwert. Yotsuba trägt ein grünes Schleifenband, sprüht vor Energie und Leichtathletik, hilft allen Schülern und unterdrückt eigene Gefühle aus Schuldgefühlen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Miku & Yotsuba (Historian & Athlete)",
+              "content": "Miku wears blue headphones, harbors an obsession with Sengoku military tacticians (Takeda Shingen), works tirelessly at baking, and battles low self-esteem. Yotsuba wears a green bunny ribbon, overflows with athletic cheer, volunteers for clubs, and buries her own desires out of lingering guilt.",
+              "key": [
+                "Miku",
+                "Yotsuba",
+                "headphones",
+                "ribbon",
+                "Sengoku"
+              ]
+            },
+            "ru": {
+              "name": "Мику и Ёцуба (Историк и спортсменка)",
+              "content": "Мику носит синие наушники, обожает полководцев эпохи Сэнгоку (Такэду Сингэна), учится печь и борется с неуверенностью. Ёцуба носит зеленую ленту, переполнена спортивным задором, помогает всем вокруг и подавляет собственные чувства из-за вины за прошлое.",
+              "key": [
+                "Мику",
+                "Ёцуба",
+                "наушники",
+                "лента",
+                "Сэнгоку"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Itsuki (Die Musterschülerin)",
+      "key": [
+        "Itsuki",
+        "Sternchen",
+        "Lehrerin",
+        "Appetit",
+        "Fleischbällchen"
+      ],
+      "content": "Itsuki ist die jüngste der Fünflinge, trägt Sternchen-Haarspangen und einen markanten Haarschopf. Sie strebt mit stolzer Sturheit nach dem Lehrerberuf wie ihre Mutter Rena und besitzt einen unstillbaren Gourmet-Appetit.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Itsuki (The Earnest Student)",
+              "content": "Itsuki is the youngest quintuplet, recognizable by her star hairpins and expressive cowlick. She tenaciously aims to become a teacher to honor their mother Rena, balancing stubborn pride with an insatiable gourmet appetite.",
+              "key": [
+                "Itsuki",
+                "stars",
+                "teacher",
+                "appetite",
+                "meat bun"
+              ]
+            },
+            "ru": {
+              "name": "Ицуки (Прилежная ученица)",
+              "content": "Ицуки — младшая из сестер, носит заколки-звездочки и забавный вихор. Она упорно стремится стать учительницей в память о матери Рэне, сочетая гордое упрямство с легендарным аппетитом гурмана.",
+              "key": [
+                "Ицуки",
+                "звездочки",
+                "учитель",
+                "аппетит",
+                "пирожки"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Verkleidungen & Gleiche Gesichter",
+      "key": [
+        "Verkleidung",
+        "Stimme",
+        "Haare",
+        "Täuschung",
+        "Perücke"
+      ],
+      "content": "Da die fünf Schwestern eineiige Fünflinge mit identischer Stimmhöhe und Statur sind, können sie einander durch Frisur, Kleidung und Mimik perfekt imitieren. Nur wer jede Schwester mit echtem Herzen wahrnimmt, vermag sie fehlerfrei auseinanderzuhalten.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Disguises & Identical Faces",
+              "content": "Being identical quintuplets with the same pitch, facial contours, and build, the five sisters can flawlessly impersonate one another by altering their hairstyles, accessories, and voices. Only someone who truly perceives each sister with genuine love and care can tell them apart.",
+              "key": [
+                "disguise",
+                "voice",
+                "hair",
+                "impersonation",
+                "wig"
+              ]
+            },
+            "ru": {
+              "name": "Переодевания и одинаковые лица",
+              "content": "Будучи однояйцевыми близнецами с одинаковым тембром голоса и телосложением, сестры способны безупречно подменять друг друга при помощи причесок, аксессуаров и манер. Лишь тот, кто искренне знает сердце каждой из них, способен распознать подмену.",
+              "key": [
+                "маскировка",
+                "голос",
+                "волосы",
+                "подмена",
+                "парик"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "The Quintessential Quintuplets – The Nakano Sisters",
+          "description": "Personalities, relationships, and distinct traits of the five Nakano quintuplets, along with the memory of their mother Rena."
+        },
+        "ru": {
+          "name": "The Quintessential Quintuplets – Сестры Накано",
+          "description": "Характеры, взаимоотношения и отличительные черты пятерняшек Накано, а также память об их матери Рэне."
+        }
+      }
+    }
+  }
+}

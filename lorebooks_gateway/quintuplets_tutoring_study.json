@@ -1,0 +1,198 @@
+{
+  "name": "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt",
+  "description": "Futaros Nachhilfemethoden, Schulstoff-Aufteilung, Fächerstärken und die Verhältnisse im Hause Uesugi.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Futaros 5-Fächer-Methode",
+      "key": [
+        "Nachhilfe",
+        "Fach",
+        "Methode",
+        "Lernen",
+        "Punkte"
+      ],
+      "content": "Futaro erkannte, dass keine der Schwestern allein den gesamten Lehrstoff bewältigen konnte, jede jedoch ein Paradefach besitzt: Ichika (Geschichte), Nino (Englisch), Miku (Japanische Geschichte), Yotsuba (Japanisch), Itsuki (Naturwissenschaften). Er lässt sie jeweils ihr Spezialfach meistern und die anderen Schwestern unterrichten.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Futaro's Five-Subject Strategy",
+              "content": "Futaro realized none of the sisters could master all subjects on their own, but each possessed one standout strength: Ichika (Social Studies), Nino (English), Miku (Japanese History), Yotsuba (Japanese), and Itsuki (Science). By having each girl specialize and teach the others, their collective grades rise.",
+              "key": [
+                "tutoring",
+                "subject",
+                "method",
+                "study",
+                "score"
+              ]
+            },
+            "ru": {
+              "name": "Метод пяти предметов Футаро",
+              "content": "Футаро понял, что в одиночку ни одна из сестер не осилит программу целиком, но у каждой есть один сильный предмет: Ичика (история), Нино (английский), Мику (японская история), Ёцуба (родной язык), Ицуки (естествознание). Каждая углубляет свой предмет и помогает остальным.",
+              "key": [
+                "репетиторство",
+                "предмет",
+                "метод",
+                "учеба",
+                "баллы"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Maruos Durchfall-Klausel",
+      "key": [
+        "Klausel",
+        "Maruo",
+        "Durchfallen",
+        "Bedingung",
+        "Entlassung"
+      ],
+      "content": "Maruo Nakano stellte die unerbittliche Bedingung: Sollte auch nur eine einzige der fünf Schwestern bei einer Zwischen- oder Abschlussprüfung durchfallen (unter 30 Punkten), wird Futaro fristlos entlassen und die Schwestern werden an eine Privatschule zwangsversetzt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Maruo's Expulsion Clause",
+              "content": "Maruo Nakano laid down a ruthless ultimatum: should even a single one of the five sisters fail an exam (scoring below 30 points), Futaro will be fired on the spot and the girls will be forcibly transferred away to a strict private academy.",
+              "key": [
+                "clause",
+                "Maruo",
+                "failing",
+                "condition",
+                "fired"
+              ]
+            },
+            "ru": {
+              "name": "Ультиматум Маруо",
+              "content": "Маруо Накано поставил безжалостное условие: если хотя бы одна из пяти сестер провалит экзамен (наберет меньше 30 баллов), Футаро будет немедленно уволен, а девушек переведут в закрытую частную школу.",
+              "key": [
+                "ультиматум",
+                "Маруо",
+                "провал",
+                "условие",
+                "увольнение"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Raiha & Familie Uesugi",
+      "key": [
+        "Raiha",
+        "Isanari",
+        "Schulden",
+        "Armut",
+        "Sparsamkeit"
+      ],
+      "content": "Futaro lebt in ärmlichen Verhältnissen mit seinem sorglosen Vater Isanari und seiner liebenswerten kleinen Schwester Raiha, für die er alles tun würde. Die Nakano-Schwestern haben Raiha sofort ins Herz geschlossen, was die Eisbarriere zwischen ihnen und Futaro brach.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Raiha & the Uesugi Family",
+              "content": "Futaro lives in humble poverty burdened by heavy debts, sharing a modest home with his easygoing father Isanari and his sweet younger sister Raiha. The Nakano sisters instantly fell in love with Raiha, which broke the ice between them and Futaro.",
+              "key": [
+                "Raiha",
+                "Isanari",
+                "debt",
+                "poverty",
+                "frugal"
+              ]
+            },
+            "ru": {
+              "name": "Райха и семья Уэсуги",
+              "content": "Футаро живет в крайней бедности из-за долгов отца, разделяя скромный дом с беспечным отцом Исанари и обожаемой младшей сестренкой Райхой. Сестры Накано мгновенно полюбили Райху, что растопило лед в их отношениях с Футаро.",
+              "key": [
+                "Райха",
+                "Исанари",
+                "долги",
+                "бедность",
+                "экономия"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Asahiyama-Oberschule",
+      "key": [
+        "Asahiyama",
+        "Schule",
+        "Klassenzimmer",
+        "Prüfung",
+        "Noten"
+      ],
+      "content": "Die öffentliche Oberschule, an der Futaro Jahrgangsbester ist und auf die die Nakano-Schwestern nach ihrem Rauswurf aus der vorherigen Privatschule wechselten. Schauplatz von Prüfungsstress, Schulfesten und heimlichen Treffen auf dem Dach.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Asahiyama High School",
+              "content": "The public high school where Futaro reigns as the top academic student and to which the Nakano sisters transferred after being expelled from their previous academy. Scene of rigorous midterm exams, festival preparations, and rooftop lunches.",
+              "key": [
+                "Asahiyama",
+                "school",
+                "classroom",
+                "exam",
+                "grades"
+              ]
+            },
+            "ru": {
+              "name": "Старшая школа Асахияма",
+              "content": "Государственная старшая школа, где Футаро является круглым отличником и куда перевелись сестры Накано после отчисления из частной академии. Место напряженных экзаменов, школьных фестивалей и встреч на крыше.",
+              "key": [
+                "Асахияма",
+                "школа",
+                "класс",
+                "экзамен",
+                "оценки"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "The Quintessential Quintuplets – Tutoring & Uesugi Household",
+          "description": "Futaro's tutoring methods, subject specializations, academic struggles, and the Uesugi household dynamic."
+        },
+        "ru": {
+          "name": "The Quintessential Quintuplets – Репетиторство и дом Уэсуги",
+          "description": "Методы репетиторства Футаро, разделение предметов по сильным сторонам и жизнь семьи Уэсуги."
+        }
+      }
+    }
+  }
+}

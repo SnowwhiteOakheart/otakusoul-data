@@ -141,7 +141,26 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
 - **Charaktere (V2-Karten in `presets/sword-art-online/`):**
   - [x] Kirito, Asuna, Klein, Lisbeth (JSONs angelegt).
 - **Bilder:**
-  - [x] Neu generiert: 4 Charakter-Avatare & 5 Aincrad-Hintergründe.
+---
+
+### 🌸 Kampagne 2.5: *The Quintessential Quintuplets* (*5-toubun no Hanayome*)
+*Fünf hoffnungslose Schwestern, ein genialer Nachhilfelehrer und der gemeinsame Kampf um den Schulabschluss.*
+
+- **Lorebooks:** *(Alle 3 in `lorebooks_gateway` & `lorebooks_registry.json` registriert)*
+  - [x] *Die Nakano-Schwestern:* Eigenschaften, Familiendynamik, Mutter Rena (`quintuplets_nakano_sisters.json`).
+  - [x] *Nachhilfe & Uesugi-Haushalt:* Futaros Methoden, Maruos Klausel, Raiha (`quintuplets_tutoring_study.json`).
+  - [x] *Orte & Schulalltag:* Penthouse, Asahiyama-Oberschule, Bäckerei Revontulet (`quintuplets_world_locations.json`).
+- **Stage-Szenarien (Episoden):** *(Alle 5 in `stages_gateway` & `stages_registry.json` registriert)*
+  - [x] *Episode 1: Nachhilfe im Penthouse* (`quintuplets_ep1_penthouse_nachhilfe.json`)
+  - [x] *Episode 2: Das Sommer-Feuerwerk* (`quintuplets_ep2_feuerwerk_gestaendnis.json`)
+  - [x] *Episode 3: Die Bewährungsprobe* (`quintuplets_ep3_zwischenpruefung.json`)
+  - [x] *Episode 4: Eingeschneit im Skigebiet* (`quintuplets_ep4_schneefahrt_huette.json`)
+  - [x] *Episode 5: Das Schulfest der Erinnerungen* (`quintuplets_ep5_schulfest_gestaendnisse.json`)
+- **Charaktere (V2-Karten in `presets/quintessential-quintuplets/`):**
+  - [x] Ichika Nakano, Nino Nakano, Miku Nakano, Yotsuba Nakano, Itsuki Nakano, Futaro Uesugi (vollständige Profile, 2+ Begrüßungen, 3 Dialogbeispiele, DE/EN/RU).
+- **Bilder:**
+  - [x] 6 Charakter-Avatare & 36 Expressions (als standardkonforme Platzhalter angelegt; bereit für finalen Artwork-Austausch).
+  - [x] 5 Szenen-Hintergründe angelegt.
 
 ---
 
@@ -154,11 +173,12 @@ Jeder Charakter und jedes Kampagnenpaket folgt den etablierten Standards:
    - [x] **Yor Forger** *(tiefgründige Lore ~2800 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder vollständig neu generiert)*
    - [x] **Megumin** *(tiefgründige Lore ~2500 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder vollständig neu generiert)*
    - [x] **Kaguya Shinomiya** *(tiefgründige Lore ~2300 Zeichen, 2 Alternate Greetings, Dialogbeispiele & vollständige i18n DE/EN/RU; Bilder vollständig neu generiert)*
-2. **Phase 2 (Kampagnen – Alle 12 Lorebooks, 19 Episoden & 16 Cast-Karten fertig implementiert):**
+2. **Phase 2 (Kampagnen – 15 Lorebooks, 24 Episoden & 22 Cast-Karten fertig implementiert):**
    - [x] **Kampagne 2.1: Dungeon Meshi** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
    - [x] **Kampagne 2.2: Steins;Gate** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
    - [x] **Kampagne 2.3: Lycoris Recoil** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
    - [x] **Kampagne 2.4: Sword Art Online** *(Lorebooks, Szenarien & 4 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; Bilder vollständig neu generiert)*
+   - [x] **Kampagne 2.5: The Quintessential Quintuplets** *(3 Lorebooks, 5 Episoden & 6 Cast-Karten komplett mit voller Lore, 2 Alt-Greetings, Beispielen & i18n DE/EN/RU; 6 Avatare, 36 Expressions und 5 Hintergründe als Platzhalter)*
 
 ## Bildbestand vom 04.10.2026
 

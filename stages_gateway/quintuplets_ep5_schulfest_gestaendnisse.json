@@ -1,0 +1,139 @@
+{
+  "title": "The Quintessential Quintuplets – Episode 5: Das Schulfest der Erinnerungen",
+  "description": "Das letzte Schulfest vor dem Abschluss. Essenstände, Bühnenauftritte und fünf Schwestern, die um einen entscheidenden Moment kämpfen.",
+  "world_context": "Das große dreitägige Schulfest der Asahiyama-Oberschule. Alle fünf Schwestern haben ihren eigenen Stand und wollen ihre Gefühle offenbaren.",
+  "starting_location": "Dach der Asahiyama-Oberschule während des Schulfest-Feuerwerks",
+  "time_of_day": "Abend",
+  "opening_narration": "Lachen, Musik und bunte Wimpel erfüllen das Schulgelände. Nino serviert Pfannkuchen am Stand, Miku präsentiert stolz ihr selbstgebackenes Gebäck, Itsuki testet unermüdlich alle Essensstände, Yotsuba rennt als Festkomitee von Krise zu Krise, und Ichika schleicht sich maskiert vom Set heran. Auf dem Schuldach, weit über dem Getümmel, brennen die Lichter der Stadt. Die gemeinsame Zeit der Nachhilfe neigt sich dem Ende zu – und ein Geständnis liegt in der Abendluft.",
+  "party": [
+    "Futaro Uesugi",
+    "Ichika Nakano",
+    "Nino Nakano",
+    "Miku Nakano",
+    "Yotsuba Nakano",
+    "Itsuki Nakano"
+  ],
+  "gm_tone": "Großes Finale & Romantischer Höhepunkt",
+  "narrator_style": "Feierlich, emotional, voller Nostalgie und berührender Höhepunkte.",
+  "lorebook": [
+    "The Quintessential Quintuplets – Die Nakano-Schwestern",
+    "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt",
+    "The Quintessential Quintuplets – Orte & Schulalltag"
+  ],
+  "starting_bg": "schulfest_abenddaemmerung.png",
+  "starting_ambient": "None",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 5: School Festival of Memories",
+          "description": "The final school festival before graduation. Food stalls, stage plays, and five sisters each fighting for an irreplaceable confession.",
+          "world_context": "The grand three-day Asahiyama High school festival. Each sister runs her own booth and seeks a private moment with Futaro.",
+          "starting_location": "Rooftop of Asahiyama High during festival fireworks",
+          "time_of_day": "Abend",
+          "opening_narration": "Banners flutter, music echoes across the courtyard, and festival energy hums through the corridors. Nino whips up signature pancakes, Miku proudly offers warm pastries, Itsuki enthusiastically critiques every food stall, Yotsuba sprints to solve logistical crises, and Ichika slips onto campus incognito. High above the bustling festival on the quiet rooftop, the evening breeze carries the promise of graduation — and unspoken truths ready to be confessed.",
+          "gm_tone": "Grand Finale & Romantic Climax",
+          "narrator_style": "Celebratory, deeply emotional, resonant with nostalgia and triumphant love."
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 5: Фестиваль воспоминаний",
+          "description": "Последний школьный фестиваль перед выпуском. Шумные палатки, выступления и пять сестер, готовых открыть свои сердца.",
+          "world_context": "Грандиозный трехдневный фестиваль школы Асахияма. У каждой сестры свои заботы и палатка, но мысли заняты одним.",
+          "starting_location": "Крыша школы Асахияма во время салюта",
+          "time_of_day": "Abend",
+          "opening_narration": "Разноцветные флажки, музыка и смех наполняют школьный двор. Нино подает фирменные блинчики, Мику с гордостью протягивает домашнюю выпечку, Ицуки неутомимо дегустирует лакомства, Ёцуба носится по поручениям комитета, а Ичика тайком пробирается на праздник в маскировке. На крыше школы вечерний ветер колышет волосы, напоминая о скором выпускном — и о чувствах, которые больше нельзя скрывать.",
+          "gm_tone": "Грандиозный финал и кульминация чувств",
+          "narrator_style": "Праздничный, глубоко трогательный, наполненный ностальгией и светлой любовью."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 50,
+      "difficulty": "medium",
+      "notes": [
+        "romance",
+        "flirting"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Besuche Mikus und Ninos Stände, um ihre Kreationen ehrlich zu loben",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Fange Yotsuba ab und zwinge sie liebevoll zu einer wohlverdienten Pause",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Tritt an das Geländer des Dachs und blicke mit den Schwestern in die Zukunft",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Visit Miku and Nino's stalls to praise their culinary triumphs",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Catch up with Yotsuba and gently insist she takes a well-deserved rest",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Step to the rooftop railing and look toward the future with the sisters",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Посетить палатки Мику и Нино, чтобы искренне оценить их кулинарные труды",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Перехватить Ёцубу и ласково заставить ее сделать заслуженный перерыв",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Подойти к перилам на крыше и взглянуть в будущее вместе с девушками",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "penthouse_wohnzimmer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
+        },
+        {
+          "file": "sommerfest_schreintreppe.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png"
+        },
+        {
+          "file": "klassenzimmer_nachmittag.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/klassenzimmer_nachmittag.png"
+        },
+        {
+          "file": "skihuette_kaminfeuer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/skihuette_kaminfeuer.png"
+        },
+        {
+          "file": "schulfest_abenddaemmerung.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
+        }
+      ]
+    }
+  }
+}

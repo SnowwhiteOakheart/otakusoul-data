@@ -1,0 +1,138 @@
+{
+  "title": "The Quintessential Quintuplets – Episode 1: Nachhilfe im Penthouse",
+  "description": "Futaros erster Tag als Nachhilfelehrer im Luxus-Penthouse der fünf Schwestern stößt auf eisige Ablehnung und handfeste Sabotage.",
+  "world_context": "Asahiyama-Oberschule / Penthouse der Nakano-Schwestern. Futaros Familie braucht dringend Geld, doch die fünf Schwestern wollen von Nachhilfe nichts wissen.",
+  "starting_location": "Wohnzimmer im Penthouse der Nakano-Schwestern",
+  "time_of_day": "Nachmittag",
+  "opening_narration": "Ein edler Marmorboden, bodentiefe Fenster und fünf Mädchen, die alles andere im Sinn haben als Unterricht. Nino funkelt dich mit verschränkten Armen feindselig an, Itsuki weigert sich nach eurem Streit in der Mensa zu kooperieren, und Ichika schaut schläfrig lächelnd aus ihrem Zimmer. Nur Yotsuba winkt aufgeregt, während Miku mit Kopfhörern hinter einem Geschichtsbuch abtaucht. Deine Mission: Alle fünf an einen Tisch bringen, bevor Maruo Nakano die Geduld verliert.",
+  "party": [
+    "Futaro Uesugi",
+    "Ichika Nakano",
+    "Nino Nakano",
+    "Miku Nakano",
+    "Yotsuba Nakano",
+    "Itsuki Nakano"
+  ],
+  "gm_tone": "Romantische Komödie & Schulalltag",
+  "narrator_style": "Lebhaft, humorvoll, voller Schwestern-Dynamik und pointierter Dialoge.",
+  "lorebook": [
+    "The Quintessential Quintuplets – Die Nakano-Schwestern",
+    "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt",
+    "The Quintessential Quintuplets – Orte & Schulalltag"
+  ],
+  "starting_bg": "penthouse_wohnzimmer.png",
+  "starting_ambient": "None",
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Quintessential Quintuplets – Episode 1: Penthouse Tutoring",
+          "description": "Futaro's first day as tutor at the lavish Nakano penthouse meets icy suspicion, stubborn pride, and outright sabotage.",
+          "world_context": "Asahiyama High / The Nakano Penthouse. Futaro's family desperately needs tutoring income, but the five sisters refuse to cooperate.",
+          "starting_location": "Living room of the Nakano penthouse",
+          "time_of_day": "Nachmittag",
+          "opening_narration": "Polished marble floors, panoramic windows, and five sisters determined to avoid studying at all costs. Nino glares with arms crossed in open hostility, Itsuki still nurses a grudge from the cafeteria incident, and Ichika lounges sleepily by her doorway. Only Yotsuba greets you with enthusiastic bows, while Miku buries herself behind headphones and a history chronicle. Your mission: get all five to sit down before their stepfather pulls the plug.",
+          "gm_tone": "Romantic Comedy & Slice-of-Life",
+          "narrator_style": "Brisk, witty, emphasizing vibrant quintuplet banter and situational comedy."
+        },
+        "ru": {
+          "title": "The Quintessential Quintuplets – Эпизод 1: Репетитор в пентхаусе",
+          "description": "Первый день Футаро в роли репетитора в роскошном пентхаусе сестер Накано оборачивается ледяным приемом и прямым бунтом.",
+          "world_context": "Школа Асахияма / Пентхаус сестер Накано. Семья Футаро в долгах, но пятерняшки наотрез отказываются садиться за уроки.",
+          "starting_location": "Гостиная в пентхаусе сестер Накано",
+          "time_of_day": "Nachmittag",
+          "opening_narration": "Мраморный пол, панорамные окна и пять девушек, готовых на что угодно, лишь бы не учиться. Нино сверлит тебя ледяным взглядом, Ицуки дуется после стычки в столовой, а Ичика сонно улыбается из дверного проема. Лишь Ёцуба радостно машет руками, пока Мику прячется за наушниками и книгой по истории. Твоя задача — усадить всех пятерых за стол до того, как лопнет терпение их отчима.",
+          "gm_tone": "Романтическая комедия и повседневность",
+          "narrator_style": "Остроумный, живой, передающий яркую химию сестер и комичные перепалки."
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "comedy",
+      "minutes": 40,
+      "difficulty": "medium",
+      "notes": [
+        "flirting"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Biete Itsuki ein friedliches Gespräch und einen Snack an",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Nutze Mikus Geschichtsbegeisterung als Eisbrecher",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Fordere Nino direkt heraus, ihre Abneigung zu begründen",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Offer Itsuki a peaceful conversation and a snack",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Use Miku's passion for history as an icebreaker",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Directly challenge Nino to explain her hostility",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Предложить Ицуки мирный разговор и перекус",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Использовать интерес Мику к истории, чтобы растопить лед",
+            "badge": "Восприятие",
+            "action_type": "do"
+          },
+          {
+            "text": "Прямо спросить Нино о причинах ее неприязни",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "penthouse_wohnzimmer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
+        },
+        {
+          "file": "sommerfest_schreintreppe.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png"
+        },
+        {
+          "file": "klassenzimmer_nachmittag.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/klassenzimmer_nachmittag.png"
+        },
+        {
+          "file": "skihuette_kaminfeuer.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/skihuette_kaminfeuer.png"
+        },
+        {
+          "file": "schulfest_abenddaemmerung.png",
+          "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
+        }
+      ]
+    }
+  }
+}
