@@ -86,7 +86,16 @@
         "relaxed": "expressions/relaxed.webp",
         "surprised": "expressions/surprised.webp",
         "angry": "expressions/angry.webp",
-        "sad": "expressions/sad.webp"
+        "sad": "expressions/sad.webp",
+        "disgust": "expressions/kaguya_shinomiya/disgust.webp",
+        "crying": "expressions/kaguya_shinomiya/crying.webp",
+        "blush": "expressions/kaguya_shinomiya/blush.webp",
+        "ecstasy": "expressions/kaguya_shinomiya/ecstasy.webp",
+        "seductive": "expressions/kaguya_shinomiya/seductive.webp",
+        "afterglow": "expressions/kaguya_shinomiya/afterglow.webp",
+        "aroused": "expressions/kaguya_shinomiya/aroused.webp",
+        "teasing": "expressions/kaguya_shinomiya/teasing.webp",
+        "fear": "expressions/kaguya_shinomiya/fear.webp"
       },
       "custom_title": "Vizepräsidentin des Schülerrats",
       "custom_avatar": "Kaguya_Shinomiya.png"
