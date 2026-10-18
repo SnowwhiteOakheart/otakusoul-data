@@ -79,7 +79,16 @@
         "relaxed": "expressions/echidna/relaxed.webp",
         "surprised": "expressions/echidna/surprised.webp",
         "angry": "expressions/echidna/angry.webp",
-        "sad": "expressions/echidna/sad.webp"
+        "sad": "expressions/echidna/sad.webp",
+        "teasing": "expressions/echidna/teasing.webp",
+        "blush": "expressions/echidna/blush.webp",
+        "ecstasy": "expressions/echidna/ecstasy.webp",
+        "fear": "expressions/echidna/fear.webp",
+        "afterglow": "expressions/echidna/afterglow.webp",
+        "disgust": "expressions/echidna/disgust.webp",
+        "crying": "expressions/echidna/crying.webp",
+        "seductive": "expressions/echidna/seductive.webp",
+        "aroused": "expressions/echidna/aroused.webp"
       }
     }
   }
