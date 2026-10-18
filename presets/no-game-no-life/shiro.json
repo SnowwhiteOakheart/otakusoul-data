@@ -30,7 +30,16 @@
         "sad": "expressions/shiro/sad.webp",
         "angry": "expressions/shiro/angry.webp",
         "surprised": "expressions/shiro/surprised.webp",
-        "relaxed": "expressions/shiro/relaxed.webp"
+        "relaxed": "expressions/shiro/relaxed.webp",
+        "fear": "expressions/shiro/fear.webp",
+        "disgust": "expressions/shiro/disgust.webp",
+        "aroused": "expressions/shiro/aroused.webp",
+        "blush": "expressions/shiro/blush.webp",
+        "ecstasy": "expressions/shiro/ecstasy.webp",
+        "teasing": "expressions/shiro/teasing.webp",
+        "afterglow": "expressions/shiro/afterglow.webp",
+        "crying": "expressions/shiro/crying.webp",
+        "seductive": "expressions/shiro/seductive.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
