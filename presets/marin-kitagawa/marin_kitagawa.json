@@ -34,7 +34,16 @@
         "relaxed": "expressions/relaxed.webp",
         "surprised": "expressions/surprised.webp",
         "angry": "expressions/angry.webp",
-        "sad": "expressions/sad.webp"
+        "sad": "expressions/sad.webp",
+        "crying": "expressions/marin_kitagawa/crying.webp",
+        "aroused": "expressions/marin_kitagawa/aroused.webp",
+        "seductive": "expressions/marin_kitagawa/seductive.webp",
+        "blush": "expressions/marin_kitagawa/blush.webp",
+        "ecstasy": "expressions/marin_kitagawa/ecstasy.webp",
+        "teasing": "expressions/marin_kitagawa/teasing.webp",
+        "afterglow": "expressions/marin_kitagawa/afterglow.webp",
+        "fear": "expressions/marin_kitagawa/fear.webp",
+        "disgust": "expressions/marin_kitagawa/disgust.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
