@@ -6,7 +6,7 @@ Dieses Dokument ist der verbindliche Leitfaden für `SnowwhiteOakheart/otakusoul
 
 - Mit dem Nutzer auf Deutsch kommunizieren; thematische Commit-Beschreibungen auf Deutsch.
 - Bestehende Nutzeränderungen vorab mit `git status` prüfen. Nur beauftragte Änderungen committen; parallel entstandene Änderungen nicht beiläufig aufnehmen.
-- Beauftragte Arbeit darf auf `main` committed und gepusht werden. Nach jedem fertiggestellten Charakter: prüfen, `ROADMAP.md` aktualisieren, committen und sofort pushen.
+- Beauftragte, erfolgreich geprüfte Arbeit immer selbstständig auf `main` committen und sofort nach GitHub pushen; keine erneute Rückfrage. Der Nutzer hat diese dauerhafte Freigabe am 18.10.2026 ausdrücklich bestätigt. Nach jedem fertiggestellten Charakter: prüfen, `ROADMAP.md` aktualisieren, committen und sofort pushen. Fremde Änderungen bleiben ausgeschlossen.
 - Nur `ROADMAP.md` pflegen; keine zweite Roadmap erzeugen. README bei strukturellen Änderungen in DE, EN und RU synchron aktualisieren.
 - Keine Maschinenpfade, Geheimnisse, virtuellen Umgebungen, Caches, temporären Kontaktbögen oder einmaligen Migrationsskripte einchecken.
 - Bestehende öffentliche Pfade nicht ohne Prüfung aller Registry- und Kartenverweise umbenennen. Groß-/Kleinschreibung beachten.
@@ -32,7 +32,7 @@ avatars/                        zusätzliche Avatar-Dateien
 avatars/vrm/lizenzen.txt         Herkunft und Bedingungen der VRM-Modelle
 presets/<paket>/                 zusammengehörige Inhalte
   <figur>.json / <figur>.png     Profil und eingebettete PNG-Karte
-  expressions/<figur>/          sechs Emotionsbilder und Promptnachweise
+  expressions/<figur>/          Emotionsbilder und Promptnachweise
   backgrounds/                  optionale Szenenhintergründe
   scenes/ / lorebooks/          optional, entsprechend vorhandenem Paket
   README.md                     Paketbeschreibung
@@ -57,11 +57,11 @@ Die vier neueren Kampagnenpakete haben Hintergründe und Charakterkarten im Pake
 
 ## Bilder und Herkunft
 
-Neue Standardporträts: PNG, 700×937 Pixel. Expressions: WebP, 640×800 Pixel, genau `neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`. Bestehende abweichende Altformate nicht ungefragt neu skalieren.
+Neue Standardporträts: PNG, 700×937 Pixel. Expressions: WebP, 640×800 Pixel. Basissatz: `neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`. Die App unterstützt zusätzlich `blush`, `teasing`, `fear`, `disgust`, `crying`, `seductive`, `aroused`, `ecstasy`, `afterglow` (15 Bildslots insgesamt; `PORTRAIT_MOODS` und `EXTRA_PORTRAITS` im App-Code). Bei ausdrücklich vollständigen neuen Serien alle aktuellen Slots berücksichtigen; bestehende Sechser-Sätze bleiben kompatibel. Darstellungen bleiben altersgerecht und im SFW-Rahmen des Repositorys; technische Romance-Schlüssel benötigen eine dokumentierte nichtsexuelle Interpretation. Bestehende abweichende Altformate nicht ungefragt neu skalieren.
 
-Expressions unter `presets/<paket>/expressions/<figur>/<emotion>.webp` ablegen. `data.extensions.expressions` ordnet die sechs Schlüssel den Bildern zu. Preset-Pfade sind relativ zum Paket; Gateway-Pfade verwenden `https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/…`.
+Expressions unter `presets/<paket>/expressions/<figur>/<emotion>.webp` ablegen. `data.extensions.expressions` ordnet die jeweils vorhandenen Emotionsschlüssel den Bildern zu. Preset-Pfade sind relativ zum Paket; Gateway-Pfade verwenden `https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/…`.
 
-Bilder mit dem verfügbaren Bildgenerierungswerkzeug erstellen. Für Emotionsvarianten das zugehörige Porträt als Referenz verwenden: gleiche Identität, Frisur, Kleidung und Stil; erkennbare unterschiedliche Gesichtsausdrücke. Keine Kopien eines Bildes als sechs Emotionen ausgeben. Minderjährige Figuren altersgerecht darstellen.
+Bilder mit dem verfügbaren Bildgenerierungswerkzeug erstellen. Für Emotionsvarianten das zugehörige Porträt als Referenz verwenden: gleiche Identität, Frisur, Kleidung und Stil; erkennbare unterschiedliche Gesichtsausdrücke. Keine Kopien eines Bildes als verschiedene Emotionen ausgeben. Minderjährige Figuren altersgerecht darstellen.
 
 Generierungswerkzeug, Prompts, Referenzpfade und Nachbearbeitung dokumentieren; keine absoluten Entwicklerpfade speichern. Metadatenänderungen sollen vorhandene Porträtpixel erhalten. Fanart und KI-Herkunft transparent benennen. Fremde Werke, Modelle und deren Lizenz-/Quellenhinweise nicht durch eine allgemeine Eigenlizenz ersetzen; `LICENSE` beachten.
 
@@ -176,7 +176,7 @@ Vor Veröffentlichung passend zum Umfang prüfen:
 
 1. `python3 tools/validate_content.py` meldet keine Fehler (nach Textänderungen vorher `--sync-registry`).
 2. PNG-Payloads entsprechen den JSON-Profilen; Gateway-Karten erhalten deren Inhalte.
-3. Bildformat, Maße, sechs tatsächlich unterschiedliche Emotionsbilder und alle Pfade/URLs stimmen.
+3. Bildformat, Maße, tatsächlich unterschiedliche Emotionsbilder für alle beauftragten Slots und alle Pfade/URLs stimmen.
 4. Registry-Verweise führen zu vorhandenen Dateien; entfernte Dateien werden nirgends mehr benötigt.
 5. Dokumentationslinks funktionieren; README-Sprachen, Herkunftshinweise und Roadmap sind aktuell.
 6. `git diff --check` besteht; Diff enthält ausschließlich beauftragte Änderungen. Anschließend thematisch committen und pushen.

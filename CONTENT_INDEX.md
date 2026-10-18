@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 57 Charaktere · 48 Soul Stages (Szenen) · 24 Lorebooks · 20 Presets.
+> **Stand:** 60 Charaktere · 48 Soul Stages (Szenen) · 24 Lorebooks · 21 Presets.
 
 ---
 
@@ -41,6 +41,7 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 
 | Preset-Ordner | Franchise / Herkunft | Registrierte Figuren (`name` in `soul_registry.json`) | Bemerkungen / Gastauftritte |
 |---|---|---|---|
+| `overlord` | Overlord | `Ainz Ooal Gown` (Momonga), `Albedo`, `Shalltear Bloodfallen` (3) | Je 15 eigenständige SFW-Expressions; keine eigenen Stages/Lorebooks. |
 | `re-zero` | Re:Zero | `Subaru Natsuki`, `Rem`, `Ram`, `Beatrice`, `Echidna` (5) | Rem tritt in Isekai- und Romance-Stages auf. |
 | `neverness-to-everness` | Neverness to Everness | `Mint`, `Iroi`, `Lacrimosa`, `Nanally Colucci`, `Linko`, `Esper Zero (Female)`, `Esper Zero (Male)`, `Shinku` (8) | Urban-Fantasy-Cast; Lacrimosa und Shinku treten in Cyberpunk-Stages auf. |
 | `frieren` | Sousou no Frieren | `Frieren` | Gastauftritt in `isekai_null_mana_summoning`. |
@@ -65,7 +66,7 @@ Hier wird beschrieben, an welchen Stellen im OtakuSoul-Codebase (`OtakuSoul/src-
     * `parse_character_json()`: Parst die Standalone-V2-JSON (`spec == "chara_card_v2"`, `spec_version == "2.0"`).
   * `src-tauri/src/commands/characters.rs`: Stellt Tauri-Befehle bereit (`load_characters`, `import_character`, `get_character`).
 * **Emotionserkennung & Expressions:**
-  * `src-tauri/src/modules/characters.rs`: Ordnet KI-Emotionsanalysen (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`) den in `extensions.expressions` hinterlegten Bildpfaden zu.
+  * `src-tauri/src/modules/emotions.rs` erkennt Emotionen und zusätzliche Porträtslots; `src/utils/characterPortraits.ts` wählt die in `extensions.expressions` hinterlegten Bilder aus (`PORTRAIT_MOODS`: sechs Grundstimmungen plus neun Zusatzslots, insgesamt 15). Overlord enthält alle 15; ältere Sechser-Sätze bleiben über den Stimmungs-Fallback kompatibel.
 * **Langzeitgedächtnis:**
   * `src-tauri/src/modules/memory/soul.rs`: Verwaltet Soul Memory, Fakten-Extraktion und Kontextgedächtnis der Figur.
 

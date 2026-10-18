@@ -413,6 +413,13 @@
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/albedo.png",
       "revision": 1,
       "updated": "2026-10-18"
+    },
+    {
+      "name": "Shalltear Bloodfallen",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/shalltear_bloodfallen.png",
+      "revision": 1,
+      "updated": "2026-10-18"
     }
   ]
 }

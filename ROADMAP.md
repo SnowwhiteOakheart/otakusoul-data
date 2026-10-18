@@ -311,3 +311,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 
 - [x] **Ainz Ooal Gown**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.
 - [x] **Albedo**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.
+- [x] **Shalltear Bloodfallen**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.

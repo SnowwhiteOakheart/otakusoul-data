@@ -14,10 +14,10 @@
 </p>
 
 <p align="center">
-  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-57%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
+  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-60%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
   <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-48%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
   <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-24%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
-  <img alt="Presets" src="https://img.shields.io/badge/Presets-20%20Welten-10b981?style=for-the-badge" />
+  <img alt="Presets" src="https://img.shields.io/badge/Presets-21%20Welten-10b981?style=for-the-badge" />
   <img alt="Format" src="https://img.shields.io/badge/Format-Character%20Card%20V2-f59e0b?style=for-the-badge" />
   <img alt="Lizenz" src="https://img.shields.io/badge/Lizenz-GPLv3-22c55e?style=for-the-badge" />
 </p>
@@ -44,14 +44,14 @@
 ### 🌸 Was ist `otakusoul-data`?
 
 Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul). Es versorgt die Anwendung über den integrierten **Hub & Gateway** mit fertigen Inhalten:
-- 👥 **Charakterkarten (Tavern / OtakuSoul Character Card V2):** Vollständige V2-Karten im JSON- und PNG-Format (`chara`-Textchunk) inklusive 6 aufeinander abgestimmter Emotions-Ausdrücke (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`).
+- 👥 **Charakterkarten (Tavern / OtakuSoul Character Card V2):** Vollständige V2-Karten im JSON- und PNG-Format (`chara`-Textchunk) inklusive sechs abgestimmter Basis-Emotionen (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`); das neue [Overlord-Paket](presets/overlord/README.md) enthält je Figur alle 15 aktuellen Bildslots als SFW-Varianten.
 - 🎭 **Soul Stages (Szenarien & Episoden):** Interaktive Geschichten mit Zielvorgaben, Spielleiter-Tonalität (GM), Rundensteuerung, Startorten und optionalem **5e-Regelwerk**.
 - 📖 **Welten-Lorebooks:** Schlüsselwort- und Spannungs-gesteuerte Wissensdatenbanken für dynamische KI-Kontextinjektion.
 - 🎨 **Szenenhintergründe & Avatare:** Stimmige 16:9-Umgebungsbilder und optionale VRM-Modellhinweise.
 - 🌍 **Vollständige Dreisprachigkeit:** Alle nutzerseitigen Texte, Begrüßungen, Dialogbeispiele und Szenen werden in **Deutsch (DE)**, **Englisch (EN)** und **Russisch (RU)** gepflegt.
 
 > 💡 **Schnellübersicht gesucht?**
-> - Eine vollständige, tokensparende Übersicht aller 57 Figuren, 48 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Eine vollständige, tokensparende Übersicht aller 60 Figuren, 48 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Den aktuellen Entwicklungsstand und geplante Kampagnen findest du in [**ROADMAP.md**](ROADMAP.md).
 > - Technische Standards, Formate und Veröffentlichungsregeln stehen verbindlich in [**AI.md**](AI.md).
 
@@ -90,7 +90,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 | [`soul_registry.json`](soul_registry.json) / [`cards_gateway/`](cards_gateway/) | Charakterkatalog und eigenständig importierbare PNG-Karten |
 | [`stages_registry.json`](stages_registry.json) / [`stages_gateway/`](stages_gateway/) | Szenenkatalog und interaktive Story-JSONs |
 | [`lorebooks_registry.json`](lorebooks_registry.json) / [`lorebooks_gateway/`](lorebooks_gateway/) | Lorebook-Katalog und Wissensdatenbanken |
-| [`presets/`](presets/) | 20 modulare Themenpakete mit Karten, Expressions, Hintergründen und Dokumentation |
+| [`presets/`](presets/) | 21 modulare Themenpakete mit Karten, Expressions, Hintergründen und Dokumentation |
 | [`CONTENT_INDEX.md`](CONTENT_INDEX.md) | Kompakte tokensparende Matrix über alle Charaktere, Stages, Lorebooks und App-Aufrufe |
 | [`ROADMAP.md`](ROADMAP.md) | Entwicklungs-Roadmap, Qualitätsstandards und Fortschritts-Checkliste |
 | [`AI.md`](AI.md) | Verbindlicher Wegweiser für Dateiformate, Übersetzungen, Validierungen und Git-Abläufe |
@@ -104,6 +104,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 ### ⚖️ Rechtliche Hinweise & Marken (Deutsch)
 
 Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt für OtakuSoul. Alle dargestellten Charaktere, Titel, Namen, Logos und Markenzeichen sind geistiges Eigentum ihrer jeweiligen Urheber und Verlage:
+- **Overlord:** © Kugane Maruyama / so-bin / KADOKAWA / Overlord Animation Project
 - **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
 - **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
 - **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
@@ -129,14 +130,14 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt für Ota
 ### 🌸 What is `otakusoul-data`?
 
 This repository serves as the official content and asset backend for [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), delivering rich modular story content via the integrated **Hub & Gateway**:
-- 👥 **Character Cards (Tavern / OtakuSoul Character Card V2):** Complete V2 cards in JSON and PNG format (embedded `chara` text chunk), each with 6 consistent expression portraits (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`).
+- 👥 **Character Cards (Tavern / OtakuSoul Character Card V2):** Complete V2 cards in JSON and PNG format (embedded `chara` text chunk), each with six consistent base expression portraits (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`); the new [Overlord package](presets/overlord/README.md) provides all 15 current portrait slots per character as SFW variants.
 - 🎭 **Soul Stages (Interactive Scenarios):** Multi-character stories featuring GM narration tone, turn engines, starting locations, and optional **D&D 5e rulebook integration**.
 - 📖 **World Lorebooks:** Keyword- and tension-driven knowledge bases injected dynamically into the LLM context.
 - 🎨 **Scene Backgrounds & Avatare:** Atmospheric 16:9 widescreen artwork and VRM avatar references.
 - 🌍 **Full Trilingual Support:** All character profiles, greetings, dialogue samples, and scenes are maintained in **German (DE)**, **English (EN)**, and **Russian (RU)**.
 
 > 💡 **Looking for an overview?**
-> - For a complete, token-saving reference of all 57 characters, 48 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - For a complete, token-saving reference of all 60 characters, 48 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - For current development progress and planned packs, check [**ROADMAP.md**](ROADMAP.md).
 > - For technical specifications and validation rules, see [**AI.md**](AI.md).
 
@@ -171,6 +172,7 @@ To keep the repository safe, high-quality, and legal for all users, please adher
 ### ⚖️ Legal Notices & Trademarks (English)
 
 This repository is an independent, non-commercial fan project. All depicted characters, titles, names, logos, and trademarks are the intellectual property of their respective creators and publishers:
+- **Overlord:** © Kugane Maruyama / so-bin / KADOKAWA / Overlord Animation Project
 - **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
 - **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
 - **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
@@ -196,14 +198,14 @@ This repository is an independent, non-commercial fan project. All depicted char
 ### 🌸 Что такое `otakusoul-data`?
 
 Этот репозиторий — официальное хранилище модульного контента для [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), обеспечивающее приложение историями, мирами и персонажами через встроенный **Hub & Gateway**:
-- 👥 **Карточки персонажей (Tavern / OtakuSoul Character Card V2):** Полные профили V2 в форматах JSON и PNG (со встроенным блоком `chara`), включающие 6 эмоций (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`).
+- 👥 **Карточки персонажей (Tavern / OtakuSoul Character Card V2):** Полные профили V2 в форматах JSON и PNG (со встроенным блоком `chara`), включающие шесть базовых эмоций (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`); новый [пакет Overlord](presets/overlord/README.md) содержит все 15 текущих слотов для каждого персонажа в неэротических вариантах.
 - 🎭 **Soul Stages (Интерактивные сцены):** Сюжетные приключения с тональностью мастера (GM), управлением ходами и опциональной **боевой системой 5e**.
 - 📖 **Лорбуки миров:** Базы знаний с триггерами по ключевым словам и уровню напряжения для динамической вставки в контекст ИИ.
 - 🎨 **Фоны и аватары:** Атмосферные широкоформатные изображения 16:9 и поддержка моделей VRM.
 - 🌍 **Трёхъязычная поддержка:** Все профили, приветствия, примеры диалогов и сцены поддерживаются на **немецком (DE)**, **английском (EN)** и **русском (RU)** языках.
 
 > 💡 **Быстрый обзор:**
-> - Компактный справочник всех 57 персонажей, 48 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Компактный справочник всех 60 персонажей, 48 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Текущий ход разработки и запланированные сюжеты: [**ROADMAP.md**](ROADMAP.md).
 > - Технические требования и правила валидации: [**AI.md**](AI.md).
 
@@ -238,6 +240,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 ### ⚖️ Правовые уведомления и товарные знаки (Русский)
 
 Этот репозиторий является независимым некоммерческим фан-проектом. Все представленные персонажи, названия, логотипы и товарные знаки являются интеллектуальной собственностью их авторов и издателей:
+- **Overlord:** © Kugane Maruyama / so-bin / KADOKAWA / Overlord Animation Project
 - **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
 - **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
 - **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
