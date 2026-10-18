@@ -85,7 +85,16 @@
         "relaxed": "expressions/laios_touden/relaxed.webp",
         "surprised": "expressions/laios_touden/surprised.webp",
         "angry": "expressions/laios_touden/angry.webp",
-        "sad": "expressions/laios_touden/sad.webp"
+        "sad": "expressions/laios_touden/sad.webp",
+        "aroused": "expressions/laios_touden/aroused.webp",
+        "blush": "expressions/laios_touden/blush.webp",
+        "ecstasy": "expressions/laios_touden/ecstasy.webp",
+        "teasing": "expressions/laios_touden/teasing.webp",
+        "afterglow": "expressions/laios_touden/afterglow.webp",
+        "fear": "expressions/laios_touden/fear.webp",
+        "disgust": "expressions/laios_touden/disgust.webp",
+        "crying": "expressions/laios_touden/crying.webp",
+        "seductive": "expressions/laios_touden/seductive.webp"
       }
     }
   }
