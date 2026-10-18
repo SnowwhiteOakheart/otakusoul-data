@@ -79,7 +79,16 @@
         "relaxed": "expressions/ram/relaxed.webp",
         "surprised": "expressions/ram/surprised.webp",
         "angry": "expressions/ram/angry.webp",
-        "sad": "expressions/ram/sad.webp"
+        "sad": "expressions/ram/sad.webp",
+        "fear": "expressions/ram/fear.webp",
+        "disgust": "expressions/ram/disgust.webp",
+        "blush": "expressions/ram/blush.webp",
+        "aroused": "expressions/ram/aroused.webp",
+        "crying": "expressions/ram/crying.webp",
+        "teasing": "expressions/ram/teasing.webp",
+        "ecstasy": "expressions/ram/ecstasy.webp",
+        "seductive": "expressions/ram/seductive.webp",
+        "afterglow": "expressions/ram/afterglow.webp"
       }
     }
   }
