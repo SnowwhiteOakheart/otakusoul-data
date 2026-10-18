@@ -1,0 +1,51 @@
+{
+  "tool": "OpenAI built-in ImageGen / ComfyUI / SDXL",
+  "date": "2026-10-18",
+  "mode": "Six text-to-image master portraits; six independent identity-preserving edits per character; five 16:9 scene backgrounds",
+  "shared_portrait_prompt": "Use case: stylized-concept. Asset type: OtakuSoul character-card portrait. Create one solo vertical 3:4 anime illustration faithful to The Quintessential Quintuplets (5-toubun no Hanayome) recognizable anime character design, refined crisp lineart, vibrant colors and soft cel shading. Composition: centered waist-up, complete head with generous headroom, eyes clearly visible, tasteful canonical high school uniform or casual outfit, age-appropriate nonsexual presentation. Soft understated background, polished face, no text, logo, watermark, panels, duplicate characters or borders.",
+  "portrait_subjects": {
+    "ichika_nakano": "Ichika Nakano: teenage high school girl, short pale pinkish-blonde asymmetrical hair with a longer side fringe on the right, light hazel-amber eyes, single hoop earring on left ear, canonical Asahiyama high school uniform (pale yellow cardigan worn loosely over shoulders over white collared shirt and red necktie, dark pleated skirt), mature relaxed and playful onee-san smile, soft blurred modern penthouse living room interior in background.",
+    "nino_nakano": "Nino Nakano: teenage high school girl, long straight vibrant reddish-pink hair reaching past her shoulders, distinctive twin black butterfly ribbons tied at her temples, sharp turquoise-blue eyes, canonical high school uniform (oversized purple sweater/cardigan with long sleeves draped over hands, dark pleated skirt), arms crossed over chest, proud confident tsundere gaze, soft warm penthouse kitchen background with pastries.",
+    "miku_nakano": "Miku Nakano: teenage high school girl, medium-length chestnut-brown/auburn hair draped gently over right eye, dark blue eyes, iconic metallic blue wireless over-ear headphones resting around her neck, canonical high school uniform (loose soft teal-blue sweater, black tights/stockings, dark pleated skirt), slightly timid and shy expression, faint blush on cheeks, holding a small notebook to chest, soft classroom background.",
+    "yotsuba_nakano": "Yotsuba Nakano: teenage high school girl, short bright orange-amber bob hair, signature bright green ribbon headband tied into two upright bunny-ear loops, cheerful wide greenish-blue eyes, canonical high school uniform (bright orange knit vest over white collared shirt with green tie, pleated skirt), energetic bright open-mouthed grin, hand cheerfully raised in a wave, sunny outdoor school courtyard background.",
+    "itsuki_nakano": "Itsuki Nakano: teenage high school girl, long voluminous flowing reddish hair with an expressive upright cowlick ahoge on top, iconic twin yellow star-shaped hairpins beside her ears, deep blue eyes, canonical high school uniform (fitted dark red-purple knit vest over crisp white shirt, dark skirt), earnest dignified expression with slight pout, carrying a textbook, soft school library or dining room background.",
+    "futaro_uesugi": "Futaro Uesugi: teenage high school boy, tousled dark blue-black hair with messy bangs framing forehead, intense dark blue-gray eyes with a focused and slightly fatigued look, neat Asahiyama male school uniform (dark blazer over white collared shirt, loosened red tie), pragmatic and intelligent expression, holding a pen and notebook, soft afternoon classroom background."
+  },
+  "expression_reference": "Each character's own generated master portrait, corresponding to presets/quintessential-quintuplets/<slug>.png",
+  "expression_prompt_template": "Use case: identity-preserve. Input image 1 is the portrait edit target. Make one standalone emotion portrait of this exact character from The Quintessential Quintuplets for an OtakuSoul chat card. Change only the facial expression to MOOD. Preserve the exact face identity, age, canonical eye color, hairstyle, hair accessories (butterfly ribbons / headphones / bunny ribbon / star hairpins), clothing, body proportions, pose, hands, background, lighting, and clean anime linework. Keep a centered vertical portrait and sufficient headroom. No text, watermark, grid, extra people, new objects, adult restyling or sexualization. Emotion must be visibly legible while the rest stays consistent.",
+  "emotion_descriptions": {
+    "neutral": "a genuinely neutral attentive expression: level relaxed brow, mouth closed without a smile, calm open eyes",
+    "happy": "a clearly happy delighted expression: warm broad smile with corners lifted, cheeks raised and bright joyful eyes",
+    "relaxed": "a distinctly relaxed restful expression: eyelids gently closed or soft contented gaze, gentle small smile, completely relaxed brow",
+    "surprised": "a clearly surprised flustered expression: eyes widened, eyebrows raised, cheeks slightly flushed, lips forming a small open O",
+    "angry": "a clearly angry determined expression: lowered inward eyebrows, narrowed eyes, tight pout or determined frown; no violence",
+    "sad": "a clearly sad vulnerable expression: inward raised eyebrows, downturned mouth, eyes glistening with emotional tenderness"
+  },
+  "background_subjects": {
+    "penthouse_wohnzimmer.png": "High-end luxury high-rise penthouse living room in Tokyo, modern aesthetic, large dining table with textbooks and notebooks, floor-to-ceiling windows showing city skyline, plush sofa, warm ambient afternoon lighting, anime background art style, clean lines, no characters, 16:9 widescreen.",
+    "sommerfest_schreintreppe.png": "Traditional Japanese hillside Shinto shrine stone staircase during an evening summer festival (Hanabi), glowing paper lanterns hanging along cedar trees, stalls with banners at the base, distant fireworks exploding in the purple twilight sky, romantic anime scenery, no characters, 16:9 widescreen.",
+    "klassenzimmer_nachmittag.png": "Japanese high school classroom during late golden hour sunset, rows of wooden desks with study papers and scattered stationery, orange-amber sunlight slanting through tall windows, chalkboard with lesson notes, peaceful nostalgic anime background, no characters, 16:9 widescreen.",
+    "skihuette_kaminfeuer.png": "Cozy rustic wooden ski lodge interior at night, crackling stone fireplace with warm glowing amber embers, comfortable wool blankets on a wooden bench, snowstorm visible through frosted window panes, intimate cozy winter atmosphere, anime scenery, no characters, 16:9 widescreen.",
+    "schulfest_abenddaemmerung.png": "Rooftop of a Japanese high school during the annual school festival evening, colorful decorative festival bunting and string lights along the safety fence, panoramic view of festive illuminated school courtyard and dusk sky, emotional anime aesthetic, no characters, 16:9 widescreen."
+  },
+  "technical_specifications": {
+    "portraits": {
+      "dimensions": "700x937",
+      "format": "PNG",
+      "target_paths": [
+        "presets/quintessential-quintuplets/<slug>.png",
+        "cards_gateway/<Character_Name>.png"
+      ]
+    },
+    "expressions": {
+      "dimensions": "640x800",
+      "format": "WebP",
+      "target_path_pattern": "presets/quintessential-quintuplets/expressions/<slug>/<emotion>.webp"
+    },
+    "backgrounds": {
+      "dimensions": "1376x768",
+      "format": "PNG",
+      "target_path_pattern": "presets/quintessential-quintuplets/backgrounds/<filename>.png"
+    }
+  }
+}
