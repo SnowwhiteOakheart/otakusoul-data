@@ -9,6 +9,7 @@ import argparse
 import copy
 import hashlib
 import json
+import shutil
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageOps
@@ -66,6 +67,11 @@ def package(manifest):
             sources.append((mood, ImageOps.fit(image.convert('RGB'), (640, 800),
                             method=Image.Resampling.LANCZOS, centering=(0.5, 0))))
     directory.mkdir(parents=True, exist_ok=True)
+    supporting = record.get('supporting_reference')
+    if supporting:
+        reference_target = directory / 'reference_sfw.png'
+        assert not reference_target.exists()
+        shutil.copy2(supporting['path'], reference_target)
     for mood, image in sources:
         image.save(targets[mood], quality=92)
         expressions[mood] = f'expressions/{record["slug"]}/{mood}.webp'
@@ -74,7 +80,9 @@ def package(manifest):
     assert len({hashlib.sha256(p.read_bytes()).digest() for p in targets.values()}) == len(additions)
     write_json(prompt_path, {
         'tool': 'OpenAI image_gen (eingebaut)', 'date': '2026-10-18',
-        'reference': f'../../{record["slug"]}.png',
+        'reference': 'reference_sfw.png' if supporting else f'../../{record["slug"]}.png',
+        'original_reference': f'../../{record["slug"]}.png',
+        'reference_edit_prompt': supporting['prompt'] if supporting else None,
         'reference_note': 'Vorhandenes KI-Fanart-Porträt; Identität, Alter, Kleidung und Stil erhalten.',
         'prompts': {m: item['prompt'] for m, item in additions.items()},
         'slot_semantics': SEMANTICS,

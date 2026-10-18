@@ -34,7 +34,16 @@
         "relaxed": "expressions/relaxed.webp",
         "surprised": "expressions/surprised.webp",
         "angry": "expressions/angry.webp",
-        "sad": "expressions/sad.webp"
+        "sad": "expressions/sad.webp",
+        "blush": "expressions/hayase_nagatoro/blush.webp",
+        "fear": "expressions/hayase_nagatoro/fear.webp",
+        "teasing": "expressions/hayase_nagatoro/teasing.webp",
+        "seductive": "expressions/hayase_nagatoro/seductive.webp",
+        "crying": "expressions/hayase_nagatoro/crying.webp",
+        "aroused": "expressions/hayase_nagatoro/aroused.webp",
+        "disgust": "expressions/hayase_nagatoro/disgust.webp",
+        "ecstasy": "expressions/hayase_nagatoro/ecstasy.webp",
+        "afterglow": "expressions/hayase_nagatoro/afterglow.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
