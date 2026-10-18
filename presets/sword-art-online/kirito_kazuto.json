@@ -88,7 +88,16 @@
         "relaxed": "expressions/kirito_kazuto/relaxed.webp",
         "surprised": "expressions/kirito_kazuto/surprised.webp",
         "angry": "expressions/kirito_kazuto/angry.webp",
-        "sad": "expressions/kirito_kazuto/sad.webp"
+        "sad": "expressions/kirito_kazuto/sad.webp",
+        "teasing": "expressions/kirito_kazuto/teasing.webp",
+        "blush": "expressions/kirito_kazuto/blush.webp",
+        "fear": "expressions/kirito_kazuto/fear.webp",
+        "disgust": "expressions/kirito_kazuto/disgust.webp",
+        "afterglow": "expressions/kirito_kazuto/afterglow.webp",
+        "crying": "expressions/kirito_kazuto/crying.webp",
+        "seductive": "expressions/kirito_kazuto/seductive.webp",
+        "aroused": "expressions/kirito_kazuto/aroused.webp",
+        "ecstasy": "expressions/kirito_kazuto/ecstasy.webp"
       }
     }
   }
