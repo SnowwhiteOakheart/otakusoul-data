@@ -76,7 +76,16 @@
         "sad": "expressions/hifumi_yamamoto/sad.webp",
         "angry": "expressions/hifumi_yamamoto/angry.webp",
         "surprised": "expressions/hifumi_yamamoto/surprised.webp",
-        "relaxed": "expressions/hifumi_yamamoto/relaxed.webp"
+        "relaxed": "expressions/hifumi_yamamoto/relaxed.webp",
+        "disgust": "expressions/hifumi_yamamoto/disgust.webp",
+        "blush": "expressions/hifumi_yamamoto/blush.webp",
+        "aroused": "expressions/hifumi_yamamoto/aroused.webp",
+        "ecstasy": "expressions/hifumi_yamamoto/ecstasy.webp",
+        "crying": "expressions/hifumi_yamamoto/crying.webp",
+        "teasing": "expressions/hifumi_yamamoto/teasing.webp",
+        "afterglow": "expressions/hifumi_yamamoto/afterglow.webp",
+        "seductive": "expressions/hifumi_yamamoto/seductive.webp",
+        "fear": "expressions/hifumi_yamamoto/fear.webp"
       },
       "custom_title": "Yamato Nadeshiko im Kimono - die ruhige Seele des Hauses",
       "custom_live2d": "tsumiki",
