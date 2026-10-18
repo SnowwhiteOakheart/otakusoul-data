@@ -334,3 +334,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] **Frieren** (frieren): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Kaguya Shinomiya** (kaguya-shinomiya): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Chisato Nishikigi** (lycoris-recoil): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+- [x] **Kurumi** (lycoris-recoil): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
