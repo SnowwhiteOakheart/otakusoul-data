@@ -38,7 +38,16 @@
         "relaxed": "expressions/lucy/relaxed.webp",
         "surprised": "expressions/lucy/surprised.webp",
         "angry": "expressions/lucy/angry.webp",
-        "sad": "expressions/lucy/sad.webp"
+        "sad": "expressions/lucy/sad.webp",
+        "fear": "expressions/lucy/fear.webp",
+        "crying": "expressions/lucy/crying.webp",
+        "seductive": "expressions/lucy/seductive.webp",
+        "disgust": "expressions/lucy/disgust.webp",
+        "aroused": "expressions/lucy/aroused.webp",
+        "ecstasy": "expressions/lucy/ecstasy.webp",
+        "afterglow": "expressions/lucy/afterglow.webp",
+        "blush": "expressions/lucy/blush.webp",
+        "teasing": "expressions/lucy/teasing.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
