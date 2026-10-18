@@ -305,3 +305,9 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Beatrice: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [x] Subaru Natsuki: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 <!-- re-zero:end -->
+
+
+### Overlord – Charaktere und erweiterte Expressions
+
+- [x] **Ainz Ooal Gown**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.
+- [x] **Albedo**: V2-Profil DE/EN/RU, zwei alternative Begrüßungen, drei Dialogbeispiele, finales Profilbild und alle 15 Bildslots; PNG-Karten, Hub-URLs und Bildformate geprüft.
