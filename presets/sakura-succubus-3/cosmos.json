@@ -76,7 +76,16 @@
         "sad": "expressions/cosmos/sad.webp",
         "angry": "expressions/cosmos/angry.webp",
         "surprised": "expressions/cosmos/surprised.webp",
-        "relaxed": "expressions/cosmos/relaxed.webp"
+        "relaxed": "expressions/cosmos/relaxed.webp",
+        "blush": "expressions/cosmos/blush.webp",
+        "teasing": "expressions/cosmos/teasing.webp",
+        "fear": "expressions/cosmos/fear.webp",
+        "disgust": "expressions/cosmos/disgust.webp",
+        "crying": "expressions/cosmos/crying.webp",
+        "seductive": "expressions/cosmos/seductive.webp",
+        "aroused": "expressions/cosmos/aroused.webp",
+        "ecstasy": "expressions/cosmos/ecstasy.webp",
+        "afterglow": "expressions/cosmos/afterglow.webp"
       },
       "custom_title": "Katzenmädchen, Maid-Café-Star und Hirokis allerbeste Freundin",
       "custom_live2d": "senko",
