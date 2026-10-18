@@ -266,6 +266,8 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
   - **Aetheria Chronicles – Isekai-Abenteuer, Gilden & Systemmagie** (`isekai_fantasy_rpg_world.json`) + Szenen *Isekai-Chroniken: Beschworen mit Stufe Null* (`isekai_null_mana_summoning.json`) & *Isekai-Chroniken: Der verbotene Dungeon-Kern* (`isekai_labyrinth_of_aetheria.json`) + 3 Hintergründe in `presets/isekai-aetheria/backgrounds/`
   - **Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik** (`modern_anime_academy_romance.json`) + Szenen *Herzklopfen nach Schulschluss: Ein Schirm für vier* (`romance_rainy_clubroom_confessions.json`) & *Kulturfest-Legende: Wem gehört der letzte Tanz?* (`romance_rooftop_festival_fireworks.json`) + 3 Hintergründe in `presets/anime-academy-romance/backgrounds/`
 
+- [x] `recommended_models.json` 3.1.0: mit der SoW-Liste abgeglichen, 9 Kandidaten in der App gemessen (RTX 4070 Ti SUPER); Gemma 4 E4B/12B/26B-A4B/31B, Qwen3.5 9B, Qwen3.6 35B-A3B, Hearthfire 24B sowie Rocinante-X 12B und Cydonia 24B (ohne Lizenzangabe, mit Hinweis).
+
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 
