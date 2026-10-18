@@ -86,7 +86,16 @@
         "relaxed": "expressions/relaxed.webp",
         "surprised": "expressions/surprised.webp",
         "angry": "expressions/angry.webp",
-        "sad": "expressions/sad.webp"
+        "sad": "expressions/sad.webp",
+        "fear": "expressions/megumin/fear.webp",
+        "disgust": "expressions/megumin/disgust.webp",
+        "afterglow": "expressions/megumin/afterglow.webp",
+        "blush": "expressions/megumin/blush.webp",
+        "crying": "expressions/megumin/crying.webp",
+        "seductive": "expressions/megumin/seductive.webp",
+        "teasing": "expressions/megumin/teasing.webp",
+        "aroused": "expressions/megumin/aroused.webp",
+        "ecstasy": "expressions/megumin/ecstasy.webp"
       },
       "custom_title": "Meisterin der Explosion",
       "custom_avatar": "Megumin.png"

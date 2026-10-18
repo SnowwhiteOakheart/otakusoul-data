@@ -338,3 +338,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] **Mizuki Nakahara** (lycoris-recoil): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Takina Inoue** (lycoris-recoil): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Marin Kitagawa** (marin-kitagawa): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+- [x] **Megumin** (megumin): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
