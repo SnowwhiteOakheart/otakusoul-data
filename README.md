@@ -258,3 +258,11 @@ This repository is an independent, non-commercial fan project. All depicted char
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 - **Cyberpunk 2077:** © CD PROJEKT S.A. / Mike Pondsmith, R. Talsorian Games
 - **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
+
+### Zusatzemotionen: Zwischenstand 18.10.2026
+
+**DE:** 47 bestehende Figuren wurden um je neun separat erzeugte SFW-Emotionsbilder erweitert (423 Bilder). Zusammen mit Overlord haben jetzt 50 Figuren alle 15 Slots. Lisbeth und Yor behalten vorerst ihre sechs bisherigen Emotionen; NTE bleibt unverändert. Die vier technisch romantisch benannten Slots zeigen ausschließlich nichtsexuelle Varianten. Prompts und Verarbeitung stehen je Figur in `expressions/<figur>/additional_prompts.json`.
+
+**EN:** 47 existing characters received nine individually generated SFW expression images each (423 images). Including Overlord, 50 characters now have all 15 slots. Lisbeth and Yor retain their six previous expressions for now; NTE is unchanged. The four technically romance-named slots contain nonsexual variants only. Per-character prompts and processing are documented in `expressions/<character>/additional_prompts.json`.
+
+**RU:** Для 47 существующих персонажей добавлено по девять отдельно сгенерированных неэротических изображений эмоций (423 изображения). Вместе с Overlord у 50 персонажей есть все 15 слотов. У Lisbeth и Yor пока остаются прежние шесть эмоций; NTE не изменён. Четыре технических слота романтики содержат только неэротические варианты. Запросы и обработка описаны в `expressions/<персонаж>/additional_prompts.json`.

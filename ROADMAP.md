@@ -365,3 +365,9 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] **Asuna Yuuki** (sword-art-online): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Kirito (Kazuto Kirigaya)** (sword-art-online): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Klein (Ryoutarou Tsuboi)** (sword-art-online): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+
+**Pause bis 19.10.2026:** 47/49 Figuren veröffentlicht, 423/441 Zusatzbilder. Tageslimit des Bildgenerators erreicht. Keine weiteren Generierungen am 18.10.2026.
+- [ ] **Lisbeth / Rika**: sechs neue Bilder noch erzeugen; drei bereits erzeugte Varianten im lokalen Generierungsmanifest erhalten. Danach alle neun gemeinsam prüfen und veröffentlichen.
+- [ ] **Yor Forger**: neun neue Bilder erzeugen, prüfen und veröffentlichen.
+
+Nur Figuren mit bestehendem Emotionssatz ergänzen; NTE weiterhin vollständig auslassen. Fortsetzung anhand der vorhandenen lokalen Generierungsmanifeste; bestehende Bilder nicht neu erzeugen.

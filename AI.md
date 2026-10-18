@@ -182,3 +182,5 @@ Vor Veröffentlichung passend zum Umfang prüfen:
 6. `git diff --check` besteht; Diff enthält ausschließlich beauftragte Änderungen. Anschließend thematisch committen und pushen.
 
 Keine großen App-Testläufe für reine Inhalts-/Dokumentationsbereinigung. Keine Einmalskripte im Root sammeln: wiederverwendbare, dokumentierte Helfer gehören nach `tools/`, temporäre Migrationen außerhalb des Repositorys.
+
+`tools/add_expression_slots.py <generierungsmanifest.json>` ergänzt fehlende Slots bestehender Emotionssätze aus einem vollständigen Manifest. Es erzeugt selbst keine Bilder und verweigert Überschreiben sowie NTE-Pakete. Profiltexte, alte Emotionsdateien und Porträtpixel werden verglichen; Promptnachweise, Registry und Roadmap werden mitgeführt.
