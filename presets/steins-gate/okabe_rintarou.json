@@ -85,7 +85,16 @@
         "relaxed": "expressions/okabe_rintarou/relaxed.webp",
         "surprised": "expressions/okabe_rintarou/surprised.webp",
         "angry": "expressions/okabe_rintarou/angry.webp",
-        "sad": "expressions/okabe_rintarou/sad.webp"
+        "sad": "expressions/okabe_rintarou/sad.webp",
+        "blush": "expressions/okabe_rintarou/blush.webp",
+        "teasing": "expressions/okabe_rintarou/teasing.webp",
+        "fear": "expressions/okabe_rintarou/fear.webp",
+        "disgust": "expressions/okabe_rintarou/disgust.webp",
+        "crying": "expressions/okabe_rintarou/crying.webp",
+        "seductive": "expressions/okabe_rintarou/seductive.webp",
+        "aroused": "expressions/okabe_rintarou/aroused.webp",
+        "ecstasy": "expressions/okabe_rintarou/ecstasy.webp",
+        "afterglow": "expressions/okabe_rintarou/afterglow.webp"
       }
     }
   }
