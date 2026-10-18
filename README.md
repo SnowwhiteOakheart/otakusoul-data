@@ -1,58 +1,116 @@
-# otakusoul-data
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SnowwhiteOakheart/OtakuSoul/main/docs/assets/otakusoul-logo-wide-master.png" alt="OtakuSoul Banner" width="100%" />
+</p>
 
-[Deutsch](#deutsch) · [English](#english) · [Русский](#русский)
+<p align="center">
+  <a href="#deutsch"><strong>🇩🇪 Deutsch</strong></a> •
+  <a href="#english"><strong>🇬🇧 English</strong></a> •
+  <a href="#русский"><strong>🇷🇺 Русский</strong></a>
+</p>
+
+<p align="center">
+  <strong>Das offizielle Inhalts-Repository für <a href="https://github.com/SnowwhiteOakheart/OtakuSoul">OtakuSoul</a></strong><br>
+  <em>Modulare Charakterkarten · Emotions-Ausdrücke · Soul Stages · Welten-Lorebooks · Szenen-Hintergründe</em>
+</p>
+
+<p align="center">
+  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-57%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
+  <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-48%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
+  <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-24%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
+  <img alt="Presets" src="https://img.shields.io/badge/Presets-20%20Welten-10b981?style=for-the-badge" />
+  <img alt="Format" src="https://img.shields.io/badge/Format-Character%20Card%20V2-f59e0b?style=for-the-badge" />
+  <img alt="Lizenz" src="https://img.shields.io/badge/Lizenz-GPLv3-22c55e?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <a href="cards_gateway/Miku_Nakano.png"><img src="cards_gateway/Miku_Nakano.png" width="15%" alt="Miku Nakano" /></a>
+  <a href="cards_gateway/Frieren.png"><img src="cards_gateway/Frieren.png" width="15%" alt="Frieren" /></a>
+  <a href="cards_gateway/chisato_nishikigi.png"><img src="cards_gateway/chisato_nishikigi.png" width="15%" alt="Chisato Nishikigi" /></a>
+  <a href="cards_gateway/rem.png"><img src="cards_gateway/rem.png" width="15%" alt="Rem" /></a>
+  <a href="cards_gateway/yor_forger.png"><img src="cards_gateway/yor_forger.png" width="15%" alt="Yor Forger" /></a>
+  <a href="cards_gateway/okabe_rintarou.png"><img src="cards_gateway/okabe_rintarou.png" width="15%" alt="Okabe Rintarou" /></a>
+</p>
+
+<p align="center">
+  <a href="presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"><img src="presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png" width="31%" alt="Penthouse Wohnzimmer" /></a>
+  <a href="presets/steins-gate/backgrounds/steins_gate_ep1_erste_dmail.png"><img src="presets/steins-gate/backgrounds/steins_gate_ep1_erste_dmail.png" width="31%" alt="Akihabara Radiogebäude" /></a>
+  <a href="presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png"><img src="presets/quintessential-quintuplets/backgrounds/sommerfest_schreintreppe.png" width="31%" alt="Sommerfest Schreintreppe" /></a>
+</p>
+
+---
 
 ## Deutsch
 
-Separates Inhaltsrepository für [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): Charakterkarten, Emotionsbilder, Stage-Geschichten (Szenen), Lorebooks, Hintergründe, VRM-Avatare, Sprachdateien und Modellempfehlungen. Änderungen hier importieren nichts in eine lokale App-Installation.
+### 🌸 Was ist `otakusoul-data`?
 
-### Struktur
+Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul). Es versorgt die Anwendung über den integrierten **Hub & Gateway** mit fertigen Inhalten:
+- 👥 **Charakterkarten (Tavern / OtakuSoul Character Card V2):** Vollständige V2-Karten im JSON- und PNG-Format (`chara`-Textchunk) inklusive 6 aufeinander abgestimmter Emotions-Ausdrücke (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`).
+- 🎭 **Soul Stages (Szenarien & Episoden):** Interaktive Geschichten mit Zielvorgaben, Spielleiter-Tonalität (GM), Rundensteuerung, Startorten und optionalem **5e-Regelwerk**.
+- 📖 **Welten-Lorebooks:** Schlüsselwort- und Spannungs-gesteuerte Wissensdatenbanken für dynamische KI-Kontextinjektion.
+- 🎨 **Szenenhintergründe & Avatare:** Stimmige 16:9-Umgebungsbilder und optionale VRM-Modellhinweise.
+- 🌍 **Vollständige Dreisprachigkeit:** Alle nutzerseitigen Texte, Begrüßungen, Dialogbeispiele und Szenen werden in **Deutsch (DE)**, **Englisch (EN)** und **Russisch (RU)** gepflegt.
+
+> 💡 **Schnellübersicht gesucht?**
+> - Eine vollständige, tokensparende Übersicht aller 57 Figuren, 48 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Den aktuellen Entwicklungsstand und geplante Kampagnen findest du in [**ROADMAP.md**](ROADMAP.md).
+> - Technische Standards, Formate und Veröffentlichungsregeln stehen verbindlich in [**AI.md**](AI.md).
+
+---
+
+### 🤝 Mitmachen & Eigene Inhalte beisteuern (Community Contributions)
+
+**Wir freuen uns sehr über Community-Beiträge!** Jeder kann eigene Charaktere, interaktive Geschichten (Soul Stages) oder Lorebooks beisteuern und per Pull Request einreichen.
+
+Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte bitte die folgenden Grundregeln:
+
+#### ⚖️ Rechtliche Spielregeln (Legal & Safety Guidelines)
+1. **Reine Fanart & Originalcharaktere:** Das Repository ist ein nicht-kommerzielles Fanprojekt. Verwende keine offiziellen Artworks, Screenshots oder Scans der Originalstudios als Bildeingabe.
+2. **KI-Transparenz & Bildrechte:** Verwende für Porträts und Emotionen eigene KI-Generierungen oder selbst gezeichnete Bilder. Dokumentiere verwendete Prompts und Parameter in `image_prompts.json` (siehe bestehende Pakete).
+3. **Strikt jugendfrei (SFW & Safe):** Keine pornografischen, gewaltverherrlichenden oder jugendgefährdenden Inhalte. Charaktere müssen stets altersgerecht dargestellt werden; Minderjährige dürfen keinesfalls sexualisiert werden.
+4. **Respektierung von Rechten Dritter:** Keine geschützten Modellgewichte oder gated Modelle einbinden (`recommended_models.json` erlaubt ausschließlich frei lizenzierte Modelle wie MIT, Apache-2.0 oder BSD ohne Login).
+
+#### 🛠️ Wie reiche ich neue Inhalte ein? (Schritt-für-Schritt)
+1. **Forken:** Forke das Repository auf GitHub und klone deinen Fork lokal.
+2. **Preset-Ordner anlegen:** Erstelle unter `presets/<dein-paket>/` einen neuen Ordner (`kebab-case`).
+3. **Charaktere erstellen:** Lege Character Card V2 JSON- und PNG-Dateien an (mit Pflichtfeldern, mind. 2 Begrüßungen, 3 Beispieldialogen und DE/EN/RU-Übersetzungen laut [AI.md](AI.md)).
+4. **Bilder bereitstellen:** Hauptporträt als 700×937 PNG, 6 Expressions als 640×800 WebP unter `presets/<dein-paket>/expressions/<figur>/`.
+5. **Validieren:** Führe den integrierten Validator aus:
+   ```sh
+   python3 tools/validate_content.py --sync-registry
+   ```
+   Er gleicht Beschreibungen automatisch in die Registries ab und stellt sicher, dass keine Fehler vorliegen.
+6. **Pull Request:** Reiche deine Änderungen als sauberen Pull Request ein!
+
+---
+
+### 📁 Verzeichnisstruktur
 
 | Pfad | Inhalt |
 |---|---|
-| `soul_registry.json` / `cards_gateway/` | Charakterkatalog und eigenständig importierbare PNG-Karten |
-| `lorebooks_registry.json` / `lorebooks_gateway/` | Lorebook-Katalog und JSON-Dateien |
-| `stages_registry.json` / `stages_gateway/` | Szenenkatalog und JSON-Dateien |
-| `presets/` | Themenpakete mit JSON-/PNG-Karten, Expressions, Hintergründen und Dokumentation; teilweise eigenen Szenen und Lorebooks |
-| `avatars/` | Zusätzliche Avatare; Herkunftshinweise und Download-Quellen unter `avatars/vrm/lizenzen.txt` |
-| `locales/` | Deutsche und russische App-Sprachdateien; Englisch wird in der App gepflegt |
-| `recommended_models.json` | Startmodelle für den Einrichtungsassistenten der App (die App lädt die Datei beim Start, wenn sie neuer ist), keine Modelldateien |
-| `tools/` | Wiederverwendbare Wartungs- und Prüfwerkzeuge |
+| [`soul_registry.json`](soul_registry.json) / [`cards_gateway/`](cards_gateway/) | Charakterkatalog und eigenständig importierbare PNG-Karten |
+| [`stages_registry.json`](stages_registry.json) / [`stages_gateway/`](stages_gateway/) | Szenenkatalog und interaktive Story-JSONs |
+| [`lorebooks_registry.json`](lorebooks_registry.json) / [`lorebooks_gateway/`](lorebooks_gateway/) | Lorebook-Katalog und Wissensdatenbanken |
+| [`presets/`](presets/) | 20 modulare Themenpakete mit Karten, Expressions, Hintergründen und Dokumentation |
+| [`CONTENT_INDEX.md`](CONTENT_INDEX.md) | Kompakte tokensparende Matrix über alle Charaktere, Stages, Lorebooks und App-Aufrufe |
+| [`ROADMAP.md`](ROADMAP.md) | Entwicklungs-Roadmap, Qualitätsstandards und Fortschritts-Checkliste |
+| [`AI.md`](AI.md) | Verbindlicher Wegweiser für Dateiformate, Übersetzungen, Validierungen und Git-Abläufe |
+| [`avatars/`](avatars/) | Zusätzliche Avatare (VRM-Herkunftshinweise unter `avatars/vrm/lizenzen.txt`) |
+| [`locales/`](locales/) | Deutsche und russische App-Sprachdateien |
+| [`recommended_models.json`](recommended_models.json) | Frei lizenzierte Startmodelle für den App-Einrichtungsassistenten |
+| [`tools/`](tools/) | Wartungs-, Prüf- und Synchronisationswerkzeuge |
 
-### Inhalte und Verwendung
+---
 
-Die Pakete umfassen **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **The Quintessential Quintuplets**, **Elfen Lied**, [**Re:Zero**](presets/re-zero/README.md), weitere Anime-Einzel-Presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) sowie die Originalfiguren **Ren Takahashi / Aoi Mizuno** aus der Aobane Highschool. Der Arbeitsstand einschließlich der Emotionsbilder steht in [ROADMAP.md](ROADMAP.md).
+### ⚖️ Rechtliche Hinweise & Marken (Deutsch)
 
-Die App lädt die drei Registries über ihre Hub-/Gateway-Ansichten. PNG-Charakterkarten lassen sich auch manuell importieren: Sie enthalten die Character-Card-V2-Definition als `chara`-Metadaten. Preset-Karten verwenden relative Bildpfade; Gateway-Karten öffentliche Repository-URLs. Für den manuellen Paketimport die Verzeichnisstruktur beibehalten. Beim Import einer Szene aus dem Hub lädt die App deren Hintergrundbilder automatisch mit. VRM-Modelle bei Bedarf separat importieren; es gibt keinen eigenen Hintergrundkatalog.
-
-Charakterübersetzungen für **DE, EN und RU** liegen in `data.extensions.otakusoul_i18n`. Die Ausgangssprache steht in `source_language`; die anderen Sprachen in `translations`. Paketbeschreibungen erläutern Besonderheiten der jeweiligen Inhalte.
-
-### Pflege und Herkunft
-
-[AI.md](AI.md) beschreibt Dateiformate, Übersetzungen, Bildvorgaben, Registries und den Veröffentlichungsablauf. [AGENTS.md](AGENTS.md) und [CLAUDE.md](CLAUDE.md) verweisen darauf. Nur [ROADMAP.md](ROADMAP.md) wird als Roadmap gepflegt.
-
-Die Python-Werkzeuge sind optionale Repository-Wartung, keine App-Abhängigkeit. Installation: `python3 -m pip install -r tools/requirements.txt` in einer eigenen virtuellen Umgebung. Prüfungen ohne Schreibzugriff:
-
-```sh
-python3 tools/validate_content.py
-python3 tools/validate_aobane.py
-python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
-```
-
-`validate_content.py` prüft Karten, Szenen, Lorebooks und Registries des ganzen Repositorys (Exit-Code 1 bei Fehlern); mit `--sync-registry` übernimmt es Titel, Beschreibungen und deren Übersetzungen aus den Dateien in die Registries. Der dritte Befehl prüft einen vorhandenen Kampagnencharakter. Mit `--manifest` paketiert das Werkzeug neue Expressions und aktualisiert die Roadmap; Details stehen in [AI.md](AI.md).
-
-[LICENSE](LICENSE) enthält die **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) für eigene Skripte, Texte und Beiträge sowie dreisprachige Hinweise zu KI-generierter Fanart, Credits (u. a. [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) von [jofizcd](https://github.com/jofizcd)) und fremden Rechten. Herkunft, Bildprompts und vorhandene Lizenzhinweise bleiben bei den Paketen erhalten, insbesondere [VRM-Hinweise](avatars/vrm/lizenzen.txt). Die Veröffentlichung stellt keine pauschale Lizenz für zugrunde liegende Anime-/Spielwerke oder fremde Modelle dar.
-
-### Rechtliche Hinweise & Marken
-
-Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt. Alle dargestellten Charaktere, Titel, Namen, Logos und Markenzeichen sind geistiges Eigentum ihrer jeweiligen Urheber und Verlage:
-- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
-- **Sakura Succubus:** © Winged Cloud
+Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt für OtakuSoul. Alle dargestellten Charaktere, Titel, Namen, Logos und Markenzeichen sind geistiges Eigentum ihrer jeweiligen Urheber und Verlage:
+- **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
 - **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
 - **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
 - **Lycoris Recoil:** © Spider Lily / Asaura / Aniplex / A-1 Pictures
 - **Sword Art Online:** © Reki Kawahara / abec / ASCII Media Works / KADOKAWA / A-1 Pictures
-- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
+- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
+- **Sakura Succubus:** © Winged Cloud
 - **Sousou no Frieren:** © Kanehito Yamada, Tsukasa Abe / Shogakukan / Madhouse
 - **My Dress-Up Darling:** © Shinichi Fukuda / Square Enix / CloverWorks
 - **Don't Toy With Me, Miss Nagatoro:** © Nanashi / Kodansha / Telecom Animation Film
@@ -62,61 +120,64 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt. Alle da
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 - **Cyberpunk 2077:** © CD PROJEKT S.A. / Mike Pondsmith, R. Talsorian Games
-- **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
+- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
 
 ---
 
 ## English
 
-Separate content repository for [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): character cards, expression images, Stage stories (scenes), lorebooks, backgrounds, VRM avatars, language files and model recommendations. Repository changes do not import content into a local app installation.
+### 🌸 What is `otakusoul-data`?
 
-### Structure
+This repository serves as the official content and asset backend for [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), delivering rich modular story content via the integrated **Hub & Gateway**:
+- 👥 **Character Cards (Tavern / OtakuSoul Character Card V2):** Complete V2 cards in JSON and PNG format (embedded `chara` text chunk), each with 6 consistent expression portraits (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`).
+- 🎭 **Soul Stages (Interactive Scenarios):** Multi-character stories featuring GM narration tone, turn engines, starting locations, and optional **D&D 5e rulebook integration**.
+- 📖 **World Lorebooks:** Keyword- and tension-driven knowledge bases injected dynamically into the LLM context.
+- 🎨 **Scene Backgrounds & Avatare:** Atmospheric 16:9 widescreen artwork and VRM avatar references.
+- 🌍 **Full Trilingual Support:** All character profiles, greetings, dialogue samples, and scenes are maintained in **German (DE)**, **English (EN)**, and **Russian (RU)**.
 
-| Path | Contents |
-|---|---|
-| `soul_registry.json` / `cards_gateway/` | Character catalog and independently importable PNG cards |
-| `lorebooks_registry.json` / `lorebooks_gateway/` | Lorebook catalog and JSON files |
-| `stages_registry.json` / `stages_gateway/` | Scene catalog and JSON files |
-| `presets/` | Themed packages with JSON/PNG cards, expressions, backgrounds and documentation; some include their own scenes and lorebooks |
-| `avatars/` | Additional avatars; attribution and download sources in `avatars/vrm/lizenzen.txt` |
-| `locales/` | German and Russian app language files; English is maintained in the app |
-| `recommended_models.json` | Starter models for the app's setup wizard (the app loads the file at start when it is newer), without model binaries |
-| `tools/` | Reusable maintenance and validation tools |
+> 💡 **Looking for an overview?**
+> - For a complete, token-saving reference of all 57 characters, 48 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - For current development progress and planned packs, check [**ROADMAP.md**](ROADMAP.md).
+> - For technical specifications and validation rules, see [**AI.md**](AI.md).
 
-### Content and usage
+---
 
-Packages include **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **The Quintessential Quintuplets**, **Elfen Lied**, [**Re:Zero**](presets/re-zero/README.md), additional anime character presets (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) and original **Ren Takahashi / Aoi Mizuno** characters from Aobane Highschool. [ROADMAP.md](ROADMAP.md) tracks progress, including expression images.
+### 🤝 Contributing & Community Creations
 
-The app reads the three registries through its Hub/Gateway views. PNG character cards also support manual import: they embed the Character Card V2 definition in `chara` metadata. Preset cards use relative image paths; Gateway cards use public repository URLs. Preserve the folder structure when importing a package manually. When a scene is imported from the Hub, the app downloads its background pictures along with it. Import VRM models separately as needed; there is no dedicated background catalog.
+**We warmly welcome community contributions!** Feel free to create your own characters, campaigns, stages, or lorebooks and submit them via Pull Request.
 
-Character translations for **DE, EN and RU** are stored in `data.extensions.otakusoul_i18n`. `source_language` identifies the base language; `translations` contains the other languages. Package documentation explains content-specific details.
+To keep the repository safe, high-quality, and legal for all users, please adhere to our core guidelines:
 
-### Maintenance and attribution
+#### ⚖️ Legal & Safety Guidelines
+1. **Non-Commercial Fan Art & Original Characters:** This is an independent fan project. Do not use copyrighted studio artwork, anime screenshots, or scans as image inputs.
+2. **AI Transparency & Image Rights:** Use your own AI-generated fan art or original artwork for portraits and expressions. Document your generation prompts and parameters in `image_prompts.json` (see existing presets for reference).
+3. **Strictly Safe for Work (SFW):** No pornographic, excessively violent, or adult-themed content. Minor characters must always be depicted age-appropriately and must never be sexualized.
+4. **Third-Party Rights:** Do not include proprietary model binaries or gated downloads (`recommended_models.json` only accepts freely licensed models such as MIT, Apache-2.0, or BSD without mandatory login).
 
-[AI.md](AI.md) documents file formats, translations, image requirements, registries and publication. [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md) point to it. [ROADMAP.md](ROADMAP.md) is the only maintained roadmap.
+#### 🛠️ How to Contribute (Step-by-Step)
+1. **Fork:** Fork this repository and clone your fork locally.
+2. **Create Preset Folder:** Create a new folder under `presets/<your-package>/` (`kebab-case`).
+3. **Build Character Cards:** Create Character Card V2 JSON and PNG files (including required fields, 2+ greetings, 3 dialogue examples, and DE/EN/RU translations as specified in [AI.md](AI.md)).
+4. **Add Artworks:** Provide 700×937 PNG master portraits and 640×800 WebP expressions under `presets/<your-package>/expressions/<char>/`.
+5. **Validate:** Run the built-in validator:
+   ```sh
+   python3 tools/validate_content.py --sync-registry
+   ```
+   This automatically synchronizes descriptions into the registries and ensures 0 errors.
+6. **Submit PR:** Open a clean Pull Request on GitHub!
 
-Python tools are optional repository maintenance utilities, not app dependencies. Install with `python3 -m pip install -r tools/requirements.txt` in a dedicated virtual environment. Read-only checks:
+---
 
-```sh
-python3 tools/validate_content.py
-python3 tools/validate_aobane.py
-python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
-```
+### ⚖️ Legal Notices & Trademarks (English)
 
-`validate_content.py` checks cards, scenes, lorebooks and registries of the whole repository (exit code 1 on errors); with `--sync-registry` it copies titles, descriptions and their translations from the files into the registries. The third command validates an existing campaign character. With `--manifest`, the tool packages new expressions and updates the roadmap; see [AI.md](AI.md).
-
-[LICENSE](LICENSE) contains the **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) for original scripts, texts and contributions, together with trilingual notices about AI-generated fan art, credits (including [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) by [jofizcd](https://github.com/jofizcd)) and third-party rights. Attribution, image prompts and existing license notices remain with the packages, especially [VRM notices](avatars/vrm/lizenzen.txt). Publication does not grant a blanket license to underlying anime/game works or third-party models.
-
-### Legal Notices & Trademarks
-
-This repository is an independent, non-commercial fan project. All depicted characters, titles, names, logos and trademarks are the intellectual property of their respective creators and publishers:
-- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
-- **Sakura Succubus:** © Winged Cloud
+This repository is an independent, non-commercial fan project. All depicted characters, titles, names, logos, and trademarks are the intellectual property of their respective creators and publishers:
+- **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
 - **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
 - **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
 - **Lycoris Recoil:** © Spider Lily / Asaura / Aniplex / A-1 Pictures
 - **Sword Art Online:** © Reki Kawahara / abec / ASCII Media Works / KADOKAWA / A-1 Pictures
-- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
+- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
+- **Sakura Succubus:** © Winged Cloud
 - **Sousou no Frieren:** © Kanehito Yamada, Tsukasa Abe / Shogakukan / Madhouse
 - **My Dress-Up Darling:** © Shinichi Fukuda / Square Enix / CloverWorks
 - **Don't Toy With Me, Miss Nagatoro:** © Nanashi / Kodansha / Telecom Animation Film
@@ -126,61 +187,64 @@ This repository is an independent, non-commercial fan project. All depicted char
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 - **Cyberpunk 2077:** © CD PROJEKT S.A. / Mike Pondsmith, R. Talsorian Games
-- **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
+- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
 
 ---
 
 ## Русский
 
-Отдельный репозиторий контента для [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul): карточки персонажей, изображения эмоций, истории Stage (сцены), лорбуки, фоны, VRM-аватары, языковые файлы и рекомендации моделей. Изменения в репозитории не импортируют контент в локальную установку приложения.
+### 🌸 Что такое `otakusoul-data`?
 
-### Структура
+Этот репозиторий — официальное хранилище модульного контента для [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), обеспечивающее приложение историями, мирами и персонажами через встроенный **Hub & Gateway**:
+- 👥 **Карточки персонажей (Tavern / OtakuSoul Character Card V2):** Полные профили V2 в форматах JSON и PNG (со встроенным блоком `chara`), включающие 6 эмоций (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`).
+- 🎭 **Soul Stages (Интерактивные сцены):** Сюжетные приключения с тональностью мастера (GM), управлением ходами и опциональной **боевой системой 5e**.
+- 📖 **Лорбуки миров:** Базы знаний с триггерами по ключевым словам и уровню напряжения для динамической вставки в контекст ИИ.
+- 🎨 **Фоны и аватары:** Атмосферные широкоформатные изображения 16:9 и поддержка моделей VRM.
+- 🌍 **Трёхъязычная поддержка:** Все профили, приветствия, примеры диалогов и сцены поддерживаются на **немецком (DE)**, **английском (EN)** и **русском (RU)** языках.
 
-| Путь | Содержимое |
-|---|---|
-| `soul_registry.json` / `cards_gateway/` | Каталог персонажей и PNG-карточки для отдельного импорта |
-| `lorebooks_registry.json` / `lorebooks_gateway/` | Каталог лорбуков и JSON-файлы |
-| `stages_registry.json` / `stages_gateway/` | Каталог сцен и JSON-файлы |
-| `presets/` | Тематические наборы: JSON-/PNG-карточки, эмоции, фоны и документация; некоторые содержат собственные сцены и лорбуки |
-| `avatars/` | Дополнительные аватары; сведения об источниках и ссылки в `avatars/vrm/lizenzen.txt` |
-| `locales/` | Немецкие и русские языковые файлы приложения; английский поддерживается в приложении |
-| `recommended_models.json` | Стартовые модели для мастера настройки приложения (приложение загружает файл при запуске, если он новее) без файлов самих моделей |
-| `tools/` | Повторно используемые инструменты обслуживания и проверки |
+> 💡 **Быстрый обзор:**
+> - Компактный справочник всех 57 персонажей, 48 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Текущий ход разработки и запланированные сюжеты: [**ROADMAP.md**](ROADMAP.md).
+> - Технические требования и правила валидации: [**AI.md**](AI.md).
 
-### Контент и использование
+---
 
-Доступны наборы **No Game No Life**, **Sakura Succubus 3**, **Dungeon Meshi**, **Steins;Gate**, **Lycoris Recoil**, **Sword Art Online**, **The Quintessential Quintuplets**, **Elfen Lied**, [**Re:Zero**](presets/re-zero/README.md), дополнительные пресеты персонажей (*Frieren*, *Nagatoro*, *Marin Kitagawa*, *Yor Forger*, *Megumin*, *Kaguya Shinomiya*) и оригинальные персонажи **Ren Takahashi / Aoi Mizuno** из старшей школы Aobane. Ход работы, включая изображения эмоций, отражён в [ROADMAP.md](ROADMAP.md).
+### 🤝 Участие и добавление контента (Community Contributions)
 
-Приложение читает три реестра в разделах Hub/Gateway. PNG-карточки также можно импортировать вручную: определение Character Card V2 встроено в метаданные `chara`. Карточки наборов используют относительные пути к изображениям, а карточки Gateway — публичные URL репозитория. При ручном импорте набора сохраняйте структуру каталогов. При импорте сцены из Hub приложение автоматически загружает её фоновые изображения. VRM-модели при необходимости импортируются отдельно; отдельного каталога фонов нет.
+**Мы рады вкладу сообщества!** Любой желающий может создать своих персонажей, интерактивные сцены или лорбуки и предложить их через Pull Request.
 
-Переводы персонажей на **DE, EN и RU** хранятся в `data.extensions.otakusoul_i18n`. `source_language` задаёт исходный язык, а `translations` содержит остальные языки. Особенности наборов описаны в их документации.
+Чтобы репозиторий оставался качественным, безопасным и законным, соблюдайте базовые правила:
 
-### Обслуживание и источники
+#### ⚖️ Правовые нормы и безопасность
+1. **Некоммерческий фан-арт и авторские персонажи:** Это независимый фанатский проект. Не используйте официальные арты, кадры аниме или сканы студий в качестве изображений.
+2. **Прозрачность ИИ и авторство изображений:** Используйте собственные генерации ИИ или собственные рисунки. Документируйте использованные запросы в `image_prompts.json` (по примеру существующих наборов).
+3. **Безопасный контент (SFW):** Никаких материалов 18+, чрезмерной жестокости или непристойных сцен. Несовершеннолетние персонажи должны изображаться строго подобающим возрасту образом.
+4. **Свободные лицензии моделей:** В `recommended_models.json` допускаются только свободно распространяемые модели (MIT, Apache-2.0, BSD без логина).
 
-[AI.md](AI.md) beschreibt Dateiformate, Übersetzungen, Bildvorgaben, Registries und den Veröffentlichungsablauf. [AGENTS.md](AGENTS.md) и [CLAUDE.md](CLAUDE.md) ссылаются на него. Единственная поддерживаемая дорожная карта — [ROADMAP.md](ROADMAP.md).
+#### 🛠️ Как предложить свои материалы (Пошагово)
+1. **Форк:** Сделайте форк репозитория на GitHub и клонируйте его локально.
+2. **Папка набора:** Создайте папку `presets/<ваш-набор>/` (`kebab-case`).
+3. **Создайте карточки:** Оформите файлы Character Card V2 JSON и PNG (обязательные поля, 2+ приветствия, 3 примера диалогов и переводы DE/EN/RU согласно [AI.md](AI.md)).
+4. **Добавьте изображения:** Основной портрет 700×937 PNG и 6 эмоций 640×800 WebP в папке `presets/<ваш-набор>/expressions/<персонаж>/`.
+5. **Валидация:** Запустите встроенный валидатор:
+   ```sh
+   python3 tools/validate_content.py --sync-registry
+   ```
+   Он проверит файлы на ошибки и синхронизирует описания в реестры.
+6. **Pull Request:** Отправьте чистый Pull Request на GitHub!
 
-Python-инструменты предназначены для необязательного обслуживания репозитория и не являются зависимостью приложения. Установка: `python3 -m pip install -r tools/requirements.txt` в отдельном виртуальном окружении. Проверки без изменения файлов:
+---
 
-```sh
-python3 tools/validate_content.py
-python3 tools/validate_aobane.py
-python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
-```
-
-`validate_content.py` проверяет карточки, сцены, лорбуки и реестры всего репозитория (код выхода 1 при ошибках); с `--sync-registry` переносит названия, описания и их переводы из файлов в реестры. Третья команда проверяет существующего персонажа кампании. С параметром `--manifest` инструмент упаковывает новые изображения эмоций и обновляет дорожную карту; подробности — в [AI.md](AI.md).
-
-[LICENSE](LICENSE) содержит лицензию **GNU General Public License v3.0** (`GPL-3.0-only`, Copyright (C) 2026 SnowwhiteOakheart) для собственных скриптов, текстов и материалов, а также трёхъязычные уведомления о фан-арте ИИ, благодарностях (включая [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) от [jofizcd](https://github.com/jofizcd)) и правах третьих лиц. Источники, промпты изображений и имеющиеся лицензионные сведения сохраняются в наборах, особенно [сведения о VRM](avatars/vrm/lizenzen.txt). Публикация не предоставляет общую лицензию на исходные аниме, игры или сторонние модели.
-
-### Правовые уведомления и товарные знаки
+### ⚖️ Правовые уведомления и товарные знаки (Русский)
 
 Этот репозиторий является независимым некоммерческим фан-проектом. Все представленные персонажи, названия, логотипы и товарные знаки являются интеллектуальной собственностью их авторов и издателей:
-- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
-- **Sakura Succubus:** © Winged Cloud
+- **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
 - **Dungeon Meshi:** © Ryoko Kui / KADOKAWA / Studio TRIGGER
 - **Steins;Gate:** © MAGES. / 5pb. / Chiyomaru Studio / NITRO PLUS / White Fox
 - **Lycoris Recoil:** © Spider Lily / Asaura / Aniplex / A-1 Pictures
 - **Sword Art Online:** © Reki Kawahara / abec / ASCII Media Works / KADOKAWA / A-1 Pictures
-- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
+- **No Game No Life:** © Yuu Kamiya / KADOKAWA / Media Factory / MADHOUSE
+- **Sakura Succubus:** © Winged Cloud
 - **Sousou no Frieren:** © Kanehito Yamada, Tsukasa Abe / Shogakukan / Madhouse
 - **My Dress-Up Darling:** © Shinichi Fukuda / Square Enix / CloverWorks
 - **Don't Toy With Me, Miss Nagatoro:** © Nanashi / Kodansha / Telecom Animation Film
@@ -190,4 +254,4 @@ python3 tools/package_campaign_expressions.py dungeon-meshi laios_touden
 - **Neverness to Everness:** © Hotta Studio / Perfect World
 - **Re:Zero:** © Tappei Nagatsuki / KADOKAWA / Re:ZERO Animation Project
 - **Cyberpunk 2077:** © CD PROJEKT S.A. / Mike Pondsmith, R. Talsorian Games
-- **The Quintessential Quintuplets:** © Negi Haruba / KODANSHA / Bibury Animation Studios
+- **Elfen Lied:** © Lynn Okamoto / Shueisha / VAP / Arms
