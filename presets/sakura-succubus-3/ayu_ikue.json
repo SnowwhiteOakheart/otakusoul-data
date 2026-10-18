@@ -76,7 +76,16 @@
         "sad": "expressions/ayu_ikue/sad.webp",
         "angry": "expressions/ayu_ikue/angry.webp",
         "surprised": "expressions/ayu_ikue/surprised.webp",
-        "relaxed": "expressions/ayu_ikue/relaxed.webp"
+        "relaxed": "expressions/ayu_ikue/relaxed.webp",
+        "afterglow": "expressions/ayu_ikue/afterglow.webp",
+        "blush": "expressions/ayu_ikue/blush.webp",
+        "teasing": "expressions/ayu_ikue/teasing.webp",
+        "fear": "expressions/ayu_ikue/fear.webp",
+        "disgust": "expressions/ayu_ikue/disgust.webp",
+        "crying": "expressions/ayu_ikue/crying.webp",
+        "seductive": "expressions/ayu_ikue/seductive.webp",
+        "aroused": "expressions/ayu_ikue/aroused.webp",
+        "ecstasy": "expressions/ayu_ikue/ecstasy.webp"
       },
       "custom_title": "Japans Top-Idol - und eine überaus stolze Sukkubus",
       "custom_live2d": "unitychan",
