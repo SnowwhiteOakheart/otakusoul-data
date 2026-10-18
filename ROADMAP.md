@@ -319,3 +319,4 @@ Alle 16 Kampagnenfiguren verf체gen jetzt zus채tzlich zum bestehenden Hauptportr�
 49 Figuren erhalten je neun Zusatzbilder (441 insgesamt). Nur bestehende Emotionss채tze; NTE bleibt ausgeschlossen.
 
 - [x] **Ichika Nakano** (quintessential-quintuplets): alle 15 Slots, neun neue eigenst채ndige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten gepr체ft.
+- [x] **Futaro Uesugi** (quintessential-quintuplets): alle 15 Slots, neun neue eigenst채ndige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten gepr체ft.
