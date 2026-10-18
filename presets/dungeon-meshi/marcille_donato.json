@@ -88,7 +88,16 @@
         "relaxed": "expressions/marcille_donato/relaxed.webp",
         "surprised": "expressions/marcille_donato/surprised.webp",
         "angry": "expressions/marcille_donato/angry.webp",
-        "sad": "expressions/marcille_donato/sad.webp"
+        "sad": "expressions/marcille_donato/sad.webp",
+        "blush": "expressions/marcille_donato/blush.webp",
+        "teasing": "expressions/marcille_donato/teasing.webp",
+        "seductive": "expressions/marcille_donato/seductive.webp",
+        "fear": "expressions/marcille_donato/fear.webp",
+        "disgust": "expressions/marcille_donato/disgust.webp",
+        "aroused": "expressions/marcille_donato/aroused.webp",
+        "crying": "expressions/marcille_donato/crying.webp",
+        "ecstasy": "expressions/marcille_donato/ecstasy.webp",
+        "afterglow": "expressions/marcille_donato/afterglow.webp"
       }
     }
   }
