@@ -340,3 +340,4 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] **Marin Kitagawa** (marin-kitagawa): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Megumin** (megumin): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Chlammy Zell** (no-game-no-life): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+- [x] **Fiel Nirvalen** (no-game-no-life): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.

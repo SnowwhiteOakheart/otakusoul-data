@@ -30,7 +30,16 @@
         "sad": "expressions/fiel_nirvalen/sad.webp",
         "angry": "expressions/fiel_nirvalen/angry.webp",
         "surprised": "expressions/fiel_nirvalen/surprised.webp",
-        "relaxed": "expressions/fiel_nirvalen/relaxed.webp"
+        "relaxed": "expressions/fiel_nirvalen/relaxed.webp",
+        "blush": "expressions/fiel_nirvalen/blush.webp",
+        "crying": "expressions/fiel_nirvalen/crying.webp",
+        "teasing": "expressions/fiel_nirvalen/teasing.webp",
+        "aroused": "expressions/fiel_nirvalen/aroused.webp",
+        "seductive": "expressions/fiel_nirvalen/seductive.webp",
+        "fear": "expressions/fiel_nirvalen/fear.webp",
+        "ecstasy": "expressions/fiel_nirvalen/ecstasy.webp",
+        "afterglow": "expressions/fiel_nirvalen/afterglow.webp",
+        "disgust": "expressions/fiel_nirvalen/disgust.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
