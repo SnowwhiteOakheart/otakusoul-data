@@ -17,6 +17,7 @@ Vor jeder Änderung vollständig lesen. Dieses Repository ist `SnowwhiteOakheart
 README.md                       Einstieg in DE / EN / RU
 AI.md                           dieser verbindliche Wegweiser
 AGENTS.md / CLAUDE.md            kurze Verweise auf AI.md
+CONTENT_INDEX.md                tokensparende Inhalts- und Architekturreferenz für Agenten
 LICENSE                         Rechte- und Nutzungshinweise
 ROADMAP.md                      Arbeitsstand, einzige Roadmap
 soul_registry.json              Charakterindex
