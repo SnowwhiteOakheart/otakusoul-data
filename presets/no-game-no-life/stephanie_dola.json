@@ -30,7 +30,16 @@
         "sad": "expressions/stephanie_dola/sad.webp",
         "angry": "expressions/stephanie_dola/angry.webp",
         "surprised": "expressions/stephanie_dola/surprised.webp",
-        "relaxed": "expressions/stephanie_dola/relaxed.webp"
+        "relaxed": "expressions/stephanie_dola/relaxed.webp",
+        "disgust": "expressions/stephanie_dola/disgust.webp",
+        "ecstasy": "expressions/stephanie_dola/ecstasy.webp",
+        "afterglow": "expressions/stephanie_dola/afterglow.webp",
+        "blush": "expressions/stephanie_dola/blush.webp",
+        "crying": "expressions/stephanie_dola/crying.webp",
+        "teasing": "expressions/stephanie_dola/teasing.webp",
+        "seductive": "expressions/stephanie_dola/seductive.webp",
+        "fear": "expressions/stephanie_dola/fear.webp",
+        "aroused": "expressions/stephanie_dola/aroused.webp"
       },
       "otakusoul_i18n": {
         "source_language": "de",
