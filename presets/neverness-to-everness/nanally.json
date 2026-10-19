@@ -78,7 +78,24 @@
         }
       },
       "custom_title": "Ichi-daime der Coluccis",
-      "custom_avatar": "nanally.png"
+      "custom_avatar": "nanally.png",
+      "expressions": {
+        "neutral": "expressions/nanally/neutral.webp",
+        "happy": "expressions/nanally/happy.webp",
+        "sad": "expressions/nanally/sad.webp",
+        "angry": "expressions/nanally/angry.webp",
+        "surprised": "expressions/nanally/surprised.webp",
+        "relaxed": "expressions/nanally/relaxed.webp",
+        "blush": "expressions/nanally/blush.webp",
+        "teasing": "expressions/nanally/teasing.webp",
+        "fear": "expressions/nanally/fear.webp",
+        "disgust": "expressions/nanally/disgust.webp",
+        "crying": "expressions/nanally/crying.webp",
+        "seductive": "expressions/nanally/seductive.webp",
+        "aroused": "expressions/nanally/aroused.webp",
+        "ecstasy": "expressions/nanally/ecstasy.webp",
+        "afterglow": "expressions/nanally/afterglow.webp"
+      }
     }
   }
 }
