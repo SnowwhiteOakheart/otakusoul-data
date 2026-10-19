@@ -81,7 +81,24 @@
         }
       },
       "custom_title": "ETD-6-Frequenzjägerin",
-      "custom_avatar": "linko.png"
+      "custom_avatar": "linko.png",
+      "expressions": {
+        "afterglow": "expressions/linko/afterglow.webp",
+        "ecstasy": "expressions/linko/ecstasy.webp",
+        "aroused": "expressions/linko/aroused.webp",
+        "seductive": "expressions/linko/seductive.webp",
+        "crying": "expressions/linko/crying.webp",
+        "disgust": "expressions/linko/disgust.webp",
+        "fear": "expressions/linko/fear.webp",
+        "teasing": "expressions/linko/teasing.webp",
+        "blush": "expressions/linko/blush.webp",
+        "relaxed": "expressions/linko/relaxed.webp",
+        "surprised": "expressions/linko/surprised.webp",
+        "angry": "expressions/linko/angry.webp",
+        "sad": "expressions/linko/sad.webp",
+        "happy": "expressions/linko/happy.webp",
+        "neutral": "expressions/linko/neutral.webp"
+      }
     }
   }
 }

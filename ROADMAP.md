@@ -377,3 +377,4 @@ Alle 16 Kampagnenfiguren verf체gen jetzt zus채tzlich zum bestehenden Hauptportr�
 Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt).
 
 - [x] **Lacrimosa** (neverness-to-everness): alle 15 Slots, 15 neue eigenst채ndige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten gepr체ft.
+- [x] **Linko** (neverness-to-everness): alle 15 Slots, 15 neue eigenst채ndige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten gepr체ft.
