@@ -380,3 +380,4 @@ Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt
 - [x] **Linko** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Shinku** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Iroi** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+- [x] **Esper Zero (Female)** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
