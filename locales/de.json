@@ -89,5 +89,7 @@
   "None.": "Keine.",
   "Promise kept: {}": "Versprechen gehalten: {}",
   "Promise not kept: {}": "Versprechen nicht eingehalten: {}",
-  "Plan dropped: {}": "Vorhaben verworfen: {}"
+  "Plan dropped: {}": "Vorhaben verworfen: {}",
+  "Ask Lirwen whether she can decipher these runes": "Lirwen fragen, ob sie diese Schriftzeichen entziffern kann",
+  "Keen mind": "Wacher Geist"
 }

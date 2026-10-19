@@ -89,5 +89,7 @@
   "None.": "Нет.",
   "Promise kept: {}": "Обещание выполнено: {}",
   "Promise not kept: {}": "Обещание не выполнено: {}",
-  "Plan dropped: {}": "План отменён: {}"
+  "Plan dropped: {}": "План отменён: {}",
+  "Ask Lirwen whether she can decipher these runes": "Спросить Лирвен, может ли она расшифровать эти знаки",
+  "Keen mind": "Ясный ум"
 }
