@@ -366,10 +366,7 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] **Kirito (Kazuto Kirigaya)** (sword-art-online): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Klein (Ryoutarou Tsuboi)** (sword-art-online): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 
-**Pause bis 19.10.2026:** 47/49 Figuren veröffentlicht, 423/441 Zusatzbilder. Tageslimit des Bildgenerators erreicht. Keine weiteren Generierungen am 18.10.2026.
-- [ ] **Lisbeth / Rika**: sechs neue Bilder noch erzeugen; drei bereits erzeugte Varianten im lokalen Generierungsmanifest erhalten. Danach alle neun gemeinsam prüfen und veröffentlichen.
-- [ ] **Yor Forger**: neun neue Bilder erzeugen, prüfen und veröffentlichen.
+**Abgeschlossen am 19.10.2026:** 49/49 Figuren, 441 Zusatzbilder. Lisbeth und Yor sind vollständig ergänzt. Alle 52 Figuren mit bestehendem Emotionssatz einschließlich Overlord haben 15 Slots; NTE bleibt unverändert.
 
-Nur Figuren mit bestehendem Emotionssatz ergänzen; NTE weiterhin vollständig auslassen. Fortsetzung anhand der vorhandenen lokalen Generierungsmanifeste; bestehende Bilder nicht neu erzeugen.
 - [x] **Lisbeth (Rika Shinozaki)** (sword-art-online): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Yor Forger** (yor-forger): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
