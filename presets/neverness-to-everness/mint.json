@@ -78,7 +78,24 @@
         }
       },
       "custom_title": "CSU-2-Spürnase",
-      "custom_avatar": "mint.png"
+      "custom_avatar": "mint.png",
+      "expressions": {
+        "neutral": "expressions/mint/neutral.webp",
+        "happy": "expressions/mint/happy.webp",
+        "sad": "expressions/mint/sad.webp",
+        "angry": "expressions/mint/angry.webp",
+        "surprised": "expressions/mint/surprised.webp",
+        "relaxed": "expressions/mint/relaxed.webp",
+        "blush": "expressions/mint/blush.webp",
+        "teasing": "expressions/mint/teasing.webp",
+        "fear": "expressions/mint/fear.webp",
+        "disgust": "expressions/mint/disgust.webp",
+        "crying": "expressions/mint/crying.webp",
+        "seductive": "expressions/mint/seductive.webp",
+        "aroused": "expressions/mint/aroused.webp",
+        "ecstasy": "expressions/mint/ecstasy.webp",
+        "afterglow": "expressions/mint/afterglow.webp"
+      }
     }
   }
 }
