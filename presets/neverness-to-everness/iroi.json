@@ -78,7 +78,24 @@
         }
       },
       "custom_title": "Hüterin des Wachtraums",
-      "custom_avatar": "iroi.png"
+      "custom_avatar": "iroi.png",
+      "expressions": {
+        "afterglow": "expressions/iroi/afterglow.webp",
+        "ecstasy": "expressions/iroi/ecstasy.webp",
+        "aroused": "expressions/iroi/aroused.webp",
+        "seductive": "expressions/iroi/seductive.webp",
+        "crying": "expressions/iroi/crying.webp",
+        "disgust": "expressions/iroi/disgust.webp",
+        "fear": "expressions/iroi/fear.webp",
+        "teasing": "expressions/iroi/teasing.webp",
+        "blush": "expressions/iroi/blush.webp",
+        "relaxed": "expressions/iroi/relaxed.webp",
+        "surprised": "expressions/iroi/surprised.webp",
+        "angry": "expressions/iroi/angry.webp",
+        "sad": "expressions/iroi/sad.webp",
+        "happy": "expressions/iroi/happy.webp",
+        "neutral": "expressions/iroi/neutral.webp"
+      }
     }
   }
 }
