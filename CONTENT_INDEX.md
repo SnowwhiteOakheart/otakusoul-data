@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 60 Charaktere · 48 Soul Stages (Szenen) · 24 Lorebooks · 21 Presets.
+> **Stand:** 61 Charaktere · 48 Soul Stages (Szenen) · 24 Lorebooks · 21 Presets.
 
 ---
 
@@ -42,7 +42,7 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 | Preset-Ordner | Franchise / Herkunft | Registrierte Figuren (`name` in `soul_registry.json`) | Bemerkungen / Gastauftritte |
 |---|---|---|---|
 | `overlord` | Overlord | `Ainz Ooal Gown` (Momonga), `Albedo`, `Shalltear Bloodfallen` (3) | Je 15 eigenständige SFW-Expressions; keine eigenen Stages/Lorebooks. |
-| `re-zero` | Re:Zero | `Subaru Natsuki`, `Rem`, `Ram`, `Beatrice`, `Echidna` (5) | Rem tritt in Isekai- und Romance-Stages auf. |
+| `re-zero` | Re:Zero | `Subaru Natsuki`, `Emilia`, `Rem`, `Ram`, `Beatrice`, `Echidna` (6) | Rem tritt in Isekai- und Romance-Stages auf. Emilia kam am 19.10.2026 aus der App (bisher mitgeliefert), vorerst mit dem Sechser-Basissatz. |
 | `neverness-to-everness` | Neverness to Everness | `Mint`, `Iroi`, `Lacrimosa`, `Nanally Colucci`, `Linko`, `Esper Zero (Female)`, `Esper Zero (Male)`, `Shinku` (8) | Urban-Fantasy-Cast; Lacrimosa und Shinku treten in Cyberpunk-Stages auf. |
 | `frieren` | Sousou no Frieren | `Frieren` | Gastauftritt in `isekai_null_mana_summoning`. |
 | `nagatoro` | Don't Toy With Me, Miss Nagatoro | `Hayase Nagatoro` | Gastauftritt in `romance_rainy_clubroom_confessions`. |

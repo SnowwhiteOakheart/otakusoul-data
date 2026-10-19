@@ -2,7 +2,7 @@
 
 ## Deutsch
 
-Fünf neu verfasste Character-Card-V2-Profile: **Rem, Ram, Echidna, Beatrice und Subaru Natsuki**. Echidna ist die weißhaarige Hexe der Gier und einmal enthalten.
+Fünf neu verfasste Character-Card-V2-Profile: **Rem, Ram, Echidna, Beatrice und Subaru Natsuki**. Echidna ist die weißhaarige Hexe der Gier und einmal enthalten. Dazu kommt **Emilia** (`emilia.json` / `emilia.png`, Halbelfe und Kandidatin der Königswahl), die bis Oktober 2026 in der OtakuSoul-App mitgeliefert wurde; Porträt im älteren 640×800-Format, sechs Emotionsbilder, Ausgangssprache Englisch.
 
 Je Figur: Hauptporträt als 700×937-PNG, vollständige Texte auf Deutsch/Englisch/Russisch, zwei alternative Begrüßungen, drei Dialogbeispiele je Sprache sowie sechs eigenständige 640×800-WebP-Emotionsbilder (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`). Die Expressions basieren jeweils auf dem eigenen Hauptporträt und sind in der Karte verknüpft. Die PNGs enthalten das vollständige V2-Profil im `chara`-Metadatenfeld.
 
@@ -20,7 +20,7 @@ Hub-Karten: `cards_gateway/<figur>.png`, mit öffentlichen Expressions-URLs. Lok
 
 ## English
 
-Five newly written Character Card V2 profiles: **Rem, Ram, Echidna, Beatrice, and Subaru Natsuki**. Echidna is the white-haired Witch of Greed and appears once.
+Five newly written Character Card V2 profiles: **Rem, Ram, Echidna, Beatrice, and Subaru Natsuki**. Echidna is the white-haired Witch of Greed and appears once. **Emilia** (`emilia.json` / `emilia.png`, half-elf royal selection candidate) was bundled with the OtakuSoul app until October 2026 and now lives here; her portrait uses the older 640×800 format, with six expressions and English as source language.
 
 Each character has a 700×937 PNG master portrait, complete German/English/Russian texts, two alternate greetings, three dialogue examples per language, and six distinct 640×800 WebP expressions (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`). Expressions are edits of the character's own portrait and are linked in the card. PNG files contain the full V2 profile in `chara` metadata.
 
@@ -30,7 +30,7 @@ Hub PNGs under `cards_gateway/` link public expression URLs; preset paths are pa
 
 ## Русский
 
-Пять новых профилей Character Card V2: **Рем, Рам, Ехидна, Беатрис и Нацуки Субару**. Ехидна — беловолосая Ведьма Жадности; ее карта включена один раз.
+Пять новых профилей Character Card V2: **Рем, Рам, Ехидна, Беатрис и Нацуки Субару**. Ехидна — беловолосая Ведьма Жадности; ее карта включена один раз. Также здесь **Эмилия** (`emilia.json` / `emilia.png`, полуэльфийка и кандидатка королевского отбора), которая до октября 2026 года входила в приложение OtakuSoul; портрет в старом формате 640×800, шесть эмоций, исходный язык — английский.
 
 Для каждого персонажа: основной портрет PNG 700×937, полные тексты на немецком/английском/русском, два альтернативных приветствия, три примера диалога на каждом языке и шесть различных эмоций WebP 640×800 (`neutral`, `happy`, `relaxed`, `surprised`, `angry`, `sad`). Эмоции созданы на основе собственного портрета и подключены к карте. PNG содержит полный профиль V2 в метаданных `chara`.
 
@@ -40,7 +40,7 @@ Hub PNGs under `cards_gateway/` link public expression URLs; preset paths are pa
 
 ## Bildherkunft / Image provenance / Происхождение изображений
 
-Neu erzeugte KI-Fanart mit **OpenAI built-in ImageGen**; offizielle Vorlagen und fremde Fanarts wurden nicht als Bildeingabe verwendet. Die Emotionsbilder verwenden das jeweilige selbst generierte Porträt als Referenz. Prompts, Quellen und Nachbearbeitung: [image_prompts.json](image_prompts.json) sowie `expressions/<figur>/prompts.json`.
+Neu erzeugte KI-Fanart mit **OpenAI built-in ImageGen** (Emilia: integriertes `image_gen`-Werkzeug, 07.10.2026, Nachweis in `expressions/emilia/prompts.json`); offizielle Vorlagen und fremde Fanarts wurden nicht als Bildeingabe verwendet. Die Emotionsbilder verwenden das jeweilige selbst generierte Porträt als Referenz. Prompts, Quellen und Nachbearbeitung: [image_prompts.json](image_prompts.json) sowie `expressions/<figur>/prompts.json`.
 
 New AI-generated fan art made with **OpenAI built-in ImageGen**. No official artwork or third-party fan art was used as image input. Expression edits use each newly generated portrait as their reference. Prompts, sources, and processing are documented in [image_prompts.json](image_prompts.json) and each expression folder.
 

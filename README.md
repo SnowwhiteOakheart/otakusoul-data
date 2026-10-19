@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-60%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
+  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-61%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
   <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-48%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
   <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-24%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
   <img alt="Presets" src="https://img.shields.io/badge/Presets-21%20Welten-10b981?style=for-the-badge" />
@@ -44,7 +44,7 @@
 ### 🌸 Was ist `otakusoul-data`?
 
 Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul). Es versorgt die Anwendung über den integrierten **Hub & Gateway** mit fertigen Inhalten:
-- 👥 **Charakterkarten (Tavern / OtakuSoul Character Card V2):** Vollständige V2-Karten im JSON- und PNG-Format (`chara`-Textchunk); alle 60 Figuren verfügen über das vollständige Set aller 15 aktuellen Bildslots als abgestimmte SFW-Varianten (sechs Basis- und neun Zusatzemotionen).
+- 👥 **Charakterkarten (Tavern / OtakuSoul Character Card V2):** Vollständige V2-Karten im JSON- und PNG-Format (`chara`-Textchunk); 60 Figuren verfügen über das vollständige Set aller 15 aktuellen Bildslots als abgestimmte SFW-Varianten (sechs Basis- und neun Zusatzemotionen); die aus der App übernommene Emilia (Re:Zero) hat vorerst den Sechser-Basissatz.
 - 🎭 **Soul Stages (Szenarien & Episoden):** Interaktive Geschichten mit Zielvorgaben, Spielleiter-Tonalität (GM), Rundensteuerung, Startorten und optionalem **5e-Regelwerk**.
 - 📖 **Welten-Lorebooks:** Schlüsselwort- und Spannungs-gesteuerte Wissensdatenbanken für dynamische KI-Kontextinjektion.
 - 🎨 **Szenenhintergründe & Avatare:** Stimmige 16:9-Umgebungsbilder und optionale VRM-Modellhinweise.
@@ -52,7 +52,7 @@ Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github
 - 🌍 **Vollständige Dreisprachigkeit:** Alle nutzerseitigen Texte, Begrüßungen, Dialogbeispiele und Szenen werden in **Deutsch (DE)**, **Englisch (EN)** und **Russisch (RU)** gepflegt.
 
 > 💡 **Schnellübersicht gesucht?**
-> - Eine vollständige, tokensparende Übersicht aller 60 Figuren, 48 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Eine vollständige, tokensparende Übersicht aller 61 Figuren, 48 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Den aktuellen Entwicklungsstand und geplante Kampagnen findest du in [**ROADMAP.md**](ROADMAP.md).
 > - Technische Standards, Formate und Veröffentlichungsregeln stehen verbindlich in [**AI.md**](AI.md).
 
@@ -137,7 +137,7 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt für Ota
 ### 🌸 What is `otakusoul-data`?
 
 This repository serves as the official content and asset backend for [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), delivering rich modular story content via the integrated **Hub & Gateway**:
-- 👥 **Character Cards (Tavern / OtakuSoul Character Card V2):** Complete V2 cards in JSON and PNG format (embedded `chara` text chunk); all 60 characters feature the full set of all 15 current portrait slots as consistent SFW variants (six base and nine additional expressions).
+- 👥 **Character Cards (Tavern / OtakuSoul Character Card V2):** Complete V2 cards in JSON and PNG format (embedded `chara` text chunk); 60 characters feature the full set of all 15 current portrait slots as consistent SFW variants (six base and nine additional expressions); Emilia (Re:Zero), moved over from the app, has the six-image base set for now.
 - 🎭 **Soul Stages (Interactive Scenarios):** Multi-character stories featuring GM narration tone, turn engines, starting locations, and optional **D&D 5e rulebook integration**.
 - 📖 **World Lorebooks:** Keyword- and tension-driven knowledge bases injected dynamically into the LLM context.
 - 🎨 **Scene Backgrounds & Avatare:** Atmospheric 16:9 widescreen artwork and VRM avatar references.
@@ -145,7 +145,7 @@ This repository serves as the official content and asset backend for [OtakuSoul]
 - 🌍 **Full Trilingual Support:** All character profiles, greetings, dialogue samples, and scenes are maintained in **German (DE)**, **English (EN)**, and **Russian (RU)**.
 
 > 💡 **Looking for an overview?**
-> - For a complete, token-saving reference of all 60 characters, 48 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - For a complete, token-saving reference of all 61 characters, 48 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - For current development progress and planned packs, check [**ROADMAP.md**](ROADMAP.md).
 > - For technical specifications and validation rules, see [**AI.md**](AI.md).
 
@@ -212,7 +212,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 ### 🌸 Что такое `otakusoul-data`?
 
 Этот репозиторий — официальное хранилище модульного контента для [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), обеспечивающее приложение историями, мирами и персонажами через встроенный **Hub & Gateway**:
-- 👥 **Карточки персонажей (Tavern / OtakuSoul Character Card V2):** Полные профили V2 в форматах JSON и PNG (со встроенным блоком `chara`); все 60 персонажей оснащены полным набором из всех 15 текущих слотов портретов в неэротических вариантах (шесть базовых и девять дополнительных эмоций).
+- 👥 **Карточки персонажей (Tavern / OtakuSoul Character Card V2):** Полные профили V2 в форматах JSON и PNG (со встроенным блоком `chara`); 60 персонажей оснащены полным набором из всех 15 текущих слотов портретов в неэротических вариантах (шесть базовых и девять дополнительных эмоций); перенесённая из приложения Эмилия (Re:Zero) пока имеет базовый набор из шести.
 - 🎭 **Soul Stages (Интерактивные сцены):** Сюжетные приключения с тональностью мастера (GM), управлением ходами и опциональной **боевой системой 5e**.
 - 📖 **Лорбуки миров:** Базы знаний с триггерами по ключевым словам и уровню напряжения для динамической вставки в контекст ИИ.
 - 🎨 **Фоны и аватары:** Атмосферные широкоформатные изображения 16:9 и поддержка моделей VRM.
@@ -220,7 +220,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 - 🌍 **Трёхъязычная поддержка:** Все профили, приветствия, примеры диалогов и сцены поддерживаются на **немецком (DE)**, **английском (EN)** и **русском (RU)** языках.
 
 > 💡 **Быстрый обзор:**
-> - Компактный справочник всех 60 персонажей, 48 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Компактный справочник всех 61 персонажа, 48 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Текущий ход разработки и запланированные сюжеты: [**ROADMAP.md**](ROADMAP.md).
 > - Технические требования и правила валидации: [**AI.md**](AI.md).
 

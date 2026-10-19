@@ -1,0 +1,18 @@
+{
+  "tool": "Integrated image_gen tool",
+  "date": "2026-10-07",
+  "origin": "Bundled with the OtakuSoul app (presets/characters/) until 2026-10-19, moved here unchanged.",
+  "reference": "../../emilia.png",
+  "reference_note": "The master portrait was generated first and used as strict visual reference for each expression edit; the neutral image is taken from the master portrait.",
+  "portrait_prompt": "Create a completely new polished anime illustration for a character card, single character portrait, 4:5 vertical, head to mid torso, face fully visible, looking toward camera, calm neutral mouth, both eyes open, arms and hands outside frame. Emilia from Re:Zero, silver hair, amethyst eyes, pointed half-elf ears, white flower hair ornament with purple ribbon, modest white and lavender high-neck fantasy dress. Soft snowy forest. Detailed clean linework and soft painterly shading, consistent refined anime style, soft light upper left, restrained rich colors, gently blurred background. New composition and artwork. No text, letters, logo, watermark, signature or border. Wholesome fully clothed.",
+  "expression_prompt_template": "Use case: identity-preserve. Asset type: single anime character emotion portrait. Input image 1 is the strict visual reference and edit target for Emilia. Produce ONE image, NOT a contact sheet. Change ONLY facial expression: [emotion and personality]. Preserve facial identity, age, hairstyle, eye color, costume, accessories, pose, camera angle, exact framing, background, lighting and art style from the reference. Face should be clearly readable. No added text, letters, UI overlays, logo, watermark or signature. No extra limbs or characters. Retain all clothing coverage. Output portrait 4:5, 640x800 target.",
+  "emotion_descriptions": {
+    "neutral": "taken from the master portrait",
+    "happy": "warm smile, raised mouth corners, softer eyes and lifted cheeks",
+    "sad": "raised inner brows, lowered mouth corners, melancholic gaze",
+    "angry": "drawn-together lowered brows, focused eyes, tense mouth",
+    "surprised": "raised brows, wider eyes, slightly open round mouth",
+    "relaxed": "calm closed smile, relaxed brows, softly half-closed eyes"
+  },
+  "postprocessing": "640x800 WebP with sRGB profile."
+}

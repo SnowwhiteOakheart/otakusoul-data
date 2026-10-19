@@ -297,13 +297,15 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 <!-- re-zero:start -->
 ### Re:Zero-Charaktere mit Expressions
 
-5/5 Figuren mit DE/EN/RU-Profilen, je einem Hauptporträt und sechs Emotionsbildern veröffentlicht.
+6/6 Figuren mit DE/EN/RU-Profilen, je einem Hauptporträt und sechs Emotionsbildern veröffentlicht.
 
 - [x] Rem: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [x] Ram: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [x] Echidna: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [x] Beatrice: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [x] Subaru Natsuki: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
+- [x] Emilia: aus der OtakuSoul-App übernommen (19.10.2026), Hauptporträt im Altformat 640×800, sechs Expressions, V2-Preset und Gateway.
+- [ ] Emilia: neun Zusatzslots (`blush` … `afterglow`) wie bei den übrigen Re:Zero-Figuren ergänzen.
 <!-- re-zero:end -->
 
 
