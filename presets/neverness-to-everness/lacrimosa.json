@@ -78,7 +78,24 @@
         }
       },
       "custom_title": "Schläfriges Ass der ETD-4",
-      "custom_avatar": "lacrimosa.png"
+      "custom_avatar": "lacrimosa.png",
+      "expressions": {
+        "neutral": "expressions/lacrimosa/neutral.webp",
+        "happy": "expressions/lacrimosa/happy.webp",
+        "sad": "expressions/lacrimosa/sad.webp",
+        "angry": "expressions/lacrimosa/angry.webp",
+        "relaxed": "expressions/lacrimosa/relaxed.webp",
+        "teasing": "expressions/lacrimosa/teasing.webp",
+        "fear": "expressions/lacrimosa/fear.webp",
+        "disgust": "expressions/lacrimosa/disgust.webp",
+        "crying": "expressions/lacrimosa/crying.webp",
+        "seductive": "expressions/lacrimosa/seductive.webp",
+        "aroused": "expressions/lacrimosa/aroused.webp",
+        "ecstasy": "expressions/lacrimosa/ecstasy.webp",
+        "afterglow": "expressions/lacrimosa/afterglow.webp",
+        "blush": "expressions/lacrimosa/blush.webp",
+        "surprised": "expressions/lacrimosa/surprised.webp"
+      }
     }
   }
 }

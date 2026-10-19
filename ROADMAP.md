@@ -370,3 +370,10 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 
 - [x] **Lisbeth (Rika Shinozaki)** (sword-art-online): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Yor Forger** (yor-forger): alle 15 Slots, neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+
+
+### NTE – vollständige Emotionsserien
+
+Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt).
+
+- [x] **Lacrimosa** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.

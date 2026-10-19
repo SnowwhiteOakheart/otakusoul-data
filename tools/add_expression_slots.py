@@ -39,13 +39,15 @@ def pixels(path):
 
 def package(manifest):
     record = json.loads(Path(manifest).read_text())
-    assert record['group'] != 'neverness-to-everness', 'NTE ist ausdrücklich ausgeschlossen'
+    allow_new = record.get('allow_new_series') is True
     path = ROOT / record['card']
     assert path == ROOT / 'presets' / record['group'] / (record['slug'] + '.json')
     card = json.loads(path.read_text())
     original = copy.deepcopy(card)
     expressions = card['data']['extensions'].get('expressions')
-    assert expressions, 'Nur Figuren mit vorhandenem Emotionssatz ergänzen'
+    assert expressions or allow_new, 'Neue Serien benötigen allow_new_series im Manifest'
+    if not expressions:
+        expressions = card['data']['extensions']['expressions'] = {}
     additions = record['expressions']
     assert set(additions) == SLOTS - set(expressions), 'Manifest muss alle fehlenden Slots enthalten'
     assert not record.get('errors'), 'Generierungsfehler zuerst beheben'
@@ -57,7 +59,7 @@ def package(manifest):
     png = path.with_suffix('.png')
     gateway_path = ROOT / record['gateway']
     gateway = read_card(gateway_path)
-    assert gateway is not None and read_card(png) == card
+    assert gateway is not None and read_card(png) == original
     old_pixels = {p: pixels(p) for p in (png, gateway_path)}
     old_images = {relative: hashlib.sha256((path.parent / relative).read_bytes()).hexdigest()
                   for relative in expressions.values() if not relative.startswith(('https:', 'http:', 'data:'))}
@@ -85,6 +87,9 @@ def package(manifest):
                              for m, item in additions.items()},
         'reference': 'reference_sfw.png' if supporting else f'../../{record["slug"]}.png',
         'original_reference': f'../../{record["slug"]}.png',
+        'references_by_slot': record.get('references_by_slot', {
+            m: 'reference_sfw.png' if supporting else f'../../{record["slug"]}.png'
+            for m in additions}),
         'reference_edit_prompt': supporting['prompt'] if supporting else None,
         'reference_note': 'Vorhandenes KI-Fanart-Porträt; Identität, Alter, Kleidung und Stil erhalten.',
         'prompts': {m: item['prompt'] for m, item in additions.items()},
@@ -95,7 +100,10 @@ def package(manifest):
                       'des jeweiligen Pakets gelten weiter. Alle Varianten sind nichtsexuell und altersgerecht.',
     })
     restored = copy.deepcopy(card)
-    restored['data']['extensions']['expressions'] = original['data']['extensions']['expressions']
+    if 'expressions' in original['data']['extensions']:
+        restored['data']['extensions']['expressions'] = original['data']['extensions']['expressions']
+    else:
+        restored['data']['extensions'].pop('expressions', None)
     assert restored == original, 'Profiltexte oder sonstige Metadaten verändert'
     write_json(path, card)
     embed(png, card)
@@ -112,14 +120,16 @@ def package(manifest):
     write_json(registry_path, registry)
     roadmap_path = ROOT / 'ROADMAP.md'
     text = roadmap_path.read_text()
-    marker = '### Zusatzemotionen – bestehende Figuren (ohne NTE)'
+    marker = ('### NTE – vollständige Emotionsserien' if allow_new
+              else '### Zusatzemotionen – bestehende Figuren (ohne NTE)')
     if marker not in text:
-        text += '\n\n' + marker + '\n\n49 Figuren erhalten je neun Zusatzbilder (441 insgesamt). '
-        text += 'Nur bestehende Emotionssätze; NTE bleibt ausgeschlossen.\n\n'
+        text += '\n\n' + marker + '\n\n'
+        text += ('Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt).\n\n'
+                 if allow_new else '49 bestehende Figuren erhalten je neun Zusatzbilder.\n\n')
     text += f'- [x] **{card["data"]["name"]}** ({record["group"]}): alle 15 Slots, '
-    text += 'neun neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.\n'
+    text += f'{len(additions)} neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.\n'
     roadmap_path.write_text(text)
-    preview = Image.new('RGB', (750, 1020), '#eeeeee')
+    preview = Image.new('RGB', (750, ((len(sources) + 2) // 3) * 340), '#eeeeee')
     draw = ImageDraw.Draw(preview)
     for n, (mood, image) in enumerate(sources):
         preview.paste(image.resize((250, 313)), ((n % 3) * 250, (n // 3) * 340 + 25))
