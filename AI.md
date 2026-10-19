@@ -183,4 +183,4 @@ Vor Veröffentlichung passend zum Umfang prüfen:
 
 Keine großen App-Testläufe für reine Inhalts-/Dokumentationsbereinigung. Keine Einmalskripte im Root sammeln: wiederverwendbare, dokumentierte Helfer gehören nach `tools/`, temporäre Migrationen außerhalb des Repositorys.
 
-`tools/add_expression_slots.py <generierungsmanifest.json>` ergänzt fehlende Slots bestehender Emotionssätze aus einem vollständigen Manifest. Es erzeugt selbst keine Bilder und verweigert Überschreiben sowie NTE-Pakete. Profiltexte, alte Emotionsdateien und Porträtpixel werden verglichen; Promptnachweise, Registry und Roadmap werden mitgeführt.
+`tools/add_expression_slots.py <generierungsmanifest.json>` ergänzt fehlende Slots bestehender Emotionssätze aus einem vollständigen Manifest. Es erzeugt selbst keine Bilder und verweigert Überschreiben. Neue vollständige Serien werden nur bei ausdrücklicher Beauftragung mit `allow_new_series: true` im Manifest angelegt; die frühere NTE-Ausnahme wurde durch den Nutzer am 19.10.2026 aufgehoben. Profiltexte, alte Emotionsdateien und Porträtpixel werden verglichen; Promptnachweise, Registry und Roadmap werden mitgeführt.
