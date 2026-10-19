@@ -10,6 +10,7 @@ import copy
 import hashlib
 import json
 import shutil
+from datetime import date
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageOps
@@ -79,7 +80,9 @@ def package(manifest):
             BASE + f'presets/{record["group"]}/expressions/{record["slug"]}/{mood}.webp')
     assert len({hashlib.sha256(p.read_bytes()).digest() for p in targets.values()}) == len(additions)
     write_json(prompt_path, {
-        'tool': 'OpenAI image_gen (eingebaut)', 'date': '2026-10-18',
+        'tool': 'OpenAI image_gen (eingebaut)', 'date': record.get('date', date.today().isoformat()),
+        'generation_dates': {m: item.get('date', record.get('date', date.today().isoformat()))
+                             for m, item in additions.items()},
         'reference': 'reference_sfw.png' if supporting else f'../../{record["slug"]}.png',
         'original_reference': f'../../{record["slug"]}.png',
         'reference_edit_prompt': supporting['prompt'] if supporting else None,
@@ -105,7 +108,7 @@ def package(manifest):
     registry = json.loads(registry_path.read_text())
     entry = next(e for e in registry['characters'] if e['name'] == card['data']['name'])
     entry['revision'] += 1
-    entry['updated'] = '2026-10-18'
+    entry['updated'] = record.get('date', date.today().isoformat())
     write_json(registry_path, registry)
     roadmap_path = ROOT / 'ROADMAP.md'
     text = roadmap_path.read_text()

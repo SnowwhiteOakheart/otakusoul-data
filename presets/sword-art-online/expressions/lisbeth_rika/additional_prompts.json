@@ -1,0 +1,38 @@
+{
+  "tool": "OpenAI image_gen (eingebaut)",
+  "date": "2026-10-19",
+  "generation_dates": {
+    "crying": "2026-10-18",
+    "blush": "2026-10-18",
+    "seductive": "2026-10-18",
+    "disgust": "2026-10-19",
+    "teasing": "2026-10-19",
+    "fear": "2026-10-19",
+    "aroused": "2026-10-19",
+    "ecstasy": "2026-10-19",
+    "afterglow": "2026-10-19"
+  },
+  "reference": "../../lisbeth_rika.png",
+  "original_reference": "../../lisbeth_rika.png",
+  "reference_edit_prompt": null,
+  "reference_note": "Vorhandenes KI-Fanart-Porträt; Identität, Alter, Kleidung und Stil erhalten.",
+  "prompts": {
+    "crying": "Use case: identity-preserve. Input image is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical emotion portrait. Change only facial expression to: clearly crying from grief, tears rolling down cheeks, inner eyebrows raised and trembling downturned mouth; no injury. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep the complete head and all head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, captions, watermark, grid, panels, extra people, new objects or erotic posing.",
+    "blush": "Use case: identity-preserve. Input image is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical emotion portrait. Change only facial expression to: bashful social embarrassment after praise for good work, light cheek blush, averted eyes and small awkward smile; not romantic. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep the complete head and all head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, captions, watermark, grid, panels, extra people, new objects or erotic posing.",
+    "seductive": "Use case: identity-preserve. Input image is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical emotion portrait. Change only facial expression to: courteous welcoming confidence as a host receiving a visitor, open attentive eyes and small polite smile; entirely nonromantic and nonsexual. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep the complete head and all head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, captions, watermark, grid, panels, extra people, new objects or erotic posing.",
+    "disgust": "Use case: identity-preserve. Input image 1 is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical anime emotion portrait. Change only facial expression to: clearly repulsed by a bad smell, wrinkled nose, narrowed eyes and downturned mouth. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep complete head and head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, watermark, grid, panels, extra people or new objects.",
+    "teasing": "Use case: identity-preserve. Input image 1 is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical anime emotion portrait. Change only facial expression to: mischievous friendly teasing grin, one eyebrow raised, amused eyes. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep complete head and head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, watermark, grid, panels, extra people or new objects.",
+    "fear": "Use case: identity-preserve. Input image 1 is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical anime emotion portrait. Change only facial expression to: clearly frightened, wide worried eyes, tense raised brows, small trembling open mouth; no injury. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep complete head and head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, watermark, grid, panels, extra people or new objects.",
+    "aroused": "Use case: identity-preserve. Input image 1 is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical anime emotion portrait. Change only facial expression to: heightened alert concentration before a difficult task, focused wide eyes, firm determined mouth; no blush. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep complete head and head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, watermark, grid, panels, extra people or new objects.",
+    "ecstasy": "Use case: identity-preserve. Input image 1 is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical anime emotion portrait. Change only facial expression to: overjoyed after completing a difficult task, broad jubilant grin, eyes squeezed shut with delighted cheeks. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep complete head and head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, watermark, grid, panels, extra people or new objects.",
+    "afterglow": "Use case: identity-preserve. Input image 1 is the edit target: the existing generated portrait of Lisbeth (Rika Shinozaki). Create ONE standalone vertical anime emotion portrait. Change only facial expression to: calm relief after completing a difficult task, soft closed eyes, relaxed brow and gentle peaceful smile. Preserve exact face identity, apparent age, hairstyle, eye color, clothing, accessories, anatomy, hands, pose, composition, background, lighting and original art style. Keep complete head and head accessories visible. Fully clothed, age appropriate, strictly SFW, nonsexual and nonromantic. No text, watermark, grid, panels, extra people or new objects."
+  },
+  "slot_semantics": {
+    "seductive": "SFW: höflich-selbstsicherer Empfang, keine sexuelle Verführung",
+    "aroused": "SFW: erhöhte Aufmerksamkeit vor einer Aufgabe, keine sexuelle Erregung",
+    "ecstasy": "SFW: überschwängliche Freude nach einem Erfolg",
+    "afterglow": "SFW: Erleichterung und Ruhe nach einer bewältigten Aufgabe"
+  },
+  "postprocessing": "Oben ausgerichteter Lanczos-Ausschnitt auf 640×800 WebP, Qualität 92. Bestehende Porträtpixel und Emotionsbilder bleiben unverändert.",
+  "provenance": "Inoffizielle KI-generierte Fanart; vorhandene Herkunfts- und Rechtehinweise des jeweiligen Pakets gelten weiter. Alle Varianten sind nichtsexuell und altersgerecht."
+}
