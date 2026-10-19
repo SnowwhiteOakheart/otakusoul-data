@@ -28,6 +28,8 @@ stages_registry.json             Szenenindex
 stages_gateway/*.json            veröffentlichte Szenen
 recommended_models.json         Startmodelle für den Einrichtungsassistenten, keine Modellgewichte
 locales/de.json / ru.json        Spieltexte der App (Schlüssel = englischer Text)
+locales/ui_registry.json         Index der Oberflächensprachen (id, Name, version)
+locales/ui/<kürzel>.json         Oberflächensprachen der App (Schlüssel wie im App-Code)
 avatars/                        zusätzliche Avatar-Dateien
 avatars/vrm/lizenzen.txt         Herkunft und Bedingungen der VRM-Modelle
 presets/<paket>/                 zusammengehörige Inhalte
@@ -135,6 +137,21 @@ Format der App (`LorebookEntry` in `src-tauri/src/modules/lorebook.rs`):
 `locales/de.json` und `ru.json` übersetzen Texte, die die App selbst in Geschichten schreibt (`ContentLang::t`). Schlüssel ist
 der englische Text aus dem App-Code, Platzhalter wie `{name}` bleiben erhalten. Die App lädt die Dateien beim Start nach;
 neue Texte zuerst im App-Code anlegen und hier in beiden Sprachen ergänzen.
+
+### Oberflächensprachen (`locales/ui/`, `locales/ui_registry.json`)
+
+Menüs, Knöpfe und Meldungen der App, eine Datei je Sprache: flache `"schlüssel": "text"`-Paare plus `__meta`
+(`name`, `englishName`, `author`, `version`, optional `fallback`, z. B. `"en"`). Der Dateiname ist das Sprachkürzel
+(`pl.json`, `pt-BR.json`). Platzhalter wie `{{name}}` exakt übernehmen; Referenz ist `de.json` der App
+(`presets/locales/ui/de.json`), prüfbar mit `npm run i18n:check -- datei.json` im App-Repository. Fehlende Schlüssel
+zeigt die App in der Rückfallsprache.
+
+- Die App lädt beim Start `ui_registry.json` und jede gelistete Sprache, deren `version` sich gegenüber dem letzten Download
+  geändert hat (nach `<Daten>/locales/ui-hub/`); nicht mehr gelistete Sprachen entfernt sie wieder.
+- Eine Sprache, die die App selbst mitbringt (`de`, `en`, `ru`), übernimmt die Datei von hier nur bei **höherer** `version`
+  als die mitgelieferte – so lassen sich Texte zwischen Releases korrigieren, ohne neue Schlüssel älterer Kopien zu verlieren.
+- Neue Sprache oder Korrektur: Datei anlegen/ändern, `__meta.version` erhöhen und denselben Wert in `ui_registry.json` eintragen
+  (`id`, `name`, `english_name`, `version`). Eigene Dateien der Nutzer (`<Daten>/locales/ui/`) haben immer Vorrang.
 
 ### Modelle (`recommended_models.json`)
 
