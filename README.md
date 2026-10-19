@@ -15,7 +15,7 @@
 
 <p align="center">
   <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-61%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
-  <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-48%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
+  <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-52%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
   <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-24%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
   <img alt="Presets" src="https://img.shields.io/badge/Presets-21%20Welten-10b981?style=for-the-badge" />
   <img alt="Format" src="https://img.shields.io/badge/Format-Character%20Card%20V2-f59e0b?style=for-the-badge" />
@@ -52,7 +52,7 @@ Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github
 - 🌍 **Vollständige Dreisprachigkeit:** Alle nutzerseitigen Texte, Begrüßungen, Dialogbeispiele und Szenen werden in **Deutsch (DE)**, **Englisch (EN)** und **Russisch (RU)** gepflegt.
 
 > 💡 **Schnellübersicht gesucht?**
-> - Eine vollständige, tokensparende Übersicht aller 61 Figuren, 48 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Eine vollständige, tokensparende Übersicht aller 61 Figuren, 52 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Den aktuellen Entwicklungsstand und geplante Kampagnen findest du in [**ROADMAP.md**](ROADMAP.md).
 > - Technische Standards, Formate und Veröffentlichungsregeln stehen verbindlich in [**AI.md**](AI.md).
 
@@ -145,7 +145,7 @@ This repository serves as the official content and asset backend for [OtakuSoul]
 - 🌍 **Full Trilingual Support:** All character profiles, greetings, dialogue samples, and scenes are maintained in **German (DE)**, **English (EN)**, and **Russian (RU)**.
 
 > 💡 **Looking for an overview?**
-> - For a complete, token-saving reference of all 61 characters, 48 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - For a complete, token-saving reference of all 61 characters, 52 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - For current development progress and planned packs, check [**ROADMAP.md**](ROADMAP.md).
 > - For technical specifications and validation rules, see [**AI.md**](AI.md).
 
@@ -220,7 +220,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 - 🌍 **Трёхъязычная поддержка:** Все профили, приветствия, примеры диалогов и сцены поддерживаются на **немецком (DE)**, **английском (EN)** и **русском (RU)** языках.
 
 > 💡 **Быстрый обзор:**
-> - Компактный справочник всех 61 персонажа, 48 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Компактный справочник всех 61 персонажа, 52 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Текущий ход разработки и запланированные сюжеты: [**ROADMAP.md**](ROADMAP.md).
 > - Технические требования и правила валидации: [**AI.md**](AI.md).
 

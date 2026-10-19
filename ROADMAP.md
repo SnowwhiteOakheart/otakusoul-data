@@ -306,6 +306,7 @@ Alle 16 Kampagnenfiguren verfügen jetzt zusätzlich zum bestehenden Hauptportr�
 - [x] Subaru Natsuki: Hauptporträt, sechs Expressions, V2-Preset und Gateway.
 - [x] Emilia: aus der OtakuSoul-App übernommen (19.10.2026), Hauptporträt im Altformat 640×800, sechs Expressions, V2-Preset und Gateway.
 - [ ] Emilia: neun Zusatzslots (`blush` … `afterglow`) wie bei den übrigen Re:Zero-Figuren ergänzen.
+- [x] Frühere App-Starter-Geschichten unverändert übernommen (19.10.2026): `frozen_bells_emilia` (Emilia) sowie `hanami_live_ayu_cosmos`, `missing_mic_ayu_cosmos`, `ryokan_night_ayu_cosmos` (Ayu und Cosmos); die App bringt Neufassungen mit eigenen Figuren mit.
 <!-- re-zero:end -->
 
 

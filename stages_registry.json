@@ -1056,6 +1056,94 @@
           "starting_location": "Крыша школы Асахияма во время салюта"
         }
       }
+    },
+    {
+      "id": "frozen_bells_emilia",
+      "title": "Die Glocken von Frostweiler",
+      "author": "SnowwhiteOakheart",
+      "description": "In einem Bergdorf sind alle Glocken zu Eis erstarrt – und wer ihren letzten Ton gehört hat, wacht nicht mehr auf. Emilia bittet dich um Hilfe.",
+      "starting_location": "Der verschneite Dorfplatz von Frostweiler",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/frozen_bells_emilia.json",
+      "revision": 1,
+      "updated": "2026-10-19",
+      "translations": {
+        "en": {
+          "title": "The Bells of Frostweiler",
+          "description": "In a mountain village every bell has turned to ice – and whoever heard their last note no longer wakes up. Emilia asks for your help.",
+          "starting_location": "The snowy village square of Frostweiler"
+        },
+        "ru": {
+          "title": "Колокола Фроствайлера",
+          "description": "В горной деревне все колокола превратились в лёд – а тот, кто слышал их последний звон, больше не просыпается. Эмилия просит тебя о помощи.",
+          "starting_location": "Заснеженная деревенская площадь Фроствайлера"
+        }
+      }
+    },
+    {
+      "id": "hanami_live_ayu_cosmos",
+      "title": "Hanami-Live im Ueno-Park",
+      "author": "SnowwhiteOakheart",
+      "description": "Ayu gibt ein Überraschungskonzert beim Kirschblütenfest – doch eine Stunde vorher ist ihr Kostüm zerrissen und Cosmos hat das Geheimnis schon gepostet. Rette den Tag!",
+      "starting_location": "Hinter der kleinen Festbühne im Ueno-Park",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/hanami_live_ayu_cosmos.json",
+      "revision": 1,
+      "updated": "2026-10-19",
+      "translations": {
+        "en": {
+          "title": "Hanami Live at Ueno Park",
+          "description": "Ayu is giving a surprise concert at the cherry blossom festival – but an hour before, her costume is torn and Cosmos has already posted the secret. Save the day!",
+          "starting_location": "Behind the small festival stage in Ueno Park"
+        },
+        "ru": {
+          "title": "Ханами-лайв в парке Уэно",
+          "description": "Аю даёт концерт-сюрприз на фестивале цветения сакуры – но за час до начала её костюм порван, а Космос уже выложила секрет в сеть. Спаси положение!",
+          "starting_location": "За маленькой фестивальной сценой в парке Уэно"
+        }
+      }
+    },
+    {
+      "id": "missing_mic_ayu_cosmos",
+      "title": "Das verschwundene Mikrofon",
+      "author": "SnowwhiteOakheart",
+      "description": "Eine Stunde vor der Live-Sendung ist Ayus goldenes Glücksmikrofon aus der Garderobe verschwunden. Vier Verdächtige, eine Uhr, die tickt – finde den Täter.",
+      "starting_location": "Ayus Garderobe im Fernsehstudio",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/missing_mic_ayu_cosmos.json",
+      "revision": 1,
+      "updated": "2026-10-19",
+      "translations": {
+        "en": {
+          "title": "The Missing Microphone",
+          "description": "One hour before the live broadcast, Ayu's golden lucky microphone has vanished from her dressing room. Four suspects, a ticking clock – find the culprit.",
+          "starting_location": "Ayu's dressing room at the TV studio"
+        },
+        "ru": {
+          "title": "Пропавший микрофон",
+          "description": "За час до прямого эфира из гримёрки исчез золотой счастливый микрофон Аю. Четверо подозреваемых, тикающие часы – найди виновного.",
+          "starting_location": "Гримёрка Аю в телестудии"
+        }
+      }
+    },
+    {
+      "id": "ryokan_night_ayu_cosmos",
+      "title": "Eine Nacht im Ryokan Tsukimi",
+      "author": "SnowwhiteOakheart",
+      "description": "Für eine Gruselfolge ihrer TV-Show übernachtet Ayu in einem alten Gasthaus in den Bergen. Dann schneit es euch ein – und im leeren Flur klappern Teetassen.",
+      "starting_location": "Der Empfangsraum des Ryokan Tsukimi",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ryokan_night_ayu_cosmos.json",
+      "revision": 1,
+      "updated": "2026-10-19",
+      "translations": {
+        "en": {
+          "title": "A Night at Ryokan Tsukimi",
+          "description": "For a spooky episode of her TV show, Ayu stays overnight at an old inn in the mountains. Then you get snowed in – and in the empty corridor, teacups rattle.",
+          "starting_location": "The reception room of Ryokan Tsukimi"
+        },
+        "ru": {
+          "title": "Ночь в рёкане «Цукими»",
+          "description": "Ради страшного выпуска своего шоу Аю ночует в старой гостинице в горах. Потом вас заметает снегом – а в пустом коридоре звенят чайные чашки.",
+          "starting_location": "Приёмная рёкана «Цукими»"
+        }
+      }
     }
   ]
 }

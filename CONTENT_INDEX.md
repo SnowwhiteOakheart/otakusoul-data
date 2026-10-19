@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 61 Charaktere · 48 Soul Stages (Szenen) · 24 Lorebooks · 21 Presets.
+> **Stand:** 61 Charaktere · 52 Soul Stages (Szenen) · 24 Lorebooks · 21 Presets.
 
 ---
 
@@ -12,7 +12,7 @@
 
 | Paket (`presets/<id>`) | Franchise | Charaktere (`soul_registry.json`) | Soul Stages / Episoden (`stages_gateway/*.json`) | Aktive Lorebooks (`lorebooks_gateway/*.json`) |
 |---|---|---|---|---|
-| `sakura-succubus-3` | Sakura Succubus 3 | `Ayu Ikue`, `Marina Wakatsuki`, `Cosmos`, `Hazel Williams`, `Hifumi Yamamoto`, `Yue`<br>*(Persona: Hiroki)* | `redaktionsschluss`<br>`der_wohltaetigkeitsball`<br>`wohnungskrieg`<br>`audienz_im_thronsaal`<br>`ein_tee_zu_zweit`<br>`matchball` (6) | • *Welt* (`sakura_succubus_3_world.json`)<br>• *Figuren* (`sakura_succubus_3_characters.json`)<br>• *Orte* (`sakura_succubus_3_locations.json`) |
+| `sakura-succubus-3` | Sakura Succubus 3 | `Ayu Ikue`, `Marina Wakatsuki`, `Cosmos`, `Hazel Williams`, `Hifumi Yamamoto`, `Yue`<br>*(Persona: Hiroki)* | `redaktionsschluss`<br>`der_wohltaetigkeitsball`<br>`wohnungskrieg`<br>`audienz_im_thronsaal`<br>`ein_tee_zu_zweit`<br>`matchball`<br>`hanami_live_ayu_cosmos`<br>`missing_mic_ayu_cosmos`<br>`ryokan_night_ayu_cosmos` (9; die letzten drei sind die früheren App-Starter-Geschichten) | • *Welt* (`sakura_succubus_3_world.json`)<br>• *Figuren* (`sakura_succubus_3_characters.json`)<br>• *Orte* (`sakura_succubus_3_locations.json`) |
 | `no-game-no-life` | No Game No Life | `Sora`, `Shiro`, `Stephanie Dola`, `Jibril`, `Izuna Hatsuse`, `Chlammy Zell`, `Fiel Nirvalen`<br>*(Persona: Haru)* | `episode1_anfaenger` bis `episode12_regel_nummer_zehn` (12 fortlaufende Kapitel) | • *Welt & Gebote* (`no_game_no_life_world.json`)<br>• *Rassen & Orte* (`no_game_no_life_races_locations.json`)<br>• *Figuren* (`no_game_no_life_characters.json`) |
 | `dungeon-meshi` | Dungeon Meshi | `Laios Touden`, `Marcille Donato`, `Chilchuck Tims`, `Senshi` | `dungeon_meshi_ep1_skorpionsuppe`<br>`dungeon_meshi_ep2_klingenbasilisk`<br>`dungeon_meshi_ep3_alraunenernte`<br>`dungeon_meshi_ep4_wassergeister`<br>`dungeon_meshi_ep5_roter_drache` (5) | • *Ökologie & Labyrinth-Regeln* (`dungeon_meshi_ecology.json`)<br>• *Monster-Rezepte & Kochkunst* (`dungeon_meshi_recipes.json`)<br>• *Figuren & Goldene Dynastie* (`dungeon_meshi_world.json`) |
 | `steins-gate` | Steins;Gate | `Okabe Rintarou`, `Mayuri Shiina`, `Itaru Hashida`, `Suzuha Amane` | `steins_gate_ep1_erste_dmail`<br>`steins_gate_ep2_ibn5100_suche`<br>`steins_gate_ep3_operation_urd`<br>`steins_gate_ep4_schmetterlingseffekt`<br>`steins_gate_ep5_tor_zu_steins_gate` (5) | • *Weltlinien & Divergenz* (`steins_gate_divergence.json`)<br>• *Labor-Gadgets & D-Mails* (`steins_gate_gadgets.json`)<br>• *Akihabara 2010 & SERN* (`steins_gate_akihabara.json`) |
@@ -42,7 +42,7 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 | Preset-Ordner | Franchise / Herkunft | Registrierte Figuren (`name` in `soul_registry.json`) | Bemerkungen / Gastauftritte |
 |---|---|---|---|
 | `overlord` | Overlord | `Ainz Ooal Gown` (Momonga), `Albedo`, `Shalltear Bloodfallen` (3) | Je 15 eigenständige SFW-Expressions; keine eigenen Stages/Lorebooks. |
-| `re-zero` | Re:Zero | `Subaru Natsuki`, `Emilia`, `Rem`, `Ram`, `Beatrice`, `Echidna` (6) | Rem tritt in Isekai- und Romance-Stages auf. Emilia kam am 19.10.2026 aus der App (bisher mitgeliefert), vorerst mit dem Sechser-Basissatz. |
+| `re-zero` | Re:Zero | `Subaru Natsuki`, `Emilia`, `Rem`, `Ram`, `Beatrice`, `Echidna` (6) | Rem tritt in Isekai- und Romance-Stages auf. Emilia kam am 19.10.2026 aus der App (bisher mitgeliefert), vorerst mit dem Sechser-Basissatz. Mit ihr kam die frühere App-Starter-Geschichte `frozen_bells_emilia` (*Die Glocken von Frostweiler*). |
 | `neverness-to-everness` | Neverness to Everness | `Mint`, `Iroi`, `Lacrimosa`, `Nanally Colucci`, `Linko`, `Esper Zero (Female)`, `Esper Zero (Male)`, `Shinku` (8) | Urban-Fantasy-Cast; Lacrimosa und Shinku treten in Cyberpunk-Stages auf. |
 | `frieren` | Sousou no Frieren | `Frieren` | Gastauftritt in `isekai_null_mana_summoning`. |
 | `nagatoro` | Don't Toy With Me, Miss Nagatoro | `Hayase Nagatoro` | Gastauftritt in `romance_rainy_clubroom_confessions`. |
