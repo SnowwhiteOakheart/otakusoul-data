@@ -81,7 +81,24 @@
         }
       },
       "custom_title": "Mondscheinroter Drache",
-      "custom_avatar": "shinku.png"
+      "custom_avatar": "shinku.png",
+      "expressions": {
+        "afterglow": "expressions/shinku/afterglow.webp",
+        "ecstasy": "expressions/shinku/ecstasy.webp",
+        "aroused": "expressions/shinku/aroused.webp",
+        "seductive": "expressions/shinku/seductive.webp",
+        "crying": "expressions/shinku/crying.webp",
+        "disgust": "expressions/shinku/disgust.webp",
+        "fear": "expressions/shinku/fear.webp",
+        "teasing": "expressions/shinku/teasing.webp",
+        "blush": "expressions/shinku/blush.webp",
+        "relaxed": "expressions/shinku/relaxed.webp",
+        "surprised": "expressions/shinku/surprised.webp",
+        "angry": "expressions/shinku/angry.webp",
+        "sad": "expressions/shinku/sad.webp",
+        "happy": "expressions/shinku/happy.webp",
+        "neutral": "expressions/shinku/neutral.webp"
+      }
     }
   }
 }
