@@ -383,3 +383,4 @@ Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt
 - [x] **Esper Zero (Female)** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Mint** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Nanally Colucci** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+- [x] **Esper Zero (Male)** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.

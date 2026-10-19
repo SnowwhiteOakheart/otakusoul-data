@@ -78,7 +78,24 @@
         }
       },
       "custom_title": "Nexus-spürender Appraiser",
-      "custom_avatar": "zero_male.png"
+      "custom_avatar": "zero_male.png",
+      "expressions": {
+        "neutral": "expressions/zero_male/neutral.webp",
+        "happy": "expressions/zero_male/happy.webp",
+        "sad": "expressions/zero_male/sad.webp",
+        "angry": "expressions/zero_male/angry.webp",
+        "surprised": "expressions/zero_male/surprised.webp",
+        "relaxed": "expressions/zero_male/relaxed.webp",
+        "blush": "expressions/zero_male/blush.webp",
+        "teasing": "expressions/zero_male/teasing.webp",
+        "fear": "expressions/zero_male/fear.webp",
+        "disgust": "expressions/zero_male/disgust.webp",
+        "crying": "expressions/zero_male/crying.webp",
+        "seductive": "expressions/zero_male/seductive.webp",
+        "aroused": "expressions/zero_male/aroused.webp",
+        "ecstasy": "expressions/zero_male/ecstasy.webp",
+        "afterglow": "expressions/zero_male/afterglow.webp"
+      }
     }
   }
 }
