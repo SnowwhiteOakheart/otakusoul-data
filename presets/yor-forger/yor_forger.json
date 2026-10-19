@@ -86,7 +86,16 @@
         "relaxed": "expressions/relaxed.webp",
         "surprised": "expressions/surprised.webp",
         "angry": "expressions/angry.webp",
-        "sad": "expressions/sad.webp"
+        "sad": "expressions/sad.webp",
+        "blush": "expressions/yor_forger/blush.webp",
+        "teasing": "expressions/yor_forger/teasing.webp",
+        "fear": "expressions/yor_forger/fear.webp",
+        "disgust": "expressions/yor_forger/disgust.webp",
+        "seductive": "expressions/yor_forger/seductive.webp",
+        "crying": "expressions/yor_forger/crying.webp",
+        "aroused": "expressions/yor_forger/aroused.webp",
+        "afterglow": "expressions/yor_forger/afterglow.webp",
+        "ecstasy": "expressions/yor_forger/ecstasy.webp"
       },
       "custom_title": "Die Dornenprinzessin",
       "custom_avatar": "Yor_Forger.png"

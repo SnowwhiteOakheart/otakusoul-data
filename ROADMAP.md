@@ -372,3 +372,4 @@ Alle 16 Kampagnenfiguren verf체gen jetzt zus채tzlich zum bestehenden Hauptportr�
 
 Nur Figuren mit bestehendem Emotionssatz erg채nzen; NTE weiterhin vollst채ndig auslassen. Fortsetzung anhand der vorhandenen lokalen Generierungsmanifeste; bestehende Bilder nicht neu erzeugen.
 - [x] **Lisbeth (Rika Shinozaki)** (sword-art-online): alle 15 Slots, neun neue eigenst채ndige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten gepr체ft.
+- [x] **Yor Forger** (yor-forger): alle 15 Slots, neun neue eigenst채ndige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten gepr체ft.
