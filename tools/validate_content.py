@@ -21,7 +21,7 @@ import sys
 import urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LANGS = {'de', 'en', 'ru'}
+LANGS = {'de', 'en', 'ru', 'ja'}
 EMOTIONS = {'neutral', 'happy', 'relaxed', 'surprised', 'angry', 'sad'}
 CARD_TEXT = ['description', 'personality', 'scenario', 'first_mes', 'mes_example', 'system_prompt',
              'post_history_instructions', 'creator_notes']

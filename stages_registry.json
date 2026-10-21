@@ -8,13 +8,18 @@
       "description": "Zwei Stunden bis zum Andruck, und die Redaktion füllt sich mit Besuch, den niemand hier erwartet hätte.",
       "starting_location": "Redaktion der Sakura Daily, Großraumbüro am Fenster",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/redaktionsschluss.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Editorial Deadline",
           "description": "Two hours until printing, and the newsroom is filling up with visitors no one here would have expected.",
           "starting_location": "Editorial office of the Sakura Daily, open-plan office by the window"
+        },
+        "ja": {
+          "title": "締め切りの編集部",
+          "description": "輪転機が回る入稿締め切りまであと2時間。緊迫する編集部に、誰も予想だにしなかった来訪者たちが姿を現す。",
+          "starting_location": "サクラ・デイリー編集部・窓際の大部屋オフィス"
         },
         "ru": {
           "title": "Сдача номера",
@@ -30,13 +35,18 @@
       "description": "Auf dem Empfang verkauft jemand Fotos, die es nicht geben dürfte. {{user}} ist offiziell als Fotograf da.",
       "starting_location": "Ballsaal eines Hotels in Minato, Empore über dem Saal",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/der_wohltaetigkeitsball.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Charity Ball",
           "description": "At the reception, someone is selling photos that shouldn't exist. {{user}} is officially there as a photographer.",
           "starting_location": "Ballroom of a hotel in Minato, gallery above the hall"
+        },
+        "ja": {
+          "title": "チャリティ舞踏会",
+          "description": "華やかなレセプションの影で、出回るはずのない写真を売り捌く者がいる。{{user}}はカメラマンとして表向き参加していた。",
+          "starting_location": "港区の高級ホテル・大舞踏会を見下ろす回廊バルコニー"
         },
         "ru": {
           "title": "Благотворительный бал",
@@ -52,13 +62,18 @@
       "description": "Eine Fernbedienung, sechs Sukkuben, ein Sofa. Es ist Freitagabend, und niemand gibt nach.",
       "starting_location": "Wohnzimmer der gemeinsamen Wohnung",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/wohnungskrieg.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Apartment War",
           "description": "One remote control, six succubi, one sofa. It's Friday evening, and no one is backing down.",
           "starting_location": "Living room of the shared flat"
+        },
+        "ja": {
+          "title": "リビング戦争",
+          "description": "リモコンが1つ、サキュバスが6人、ソファは1つ。金曜日の夜、誰も一歩も譲らない。",
+          "starting_location": "同居アパートのリビングルーム"
         },
         "ru": {
           "title": "Квартирная война",
@@ -74,13 +89,18 @@
       "description": "Das Reich schickt eine Gesandtschaft: Die Königin möge zurückkehren. Yue hat abgedankt - aber der Thron steht leer.",
       "starting_location": "Thronsaal des Palasts im Sukkuben-Reich",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/audienz_im_thronsaal.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Audience in the Throne Room",
           "description": "The realm sends an embassy: the Queen must return. Yue has abdicated - but the throne remains empty.",
           "starting_location": "Throne room of the palace in the succubus realm"
+        },
+        "ja": {
+          "title": "玉座の間の謁見",
+          "description": "サキュバスの国より届いた使節団――女王の帰還を求めて。ユエは退位したはずだった。だが、玉座は今も空席のままだ。",
+          "starting_location": "サキュバス界・王宮の玉座の間"
         },
         "ru": {
           "title": "Аудиенция в тронном зале",
@@ -96,13 +116,18 @@
       "description": "Hifumi hat das Teezimmer hergerichtet, und heute will sie eine Frage stellen, die sie seit Monaten aufschiebt.",
       "starting_location": "Hifumis Teezimmer, Schiebetüren zum Garten",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ein_tee_zu_zweit.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Tea for Two",
           "description": "Hifumi has prepared the tea room, and today she wants to ask a question she's been putting off for months.",
           "starting_location": "Hifumi's tea room, sliding doors to the garden"
+        },
+        "ja": {
+          "title": "ふたりでお茶を",
+          "description": "ヒフミが整えた茶室。彼女には今日、何ヶ月も胸の奥にしまい込んできた問いかけがあった。",
+          "starting_location": "ヒフミの茶室、庭へ続く障子"
         },
         "ru": {
           "title": "Чай на двоих",
@@ -118,13 +143,18 @@
       "description": "Hazels Finale. Auf der Tribüne ist ein Platz freigehalten, und sie sucht ihn zwischen jedem Aufschlag.",
       "starting_location": "Centre Court einer Tennisanlage in Tokio, erste Reihe",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/matchball.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Match Point",
           "description": "Hazel's finale. A seat is kept free in the stands, and she looks for it between every serve.",
           "starting_location": "Centre court of a tennis club in Tokyo, front row"
+        },
+        "ja": {
+          "title": "マッチポイント",
+          "description": "ヘイゼルの決勝戦。観客席に一つだけ確保された特別席――彼女はサーブを打つたび、その場所へと視線を向ける。",
+          "starting_location": "都内テニスクラブ、センターコート最前列"
         },
         "ru": {
           "title": "Матчбол",
@@ -140,13 +170,18 @@
       "description": "Eine Schachpartie gegen einen unbekannten Account reißt Sora, Shiro und Haru mitten aus der realen Welt - hinein nach Disboard, wo ein spielverliebter Gott namens Tet auf sie wartet und ihnen eine Welt ohne Krieg, aber voller Spiele verspricht.",
       "starting_location": "Thronsaal von Elkia Castle, während eines improvisierten Glücksspielturniers",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode1_anfaenger.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 1: Beginner",
           "description": "A chess game against an unknown account pulls Sora, Shiro, and Haru out of the real world - right into Disboard, where a game-loving god named Tet awaits them and promises a world without war, but full of games.",
           "starting_location": "Throne room of Elkia Castle, during an improvised gambling tournament"
+        },
+        "ja": {
+          "title": "第1章：素人（ビギナー）",
+          "description": "見知らぬアカウントとのチェス対局が、空、白、ハルを現実世界から引きずり出す――降り立ったのはゲームの神テトが治める、戦争のないゲームの世界『ディスボード』だった。",
+          "starting_location": "エルキア城の玉座の間（即席の賭博大会中）"
         },
         "ru": {
           "title": "Глава 1: Новичок",
@@ -162,13 +197,18 @@
       "description": "Imanity - die Menschheit - ist auf eine einzige Stadt zusammengeschrumpft. Während Sora, Shiro und Haru noch die Regeln dieser neuen Welt begreifen, meldet sich bereits die erste ernsthafte Bedrohung für Stephanies Thron an: Chlammy Zell, unterstützt von den Elfen.",
       "starting_location": "Ratssaal von Elkia Castle",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode2_herausforderer.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 2: Challenger",
           "description": "Imanity - humanity - has shrunk down to a single city. While Sora, Shiro, and Haru are still grasping the rules of this new world, the first serious threat to Stephanie's throne appears: Chlammy Zell, supported by the elves.",
           "starting_location": "Council chamber of Elkia Castle"
+        },
+        "ja": {
+          "title": "第2章：挑戦者（チャレンジャー）",
+          "description": "人類種（イマニティ）は今や、たった一つの都市にまで縮小していた。空、白、ハルが新たな世界の理を把握しようとする中、早くもステファニーの王位を揺るがす最初の脅威が現れる――エルフの後ろ盾を得たクラミー・ツェルだ。",
+          "starting_location": "エルキア城の評議室"
         },
         "ru": {
           "title": "Глава 2: Претендент",
@@ -184,13 +224,18 @@
       "description": "Chlammy Zell hat ihr Spiel gewählt: lebensgroßes, beseeltes Schach, bei dem jede Figur einen eigenen Willen besitzt. Was wie Taktik aussieht, ist in Wahrheit ein Kräftemessen um Moral, Führung - und um eine verbotene Magie, die im Verborgenen wirkt.",
       "starting_location": "Ein magisch erschaffenes Schlachtfeld in Form eines gigantischen Schachbretts",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode3_experte.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 3: Expert",
           "description": "Chlammy Zell has chosen her game: life-sized, animated chess where every piece has its own will. What looks like tactics is actually a test of strength over morale, leadership - and a forbidden magic operating in secret.",
           "starting_location": "A magically created battlefield in the shape of a gigantic chessboard"
+        },
+        "ja": {
+          "title": "第3章：熟練者（エキスパート）",
+          "description": "クラミー・ツェルが指定したゲームは、すべての駒が自らの意志を持つ実体化巨大チェス。一見すると戦術の勝負だが、その実態は士気と統率力、そして水面下で蠢く禁断の魔法をめぐる熾烈な力比べだった。",
+          "starting_location": "巨大なチェス盤を模した魔法の戦場"
         },
         "ru": {
           "title": "Глава 3: Эксперт",
@@ -206,13 +251,18 @@
       "description": "Die Schachschlacht eskaliert: Chlammy setzt ihre letzte, verbotene Karte ein - Gedankenkontrolle. Doch Sora hat eine eigene, subtilere Waffe: die Kunst der Verführung durch Worte allein.",
       "starting_location": "Dasselbe gigantische Schachfeld, kurz vor der Entscheidung",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode4_grossmeister.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 4: Grandmaster",
           "description": "The chess battle escalates: Chlammy plays her last, forbidden card - mind control. But Sora has his own, more subtle weapon: the art of seduction through words alone.",
           "starting_location": "The same gigantic chessboard, just before the decision"
+        },
+        "ja": {
+          "title": "第4章：国王（グランドマスター）",
+          "description": "具現化チェス決戦は過熱の一途を辿る。クラミーは最後の禁忌――精神支配の魔法を発動させた。だがソラには、魔法よりも遥かに鋭い独自の武器があった。言葉のみによって人心を操る、誘惑と説得の技術である。",
+          "starting_location": "決着を目前に控えた巨大チェス盤上"
         },
         "ru": {
           "title": "Глава 4: Гроссмейстер",
@@ -228,13 +278,18 @@
       "description": "König und Königin von Elkia - und doch haben Sora und Shiro jegliche Regierungsarbeit vollständig auf Stephanie abgewälzt. Als sie die Geduld verliert, fordert sie Sora zu einer Partie Blackjack heraus, bei der mehr auf dem Spiel steht als Geld.",
       "starting_location": "Ein kleines Kartenzimmer in Elkia Castle, spät am Abend",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode5_schwaches_feld.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 5: Weak Field",
           "description": "King and Queen of Elkia - and yet Sora and Shiro have completely offloaded all government work onto Stephanie. When she loses her patience, she challenges Sora to a game of Blackjack where more is at stake than money.",
           "starting_location": "A small card room in Elkia Castle, late in the evening"
+        },
+        "ja": {
+          "title": "第5章：駒並べ（ウィークスクエア）",
+          "description": "エルキアの新国王と女王となった『空白』――だがソラとシロは一切の政務をステファニーに丸投げしていた。堪忍袋の緒が切れたステフは、金銭以上のものを賭けてソラにブラックジャックの勝負を挑む。",
+          "starting_location": "夜更けのエルキア城・小さなカード遊技室"
         },
         "ru": {
           "title": "Глава 5: Слабое поле",
@@ -250,13 +305,18 @@
       "description": "DAS zentrale Kapitel der Kampagne: Sora, Shiro und Haru fordern Jibril, eine über 6000 Jahre alte Flügel-Kriegerin und Hüterin allen Wissens, zu einem Spiel um ihre gesamte Bibliothek heraus - \"Materialisations-Shiritori\", bei dem jedes gültige Wort real wird. Ein einziger falscher Zug könnte das Ende von Blank bedeuten.",
       "starting_location": "Die Große Nationalbibliothek von Elkia, tief in Jibrils privatem Lesesaal",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode6_interessant_jibril.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 6: Interesting - The Duel against Jibril",
           "description": "THE central chapter of the campaign: Sora, Shiro and Haru challenge Jibril, an over 6000-year-old Flugel warrior and guardian of all knowledge, to a game for her entire library - 'Materialization Shiritori', where every valid word becomes real. A single wrong move could mean the end of Blank.",
           "starting_location": "The Great National Library of Elkia, deep in Jibril's private reading room"
+        },
+        "ja": {
+          "title": "第6章：一点（インタレスティング）――ジブリールとの決闘",
+          "description": "本キャンペーン最大の決戦：ソラ、シロ、ハルの三人は、6000年以上を生きる知識の番人にして天翼種の闘士・ジブリールに対し、彼女の全蔵書を懸けた勝負を挑む。ルールは言葉が現実となる「具現化シリトリ」。たった一手の失着が『空白』の完全消滅を意味する。",
+          "starting_location": "エルキア国立大図書館の最奥、ジブリールの私設閲覧室"
         },
         "ru": {
           "title": "Глава 6: Интересно - Дуэль против Джибрил",
@@ -272,13 +332,18 @@
       "description": "Auf der Suche nach einer Strategie gegen den Östlichen Bund stößt Sora auf eine erschütternde Wahrheit: Jede Rasse, die je gegen die Werbeasts verlor - auch Jibril selbst -, wurde ihrer Erinnerung an diese Niederlage magisch beraubt. Ohne Informationen droht Soras gesamte Strategie zu scheitern.",
       "starting_location": "Das private Archiv von Elkia Castle, spät in der Nacht",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode7_opfer.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 7: Sacrifice",
           "description": "In search of a strategy against the Eastern Union, Sora stumbles upon a shocking truth: Every race that ever lost against the Werebeasts - including Jibril herself - was magically robbed of their memory of this defeat. Without information, Sora's entire strategy threatens to fail.",
           "starting_location": "The private archive of Elkia Castle, late at night"
+        },
+        "ja": {
+          "title": "第7章：死に手（サクリファイス）",
+          "description": "東部連合に対する攻略の糸口を探る中、ソラは戦慄すべき事実に突き当たる。かつて獣人種に敗れた者は――ジブリールでさえも――敗北に関する一切の記憶を魔法で奪われていたのだ。情報が完全に断たれ、ソラの戦略は根底から瓦解の危機に瀕する。",
+          "starting_location": "夜更けのエルキア城・私設古文書庫"
         },
         "ru": {
           "title": "Глава 7: Жертва",
@@ -294,13 +359,18 @@
       "description": "Mithilfe der Aufzeichnungen von Stephanies Großvater durchschaut Sora den wahren Trick des Östlichen Bundes - und setzt Imanitys gesamte Souveränität als Einsatz, um sie formell herauszufordern.",
       "starting_location": "Die Botschaft des Östlichen Bundes in Elkia",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode8_falsches_ende.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 8: False End",
           "description": "With the help of Stephanie's grandfather's records, Sora sees through the true trick of the Eastern Union - and wagers Imanity's entire sovereignty as the stakes to formally challenge them.",
           "starting_location": "The embassy of the Eastern Federation in Elkia"
+        },
+        "ja": {
+          "title": "第8章：起死回生（フェイクエンド）",
+          "description": "先代国王が遺した手記を解読したソラは、東部連合の「心を読む」カラクリの正体を看破する。そして人類種（イマニティ）の全主権――全権代理者の証たる「種族の駒」を賭け金に、正式な宣戦布告に踏み切る。",
+          "starting_location": "エルキア領内・東部連合大使館"
         },
         "ru": {
           "title": "Глава 8: Ложный конец",
@@ -316,13 +386,18 @@
       "description": "Während Sora in einer Othello-Partie gegen Chlammy um seine eigene Existenz spielt, fordert Jibril Shiro zu einer Schachpartie heraus - Einsatz: Shiros Erinnerung an Sora selbst.",
       "starting_location": "Eine stille Kammer hoch oben in Elkia Castle, ein Schachbrett zwischen zwei Stühlen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode9_himmelswandel.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 9: Sky Walk",
           "description": "While Sora plays against Chlammy in a game of Othello for his very existence, Jibril challenges Shiro to a game of chess - wager: Shiro's memory of Sora himself.",
           "starting_location": "A quiet chamber high up in Elkia Castle, a chessboard between two chairs"
+        },
+        "ja": {
+          "title": "第9章：解離法（スカイ・ウォーク）",
+          "description": "自らの存在そのものを賭けてクラミーとのオセロ対局に臨むソラ。その最中、ジブリールはシロにチェスの勝負を挑む――その賭け金は、シロが持つ「ソラに関する全記憶」だった。",
+          "starting_location": "エルキア城・最上階の静まり返った一室（二脚の椅子の間に置かれたチェス盤）"
         },
         "ru": {
           "title": "Глава 9: Небесная прогулка",
@@ -338,13 +413,18 @@
       "description": "Mit Jibril, Stephanie, Chlammy und Fiel als vereintem Bündnis bereiten Sora, Shiro und Haru sich auf die entscheidende Konfrontation mit dem Östlichen Bund vor - doch zwischen Flügel und Elfen liegt noch immer die Last eines alten Krieges.",
       "starting_location": "Der Kriegsrat-Garten von Elkia Castle, unter blühenden Bäumen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode10_blaue_rose.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 10: Blue Rose",
           "description": "With Jibril, Stephanie, Chlammy, and Fiel as a united alliance, Sora, Shiro, and Haru prepare for the decisive confrontation with the Eastern Union - but between the Flugel and Elves still lies the burden of an ancient war.",
           "starting_location": "The war council garden of Elkia Castle, under blossoming trees"
+        },
+        "ja": {
+          "title": "第10章：青薔薇",
+          "description": "ジブリール、ステファニー、クラミー、フィールの共闘同盟が結ばれ、空、白、ハルは東部連合との決戦に向けて準備を進める。だが天翼種（フリューゲル）と森精種（エルフ）の間には、いまだ太古の大戦の重い傷痕が横たわっていた。",
+          "starting_location": "エルキア城の軍議庭園、咲き誇る樹々の下"
         },
         "ru": {
           "title": "Глава 10: Синяя роза",
@@ -360,13 +440,18 @@
       "description": "Der große Showdown gegen den Östlichen Bund beginnt: ein Vollimmersions-Ego-Shooter namens 'Love or Loved 2', in dem Liebeskugeln über den Sieg entscheiden. Blanks Gegnerin: das achtjährige Spielgenie Izuna Hatsuse.",
       "starting_location": "Ein digitales Schlachtfeld irgendwo zwischen zerstörten Häuserzeilen, vollimmersiv erschaffen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode11_riesentoeten.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 11: Giant Killing",
           "description": "The grand showdown against the Eastern Union begins: a full-immersion first-person shooter named 'Love or Loved 2', in which love bullets decide the victory. Blank's opponent: the eight-year-old gaming genius Izuna Hatsuse.",
           "starting_location": "A digital battlefield somewhere between destroyed rows of houses, fully immersive"
+        },
+        "ja": {
+          "title": "第11章：巨星落とし（ジャイアント・キリング）",
+          "description": "東部連合との大一番がついに幕を開ける。勝敗を決するのは『Love or Loved 2』――愛の弾丸が飛び交う完全没入型FPS。空白の前に立ちはだかるのは、8歳のゲームの天才・初瀬いづな。",
+          "starting_location": "倒壊したビル街が広がる、完全没入型の電脳戦場"
         },
         "ru": {
           "title": "Глава 11: Убийство гигантов",
@@ -382,13 +467,18 @@
       "description": "Izunas Blutentfesselung droht, Blank endgültig in die Enge zu treiben - doch der entscheidende Schuss kommt von unerwarteter Seite. Season-Finale: Sieg über den Östlichen Bund, ein gewagter Münzwurf gegen die Schrein-Priesterin, und die Geburt des Commonwealth of Elkia.",
       "starting_location": "Das digitale Schlachtfeld, kurz vor dem Ende, danach der Thronsaal des Östlichen Bundes",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode12_regel_nummer_zehn.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Chapter 12: Rule Number Ten",
           "description": "Izuna's Blood Destruction threatens to corner Blank for good - but the decisive shot comes from an unexpected side. Season Finale: Victory over the Eastern Union, a daring coin toss against the Shrine Priestess, and the birth of the Commonwealth of Elkia.",
           "starting_location": "The digital battlefield near the end, then the throne room of the Eastern Federation"
+        },
+        "ja": {
+          "title": "第12章：ルール・ナンバー10（第十の盟約）",
+          "description": "いづなの『血壊』が空白を完全に追い詰めるかに見えた――だが、決定的な一撃は予期せぬ場所から放たれる。シーズンフィナーレ：東部連合への勝利、巫女との乾坤一擲のコイントス、そしてエルキア連邦の誕生。",
+          "starting_location": "決着間際の電脳戦場、のち東部連合の玉座の間"
         },
         "ru": {
           "title": "Глава 12: Правило номер десять",
@@ -404,13 +494,18 @@
       "description": "Ohne Vorräte und Geld steigen Laios, Marcille und Chilchuck in Ebene 1 hinab – und treffen auf den Zwerg Senshi.",
       "starting_location": "Ebene 1: Feuchte Steinkatakomben",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep1_skorpionsuppe.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 1: Scorpion Soup & Walking Mushrooms",
           "description": "Penniless and out of rations, Laios, Marcille, and Chilchuck delve back down to the 1st Floor — crossing paths with the dwarf Senshi.",
           "starting_location": "Level 1: Damp stone catacombs"
+        },
+        "ja": {
+          "title": "ダンジョン飯 第1話：大サソリと歩き茸の水炊き",
+          "description": "装備も食糧も金も失ったライオス、マルシル、チルチャックの3人は地下1階へと再突入する――そしてドワーフのセンシと出会う。",
+          "starting_location": "地下1階：湿った石造りのカタコンベ"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 1: Суп из скорпиона и шагающие грибы",
@@ -426,13 +521,18 @@
       "description": "Auf Ebene 2 jagt ein tödlicher Basilisk unvorsichtige Abenteurer. Senshi weiß, wie man Hühnchenbraten daraus macht.",
       "starting_location": "Ebene 2: Unterirdischer Wald der Basilisken",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep2_klingenbasilisk.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 2: The Blade-Tail Basilisk",
           "description": "On the 2nd Floor, a vicious basilisk hunts careless adventurers. Senshi already knows the secret to turning it into roasted poultry.",
           "starting_location": "Level 2: Underground forest of the basilisks"
+        },
+        "ja": {
+          "title": "ダンジョン飯 第2話：ローストバジリスク",
+          "description": "地下2階では凶暴なバジリスクが油断した冒険者を狙っていた。だがセンシは、それを極上のローストチキンに変える秘訣をすでに知っていた。",
+          "starting_location": "地下2階：バジリスクが棲む地下樹林"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 2: Василиск с клинковым хвостом",
@@ -448,13 +548,18 @@
       "description": "Marcille versucht Alraunen nach akademischer Magielehre zu ernten, während Senshi eine rustikale Zwergenmethode anwendet.",
       "starting_location": "Ebene 2: Verwunschener Gemüsegarten",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep3_alraunenernte.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 3: Mandrake Harvest",
           "description": "Marcille attempts to harvest mandrakes according to strict magical academy doctrine, while Senshi relies on crude dwarven practicality.",
           "starting_location": "Level 2: Enchanted vegetable garden"
+        },
+        "ja": {
+          "title": "ダンジョン飯 第3話：マンドレイク収穫",
+          "description": "魔術学校の厳格な教本通りにマンドレイクを収穫しようとするマルシルに対し、センシはドワーフ流の実利的な手法で挑む。",
+          "starting_location": "地下2階：魔性の菜園"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 3: Сбор мандрагор",
@@ -470,13 +575,18 @@
       "description": "Ein unterirdischer See blockiert den Weg. Die Gruppe muss Kelpie-Fleisch erbeuten und Wassergeister abkochen.",
       "starting_location": "Ebene 3: Unterirdischer Sumpfsee",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep4_wassergeister.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 4: The Undines of the Deep",
           "description": "A subterranean lake bars the way down. The party must hunt a predatory kelpie and simmer water elementals into clear broth.",
           "starting_location": "Level 3: Underground swamp lake"
+        },
+        "ja": {
+          "title": "ダンジョン飯 第4話：水棲馬と水精",
+          "description": "地下へ続く道を塞ぐ広大な地底湖。一行は肉食のケルピーを狩り、水精（ウンディーネ）を煮込んで澄まし汁を作らねばならない。",
+          "starting_location": "地下3階：地底の湿地湖"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 4: Духи воды и келпи",
@@ -492,13 +602,18 @@
       "description": "Das Finale im tiefen Stockwerk: Kampf gegen den Roten Drachen um Fallins Leben.",
       "starting_location": "Ebene 4: Aschehalle des Roten Drachen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep5_roter_drache.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 5: The Red Dragon",
           "description": "The climactic clash in the scorching depths: battle against the Red Dragon to rescue Falin before it's too late.",
           "starting_location": "Level 4: Ash hall of the Red Dragon"
+        },
+        "ja": {
+          "title": "『ダンジョン飯』第5話：炎竜（レッドドラゴン）",
+          "description": "深層での決戦。消化される前にファリンを救い出すため、灼熱の炎竜（レッドドラゴン）に立ち向かう。",
+          "starting_location": "地下4階：炎竜の灰の広間"
         },
         "ru": {
           "title": "Dungeon Meshi – Эпизод 5: Красный Дракон",
@@ -514,13 +629,18 @@
       "description": "Ein Schrei auf dem Dach des Radiogebäudes und eine SMS, die Raum und Zeit zerreißt.",
       "starting_location": "Dach des Radiogebäudes in Akihabara",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep1_erste_dmail.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 1: The First D-Mail",
           "description": "A bloodcurdling scream echoes across the Radio Kaikan rooftop, and a single text message tears open the fabric of space and time.",
           "starting_location": "Roof of the radio building in Akihabara"
+        },
+        "ja": {
+          "title": "STEINS;GATE 第1話：始まりのDメール",
+          "description": "ラジオ会館に響き渡る悲痛な叫び声、そして時空の因果を歪めてしまった一通のメール。",
+          "starting_location": "秋葉原 ラジオ会館屋上"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 1: Первое D-мейл",
@@ -536,13 +656,18 @@
       "description": "Die Spur des legendären Retro-Computers führt zum Yanagibayashi-Schrein.",
       "starting_location": "Yanagibayashi-Schrein in Akihabara",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep2_ibn5100_suche.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 2: Hunt for the IBN 5100",
           "description": "The trail of the mythical vintage mainframe leads straight to the Yanagibayashi Shrine.",
           "starting_location": "Yanagibayashi Shrine in Akihabara"
+        },
+        "ja": {
+          "title": "STEINS;GATE 第2話：幻のIBN 5100を探せ",
+          "description": "伝説のレトロPCの手がかりを追い、一行は漆原るかの実家である柳林神社へと足を踏み入れる。",
+          "starting_location": "秋葉原 柳林神社"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 2: В поисках IBN 5100",
@@ -558,13 +683,18 @@
       "description": "Die Zeitreisesprung-Maschine wird fertiggestellt – doch Schatten nähern sich dem Labor.",
       "starting_location": "Zukunftsgadget-Labor",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep3_operation_urd.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 3: Operation Urd",
           "description": "The Time Leap Machine is completed — but grim shadows converge on the second-floor laboratory.",
           "starting_location": "Future Gadget Laboratory"
+        },
+        "ja": {
+          "title": "STEINS;GATE – エピソード3：オペレーション・ウルド",
+          "description": "タイムリープマシンがついに完成する――だが、不穏な影が研究室へと忍び寄っていた。",
+          "starting_location": "未来ガジェット研究所"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 3: Операция Урд",
@@ -580,13 +710,18 @@
       "description": "Verzweifelte Zeitschleifen: Okabe versucht Mayuris Schicksal gegen die Konvergenz zu retten.",
       "starting_location": "Akihabara U-Bahn-Station",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep4_schmetterlingseffekt.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 4: The Butterfly Effect",
           "description": "Desperate temporal loops: Okabe battles against fate itself to avert Mayuri's death.",
           "starting_location": "Akihabara subway station"
+        },
+        "ja": {
+          "title": "STEINS;GATE – エピソード4：バタフライエフェクト",
+          "description": "絶望のタイムループ：岡部は世界の収束に抗い、まゆりの運命を救おうと足掻き続ける。",
+          "starting_location": "秋葉原地下鉄駅"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 4: Эффект бабочки",
@@ -602,13 +737,18 @@
       "description": "Die finale Mission: Täusche die Vergangenheit, rette Kurisu und erreiche die Divergenz 1.048596%.",
       "starting_location": "Radiogebäude Dach – Der Schicksalstag",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep5_tor_zu_steins_gate.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 5: The Gate to Steins Gate",
           "description": "The final operation: deceive your past self, save Kurisu, and breach the 1.048596% divergence barrier.",
           "starting_location": "Radio building roof – the day of fate"
+        },
+        "ja": {
+          "title": "STEINS;GATE – エピソード5：シュタインズ・ゲートの扉",
+          "description": "最終作戦：過去の自分を騙し、紅莉栖を救い出し、ダイバージェンス1.048596％の境界線を突破せよ。",
+          "starting_location": "ラジオ会館屋上 – 運命の日"
         },
         "ru": {
           "title": "Steins;Gate – Эпизод 5: Врата Штейна",
@@ -624,13 +764,18 @@
       "description": "Ein turbulenter Tag im Café: Bestellungen aufnehmen, Stammkunden betreuen und ein unerwarteter Schattenauftrag.",
       "starting_location": "Café LycoReco Innenraum",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep1_willkommen_im_cafe.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 1: Welcome to Café LycoReco",
           "description": "A bustling day at the café: taking orders, greeting quirky regulars, and fielding an unexpected clandestine contract.",
           "starting_location": "Café LycoReco interior"
+        },
+        "ja": {
+          "title": "リコリス・リコイル 第1話：ようこそ喫茶リコリコへ",
+          "description": "注文を取り、常連客をもてなし、そして舞い込む予期せぬ裏任務――喫茶リコリコの賑やかで騒がしい日常が始まる。",
+          "starting_location": "喫茶リコリコ 店内"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 1: Добро пожаловать в кафе «ЛикоРеко»",
@@ -646,13 +791,18 @@
       "description": "Personenschutz-Einsatz durch die belebten Straßen von Shinjuku mit plötzlichem Hinterhalt.",
       "starting_location": "Shinjuku Fußgängerzone",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep2_geleitschutz_tokio.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 2: Escort Through Tokyo",
           "description": "An executive protection assignment through bustling Shinjuku boils over into an armed ambush.",
           "starting_location": "Shinjuku pedestrian zone"
+        },
+        "ja": {
+          "title": "リコリス・リコイル 第2話：東京エスコート・チェイス",
+          "description": "人通りの激しい新宿の街を抜ける身辺警護任務。だが、雑踏の中で突如として武装集団の強襲を受ける。",
+          "starting_location": "新宿歩行者天国"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 2: Эскорт через Токио",
@@ -668,13 +818,18 @@
       "description": "Ein Cyberangriff erschüttert das Café. Kurumi muss vor feindlichen Söldnern evakuiert werden.",
       "starting_location": "Hinterhof von Café LycoReco",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep3_jagd_nach_walnut.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 3: The Hunt for Walnut",
           "description": "A coordinated cyber raid breaches the café's perimeter. Kurumi must be extracted from closing mercenary squads.",
           "starting_location": "Back yard of Café LycoReco"
+        },
+        "ja": {
+          "title": "リコリス・リコイル 第3話：ウォールナット奪還戦",
+          "description": "組織的なサイバー強襲が喫茶リコリコを襲う。迫り来る敵の傭兵部隊から、天才ハッカー・クルミを無事に脱出させなければならない。",
+          "starting_location": "喫茶リコリコ 裏庭"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 3: Охота на Уолнат",
@@ -690,13 +845,18 @@
       "description": "Showdown auf dem alten Funkturm von Tokio: Chisato und Takina gegen das Alan-Institute.",
       "starting_location": "Aussichtsplattform des alten Funkturms",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep4_duell_im_morgengrauen.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 4: Duel at Dawn",
           "description": "Climactic showdown high atop the old Tokyo Radio Tower: Chisato and Takina stand against the Alan Institute.",
           "starting_location": "Observation platform of the old radio tower"
+        },
+        "ja": {
+          "title": "リコリス・リコイル 第4話：夜明けの決闘",
+          "description": "旧東京電波塔の頂上を舞台にした最終決戦。千束とたきながアラン機関との因縁に立ち向かう。",
+          "starting_location": "旧電波塔 展望デッキ"
         },
         "ru": {
           "title": "Lycoris Recoil – Эпизод 4: Дуэль на рассвете",
@@ -712,13 +872,18 @@
       "description": "Tag eins in SAO: Die Glocken läuten, der Logout-Knopf verschwindet und Kayaba Akihiko verkündet die Regeln des Todes.",
       "starting_location": "Zentraler Platz der Startstadt",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep1_die_verkuendung.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 1: The Proclamation",
           "description": "Day one in SAO: the central town bells toll, the logout button vanishes from the menu, and Akihiko Kayaba proclaims the laws of death.",
           "starting_location": "Central plaza of the Town of Beginnings"
+        },
+        "ja": {
+          "title": "ソードアート・オンライン 第1話：死の宣告",
+          "description": "SAO正式サービス初日。始まりの街に鐘が鳴り響き、メニューからログアウトボタンが消失する。そして開発者・茅場晶彦の手によって、狂気のデスゲームの幕が切って落とされた。",
+          "starting_location": "始まりの街 中央広場"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 1: Провозглашение",
@@ -734,13 +899,18 @@
       "description": "Der erste Bosskampf: Raid gegen Illfang the Kobold Lord. Der Preis des ersten Sieges.",
       "starting_location": "Torhalle vor dem Bossraum Ebene 1",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep2_boss_ebene1.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 2: Overlord of the First Floor",
           "description": "The breakthrough raid: confronting Illfang the Kobold Lord and paying the bitter price of their first victory.",
           "starting_location": "Gate hall before the boss room of floor 1"
+        },
+        "ja": {
+          "title": "ソードアート・オンライン 第2話：第1層の覇者",
+          "description": "運命の第1層ボス攻略レイド戦。《イルファング・ザ・コボルドロード》との死闘、そして初勝利のために支払わねばならなかった苦い代償。",
+          "starting_location": "第1層 ボスルーム前大回廊"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 2: Владыка первого этажа",
@@ -756,13 +926,18 @@
       "description": "Expedition zum eisigen Drachenberg auf Ebene 55 mit Schmiedin Lisbeth.",
       "starting_location": "Eisgipfel von Ebene 55",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep3_waerme_des_herzens.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 3: Warmth of the Heart",
           "description": "An expedition up the frozen peak of the 55th Floor alongside master blacksmith Lisbeth.",
           "starting_location": "Ice peak of floor 55"
+        },
+        "ja": {
+          "title": "ソードアート・オンライン 第3話：心の温度",
+          "description": "熟練の鍛冶職人リズベットと共に挑む、極寒の第55層・白竜の巣への素材採取クエスト。",
+          "starting_location": "第55層 氷雪峰の頂"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 3: Тепло сердца",
@@ -778,13 +953,18 @@
       "description": "Hinterhalt in einer Anti-Kristall-Zone: Laughing Coffin schlägt zu.",
       "starting_location": "Anti-Kristall-Kammer auf Ebene 60",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep4_duell_in_den_schatten.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 4: Duel in the Shadows",
           "description": "Ambush inside an anti-crystal zone: the red guild Laughing Coffin strikes without mercy.",
           "starting_location": "Anti-crystal chamber on floor 60"
+        },
+        "ja": {
+          "title": "ソードアート・オンライン 第4話：暗影の決闘",
+          "description": "結晶無効化エリアでの悪夢の待ち伏せ。殺人ギルド《ラフィン・コフィン》の凶刃が迫る。",
+          "starting_location": "第60層 アンチクリスタル回廊"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 4: Дуэль в тенях",
@@ -800,13 +980,18 @@
       "description": "Die Schlacht auf Ebene 74: Kiritos Enthüllung des geheimen Dual-Blades-Skills gegen den Gleam Eyes Dämon.",
       "starting_location": "Bosskammer Ebene 74",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep5_der_glaenzende_blick.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 5: The Gleam Eyes",
           "description": "The slaughter on the 74th Floor: Kirito unleashes the unique Dual Blades skill to slay the demon Gleam Eyes.",
           "starting_location": "Boss chamber of floor 74"
+        },
+        "ja": {
+          "title": "ソードアート・オンライン 第5話：青眼の悪魔",
+          "description": "第74層ボス部屋の惨劇。青眼の悪魔《ザ・グリームアイズ》に対し、キリトが封印してきたユニークスキル《二刀流》を解き放つ。",
+          "starting_location": "第74層 ボスルーム"
         },
         "ru": {
           "title": "Sword Art Online – Эпизод 5: Синеглазый демон",
@@ -822,13 +1007,18 @@
       "description": "Tief unter Japantown liegt ein geflutetes Arasaka-Schattenlabor. Du drichst mit der Hackerin Kurumi und der Schwertkämpferin Shinku ein, um einen Relikt-Splitter zu bergen – bevor das Schwarze ICE zuschnappt.",
       "starting_location": "Gefluteter Serverkorridor des Schattenlabors Kuro-7 (Japantown)",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_ghost_in_subgrid.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Night City 2077: Ghost in the Subgrid",
           "description": "Deep beneath Japantown lies a flooded Arasaka black-site lab. Alongside netrunner Kurumi and blade specialist Shinku, you breach the facility to klep an experimental Relic shard before Black ICE locks you in.",
           "starting_location": "Flooded server corridor of Black-Site Lab Kuro-7 (Japantown)"
+        },
+        "ja": {
+          "title": "ナイトシティ2077：サブネットの亡霊",
+          "description": "ジャパンタウンの地下深く、水没したアラサカの秘密研究所。ネットランナーのクルミ、刃の達人シンクと共に潜入し、ブラックICEに閉じ込められる前に実験用レリック・シャードを奪取せよ。",
+          "starting_location": "秘密研究所クロ-7の水没したサーバー通路（ジャパンタウン）"
         },
         "ru": {
           "title": "Найт-Сити 2077: Призрак в подсети",
@@ -844,13 +1034,18 @@
       "description": "Eine Übergabe in einer regennassen Seitengasse nahe dem Afterlife läuft aus dem Ruder: Der Konzern-Käufer will den Biochip, ohne zu zahlen – und am Himmel kreisen bereits bewaffnete AVs.",
       "starting_location": "Neon-Hinterhofgasse nahe dem Afterlife (Watson)",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_afterlife_deal.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Night City 2077: Cold Deal at the Afterlife",
           "description": "A midnight handoff in a rain-slicked alley near the Afterlife goes sideways: the corporate buyer wants the biochip without paying — and armed AVs are already circling overhead.",
           "starting_location": "Neon-lit back alley near the Afterlife (Watson)"
+        },
+        "ja": {
+          "title": "ナイトシティ2077：アフターライフの冷たい取引",
+          "description": "アフターライフ近くの雨に煙る路地裏で行われた取引が決裂する。コーポのバイヤーは代金を払わずにバイオチップを奪おうとし、夜空にはすでに武装AVが旋回を始めていた。",
+          "starting_location": "アフターライフ近くのネオンが滲む路地裏（ワトソン）"
         },
         "ru": {
           "title": "Найт-Сити 2077: Холодная сделка в «Посмертии»",
@@ -866,13 +1061,18 @@
       "description": "Im Thronsaal von Limgard zeigt die königliche Schätzungskugel bei dir „Mana: 0“ – woraufhin dich der Hof vor die Tore setzt. Doch Frieren und Megumin entdecken an deinem Statusfenster etwas, das den Hofmagiern entgangen ist.",
       "starting_location": "Vorplatz der Freien Abenteurergilde von Astralis",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_null_mana_summoning.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Isekai Chronicles: Summoned at Level Zero",
           "description": "In the royal throne room of Limgard, the Appraisal Orb reads \"Mana: 0\" — getting you promptly booted out the palace gates. Yet Frieren and Megumin spot something in your Status Window that the court mages missed entirely.",
           "starting_location": "Plaza outside the Free Adventurers' Guild of Astralis"
+        },
+        "ja": {
+          "title": "異世界クロニクル：レベルゼロで召喚された男",
+          "description": "リムガルド王国の玉座の間で行われた適性測定で「魔力量：0」と判定され、王宮から追放されてしまったあなた。だが、行き倒れかけたあなたのステータス画面に、エルフの魔法使いフリーレンと爆裂魔法の求道者めぐみんは、宮廷魔術師たちが見落とした“ある秘密”を見出す。",
+          "starting_location": "自由冒険者ギルド前広場（アストラリス）"
         },
         "ru": {
           "title": "Хроники Исекая: Призванный с нулевым уровнем",
@@ -888,13 +1088,18 @@
       "description": "Eine Notfall-Quest der Abenteurergilde führt dich mit Rem und Marcille tief in ein versunkenes Ruinen-Labyrinth – wo das Weltsystem vor einem erwachenden Dungeon-Kern warnt.",
       "starting_location": "Unterirdisches Kristall-Sanktuarium vor der Kammer des Dungeon-Kerns",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_labyrinth_of_aetheria.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Isekai Chronicles: The Forbidden Dungeon Core",
           "description": "An emergency Adventurers' Guild quest leads you, Rem, and Marcille deep into a sunken ruin labyrinth — where the World System warns of an awakening Dungeon Core.",
           "starting_location": "Subterranean crystal sanctuary outside the Dungeon Core chamber"
+        },
+        "ja": {
+          "title": "異世界クロニクル：禁忌のダンジョンコア",
+          "description": "冒険者ギルドの緊急クエストを受け、あなたとレム、そしてマルシルは水没した遺跡迷宮の深奥へと足を踏み入れる。だがそこでは、世界システムが覚醒しつつある「ダンジョンコア」への警告を発していた。",
+          "starting_location": "ダンジョンコア玄室前、地下クリスタル聖域"
         },
         "ru": {
           "title": "Хроники Исекая: Запретное ядро подземелья",
@@ -910,13 +1115,18 @@
       "description": "Ein plötzlicher Wolkenbruch hält dich nach Unterrichtsschluss mit Marin, Nagatoro und Aoi im Klubraum fest. Jede der drei wollte heute eigentlich allein mit dir nach Hause gehen – und du hast nur einen einzigen Schirm.",
       "starting_location": "Klubraum im dritten Stock bei prasselndem Sommerregen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rainy_clubroom_confessions.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "After-School Heartbeats: One Umbrella for Four",
           "description": "A sudden downpour traps you after school in the clubroom with Marin, Nagatoro, and Aoi. All three secretly planned to walk home alone with you today — and you only brought one umbrella.",
           "starting_location": "Third-floor clubroom during a pouring summer thunderstorm"
+        },
+        "ja": {
+          "title": "放課後の鼓動：四人にひとつの傘",
+          "description": "放課後の突然のゲリラ豪雨。部室に取り残されたのは、あなたと海夢、長瀞、そして藍。3人とも今日こそあなたと二人きりで下校するつもりだったのに――持っている傘は、たったの1本だけ。",
+          "starting_location": "激しい雷雨に見舞われる3階の部室"
         },
         "ru": {
           "title": "Сердцебиение после уроков: Один зонт на четверых",
@@ -932,13 +1142,18 @@
       "description": "Die Legende des großen Abendballs besagt: Wer beim ersten Feuerwerk auf dem Balkon zusammensteht, bleibt für immer verbunden. Kaguya, Asuna und Rem haben dich alle drei zur selben Minute dorthin bestellt.",
       "starting_location": "Mit Lampions beleuchtete Dachterrasse über dem Festsaal kurz vor dem Feuerwerk",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rooftop_festival_fireworks.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Cultural Festival Legend: Who Gets the Last Dance?",
           "description": "Festival legend says that whoever stands together on the balcony when the first firework blooms will be bound forever. Kaguya, Asuna, and Rem all invited you to the terrace at the exact same minute.",
           "starting_location": "Lantern-lit rooftop terrace above the festival ballroom just before the fireworks"
+        },
+        "ja": {
+          "title": "文化祭のジンクス：ラストダンスは誰と？",
+          "description": "後夜祭の夜、最初の花火が上がる瞬間にバルコニーで寄り添っていた二人は永遠に結ばれる――そんなジンクスが囁かれる中、かぐや、アスナ、レムの3人から全く同じ時刻にテラスへと呼び出された。",
+          "starting_location": "花火打ち上げ直前、ランタンの灯る大広間上の屋上テラス"
         },
         "ru": {
           "title": "Легенда школьного фестиваля: Кому достанется последний танец?",
@@ -954,13 +1169,18 @@
       "description": "Futaros erster Tag als Nachhilfelehrer im Luxus-Penthouse der fünf Schwestern stößt auf eisige Ablehnung und handfeste Sabotage.",
       "starting_location": "Wohnzimmer im Penthouse der Nakano-Schwestern",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep1_penthouse_nachhilfe.json",
-      "revision": 2,
-      "updated": "2026-10-18",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 1: Penthouse Tutoring",
           "description": "Futaro's first day as tutor at the lavish Nakano penthouse meets icy suspicion, stubborn pride, and outright sabotage.",
           "starting_location": "Living room of the Nakano penthouse"
+        },
+        "ja": {
+          "title": "『五等分の花嫁』第1話：ペントハウスの家庭教師",
+          "description": "五つ子の超高級タワーマンションで迎える、風太郎の家庭教師初日。だが待ち受けていたのは、氷のような拒絶とあからさまな妨害工作だった。",
+          "starting_location": "中野家ペントハウスのリビング"
         },
         "ru": {
           "title": "The Quintessential Quintuplets – Эпизод 1: Репетитор в пентхаусе",
@@ -976,13 +1196,18 @@
       "description": "Beim Sommerfest trennen sich die Schwestern in der Menschenmenge, und eine verabredete Aussprache droht im Trubel unterzugehen.",
       "starting_location": "Schreintreppe über der Stadt beim Sommerfest",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep2_feuerwerk_gestaendnis.json",
-      "revision": 2,
-      "updated": "2026-10-18",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 2: Summer Fireworks",
           "description": "At the annual summer festival, the sisters get separated in the crowd, and long-awaited feelings risk getting lost in the chaos.",
           "starting_location": "Stone shrine steps overlooking the city during the festival"
+        },
+        "ja": {
+          "title": "『五等分の花嫁』第2話：夏祭りと花火の誓い",
+          "description": "夏祭りの人混みの中、はぐれてしまった五つ子姉妹。交わした約束と胸に秘めた想いが、祭りの喧騒の中に埋もれそうになる。",
+          "starting_location": "街を見下ろす神社の石段"
         },
         "ru": {
           "title": "The Quintessential Quintuplets – Эпизод 2: Летний фейерверк",
@@ -998,13 +1223,18 @@
       "description": "Die Zwischenprüfungen stehen bevor. Wenn auch nur eine Schwester durchfällt, wird Futaro gefeuert und die Fünflinge werden getrennt.",
       "starting_location": "Klassenzimmer der Asahiyama-Oberschule am späten Nachmittag",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep3_zwischenpruefung.json",
-      "revision": 2,
-      "updated": "2026-10-18",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 3: Trial by Midterms",
           "description": "Midterm exams arrive. If even a single sister flunks, Futaro gets fired and the quintuplets will be forcibly separated.",
           "starting_location": "Asahiyama High classroom in late afternoon light"
+        },
+        "ja": {
+          "title": "『五等分の花嫁』第3話：運命の中間試験",
+          "description": "運命の中間試験が目前に迫る。五つ子のうち一人でも赤点を取れば、風太郎は即刻クビ、姉妹も転校させられて離れ離れになってしまう。",
+          "starting_location": "放課後の旭高校の教室"
         },
         "ru": {
           "title": "The Quintessential Quintuplets – Эпизод 3: Испытание экзаменами",
@@ -1020,13 +1250,18 @@
       "description": "Ein plötzlicher Schneesturm schneidet die Gruppe in einer alten Schutzhütte ab. Kälte, Kerzenschein und eine uralte Lagerfeuer-Legende.",
       "starting_location": "Verlassene Skihütte am Berghang",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep4_schneefahrt_huette.json",
-      "revision": 2,
-      "updated": "2026-10-18",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 4: Snowbound Cabin",
           "description": "A sudden mountain blizzard traps the group inside an old ski cabin. Warm hearthfire, whispered secrets, and the legend of the bonfire.",
           "starting_location": "Rustic ski cabin nestled on the mountain slope"
+        },
+        "ja": {
+          "title": "『五等分の花嫁』第4話：雪山の山小屋と焚き火の夜",
+          "description": "猛烈な吹雪によって、古い避難小屋に取り残された一行。身を切る寒さ、揺らめく焚き火の炎、そして語り継がれるキャンプファイヤーの伝説。",
+          "starting_location": "雪山の中腹にある避難山小屋"
         },
         "ru": {
           "title": "The Quintessential Quintuplets – Эпизод 4: Метель в хижине",
@@ -1042,13 +1277,18 @@
       "description": "Das letzte Schulfest vor dem Abschluss. Essenstände, Bühnenauftritte und fünf Schwestern, die um einen entscheidenden Moment kämpfen.",
       "starting_location": "Dach der Asahiyama-Oberschule während des Schulfest-Feuerwerks",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep5_schulfest_gestaendnisse.json",
-      "revision": 2,
-      "updated": "2026-10-18",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 5: School Festival of Memories",
           "description": "The final school festival before graduation. Food stalls, stage plays, and five sisters each fighting for an irreplaceable confession.",
           "starting_location": "Rooftop of Asahiyama High during festival fireworks"
+        },
+        "ja": {
+          "title": "『五等分の花嫁』第5話：最後の学園祭と思い出の告白",
+          "description": "卒業を控えた最後の学園祭。模擬店の賑わい、熱狂のステージ、そしてかけがえのない一瞬を胸に刻もうとする五つ子姉妹の想いが交錯する。",
+          "starting_location": "フィナーレの花火が打ち上がる旭高校の屋上"
         },
         "ru": {
           "title": "The Quintessential Quintuplets – Эпизод 5: Фестиваль воспоминаний",
@@ -1064,13 +1304,18 @@
       "description": "In einem Bergdorf sind alle Glocken zu Eis erstarrt – und wer ihren letzten Ton gehört hat, wacht nicht mehr auf. Emilia bittet dich um Hilfe.",
       "starting_location": "Der verschneite Dorfplatz von Frostweiler",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/frozen_bells_emilia.json",
-      "revision": 1,
-      "updated": "2026-10-19",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Bells of Frostweiler",
           "description": "In a mountain village every bell has turned to ice – and whoever heard their last note no longer wakes up. Emilia asks for your help.",
           "starting_location": "The snowy village square of Frostweiler"
+        },
+        "ja": {
+          "title": "フロストワイラーの凍れる鐘",
+          "description": "雪深き山あいの村で、すべての鐘が氷漬けとなり、その最後の音色を聞いた村人たちは深い眠りから覚めなくなっていた。銀髪の少女エミリアが、あなたに助けを求める。",
+          "starting_location": "雪に覆われたフロストワイラーの村の広場"
         },
         "ru": {
           "title": "Колокола Фроствайлера",
@@ -1086,13 +1331,18 @@
       "description": "Ayu gibt ein Überraschungskonzert beim Kirschblütenfest – doch eine Stunde vorher ist ihr Kostüm zerrissen und Cosmos hat das Geheimnis schon gepostet. Rette den Tag!",
       "starting_location": "Hinter der kleinen Festbühne im Ueno-Park",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/hanami_live_ayu_cosmos.json",
-      "revision": 1,
-      "updated": "2026-10-19",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "Hanami Live at Ueno Park",
           "description": "Ayu is giving a surprise concert at the cherry blossom festival – but an hour before, her costume is torn and Cosmos has already posted the secret. Save the day!",
           "starting_location": "Behind the small festival stage in Ueno Park"
+        },
+        "ja": {
+          "title": "上野公園のお花見ライブ",
+          "description": "桜まつりの会場でサプライズライブを控えたアイドル・アユ。だが開演1時間前に衣装の裾が破れ、さらにコスモスが秘密の場所をSNSに誤爆投稿！ 押し寄せるファンの中、ステージを成功に導け！",
+          "starting_location": "上野公園・お祭り特設ステージの裏手"
         },
         "ru": {
           "title": "Ханами-лайв в парке Уэно",
@@ -1108,13 +1358,18 @@
       "description": "Eine Stunde vor der Live-Sendung ist Ayus goldenes Glücksmikrofon aus der Garderobe verschwunden. Vier Verdächtige, eine Uhr, die tickt – finde den Täter.",
       "starting_location": "Ayus Garderobe im Fernsehstudio",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/missing_mic_ayu_cosmos.json",
-      "revision": 1,
-      "updated": "2026-10-19",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "The Missing Microphone",
           "description": "One hour before the live broadcast, Ayu's golden lucky microphone has vanished from her dressing room. Four suspects, a ticking clock – find the culprit.",
           "starting_location": "Ayu's dressing room at the TV studio"
+        },
+        "ja": {
+          "title": "消えたマイク",
+          "description": "生放送本番まであと1時間。アユのお守りである特注の「黄金のマイク」が楽屋から忽然と消え去った。容疑者は4人、刻一刻と迫るタイムリミット――真犯人を見つけ出せ。",
+          "starting_location": "テレビ局内、アユの専用楽屋"
         },
         "ru": {
           "title": "Пропавший микрофон",
@@ -1130,13 +1385,18 @@
       "description": "Für eine Gruselfolge ihrer TV-Show übernachtet Ayu in einem alten Gasthaus in den Bergen. Dann schneit es euch ein – und im leeren Flur klappern Teetassen.",
       "starting_location": "Der Empfangsraum des Ryokan Tsukimi",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ryokan_night_ayu_cosmos.json",
-      "revision": 1,
-      "updated": "2026-10-19",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "title": "A Night at Ryokan Tsukimi",
           "description": "For a spooky episode of her TV show, Ayu stays overnight at an old inn in the mountains. Then you get snowed in – and in the empty corridor, teacups rattle.",
           "starting_location": "The reception room of Ryokan Tsukimi"
+        },
+        "ja": {
+          "title": "月見旅館の一夜",
+          "description": "TV番組のオカルト特番の収録のため、山奥の古びた旅館に宿泊することになったアユ。だが猛吹雪で孤立してしまい――誰もいないはずの廊下から、カタカタと湯呑みの触れ合う音が響き渡る。",
+          "starting_location": "月見旅館の帳場（ロビー）"
         },
         "ru": {
           "title": "Ночь в рёкане «Цукими»",

@@ -7,12 +7,16 @@
       "description": "Grundlagen des Universums: Sukkuben, das Reich, Hirokis Duft, die WG, Presse und Geheimhaltung.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_world.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Foundations of the universe: Succubi, the Realm, Hiroki's scent, the shared apartment, press, and secrecy.",
           "name": "Sakura Succubus 3 – World Lore"
+        },
+        "ja": {
+          "description": "作品の基本設定：サキュバスの生態、異世界「サキュバス界」、博樹特有の甘い匂い、奇妙な同居生活、メディア報道と秘密保持の掟。",
+          "name": "Sakura Succubus 3 – 世界観・設定"
         },
         "ru": {
           "description": "Основы вселенной: суккубы, Царство, запах Хироки, совместная жизнь в квартире, пресса и конспирация.",
@@ -26,12 +30,16 @@
       "description": "Kurzprofile aller Haupt- und Nebenfiguren, für Szenen, in denen eine Figur nicht als Charakterkarte geladen ist.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_characters.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Short profiles of all main and supporting characters, for scenes where a character is not loaded as an individual character card.",
           "name": "Sakura Succubus 3 – Characters"
+        },
+        "ja": {
+          "description": "各ヒロインおよびサブキャラクターの簡易プロファイル。個別キャラクターカードが読み込まれていないシーンや背景参照用。",
+          "name": "Sakura Succubus 3 – 登場人物"
         },
         "ru": {
           "description": "Краткие профили всех основных и второстепенных персонажей для сцен, где персонаж не загружен в виде отдельной карточки.",
@@ -45,12 +53,16 @@
       "description": "Schauplätze: Wohnung, Redaktion, Cosplay-Café, Vorstandsetage, Bühne, Tennisanlage, Teezimmer, Thronsaal, Empfänge.",
       "entry_count": 9,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_locations.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Key settings: Apartment, Newsroom, Cosplay Café, Executive Boardroom, Stage, Tennis Courts, Tea Room, Throne Room, and Galas.",
           "name": "Sakura Succubus 3 – Locations"
+        },
+        "ja": {
+          "description": "物語の舞台：都内の狭い同居マンション、編集部、コスプレカフェ、高層ビルの社長室、ライブステージ、テニスコート、茶室、サキュバス界の玉座の間、上流階級の夜会。",
+          "name": "Sakura Succubus 3 – 舞台・ロケーション"
         },
         "ru": {
           "description": "Ключевые локации: квартира, редакция, косплей-кафе, кабинет президента, сцена, теннисный корт, чайная комната, тронный зал и приёмы.",
@@ -64,12 +76,16 @@
       "description": "Grundregeln Disboards: die Zehn Gebote, Tets Ursprung, Rasseneinsätze und der Ruf von Blank.",
       "entry_count": 8,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_world.json",
-      "revision": 3,
-      "updated": "2026-10-17",
+      "revision": 4,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Core laws of Disboard: the Ten Pledges, Tet's origin, Race Pieces, and the reputation of Blank.",
           "name": "No Game No Life – World & The Ten Pledges"
+        },
+        "ja": {
+          "description": "ディスボードの絶対法則：十の盟約、唯一神テトの起源、種の駒（チェスピース）を賭けた戦い、そして『　』（くうはく）の不敗伝説。",
+          "name": "ノーゲーム・ノーライフ – 世界観と十の盟約"
         },
         "ru": {
           "description": "Законы Дисборда: Десять Заповедей, происхождение Тета, расовые фигуры и слава «Пустых».",
@@ -83,12 +99,16 @@
       "description": "Die sechzehn Rassen Disboards und die wichtigsten Schauplätze: Elkia, Avant Heim, Elfengard, der Östliche Bund.",
       "entry_count": 9,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_races_locations.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "The sixteen races of Disboard and its key locations: Elkia, Avant Heim, Elfengard, and the Eastern Union.",
           "name": "No Game No Life – Races & Locations"
+        },
+        "ja": {
+          "description": "ディスボードに住まう十六種族（イクシード）と主要な舞台：エルキア、アヴァン・ヘイム、エルフェンガルド、東部連合の解説。",
+          "name": "ノーゲーム・ノーライフ – 種族と国家・都市"
         },
         "ru": {
           "description": "Шестнадцать рас Дисборда и главные места действия: Элкия, Авант Хейм, Эльфенгард и Восточный Союз.",
@@ -102,12 +122,16 @@
       "description": "Kurzreferenzen zu Sora, Shiro und allen wichtigen Neben- und Hintergrundfiguren der Kampagne.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_characters.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Quick references for Sora, Shiro, and key supporting characters across the campaign.",
           "name": "No Game No Life – Characters"
+        },
+        "ja": {
+          "description": "空、白、『　』（くうはく）、そしてキャンペーンに登場する主要人物・背景キャラクターの簡易リファレンス。",
+          "name": "ノーゲーム・ノーライフ – 登場人物"
         },
         "ru": {
           "description": "Краткие справки о Соре, Сиро и ключевых второстепенных персонажах кампании.",
@@ -121,12 +145,16 @@
       "description": "Das Mana-System des Dungeons, Monster-Biologie, Seelenbindung und Regenerationsregeln.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_ecology.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "The dungeon's mana ecosystem, monster biology, soul tethering, and resurrection rules.",
           "name": "Dungeon Meshi – Ecology & Dungeon Laws"
+        },
+        "ja": {
+          "description": "迷宮のマナ循環システム、魔物の生物学、魂の束縛と蘇生プロトコル。",
+          "name": "ダンジョン飯 – 迷宮の生態系＆ダンジョン規則"
         },
         "ru": {
           "description": "Магическая экосистема подземелья, биология чудовищ, привязка душ и правила воскрешения.",
@@ -140,12 +168,16 @@
       "description": "Kulinarische Zubereitungen von Riesen-Skorpionen, Basiliskeneiern, Alraunen und Glibber.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_recipes.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Culinary recipes and butchery for giant scorpions, basilisk eggs, mandrakes, and slime.",
           "name": "Dungeon Meshi – Monster Recipes & Gourmet Craft"
+        },
+        "ja": {
+          "description": "大サソリ、バジリスクの卵、マンドラゴラ、スライムなどの滋味溢れる魔物調理記録。",
+          "name": "ダンジョン飯 – 魔物レシピ＆魔術調理法"
         },
         "ru": {
           "description": "Рецепты и тонкости приготовления гигантских скорпионов, яиц василиска, мандрагор и слизи.",
@@ -159,12 +191,16 @@
       "description": "Laios' Gruppe, die Suche nach Fallin und das Geheimnis des Wahnsinnigen Magiers.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_world.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Laios' party, the race to rescue Falin, and the curse of the Lunatic Magician.",
           "name": "Dungeon Meshi – Characters & The Golden Kingdom"
+        },
+        "ja": {
+          "description": "ライオス一行、妹ファリン救出の誓い、そして狂乱の魔術師が統べる黄金郷の謎。",
+          "name": "ダンジョン飯 – 冒険者一行＆黄金の王国"
         },
         "ru": {
           "description": "Отряд Лай Оса, спасение Фэлин и тайны безумного чародея.",
@@ -178,12 +214,16 @@
       "description": "Divergenz-Meter, Alpha- und Beta-Attraktorfelder, Konvergenz und Schicksalsfixpunkte.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_divergence.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "The Divergence Meter, Alpha and Beta Attractor Fields, convergence points, and temporal causality.",
           "name": "Steins;Gate – Worldlines & Divergence"
+        },
+        "ja": {
+          "description": "ダイバージェンスメーター、α世界線・β世界線（アトラクタフィールド）、事象の収束、そして時間的因果律。",
+          "name": "『STEINS;GATE』世界線とダイバージェンス"
         },
         "ru": {
           "description": "Счётчик дивергенции, аттракторные поля Альфа и Бета, точки конвергенции и законы причинности.",
@@ -197,12 +237,16 @@
       "description": "Zukunftsgadgets, die Telefon-Mikrowelle, Zeitreisesprünge und der IBN 5100.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_gadgets.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Future Gadget Laboratory inventions, the Phone Microwave, time leaping, and the IBN 5100.",
           "name": "Steins;Gate – Future Gadgets & D-Mails"
+        },
+        "ja": {
+          "description": "未来ガジェット、電話レンジ（仮）、タイムリープ、そしてIBN 5100。",
+          "name": "『STEINS;GATE』未来ガジェットとDメール"
         },
         "ru": {
           "description": "Изобретения Лаборатории гаджетов будущего, Мобиловолновка, прыжки во времени и IBN 5100.",
@@ -216,12 +260,16 @@
       "description": "Das Zukunftsgadget-Labor, das Radiogebäude, MayQueen Nyan² und die Bedrohung durch SERN.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_akihabara.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "The Future Gadget Lab, Radio Kaikan, MayQueen Nyan², and the looming shadow of SERN.",
           "name": "Steins;Gate – Akihabara 2010 & SERN"
+        },
+        "ja": {
+          "description": "未来ガジェット研究所、ラジオ会館、メイクイーン+ニャン2、そしてSERNの影。",
+          "name": "『STEINS;GATE』2010年秋葉原とSERN"
         },
         "ru": {
           "description": "Лаборатория гаджетов будущего, Радио Кайкан, МэйКвин Нян-Нян и нависшая тень SERN.",
@@ -235,12 +283,16 @@
       "description": "Direct Attack Organisation, Lycoris-Agentinnen, Alan-Kinder und das Gesetz der Ordnung.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_da.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "The Direct Attack organization, covert schoolgirl Lycoris agents, Alan Children, and the illusion of public peace.",
           "name": "Lycoris Recoil – Direct Attack & The Alan Institute"
+        },
+        "ja": {
+          "description": "極秘治安維持組織DA、少女暗殺者「リコリス」、アランの子供、そして偽りの平和をめぐる設定資料。",
+          "name": "リコリス・リコイル – DA（Direct Attack）＆アラン機関"
         },
         "ru": {
           "description": "Секретная организация Direct Attack, школьницы-агенты Ликорис, Дети Алана и иллюзия абсолютной безопасности.",
@@ -254,12 +306,16 @@
       "description": "Das gemütliche Café in Sumida, Speisekarte, Stammgäste und Tarnung.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_cafe.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "The cozy Sumida branch café, seasonal menu, loyal patrons, and covert operations.",
           "name": "Lycoris Recoil – Café LycoReco"
+        },
+        "ja": {
+          "description": "東京都墨田区にある下町の和カフェ、メニュー、常連客、そして表と裏の顔。",
+          "name": "リコリス・リコイル – 喫茶リコリコ"
         },
         "ru": {
           "description": "Уютное традиционное кафе в районе Сумида, десертное меню, завсегдатаи и секретное прикрытие.",
@@ -273,12 +329,16 @@
       "description": "Chisatos Ausweichfähigkeiten, Nicht-tödliche Munition und Waffen.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_tactics.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Chisato's predictive evasion, specialized non-lethal munitions, and combat equipment.",
           "name": "Lycoris Recoil – Armament & Tactical Doctrine"
+        },
+        "ja": {
+          "description": "錦木千束の弾丸回避能力、非致死性特殊弾、および戦闘装備と戦術教義。",
+          "name": "リコリス・リコイル – 装備と戦闘戦術"
         },
         "ru": {
           "description": "Сверхъестественное уклонение Тисато, нелетальные боеприпасы и тактическое снаряжение.",
@@ -292,12 +352,16 @@
       "description": "Sword Skills, HP-Regeln, Permadeath, Teleportkristalle und Menüführung.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_system_rules.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Sword Skills, HP bars, permadeath rules, teleport crystals, and system menus.",
           "name": "Sword Art Online – Aincrad System Mechanics"
+        },
+        "ja": {
+          "description": "ソードスキル、HPゲージ、完全なる死、転移結晶、およびシステムメニュー。",
+          "name": "『ソードアート・オンライン』アインクラッドのシステムルール"
         },
         "ru": {
           "description": "Навыки меча, шкалы HP, перманентная смерть, кристаллы телепортации и системное меню.",
@@ -311,12 +375,16 @@
       "description": "Ritter des Blutschwurs, Fuurinkazan, Händlergilden und Laughing Coffin.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_guilds_factions.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Knights of the Blood Oath, Fuurinkazan, merchant syndicates, and the killers of Laughing Coffin.",
           "name": "Sword Art Online – Guilds & Factions"
+        },
+        "ja": {
+          "description": "血の盟騎士団、風林火山、商人ギルド、そして殺人ギルド「ラフィン・コフィン」。",
+          "name": "『ソードアート・オンライン』ギルドと勢力"
         },
         "ru": {
           "description": "Рыцари Крови, Фуринказан, торговые гильдии и убийцы из «Весёлого гроба».",
@@ -330,12 +398,16 @@
       "description": "Die 100 schwebenden Ebenen, Startstadt, Labyrinthe und Ebene 22.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_aincrad_geography.json",
-      "revision": 2,
-      "updated": "2026-10-17",
+      "revision": 3,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "The 100 floating castle floors, Town of Beginnings, labyrinth spires, and Floor 22.",
           "name": "Sword Art Online – Geography of Aincrad"
+        },
+        "ja": {
+          "description": "全100層の浮遊城、はじまりの街、迷宮区、そして第22層。",
+          "name": "『ソードアート・オンライン』アインクラッドの地理"
         },
         "ru": {
           "description": "Сто парящих этажей крепости, Город Начал, башни-лабиринты и мирный 22-й этаж.",
@@ -349,12 +421,16 @@
       "description": "Megakonzerne, Bezirke, Gangs, Cyberware, Ripperdocs, Netrunning hinter der Blackwall und das Gesetz der Straße im Jahr 2077.",
       "entry_count": 12,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/cyberpunk_night_city.json",
-      "revision": 1,
-      "updated": "2026-10-17",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Megacorporations, districts, gangs, cyberware, ripperdocs, netrunning beyond the Blackwall, and the law of the street in 2077.",
           "name": "Night City 2077 – Edgerunners, Megacorps & The Net"
+        },
+        "ja": {
+          "description": "2077年のメガコーポ、地区、ギャング、サイバーウェア、リパードク、ブラックウォールの向こう側のネットランニング、そしてストリートの掟。",
+          "name": "ナイトシティ2077 – エッジランナー、メガコーポ＆ネット"
         },
         "ru": {
           "description": "Мегакорпорации, районы, банды, киберимпланты, рипперы, нетраннинг за Чёрным заслоном и законы улиц 2077 года.",
@@ -368,12 +444,16 @@
       "description": "Klassische Isekai-Fantasy-Welt: das Weltsystem mit Statusfenstern und Einzigartigen Skills, die Abenteurergilde (Rang F bis S), Labyrinthe, Reiche und der Dämonenkönig.",
       "entry_count": 12,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/isekai_fantasy_rpg_world.json",
-      "revision": 1,
-      "updated": "2026-10-17",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Classic isekai fantasy world: the World System with status windows and Unique Skills, the Adventurers' Guild (Ranks F to S), labyrinths, realms, and the Demon Lord.",
           "name": "Aetheria Chronicles – Isekai Adventure, Guilds & System Magic"
+        },
+        "ja": {
+          "description": "王道異世界ファンタジー：ステータス画面やユニークスキルを司る「世界システム」、自由冒険者ギルド（F〜Sランク）、生ける迷宮、諸王国、そして魔王軍。",
+          "name": "エーテリア年代記 – 異世界冒険譚、ギルドとシステム魔法"
         },
         "ru": {
           "description": "Классический фэнтези-исекай: Мировая Система с окнами статуса и Уникальными навыками, Гильдия авантюристов (ранги F–S), лабиринты, королевства и Владыка Демонов.",
@@ -387,12 +467,16 @@
       "description": "Dramaturgie, Tropes und Schauplätze für klassische Anime-Romance-, Slice-of-Life- und Harem-Geschichten: Charakter-Dynamik, Eifersucht, Feste, Dates und Schlüsselmomente.",
       "entry_count": 12,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/modern_anime_academy_romance.json",
-      "revision": 1,
-      "updated": "2026-10-17",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Dramaturgy, tropes, and settings for classic anime romance, slice-of-life, and harem stories: character chemistry, jealousy sparks, festivals, dates, and key moments.",
           "name": "Heartbeats & Cherry Blossoms – Anime Romance & Harem Dynamics"
+        },
+        "ja": {
+          "description": "正統派アニメ・ライトノベル風ラブコメ、日常系（スライス・オブ・ライフ）、ハーレム作品のための作劇論、定番の属性、舞台設定。キャラ同士の化学反応、嫉妬の火花、季節のイベント、デート、胸キュンの決定的瞬間を網羅。",
+          "name": "胸の高鳴りと桜並木 – 学園ラブコメ＆ハーレムダイナミクス"
         },
         "ru": {
           "description": "Драматургия, тропы и локации для классической аниме-романтики, повседневности и гаремных историй: химия характеров, ревность, фестивали, свидания и ключевые моменты.",
@@ -406,12 +490,16 @@
       "description": "Charaktereigenschaften, Dynamik und Erkennungsmerkmale der fünf Nakano-Fünflinge sowie die Erinnerung an ihre Mutter Rena.",
       "entry_count": 5,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_nakano_sisters.json",
-      "revision": 1,
-      "updated": "2026-10-18",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Personalities, relationships, and distinct traits of the five Nakano quintuplets, along with the memory of their mother Rena.",
           "name": "The Quintessential Quintuplets – The Nakano Sisters"
+        },
+        "ja": {
+          "description": "中野家の五つ子（一花、二乃、三玖、四葉、五月）の個性、姉妹関係、身体的特徴、および亡き母・零奈の教えと記憶。",
+          "name": "五等分の花嫁 – 中野家の五つ子"
         },
         "ru": {
           "description": "Характеры, взаимоотношения и отличительные черты пятерняшек Накано, а также память об их матери Рэне.",
@@ -425,12 +513,16 @@
       "description": "Futaros Nachhilfemethoden, Schulstoff-Aufteilung, Fächerstärken und die Verhältnisse im Hause Uesugi.",
       "entry_count": 4,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_tutoring_study.json",
-      "revision": 1,
-      "updated": "2026-10-18",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Futaro's tutoring methods, subject specializations, academic struggles, and the Uesugi household dynamic.",
           "name": "The Quintessential Quintuplets – Tutoring & Uesugi Household"
+        },
+        "ja": {
+          "description": "風太郎による独自の家庭教師指導法、五つ子の得意科目分担、学力向上への苦闘、および貧乏ながら温かい上杉家の実態。",
+          "name": "五等分の花嫁 – 家庭教師と上杉家"
         },
         "ru": {
           "description": "Методы репетиторства Футаро, разделение предметов по сильным сторонам и жизнь семьи Уэсуги.",
@@ -444,12 +536,16 @@
       "description": "Schauplätze der Serie: Das Penthouse der Schwestern, die Schule, Bäckerei Revontulet und Festplätze.",
       "entry_count": 4,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_world_locations.json",
-      "revision": 1,
-      "updated": "2026-10-18",
+      "revision": 2,
+      "updated": "2026-10-20",
       "translations": {
         "en": {
           "description": "Iconic settings: The quintuplets' penthouse, Asahiyama High, bakery Revontulet, and festival grounds.",
           "name": "The Quintessential Quintuplets – Locations & Daily Life"
+        },
+        "ja": {
+          "description": "物語の主要な舞台：五つ子が暮らす高級タワーマンション、旭高校、アルバイト先のベーカリー「REVONTULET」、思い出の花火大会や宿泊先。",
+          "name": "五等分の花嫁 – 舞台と日常"
         },
         "ru": {
           "description": "Ключевые локации: пентхаус сестер, школа Асахияма, пекарня Ревонтулет и площадки фестивалей.",
