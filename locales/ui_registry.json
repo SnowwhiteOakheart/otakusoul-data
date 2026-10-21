@@ -3,6 +3,6 @@
     { "id": "de", "name": "Deutsch", "english_name": "German", "version": "1.0.0" },
     { "id": "en", "name": "English", "english_name": "English", "version": "1.0.0" },
     { "id": "ru", "name": "Русский", "english_name": "Russian", "version": "1.0.0" },
-    { "id": "ja", "name": "日本語", "english_name": "Japanese", "version": "1.0.0" }
+    { "id": "ja", "name": "日本語", "english_name": "Japanese", "version": "1.1.0" }
   ]
 }
