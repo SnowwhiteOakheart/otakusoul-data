@@ -411,3 +411,4 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Saeli: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
 - [x] Dr. Idris Vale: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
 - [x] Kian Rook: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
+- [x] IVO: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
