@@ -407,3 +407,4 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 ### Geprüfte Sternenbruch-Figuren
 
 - [x] Mara Venn: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
+- [x] Juno Serrat: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.

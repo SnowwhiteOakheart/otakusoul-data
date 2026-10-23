@@ -434,6 +434,13 @@
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/sternenbruch_mara_venn.png",
       "revision": 1,
       "updated": "2026-10-23"
+    },
+    {
+      "name": "Juno Serrat",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/sternenbruch_juno_serrat.png",
+      "revision": 1,
+      "updated": "2026-10-23"
     }
   ]
 }
