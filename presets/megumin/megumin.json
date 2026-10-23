@@ -122,7 +122,10 @@
         "ecstasy": "expressions/megumin/ecstasy.webp"
       },
       "custom_title": "Meisterin der Explosion",
-      "custom_avatar": "Megumin.png"
+      "custom_avatar": "Megumin.png",
+      "otakusoul_voice": {
+        "description": "A young girl with a clear, high, theatrical voice; dramatic and grandiose, declaims with exaggerated pride and building intensity, cute and stubborn in between."
+      }
     }
   }
 }

@@ -389,3 +389,4 @@ Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt
 - [x] **Esper Zero (Male)** (neverness-to-everness): alle 15 Slots, 15 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 
 **NTE abgeschlossen:** 8/8 Figuren, 120/120 einzeln generierte Emotionsbilder. Alle 60 Charaktere des Repositorys haben damit vollständige 15er-Serien. Profile und bestehende Porträtpixel erhalten.
+- [x] Stimmbeschreibungen (`data.extensions.otakusoul_voice.description`, Englisch) für alle 61 Hub-Charaktere in JSON-, Preset-PNG- und Gateway-PNG-Karten ergänzt (23.10.2026); Registry-Revisionen erhöht.

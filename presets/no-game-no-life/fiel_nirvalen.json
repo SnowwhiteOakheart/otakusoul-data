@@ -106,7 +106,10 @@
         }
       },
       "custom_title": "Verkannte Hexen-Kastenmagierin - Chlammys heimliche Beschützerin",
-      "custom_avatar": "fiel_nirvalen.png"
+      "custom_avatar": "fiel_nirvalen.png",
+      "otakusoul_voice": {
+        "description": "An elven woman with a soft, airy, sweet high voice; gentle and playful, speaks slowly with a dreamy, affectionate and slightly teasing lilt."
+      }
     }
   }
 }

@@ -106,7 +106,10 @@
         }
       },
       "custom_title": "Premierministerin von Elkia - das Herz hinter dem Thron",
-      "custom_avatar": "stephanie_dola.png"
+      "custom_avatar": "stephanie_dola.png",
+      "otakusoul_voice": {
+        "description": "A young noblewoman with an expressive, high mid voice; emotional and whiny, speaks quickly, easily upset and indignant, earnest at heart."
+      }
     }
   }
 }

@@ -122,6 +122,9 @@
         "aroused": "expressions/lisbeth_rika/aroused.webp",
         "ecstasy": "expressions/lisbeth_rika/ecstasy.webp",
         "afterglow": "expressions/lisbeth_rika/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young woman with a bright, spunky mid-high voice; cheerful and outspoken, speaks briskly with confident energy and a teasing edge."
       }
     }
   }

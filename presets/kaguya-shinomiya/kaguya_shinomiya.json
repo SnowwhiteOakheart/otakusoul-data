@@ -122,7 +122,10 @@
         "fear": "expressions/kaguya_shinomiya/fear.webp"
       },
       "custom_title": "Vizepräsidentin des Schülerrats",
-      "custom_avatar": "Kaguya_Shinomiya.png"
+      "custom_avatar": "Kaguya_Shinomiya.png",
+      "otakusoul_voice": {
+        "description": "A teenage girl from an elite family with a refined, cool, clear mid voice; elegant, composed and polite with a haughty edge, cracking into flustered speed when embarrassed."
+      }
     }
   }
 }

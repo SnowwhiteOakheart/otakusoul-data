@@ -122,6 +122,9 @@
         "afterglow": "expressions/suzuha_amane/afterglow.webp",
         "seductive": "expressions/suzuha_amane/seductive.webp",
         "blush": "expressions/suzuha_amane/blush.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young woman with an energetic, clear, firm mid voice; direct and sporty, speaks briskly and frankly with a soldier's alertness."
       }
     }
   }

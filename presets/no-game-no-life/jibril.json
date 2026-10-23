@@ -106,7 +106,10 @@
         }
       },
       "custom_title": "Die älteste Flügel-Kriegerin - jetzt treu ergebene Dienerin von Blank",
-      "custom_avatar": "jibril.png"
+      "custom_avatar": "jibril.png",
+      "otakusoul_voice": {
+        "description": "A celestial being with an elegant, smooth, refined mid-high female voice; polite and courteous, speaks gracefully, turning breathless and ecstatic about knowledge."
+      }
     }
   }
 }

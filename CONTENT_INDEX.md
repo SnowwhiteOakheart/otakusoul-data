@@ -67,6 +67,8 @@ Hier wird beschrieben, an welchen Stellen im OtakuSoul-Codebase (`OtakuSoul/src-
   * `src-tauri/src/commands/characters.rs`: Stellt Tauri-Befehle bereit (`load_characters`, `import_character`, `get_character`).
 * **Emotionserkennung & Expressions:**
   * `src-tauri/src/modules/emotions.rs` erkennt Emotionen und zusätzliche Porträtslots; `src/utils/characterPortraits.ts` wählt die in `extensions.expressions` hinterlegten Bilder aus (`PORTRAIT_MOODS`: sechs Grundstimmungen plus neun Zusatzslots, insgesamt 15). Overlord enthält alle 15; ältere Sechser-Sätze bleiben über den Stimmungs-Fallback kompatibel.
+* **Stimme:**
+  * `extensions.otakusoul_voice.description` (Englisch): `src/services/characterVoice.ts` füllt damit eine leere Stimmbeschreibung der Figur (Qwen3-TTS VoiceDesign, OpenAI-TTS); setzen mit `tools/set_card_voices.py`.
 * **Langzeitgedächtnis:**
   * `src-tauri/src/modules/memory/soul.rs`: Verwaltet Soul Memory, Fakten-Extraktion und Kontextgedächtnis der Figur.
 
@@ -131,6 +133,9 @@ python3 tools/validate_content.py --sync-registry
 
 # 3. Spezifische Validierung für die 16 Hauptkampagnen-Figuren:
 python3 tools/validate_aobane.py
+
+# 4. Stimmbeschreibungen setzen ({"<Kartenname>": "<Beschreibung>"}; --check schreibt nichts):
+python3 tools/set_card_voices.py stimmen.json --check
 ```
 
 ---

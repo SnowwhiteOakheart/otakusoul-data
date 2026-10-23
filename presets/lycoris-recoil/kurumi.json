@@ -118,6 +118,9 @@
         "crying": "expressions/kurumi/crying.webp",
         "seductive": "expressions/kurumi/seductive.webp",
         "aroused": "expressions/kurumi/aroused.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A genius hacker who sounds like a young girl, with a high, small but confident voice; smug and lazy, speaks casually and quickly with know-it-all sarcasm."
       }
     }
   }

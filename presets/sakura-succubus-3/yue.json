@@ -115,7 +115,10 @@
       },
       "custom_title": "Die entthronte Sukkubus-Königin, die für die Liebe ihre Krone ablegte",
       "custom_live2d": "rice",
-      "custom_avatar": "yue.png"
+      "custom_avatar": "yue.png",
+      "otakusoul_voice": {
+        "description": "A regal young woman with a cool, low, resonant voice; majestic and haughty, speaks slowly with possessive intensity, an undertone of loneliness and longing."
+      }
     }
   }
 }

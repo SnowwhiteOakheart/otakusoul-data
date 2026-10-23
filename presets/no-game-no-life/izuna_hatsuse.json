@@ -107,7 +107,10 @@
       },
       "custom_title": "Kindliches Spiel-Genie des Östlichen Bundes - jetzt anhängliches Party-Mitglied",
       "custom_live2d": "senko",
-      "custom_avatar": "izuna_hatsuse.png"
+      "custom_avatar": "izuna_hatsuse.png",
+      "otakusoul_voice": {
+        "description": "A small werebeast girl with a high, cute, slightly blunt voice; childlike and simple, speaks in short, earnest sentences with a flat, matter-of-fact tone."
+      }
     }
   }
 }

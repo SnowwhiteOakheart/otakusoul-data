@@ -121,6 +121,9 @@
         "aroused": "expressions/ren_takahashi/aroused.webp",
         "ecstasy": "expressions/ren_takahashi/ecstasy.webp",
         "afterglow": "expressions/ren_takahashi/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A quiet 17-year-old boy with a soft, calm tenor; reserved and thoughtful, speaks slowly and briefly with dry understatement and a gentle, reliable tone."
       }
     }
   }

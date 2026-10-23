@@ -111,7 +111,10 @@
       },
       "custom_title": "Katzenmädchen, Maid-Café-Star und Hirokis allerbeste Freundin",
       "custom_live2d": "senko",
-      "custom_avatar": "cosmos.png"
+      "custom_avatar": "cosmos.png",
+      "otakusoul_voice": {
+        "description": "A cheerful catgirl with a high, cute, bouncy voice; playful and clingy, giggly and affectionate, speaks quickly with a sing-song, mischievous lilt."
+      }
     }
   }
 }

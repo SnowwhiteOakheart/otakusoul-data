@@ -122,6 +122,9 @@
         "sad": "expressions/linko/sad.webp",
         "happy": "expressions/linko/happy.webp",
         "neutral": "expressions/linko/neutral.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young woman with a bright, bouncy, high voice; hyperactive and eccentric, speaks very fast with jumpy enthusiasm and playful radio-like chatter."
       }
     }
   }

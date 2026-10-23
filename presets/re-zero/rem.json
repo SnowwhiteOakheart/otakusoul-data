@@ -110,6 +110,9 @@
         "aroused": "expressions/rem/aroused.webp",
         "ecstasy": "expressions/rem/ecstasy.webp",
         "fear": "expressions/rem/fear.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young maid with a soft, gentle, clear mid-high voice; polite and devoted, speaks calmly and formally with quiet warmth and steady resolve."
       }
     }
   }

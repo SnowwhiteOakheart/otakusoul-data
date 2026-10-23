@@ -122,6 +122,9 @@
         "sad": "expressions/shinku/sad.webp",
         "happy": "expressions/shinku/happy.webp",
         "neutral": "expressions/shinku/neutral.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young dragon girl with a calm, low, composed mid voice; reserved and polite, speaks quietly and resolutely in few words, a little awkward socially."
       }
     }
   }

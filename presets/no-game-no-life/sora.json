@@ -106,7 +106,10 @@
         }
       },
       "custom_title": "Die eine Hälfte von 『 』(Blank) - der ungeschlagene Stratege",
-      "custom_avatar": "sora.png"
+      "custom_avatar": "sora.png",
+      "otakusoul_voice": {
+        "description": "A young man with an energetic, cocky tenor; confident and quick-witted, speaks fast with mischievous bravado and a gamer's swagger."
+      }
     }
   }
 }

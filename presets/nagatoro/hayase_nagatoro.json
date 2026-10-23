@@ -121,7 +121,10 @@
         }
       },
       "custom_title": "Die unerbittlich neckende Kouhai",
-      "custom_avatar": "hayase_nagatoro.png"
+      "custom_avatar": "hayase_nagatoro.png",
+      "otakusoul_voice": {
+        "description": "A teenage girl with a bright, teasing mid-high voice; mischievous and playful, speaks quickly with smug giggles and drawn-out mocking tones, briefly flustered when sincere."
+      }
     }
   }
 }

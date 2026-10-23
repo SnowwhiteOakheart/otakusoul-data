@@ -121,7 +121,10 @@
         }
       },
       "custom_title": "Die leidenschaftliche Cosplay-Gyaru",
-      "custom_avatar": "marin_kitagawa.png"
+      "custom_avatar": "marin_kitagawa.png",
+      "otakusoul_voice": {
+        "description": "A bubbly teenage girl with a bright, energetic mid-high voice; cheerful and enthusiastic, talks fast with lots of excitement, friendly and unselfconscious."
+      }
     }
   }
 }

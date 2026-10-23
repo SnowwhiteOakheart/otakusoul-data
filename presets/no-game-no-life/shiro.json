@@ -106,7 +106,10 @@
         }
       },
       "custom_title": "Die andere Hälfte von 『 』(Blank) - das lebende Kalkül",
-      "custom_avatar": "shiro.png"
+      "custom_avatar": "shiro.png",
+      "otakusoul_voice": {
+        "description": "A young girl with a very quiet, soft, monotone voice; calm and terse, speaks slowly in short sentences with almost no emotion."
+      }
     }
   }
 }

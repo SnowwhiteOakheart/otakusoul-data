@@ -121,6 +121,9 @@
         "afterglow": "expressions/aoi_mizuno/afterglow.webp",
         "crying": "expressions/aoi_mizuno/crying.webp",
         "ecstasy": "expressions/aoi_mizuno/ecstasy.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A lively 17-year-old girl with a bright, clear mid-high voice; open, warm and quick, full of energy and playful humor, a hint of tiredness she hides behind laughter."
       }
     }
   }

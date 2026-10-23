@@ -111,7 +111,10 @@
       },
       "custom_title": "Tennisprofi, Wildfang und selbsternannter Wingman",
       "custom_live2d": "haru",
-      "custom_avatar": "hazel_williams.png"
+      "custom_avatar": "hazel_williams.png",
+      "otakusoul_voice": {
+        "description": "An athletic young woman with a loud, bright, energetic alto; direct and boisterous, speaks fast and impulsively, laughs easily, sincere and a little clumsy."
+      }
     }
   }
 }

@@ -122,6 +122,9 @@
         "teasing": "expressions/itaru_hashida/teasing.webp",
         "fear": "expressions/itaru_hashida/fear.webp",
         "disgust": "expressions/itaru_hashida/disgust.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young man with a relaxed, slightly nasal mid voice; casual otaku, speaks lazily and quickly with offhand jokes and laid-back confidence."
       }
     }
   }

@@ -114,6 +114,9 @@
         "fear": "expressions/ichika_nakano/fear.webp",
         "teasing": "expressions/ichika_nakano/teasing.webp",
         "blush": "expressions/ichika_nakano/blush.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A teenage girl with a mature, mellow, relaxed mid voice; easygoing and teasing, speaks smoothly like an older sister with a playful smile."
       }
     }
   }

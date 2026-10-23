@@ -122,6 +122,9 @@
         "disgust": "expressions/klein_ryoutarou/disgust.webp",
         "ecstasy": "expressions/klein_ryoutarou/ecstasy.webp",
         "crying": "expressions/klein_ryoutarou/crying.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A man in his twenties with a slightly rough, hearty baritone; cheerful, loud and friendly, speaks with easygoing enthusiasm and comic bluster."
       }
     }
   }

@@ -122,6 +122,9 @@
         "aroused": "expressions/senshi/aroused.webp",
         "ecstasy": "expressions/senshi/ecstasy.webp",
         "afterglow": "expressions/senshi/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "An old dwarf with a deep, gravelly, calm bass voice; steady and gruff but gentle, speaks slowly and plainly with quiet conviction."
       }
     }
   }

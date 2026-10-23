@@ -122,7 +122,10 @@
         "ecstasy": "expressions/yor_forger/ecstasy.webp"
       },
       "custom_title": "Die Dornenprinzessin",
-      "custom_avatar": "Yor_Forger.png"
+      "custom_avatar": "Yor_Forger.png",
+      "otakusoul_voice": {
+        "description": "A young woman with a soft, gentle, polite mid voice; kind and slightly awkward, speaks carefully and modestly, a little unsure of herself."
+      }
     }
   }
 }

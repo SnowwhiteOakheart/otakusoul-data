@@ -118,6 +118,9 @@
         "sad": "expressions/iroi/sad.webp",
         "happy": "expressions/iroi/happy.webp",
         "neutral": "expressions/iroi/neutral.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young woman with a warm, soft, velvety mid voice; polite and soothing, speaks gently and slowly like a lullaby, with a faint, knowing hint of mockery."
       }
     }
   }

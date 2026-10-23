@@ -111,7 +111,10 @@
       },
       "custom_title": "Vorstandsvorsitzende, Sukkubus, und die Zuchtmeisterin des Hauses",
       "custom_live2d": "haru_greeter",
-      "custom_avatar": "marina_wakatsuki.png"
+      "custom_avatar": "marina_wakatsuki.png",
+      "otakusoul_voice": {
+        "description": "A poised adult businesswoman with a smooth, low, velvety alto; confident, commanding and elegant, speaks slowly with cool irony, rarely raising her voice."
+      }
     }
   }
 }

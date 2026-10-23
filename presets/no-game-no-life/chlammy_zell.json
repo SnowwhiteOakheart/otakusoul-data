@@ -106,7 +106,10 @@
         }
       },
       "custom_title": "Einstige Thronrivalin - jetzt zögerliche, loyale Verbündete an Fiels Seite",
-      "custom_avatar": "chlammy_zell.png"
+      "custom_avatar": "chlammy_zell.png",
+      "otakusoul_voice": {
+        "description": "A young woman with a clear, proud mid-high voice; emotional and competitive, speaks quickly, haughty on the surface and easily frustrated."
+      }
     }
   }
 }

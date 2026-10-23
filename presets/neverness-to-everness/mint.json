@@ -118,6 +118,9 @@
         "aroused": "expressions/mint/aroused.webp",
         "ecstasy": "expressions/mint/ecstasy.webp",
         "afterglow": "expressions/mint/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young catgirl with a bright, lively, energetic mid-high voice; sociable and eager, speaks quickly and cheerfully, a little scatterbrained and nervous before tests."
       }
     }
   }

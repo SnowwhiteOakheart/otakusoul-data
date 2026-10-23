@@ -118,6 +118,9 @@
         "sad": "expressions/zero_female/sad.webp",
         "happy": "expressions/zero_female/happy.webp",
         "neutral": "expressions/zero_female/neutral.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young woman with a friendly, clear, steady mid voice; curious and quick-witted, speaks naturally with calm confidence and a light, teasing humor."
       }
     }
   }

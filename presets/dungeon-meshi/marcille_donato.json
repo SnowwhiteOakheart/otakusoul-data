@@ -122,6 +122,9 @@
         "crying": "expressions/marcille_donato/crying.webp",
         "ecstasy": "expressions/marcille_donato/ecstasy.webp",
         "afterglow": "expressions/marcille_donato/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young elven mage with an expressive, high, clear voice; emotional and fussy, speaks quickly, easily panicked and shrill when upset, sweet when calm."
       }
     }
   }

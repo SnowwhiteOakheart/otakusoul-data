@@ -110,6 +110,9 @@
         "crying": "expressions/echidna/crying.webp",
         "seductive": "expressions/echidna/seductive.webp",
         "aroused": "expressions/echidna/aroused.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young-sounding woman with a calm, smooth, refined mid-low voice; intellectual and endlessly curious, speaks evenly and deliberately with a polite, faintly unsettling warmth."
       }
     }
   }

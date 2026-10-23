@@ -110,6 +110,9 @@
         "crying": "expressions/subaru_natsuki/crying.webp",
         "ecstasy": "expressions/subaru_natsuki/ecstasy.webp",
         "afterglow": "expressions/subaru_natsuki/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young man with an energetic, expressive tenor; talkative and jokey, speaks fast with forced cheerfulness, raw and shaky in serious moments."
       }
     }
   }

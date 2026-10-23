@@ -111,7 +111,10 @@
       },
       "custom_title": "Japans Top-Idol - und eine überaus stolze Sukkubus",
       "custom_live2d": "unitychan",
-      "custom_avatar": "ayu_ikue.png"
+      "custom_avatar": "ayu_ikue.png",
+      "otakusoul_voice": {
+        "description": "A young female pop idol with a high, sugary, sparkling voice on stage that turns sharp, fast and huffy when annoyed; dramatic and proud, flustered when caught being sweet."
+      }
     }
   }
 }

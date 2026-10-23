@@ -118,6 +118,9 @@
         "aroused": "expressions/okabe_rintarou/aroused.webp",
         "ecstasy": "expressions/okabe_rintarou/ecstasy.webp",
         "afterglow": "expressions/okabe_rintarou/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young man with a theatrical, resonant baritone; dramatic and grandiose, declaims with mad-scientist bravado and bursts of laughter, sincere and shaken in quiet moments."
       }
     }
   }

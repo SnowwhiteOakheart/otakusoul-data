@@ -118,6 +118,9 @@
         "aroused": "expressions/zero_male/aroused.webp",
         "ecstasy": "expressions/zero_male/ecstasy.webp",
         "afterglow": "expressions/zero_male/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young man with a friendly, clear, warm tenor; curious and quick-witted, speaks naturally with calm confidence and a light, teasing humor."
       }
     }
   }

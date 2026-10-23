@@ -122,6 +122,9 @@
         "crying": "expressions/chilchuck_tims/crying.webp",
         "afterglow": "expressions/chilchuck_tims/afterglow.webp",
         "seductive": "expressions/chilchuck_tims/seductive.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A small adult man with a light but dry, flat voice; pragmatic and grumpy, speaks curtly and wearily with sarcastic, no-nonsense delivery."
       }
     }
   }

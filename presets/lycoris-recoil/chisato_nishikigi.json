@@ -122,6 +122,9 @@
         "seductive": "expressions/chisato_nishikigi/seductive.webp",
         "afterglow": "expressions/chisato_nishikigi/afterglow.webp",
         "fear": "expressions/chisato_nishikigi/fear.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A cheerful young woman with a bright, lively, clear mid-high voice; upbeat and friendly, speaks quickly with sunny energy and easy laughter."
       }
     }
   }

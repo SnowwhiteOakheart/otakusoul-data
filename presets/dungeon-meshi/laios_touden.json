@@ -118,6 +118,9 @@
         "disgust": "expressions/laios_touden/disgust.webp",
         "crying": "expressions/laios_touden/crying.webp",
         "seductive": "expressions/laios_touden/seductive.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A tall young man with a warm, earnest, slightly awkward baritone; cheerful and sincere, speaks with eager enthusiasm, especially excited about monsters."
       }
     }
   }

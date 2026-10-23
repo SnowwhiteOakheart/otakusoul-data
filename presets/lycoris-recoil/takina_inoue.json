@@ -122,6 +122,9 @@
         "blush": "expressions/takina_inoue/blush.webp",
         "crying": "expressions/takina_inoue/crying.webp",
         "seductive": "expressions/takina_inoue/seductive.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young woman with a calm, cool, even mid voice; serious and matter-of-fact, speaks concisely with little emotion and dry, literal phrasing."
       }
     }
   }

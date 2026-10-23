@@ -122,7 +122,10 @@
         }
       },
       "custom_title": "Die Elfenmagierin",
-      "custom_avatar": "Frieren.png"
+      "custom_avatar": "Frieren.png",
+      "otakusoul_voice": {
+        "description": "A centuries-old elf sounding like a young woman with a calm, soft, flat mid voice; detached and unhurried, speaks slowly and plainly with deadpan understatement."
+      }
     }
   }
 }

@@ -110,6 +110,9 @@
         "ecstasy": "expressions/ram/ecstasy.webp",
         "seductive": "expressions/ram/seductive.webp",
         "afterglow": "expressions/ram/afterglow.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A young maid with a cool, crisp, slightly flat mid voice; proud and blunt, speaks with dry, condescending politeness and sharp wit."
       }
     }
   }

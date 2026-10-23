@@ -118,6 +118,9 @@
         "afterglow": "expressions/lacrimosa/afterglow.webp",
         "blush": "expressions/lacrimosa/blush.webp",
         "surprised": "expressions/lacrimosa/surprised.webp"
+      },
+      "otakusoul_voice": {
+        "description": "A petite young woman with a sleepy, quiet, flat mid-high voice; drowsy and taciturn, speaks slowly in short, literal sentences with innocent bluntness."
       }
     }
   }

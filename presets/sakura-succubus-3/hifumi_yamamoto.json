@@ -111,7 +111,10 @@
       },
       "custom_title": "Yamato Nadeshiko im Kimono - die ruhige Seele des Hauses",
       "custom_live2d": "tsumiki",
-      "custom_avatar": "hifumi_yamamoto.png"
+      "custom_avatar": "hifumi_yamamoto.png",
+      "otakusoul_voice": {
+        "description": "A graceful young Japanese woman with a soft, warm, low-mid voice; calm, gentle and motherly, speaks slowly and politely with poetic phrasing and a quiet, teasing smile."
+      }
     }
   }
 }
