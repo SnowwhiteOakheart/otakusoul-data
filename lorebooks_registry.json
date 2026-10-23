@@ -552,6 +552,63 @@
           "name": "The Quintessential Quintuplets – Места и школьные будни"
         }
       }
+    },
+    {
+      "name": "Sternenbruch – Welt & Technik",
+      "author": "SnowwhiteOakheart",
+      "description": "Sternenbruch, Navigation und Grenzen der Technik.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sternenbruch_world.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "description": "Starbreak, navigation and technological limits.",
+          "name": "Sternenbruch – World & technology"
+        },
+        "ru": {
+          "description": "Звёздный разлом, навигация и ограничения техники.",
+          "name": "Sternenbruch — Мир и технологии"
+        }
+      }
+    },
+    {
+      "name": "Sternenbruch – Kulturen & Fraktionen",
+      "author": "SnowwhiteOakheart",
+      "description": "Interessen, Handelsregeln und fremde Perspektiven.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sternenbruch_factions.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "description": "Interests, trade rules and unfamiliar perspectives.",
+          "name": "Sternenbruch – Cultures & factions"
+        },
+        "ru": {
+          "description": "Интересы, правила торговли и чужие взгляды.",
+          "name": "Sternenbruch — Культуры и фракции"
+        }
+      }
+    },
+    {
+      "name": "Sternenbruch – Crew & Orte",
+      "author": "SnowwhiteOakheart",
+      "description": "Bordleben, Beziehungen und Schauplätze ohne vorweggenommene Auflösung.",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sternenbruch_crew_locations.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "description": "Shipboard life, relationships and locations without premature revelations.",
+          "name": "Sternenbruch – Crew & places"
+        },
+        "ru": {
+          "description": "Быт, отношения и места без преждевременного раскрытия тайн.",
+          "name": "Sternenbruch — Экипаж и места"
+        }
+      }
     }
   ]
 }

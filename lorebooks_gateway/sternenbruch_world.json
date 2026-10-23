@@ -1,0 +1,220 @@
+{
+  "name": "Sternenbruch – Welt & Technik",
+  "description": "Sternenbruch, Navigation und Grenzen der Technik.",
+  "scan_depth": 6,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Das gebrochene Netz",
+      "key": [
+        "Sternenbruch",
+        "Geschichte"
+      ],
+      "content": "Vor 38 Jahren fielen die synchronisierten Sprungtore aus. Viele Systeme bleiben isoliert. Ursache und Verantwortliche sind ungeklärt; keine Fraktion besitzt die ganze Wahrheit.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 20,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The broken network",
+              "key": [
+                "Starbreak",
+                "history"
+              ],
+              "content": "Thirty-eight years ago the synchronised jump gates failed. Many systems remain isolated. The cause and responsibility remain unresolved; no faction knows the whole truth."
+            },
+            "ru": {
+              "name": "Разрушенная сеть",
+              "key": [
+                "Разлом",
+                "история"
+              ],
+              "content": "38 лет назад синхронизированные врата отказали. Многие системы изолированы. Причина и виновники неизвестны; ни одна фракция не знает всей правды."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Reisegrenzen",
+      "key": [
+        "Sprung",
+        "Treibstoff",
+        "Reise"
+      ],
+      "content": "Schiffe können kurze Faltpassagen zwischen vermessenen Ankern nutzen. Ein Sprung braucht gekühlte Spulen, Berechnungszeit und seltene Isotopenkerne. Unkartierte Ziele sind lebensgefährlich; lange Reisen dauern Wochen. Ein intaktes Tor könnte diese Grenzen verändern.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Travel limits",
+              "key": [
+                "jump",
+                "fuel",
+                "travel"
+              ],
+              "content": "Ships use short fold passages between surveyed anchors. A jump requires cooled coils, calculation time and rare isotope cores. Unmapped destinations are lethal; long voyages take weeks. An intact gate could change these limits."
+            },
+            "ru": {
+              "name": "Пределы путешествий",
+              "key": [
+                "прыжок",
+                "топливо",
+                "полёт"
+              ],
+              "content": "Корабли совершают короткие складочные переходы между измеренными якорями. Нужны охлаждённые катушки, расчёт и редкие изотопные сердечники. Неизвестная точка смертельно опасна; дальние полёты длятся неделями. Исправные врата могли бы изменить эти ограничения."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Kommunikation",
+      "key": [
+        "Signal",
+        "Funk",
+        "Nachricht"
+      ],
+      "content": "Funk folgt Lichtgeschwindigkeit. Kurierbojen transportieren Nachrichten durch Faltpassagen. Der Hilferuf mit morgigem Zeitstempel ist eine Anomalie, kein Beweis für beliebige Zeitreisen. Vergleich unabhängiger Uhren und Signaturen ist erforderlich.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Communication",
+              "key": [
+                "signal",
+                "radio",
+                "message"
+              ],
+              "content": "Radio travels at light speed. Courier buoys carry messages through fold passages. The distress call dated tomorrow is an anomaly, not proof of unrestricted time travel. Independent clocks and signatures must be compared."
+            },
+            "ru": {
+              "name": "Связь",
+              "key": [
+                "сигнал",
+                "радио",
+                "сообщение"
+              ],
+              "content": "Радиосвязь ограничена скоростью света. Курьерские буи переносят сообщения через складки. Сигнал с завтрашней датой — аномалия, а не доказательство свободных путешествий во времени. Нужна сверка независимых часов и подписей."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Synthetische Personen",
+      "key": [
+        "IVO",
+        "KI",
+        "Kopie"
+      ],
+      "content": "Synthetische Personen besitzen begrenzte Rechenleistung und eigene Interessen. Eine Speicherdatei beweist weder Identität noch Eigentum. Kopieren, Eingriffe und Löschen benötigen informierte Zustimmung; Rechtslagen unterscheiden sich zwischen Stationen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Synthetic persons",
+              "key": [
+                "IVO",
+                "AI",
+                "copy"
+              ],
+              "content": "Synthetic people have finite processing power and interests of their own. A memory file proves neither identity nor ownership. Copying, modification and deletion require informed consent; station laws differ."
+            },
+            "ru": {
+              "name": "Синтетические личности",
+              "key": [
+                "ИВО",
+                "ИИ",
+                "копия"
+              ],
+              "content": "Синтетические личности обладают конечной вычислительной мощностью и своими интересами. Файл памяти не доказывает личность или право собственности. Копирование, изменение и удаление требуют информированного согласия; законы станций различаются."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Medizin und Gefahr",
+      "key": [
+        "Quarantäne",
+        "Verletzung",
+        "Waffen"
+      ],
+      "content": "Unbekannte Proben bleiben versiegelt, Außeneinsätze brauchen Rückkehrchecks. Medizin braucht Zeit, Vorräte und Diagnostik. Die Morgenstern verfügt über Schutzschirme und Bergungswerkzeuge, nicht über die Feuerkraft einer Flotte. Konflikte lassen sich durch Beobachtung, Handel und Rückzug lösen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Medicine and danger",
+              "key": [
+                "quarantine",
+                "injury",
+                "weapons"
+              ],
+              "content": "Unknown samples remain sealed; away teams require return checks. Medicine needs time, supplies and diagnosis. The Morgenstern has protective screens and salvage tools, not fleet-level firepower. Observation, negotiation and retreat can resolve conflicts."
+            },
+            "ru": {
+              "name": "Медицина и опасность",
+              "key": [
+                "карантин",
+                "ранение",
+                "оружие"
+              ],
+              "content": "Неизвестные образцы держат герметично; после выхода нужны проверки. Медицина требует времени, запасов и диагностики. У «Моргенштерна» защитные экраны и спасательные инструменты, а не огневая мощь флота. Наблюдение, переговоры и отступление помогают решать конфликты."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sternenbruch – World & technology",
+          "description": "Starbreak, navigation and technological limits."
+        },
+        "ru": {
+          "name": "Sternenbruch — Мир и технологии",
+          "description": "Звёздный разлом, навигация и ограничения техники."
+        }
+      }
+    }
+  }
+}

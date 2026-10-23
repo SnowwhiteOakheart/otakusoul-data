@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 61 Charaktere · 52 Soul Stages (Szenen) · 24 Lorebooks · 21 Presets.
+> **Stand:** 67 Charaktere · 58 Soul Stages (Szenen) · 27 Lorebooks · 22 Presets.
 
 ---
 
@@ -19,6 +19,7 @@
 | `lycoris-recoil` | Lycoris Recoil | `Chisato Nishikigi`, `Takina Inoue`, `Kurumi`, `Mizuki Nakahara` | `lycoris_recoil_ep1_willkommen_im_cafe`<br>`lycoris_recoil_ep2_geleitschutz_tokio`<br>`lycoris_recoil_ep3_jagd_nach_walnut`<br>`lycoris_recoil_ep4_duell_im_morgengrauen` (4) | • *Café LycoReco* (`lycoris_recoil_cafe.json`)<br>• *DA & Alan Institute* (`lycoris_recoil_da.json`)<br>• *Ausrüstung & Taktik* (`lycoris_recoil_tactics.json`) |
 | `sword-art-online` | Sword Art Online | `Kirito (Kazuto Kirigaya)`, `Asuna Yuuki`, `Klein (Ryoutarou Tsuboi)`, `Lisbeth (Rika Shinozaki)` | `sao_ep1_die_verkuendung`<br>`sao_ep2_boss_ebene1`<br>`sao_ep3_waerme_des_herzens`<br>`sao_ep4_duell_in_den_schatten`<br>`sao_ep5_der_glaenzende_blick` (5) | • *Aincrad-Systemregeln* (`sao_system_rules.json`)<br>• *Gilden & Fraktionen* (`sao_guilds_factions.json`)<br>• *Aincrad-Geografie* (`sao_aincrad_geography.json`) |
 | `quintessential-quintuplets` | The Quintessential Quintuplets (5-toubun no Hanayome) | `Ichika Nakano`, `Nino Nakano`, `Miku Nakano`, `Yotsuba Nakano`, `Itsuki Nakano`, `Futaro Uesugi` (6) | `quintuplets_ep1_penthouse_nachhilfe`<br>`quintuplets_ep2_feuerwerk_gestaendnis`<br>`quintuplets_ep3_zwischenpruefung`<br>`quintuplets_ep4_schneefahrt_huette`<br>`quintuplets_ep5_schulfest_gestaendnisse` (5) | • *Die Nakano-Schwestern* (`quintuplets_nakano_sisters.json`)<br>• *Nachhilfe & Uesugi-Haushalt* (`quintuplets_tutoring_study.json`)<br>• *Orte & Schulalltag* (`quintuplets_world_locations.json`) |
+| `sternenbruch` | OtakuSoul Original · Science-Fiction | `Mara Venn`, `Juno Serrat`, `Saeli`, `Dr. Idris Vale`, `Kian Rook`, `IVO` (6 erwachsene Figuren; jeweils 15 SFW-Expressions und englische Stimmbeschreibung) | `sternenbruch_ep1_signal`<br>`sternenbruch_ep2_market`<br>`sternenbruch_ep3_nacre`<br>`sternenbruch_ep4_garden`<br>`sternenbruch_ep5_memory`<br>`sternenbruch_ep6_gate` (6; jeweils eigenständig spielbar, gemeinsames Mystery-Finale mit drei Enden) | • *Welt & Technik* (`sternenbruch_world.json`)<br>• *Kulturen & Fraktionen* (`sternenbruch_factions.json`)<br>• *Crew & Orte* (`sternenbruch_crew_locations.json`)<br>16 Einträge; 10 Hintergründe; DE/EN/RU |
 
 ---
 

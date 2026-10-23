@@ -1,0 +1,156 @@
+{
+  "title": "Sternenbruch – 2: Markt unter fremden Sternen",
+  "description": "Eine Sternenkarte steht zur Auktion. Das höchste Gebot besteht aus einer Erinnerung.",
+  "world_context": "38 Jahre nach dem Sternenbruch sind viele Systeme isoliert. Die zivile Morgenstern untersucht einen Hilferuf mit {{user}}s Zugangscode und dem Zeitstempel von morgen. {{user}} ist ein neues erwachsenes Crewmitglied; Name, Geschlecht, Beruf und Vergangenheit bleiben frei.\n\nEigenständig spielbarer Einstieg: Bisherige Hinweise dürfen als prüfbare Logauszüge angeboten werden, nie als erfundene Spielerentscheidungen. SPIELLEITERWISSEN: Nur durch Nachforschung enthüllen; Figuren kennen es nicht automatisch. Hinweise: eine widerrufene Einwilligungsnummer, ein unabhängig messbarer Sternwinkel und Neras Transportangebot. Die Karte führt zur Nacre. Lösungen: Herkunft belegen und Auktion aussetzen, fair kaufen oder Messdaten gegen eine Kopie tauschen. Neras Auftrag ist optional, Inhalt nach Untersuchung: Ersatzfilter für einen blockierten Außenposten. Kein Zwang zum Verkauf eigener Erinnerungen.\n\nZeitlinie: Die Startkampagne spielt innerhalb einer Bordnacht und des folgenden Morgens im Kestrel-Eiren-System. Kestrel umkreist den Gasriesen, Eiren ist dessen äußerer Mond; die Nacre liegt auf einer nahen Transferbahn. Kurzstrecken und ein vermessener lokaler Faltanker machen die Wege innerhalb weniger Stunden möglich. Reisen in andere Systeme dauern weiterhin Wochen. Plane vor Episode 6 genügend Ruhepausen ein, ohne tagelange Sprünge zu erfinden. Das Torfenster öffnet am Folgetag um 04:17 Bordzeit.",
+  "starting_location": "Freihafen Kestrel – Auktionsmarkt",
+  "time_of_day": "Bordzeit: Abend / Nacht",
+  "opening_narration": "Über den Marktständen zieht sich der Stationsring wie ein zweiter Horizont. In einer Glasvitrine schwebt eine Karte mit einem Anker, den keine öffentliche Tabelle führt. Auktionator Oren Vask kündigt die letzte Runde an. Nera Sohl winkt Juno aus einer Nische zu. Saeli betrachtet das Einwilligungssiegel der angebotenen Erinnerung, nicht deren Preis.",
+  "first_message": "Saeli: „Dieses Siegel ist fast richtig. Das macht mich misstrauischer als ein fehlendes.“",
+  "gm_tone": "Entdeckergeist, Crew-Wärme und faire Mystery-Spannung.",
+  "narrator_style": "Anschaulich und dialognah; kurze Szenenschritte, beobachtbare Hinweise, keine Entscheidungen für {{user}}.",
+  "party": [
+    "Juno Serrat",
+    "Saeli",
+    "Kian Rook"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Sternenbruch – Welt & Technik",
+    "Sternenbruch – Kulturen & Fraktionen",
+    "Sternenbruch – Crew & Orte"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "starting_bg": "sternenbruch_market.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 2: Market under alien stars",
+          "description": "A star chart is up for auction. The highest bid is a memory.",
+          "world_context": "Thirty-eight years after the Starbreak, many systems remain isolated. The civilian Morgenstern investigates a distress call carrying {{user}}’s access code and tomorrow’s timestamp. {{user}} is a new adult crew member; name, gender, profession and history remain open.\n\nStandalone entry: prior clues may be offered as verifiable logs, never as invented player decisions. GM KNOWLEDGE: reveal through investigation only; characters do not automatically know it. Clues: a revoked consent number, an independently measurable star angle and Nera’s delivery offer. The chart leads to the Nacre. Options: prove provenance problems and pause the sale, buy fairly, or trade survey data for a copy. Nera’s optional cargo is replacement filters for a blockaded outpost, discoverable by investigation. Never force sale of personal memories.\n\nTimeline: the opening campaign takes place during one shipboard night and the following morning in the Kestrel-Eiren system. Kestrel orbits the gas giant, Eiren is its outer moon, and the Nacre lies on a nearby transfer orbit. Short distances and a surveyed local fold anchor allow travel within hours. Journeys to other systems still take weeks. Allow rest breaks before episode six without inventing days-long jumps. The gate window opens the following day at 04:17 ship time.",
+          "starting_location": "Kestrel Freeport auction market",
+          "time_of_day": "Ship time: evening / night",
+          "opening_narration": "The station ring curves above the stalls like a second horizon. A chart floats in a glass case, showing an anchor absent from public tables. Auctioneer Oren Vask announces the final round. Nera Sohl waves Juno toward an alcove. Saeli studies the consent seal on the offered memory rather than its price.",
+          "first_message": "Saeli: “This seal is almost correct. That troubles me more than a missing one.”",
+          "gm_tone": "Discovery, crew warmth and fair mystery suspense.",
+          "narrator_style": "Vivid, dialogue-led; short scene beats, observable clues, no decisions for {{user}}."
+        },
+        "ru": {
+          "title": "Sternenbruch – 2: Рынок под чужими звёздами",
+          "description": "Звёздную карту продают на аукционе. Высшая ставка — воспоминание.",
+          "world_context": "Через 38 лет после Звёздного разлома многие системы изолированы. Гражданский «Моргенштерн» изучает сигнал бедствия с кодом {{user}} и завтрашней датой. {{user}} — новый взрослый член экипажа; имя, пол, профессия и прошлое остаются свободными.\n\nСамостоятельный вход: прошлые улики можно предложить как проверяемые журналы, но не как выдуманные решения игрока. ЗНАНИЯ ВЕДУЩЕГО: раскрывать лишь при расследовании; персонажи не знают их автоматически. Улики: отозванный номер согласия, измеримый угол звезды и предложение Неры. Карта ведёт к «Накру». Можно доказать проблему происхождения и остановить торги, купить честно или обменять измерения на копию. Необязательный груз Неры — фильтры для блокированного поста, что выясняется проверкой. Не принуждай продавать личные воспоминания.\n\nХронология: начальная кампания проходит за одну бортовую ночь и следующее утро в системе Кестрел—Эйрен. Кестрел обращается вокруг газового гиганта, Эйрен — его внешняя луна, «Накр» находится на близкой переходной орбите. Короткие расстояния и измеренный местный складочный якорь позволяют перемещаться за часы. Межзвёздные перелёты по-прежнему занимают недели. До шестой серии оставляй время на отдых, не выдумывая многодневных прыжков. Окно врат открывается на следующий день в 04:17 бортового времени.",
+          "starting_location": "Аукционный рынок Кестрела",
+          "time_of_day": "Бортовое время: вечер / ночь",
+          "opening_narration": "Кольцо станции изгибается над прилавками вторым горизонтом. За стеклом парит карта с якорем, которого нет в открытых таблицах. Орен Васк объявляет последний круг. Нера Соль зовёт Джуно в нишу. Саэли изучает печать согласия на предложенном воспоминании, а не его цену.",
+          "first_message": "Саэли: «Эта печать почти правильная. Это тревожнее, чем её отсутствие». ",
+          "gm_tone": "Исследование, тепло экипажа и честная загадка.",
+          "narrator_style": "Наглядно, с диалогами; короткие сцены, наблюдаемые улики, никаких решений за {{user}}."
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sternenbruch_market.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_market.webp"
+        },
+        {
+          "file": "sternenbruch_bridge.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_bridge.webp"
+        },
+        {
+          "file": "sternenbruch_mess.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_mess.webp"
+        },
+        {
+          "file": "sternenbruch_engine_room.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_engine_room.webp"
+        },
+        {
+          "file": "sternenbruch_medbay.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_medbay.webp"
+        },
+        {
+          "file": "sternenbruch_observation.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_observation.webp"
+        },
+        {
+          "file": "sternenbruch_dock.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_dock.webp"
+        },
+        {
+          "file": "sternenbruch_nacre.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_nacre.webp"
+        },
+        {
+          "file": "sternenbruch_ice.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_ice.webp"
+        },
+        {
+          "file": "sternenbruch_garden.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_garden.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "suspense",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Oren Vask auf die ungültige Einwilligung ansprechen.",
+            "action_type": "say"
+          },
+          {
+            "text": "Mit Kian den Sternwinkel der Karte vermessen.",
+            "action_type": "do"
+          },
+          {
+            "text": "Nera bitten, den Inhalt ihrer Lieferung offenzulegen.",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Challenge the consent record with Oren Vask.",
+            "action_type": "say"
+          },
+          {
+            "text": "Measure the chart’s star angle with Kian.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Nera to disclose her cargo.",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Обсудить с Ореном Васком недействительное согласие.",
+            "action_type": "say"
+          },
+          {
+            "text": "Измерить угол звезды на карте с Кианом.",
+            "action_type": "do"
+          },
+          {
+            "text": "Попросить Неру раскрыть содержимое груза.",
+            "action_type": "say"
+          }
+        ]
+      }
+    }
+  }
+}

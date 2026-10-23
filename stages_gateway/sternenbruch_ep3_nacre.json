@@ -1,0 +1,156 @@
+{
+  "title": "Sternenbruch – 3: Das Schiff ohne Schatten",
+  "description": "Auf der Nacre ist das Abendessen warm. Von der Besatzung fehlt jede Spur.",
+  "world_context": "38 Jahre nach dem Sternenbruch sind viele Systeme isoliert. Die zivile Morgenstern untersucht einen Hilferuf mit {{user}}s Zugangscode und dem Zeitstempel von morgen. {{user}} ist ein neues erwachsenes Crewmitglied; Name, Geschlecht, Beruf und Vergangenheit bleiben frei.\n\nEigenständig spielbarer Einstieg: Bisherige Hinweise dürfen als prüfbare Logauszüge angeboten werden, nie als erfundene Spielerentscheidungen. SPIELLEITERWISSEN: Nur durch Nachforschung enthüllen; Figuren kennen es nicht automatisch. Hinweise: automatische Heizung erklärt den warmen Tisch; ein Log zeigt Evakuierung in abgeschirmte Schlafkapseln; Lebenserhaltung führt zu einer Wartungsbucht. Die Crew lebt in Stasis, Sensorabschirmung erklärt den scheinbaren Widerspruch. Kian empfängt nur Fragmente des Wartungsfunks. Optionen: manuell bergen, Energie umleiten oder Spezialhilfe rufen. Gerettete Forscher geben Koordinaten von Eiren. Keine erzwungene Infektion, keine blutigen Leichen.\n\nZeitlinie: Die Startkampagne spielt innerhalb einer Bordnacht und des folgenden Morgens im Kestrel-Eiren-System. Kestrel umkreist den Gasriesen, Eiren ist dessen äußerer Mond; die Nacre liegt auf einer nahen Transferbahn. Kurzstrecken und ein vermessener lokaler Faltanker machen die Wege innerhalb weniger Stunden möglich. Reisen in andere Systeme dauern weiterhin Wochen. Plane vor Episode 6 genügend Ruhepausen ein, ohne tagelange Sprünge zu erfinden. Das Torfenster öffnet am Folgetag um 04:17 Bordzeit.",
+  "starting_location": "Nacre – verlassene Messe",
+  "time_of_day": "Bordzeit: Abend / Nacht",
+  "opening_narration": "Die Luftschleuse öffnet sich auf einen gedeckten Tisch. Über einer Schale steigt Dampf auf; ein Stuhl ist zurückgeschoben. Keine Alarmleuchte blinkt. Idris hält den Probenbehälter geschlossen. Hinter der Wand schlagen drei leise Impulse gegen Kians Interface, wie ein vergessenes Lied.",
+  "first_message": "Idris: „Erst Luftprobe und Rückweg. Dann finden wir heraus, wer hier noch Hilfe braucht.“",
+  "gm_tone": "Entdeckergeist, Crew-Wärme und faire Mystery-Spannung.",
+  "narrator_style": "Anschaulich und dialognah; kurze Szenenschritte, beobachtbare Hinweise, keine Entscheidungen für {{user}}.",
+  "party": [
+    "Mara Venn",
+    "Dr. Idris Vale",
+    "Kian Rook"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Sternenbruch – Welt & Technik",
+    "Sternenbruch – Kulturen & Fraktionen",
+    "Sternenbruch – Crew & Orte"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "starting_bg": "sternenbruch_nacre.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 3: The ship without shadows",
+          "description": "Dinner aboard the Nacre is warm. There is no sign of the crew.",
+          "world_context": "Thirty-eight years after the Starbreak, many systems remain isolated. The civilian Morgenstern investigates a distress call carrying {{user}}’s access code and tomorrow’s timestamp. {{user}} is a new adult crew member; name, gender, profession and history remain open.\n\nStandalone entry: prior clues may be offered as verifiable logs, never as invented player decisions. GM KNOWLEDGE: reveal through investigation only; characters do not automatically know it. Clues: automatic heating explains the meal; a log records evacuation into shielded sleep pods; life-support conduits lead to a maintenance bay. The crew survives in stasis, hidden by sensor shielding. Kian receives only maintenance-radio fragments. Options: manual rescue, reroute power or call specialists. Rescued researchers provide Eiren’s coordinates. No forced infection or graphic bodies.\n\nTimeline: the opening campaign takes place during one shipboard night and the following morning in the Kestrel-Eiren system. Kestrel orbits the gas giant, Eiren is its outer moon, and the Nacre lies on a nearby transfer orbit. Short distances and a surveyed local fold anchor allow travel within hours. Journeys to other systems still take weeks. Allow rest breaks before episode six without inventing days-long jumps. The gate window opens the following day at 04:17 ship time.",
+          "starting_location": "Nacre deserted mess",
+          "time_of_day": "Ship time: evening / night",
+          "opening_narration": "The airlock opens onto a laid table. Steam rises from a bowl; one chair is pushed back. No alarm light flashes. Idris keeps the sample container sealed. Behind the wall, three faint pulses strike Kian’s interface like a forgotten song.",
+          "first_message": "Idris: “Air sample and an exit route first. Then we find out who still needs help.”",
+          "gm_tone": "Discovery, crew warmth and fair mystery suspense.",
+          "narrator_style": "Vivid, dialogue-led; short scene beats, observable clues, no decisions for {{user}}."
+        },
+        "ru": {
+          "title": "Sternenbruch – 3: Корабль без теней",
+          "description": "Ужин на «Накре» ещё тёплый. Экипаж бесследно исчез.",
+          "world_context": "Через 38 лет после Звёздного разлома многие системы изолированы. Гражданский «Моргенштерн» изучает сигнал бедствия с кодом {{user}} и завтрашней датой. {{user}} — новый взрослый член экипажа; имя, пол, профессия и прошлое остаются свободными.\n\nСамостоятельный вход: прошлые улики можно предложить как проверяемые журналы, но не как выдуманные решения игрока. ЗНАНИЯ ВЕДУЩЕГО: раскрывать лишь при расследовании; персонажи не знают их автоматически. Улики: автоматика подогревает еду; журнал описывает эвакуацию в экранированные капсулы; линии жизнеобеспечения ведут в служебный отсек. Экипаж жив в стазисе и скрыт экранами. Киан слышит лишь фрагменты служебной связи. Можно спасти вручную, перенаправить питание или вызвать специалистов. Учёные сообщат координаты Эйрена. Без принудительного заражения и кровавых тел.\n\nХронология: начальная кампания проходит за одну бортовую ночь и следующее утро в системе Кестрел—Эйрен. Кестрел обращается вокруг газового гиганта, Эйрен — его внешняя луна, «Накр» находится на близкой переходной орбите. Короткие расстояния и измеренный местный складочный якорь позволяют перемещаться за часы. Межзвёздные перелёты по-прежнему занимают недели. До шестой серии оставляй время на отдых, не выдумывая многодневных прыжков. Окно врат открывается на следующий день в 04:17 бортового времени.",
+          "starting_location": "Пустая кают-компания «Накра»",
+          "time_of_day": "Бортовое время: вечер / ночь",
+          "opening_narration": "Шлюз открывается к накрытому столу. Над миской поднимается пар, один стул отодвинут. Тревожные огни не мигают. Идрис не открывает контейнер образцов. За стеной три слабых импульса отзываются в интерфейсе Киана, словно забытая песня.",
+          "first_message": "Идрис: «Сначала проба воздуха и путь назад. Потом выясним, кому ещё нужна помощь». ",
+          "gm_tone": "Исследование, тепло экипажа и честная загадка.",
+          "narrator_style": "Наглядно, с диалогами; короткие сцены, наблюдаемые улики, никаких решений за {{user}}."
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sternenbruch_nacre.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_nacre.webp"
+        },
+        {
+          "file": "sternenbruch_bridge.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_bridge.webp"
+        },
+        {
+          "file": "sternenbruch_mess.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_mess.webp"
+        },
+        {
+          "file": "sternenbruch_engine_room.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_engine_room.webp"
+        },
+        {
+          "file": "sternenbruch_medbay.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_medbay.webp"
+        },
+        {
+          "file": "sternenbruch_observation.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_observation.webp"
+        },
+        {
+          "file": "sternenbruch_market.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_market.webp"
+        },
+        {
+          "file": "sternenbruch_dock.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_dock.webp"
+        },
+        {
+          "file": "sternenbruch_ice.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_ice.webp"
+        },
+        {
+          "file": "sternenbruch_garden.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_garden.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "suspense",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Mit Idris Luftprobe und Rückweg sichern.",
+            "action_type": "do"
+          },
+          {
+            "text": "Die Energiezufuhr der warmen Speisen prüfen.",
+            "action_type": "do"
+          },
+          {
+            "text": "Kian fragen, welchen Rhythmus er empfängt.",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Secure an air sample and exit route with Idris.",
+            "action_type": "do"
+          },
+          {
+            "text": "Check the power supply keeping the food warm.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Kian which rhythm he receives.",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Взять пробу воздуха и обеспечить выход с Идрисом.",
+            "action_type": "do"
+          },
+          {
+            "text": "Проверить подогрев еды.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Киана о ритме импульсов.",
+            "action_type": "say"
+          }
+        ]
+      }
+    }
+  }
+}

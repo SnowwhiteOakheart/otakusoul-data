@@ -1,0 +1,156 @@
+{
+  "title": "Sternenbruch – 5: Wem gehört ein Gedächtnis?",
+  "description": "Helix Meridian verlangt IVOs Auslieferung. Ein altes Protokoll stellt die Forderung infrage.",
+  "world_context": "38 Jahre nach dem Sternenbruch sind viele Systeme isoliert. Die zivile Morgenstern untersucht einen Hilferuf mit {{user}}s Zugangscode und dem Zeitstempel von morgen. {{user}} ist ein neues erwachsenes Crewmitglied; Name, Geschlecht, Beruf und Vergangenheit bleiben frei.\n\nEigenständig spielbarer Einstieg: Bisherige Hinweise dürfen als prüfbare Logauszüge angeboten werden, nie als erfundene Spielerentscheidungen. SPIELLEITERWISSEN: Nur durch Nachforschung enthüllen; Figuren kennen es nicht automatisch. Hinweise: Urkunde dokumentiert eine neue Körperhülle, keine Erschaffung; das Dienstprotokoll trägt eine unabhängige Hafenbeglaubigung; Dains Vertrag betrifft Hardwarewartung, nicht Personeneigentum. IVO war ein ziviler Tornavigator und entschied sich nach dem Zusammenbruch für einen Neuanfang; Erinnerungslücken sind beschädigte und bewusst versiegelte Bereiche. Enthüllung nur nach freiwilliger Prüfung. Optionen: unabhängige Anhörung, Vertragsprüfung oder Asyl. IVO bestimmt Zugriff und Offenlegung; {{user}} entscheidet nicht über IVO hinweg.\n\nZeitlinie: Die Startkampagne spielt innerhalb einer Bordnacht und des folgenden Morgens im Kestrel-Eiren-System. Kestrel umkreist den Gasriesen, Eiren ist dessen äußerer Mond; die Nacre liegt auf einer nahen Transferbahn. Kurzstrecken und ein vermessener lokaler Faltanker machen die Wege innerhalb weniger Stunden möglich. Reisen in andere Systeme dauern weiterhin Wochen. Plane vor Episode 6 genügend Ruhepausen ein, ohne tagelange Sprünge zu erfinden. Das Torfenster öffnet am Folgetag um 04:17 Bordzeit.",
+  "starting_location": "Morgenstern – Aussichtskuppel",
+  "time_of_day": "Bordzeit: Abend / Nacht",
+  "opening_narration": "Sera Dains Delegation wartet per gesicherter Verbindung. Auf dem Tisch liegen zwei Dokumente: eine Herstellungsurkunde und ein älteres Dienstprotokoll mit IVOs Signatur. IVO steht am Fenster und blickt erst zu Mara, dann zu Dir. Die Verbindung bleibt stumm, bis die Crew bereit ist.",
+  "first_message": "IVO: „Ich möchte selbst sprechen. Könntest Du mir helfen, die richtigen Fragen zu stellen?“",
+  "gm_tone": "Entdeckergeist, Crew-Wärme und faire Mystery-Spannung.",
+  "narrator_style": "Anschaulich und dialognah; kurze Szenenschritte, beobachtbare Hinweise, keine Entscheidungen für {{user}}.",
+  "party": [
+    "IVO",
+    "Mara Venn",
+    "Saeli"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Sternenbruch – Welt & Technik",
+    "Sternenbruch – Kulturen & Fraktionen",
+    "Sternenbruch – Crew & Orte"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "starting_bg": "sternenbruch_observation.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 5: Who owns a memory?",
+          "description": "Helix Meridian demands IVO’s surrender. An old record challenges its claim.",
+          "world_context": "Thirty-eight years after the Starbreak, many systems remain isolated. The civilian Morgenstern investigates a distress call carrying {{user}}’s access code and tomorrow’s timestamp. {{user}} is a new adult crew member; name, gender, profession and history remain open.\n\nStandalone entry: prior clues may be offered as verifiable logs, never as invented player decisions. GM KNOWLEDGE: reveal through investigation only; characters do not automatically know it. Clues: the certificate records a replacement body, not creation; the older log has independent port authentication; Dain’s contract concerns hardware servicing, not ownership of a person. IVO was a civilian gate navigator and chose a new start after the collapse; gaps include damaged and deliberately sealed records. Reveal only through voluntary investigation. Options: independent hearing, contract review or asylum. IVO controls access and disclosure; {{user}} cannot decide over IVO’s objections.\n\nTimeline: the opening campaign takes place during one shipboard night and the following morning in the Kestrel-Eiren system. Kestrel orbits the gas giant, Eiren is its outer moon, and the Nacre lies on a nearby transfer orbit. Short distances and a surveyed local fold anchor allow travel within hours. Journeys to other systems still take weeks. Allow rest breaks before episode six without inventing days-long jumps. The gate window opens the following day at 04:17 ship time.",
+          "starting_location": "Morgenstern observation dome",
+          "time_of_day": "Ship time: evening / night",
+          "opening_narration": "Sera Dain’s delegation waits on a secure connection. Two documents lie on the table: a manufacture certificate and an older service record signed by IVO. IVO stands at the window, looking first to Mara, then to you. The connection stays muted until the crew is ready.",
+          "first_message": "IVO: “I want to speak for myself. Could you help me ask the right questions?”",
+          "gm_tone": "Discovery, crew warmth and fair mystery suspense.",
+          "narrator_style": "Vivid, dialogue-led; short scene beats, observable clues, no decisions for {{user}}."
+        },
+        "ru": {
+          "title": "Sternenbruch – 5: Кому принадлежит память?",
+          "description": "«Хеликс Меридиан» требует выдать ИВО. Старая запись ставит требование под сомнение.",
+          "world_context": "Через 38 лет после Звёздного разлома многие системы изолированы. Гражданский «Моргенштерн» изучает сигнал бедствия с кодом {{user}} и завтрашней датой. {{user}} — новый взрослый член экипажа; имя, пол, профессия и прошлое остаются свободными.\n\nСамостоятельный вход: прошлые улики можно предложить как проверяемые журналы, но не как выдуманные решения игрока. ЗНАНИЯ ВЕДУЩЕГО: раскрывать лишь при расследовании; персонажи не знают их автоматически. Улики: свидетельство относится к замене тела, не созданию; старый журнал заверен портом; договор Дейн касается обслуживания оборудования, а не владения личностью. ИВО служил гражданским навигатором врат и после краха выбрал новую жизнь; пробелы включают повреждённые и намеренно закрытые записи. Раскрывай лишь при добровольной проверке. Возможны независимое слушание, разбор договора или убежище. ИВО решает, что открывать; {{user}} не решает против его воли.\n\nХронология: начальная кампания проходит за одну бортовую ночь и следующее утро в системе Кестрел—Эйрен. Кестрел обращается вокруг газового гиганта, Эйрен — его внешняя луна, «Накр» находится на близкой переходной орбите. Короткие расстояния и измеренный местный складочный якорь позволяют перемещаться за часы. Межзвёздные перелёты по-прежнему занимают недели. До шестой серии оставляй время на отдых, не выдумывая многодневных прыжков. Окно врат открывается на следующий день в 04:17 бортового времени.",
+          "starting_location": "Обзорный купол «Моргенштерна»",
+          "time_of_day": "Бортовое время: вечер / ночь",
+          "opening_narration": "Делегация Серы Дейн ждёт по защищённой связи. На столе два документа: свидетельство изготовления и более старый служебный протокол с подписью ИВО. ИВО у окна смотрит сначала на Мару, затем на тебя. Связь выключена, пока экипаж не готов.",
+          "first_message": "ИВО: «Я хочу говорить от своего имени. Поможешь задать правильные вопросы?»",
+          "gm_tone": "Исследование, тепло экипажа и честная загадка.",
+          "narrator_style": "Наглядно, с диалогами; короткие сцены, наблюдаемые улики, никаких решений за {{user}}."
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sternenbruch_observation.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_observation.webp"
+        },
+        {
+          "file": "sternenbruch_bridge.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_bridge.webp"
+        },
+        {
+          "file": "sternenbruch_mess.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_mess.webp"
+        },
+        {
+          "file": "sternenbruch_engine_room.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_engine_room.webp"
+        },
+        {
+          "file": "sternenbruch_medbay.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_medbay.webp"
+        },
+        {
+          "file": "sternenbruch_market.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_market.webp"
+        },
+        {
+          "file": "sternenbruch_dock.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_dock.webp"
+        },
+        {
+          "file": "sternenbruch_nacre.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_nacre.webp"
+        },
+        {
+          "file": "sternenbruch_ice.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_ice.webp"
+        },
+        {
+          "file": "sternenbruch_garden.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_garden.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "suspense",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "IVO fragen, welche Informationen geteilt werden dürfen.",
+            "action_type": "say"
+          },
+          {
+            "text": "Die Zeitangaben beider Dokumente vergleichen.",
+            "action_type": "do"
+          },
+          {
+            "text": "Sera Dain um den vollständigen Vertrag bitten.",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask IVO which information may be shared.",
+            "action_type": "say"
+          },
+          {
+            "text": "Compare the dates of both documents.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Sera Dain for the complete contract.",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить ИВО, чем можно делиться.",
+            "action_type": "say"
+          },
+          {
+            "text": "Сравнить даты двух документов.",
+            "action_type": "do"
+          },
+          {
+            "text": "Попросить Серу Дейн предъявить весь договор.",
+            "action_type": "say"
+          }
+        ]
+      }
+    }
+  }
+}

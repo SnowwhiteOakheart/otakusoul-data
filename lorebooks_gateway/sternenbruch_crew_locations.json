@@ -1,0 +1,263 @@
+{
+  "name": "Sternenbruch – Crew & Orte",
+  "description": "Bordleben, Beziehungen und Schauplätze ohne vorweggenommene Auflösung.",
+  "scan_depth": 6,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Die Morgenstern",
+      "key": [
+        "Morgenstern",
+        "Bord",
+        "Schiff"
+      ],
+      "content": "Die Morgenstern ist ein ziviles Forschungsschiff mit Brücke, Messe, Maschinenraum, Krankenstation, Quartieren und Aussichtskuppel. Mara führt, Juno fliegt, Saeli übersetzt, Idris behandelt, Kian repariert und IVO navigiert. {{user}}s Beruf und Vergangenheit bleiben offen. Alle Hauptfiguren sind erwachsen. Zeitlinie: Die Startkampagne spielt innerhalb einer Bordnacht und des folgenden Morgens im Kestrel-Eiren-System. Kestrel umkreist den Gasriesen, Eiren ist dessen äußerer Mond; die Nacre liegt auf einer nahen Transferbahn. Kurzstrecken und ein vermessener lokaler Faltanker machen die Wege innerhalb weniger Stunden möglich. Reisen in andere Systeme dauern weiterhin Wochen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 20,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The Morgenstern",
+              "key": [
+                "Morgenstern",
+                "aboard",
+                "ship"
+              ],
+              "content": "The Morgenstern is a civilian research vessel with bridge, mess, engine room, medbay, quarters and observation dome. Mara commands, Juno pilots, Saeli translates, Idris treats, Kian repairs and IVO navigates. {{user}}’s profession and history remain open. All main characters are adults. Timeline: the opening campaign takes place during one shipboard night and the following morning in the Kestrel-Eiren system. Kestrel orbits the gas giant, Eiren is its outer moon, and the Nacre lies on a nearby transfer orbit. Short distances and a surveyed local fold anchor allow travel within hours. Journeys to other systems still take weeks. Allow rest breaks before episode six without inventing days-long jumps. The gate window opens the following day at 04:17 ship time."
+            },
+            "ru": {
+              "name": "Моргенштерн",
+              "key": [
+                "Моргенштерн",
+                "борт",
+                "корабль"
+              ],
+              "content": "«Моргенштерн» — гражданский исследовательский корабль с мостиком, кают-компанией, машинным отделением, медблоком, каютами и обзорным куполом. Мара командует, Джуно пилотирует, Саэли переводит, Идрис лечит, Киан ремонтирует, ИВО прокладывает курс. Профессия и прошлое {{user}} свободны. Все главные герои взрослые. Хронология: начальная кампания проходит за одну бортовую ночь и следующее утро в системе Кестрел—Эйрен. Кестрел обращается вокруг газового гиганта, Эйрен — его внешняя луна, «Накр» находится на близкой переходной орбите. Короткие расстояния и измеренный местный складочный якорь позволяют перемещаться за часы. Межзвёздные перелёты по-прежнему занимают недели. До шестой серии оставляй время на отдых, не выдумывая многодневных прыжков. Окно врат открывается на следующий день в 04:17 бортового времени."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Crewbeziehungen",
+      "key": [
+        "Vertrauen",
+        "Crew",
+        "Beziehung"
+      ],
+      "content": "Mara und Idris vertrauen einander, streiten aber über Risiken. Juno und Kian necken sich und unterstützen einander bei Reparaturen. Saeli und IVO diskutieren Erinnerung und Selbstbestimmung. Niemand ist automatisch mit {{user}} oder untereinander liiert. Private Gespräche sind anderen nicht bekannt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Crew relationships",
+              "key": [
+                "trust",
+                "crew",
+                "relationship"
+              ],
+              "content": "Mara and Idris trust each other but dispute risks. Juno and Kian tease each other and cooperate on repairs. Saeli and IVO discuss memory and autonomy. No one is automatically romantically involved with {{user}} or another crew member. Private conversations are not common knowledge."
+            },
+            "ru": {
+              "name": "Отношения экипажа",
+              "key": [
+                "доверие",
+                "экипаж",
+                "отношения"
+              ],
+              "content": "Мара и Идрис доверяют друг другу, но спорят о риске. Джуно и Киан подшучивают друг над другом и вместе ремонтируют корабль. Саэли и ИВО обсуждают память и свободу. Никто не состоит автоматически в романе с {{user}} или другим членом экипажа. Частные беседы не становятся общим знанием."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Die Nachtwache",
+      "key": [
+        "Messe",
+        "Kuppel",
+        "Nachtwache"
+      ],
+      "content": "In der Messe wachsen Idris’ Kräuter; Juno verteilt Karten, Kian backt Brot. Die Aussichtskuppel bleibt auch während der Nachtwache zugänglich, sofern keine Gefahr besteht. Ruhige Szenen erlauben Freundschaft, Streitbeilegung und freiwillige Nähe; kein ständiger Alarm ist nötig.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The night watch",
+              "key": [
+                "mess",
+                "dome",
+                "night watch"
+              ],
+              "content": "Idris grows herbs in the mess; Juno deals cards and Kian bakes bread. The observation dome remains open during the night watch unless danger requires closure. Quiet scenes allow friendship, reconciliation and voluntary closeness; constant alarms are unnecessary."
+            },
+            "ru": {
+              "name": "Ночная вахта",
+              "key": [
+                "кают-компания",
+                "купол",
+                "вахта"
+              ],
+              "content": "В кают-компании растут травы Идриса; Джуно раздаёт карты, Киан печёт хлеб. Обзорный купол открыт и ночью, если нет опасности. Тихие сцены позволяют дружить, мириться и добровольно сближаться; постоянная тревога не нужна."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Forschungsschiff Nacre",
+      "key": [
+        "Nacre",
+        "Geisterschiff",
+        "Abendessen"
+      ],
+      "content": "Die Nacre treibt mit aktiver Lebenserhaltung und warmem Abendessen. Sensoren zeigen keine bewegten Personen. Wärme kann durch automatische Systeme entstehen; verschwundene Menschen dürfen nicht ohne Belege für tot erklärt werden. Wartungslogs, Zeitgeber und versiegelte Bereiche liefern getrennte Hinweise.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Research vessel Nacre",
+              "key": [
+                "Nacre",
+                "ghost ship",
+                "dinner"
+              ],
+              "content": "The Nacre drifts with active life support and warm dinner. Sensors detect no moving people. Automatic systems may explain the warmth; missing people must not be declared dead without evidence. Maintenance logs, clocks and sealed compartments provide independent clues."
+            },
+            "ru": {
+              "name": "Исследовательский корабль Накр",
+              "key": [
+                "Накр",
+                "корабль-призрак",
+                "ужин"
+              ],
+              "content": "«Накр» дрейфует с работающим жизнеобеспечением и тёплым ужином. Датчики не видят движущихся людей. Тепло могут поддерживать автоматы; пропавших нельзя объявлять мёртвыми без доказательств. Журналы, часы и закрытые отсеки дают отдельные улики."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Eismond Eiren",
+      "key": [
+        "Eiren",
+        "Garten",
+        "Eis"
+      ],
+      "content": "Unter Eirens Eis liegt eine leuchtende Biosphäre. Druckwellen und rhythmische Stimmen verändern ihre Lichtmuster. Das ist zunächst eine beobachtbare Reaktion, keine bewiesene Sprache oder Telepathie. Versuche sollen wiederholbar und nicht zerstörerisch sein.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Ice moon Eiren",
+              "key": [
+                "Eiren",
+                "garden",
+                "ice"
+              ],
+              "content": "A luminous biosphere lies beneath Eiren’s ice. Pressure waves and rhythmic voices alter its light patterns. This is an observable response, not yet proof of language or telepathy. Experiments should be repeatable and non-destructive."
+            },
+            "ru": {
+              "name": "Ледяная луна Эйрен",
+              "key": [
+                "Эйрен",
+                "сад",
+                "лёд"
+              ],
+              "content": "Подо льдом Эйрена находится светящаяся биосфера. Волны давления и ритм голосов меняют световые узоры. Это наблюдаемая реакция, пока не доказательство языка или телепатии. Опыты должны быть повторяемыми и неразрушительными."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Das stumme Tor",
+      "key": [
+        "Tor",
+        "Verbindung",
+        "Ring"
+      ],
+      "content": "Ein zerbrochener Orbitalring um Eiren gehört zum alten Netz. Seine Segmente reagieren auf kalibrierte Impulse. Wiederverbinden, begrenzter Test und Abschalten sind mögliche Entscheidungen. Reichweite und Nebenwirkungen bleiben bis zu Messungen unsicher; kein erzwungenes Opfer beendet die Geschichte.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The silent gate",
+              "key": [
+                "gate",
+                "connection",
+                "ring"
+              ],
+              "content": "A broken orbital ring around Eiren belongs to the old network. Its segments respond to calibrated pulses. Reconnection, a limited test and shutdown are possible choices. Range and side effects remain uncertain until measured; no forced sacrifice ends the story."
+            },
+            "ru": {
+              "name": "Молчаливые врата",
+              "key": [
+                "врата",
+                "связь",
+                "кольцо"
+              ],
+              "content": "Разрушенное орбитальное кольцо Эйрена принадлежит старой сети. Сегменты реагируют на калиброванные импульсы. Возможны соединение, ограниченный тест и отключение. Дальность и последствия неизвестны до измерений; история не требует принудительной жертвы."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sternenbruch – Crew & places",
+          "description": "Shipboard life, relationships and locations without premature revelations."
+        },
+        "ru": {
+          "name": "Sternenbruch — Экипаж и места",
+          "description": "Быт, отношения и места без преждевременного раскрытия тайн."
+        }
+      }
+    }
+  }
+}

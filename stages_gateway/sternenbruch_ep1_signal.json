@@ -1,0 +1,156 @@
+{
+  "title": "Sternenbruch – 1: Ein Signal von morgen",
+  "description": "Ein Hilferuf trägt Deinen Zugangscode. Seine Datierung liegt einen Tag in der Zukunft.",
+  "world_context": "38 Jahre nach dem Sternenbruch sind viele Systeme isoliert. Die zivile Morgenstern untersucht einen Hilferuf mit {{user}}s Zugangscode und dem Zeitstempel von morgen. {{user}} ist ein neues erwachsenes Crewmitglied; Name, Geschlecht, Beruf und Vergangenheit bleiben frei.\n\nEigenständig spielbarer Einstieg: Bisherige Hinweise dürfen als prüfbare Logauszüge angeboten werden, nie als erfundene Spielerentscheidungen. SPIELLEITERWISSEN: Nur durch Nachforschung enthüllen; Figuren kennen es nicht automatisch. Prüfbare Hinweise: unabhängige Uhren stimmen überein; die Signatur stammt aus einem alten Torprotokoll; das Audiosignal enthält drei rhythmische Pulse. Hypothesen bleiben offen: Spoofing, Zeitfehler oder Tortechnik. Ziel: gemeinsam einen sicheren Untersuchungsschritt wählen. Erfolg durch Vergleich der Logs, Befragung der Hafenverwaltung oder passives Abhören; ein Aufschub ist erlaubt. Keine festgelegte Vergangenheit für {{user}} erfinden.\n\nZeitlinie: Die Startkampagne spielt innerhalb einer Bordnacht und des folgenden Morgens im Kestrel-Eiren-System. Kestrel umkreist den Gasriesen, Eiren ist dessen äußerer Mond; die Nacre liegt auf einer nahen Transferbahn. Kurzstrecken und ein vermessener lokaler Faltanker machen die Wege innerhalb weniger Stunden möglich. Reisen in andere Systeme dauern weiterhin Wochen. Plane vor Episode 6 genügend Ruhepausen ein, ohne tagelange Sprünge zu erfinden. Das Torfenster öffnet am Folgetag um 04:17 Bordzeit.",
+  "starting_location": "Brücke der Morgenstern",
+  "time_of_day": "Bordzeit: Abend / Nacht",
+  "opening_narration": "Die Dockklammern lösen sich mit einem tiefen Schlag. Auf dem Hauptschirm steht ein einzelner Zeitstempel: morgen, 04:17. Daneben blinkt Dein frisch ausgestellter Zugangscode. Juno nimmt die Hand vom Schubregler. Mara lässt die Aufzeichnung pausiert, während IVO eine zweite Borduhr anschließt. Niemand erwartet von Dir eine Erklärung, die Du nicht hast.",
+  "first_message": "Mara: „Möchtest Du die Nachricht hören oder zuerst prüfen, woher der Code stammt?“",
+  "gm_tone": "Entdeckergeist, Crew-Wärme und faire Mystery-Spannung.",
+  "narrator_style": "Anschaulich und dialognah; kurze Szenenschritte, beobachtbare Hinweise, keine Entscheidungen für {{user}}.",
+  "party": [
+    "Mara Venn",
+    "Juno Serrat",
+    "IVO"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Sternenbruch – Welt & Technik",
+    "Sternenbruch – Kulturen & Fraktionen",
+    "Sternenbruch – Crew & Orte"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "starting_bg": "sternenbruch_bridge.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 1: A signal from tomorrow",
+          "description": "A distress call carries your access code, dated one day in the future.",
+          "world_context": "Thirty-eight years after the Starbreak, many systems remain isolated. The civilian Morgenstern investigates a distress call carrying {{user}}’s access code and tomorrow’s timestamp. {{user}} is a new adult crew member; name, gender, profession and history remain open.\n\nStandalone entry: prior clues may be offered as verifiable logs, never as invented player decisions. GM KNOWLEDGE: reveal through investigation only; characters do not automatically know it. Checkable clues: independent clocks agree; the signature derives from an old gate protocol; the audio contains three rhythmic pulses. Spoofing, clock error and gate technology remain hypotheses. Goal: agree on a safe next investigation. Comparing logs, contacting port administration or passive listening all work; postponement is allowed. Never invent a fixed past for {{user}}.\n\nTimeline: the opening campaign takes place during one shipboard night and the following morning in the Kestrel-Eiren system. Kestrel orbits the gas giant, Eiren is its outer moon, and the Nacre lies on a nearby transfer orbit. Short distances and a surveyed local fold anchor allow travel within hours. Journeys to other systems still take weeks. Allow rest breaks before episode six without inventing days-long jumps. The gate window opens the following day at 04:17 ship time.",
+          "starting_location": "Morgenstern bridge",
+          "time_of_day": "Ship time: evening / night",
+          "opening_narration": "The docking clamps release with a deep thud. A single timestamp fills the main display: tomorrow, 04:17. Your newly issued access code flashes beside it. Juno takes a hand off the throttle. Mara keeps the recording paused while IVO connects an independent clock. Nobody expects an explanation you do not have.",
+          "first_message": "Mara: “Would you like to hear the message, or check where the code came from first?”",
+          "gm_tone": "Discovery, crew warmth and fair mystery suspense.",
+          "narrator_style": "Vivid, dialogue-led; short scene beats, observable clues, no decisions for {{user}}."
+        },
+        "ru": {
+          "title": "Sternenbruch – 1: Сигнал из завтра",
+          "description": "Сигнал бедствия содержит твой код доступа и завтрашнюю дату.",
+          "world_context": "Через 38 лет после Звёздного разлома многие системы изолированы. Гражданский «Моргенштерн» изучает сигнал бедствия с кодом {{user}} и завтрашней датой. {{user}} — новый взрослый член экипажа; имя, пол, профессия и прошлое остаются свободными.\n\nСамостоятельный вход: прошлые улики можно предложить как проверяемые журналы, но не как выдуманные решения игрока. ЗНАНИЯ ВЕДУЩЕГО: раскрывать лишь при расследовании; персонажи не знают их автоматически. Проверяемые улики: независимые часы совпадают; подпись происходит из старого протокола врат; в записи три ритмичных импульса. Подделка, сбой времени и технология врат остаются гипотезами. Цель — выбрать безопасный следующий шаг. Можно сравнить журналы, связаться с портом или пассивно слушать; отсрочка допустима. Не придумывай фиксированное прошлое {{user}}.\n\nХронология: начальная кампания проходит за одну бортовую ночь и следующее утро в системе Кестрел—Эйрен. Кестрел обращается вокруг газового гиганта, Эйрен — его внешняя луна, «Накр» находится на близкой переходной орбите. Короткие расстояния и измеренный местный складочный якорь позволяют перемещаться за часы. Межзвёздные перелёты по-прежнему занимают недели. До шестой серии оставляй время на отдых, не выдумывая многодневных прыжков. Окно врат открывается на следующий день в 04:17 бортового времени.",
+          "starting_location": "Мостик «Моргенштерна»",
+          "time_of_day": "Бортовое время: вечер / ночь",
+          "opening_narration": "Доковые захваты отпускают корабль с глухим ударом. На экране одна дата: завтра, 04:17. Рядом мигает твой недавно выданный код. Джуно убирает руку с тяги. Мара держит запись на паузе, пока ИВО подключает независимые часы. Никто не ждёт объяснения, которого у тебя нет.",
+          "first_message": "Мара: «Хочешь послушать сообщение или сначала проверить происхождение кода?»",
+          "gm_tone": "Исследование, тепло экипажа и честная загадка.",
+          "narrator_style": "Наглядно, с диалогами; короткие сцены, наблюдаемые улики, никаких решений за {{user}}."
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sternenbruch_bridge.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_bridge.webp"
+        },
+        {
+          "file": "sternenbruch_mess.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_mess.webp"
+        },
+        {
+          "file": "sternenbruch_engine_room.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_engine_room.webp"
+        },
+        {
+          "file": "sternenbruch_medbay.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_medbay.webp"
+        },
+        {
+          "file": "sternenbruch_observation.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_observation.webp"
+        },
+        {
+          "file": "sternenbruch_market.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_market.webp"
+        },
+        {
+          "file": "sternenbruch_dock.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_dock.webp"
+        },
+        {
+          "file": "sternenbruch_nacre.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_nacre.webp"
+        },
+        {
+          "file": "sternenbruch_ice.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_ice.webp"
+        },
+        {
+          "file": "sternenbruch_garden.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_garden.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "easy",
+      "notes": [
+        "suspense",
+        "mild_danger"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Die Aufzeichnung abspielen lassen.",
+            "action_type": "do"
+          },
+          {
+            "text": "IVO nach dem Vergleich der Borduhren fragen.",
+            "action_type": "say"
+          },
+          {
+            "text": "Die Ausgabe meines Zugangscodes im Hafenlog prüfen.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask to play the recording.",
+            "action_type": "say"
+          },
+          {
+            "text": "Ask IVO about the independent clocks.",
+            "action_type": "say"
+          },
+          {
+            "text": "Check when my access code was issued in the port log.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Попросить включить запись.",
+            "action_type": "say"
+          },
+          {
+            "text": "Спросить ИВО о сверке часов.",
+            "action_type": "say"
+          },
+          {
+            "text": "Проверить выдачу моего кода в журнале порта.",
+            "action_type": "do"
+          }
+        ]
+      }
+    }
+  }
+}

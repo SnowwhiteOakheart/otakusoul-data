@@ -399,8 +399,8 @@ Eigenständige Science-Fiction-Kampagne für den Hub; keine lokale App-Installat
 - [x] Sechs individuelle V2-Profile: Mara Venn, Juno Serrat, Saeli, Dr. Idris Vale, Kian Rook und IVO; jeweils zwei alternative Einstiege und drei eigene Dialogbeispiele.
 - [x] Drei Lorebooks mit 16 gezielt ausgelösten Einträgen: Welt & Technik, Kulturen & Fraktionen, Crew & Orte.
 - [x] Sechs Soulstages mit eigenständigem Einstieg, überprüfbaren Hinweisen, je drei Startvorschlägen pro Sprache und mehreren Lösungswegen.
-- [ ] Sechs PNG-Porträts und 90 einzeln generierte, referenzgestützte Emotionsbilder; zehn Hintergründe.
-- [ ] PNG-Payloads, Gateway-Karten, drei Registries und Bildverweise geprüft; vollständige Inhaltsvalidierung.
+- [x] Sechs PNG-Porträts und 90 einzeln generierte, referenzgestützte Emotionsbilder; zehn Hintergründe.
+- [x] PNG-Payloads, Gateway-Karten, drei Registries und Bildverweise geprüft; vollständige Inhaltsvalidierung: 0 Fehler. Die 30 Hinweise betreffen ausschließlich fehlendes Japanisch; DE/EN/RU sind vollständig.
 
 Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots: `presets/sternenbruch/image_prompts.json`; Paketbeschreibung in DE/EN/RU: `presets/sternenbruch/README.md`.
 

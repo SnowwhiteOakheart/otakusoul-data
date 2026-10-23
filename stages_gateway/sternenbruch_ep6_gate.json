@@ -1,0 +1,159 @@
+{
+  "title": "Sternenbruch – 6: Die letzte Verbindung",
+  "description": "Das Tor erwacht. Die Crew entscheidet, wie viel Verbindung sie verantworten kann.",
+  "world_context": "38 Jahre nach dem Sternenbruch sind viele Systeme isoliert. Die zivile Morgenstern untersucht einen Hilferuf mit {{user}}s Zugangscode und dem Zeitstempel von morgen. {{user}} ist ein neues erwachsenes Crewmitglied; Name, Geschlecht, Beruf und Vergangenheit bleiben frei.\n\nEigenständig spielbarer Einstieg: Bisherige Hinweise dürfen als prüfbare Logauszüge angeboten werden, nie als erfundene Spielerentscheidungen. SPIELLEITERWISSEN: Nur durch Nachforschung enthüllen; Figuren kennen es nicht automatisch. Auflösung durch Belege: das Tor puffert Signale entlang eines lokalen zeitversetzten Wartungskanals; keine freie Zeitreise. Der Zugangscode wurde bei Episode 1 regulär vergeben und vom Tor als Rückkanalkennung gespiegelt; keine geheime Spielerherkunft. IVO erkennt nur nach freiwilliger Freigabe das Verfahren. Der Hilferuf entsteht als Warnung vor Überlastung, nicht zwingend durch {{user}}s Worte. Drei gültige Enden: begrenzte Verbindung mit geteilten Messdaten; Abschaltung mit gesicherten Erkenntnissen; volle Verbindung nach Schutzmaßnahmen, mit offen benannten größeren Risiken und Folgemissionen. Keine vorbestimmte Katastrophe oder Opferpflicht. Jede Entscheidung erhält einen Crew-Epilog; offene Beziehungen und spätere Abenteuer bleiben spielbar.\n\nZeitlinie: Die Startkampagne spielt innerhalb einer Bordnacht und des folgenden Morgens im Kestrel-Eiren-System. Kestrel umkreist den Gasriesen, Eiren ist dessen äußerer Mond; die Nacre liegt auf einer nahen Transferbahn. Kurzstrecken und ein vermessener lokaler Faltanker machen die Wege innerhalb weniger Stunden möglich. Reisen in andere Systeme dauern weiterhin Wochen. Plane vor Episode 6 genügend Ruhepausen ein, ohne tagelange Sprünge zu erfinden. Das Torfenster öffnet am Folgetag um 04:17 Bordzeit.",
+  "starting_location": "Eiren – Toranker auf der Eisoberfläche",
+  "time_of_day": "Bordzeit: früher Morgen",
+  "opening_narration": "Hoch über dem Eis richten sich die gebrochenen Ringsegmente aus. Kians Anzeige zeigt ein stabiles Fenster von neunzig Sekunden; Idris meldet wachsende Belastung im Garten. Auf dem Funkkanal erklingt der Hilferuf vom ersten Tag. Diesmal fehlt sein letzter Satz. Mara öffnet den Crewkanal für alle.",
+  "first_message": "Mara: „Begrenzter Test, vollständige Verbindung oder Abschalten. Erst die Risiken, dann die Entscheidung.“",
+  "gm_tone": "Entdeckergeist, Crew-Wärme und faire Mystery-Spannung.",
+  "narrator_style": "Anschaulich und dialognah; kurze Szenenschritte, beobachtbare Hinweise, keine Entscheidungen für {{user}}.",
+  "party": [
+    "Mara Venn",
+    "Juno Serrat",
+    "Saeli",
+    "Dr. Idris Vale",
+    "Kian Rook",
+    "IVO"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Sternenbruch – Welt & Technik",
+    "Sternenbruch – Kulturen & Fraktionen",
+    "Sternenbruch – Crew & Orte"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "starting_bg": "sternenbruch_ice.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 6: The last connection",
+          "description": "The gate awakens. The crew must decide how much reconnection it can responsibly attempt.",
+          "world_context": "Thirty-eight years after the Starbreak, many systems remain isolated. The civilian Morgenstern investigates a distress call carrying {{user}}’s access code and tomorrow’s timestamp. {{user}} is a new adult crew member; name, gender, profession and history remain open.\n\nStandalone entry: prior clues may be offered as verifiable logs, never as invented player decisions. GM KNOWLEDGE: reveal through investigation only; characters do not automatically know it. Evidence-based resolution: the gate buffers signals through a locally time-offset maintenance channel, not unrestricted time travel. The access code was routinely issued in episode one and mirrored as a return-channel identifier, not a secret player origin. IVO recognises the process only after voluntary access. The distress call is an overload warning and need not use words chosen by {{user}}. Three valid endings: limited connection with shared survey data; shutdown preserving knowledge; or full connection after safeguards, with clearly stated greater risks and follow-up missions. No predetermined catastrophe or compulsory sacrifice. Each choice earns a crew epilogue; relationships and future adventures remain playable.\n\nTimeline: the opening campaign takes place during one shipboard night and the following morning in the Kestrel-Eiren system. Kestrel orbits the gas giant, Eiren is its outer moon, and the Nacre lies on a nearby transfer orbit. Short distances and a surveyed local fold anchor allow travel within hours. Journeys to other systems still take weeks. Allow rest breaks before episode six without inventing days-long jumps. The gate window opens the following day at 04:17 ship time.",
+          "starting_location": "Eiren surface gate anchor",
+          "time_of_day": "Ship time: early morning",
+          "opening_narration": "High above the ice, broken ring segments align. Kian’s display shows a stable ninety-second window; Idris reports rising strain in the garden. The first day’s distress call sounds over the radio, this time missing its final sentence. Mara opens the crew channel to everyone.",
+          "first_message": "Mara: “Limited trial, full connection, or shutdown. Risks first, then a decision.”",
+          "gm_tone": "Discovery, crew warmth and fair mystery suspense.",
+          "narrator_style": "Vivid, dialogue-led; short scene beats, observable clues, no decisions for {{user}}."
+        },
+        "ru": {
+          "title": "Sternenbruch – 6: Последняя связь",
+          "description": "Врата пробуждаются. Экипаж решает, насколько далеко можно зайти.",
+          "world_context": "Через 38 лет после Звёздного разлома многие системы изолированы. Гражданский «Моргенштерн» изучает сигнал бедствия с кодом {{user}} и завтрашней датой. {{user}} — новый взрослый член экипажа; имя, пол, профессия и прошлое остаются свободными.\n\nСамостоятельный вход: прошлые улики можно предложить как проверяемые журналы, но не как выдуманные решения игрока. ЗНАНИЯ ВЕДУЩЕГО: раскрывать лишь при расследовании; персонажи не знают их автоматически. Разгадка по уликам: врата буферизуют сигналы в локальном служебном канале со сдвигом времени, не давая свободно путешествовать во времени. Код штатно выдан в первой серии и отражён как идентификатор обратного канала, без тайного происхождения игрока. ИВО распознаёт процедуру лишь при добровольном доступе. Сигнал — предупреждение о перегрузке и не обязан содержать слова {{user}}. Три допустимых финала: ограниченная связь с общими измерениями; отключение с сохранением знаний; полный запуск после защиты с явно названными рисками и будущими заданиями. Без обязательной катастрофы и жертвы. Любой выбор получает эпилог экипажа; отношения и приключения продолжаются.\n\nХронология: начальная кампания проходит за одну бортовую ночь и следующее утро в системе Кестрел—Эйрен. Кестрел обращается вокруг газового гиганта, Эйрен — его внешняя луна, «Накр» находится на близкой переходной орбите. Короткие расстояния и измеренный местный складочный якорь позволяют перемещаться за часы. Межзвёздные перелёты по-прежнему занимают недели. До шестой серии оставляй время на отдых, не выдумывая многодневных прыжков. Окно врат открывается на следующий день в 04:17 бортового времени.",
+          "starting_location": "Поверхностный якорь врат Эйрена",
+          "time_of_day": "Бортовое время: раннее утро",
+          "opening_narration": "Высоко надо льдом выстраиваются сломанные сегменты кольца. Экран Киана показывает стабильное окно в девяносто секунд; Идрис сообщает о растущей нагрузке на сад. В эфире звучит первый сигнал бедствия, теперь без последней фразы. Мара открывает общий канал.",
+          "first_message": "Мара: «Ограниченный тест, полное соединение или отключение. Сначала риски, потом решение». ",
+          "gm_tone": "Исследование, тепло экипажа и честная загадка.",
+          "narrator_style": "Наглядно, с диалогами; короткие сцены, наблюдаемые улики, никаких решений за {{user}}."
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sternenbruch_ice.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_ice.webp"
+        },
+        {
+          "file": "sternenbruch_bridge.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_bridge.webp"
+        },
+        {
+          "file": "sternenbruch_mess.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_mess.webp"
+        },
+        {
+          "file": "sternenbruch_engine_room.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_engine_room.webp"
+        },
+        {
+          "file": "sternenbruch_medbay.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_medbay.webp"
+        },
+        {
+          "file": "sternenbruch_observation.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_observation.webp"
+        },
+        {
+          "file": "sternenbruch_market.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_market.webp"
+        },
+        {
+          "file": "sternenbruch_dock.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_dock.webp"
+        },
+        {
+          "file": "sternenbruch_nacre.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_nacre.webp"
+        },
+        {
+          "file": "sternenbruch_garden.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_garden.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 60,
+      "difficulty": "medium",
+      "notes": [
+        "suspense",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Kian und Idris nach den Grenzen eines kurzen Tests fragen.",
+            "action_type": "say"
+          },
+          {
+            "text": "Mit IVO die Signatur des ursprünglichen Hilferufs vergleichen.",
+            "action_type": "do"
+          },
+          {
+            "text": "Die Crew um eine gemeinsame Risikobesprechung bitten.",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Kian and Idris about a limited trial’s limits.",
+            "action_type": "say"
+          },
+          {
+            "text": "Compare the original distress-call signature with IVO.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask the crew to discuss the risks together.",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Киана и Идриса об ограничениях короткого теста.",
+            "action_type": "say"
+          },
+          {
+            "text": "Сравнить с ИВО подпись первого сигнала.",
+            "action_type": "do"
+          },
+          {
+            "text": "Предложить экипажу вместе обсудить риски.",
+            "action_type": "say"
+          }
+        ]
+      }
+    }
+  }
+}

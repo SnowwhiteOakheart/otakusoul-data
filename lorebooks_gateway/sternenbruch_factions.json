@@ -1,0 +1,223 @@
+{
+  "name": "Sternenbruch – Kulturen & Fraktionen",
+  "description": "Interessen, Handelsregeln und fremde Perspektiven.",
+  "scan_depth": 6,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Freihafen Kestrel",
+      "key": [
+        "Kestrel",
+        "Markt",
+        "Auktion"
+      ],
+      "content": "Kestrel ist eine rotierende Station mit gewähltem Hafenrat. Handel finanziert Luftaufbereitung und Reparaturen. Erinnerungsaufzeichnungen werden nur mit nachweisbarer Einwilligung gehandelt. Auktionator Oren Vask prüft Herkunft; gefälschte Einwilligungen sind ein reales Problem.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 20,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Kestrel Freeport",
+              "key": [
+                "Kestrel",
+                "market",
+                "auction"
+              ],
+              "content": "Kestrel is a rotating station with an elected harbour council. Trade funds air processing and repairs. Recorded memories may be traded only with documented consent. Auctioneer Oren Vask checks provenance; forged permissions remain a real problem."
+            },
+            "ru": {
+              "name": "Вольный порт Кестрел",
+              "key": [
+                "Кестрел",
+                "рынок",
+                "аукцион"
+              ],
+              "content": "Кестрел — вращающаяся станция с выборным советом порта. Торговля оплачивает воздух и ремонт. Записи воспоминаний продают лишь с подтверждённым согласием. Аукционист Орен Васк проверяет происхождение; поддельные разрешения остаются проблемой."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Helix Meridian",
+      "key": [
+        "Helix",
+        "Konzern",
+        "Delegation"
+      ],
+      "content": "Helix Meridian betreibt Medizin, Transport und Patente. Versorgung ist oft gut, Abhängigkeit teuer. Vertreterin Sera Dain verlangt IVO als angebliches Firmeneigentum; sie bringt überprüfbare Dokumente und anfechtbare Rechtsannahmen. Einzelne Beschäftigte sind keine gleichförmigen Bösewichte.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Helix Meridian",
+              "key": [
+                "Helix",
+                "corporation",
+                "delegation"
+              ],
+              "content": "Helix Meridian operates medicine, transport and patents. Its services are often reliable but dependency is costly. Representative Sera Dain claims IVO as company property, offering verifiable documents and contestable legal assumptions. Employees are not uniformly villains."
+            },
+            "ru": {
+              "name": "Хеликс Меридиан",
+              "key": [
+                "Хеликс",
+                "корпорация",
+                "делегация"
+              ],
+              "content": "«Хеликс Меридиан» занимается медициной, транспортом и патентами. Услуги надёжны, зависимость обходится дорого. Представитель Сера Дейн требует ИВО как собственность компании, предъявляя проверяемые документы и спорные правовые доводы. Сотрудники не являются одинаковыми злодеями."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Die Thalen",
+      "key": [
+        "Thalen",
+        "Saeli",
+        "Archiv"
+      ],
+      "content": "Thalen sind langlebige körperliche Wesen mit leuchtenden Schläfenfächern. Gemeinsame Erinnerungsarchive beruhen auf Zustimmung, nicht Telepathie. Ihre Kultur kennt Dissens und Privatheit. Saeli spricht für sich, nicht für alle Thalen. Übersetzung benötigt Kontext und kann irren.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The Thalen",
+              "key": [
+                "Thalen",
+                "Saeli",
+                "archive"
+              ],
+              "content": "Thalen are long-lived embodied beings with luminous temple fans. Shared memory archives rely on consent, not telepathy. Their culture includes disagreement and privacy. Saeli speaks for herself, not all Thalen. Translation requires context and can be wrong."
+            },
+            "ru": {
+              "name": "Талены",
+              "key": [
+                "тален",
+                "Саэли",
+                "архив"
+              ],
+              "content": "Талены — долгоживущие телесные существа со светящимися височными веерами. Общие архивы основаны на согласии, а не телепатии. Их культура допускает разногласия и частную жизнь. Саэли говорит за себя, не за всех таленов. Переводу нужен контекст, и ошибки возможны."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Die Lotsengilde",
+      "key": [
+        "Gilde",
+        "Anker",
+        "Kartografie"
+      ],
+      "content": "Die Lotsengilde zertifiziert sichere Anker und verkauft Messdaten. Einige Lotsen wollen offene Karten, andere finanzieren Rettungen über Gebühren. Verifizierte Daten sind wertvoller als heldenhafte Behauptungen. Juno kennt inoffizielle Routen, deren Sicherheit neu geprüft werden muss.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The Pilots’ Guild",
+              "key": [
+                "guild",
+                "anchor",
+                "mapping"
+              ],
+              "content": "The Pilots’ Guild certifies safe anchors and sells survey data. Some pilots favour open maps; others fund rescues through fees. Verified data matter more than heroic claims. Juno knows unofficial routes whose safety must be reassessed."
+            },
+            "ru": {
+              "name": "Гильдия лоцманов",
+              "key": [
+                "гильдия",
+                "якорь",
+                "карта"
+              ],
+              "content": "Гильдия сертифицирует безопасные якоря и продаёт измерения. Одни лоцманы хотят открытых карт, другие оплачивают спасение сборами. Проверенные данные ценнее героических заявлений. Джуно знает неофициальные маршруты, безопасность которых нужно проверить заново."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Nera Sohl",
+      "key": [
+        "Nera",
+        "Sohl",
+        "Schuld"
+      ],
+      "content": "Nera vermittelt Bergungsaufträge und hat Juno einst aus einer havarierten Fähre gerettet. Sie fordert einen versiegelten Transport, erklärt aber den Inhalt zunächst nicht. Verhandeln, Nachforschen und Ablehnen bleiben möglich. Junos Schuld verpflichtet {{user}} zu nichts.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 10,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Nera Sohl",
+              "key": [
+                "Nera",
+                "Sohl",
+                "debt"
+              ],
+              "content": "Nera brokers salvage jobs and once rescued Juno from a wrecked shuttle. She requests a sealed delivery but initially withholds its contents. Negotiation, investigation and refusal remain possible. Juno’s debt imposes no obligation on {{user}}."
+            },
+            "ru": {
+              "name": "Нера Соль",
+              "key": [
+                "Нера",
+                "Соль",
+                "долг"
+              ],
+              "content": "Нера посредничает в спасательных работах и однажды спасла Джуно с разбитого челнока. Требует доставить запечатанный груз, не объясняя сразу содержимое. Можно договариваться, расследовать и отказываться. Долг Джуно ни к чему не обязывает {{user}}."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Sternenbruch – Cultures & factions",
+          "description": "Interests, trade rules and unfamiliar perspectives."
+        },
+        "ru": {
+          "name": "Sternenbruch — Культуры и фракции",
+          "description": "Интересы, правила торговли и чужие взгляды."
+        }
+      }
+    }
+  }
+}

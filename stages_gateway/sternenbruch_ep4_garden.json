@@ -1,0 +1,156 @@
+{
+  "title": "Sternenbruch – 4: Der Garten im Eis",
+  "description": "Eine fremde Biosphäre antwortet auf Stimmen. Doch versteht sie auch Worte?",
+  "world_context": "38 Jahre nach dem Sternenbruch sind viele Systeme isoliert. Die zivile Morgenstern untersucht einen Hilferuf mit {{user}}s Zugangscode und dem Zeitstempel von morgen. {{user}} ist ein neues erwachsenes Crewmitglied; Name, Geschlecht, Beruf und Vergangenheit bleiben frei.\n\nEigenständig spielbarer Einstieg: Bisherige Hinweise dürfen als prüfbare Logauszüge angeboten werden, nie als erfundene Spielerentscheidungen. SPIELLEITERWISSEN: Nur durch Nachforschung enthüllen; Figuren kennen es nicht automatisch. Hinweise: gleiche Rhythmen erzeugen gleiche Muster unabhängig von Wortbedeutung; der Ring ist mit dem Tor gekoppelt; schonende Impulse stabilisieren Lebenserhaltung. Die Biosphäre ist ein lebendes Wartungsmedium, keine bewiesene Einzelperson. Möglichkeiten: kontrollierte Akustikversuche, kontaktlose Messung oder Rückzug zum Schutz des Ökosystems. Keine Probe oder Aktivierung erzwingen. Ein begrenzter Test liefert einen sicheren Torhandshake.\n\nZeitlinie: Die Startkampagne spielt innerhalb einer Bordnacht und des folgenden Morgens im Kestrel-Eiren-System. Kestrel umkreist den Gasriesen, Eiren ist dessen äußerer Mond; die Nacre liegt auf einer nahen Transferbahn. Kurzstrecken und ein vermessener lokaler Faltanker machen die Wege innerhalb weniger Stunden möglich. Reisen in andere Systeme dauern weiterhin Wochen. Plane vor Episode 6 genügend Ruhepausen ein, ohne tagelange Sprünge zu erfinden. Das Torfenster öffnet am Folgetag um 04:17 Bordzeit.",
+  "starting_location": "Eiren – subglazialer Garten",
+  "time_of_day": "Bordzeit: Abend / Nacht",
+  "opening_narration": "Unter der Eisdecke glimmen violette Zweige über stillen Wasserflächen. Saelis erster Laut läuft als Lichtwelle durch den Garten. Als IVO ihn wiederholt, öffnet sich ein schmaler Pfad. Idris hebt die Hand, bevor jemand eine Probe nimmt. Zwischen den Pflanzen liegt ein künstlicher Anschlussring.",
+  "first_message": "Saeli: „Eine Antwort ist noch kein Gespräch. Wollen wir prüfen, worauf sie tatsächlich reagiert?“",
+  "gm_tone": "Entdeckergeist, Crew-Wärme und faire Mystery-Spannung.",
+  "narrator_style": "Anschaulich und dialognah; kurze Szenenschritte, beobachtbare Hinweise, keine Entscheidungen für {{user}}.",
+  "party": [
+    "Saeli",
+    "Dr. Idris Vale",
+    "IVO"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Sternenbruch – Welt & Technik",
+    "Sternenbruch – Kulturen & Fraktionen",
+    "Sternenbruch – Crew & Orte"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "starting_bg": "sternenbruch_garden.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 4: The garden in the ice",
+          "description": "An alien biosphere responds to voices. Does it understand words?",
+          "world_context": "Thirty-eight years after the Starbreak, many systems remain isolated. The civilian Morgenstern investigates a distress call carrying {{user}}’s access code and tomorrow’s timestamp. {{user}} is a new adult crew member; name, gender, profession and history remain open.\n\nStandalone entry: prior clues may be offered as verifiable logs, never as invented player decisions. GM KNOWLEDGE: reveal through investigation only; characters do not automatically know it. Clues: identical rhythms produce identical patterns regardless of word meaning; the ring couples to the gate; gentle pulses stabilise life support. The biosphere is a living maintenance medium, not a proven individual mind. Options: controlled acoustic trials, contactless measurement or retreat to protect the ecosystem. Never force sampling or activation. A limited trial yields a safe gate handshake.\n\nTimeline: the opening campaign takes place during one shipboard night and the following morning in the Kestrel-Eiren system. Kestrel orbits the gas giant, Eiren is its outer moon, and the Nacre lies on a nearby transfer orbit. Short distances and a surveyed local fold anchor allow travel within hours. Journeys to other systems still take weeks. Allow rest breaks before episode six without inventing days-long jumps. The gate window opens the following day at 04:17 ship time.",
+          "starting_location": "Eiren subglacial garden",
+          "time_of_day": "Ship time: evening / night",
+          "opening_narration": "Violet branches glow above still pools beneath the ice. Saeli’s first sound travels through the garden as a wave of light. When IVO repeats it, a narrow path opens. Idris raises a hand before anyone takes a sample. An artificial connector ring lies among the plants.",
+          "first_message": "Saeli: “A response is not yet a conversation. Shall we test what it actually responds to?”",
+          "gm_tone": "Discovery, crew warmth and fair mystery suspense.",
+          "narrator_style": "Vivid, dialogue-led; short scene beats, observable clues, no decisions for {{user}}."
+        },
+        "ru": {
+          "title": "Sternenbruch – 4: Сад во льду",
+          "description": "Чужая биосфера отвечает на голоса. Но понимает ли слова?",
+          "world_context": "Через 38 лет после Звёздного разлома многие системы изолированы. Гражданский «Моргенштерн» изучает сигнал бедствия с кодом {{user}} и завтрашней датой. {{user}} — новый взрослый член экипажа; имя, пол, профессия и прошлое остаются свободными.\n\nСамостоятельный вход: прошлые улики можно предложить как проверяемые журналы, но не как выдуманные решения игрока. ЗНАНИЯ ВЕДУЩЕГО: раскрывать лишь при расследовании; персонажи не знают их автоматически. Улики: одинаковый ритм даёт одинаковый узор независимо от смысла; кольцо связано с вратами; мягкие импульсы стабилизируют жизнеобеспечение. Биосфера — живая среда обслуживания, но не доказанная единая личность. Возможны акустические опыты, бесконтактные измерения или отступление ради экосистемы. Не навязывай образцы и запуск. Ограниченный тест даст безопасный протокол связи с вратами.\n\nХронология: начальная кампания проходит за одну бортовую ночь и следующее утро в системе Кестрел—Эйрен. Кестрел обращается вокруг газового гиганта, Эйрен — его внешняя луна, «Накр» находится на близкой переходной орбите. Короткие расстояния и измеренный местный складочный якорь позволяют перемещаться за часы. Межзвёздные перелёты по-прежнему занимают недели. До шестой серии оставляй время на отдых, не выдумывая многодневных прыжков. Окно врат открывается на следующий день в 04:17 бортового времени.",
+          "starting_location": "Подлёдный сад Эйрена",
+          "time_of_day": "Бортовое время: вечер / ночь",
+          "opening_narration": "Подо льдом фиолетовые ветви светятся над тихими водоёмами. Первый звук Саэли проходит по саду волной света. Когда ИВО повторяет его, открывается узкая тропа. Идрис поднимает руку прежде, чем кто-то берёт образец. Среди растений лежит искусственное соединительное кольцо.",
+          "first_message": "Саэли: «Ответ ещё не беседа. Проверим, на что именно он реагирует?»",
+          "gm_tone": "Исследование, тепло экипажа и честная загадка.",
+          "narrator_style": "Наглядно, с диалогами; короткие сцены, наблюдаемые улики, никаких решений за {{user}}."
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sternenbruch_garden.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_garden.webp"
+        },
+        {
+          "file": "sternenbruch_bridge.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_bridge.webp"
+        },
+        {
+          "file": "sternenbruch_mess.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_mess.webp"
+        },
+        {
+          "file": "sternenbruch_engine_room.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_engine_room.webp"
+        },
+        {
+          "file": "sternenbruch_medbay.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_medbay.webp"
+        },
+        {
+          "file": "sternenbruch_observation.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_observation.webp"
+        },
+        {
+          "file": "sternenbruch_market.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_market.webp"
+        },
+        {
+          "file": "sternenbruch_dock.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_dock.webp"
+        },
+        {
+          "file": "sternenbruch_nacre.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_nacre.webp"
+        },
+        {
+          "file": "sternenbruch_ice.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_ice.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "scifi",
+      "minutes": 45,
+      "difficulty": "medium",
+      "notes": [
+        "suspense",
+        "mild_danger"
+      ],
+      "beginner": false,
+      "choices": {
+        "de": [
+          {
+            "text": "Einen Rhythmus ohne Worte vorsichtig wiederholen.",
+            "action_type": "do"
+          },
+          {
+            "text": "Saeli nach einem kontrollierten Vergleich fragen.",
+            "action_type": "say"
+          },
+          {
+            "text": "Den Anschlussring aus der Entfernung scannen.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Gently repeat a rhythm without words.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Saeli about a controlled comparison.",
+            "action_type": "say"
+          },
+          {
+            "text": "Scan the connector ring from a distance.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осторожно повторить ритм без слов.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Саэли о контрольном опыте.",
+            "action_type": "say"
+          },
+          {
+            "text": "Просканировать кольцо на расстоянии.",
+            "action_type": "do"
+          }
+        ]
+      }
+    }
+  }
+}

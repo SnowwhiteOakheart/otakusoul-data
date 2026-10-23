@@ -1404,6 +1404,138 @@
           "starting_location": "Приёмная рёкана «Цукими»"
         }
       }
+    },
+    {
+      "id": "sternenbruch_ep1_signal",
+      "title": "Sternenbruch – 1: Ein Signal von morgen",
+      "description": "Ein Hilferuf trägt Deinen Zugangscode. Seine Datierung liegt einen Tag in der Zukunft.",
+      "starting_location": "Brücke der Morgenstern",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep1_signal.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 1: A signal from tomorrow",
+          "description": "A distress call carries your access code, dated one day in the future.",
+          "starting_location": "Morgenstern bridge"
+        },
+        "ru": {
+          "title": "Sternenbruch – 1: Сигнал из завтра",
+          "description": "Сигнал бедствия содержит твой код доступа и завтрашнюю дату.",
+          "starting_location": "Мостик «Моргенштерна»"
+        }
+      }
+    },
+    {
+      "id": "sternenbruch_ep2_market",
+      "title": "Sternenbruch – 2: Markt unter fremden Sternen",
+      "description": "Eine Sternenkarte steht zur Auktion. Das höchste Gebot besteht aus einer Erinnerung.",
+      "starting_location": "Freihafen Kestrel – Auktionsmarkt",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep2_market.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 2: Market under alien stars",
+          "description": "A star chart is up for auction. The highest bid is a memory.",
+          "starting_location": "Kestrel Freeport auction market"
+        },
+        "ru": {
+          "title": "Sternenbruch – 2: Рынок под чужими звёздами",
+          "description": "Звёздную карту продают на аукционе. Высшая ставка — воспоминание.",
+          "starting_location": "Аукционный рынок Кестрела"
+        }
+      }
+    },
+    {
+      "id": "sternenbruch_ep3_nacre",
+      "title": "Sternenbruch – 3: Das Schiff ohne Schatten",
+      "description": "Auf der Nacre ist das Abendessen warm. Von der Besatzung fehlt jede Spur.",
+      "starting_location": "Nacre – verlassene Messe",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep3_nacre.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 3: The ship without shadows",
+          "description": "Dinner aboard the Nacre is warm. There is no sign of the crew.",
+          "starting_location": "Nacre deserted mess"
+        },
+        "ru": {
+          "title": "Sternenbruch – 3: Корабль без теней",
+          "description": "Ужин на «Накре» ещё тёплый. Экипаж бесследно исчез.",
+          "starting_location": "Пустая кают-компания «Накра»"
+        }
+      }
+    },
+    {
+      "id": "sternenbruch_ep4_garden",
+      "title": "Sternenbruch – 4: Der Garten im Eis",
+      "description": "Eine fremde Biosphäre antwortet auf Stimmen. Doch versteht sie auch Worte?",
+      "starting_location": "Eiren – subglazialer Garten",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep4_garden.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 4: The garden in the ice",
+          "description": "An alien biosphere responds to voices. Does it understand words?",
+          "starting_location": "Eiren subglacial garden"
+        },
+        "ru": {
+          "title": "Sternenbruch – 4: Сад во льду",
+          "description": "Чужая биосфера отвечает на голоса. Но понимает ли слова?",
+          "starting_location": "Подлёдный сад Эйрена"
+        }
+      }
+    },
+    {
+      "id": "sternenbruch_ep5_memory",
+      "title": "Sternenbruch – 5: Wem gehört ein Gedächtnis?",
+      "description": "Helix Meridian verlangt IVOs Auslieferung. Ein altes Protokoll stellt die Forderung infrage.",
+      "starting_location": "Morgenstern – Aussichtskuppel",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep5_memory.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 5: Who owns a memory?",
+          "description": "Helix Meridian demands IVO’s surrender. An old record challenges its claim.",
+          "starting_location": "Morgenstern observation dome"
+        },
+        "ru": {
+          "title": "Sternenbruch – 5: Кому принадлежит память?",
+          "description": "«Хеликс Меридиан» требует выдать ИВО. Старая запись ставит требование под сомнение.",
+          "starting_location": "Обзорный купол «Моргенштерна»"
+        }
+      }
+    },
+    {
+      "id": "sternenbruch_ep6_gate",
+      "title": "Sternenbruch – 6: Die letzte Verbindung",
+      "description": "Das Tor erwacht. Die Crew entscheidet, wie viel Verbindung sie verantworten kann.",
+      "starting_location": "Eiren – Toranker auf der Eisoberfläche",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep6_gate.json",
+      "revision": 1,
+      "updated": "2026-10-23",
+      "translations": {
+        "en": {
+          "title": "Sternenbruch – 6: The last connection",
+          "description": "The gate awakens. The crew must decide how much reconnection it can responsibly attempt.",
+          "starting_location": "Eiren surface gate anchor"
+        },
+        "ru": {
+          "title": "Sternenbruch – 6: Последняя связь",
+          "description": "Врата пробуждаются. Экипаж решает, насколько далеко можно зайти.",
+          "starting_location": "Поверхностный якорь врат Эйрена"
+        }
+      }
     }
   ]
 }

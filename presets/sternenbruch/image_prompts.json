@@ -1,0 +1,549 @@
+{
+  "tool": "image_gen built-in",
+  "style": "Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark.",
+  "portraits": {
+    "mara_venn": {
+      "subject": "female starship commander, mature expressive face, short dark hair with one silver streak, strong eyebrows, practical petrol teal command jacket without insignia",
+      "prompt": "Use case: stylized-concept. Single character portrait for original science fiction visual novel Sternenbruch. Mara Venn, 36 year old female starship commander, mature expressive face, short dark hair with one silver streak, strong eyebrows, practical petrol teal command jacket without insignia, warm restrained confidence. Detailed painterly science fiction illustration with slight anime influence, believable anatomy, waist up centered, entire head visible, portrait 3:4 composition. Soft warm ship interior background, amber and teal lighting. No text, watermark, logos or franchise designs. Produce one portrait.",
+      "output": "mara_venn.png"
+    },
+    "juno_serrat": {
+      "subject": "female pilot, copper curly hair, amber practical flight suit with original small geometric patches, work gloves at belt, lively mature face",
+      "prompt": "Use case: stylized-concept. Single waist-up centered portrait, entire head visible, 3:4 composition. Juno Serrat, 27, female pilot, copper curly hair, amber practical flight suit with original small geometric patches, work gloves at belt, lively mature face. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Soft warm ship interior backdrop, amber and teal lighting. One person only.",
+      "output": "juno_serrat.png"
+    },
+    "saeli": {
+      "subject": "adult alien woman with pearl gray skin, subtle luminous delicate temple fans instead of ears, dark expressive eyes, layered practical violet clothing, clearly mature face, no human pointed ears",
+      "prompt": "Use case: stylized-concept. Single waist-up centered portrait, entire head visible, 3:4 composition. Saeli, 84, adult alien woman with pearl gray skin, subtle luminous delicate temple fans instead of ears, dark expressive eyes, layered practical violet clothing, clearly mature face, no human pointed ears. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Soft warm ship interior backdrop, amber and teal lighting. One person only.",
+      "output": "saeli.png"
+    },
+    "idris_vale": {
+      "subject": "male physician, dark skin, short curly hair with gray temples, cream practical medical ship uniform, kind mature face, no lab coat logos",
+      "prompt": "Use case: stylized-concept. Single waist-up centered portrait, entire head visible, 3:4 composition. Dr. Idris Vale, 42, male physician, dark skin, short curly hair with gray temples, cream practical medical ship uniform, kind mature face, no lab coat logos. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Soft warm ship interior backdrop, amber and teal lighting. One person only.",
+      "output": "idris_vale.png"
+    },
+    "kian_rook": {
+      "subject": "male engineer, dark wavy hair, practical forest green work clothes, visibly mechanical forearm prosthesis with articulated fingers, gentle mature face",
+      "prompt": "Use case: stylized-concept. Single waist-up centered portrait, entire head visible, 3:4 composition. Kian Rook, 31, male engineer, dark wavy hair, practical forest green work clothes, visibly mechanical forearm prosthesis with articulated fingers, gentle mature face. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Soft warm ship interior backdrop, amber and teal lighting. One person only.",
+      "output": "kian_rook.png"
+    },
+    "ivo": {
+      "subject": "adult androgynous synthetic navigator, expressive mature face with subtle ivory ceramic panels and graphite seams, delicate cyan light lines, dark short sculpted hair, practical ivory graphite ship clothing, approachable not robotic blank",
+      "prompt": "Use case: stylized-concept. Single waist-up centered portrait, entire head visible, 3:4 composition. IVO, adult, adult androgynous synthetic navigator, expressive mature face with subtle ivory ceramic panels and graphite seams, delicate cyan light lines, dark short sculpted hair, practical ivory graphite ship clothing, approachable not robotic blank. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Soft warm ship interior backdrop, amber and teal lighting. One person only.",
+      "output": "ivo.png"
+    }
+  },
+  "expressions": {
+    "mara_venn": {
+      "neutral": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: attentive neutral expression. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/neutral.webp"
+      },
+      "happy": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bright natural smile. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/happy.webp"
+      },
+      "relaxed": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: relaxed gentle smile and lowered shoulders. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/relaxed.webp"
+      },
+      "surprised": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: raised brows, widened eyes, slightly parted lips. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/surprised.webp"
+      },
+      "angry": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: furrowed brows, controlled anger, tight jaw. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/angry.webp"
+      },
+      "sad": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: downcast eyes and a visibly sad mouth. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/sad.webp"
+      },
+      "blush": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bashful smile, mild facial blush or warm light in synthetic face. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/blush.webp"
+      },
+      "teasing": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: playful asymmetric smile and raised eyebrow. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/teasing.webp"
+      },
+      "fear": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: frightened eyes, tense lips and shoulders. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/fear.webp"
+      },
+      "disgust": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: wrinkled nose, narrowed eyes, recoiling displeasure. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/disgust.webp"
+      },
+      "crying": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: visible tears, grief in brows and mouth; synthetic IVO has expressive luminous tear-like trails. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/crying.webp"
+      },
+      "seductive": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: warm inviting eye contact and gentle affectionate smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/seductive.webp"
+      },
+      "aroused": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: animated excitement about a scientific discovery, bright eyes, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/aroused.webp"
+      },
+      "ecstasy": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: joyful delighted scientific breakthrough, broad smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/ecstasy.webp"
+      },
+      "afterglow": {
+        "reference": "mara_venn.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: quiet contented satisfaction after completing a mission, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/mara_venn/afterglow.webp"
+      }
+    },
+    "juno_serrat": {
+      "neutral": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: attentive neutral expression. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/neutral.webp"
+      },
+      "happy": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bright natural smile. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/happy.webp"
+      },
+      "relaxed": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: relaxed gentle smile and lowered shoulders. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/relaxed.webp"
+      },
+      "surprised": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: raised brows, widened eyes, slightly parted lips. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/surprised.webp"
+      },
+      "angry": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: furrowed brows, controlled anger, tight jaw. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/angry.webp"
+      },
+      "sad": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: downcast eyes and a visibly sad mouth. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/sad.webp"
+      },
+      "blush": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bashful smile, mild facial blush or warm light in synthetic face. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/blush.webp"
+      },
+      "teasing": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: playful asymmetric smile and raised eyebrow. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/teasing.webp"
+      },
+      "fear": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: frightened eyes, tense lips and shoulders. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/fear.webp"
+      },
+      "disgust": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: wrinkled nose, narrowed eyes, recoiling displeasure. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/disgust.webp"
+      },
+      "crying": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: visible tears, grief in brows and mouth; synthetic IVO has expressive luminous tear-like trails. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/crying.webp"
+      },
+      "seductive": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: warm inviting eye contact and gentle affectionate smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/seductive.webp"
+      },
+      "aroused": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: animated excitement about a scientific discovery, bright eyes, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/aroused.webp"
+      },
+      "ecstasy": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: joyful delighted scientific breakthrough, broad smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/ecstasy.webp"
+      },
+      "afterglow": {
+        "reference": "juno_serrat.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: quiet contented satisfaction after completing a mission, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/juno_serrat/afterglow.webp"
+      }
+    },
+    "saeli": {
+      "neutral": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: attentive neutral expression. No text, watermark or extra people.",
+        "output": "expressions/saeli/neutral.webp"
+      },
+      "happy": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bright natural smile. No text, watermark or extra people.",
+        "output": "expressions/saeli/happy.webp"
+      },
+      "relaxed": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: relaxed gentle smile and lowered shoulders. No text, watermark or extra people.",
+        "output": "expressions/saeli/relaxed.webp"
+      },
+      "surprised": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: raised brows, widened eyes, slightly parted lips. No text, watermark or extra people.",
+        "output": "expressions/saeli/surprised.webp"
+      },
+      "angry": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: furrowed brows, controlled anger, tight jaw. No text, watermark or extra people.",
+        "output": "expressions/saeli/angry.webp"
+      },
+      "sad": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: downcast eyes and a visibly sad mouth. No text, watermark or extra people.",
+        "output": "expressions/saeli/sad.webp"
+      },
+      "blush": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bashful smile, mild facial blush or warm light in synthetic face. No text, watermark or extra people.",
+        "output": "expressions/saeli/blush.webp"
+      },
+      "teasing": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: playful asymmetric smile and raised eyebrow. No text, watermark or extra people.",
+        "output": "expressions/saeli/teasing.webp"
+      },
+      "fear": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: frightened eyes, tense lips and shoulders. No text, watermark or extra people.",
+        "output": "expressions/saeli/fear.webp"
+      },
+      "disgust": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: wrinkled nose, narrowed eyes, recoiling displeasure. No text, watermark or extra people.",
+        "output": "expressions/saeli/disgust.webp"
+      },
+      "crying": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: visible tears, grief in brows and mouth; synthetic IVO has expressive luminous tear-like trails. No text, watermark or extra people.",
+        "output": "expressions/saeli/crying.webp"
+      },
+      "seductive": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: warm inviting eye contact and gentle affectionate smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/saeli/seductive.webp"
+      },
+      "aroused": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: animated excitement about a scientific discovery, bright eyes, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/saeli/aroused.webp"
+      },
+      "ecstasy": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: joyful delighted scientific breakthrough, broad smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/saeli/ecstasy.webp"
+      },
+      "afterglow": {
+        "reference": "saeli.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: quiet contented satisfaction after completing a mission, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/saeli/afterglow.webp"
+      }
+    },
+    "idris_vale": {
+      "neutral": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: attentive neutral expression. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/neutral.webp"
+      },
+      "happy": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bright natural smile. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/happy.webp"
+      },
+      "relaxed": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: relaxed gentle smile and lowered shoulders. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/relaxed.webp"
+      },
+      "surprised": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: raised brows, widened eyes, slightly parted lips. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/surprised.webp"
+      },
+      "angry": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: furrowed brows, controlled anger, tight jaw. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/angry.webp"
+      },
+      "sad": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: downcast eyes and a visibly sad mouth. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/sad.webp"
+      },
+      "blush": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bashful smile, mild facial blush or warm light in synthetic face. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/blush.webp"
+      },
+      "teasing": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: playful asymmetric smile and raised eyebrow. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/teasing.webp"
+      },
+      "fear": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: frightened eyes, tense lips and shoulders. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/fear.webp"
+      },
+      "disgust": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: wrinkled nose, narrowed eyes, recoiling displeasure. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/disgust.webp"
+      },
+      "crying": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: visible tears, grief in brows and mouth; synthetic IVO has expressive luminous tear-like trails. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/crying.webp"
+      },
+      "seductive": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: warm inviting eye contact and gentle affectionate smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/seductive.webp"
+      },
+      "aroused": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: animated excitement about a scientific discovery, bright eyes, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/aroused.webp"
+      },
+      "ecstasy": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: joyful delighted scientific breakthrough, broad smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/ecstasy.webp"
+      },
+      "afterglow": {
+        "reference": "idris_vale.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: quiet contented satisfaction after completing a mission, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/idris_vale/afterglow.webp"
+      }
+    },
+    "kian_rook": {
+      "neutral": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: attentive neutral expression. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/neutral.webp"
+      },
+      "happy": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bright natural smile. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/happy.webp"
+      },
+      "relaxed": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: relaxed gentle smile and lowered shoulders. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/relaxed.webp"
+      },
+      "surprised": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: raised brows, widened eyes, slightly parted lips. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/surprised.webp"
+      },
+      "angry": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: furrowed brows, controlled anger, tight jaw. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/angry.webp"
+      },
+      "sad": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: downcast eyes and a visibly sad mouth. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/sad.webp"
+      },
+      "blush": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bashful smile, mild facial blush or warm light in synthetic face. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/blush.webp"
+      },
+      "teasing": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: playful asymmetric smile and raised eyebrow. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/teasing.webp"
+      },
+      "fear": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: frightened eyes, tense lips and shoulders. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/fear.webp"
+      },
+      "disgust": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: wrinkled nose, narrowed eyes, recoiling displeasure. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/disgust.webp"
+      },
+      "crying": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: visible tears, grief in brows and mouth; synthetic IVO has expressive luminous tear-like trails. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/crying.webp"
+      },
+      "seductive": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: warm inviting eye contact and gentle affectionate smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/seductive.webp"
+      },
+      "aroused": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: animated excitement about a scientific discovery, bright eyes, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/aroused.webp"
+      },
+      "ecstasy": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: joyful delighted scientific breakthrough, broad smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/ecstasy.webp"
+      },
+      "afterglow": {
+        "reference": "kian_rook.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: quiet contented satisfaction after completing a mission, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/kian_rook/afterglow.webp"
+      }
+    },
+    "ivo": {
+      "neutral": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: attentive neutral expression. No text, watermark or extra people.",
+        "output": "expressions/ivo/neutral.webp"
+      },
+      "happy": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bright natural smile. No text, watermark or extra people.",
+        "output": "expressions/ivo/happy.webp"
+      },
+      "relaxed": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: relaxed gentle smile and lowered shoulders. No text, watermark or extra people.",
+        "output": "expressions/ivo/relaxed.webp"
+      },
+      "surprised": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: raised brows, widened eyes, slightly parted lips. No text, watermark or extra people.",
+        "output": "expressions/ivo/surprised.webp"
+      },
+      "angry": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: furrowed brows, controlled anger, tight jaw. No text, watermark or extra people.",
+        "output": "expressions/ivo/angry.webp"
+      },
+      "sad": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: downcast eyes and a visibly sad mouth. No text, watermark or extra people.",
+        "output": "expressions/ivo/sad.webp"
+      },
+      "blush": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: bashful smile, mild facial blush or warm light in synthetic face. No text, watermark or extra people.",
+        "output": "expressions/ivo/blush.webp"
+      },
+      "teasing": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: playful asymmetric smile and raised eyebrow. No text, watermark or extra people.",
+        "output": "expressions/ivo/teasing.webp"
+      },
+      "fear": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: frightened eyes, tense lips and shoulders. No text, watermark or extra people.",
+        "output": "expressions/ivo/fear.webp"
+      },
+      "disgust": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: wrinkled nose, narrowed eyes, recoiling displeasure. No text, watermark or extra people.",
+        "output": "expressions/ivo/disgust.webp"
+      },
+      "crying": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: visible tears, grief in brows and mouth; synthetic IVO has expressive luminous tear-like trails. No text, watermark or extra people.",
+        "output": "expressions/ivo/crying.webp"
+      },
+      "seductive": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: warm inviting eye contact and gentle affectionate smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/ivo/seductive.webp"
+      },
+      "aroused": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: animated excitement about a scientific discovery, bright eyes, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/ivo/aroused.webp"
+      },
+      "ecstasy": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: joyful delighted scientific breakthrough, broad smile, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/ivo/ecstasy.webp"
+      },
+      "afterglow": {
+        "reference": "ivo.png",
+        "prompt": "Use case: identity-preserve. Reference image is the identity and costume anchor. Make one single waist-up portrait of exactly the same adult character, same face, hair, clothes, style, camera, framing and background. Change facial expression and subtle body language only: quiet contented satisfaction after completing a mission, fully clothed and nonsexual. No text, watermark or extra people.",
+        "output": "expressions/ivo/afterglow.webp"
+      }
+    }
+  },
+  "backgrounds": {
+    "bridge": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Interior of a small civilian research starship bridge, six empty functional stations, curved panoramic window showing a distant icy moon, teal instruments and warm amber practical lights, asymmetrical original ship architecture, lived in but tidy. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_bridge.webp"
+    },
+    "mess": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Cozy civilian research ship mess, shared table with six chairs, small herb planters, ceramic mugs and fresh flatbread, warm lamps, small window onto stars, no people. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_mess.webp"
+    },
+    "engine_room": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Compact research starship engine room, safe recessed isotope core housing, teal cooled coils, amber work lights, neatly labelled-looking but illegible spare parts drawers, sturdy green service panels, no people. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_engine_room.webp"
+    },
+    "medbay": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Clean compact research starship medbay, two beds, cream walls, scanner arch, sealed sample cabinet, soft reassuring warm lights and subtle teal displays, no people. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_medbay.webp"
+    },
+    "observation": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Quiet starship observation dome, curved glass framing a richly detailed blue nebula and stars, two empty benches, warm interior rim lighting, contemplative spacious scene, no people. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_observation.webp"
+    },
+    "market": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Interior of rotating Kestrel space station market, original modular architecture, colourful fabric awnings and specimen cabinets, alien trade stalls, distant tiny indistinct adult crowds only, strong clear foreground space, no readable signage. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_market.webp"
+    },
+    "dock": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Vast Kestrel space station docking bay, original compact research vessel Morgenstern moored with angular modular hull and paired fold coils, amber service gantries and blue planet beyond opening, empty foreground, no people. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_dock.webp"
+    },
+    "nacre": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Abandoned original science fiction research ship dining compartment, untouched warm meal with subtle steam, empty chairs, life support indicators, sealed corridor at back, eerie restrained teal and pale amber illumination, no people or bodies. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_nacre.webp"
+    },
+    "ice": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Surface of Eiren ice moon, vast fissured blue white ice plain, distant broken orbital ring visible in dark star-filled sky, small sealed expedition landing pod for scale, cold blue light and amber pod lamps, no people. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_ice.webp"
+    },
+    "garden": {
+      "prompt": "Use case: illustration-story. Landscape 16:9 visual novel background. Enormous luminous alien ecosystem beneath translucent ice ceiling, delicate branching coral-like organisms and ribbon plants, pale violet and cyan biological light, shallow reflective pools, path through foreground, sense of wonder, no people. Detailed painterly science-fiction illustration with slight anime influence; original universe; no franchise designs, logos, text or watermark. Rich environmental detail, coherent materials and readable composition. No prominent characters, no text, watermark or franchise emblems.",
+      "output": "backgrounds/sternenbruch_garden.webp"
+    }
+  },
+  "processing": "Portraits fitted to 700x937 PNG; expressions fitted to 640x800 WebP; backgrounds landscape WebP. Cropping/resizing and encoding only; no synthetic expression substitutions.",
+  "sfw_slots": {
+    "seductive": "warm inviting eye contact, fully clothed",
+    "aroused": "animated excitement about a discovery, fully clothed",
+    "ecstasy": "joyful scientific breakthrough, fully clothed",
+    "afterglow": "quiet satisfaction after a completed mission, fully clothed"
+  }
+}
