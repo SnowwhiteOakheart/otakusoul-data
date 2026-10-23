@@ -390,3 +390,20 @@ Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt
 
 **NTE abgeschlossen:** 8/8 Figuren, 120/120 einzeln generierte Emotionsbilder. Alle 60 Charaktere des Repositorys haben damit vollständige 15er-Serien. Profile und bestehende Porträtpixel erhalten.
 - [x] Stimmbeschreibungen (`data.extensions.otakusoul_voice.description`, Englisch) für alle 61 Hub-Charaktere in JSON-, Preset-PNG- und Gateway-PNG-Karten ergänzt (23.10.2026); Registry-Revisionen erhöht.
+
+
+## 🚀 Sternenbruch – Die letzte Verbindung (23.10.2026)
+
+Eigenständige Science-Fiction-Kampagne für den Hub; keine lokale App-Installation. Alle Hauptfiguren erwachsen, SFW, Texte in DE/EN/RU.
+
+- [x] Sechs individuelle V2-Profile: Mara Venn, Juno Serrat, Saeli, Dr. Idris Vale, Kian Rook und IVO; jeweils zwei alternative Einstiege und drei eigene Dialogbeispiele.
+- [x] Drei Lorebooks mit 16 gezielt ausgelösten Einträgen: Welt & Technik, Kulturen & Fraktionen, Crew & Orte.
+- [x] Sechs Soulstages mit eigenständigem Einstieg, überprüfbaren Hinweisen, je drei Startvorschlägen pro Sprache und mehreren Lösungswegen.
+- [ ] Sechs PNG-Porträts und 90 einzeln generierte, referenzgestützte Emotionsbilder; zehn Hintergründe.
+- [ ] PNG-Payloads, Gateway-Karten, drei Registries und Bildverweise geprüft; vollständige Inhaltsvalidierung.
+
+Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots: `presets/sternenbruch/image_prompts.json`; Paketbeschreibung in DE/EN/RU: `presets/sternenbruch/README.md`.
+
+### Geprüfte Sternenbruch-Figuren
+
+- [x] Mara Venn: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
