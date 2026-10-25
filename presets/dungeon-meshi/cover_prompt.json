@@ -1,0 +1,19 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Create one polished anime story collection cover, landscape 16:9, no text or logos. Dungeon Meshi. Reference contact sheet shows Chilchuck, Laios, Marcille, Senshi, and the actual story dungeon background: preserve their recognizable identities and costumes. Cinematic ensemble composition of all four cooking a steaming monster stew at a campfire within the expansive mossy, torchlit stone dungeon in the reference. Marcille reacts with dubious surprise, Laios eagerly presents a bowl, Senshi cooks, Chilchuck watches. Beautiful cohesive illustration, warm fire against cool green dungeon depth, detailed visible background occupying upper half, readable thumbnail silhouettes, all faces within safe margins. Fully clothed, wholesome adventure. Deliver a single 16:9 image.",
+  "references": [
+    "presets/dungeon-meshi/chilchuck_tims.png",
+    "presets/dungeon-meshi/laios_touden.png",
+    "presets/dungeon-meshi/marcille_donato.png",
+    "presets/dungeon-meshi/senshi.png",
+    "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep1_skorpionsuppe.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

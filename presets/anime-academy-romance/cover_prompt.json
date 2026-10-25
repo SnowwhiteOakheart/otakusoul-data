@@ -1,0 +1,18 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 story collection cover, no text, logo, watermark, no panels. Marin Kitagawa, Hayase Nagatoro and Aoi Mizuno in modest complete school uniforms in the reference's rainy clubroom, tea and books on table, cherry trees and distant fireworks through wide window, warm wholesome school friendship and gentle romance. All characters age appropriate and nonsexual. Several characters where listed, background visibly occupies at least half the frame, compelling thumbnail composition, faces safely within margins. No nudity or sexual content.",
+  "references": [
+    "presets/marin-kitagawa/marin_kitagawa.png",
+    "presets/nagatoro/hayase_nagatoro.png",
+    "presets/aobane-highschool/aoi_mizuno.png",
+    "presets/anime-academy-romance/backgrounds/romance_rainy_clubroom.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

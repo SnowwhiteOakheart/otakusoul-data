@@ -1,0 +1,19 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 collection cover. Reference sheet contains character identity references and actual story background. Chisato and Takina in their red and navy uniforms at Cafe LycoReco, with Kurumi at a laptop behind them. Preserve reference cafe timber architecture, amber sunlit tables and warm hospitality, a discreet mission bag hints at action, no combat. Lively friendship and espionage. Cohesive scene, not panels or a collage; several recognizable characters foreground, detailed location clearly visible across at least half the picture, cinematic lighting, readable at thumbnail scale, faces safely inside frame. No text, logos, watermark, nudity or sexualization.",
+  "references": [
+    "presets/lycoris-recoil/chisato_nishikigi.png",
+    "presets/lycoris-recoil/kurumi.png",
+    "presets/lycoris-recoil/mizuki_nakahara.png",
+    "presets/lycoris-recoil/takina_inoue.png",
+    "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep1_willkommen_im_cafe.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

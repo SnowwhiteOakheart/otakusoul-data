@@ -1,0 +1,19 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 collection cover. Reference sheet contains character identity references and actual story background. Okabe Rintarou in white lab coat, Mayuri in pale blue hat and dress, Daru in cap and glasses in the Future Gadget Lab with a mysterious green glowing microwave, open windows showing the Akihabara rooftop from the reference. Dramatic time-travel mystery, amber afternoon light and green digital reflections. Cohesive scene, not panels or a collage; several recognizable characters foreground, detailed location clearly visible across at least half the picture, cinematic lighting, readable at thumbnail scale, faces safely inside frame. No text, logos, watermark, nudity or sexualization.",
+  "references": [
+    "presets/steins-gate/itaru_hashida.png",
+    "presets/steins-gate/mayuri_shiina.png",
+    "presets/steins-gate/okabe_rintarou.png",
+    "presets/steins-gate/suzuha_amane.png",
+    "presets/steins-gate/backgrounds/steins_gate_ep1_erste_dmail.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

@@ -1,0 +1,18 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 story collection cover, no text, logo, watermark, no panels. Kurumi the blonde hacker in modest oversized hoodie, Shinku with black hair and hornlike accessories in a fitted but fully covered futuristic coat, Lacrimosa with white and black hair and red jacket. Preserve faces from reference. They plan a job around a glowing holographic map in the foreground of the reference's rainy Watson neon alley. Broad visible urban depth, teal and magenta reflections. Nonsexual cyberpunk action. Several characters where listed, background visibly occupies at least half the frame, compelling thumbnail composition, faces safely within margins. No nudity or sexual content.",
+  "references": [
+    "presets/lycoris-recoil/kurumi.png",
+    "presets/neverness-to-everness/shinku.png",
+    "presets/neverness-to-everness/lacrimosa.png",
+    "presets/cyberpunk-night-city/backgrounds/cyberpunk_watson_neon_alley.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

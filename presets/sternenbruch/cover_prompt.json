@@ -1,0 +1,19 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 collection cover. Reference sheet contains character identity references and actual story background. Use cinematic painted science fiction realism matching reference, NOT anime. Juno Serrat in mustard utility suit, elderly alien Saeli in purple robe and Kian Rook with mechanical hand on the expansive starship bridge from the reference. Vast fractured planet and mysterious distant luminous ring through panoramic windows. Warm brass ship interior, teal space, exploration and ominous wonder. Cohesive scene, not panels or a collage; several recognizable characters foreground, detailed location clearly visible across at least half the picture, cinematic lighting, readable at thumbnail scale, faces safely inside frame. No text, logos, watermark, nudity or sexualization.",
+  "references": [
+    "presets/sternenbruch/juno_serrat.png",
+    "presets/sternenbruch/saeli.png",
+    "presets/sternenbruch/idris_vale.png",
+    "presets/sternenbruch/kian_rook.png",
+    "presets/sternenbruch/backgrounds/sternenbruch_bridge.webp"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

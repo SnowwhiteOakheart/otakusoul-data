@@ -1,0 +1,19 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 collection cover. Reference sheet contains character identity references and actual story background. Chlammy Zell and Fiel Nirvalen face each other across an enormous magical chessboard in the sunset castle garden from the reference. Jibril hovers above with glowing halo. Fully clothed modest fantasy outfits. Luminous saturated purple, gold, blue, strategic fantasy adventure. Cohesive scene, not panels or a collage; several recognizable characters foreground, detailed location clearly visible across at least half the picture, cinematic lighting, readable at thumbnail scale, faces safely inside frame. No text, logos, watermark, nudity or sexualization.",
+  "references": [
+    "presets/no-game-no-life/chlammy_zell.png",
+    "presets/no-game-no-life/fiel_nirvalen.png",
+    "presets/no-game-no-life/izuna_hatsuse.png",
+    "presets/no-game-no-life/jibril.png",
+    "presets/no-game-no-life/backgrounds/Horizontal Castle War Garden.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

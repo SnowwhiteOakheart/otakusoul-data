@@ -412,3 +412,7 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Dr. Idris Vale: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
 - [x] Kian Rook: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
 - [x] IVO: V2-JSON/PNG, Gateway-Karte und 15 unterschiedliche Emotionsbilder geprüft.
+
+## Sammlungs-Titelbilder (25.10.2026)
+
+- [x] Alle 11 Sammlungen mit individuellen, KI-generierten Figuren-/Schauplatz-Keyvisuals als `presets/<paket>/cover.webp` (960×540) ausgestattet; Referenzen, Prompts und Nachbearbeitung je Paket in `cover_prompt.json` dokumentiert.

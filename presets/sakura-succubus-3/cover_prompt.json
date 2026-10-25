@@ -1,0 +1,19 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 collection cover. Reference sheet contains character identity references and actual story background. Ayu Ikue, Cosmos and Hifumi together in a lively Tokyo high-rise shared living room, twilight skyline and Tokyo Tower beyond the windows. Match reference faces and fully clothed costumes; cheerful supernatural romantic comedy, cherry petals, warm pink and gold. Cohesive scene, not panels or a collage; several recognizable characters foreground, detailed location clearly visible across at least half the picture, cinematic lighting, readable at thumbnail scale, faces safely inside frame. No text, logos, watermark, nudity or sexualization.",
+  "references": [
+    "presets/sakura-succubus-3/ayu_ikue.png",
+    "presets/sakura-succubus-3/cosmos.png",
+    "presets/sakura-succubus-3/hazel_williams.png",
+    "presets/sakura-succubus-3/hifumi_yamamoto.png",
+    "presets/sakura-succubus-3/backgrounds/Horizontal Corporate Office.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}
