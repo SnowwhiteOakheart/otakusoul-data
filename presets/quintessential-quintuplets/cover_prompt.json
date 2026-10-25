@@ -6,14 +6,22 @@
   ],
   "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
   "generated": "2026-10-25",
-  "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 collection cover. Reference sheet contains character identity references and actual story background. Futaro with open study book, Ichika, Itsuki and Miku with headphones around neck gather around a table in the warm sunset penthouse living room from reference, homework papers, friendly comedic expressions, wholesome school-life ensemble. Include recognizable sisters Nino with butterfly ribbons and Yotsuba with green ribbon in the midground, all fully clothed. Cohesive scene, not panels or a collage; several recognizable characters foreground, detailed location clearly visible across at least half the picture, cinematic lighting, readable at thumbnail scale, faces safely inside frame. No text, logos, watermark, nudity or sexualization.",
+  "prompt": "Use case: illustration-story. Recreate this Quintessential Quintuplets collection cover as a NEW polished 16:9 anime illustration, correcting the anatomical defects in the reference. Keep all SIX characters recognizable: Futaro Uesugi (black hair, dark blazer), Ichika (short pink hair, yellow cardigan), Nino (long reddish-pink hair with black butterfly ribbons), Miku (brown hair covering one eye, blue headphones around neck and blue cardigan), Yotsuba (orange hair, green rabbit-ear ribbon), Itsuki (red hair, gold star hairclips, red vest). Fully clothed, wholesome homework study group in the same luxurious sunset penthouse living room, skyline and warm windows clearly visible. Use a spacious composition with each person having their own clearly separated silhouette and simple natural pose. Futaro sits on the LEFT with BOTH forearms resting on the table, one hand holding a pen and the other flat on his own notebook; no arm behind his head. Ichika sits next to him with both hands resting together on her own notebook. Itsuki sits at center-right holding her book with two hands. Miku sits on the far right with both forearms on the table beside her own closed notebook. Nino and Yotsuba stand behind the seated group with arms relaxed at their sides, hands hidden naturally by the table and their own bodies; neither raises a hand. Every person has exactly two arms, anatomically coherent shoulders, elbows and hands, no extra limbs, no disembodied hands, no shared arms, no duplicated fingers, no arms reaching across another person. Arrange the group in two clear depth layers without tangled limbs. Expressive friendly faces, detailed beautiful background, cinematic lighting, clean professional anime key art, faces safely within frame. No text, logos, watermarks or panels.",
   "references": [
-    "presets/quintessential-quintuplets/futaro_uesugi.png",
-    "presets/quintessential-quintuplets/ichika_nakano.png",
-    "presets/quintessential-quintuplets/itsuki_nakano.png",
-    "presets/quintessential-quintuplets/miku_nakano.png",
-    "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
+    "presets/quintessential-quintuplets/cover.webp"
   ],
   "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92.",
-  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin.",
+  "previous_generation": {
+    "prompt": "Use case: illustration-story. Create ONE polished landscape 16:9 collection cover. Reference sheet contains character identity references and actual story background. Futaro with open study book, Ichika, Itsuki and Miku with headphones around neck gather around a table in the warm sunset penthouse living room from reference, homework papers, friendly comedic expressions, wholesome school-life ensemble. Include recognizable sisters Nino with butterfly ribbons and Yotsuba with green ribbon in the midground, all fully clothed. Cohesive scene, not panels or a collage; several recognizable characters foreground, detailed location clearly visible across at least half the picture, cinematic lighting, readable at thumbnail scale, faces safely inside frame. No text, logos, watermark, nudity or sexualization.",
+    "references": [
+      "presets/quintessential-quintuplets/futaro_uesugi.png",
+      "presets/quintessential-quintuplets/ichika_nakano.png",
+      "presets/quintessential-quintuplets/itsuki_nakano.png",
+      "presets/quintessential-quintuplets/miku_nakano.png",
+      "presets/quintessential-quintuplets/backgrounds/penthouse_wohnzimmer.png"
+    ]
+  },
+  "reference_revision": "723163c9b8114820562a9ea8bc1563c66be5385a",
+  "revision_note": "Neu generiert mit getrennten Posen und visuell geprüfter Arm-/Handanatomie."
 }
