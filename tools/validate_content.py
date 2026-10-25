@@ -263,6 +263,45 @@ def sync_registry(file: str, key: str, fields: dict[str, str]):
     print(f'{file}: {changed} Einträge abgeglichen')
 
 
+def check_collections(souls: list[dict], books: list[dict], scenes: list[dict]) -> int:
+    """Collections group lorebooks, scenes and characters of one story; every reference must exist."""
+    content = load_json(os.path.join(ROOT, 'collections_registry.json'))
+    if not content:
+        return 0
+    soul_names = {e.get('name') for e in souls}
+    book_names = {e.get('name') for e in books}
+    scene_ids = {e.get('id'): e for e in scenes}
+    seen = set()
+    entries = content.get('collections') or []
+    for c in entries:
+        label = f'collections_registry.json: {c.get("id")}'
+        for field in ('id', 'title', 'author', 'description', 'cover_url', 'revision', 'updated'):
+            if field not in c:
+                errors.append(f'{label}: Feld {field} fehlt')
+        if c.get('id') in seen:
+            errors.append(f'{label} doppelt')
+        seen.add(c.get('id'))
+        if c.get('cover_url') and not os.path.exists(repo_file(c['cover_url'])):
+            errors.append(f'{label}: Titelbild fehlt ({c["cover_url"]})')
+        for name in c.get('lorebooks') or []:
+            if name not in book_names:
+                errors.append(f'{label}: Lorebook {name!r} steht nicht in lorebooks_registry.json')
+        for name in c.get('characters') or []:
+            if name not in soul_names:
+                errors.append(f'{label}: Charakter {name!r} steht nicht in soul_registry.json')
+        listed = {n.lower() for n in c.get('characters') or []} | {short_name(n) for n in c.get('characters') or []}
+        for sid in c.get('scenes') or []:
+            entry = scene_ids.get(sid)
+            if not entry:
+                errors.append(f'{label}: Szene {sid!r} steht nicht in stages_registry.json')
+                continue
+            scene = load_json(repo_file(entry['download_url'])) or {}
+            for member in scene.get('party') or []:
+                if member.lower() not in listed and short_name(member) not in listed:
+                    warnings.append(f'{label}: {member} spielt in {sid} mit, fehlt aber in characters')
+    return len(entries)
+
+
 OPEN_LICENSES = {'apache-2.0', 'mit', 'bsd-2-clause', 'bsd-3-clause'}
 
 
@@ -362,13 +401,14 @@ def main():
                     if scene:
                         check_scene(os.path.join(dirpath, name), scene, names, lorebook_names)
 
+    collections = check_collections(souls, books, scenes)
     models = check_models()
 
     for line in warnings:
         print(f'Warnung: {line}')
     for line in errors:
         print(f'FEHLER:  {line}')
-    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {models} Modelle geprüft: '
+    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle geprüft: '
           f'{len(errors)} Fehler, {len(warnings)} Warnungen')
     sys.exit(1 if errors else 0)
 

@@ -1,0 +1,433 @@
+{
+  "version": "1.0",
+  "collections": [
+    {
+      "id": "sakura_succubus_3",
+      "title": "Sakura Succubus 3",
+      "author": "SnowwhiteOakheart",
+      "description": "Sukkuben in Tokio, eine überfüllte WG und ein Geheimnis, das nicht in die Zeitung darf.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/sakura-succubus-3/cover.webp",
+      "lorebooks": [
+        "Sakura Succubus 3 – Welt",
+        "Sakura Succubus 3 – Figuren",
+        "Sakura Succubus 3 – Orte"
+      ],
+      "scenes": [
+        "redaktionsschluss",
+        "der_wohltaetigkeitsball",
+        "wohnungskrieg",
+        "audienz_im_thronsaal",
+        "ein_tee_zu_zweit",
+        "matchball",
+        "hanami_live_ayu_cosmos",
+        "missing_mic_ayu_cosmos",
+        "ryokan_night_ayu_cosmos"
+      ],
+      "characters": [
+        "Cosmos",
+        "Ayu Ikue",
+        "Marina Wakatsuki",
+        "Hazel Williams",
+        "Hifumi Yamamoto",
+        "Yue"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Succubi in Tokyo, an overcrowded shared flat and a secret that must not make the papers."
+        },
+        "ja": {
+          "description": "東京に暮らすサキュバスたち、満員のシェアハウス、そして新聞に載ってはならない秘密。"
+        },
+        "ru": {
+          "description": "Суккубы в Токио, переполненная квартира и тайна, которая не должна попасть в газеты."
+        }
+      }
+    },
+    {
+      "id": "no_game_no_life",
+      "title": "No Game No Life",
+      "author": "SnowwhiteOakheart",
+      "description": "Disboard, wo jeder Streit per Spiel entschieden wird: Sora und Shiro fordern die sechzehn Rassen heraus.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/no-game-no-life/cover.webp",
+      "lorebooks": [
+        "No Game No Life – Welt & Gebote",
+        "No Game No Life – Rassen & Orte",
+        "No Game No Life – Figuren"
+      ],
+      "scenes": [
+        "episode1_anfaenger",
+        "episode2_herausforderer",
+        "episode3_experte",
+        "episode4_grossmeister",
+        "episode5_schwaches_feld",
+        "episode6_interessant_jibril",
+        "episode7_opfer",
+        "episode8_falsches_ende",
+        "episode9_himmelswandel",
+        "episode10_blaue_rose",
+        "episode11_riesentoeten",
+        "episode12_regel_nummer_zehn"
+      ],
+      "characters": [
+        "Sora",
+        "Shiro",
+        "Stephanie Dola",
+        "Jibril",
+        "Chlammy Zell",
+        "Fiel Nirvalen",
+        "Izuna Hatsuse"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Disboard, where every conflict is settled by a game: Sora and Shiro challenge the sixteen races."
+        },
+        "ja": {
+          "description": "あらゆる争いがゲームで決まる世界ディスボード。空と白が十六種族に挑む。"
+        },
+        "ru": {
+          "description": "Дисборд, где любой спор решается игрой: Сора и Сиро бросают вызов шестнадцати расам."
+        }
+      }
+    },
+    {
+      "id": "dungeon_meshi",
+      "title": "Dungeon Meshi",
+      "author": "SnowwhiteOakheart",
+      "description": "Tiefer ins Labyrinth, um Falin zu retten – und unterwegs wird gekocht, was die Monster hergeben.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/dungeon-meshi/cover.webp",
+      "lorebooks": [
+        "Dungeon Meshi – Ökologie & Labyrinth-Regeln",
+        "Dungeon Meshi – Monster-Rezepte & Kochkunst",
+        "Dungeon Meshi – Figuren & Goldene Dynastie"
+      ],
+      "scenes": [
+        "dungeon_meshi_ep1_skorpionsuppe",
+        "dungeon_meshi_ep2_klingenbasilisk",
+        "dungeon_meshi_ep3_alraunenernte",
+        "dungeon_meshi_ep4_wassergeister",
+        "dungeon_meshi_ep5_roter_drache"
+      ],
+      "characters": [
+        "Laios Touden",
+        "Marcille Donato",
+        "Chilchuck Tims",
+        "Senshi"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Deeper into the dungeon to save Falin – cooking whatever the monsters have to offer along the way."
+        },
+        "ja": {
+          "description": "ファリンを救うため迷宮の奥へ。道中は魔物を食材に料理する。"
+        },
+        "ru": {
+          "description": "Всё глубже в подземелье ради спасения Фалин – и по пути готовится всё, что дают монстры."
+        }
+      }
+    },
+    {
+      "id": "steins_gate",
+      "title": "Steins;Gate",
+      "author": "SnowwhiteOakheart",
+      "description": "Akihabara 2010: Eine Mikrowelle schickt Nachrichten in die Vergangenheit, und jede verschiebt die Weltlinie.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/steins-gate/cover.webp",
+      "lorebooks": [
+        "Steins;Gate – Weltlinien & Divergenz",
+        "Steins;Gate – Labor-Gadgets & D-Mails",
+        "Steins;Gate – Akihabara 2010 & SERN"
+      ],
+      "scenes": [
+        "steins_gate_ep1_erste_dmail",
+        "steins_gate_ep2_ibn5100_suche",
+        "steins_gate_ep3_operation_urd",
+        "steins_gate_ep4_schmetterlingseffekt",
+        "steins_gate_ep5_tor_zu_steins_gate"
+      ],
+      "characters": [
+        "Okabe Rintarou",
+        "Mayuri Shiina",
+        "Itaru Hashida",
+        "Suzuha Amane"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Akihabara 2010: a microwave sends messages into the past, and each one shifts the world line."
+        },
+        "ja": {
+          "description": "2010年の秋葉原。電子レンジが過去へメールを送り、そのたびに世界線が動く。"
+        },
+        "ru": {
+          "description": "Акихабара, 2010: микроволновка отправляет сообщения в прошлое, и каждое сдвигает мировую линию."
+        }
+      }
+    },
+    {
+      "id": "lycoris_recoil",
+      "title": "Lycoris Recoil",
+      "author": "SnowwhiteOakheart",
+      "description": "Café LycoReco: Kaffee am Tresen, Einsätze für die DA im Hinterzimmer.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/lycoris-recoil/cover.webp",
+      "lorebooks": [
+        "Lycoris Recoil – DA & Alan Institute",
+        "Lycoris Recoil – Café LycoReco",
+        "Lycoris Recoil – Ausrüstung & Taktik"
+      ],
+      "scenes": [
+        "lycoris_recoil_ep1_willkommen_im_cafe",
+        "lycoris_recoil_ep2_geleitschutz_tokio",
+        "lycoris_recoil_ep3_jagd_nach_walnut",
+        "lycoris_recoil_ep4_duell_im_morgengrauen"
+      ],
+      "characters": [
+        "Chisato Nishikigi",
+        "Takina Inoue",
+        "Kurumi",
+        "Mizuki Nakahara"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Café LycoReco: coffee at the counter, DA missions in the back room."
+        },
+        "ja": {
+          "description": "喫茶リコリコ。カウンターではコーヒーを、奥の部屋ではDAの任務を。"
+        },
+        "ru": {
+          "description": "Кафе LycoReco: кофе за стойкой, задания DA в подсобке."
+        }
+      }
+    },
+    {
+      "id": "sword_art_online",
+      "title": "Sword Art Online",
+      "author": "SnowwhiteOakheart",
+      "description": "Gefangen in Aincrad: hundert Ebenen, kein Ausloggen, und wer im Spiel stirbt, stirbt wirklich.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/sword-art-online/cover.webp",
+      "lorebooks": [
+        "Sword Art Online – Aincrad-Systemregeln",
+        "Sword Art Online – Gilden & Fraktionen",
+        "Sword Art Online – Aincrad-Geografie"
+      ],
+      "scenes": [
+        "sao_ep1_die_verkuendung",
+        "sao_ep2_boss_ebene1",
+        "sao_ep3_waerme_des_herzens",
+        "sao_ep4_duell_in_den_schatten",
+        "sao_ep5_der_glaenzende_blick"
+      ],
+      "characters": [
+        "Kirito (Kazuto Kirigaya)",
+        "Klein (Ryoutarou Tsuboi)",
+        "Asuna Yuuki",
+        "Lisbeth (Rika Shinozaki)"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Trapped in Aincrad: a hundred floors, no logout, and dying in the game means dying for real."
+        },
+        "ja": {
+          "description": "アインクラッドに囚われて。百層、ログアウト不可、ゲームでの死は現実の死。"
+        },
+        "ru": {
+          "description": "Ловушка Айнкрада: сто этажей, выхода нет, а смерть в игре – настоящая смерть."
+        }
+      }
+    },
+    {
+      "id": "night_city_2077",
+      "title": "Night City 2077",
+      "author": "SnowwhiteOakheart",
+      "description": "Neonlicht, Konzerne und das Netz: Aufträge für Edgerunner im Schatten von Night City.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/cyberpunk-night-city/cover.webp",
+      "lorebooks": [
+        "Night City 2077 – Edgerunner, Konzerne & das Netz"
+      ],
+      "scenes": [
+        "cyberpunk_ghost_in_subgrid",
+        "cyberpunk_afterlife_deal"
+      ],
+      "characters": [
+        "Kurumi",
+        "Shinku",
+        "Lacrimosa",
+        "Chisato Nishikigi"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Neon, corporations and the Net: jobs for edgerunners in the shadow of Night City."
+        },
+        "ja": {
+          "description": "ネオン、巨大企業、そしてネット。ナイトシティの影で動くエッジランナーの仕事。"
+        },
+        "ru": {
+          "description": "Неон, корпорации и Сеть: заказы для эджраннеров в тени Найт-Сити."
+        }
+      }
+    },
+    {
+      "id": "aetheria_chronicles",
+      "title": "Aetheria Chronicles",
+      "author": "SnowwhiteOakheart",
+      "description": "Beschworen in eine Fantasywelt mit Gilden, Systemmagie und einem Labyrinth voller Sterne.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/isekai-aetheria/cover.webp",
+      "lorebooks": [
+        "Aetheria Chronicles – Isekai-Abenteuer, Gilden & Systemmagie"
+      ],
+      "scenes": [
+        "isekai_null_mana_summoning",
+        "isekai_labyrinth_of_aetheria"
+      ],
+      "characters": [
+        "Frieren",
+        "Megumin",
+        "Rem",
+        "Marcille Donato"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Summoned into a fantasy world of guilds, system magic and a labyrinth full of stars."
+        },
+        "ja": {
+          "description": "ギルドとシステム魔法、星々の迷宮がある異世界へ召喚される。"
+        },
+        "ru": {
+          "description": "Призыв в фэнтезийный мир гильдий, системной магии и звёздного лабиринта."
+        }
+      }
+    },
+    {
+      "id": "herzensklopfen",
+      "title": "Herzensklopfen & Kirschblüten",
+      "author": "SnowwhiteOakheart",
+      "description": "Regen im Clubraum, Feuerwerk auf dem Dach: Anime-Romance an der Akademie.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/anime-academy-romance/cover.webp",
+      "lorebooks": [
+        "Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik"
+      ],
+      "scenes": [
+        "romance_rainy_clubroom_confessions",
+        "romance_rooftop_festival_fireworks"
+      ],
+      "characters": [
+        "Marin Kitagawa",
+        "Hayase Nagatoro",
+        "Aoi Mizuno",
+        "Kaguya Shinomiya",
+        "Asuna Yuuki",
+        "Rem"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Rain in the club room, fireworks on the roof: anime romance at the academy.",
+          "title": "Heartbeats & Cherry Blossoms"
+        },
+        "ja": {
+          "description": "雨の部室、屋上の花火。学園で紡ぐアニメ風ラブロマンス。",
+          "title": "Heartbeats & Cherry Blossoms"
+        },
+        "ru": {
+          "description": "Дождь в клубной комнате, фейерверк на крыше: аниме-романтика в академии.",
+          "title": "Heartbeats & Cherry Blossoms"
+        }
+      }
+    },
+    {
+      "id": "quintessential_quintuplets",
+      "title": "The Quintessential Quintuplets",
+      "author": "SnowwhiteOakheart",
+      "description": "Fünf Schwestern, ein Nachhilfelehrer und die Frage, welche von ihnen am Ende die Braut ist.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/quintessential-quintuplets/cover.webp",
+      "lorebooks": [
+        "The Quintessential Quintuplets – Die Nakano-Schwestern",
+        "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt",
+        "The Quintessential Quintuplets – Orte & Schulalltag"
+      ],
+      "scenes": [
+        "quintuplets_ep1_penthouse_nachhilfe",
+        "quintuplets_ep2_feuerwerk_gestaendnis",
+        "quintuplets_ep3_zwischenpruefung",
+        "quintuplets_ep4_schneefahrt_huette",
+        "quintuplets_ep5_schulfest_gestaendnisse"
+      ],
+      "characters": [
+        "Futaro Uesugi",
+        "Ichika Nakano",
+        "Nino Nakano",
+        "Miku Nakano",
+        "Yotsuba Nakano",
+        "Itsuki Nakano"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "Five sisters, one tutor and the question of which of them will be the bride in the end."
+        },
+        "ja": {
+          "description": "五人の姉妹と一人の家庭教師。最後に花嫁となるのは誰か。"
+        },
+        "ru": {
+          "description": "Пять сестёр, один репетитор и вопрос, кто из них в итоге станет невестой."
+        }
+      }
+    },
+    {
+      "id": "sternenbruch",
+      "title": "Sternenbruch",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein Signal am Rand der Karte, eine kleine Crew und ein Tor, das besser verschlossen geblieben wäre.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/sternenbruch/cover.webp",
+      "lorebooks": [
+        "Sternenbruch – Welt & Technik",
+        "Sternenbruch – Kulturen & Fraktionen",
+        "Sternenbruch – Crew & Orte"
+      ],
+      "scenes": [
+        "sternenbruch_ep1_signal",
+        "sternenbruch_ep2_market",
+        "sternenbruch_ep3_nacre",
+        "sternenbruch_ep4_garden",
+        "sternenbruch_ep5_memory",
+        "sternenbruch_ep6_gate"
+      ],
+      "characters": [
+        "Mara Venn",
+        "Juno Serrat",
+        "IVO",
+        "Saeli",
+        "Kian Rook",
+        "Dr. Idris Vale"
+      ],
+      "revision": 1,
+      "updated": "2026-10-25",
+      "translations": {
+        "en": {
+          "description": "A signal at the edge of the map, a small crew and a gate that should have stayed shut."
+        },
+        "ja": {
+          "description": "星図の果ての信号、小さなクルー、そして閉ざされたままであるべきだった門。"
+        },
+        "ru": {
+          "description": "Сигнал на краю карты, небольшой экипаж и врата, которым лучше было оставаться закрытыми."
+        }
+      }
+    }
+  ]
+}

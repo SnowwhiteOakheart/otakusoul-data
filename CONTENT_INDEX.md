@@ -103,7 +103,7 @@ Hier wird beschrieben, an welchen Stellen im OtakuSoul-Codebase (`OtakuSoul/src-
 
 ### 4. Hub-Registries & Versionskontrolle
 * **Registry-Abruf & Download:**
-  * `src-tauri/src/modules/hub.rs`: Lädt `soul_registry.json`, `stages_registry.json`, `lorebooks_registry.json` über GitHub Raw.
+  * `src-tauri/src/modules/hub.rs`: Lädt `soul_registry.json`, `stages_registry.json`, `lorebooks_registry.json` und `collections_registry.json` (Sammlungen je Geschichte) über GitHub Raw.
   * Lädt beim Szenenimport verknüpfte Hintergrundbilder aus `extensions.otakusoul_assets.backgrounds` automatisch herunter.
 * **Revisionsabgleich & Updates:**
   * `src-tauri/src/modules/hub_installed.rs`: Vergleicht lokale `revision` mit der Registry-`revision`. Höhere Zahl = Update verfügbar.

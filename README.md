@@ -97,6 +97,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 | [`soul_registry.json`](soul_registry.json) / [`cards_gateway/`](cards_gateway/) | Charakterkatalog und eigenständig importierbare PNG-Karten |
 | [`stages_registry.json`](stages_registry.json) / [`stages_gateway/`](stages_gateway/) | Szenenkatalog und interaktive Story-JSONs |
 | [`lorebooks_registry.json`](lorebooks_registry.json) / [`lorebooks_gateway/`](lorebooks_gateway/) | Lorebook-Katalog und Wissensdatenbanken |
+| [`collections_registry.json`](collections_registry.json) | Sammlungen: Lorebooks, Szenen und Figuren einer Geschichte mit Titelbild |
 | [`presets/`](presets/) | 21 modulare Themenpakete mit Karten, Expressions, Hintergründen und Dokumentation |
 | [`CONTENT_INDEX.md`](CONTENT_INDEX.md) | Kompakte tokensparende Matrix über alle Charaktere, Stages, Lorebooks und App-Aufrufe |
 | [`ROADMAP.md`](ROADMAP.md) | Entwicklungs-Roadmap, Qualitätsstandards und Fortschritts-Checkliste |
