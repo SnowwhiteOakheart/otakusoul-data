@@ -1,0 +1,44 @@
+# Live2D-Modelle & Lizenzen / Live2D Models & Licenses
+
+## Mitgelieferte Live2D-Modelle (`avatars/live2d/`)
+
+Die folgenden Live2D Cubism-Modelle werden unter den Bedingungen des **Live2D Free Material License Agreement** (一般向け無償提供モデル提供規約) und den zugehörigen **Terms of Use for Live2D Cubism Sample Data** bereitgestellt.
+
+The following Live2D Cubism models are provided under the terms of the **Live2D Free Material License Agreement** and the associated **Terms of Use for Live2D Cubism Sample Data**.
+
+---
+
+### 1. Niziiro Mao (PRO Version) (`avatars/live2d/mao_pro/`)
+* **Charakter:** Niziiro Mao (PRO-Version) – Original Live2D-Charakter mit BlendShapes, Screen-/Multiply-Farbeffekten und erweiterter frontaler VTuber-Bewegung.
+* **Format:** Live2D Cubism 4 (.moc3 / .model3.json, 4096er Texturatlas)
+* **Urheber:** 
+  - Illustration: Live2D Inc.
+  - Modellierung / Rigging: Live2D Inc.
+* **Quellen:** 
+  - https://www.live2d.com/en/download/sample-data/
+  - https://github.com/Open-LLM-VTuber/Open-LLM-VTuber (live2d-models/mao_pro)
+* **Lizenz:** Live2D Free Material License Agreement (https://www.live2d.com/eula/live2d-free-material-license-agreement_en.html)
+* **Bedingungen:**
+  - Kostenlose Nutzung für Einzelpersonen, Bildungseinrichtungen und Kleinunternehmen (Jahresumsatz < 10 Mio. JPY / ca. 60.000 €).
+  - Keine Sublizenzierung unter freien Software-Lizenzen (GPL/MIT); Modell-Dateien verbleiben urheberrechtlich bei Live2D Inc.
+
+### 2. Shizuku PRO (`avatars/live2d/shizuku/`)
+* **Charakter:** Shizuku PRO (しずく PRO版) – Klassisches Schul- und Alltagsmädchen mit differenzierten Hand- und Gesichtsanimationen.
+* **Format:** Live2D Cubism 4 (.moc3 / .model3.json, 1024er Texturen)
+* **Urheber:**
+  - Illustration: Live2D Inc.
+  - Modellierung / Rigging: Live2D Inc.
+* **Quellen:**
+  - https://www.live2d.com/download/sample-data/
+  - https://github.com/Open-LLM-VTuber/Open-LLM-VTuber (live2d-models/shizuku)
+* **Lizenz:** Live2D Free Material License Agreement (https://www.live2d.com/eula/live2d-free-material-license-agreement_en.html)
+* **Individuelle Nutzungsauflage von Live2D Inc.:**
+  - Name und grundlegende Einstellungen des Charakters dürfen nicht verändert werden (*„Use this character directly without changing the name or settings.“*).
+
+---
+
+## Gesetzlicher Copyright-Hinweis / Mandatory Copyright Notice
+
+Gemäß den Nutzungsrichtlinien von Live2D Inc. gilt für die Verwendung dieser Daten:
+
+> *„This content uses sample data owned and copyrighted by Live2D Inc. The sample data are utilized in accordance with terms and conditions set by Live2D Inc. This content itself is created at the author’s sole discretion.“*

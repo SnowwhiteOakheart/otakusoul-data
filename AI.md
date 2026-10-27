@@ -34,6 +34,7 @@ locales/ui_registry.json         Index der Oberflächensprachen (id, Name, versi
 locales/ui/<kürzel>.json         Oberflächensprachen der App (Schlüssel wie im App-Code)
 avatars/                        zusätzliche Avatar-Dateien
 avatars/vrm/lizenzen.txt         Herkunft und Bedingungen der VRM-Modelle
+avatars/live2d/                  Live2D-Modelle (Mao Pro, Shizuku) mit lizenzen.txt
 presets/<paket>/                 zusammengehörige Inhalte
   <figur>.json / <figur>.png     Profil und eingebettete PNG-Karte
   expressions/<figur>/          Emotionsbilder und Promptnachweise
@@ -168,6 +169,14 @@ Kopie mit (`presets/inochi2d_registry.json` im App-Repository) und lädt beim St
 - Keine Puppendateien ins Repository; nur weiterverteilbare Lizenzen eintragen und Namensnennung im Eintrag führen.
 - Nennt eine Hub-Karte eine Puppe aus dieser Liste, bietet der Chat an, sie zu laden.
 - Die App überspringt Einträge mit Pfad im Namen, ohne https oder mit fehlerhafter SHA-256; `tools/validate_content.py` prüft mit.
+
+
+### Live2D-Modelle (`avatars/live2d/`)
+
+Live2D Cubism-Modelle (`.moc3`, `.model3.json`), bereitgestellt unter dem **Live2D Free Material License Agreement**.
+- `mao_pro/`: Niziiro Mao (PRO-Version) von Live2D Inc. (BlendShapes, Screen/Multiply-Effekte, VTuber-Preset).
+- `shizuku/`: Shizuku PRO von Live2D Inc. (Schul- und Alltagsmädchen; Name/Setting laut Lizenz unverändert).
+- Details, Urheber und die vorgeschriebene Copyright-Notiz sind in `avatars/live2d/lizenzen.txt` hinterlegt.
 
 ### Modelle (`recommended_models.json`)
 
