@@ -1412,13 +1412,18 @@
       "starting_location": "Brücke der Morgenstern",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep1_signal.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-10-27",
       "translations": {
         "en": {
           "title": "Sternenbruch – 1: A signal from tomorrow",
           "description": "A distress call carries your access code, dated one day in the future.",
           "starting_location": "Morgenstern bridge"
+        },
+        "ja": {
+          "title": "Sternenbruch – 1：明日から届いた信号",
+          "description": "救難信号にあなたのアクセスコードが含まれている。その日付は一日先の未来だ。",
+          "starting_location": "モルゲンシュテルン号のブリッジ"
         },
         "ru": {
           "title": "Sternenbruch – 1: Сигнал из завтра",
@@ -1434,13 +1439,18 @@
       "starting_location": "Freihafen Kestrel – Auktionsmarkt",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep2_market.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-10-27",
       "translations": {
         "en": {
           "title": "Sternenbruch – 2: Market under alien stars",
           "description": "A star chart is up for auction. The highest bid is a memory.",
           "starting_location": "Kestrel Freeport auction market"
+        },
+        "ja": {
+          "title": "Sternenbruch – 2：異星の空の下の市場",
+          "description": "星図が競売にかけられている。最高入札額は、ひとつの記憶だ。",
+          "starting_location": "自由港ケストレル――競売市場"
         },
         "ru": {
           "title": "Sternenbruch – 2: Рынок под чужими звёздами",
@@ -1456,13 +1466,18 @@
       "starting_location": "Nacre – verlassene Messe",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep3_nacre.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-10-27",
       "translations": {
         "en": {
           "title": "Sternenbruch – 3: The ship without shadows",
           "description": "Dinner aboard the Nacre is warm. There is no sign of the crew.",
           "starting_location": "Nacre deserted mess"
+        },
+        "ja": {
+          "title": "Sternenbruch – 3：影のない船",
+          "description": "ナクレ号では夕食がまだ温かい。だが乗員の姿はどこにもない。",
+          "starting_location": "ナクレ号――無人の食堂"
         },
         "ru": {
           "title": "Sternenbruch – 3: Корабль без теней",
@@ -1478,13 +1493,18 @@
       "starting_location": "Eiren – subglazialer Garten",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep4_garden.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-10-27",
       "translations": {
         "en": {
           "title": "Sternenbruch – 4: The garden in the ice",
           "description": "An alien biosphere responds to voices. Does it understand words?",
           "starting_location": "Eiren subglacial garden"
+        },
+        "ja": {
+          "title": "Sternenbruch – 4：氷の中の庭",
+          "description": "異質な生物圏が声に応える。だが、言葉まで理解しているのだろうか？",
+          "starting_location": "エイレン――氷底の庭"
         },
         "ru": {
           "title": "Sternenbruch – 4: Сад во льду",
@@ -1500,13 +1520,18 @@
       "starting_location": "Morgenstern – Aussichtskuppel",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep5_memory.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-10-27",
       "translations": {
         "en": {
           "title": "Sternenbruch – 5: Who owns a memory?",
           "description": "Helix Meridian demands IVO’s surrender. An old record challenges its claim.",
           "starting_location": "Morgenstern observation dome"
+        },
+        "ja": {
+          "title": "Sternenbruch – 5：記憶は誰のものか",
+          "description": "ヘリックス・メリディアン社がIVOの引き渡しを要求する。ある古いプロトコルが、その要求に疑問を投げかける。",
+          "starting_location": "モルゲンシュテルン号――展望ドーム"
         },
         "ru": {
           "title": "Sternenbruch – 5: Кому принадлежит память?",
@@ -1522,13 +1547,18 @@
       "starting_location": "Eiren – Toranker auf der Eisoberfläche",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep6_gate.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-10-27",
       "translations": {
         "en": {
           "title": "Sternenbruch – 6: The last connection",
           "description": "The gate awakens. The crew must decide how much reconnection it can responsibly attempt.",
           "starting_location": "Eiren surface gate anchor"
+        },
+        "ja": {
+          "title": "Sternenbruch – 6：最後の接続",
+          "description": "ゲートが目を覚ます。クルーは、どれだけのつながりに責任を持てるのかを決める。",
+          "starting_location": "エイレン――氷上のゲートアンカー"
         },
         "ru": {
           "title": "Sternenbruch – 6: Последняя связь",

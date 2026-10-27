@@ -394,13 +394,14 @@ Acht NTE-Figuren erhalten auf Auftrag vom 19.10.2026 je 15 Bilder (120 insgesamt
 
 ## 🚀 Sternenbruch – Die letzte Verbindung (23.10.2026)
 
-Eigenständige Science-Fiction-Kampagne für den Hub; keine lokale App-Installation. Alle Hauptfiguren erwachsen, SFW, Texte in DE/EN/RU.
+Eigenständige Science-Fiction-Kampagne für den Hub; keine lokale App-Installation. Alle Hauptfiguren erwachsen, SFW, Texte in DE/EN/RU/JA.
 
 - [x] Sechs individuelle V2-Profile: Mara Venn, Juno Serrat, Saeli, Dr. Idris Vale, Kian Rook und IVO; jeweils zwei alternative Einstiege und drei eigene Dialogbeispiele.
 - [x] Drei Lorebooks mit 16 gezielt ausgelösten Einträgen: Welt & Technik, Kulturen & Fraktionen, Crew & Orte.
 - [x] Sechs Soulstages mit eigenständigem Einstieg, überprüfbaren Hinweisen, je drei Startvorschlägen pro Sprache und mehreren Lösungswegen.
 - [x] Sechs PNG-Porträts und 90 einzeln generierte, referenzgestützte Emotionsbilder; zehn Hintergründe.
-- [x] PNG-Payloads, Gateway-Karten, drei Registries und Bildverweise geprüft; vollständige Inhaltsvalidierung: 0 Fehler. Die 30 Hinweise betreffen ausschließlich fehlendes Japanisch; DE/EN/RU sind vollständig.
+- [x] PNG-Payloads, Gateway-Karten, drei Registries und Bildverweise geprüft; vollständige Inhaltsvalidierung: 0 Fehler.
+- [x] Japanisch nachgetragen (27.10.2026): sechs Profile (JSON, Preset- und Gateway-PNG über `tools/set_card_translations.py`, Bildpixel unverändert) und sechs Soulstages samt je drei Startvorschlägen; Registries synchronisiert, Revisionen erhöht. Validierung: 0 Fehler, 0 Warnungen.
 
 Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots: `presets/sternenbruch/image_prompts.json`; Paketbeschreibung in DE/EN/RU: `presets/sternenbruch/README.md`.
 
