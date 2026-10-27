@@ -28,6 +28,7 @@ stages_registry.json             Szenenindex
 collections_registry.json        Sammlungen: Lorebooks, Szenen und Figuren einer Geschichte
 stages_gateway/*.json            veröffentlichte Szenen
 recommended_models.json         Startmodelle für den Einrichtungsassistenten, keine Modellgewichte
+inochi2d_registry.json          Inochi2D-Puppen zum Laden (nur Quelle + SHA-256, keine Modelldateien)
 locales/de.json / ru.json        Spieltexte der App (Schlüssel = englischer Text)
 locales/ui_registry.json         Index der Oberflächensprachen (id, Name, version)
 locales/ui/<kürzel>.json         Oberflächensprachen der App (Schlüssel wie im App-Code)
@@ -155,6 +156,18 @@ zeigt die App in der Rückfallsprache.
   als die mitgelieferte – so lassen sich Texte zwischen Releases korrigieren, ohne neue Schlüssel älterer Kopien zu verlieren.
 - Neue Sprache oder Korrektur: Datei anlegen/ändern, `__meta.version` erhöhen und denselben Wert in `ui_registry.json` eintragen
   (`id`, `name`, `english_name`, `version`). Eigene Dateien der Nutzer (`<Daten>/locales/ui/`) haben immer Vorrang.
+
+### Inochi2D-Puppen (`inochi2d_registry.json`)
+
+Puppen (`.inp`/`.inx`), die die App in der Avatar-Bibliothek zum Laden anbietet. Wie beim Modellkatalog bringt die App eine
+Kopie mit (`presets/inochi2d_registry.json` im App-Repository) und lädt beim Start diese Datei; es gilt die höhere `version`.
+
+- Eintrag: `id` (Dateiname, unter dem die Puppe gespeichert wird; Charakterkarten nennen ihn in `custom_inochi2d`), `name`,
+  `author`, `license` (+ optional `license_url`), `url` (https, direkt zur Datei an der Quelle), `sha256` (64 Kleinbuchstaben-Hex),
+  `size_bytes`, `nsfw` (nur mit 18+-Freigabe sichtbar), `description` mit `de`, `en`, `ru`, `ja`.
+- Keine Puppendateien ins Repository; nur weiterverteilbare Lizenzen eintragen und Namensnennung im Eintrag führen.
+- Nennt eine Hub-Karte eine Puppe aus dieser Liste, bietet der Chat an, sie zu laden.
+- Die App überspringt Einträge mit Pfad im Namen, ohne https oder mit fehlerhafter SHA-256; `tools/validate_content.py` prüft mit.
 
 ### Modelle (`recommended_models.json`)
 

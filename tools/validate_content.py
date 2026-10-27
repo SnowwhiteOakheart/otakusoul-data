@@ -339,6 +339,36 @@ def check_models():
     return len(content.get('models') or [])
 
 
+def check_puppets():
+    """inochi2d_registry.json: Inochi2D puppets the app offers to download (inochi2d.rs)."""
+    content = load_json(os.path.join(ROOT, 'inochi2d_registry.json'))
+    if not content:
+        return 0
+    if not content.get('version'):
+        errors.append('inochi2d_registry.json: version fehlt')
+    seen = set()
+    for p in content.get('puppets') or []:
+        label = f'inochi2d_registry.json: {p.get("id")}'
+        for field in ('id', 'name', 'author', 'license', 'url', 'sha256', 'size_bytes'):
+            if not p.get(field):
+                errors.append(f'{label}: Feld {field} fehlt')
+        pid = str(p.get('id', ''))
+        if pid in seen:
+            errors.append(f'{label}: doppelt')
+        seen.add(pid)
+        if '/' in pid or '\\' in pid or pid.startswith('.') or not pid.lower().endswith(('.inp', '.inx')):
+            errors.append(f'{label}: id muss ein Dateiname .inp/.inx sein')
+        sha = str(p.get('sha256', ''))
+        if len(sha) != 64 or any(c not in '0123456789abcdef' for c in sha):
+            errors.append(f'{label}: sha256 ungültig (64 Kleinbuchstaben-Hex)')
+        for key in ('url', 'license_url'):
+            if p.get(key) and not str(p[key]).startswith('https://'):
+                errors.append(f'{label}: {key} muss https sein')
+        if set((p.get('description') or {})) != LANGS:
+            warnings.append(f'{label}: description nicht in {sorted(LANGS)}')
+    return len(content.get('puppets') or [])
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument('--sync-registry', action='store_true', help='Listentexte aus den Dateien in die Registries übernehmen')
@@ -403,12 +433,13 @@ def main():
 
     collections = check_collections(souls, books, scenes)
     models = check_models()
+    puppets = check_puppets()
 
     for line in warnings:
         print(f'Warnung: {line}')
     for line in errors:
         print(f'FEHLER:  {line}')
-    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle geprüft: '
+    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle, {puppets} Puppen geprüft: '
           f'{len(errors)} Fehler, {len(warnings)} Warnungen')
     sys.exit(1 if errors else 0)
 
