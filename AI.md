@@ -194,6 +194,13 @@ bringt eine Kopie mit (`presets/avatars_registry.json`) und lädt beim Start die
 - Nur verlinkt (keine Weitergabe erlaubt, z. B. VRoid Hub): `files` leer, `page_url` auf die Download-Seite.
 - `tools/validate_content.py` prüft Pfade, Prüfsummen und Größen der Dateien in diesem Repository.
 
+### Sprechende Porträts (Release `talking-head-anime-3`, `avatars/talking_portrait/`)
+
+Talking Head Anime 3 (CC BY 4.0, Pramook Khungurn) liegt als ONNX-Datei im GitHub-Release `talking-head-anime-3`
+(zu groß fürs Repository); die App lädt sie zusammen mit `isnetis.onnx` (anime-seg, Apache-2.0, direkt von Hugging Face) und
+prüft beide per SHA-256 (`talking_portrait.rs`). Umwandlung mit `tools/tha3_to_onnx.py`; Herkunft, Lizenz und Prüfsumme in
+`avatars/talking_portrait/lizenzen.txt`. Bei einer neuen Fassung: neues Release-Asset, URL/SHA-256/Größe in der App anpassen.
+
 ### Bewegungspakete (`motion_packs_registry.json`, `avatars/motions/`)
 
 Fertige Körperbewegungen (VRMA, `VRMC_vrm_animation` 1.0) für 3D-Avatare und das Desktop-Pet. Die App bringt eine Kopie der

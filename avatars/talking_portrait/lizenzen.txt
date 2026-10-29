@@ -1,0 +1,26 @@
+# Sprechende Porträts – Modelle & Lizenzen / Speaking Portraits – Models & Licenses
+
+Die App lädt diese Modelle erst, wenn ein sprechendes Porträt eingerichtet wird, und prüft sie per SHA-256.
+The app downloads these models only when a speaking portrait is set up and checks them by SHA-256.
+
+## Talking Head Anime 3 (`tha3_standard_float.onnx`)
+
+* **Urheber / Author:** Pramook Khungurn – https://github.com/pkhungurn/talking-head-anime-3-demo
+* **Lizenz / License:** Creative Commons Attribution 4.0 International (CC BY 4.0) –
+  https://creativecommons.org/licenses/by/4.0/ (Code der Demo: MIT)
+* **Herkunft / Source:** Offizielles Modellarchiv `talking-head-anime-3-models.zip` (Variante `standard_float`,
+  SHA-256 des Archivs `854184e03e883978efaffa27ff7dd09bb21c5e6b643e12fb9c0a6a55bf8d935a`).
+* **Bearbeitung / Changes:** Die fünf Netze (eyebrow_decomposer, eyebrow_morphing_combiner, face_morpher,
+  two_algo_face_body_rotator, editor) mit `tools/tha3_to_onnx.py` zu einem ONNX-Graphen (Opset 20) zusammengefügt:
+  Eingabe Bild (1×4×512×512, lineare Farben, −1…1) und Pose (1×45), Ausgabe das gestellte Bild. Gewichte unverändert;
+  Abweichung zur PyTorch-Fassung max. 0,008.
+* **Hinweis des Autors / Author's note:** Die Software ist kein Google-Produkt; Google könnte Rechte an der Erfindung
+  beanspruchen (siehe README des Originalprojekts).
+* **Release:** https://github.com/SnowwhiteOakheart/otakusoul-data/releases/tag/talking-head-anime-3
+  SHA-256 `faa9a4c4dfcc7cb23e30902f085c7ed73ae1e9f8006ac0651fc1992bb124f93e`, 542 711 914 Bytes.
+
+## anime-seg ISNet (`isnetis.onnx`)
+
+* **Urheber / Author:** skytnt – https://huggingface.co/skytnt/anime-seg
+* **Lizenz / License:** Apache-2.0
+* Wird direkt von Hugging Face geladen (nicht in diesem Repository).
