@@ -30,6 +30,7 @@ stages_gateway/*.json            veröffentlichte Szenen
 recommended_models.json         Startmodelle für den Einrichtungsassistenten, keine Modellgewichte
 inochi2d_registry.json          Inochi2D-Puppen zum Laden (nur Quelle + SHA-256, keine Modelldateien)
 motion_packs_registry.json      Bewegungspakete (VRMA) zum Laden, Dateien in avatars/motions/ (SHA-256)
+avatars_registry.json           Hub-Kategorie „Avatare“: VRM- und Live2D-Modelle (Dateien + SHA-256 oder Link zur Quellseite)
 locales/de.json / ru.json        Spieltexte der App (Schlüssel = englischer Text)
 locales/ui_registry.json         Index der Oberflächensprachen (id, Name, version)
 locales/ui/<kürzel>.json         Oberflächensprachen der App (Schlüssel wie im App-Code)
@@ -179,6 +180,19 @@ Live2D Cubism-Modelle (`.moc3`, `.model3.json`), bereitgestellt unter dem **Live
 - `mao_pro/`: Niziiro Mao (PRO-Version) von Live2D Inc. (BlendShapes, Screen/Multiply-Effekte, VTuber-Preset).
 - `shizuku/`: Shizuku PRO von Live2D Inc. (Schul- und Alltagsmädchen; Name/Setting laut Lizenz unverändert).
 - Details, Urheber und die vorgeschriebene Copyright-Notiz sind in `avatars/live2d/lizenzen.txt` hinterlegt.
+
+### Avatare im Hub (`avatars_registry.json`)
+
+Die Hub-Kategorie „Avatare“ der App zeigt diese Einträge zusammen mit den Inochi2D-Puppen aus `inochi2d_registry.json`. Die App
+bringt eine Kopie mit (`presets/avatars_registry.json`) und lädt beim Start diese Datei; es gilt die höhere `version`.
+
+- Eintrag: `id` (Kleinbuchstaben, Ziffern, `-`), `kind` (`vrm` oder `live2d`), `name`, `author`, `license` (+ `license_url`,
+  `license_note` für Pflicht-Hinweise wie bei Live2D-Beispieldaten, `source_url`), `nsfw`, `description` mit `de`, `en`, `ru`, `ja`.
+- Ladbar: `files` mit `path` (relativ zum Modellordner der Art, z. B. `mao_pro/mao_pro.moc3`), `url` (https), `sha256`,
+  `size_bytes`, und `entry` (die Datei, die die App öffnet: `.vrm` oder `.model3.json`). Dateien hier im Repository: die
+  Prüfsumme gilt für den eingecheckten Inhalt (Zeilenenden!); VRMs möglichst direkt von der Quelle (z. B. vrm-c auf GitHub).
+- Nur verlinkt (keine Weitergabe erlaubt, z. B. VRoid Hub): `files` leer, `page_url` auf die Download-Seite.
+- `tools/validate_content.py` prüft Pfade, Prüfsummen und Größen der Dateien in diesem Repository.
 
 ### Bewegungspakete (`motion_packs_registry.json`, `avatars/motions/`)
 

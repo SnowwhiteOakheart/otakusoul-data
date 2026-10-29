@@ -102,7 +102,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 | [`CONTENT_INDEX.md`](CONTENT_INDEX.md) | Kompakte tokensparende Matrix über alle Charaktere, Stages, Lorebooks und App-Aufrufe |
 | [`ROADMAP.md`](ROADMAP.md) | Entwicklungs-Roadmap, Qualitätsstandards und Fortschritts-Checkliste |
 | [`AI.md`](AI.md) | Verbindlicher Wegweiser für Dateiformate, Übersetzungen, Validierungen und Git-Abläufe |
-| [`avatars/`](avatars/) | Zusätzliche Avatare (VRM-Hinweise in `avatars/vrm/lizenzen.txt`, Live2D in `avatars/live2d/`) und Bewegungen (`avatars/motions/`, Index `motion_packs_registry.json`) |
+| [`avatars/`](avatars/) | Zusätzliche Avatare (VRM-Hinweise in `avatars/vrm/lizenzen.txt`, Live2D in `avatars/live2d/`) und Bewegungen (`avatars/motions/`, Index `motion_packs_registry.json`); Hub-Kategorie „Avatare“ über `avatars_registry.json` |
 | [`locales/`](locales/) | Spieltexte der App (`de.json`, `ru.json`) und Oberflächensprachen (`ui/`, Index `ui_registry.json`) |
 | [`recommended_models.json`](recommended_models.json) | Startmodelle für den App-Einrichtungsassistenten (ohne Login ladbar, Lizenz gekennzeichnet) |
 | [`tools/`](tools/) | Wartungs-, Prüf- und Synchronisationswerkzeuge |

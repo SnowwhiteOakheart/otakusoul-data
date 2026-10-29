@@ -370,6 +370,65 @@ def check_puppets():
     return len(content.get('puppets') or [])
 
 
+def repo_blob_sha(rel):
+    """SHA-256 of a file as committed (what GitHub serves), else of the working copy."""
+    import subprocess
+    try:
+        data = subprocess.run(['git', '-C', ROOT, 'cat-file', '-p', f'HEAD:{rel}'], capture_output=True, check=True).stdout
+    except (OSError, subprocess.CalledProcessError):
+        data = open(os.path.join(ROOT, *rel.split('/')), 'rb').read()
+    return hashlib.sha256(data).hexdigest(), len(data)
+
+
+def check_avatars():
+    """avatars_registry.json: VRM and Live2D models the hub offers (avatar_hub.rs)."""
+    content = load_json(os.path.join(ROOT, 'avatars_registry.json'))
+    if not content:
+        return 0
+    if not content.get('version'):
+        errors.append('avatars_registry.json: version fehlt')
+    prefix = 'https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/'
+    seen = set()
+    for a in content.get('avatars') or []:
+        label = f'avatars_registry.json: {a.get("id")}'
+        for field in ('id', 'kind', 'name', 'author', 'license'):
+            if not a.get(field):
+                errors.append(f'{label}: Feld {field} fehlt')
+        if a.get('id') in seen:
+            errors.append(f'{label}: doppelt')
+        seen.add(a.get('id'))
+        if a.get('kind') not in ('vrm', 'live2d'):
+            errors.append(f'{label}: kind muss vrm oder live2d sein')
+        if set((a.get('description') or {})) != LANGS:
+            warnings.append(f'{label}: description nicht in {sorted(LANGS)}')
+        files = a.get('files') or []
+        if not files:
+            if not str(a.get('page_url', '')).startswith('https://'):
+                errors.append(f'{label}: ohne Dateien ist page_url (https) nötig')
+            continue
+        if a.get('entry') not in [f.get('path') for f in files]:
+            errors.append(f'{label}: entry ist keine der Dateien')
+        for f in files:
+            path = str(f.get('path', ''))
+            if not path or path.startswith('/') or '\\' in path or '..' in path.split('/'):
+                errors.append(f'{label}/{path}: unsicherer Pfad')
+            url = str(f.get('url', ''))
+            if not url.startswith('https://'):
+                errors.append(f'{label}/{path}: url muss https sein')
+            sha = str(f.get('sha256', ''))
+            if len(sha) != 64 or any(c not in '0123456789abcdef' for c in sha):
+                errors.append(f'{label}/{path}: sha256 ungültig')
+            if url.startswith(prefix):
+                rel = urllib.parse.unquote(url[len(prefix):])
+                if not os.path.isfile(os.path.join(ROOT, *rel.split('/'))):
+                    errors.append(f'{label}/{path}: Datei {rel} fehlt im Repository')
+                else:
+                    digest, size = repo_blob_sha(rel)
+                    if digest != sha or size != f.get('size_bytes'):
+                        errors.append(f'{label}/{path}: sha256 oder size_bytes passt nicht zur Datei')
+    return len(content.get('avatars') or [])
+
+
 def check_motion_packs():
     """motion_packs_registry.json: motion sets (VRMA) the app offers to download (motion_packs.rs)."""
     content = load_json(os.path.join(ROOT, 'motion_packs_registry.json'))
@@ -482,12 +541,13 @@ def main():
     models = check_models()
     puppets = check_puppets()
     motions = check_motion_packs()
+    avatars = check_avatars()
 
     for line in warnings:
         print(f'Warnung: {line}')
     for line in errors:
         print(f'FEHLER:  {line}')
-    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle, {puppets} Puppen, {motions} Bewegungen geprüft: '
+    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle, {puppets} Puppen, {avatars} Avatare, {motions} Bewegungen geprüft: '
           f'{len(errors)} Fehler, {len(warnings)} Warnungen')
     sys.exit(1 if errors else 0)
 
