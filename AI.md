@@ -29,12 +29,14 @@ collections_registry.json        Sammlungen: Lorebooks, Szenen und Figuren einer
 stages_gateway/*.json            veröffentlichte Szenen
 recommended_models.json         Startmodelle für den Einrichtungsassistenten, keine Modellgewichte
 inochi2d_registry.json          Inochi2D-Puppen zum Laden (nur Quelle + SHA-256, keine Modelldateien)
+motion_packs_registry.json      Bewegungspakete (VRMA) zum Laden, Dateien in avatars/motions/ (SHA-256)
 locales/de.json / ru.json        Spieltexte der App (Schlüssel = englischer Text)
 locales/ui_registry.json         Index der Oberflächensprachen (id, Name, version)
 locales/ui/<kürzel>.json         Oberflächensprachen der App (Schlüssel wie im App-Code)
 avatars/                        zusätzliche Avatar-Dateien
 avatars/vrm/lizenzen.txt         Herkunft und Bedingungen der VRM-Modelle
 avatars/live2d/                  Live2D-Modelle (Mao Pro, Shizuku) mit lizenzen.txt
+avatars/motions/                 Bewegungen (VRMA) der Bewegungspakete mit lizenzen.txt
 presets/<paket>/                 zusammengehörige Inhalte
   <figur>.json / <figur>.png     Profil und eingebettete PNG-Karte
   expressions/<figur>/          Emotionsbilder und Promptnachweise
@@ -177,6 +179,19 @@ Live2D Cubism-Modelle (`.moc3`, `.model3.json`), bereitgestellt unter dem **Live
 - `mao_pro/`: Niziiro Mao (PRO-Version) von Live2D Inc. (BlendShapes, Screen/Multiply-Effekte, VTuber-Preset).
 - `shizuku/`: Shizuku PRO von Live2D Inc. (Schul- und Alltagsmädchen; Name/Setting laut Lizenz unverändert).
 - Details, Urheber und die vorgeschriebene Copyright-Notiz sind in `avatars/live2d/lizenzen.txt` hinterlegt.
+
+### Bewegungspakete (`motion_packs_registry.json`, `avatars/motions/`)
+
+Fertige Körperbewegungen (VRMA, `VRMC_vrm_animation` 1.0) für 3D-Avatare und das Desktop-Pet. Die App bringt eine Kopie der
+Registry mit (`presets/motion_packs_registry.json`) und lädt beim Start diese Datei; es gilt die höhere `version`.
+
+- Paket: `id`, `name`, `author`, `license` (+ `license_url`, `source_url`), `description` mit `de`, `en`, `ru`, `ja`, `files`.
+- Datei: `file` (Dateiname `.vrma` im Animationsordner der App), `url` (https), `sha256`, `size_bytes`, `role` (Verwendung:
+  `idle`, `walk`, `sit`, `talk`, `dance`, `fall`, `sleep`, `jump`, `land`, `yawn`, `greeting`, `nod`, Gefühle …).
+- Nur Bewegungen mit Weitergabe-Lizenz (z. B. CC0) ins Repository legen; Herkunft und Bearbeitung in `avatars/motions/lizenzen.txt`.
+  Mixamo-Bewegungen dürfen nicht als Dateien weitergegeben werden.
+- `tools/ual_to_vrma.py` wandelt Clips der Quaternius Universal Animation Library (CC0) in VRMA um; nach einer Änderung
+  `sha256`/`size_bytes` neu eintragen und `version` erhöhen. `tools/validate_content.py` prüft Datei, Prüfsumme und Größe.
 
 ### Modelle (`recommended_models.json`)
 

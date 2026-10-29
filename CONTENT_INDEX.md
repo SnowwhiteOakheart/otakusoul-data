@@ -105,6 +105,7 @@ Hier wird beschrieben, an welchen Stellen im OtakuSoul-Codebase (`OtakuSoul/src-
 * **Registry-Abruf & Download:**
   * `src-tauri/src/modules/hub.rs`: Lädt `soul_registry.json`, `stages_registry.json`, `lorebooks_registry.json` und `collections_registry.json` (Sammlungen je Geschichte) über GitHub Raw.
   * Lädt beim Szenenimport verknüpfte Hintergrundbilder aus `extensions.otakusoul_assets.backgrounds` automatisch herunter.
+  * `src-tauri/src/modules/motion_packs.rs`: Lädt `motion_packs_registry.json` (Bewegungspakete, VRMA aus `avatars/motions/` mit SHA-256) beim Start; höhere `version` gewinnt. Beim Laden bekommen die Bewegungen ihre Rolle (Leerlauf, Gehen, Sitzen, Sprechen, Tanzen …).
   * `src-tauri/src/modules/inochi2d.rs`: Lädt `inochi2d_registry.json` (Inochi2D-Puppen mit Quelle + SHA-256) beim Start; höhere `version` als die mitgelieferte Kopie gewinnt. Karten verweisen per `extensions.custom_inochi2d` auf den Dateinamen.
 * **Revisionsabgleich & Updates:**
   * `src-tauri/src/modules/hub_installed.rs`: Vergleicht lokale `revision` mit der Registry-`revision`. Höhere Zahl = Update verfügbar.

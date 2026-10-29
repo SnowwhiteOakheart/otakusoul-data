@@ -102,7 +102,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 | [`CONTENT_INDEX.md`](CONTENT_INDEX.md) | Kompakte tokensparende Matrix über alle Charaktere, Stages, Lorebooks und App-Aufrufe |
 | [`ROADMAP.md`](ROADMAP.md) | Entwicklungs-Roadmap, Qualitätsstandards und Fortschritts-Checkliste |
 | [`AI.md`](AI.md) | Verbindlicher Wegweiser für Dateiformate, Übersetzungen, Validierungen und Git-Abläufe |
-| [`avatars/`](avatars/) | Zusätzliche Avatare (VRM-Hinweise in `avatars/vrm/lizenzen.txt`, Live2D in `avatars/live2d/`) |
+| [`avatars/`](avatars/) | Zusätzliche Avatare (VRM-Hinweise in `avatars/vrm/lizenzen.txt`, Live2D in `avatars/live2d/`) und Bewegungen (`avatars/motions/`, Index `motion_packs_registry.json`) |
 | [`locales/`](locales/) | Spieltexte der App (`de.json`, `ru.json`) und Oberflächensprachen (`ui/`, Index `ui_registry.json`) |
 | [`recommended_models.json`](recommended_models.json) | Startmodelle für den App-Einrichtungsassistenten (ohne Login ladbar, Lizenz gekennzeichnet) |
 | [`tools/`](tools/) | Wartungs-, Prüf- und Synchronisationswerkzeuge |
@@ -141,7 +141,7 @@ This repository serves as the official content and asset backend for [OtakuSoul]
 - 👥 **Character Cards (Tavern / OtakuSoul Character Card V2):** Complete V2 cards in JSON and PNG format (embedded `chara` text chunk); 60 characters feature the full set of all 15 current portrait slots as consistent SFW variants (six base and nine additional expressions); Emilia (Re:Zero), moved over from the app, has the six-image base set for now.
 - 🎭 **Soul Stages (Interactive Scenarios):** Multi-character stories featuring GM narration tone, turn engines, starting locations, and optional **D&D 5e rulebook integration**.
 - 📖 **World Lorebooks:** Keyword- and tension-driven knowledge bases injected dynamically into the LLM context.
-- 🎨 **Scene Backgrounds & Avatare:** Atmospheric 16:9 widescreen artwork and VRM avatar references.
+- 🎨 **Scene Backgrounds & Avatare:** Atmospheric 16:9 widescreen artwork, VRM avatar references and free body motions (VRMA, `motion_packs_registry.json`).
 - 🌐 **App interface languages:** `locales/ui/` provides translations of menus, buttons and messages; new languages appear in OtakuSoul without an app update.
 - 🌍 **Full Trilingual Support:** All character profiles, greetings, dialogue samples, and scenes are maintained in **German (DE)**, **English (EN)**, and **Russian (RU)**.
 
@@ -216,7 +216,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 - 👥 **Карточки персонажей (Tavern / OtakuSoul Character Card V2):** Полные профили V2 в форматах JSON и PNG (со встроенным блоком `chara`); 60 персонажей оснащены полным набором из всех 15 текущих слотов портретов в неэротических вариантах (шесть базовых и девять дополнительных эмоций); перенесённая из приложения Эмилия (Re:Zero) пока имеет базовый набор из шести.
 - 🎭 **Soul Stages (Интерактивные сцены):** Сюжетные приключения с тональностью мастера (GM), управлением ходами и опциональной **боевой системой 5e**.
 - 📖 **Лорбуки миров:** Базы знаний с триггерами по ключевым словам и уровню напряжения для динамической вставки в контекст ИИ.
-- 🎨 **Фоны и аватары:** Атмосферные широкоформатные изображения 16:9 и поддержка моделей VRM.
+- 🎨 **Фоны и аватары:** Атмосферные широкоформатные изображения 16:9, поддержка моделей VRM и свободные движения (VRMA, `motion_packs_registry.json`).
 - 🌐 **Языки интерфейса приложения:** `locales/ui/` содержит переводы меню, кнопок и сообщений; новые языки появляются в OtakuSoul без обновления приложения.
 - 🌍 **Трёхъязычная поддержка:** Все профили, приветствия, примеры диалогов и сцены поддерживаются на **немецком (DE)**, **английском (EN)** и **русском (RU)** языках.
 

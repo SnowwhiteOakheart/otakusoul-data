@@ -12,6 +12,7 @@ entry from its file, with the file's translations under `translations.<lang>`; t
 lorebook and the id of a scene stay as they are (they are the keys for updates).
 """
 import argparse
+import hashlib
 import base64
 import collections
 import json
@@ -369,6 +370,52 @@ def check_puppets():
     return len(content.get('puppets') or [])
 
 
+def check_motion_packs():
+    """motion_packs_registry.json: motion sets (VRMA) the app offers to download (motion_packs.rs)."""
+    content = load_json(os.path.join(ROOT, 'motion_packs_registry.json'))
+    if not content:
+        return 0
+    if not content.get('version'):
+        errors.append('motion_packs_registry.json: version fehlt')
+    roles = {'idle', 'greeting', 'nod', 'happy', 'sad', 'angry', 'surprised', 'thinking', 'walk', 'sit',
+             'talk', 'dance', 'fall', 'sleep', 'jump', 'land', 'yawn'}
+    prefix = 'https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/'
+    count = 0
+    for pack in content.get('packs') or []:
+        label = f'motion_packs_registry.json: {pack.get("id")}'
+        for field in ('id', 'name', 'author', 'license', 'files'):
+            if not pack.get(field):
+                errors.append(f'{label}: Feld {field} fehlt')
+        if set((pack.get('description') or {})) != LANGS:
+            warnings.append(f'{label}: description nicht in {sorted(LANGS)}')
+        for f in pack.get('files') or []:
+            count += 1
+            flabel = f'{label}/{f.get("file")}'
+            name = str(f.get('file', ''))
+            if '/' in name or '\\' in name or name.startswith('.') or not name.lower().endswith('.vrma'):
+                errors.append(f'{flabel}: file muss ein Dateiname .vrma sein')
+            if f.get('role', '') and f['role'] not in roles:
+                errors.append(f'{flabel}: unbekannte Rolle {f["role"]!r}')
+            url = str(f.get('url', ''))
+            if not url.startswith('https://'):
+                errors.append(f'{flabel}: url muss https sein')
+            sha = str(f.get('sha256', ''))
+            if len(sha) != 64 or any(c not in '0123456789abcdef' for c in sha):
+                errors.append(f'{flabel}: sha256 ungültig (64 Kleinbuchstaben-Hex)')
+            # Files in this repository: they must exist and match their checksum and size.
+            if url.startswith(prefix):
+                local = os.path.join(ROOT, *url[len(prefix):].split('/'))
+                if not os.path.isfile(local):
+                    errors.append(f'{flabel}: Datei {url[len(prefix):]} fehlt im Repository')
+                else:
+                    data = open(local, 'rb').read()
+                    if hashlib.sha256(data).hexdigest() != sha:
+                        errors.append(f'{flabel}: sha256 passt nicht zur Datei')
+                    if len(data) != f.get('size_bytes'):
+                        errors.append(f'{flabel}: size_bytes passt nicht zur Datei')
+    return count
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument('--sync-registry', action='store_true', help='Listentexte aus den Dateien in die Registries übernehmen')
@@ -434,12 +481,13 @@ def main():
     collections = check_collections(souls, books, scenes)
     models = check_models()
     puppets = check_puppets()
+    motions = check_motion_packs()
 
     for line in warnings:
         print(f'Warnung: {line}')
     for line in errors:
         print(f'FEHLER:  {line}')
-    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle, {puppets} Puppen geprüft: '
+    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle, {puppets} Puppen, {motions} Bewegungen geprüft: '
           f'{len(errors)} Fehler, {len(warnings)} Warnungen')
     sys.exit(1 if errors else 0)
 

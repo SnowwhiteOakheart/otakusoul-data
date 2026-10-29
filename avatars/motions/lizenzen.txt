@@ -1,0 +1,26 @@
+# Bewegungen (VRMA) & Lizenzen / Motions (VRMA) & Licenses
+
+## Quaternius – Universal Animation Library (`avatars/motions/quaternius-ual/`)
+
+* **Urheber / Author:** Quaternius (https://quaternius.com, https://www.patreon.com/quaternius)
+* **Quelle / Source:** https://quaternius.itch.io/universal-animation-library („Universal Animation Library[Standard].zip“,
+  Datei `Unreal-Godot/UAL1_Standard.glb`, SHA-256 des Archivs
+  `cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724`)
+* **Lizenz / License:** CC0 1.0 Universal (Public Domain Dedication) –
+  https://creativecommons.org/publicdomain/zero/1.0/
+* **Bearbeitung / Changes:** Einzelne Clips mit `tools/ual_to_vrma.py` in VRM-Animationen (VRMA, `VRMC_vrm_animation` 1.0)
+  umgewandelt: nur Skelett und ein Clip je Datei, Ruhepose auf die T-Pose des Clips `A_TPose` gesetzt, Fingerknochen des
+  Unreal-Skeletts den VRM-Humanoid-Knochen zugeordnet. Keine Bewegungsdaten verändert.
+
+| Datei | Clip in der Bibliothek | Rolle in OtakuSoul |
+|---|---|---|
+| `ual_idle.vrma` | `Idle_Loop` | Leerlauf |
+| `ual_talk.vrma` | `Idle_Talking_Loop` | Sprechen |
+| `ual_walk.vrma` | `Walk_Loop` | Gehen |
+| `ual_sit.vrma` | `Sitting_Idle_Loop` | Sitzen |
+| `ual_jump.vrma` | `Jump_Start` | Absprung |
+| `ual_fall.vrma` | `Jump_Loop` | Fallen / in der Luft |
+| `ual_land.vrma` | `Jump_Land` | Landen |
+| `ual_dance.vrma` | `Dance_Loop` | Tanzen (zur Musik) |
+
+Danke an Quaternius für die freie Bibliothek. / Thanks to Quaternius for the free library.
