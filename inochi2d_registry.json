@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "puppets": [
     {
       "id": "Aka.inx",
@@ -36,20 +36,20 @@
       }
     },
     {
-      "id": "nagatoro-fullbody-v11.inp",
-      "name": "Hayase Nagatoro – full body v11",
+      "id": "nagatoro-fullbody-v12.inp",
+      "name": "Hayase Nagatoro – five views v12",
       "author": "SnowwhiteOakheart / AI-assisted artwork and rigging",
       "license": "CC BY-NC 4.0 (original contributions; character rights excluded)",
-      "license_url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v11/NAGATORO-LICENSE.md",
-      "url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v11/nagatoro-fullbody-v11.inp",
-      "sha256": "3c19ee66ce880a692d1fafb371a8f88dfe73a95fc482ebb6b52ab07d9ee599e0",
-      "size_bytes": 11226595,
+      "license_url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v12/NAGATORO-LICENSE.md",
+      "url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v12/nagatoro-fullbody-v12.inp",
+      "sha256": "b01675fb931d0a93a3bbfaddf1c2b5d4818278e463cb416c151117fc5dcc43e5",
+      "size_bytes": 14880505,
       "nsfw": false,
       "description": {
-        "de": "Nichtkommerzielles Ganzkörper-Fanmodell: 67 Clips, Mimik und Sprechen frontal und im Profil, Handposen, seitliches Gehen/Laufen, Landungen, Haarphysik und Drehclips mit Blinzeln. Ansichtswechsel diskret. Charakterrechte: Nanashi / Kodansha.",
-        "en": "Non-commercial full-body fan model: 67 clips, frontal and profile expressions and speech, hand poses, side walking/running, landings, hair physics and blink-assisted view-change clips. Views switch discretely. Character rights: Nanashi / Kodansha.",
-        "ru": "Некоммерческая фан-модель в полный рост: 67 клипов, мимика и речь анфас и в профиль, позы рук, ходьба и бег в профиль, приземления, физика волос и смена ракурса с морганием. Ракурсы переключаются дискретно. Права на персонажа: Nanashi / Kodansha.",
-        "ja": "非営利の全身ファンモデル。67クリップ、正面・横顔の表情と口の動き、手のポーズ、横歩き・走行、着地、髪の物理演算、瞬きに合わせた向きの切り替え。向きは段階的に切り替わります。キャラクター権利：Nanashi / 講談社。"
+        "de": "Nichtkommerzielles Ganzkörper-Fanmodell: fünf Ansichten mit neuen Dreiviertelzeichnungen links/rechts, 85 Clips, Blinzeln/Sprechen und Haarphysik. Dreiviertel-Arme/-Beine noch nicht artikuliert; Gehen/Handposen frontal oder im Profil. Charakterrechte: Nanashi / Kodansha.",
+        "en": "Non-commercial full-body fan model: five views including new left/right three-quarter drawings, 85 clips, blinking/speech and hair physics. Intermediate-view arms/legs are not articulated yet; use front/profile for gait/hand poses. Character rights: Nanashi / Kodansha.",
+        "ru": "Некоммерческая полнофигурная фан-модель: пять ракурсов с новыми видами в три четверти слева/справа, 85 клипов, моргание, речь и физика волос. Руки/ноги в новых ракурсах пока не артикулированы; походка/позы кистей — анфас или в профиль. Права на персонажа: Nanashi / Kodansha.",
+        "ja": "非営利の全身ファンモデル。新しい左右の斜め向きを含む5方向、85クリップ、瞬き・口の動き・髪の物理演算。新しい斜め向きの腕と脚は未関節化のため、歩行や手のポーズには正面・横顔を使用。キャラクター権利：Nanashi / 講談社。"
       }
     }
   ]
