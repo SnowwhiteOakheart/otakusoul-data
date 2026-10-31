@@ -107,7 +107,7 @@ Hier wird beschrieben, an welchen Stellen im OtakuSoul-Codebase (`OtakuSoul/src-
   * Lädt beim Szenenimport verknüpfte Hintergrundbilder aus `extensions.otakusoul_assets.backgrounds` automatisch herunter.
   * `src-tauri/src/modules/avatar_hub.rs`: Lädt `avatars_registry.json` (Hub-Kategorie „Avatare“: VRM/Live2D mit Dateien + SHA-256 oder nur `page_url`); zusammen mit `inochi2d_registry.json` im Hub-Tab `HubAvatarsTab.tsx`.
   * `src-tauri/src/modules/motion_packs.rs`: Lädt `motion_packs_registry.json` (Bewegungspakete, VRMA aus `avatars/motions/` mit SHA-256) beim Start; höhere `version` gewinnt. Beim Laden bekommen die Bewegungen ihre Rolle (Leerlauf, Gehen, Sitzen, Sprechen, Tanzen …).
-  * `src-tauri/src/modules/inochi2d.rs`: Lädt `inochi2d_registry.json` (Inochi2D-Puppen mit Quelle + SHA-256) beim Start; höhere `version` als die mitgelieferte Kopie gewinnt. Karten verweisen per `extensions.custom_inochi2d` auf den Dateinamen. Katalog v5: Aka, Midori und Hayase Nagatoro v13 (fünf Ansichten, artikulierte Dreiviertel-Gelenke) (Release-Download; keine Puppendateien im Git-Baum).
+  * `src-tauri/src/modules/inochi2d.rs`: Lädt `inochi2d_registry.json` (Inochi2D-Puppen mit Quelle + SHA-256) beim Start; höhere `version` als die mitgelieferte Kopie gewinnt. Karten verweisen per `extensions.custom_inochi2d` auf den Dateinamen. Katalog v6: Aka, Midori und Hayase Nagatoro v14 (fünf Ansichten, artikulierte Dreiviertel-Gelenke) (Release-Download; keine Puppendateien im Git-Baum).
 * **Revisionsabgleich & Updates:**
   * `src-tauri/src/modules/hub_installed.rs`: Vergleicht lokale `revision` mit der Registry-`revision`. Höhere Zahl = Update verfügbar.
 

@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "puppets": [
     {
       "id": "Aka.inx",
@@ -36,20 +36,20 @@
       }
     },
     {
-      "id": "nagatoro-fullbody-v13.inp",
-      "name": "Hayase Nagatoro – five views v13",
+      "id": "nagatoro-fullbody-v14.inp",
+      "name": "Hayase Nagatoro – five views v14",
       "author": "SnowwhiteOakheart / AI-assisted artwork and rigging",
       "license": "CC BY-NC 4.0 (original contributions; character rights excluded)",
-      "license_url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v13/NAGATORO-LICENSE.md",
-      "url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v13/nagatoro-fullbody-v13.inp",
-      "sha256": "c4b3348bf5f0b5991f745d97eac7722c816dc0c2c28ff15fe1b5ca2148b0ff5a",
-      "size_bytes": 15513600,
+      "license_url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v14/NAGATORO-LICENSE.md",
+      "url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v14/nagatoro-fullbody-v14.inp",
+      "sha256": "9532af937f0aa09e6e65e28b70aaeea1fe12d0255d22e477bb9ae9b7e9f5edcf",
+      "size_bytes": 15528917,
       "nsfw": false,
       "description": {
-        "de": "Nichtkommerzielles Ganzkörper-Fanmodell mit fünf Ansichten, 107 Clips und 11 Physiktreibern. Dreiviertelansichten jetzt mit beweglichen Armen, vier Handposen, Hüft-/Knie-/Knöchelgelenken sowie eigenen Geh-, Lauf-, Start/Stop-, Sprung- und Landebewegungen. Keine Fingergelenke oder automatische Kollisionsauflösung. Charakterrechte: Nanashi / Kodansha.",
-        "en": "Non-commercial full-body fan model with five views, 107 clips and 11 physics drivers. Three-quarter views now have articulated arms, four hand poses, hip/knee/ankle joints, and dedicated walk, run, start/stop, jump and landing motions. No individual finger joints or automatic collision resolution. Character rights: Nanashi / Kodansha.",
-        "ru": "Некоммерческая полнофигурная фан-модель: пять ракурсов, 107 клипов и 11 физических контроллеров. В ракурсах в три четверти добавлены артикулированные руки, четыре позы кистей, суставы бёдер/коленей/лодыжек и отдельные циклы ходьбы, бега, старта/остановки, прыжка и приземления. Нет отдельных суставов пальцев и автоматического разрешения столкновений. Права на персонажа: Nanashi / Kodansha.",
-        "ja": "5方向、107クリップ、11個の物理ドライバーを備えた非営利の全身ファンモデル。斜め向きに腕の関節、4種類の手のポーズ、股関節・膝・足首の関節、歩行・走行・開始/停止・ジャンプ・着地モーションを追加。指ごとの関節と自動衝突解決はありません。キャラクター権利：Nanashi / 講談社。"
+        "de": "Nichtkommerzielles Ganzkörper-Fanmodell mit fünf Ansichten, 107 Clips und 11 Physiktreibern. Dreiviertelansichten jetzt mit beweglichen Armen, vier Handposen, Hüft-/Knie-/Knöchelgelenken sowie eigenen Geh-, Lauf-, Start/Stop-, Sprung- und Landebewegungen. Keine Fingergelenke oder automatische Kollisionsauflösung. Charakterrechte: Nanashi / Kodansha. Korrigierte Armfreistellung ohne mitgezogene Blusen-/Rockfragmente.",
+        "en": "Non-commercial full-body fan model with five views, 107 clips and 11 physics drivers. Three-quarter views now have articulated arms, four hand poses, hip/knee/ankle joints, and dedicated walk, run, start/stop, jump and landing motions. No individual finger joints or automatic collision resolution. Character rights: Nanashi / Kodansha. Fixed arm cutouts without attached blouse/skirt fragments.",
+        "ru": "Некоммерческая полнофигурная фан-модель: пять ракурсов, 107 клипов и 11 физических контроллеров. В ракурсах в три четверти добавлены артикулированные руки, четыре позы кистей, суставы бёдер/коленей/лодыжек и отдельные циклы ходьбы, бега, старта/остановки, прыжка и приземления. Нет отдельных суставов пальцев и автоматического разрешения столкновений. Права на персонажа: Nanashi / Kodansha. Исправлено выделение рук без фрагментов блузки/юбки.",
+        "ja": "5方向、107クリップ、11個の物理ドライバーを備えた非営利の全身ファンモデル。斜め向きに腕の関節、4種類の手のポーズ、股関節・膝・足首の関節、歩行・走行・開始/停止・ジャンプ・着地モーションを追加。指ごとの関節と自動衝突解決はありません。キャラクター権利：Nanashi / 講談社。腕の切り抜きを修正し、ブラウス・スカートの断片の巻き込みを除去。"
       }
     }
   ]

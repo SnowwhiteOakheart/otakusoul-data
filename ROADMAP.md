@@ -1,3 +1,9 @@
+## Inochi2D: Nagatoro v14 · 31.10.2026
+
+- **DE:** [v14](https://github.com/SnowwhiteOakheart/otakusoul-data/releases/tag/nagatoro-inochi2d-v14) korrigiert die Armfreistellung in beiden Dreiviertelansichten: Stoff- und Haarfragmente bewegen sich nicht mehr mit den Unterarmen. Neutrale Front pixelgleich, 107 Clips. Mesh-, Gelenk-, Sohlen- und headless OtakuSoul-Renderprüfungen bestanden. Katalog v6; frühere Releases bleiben verfügbar.
+- **EN:** v14 fixes three-quarter arm cutouts: cloth and hair fragments no longer move with the forearms. Neutral front stays pixel-identical, 107 clips. Mesh, joint, sole and headless OtakuSoul rendering checks passed. Registry v6; earlier releases remain available.
+- **RU:** v14 исправляет выделение рук в ракурсах в три четверти: фрагменты одежды и волос больше не движутся с предплечьями. Нейтральный анфас сохранён, 107 клипов. Проверки сеток, суставов, стоп и headless-рендера OtakuSoul пройдены. Реестр v6; прежние релизы сохранены.
+
 ## Inochi2D: Nagatoro v13 · 31.10.2026
 
 - **DE:** v13 veröffentlicht: [Release mit INP, Vorschau, Prüfsumme und Nutzungsbedingungen](https://github.com/SnowwhiteOakheart/otakusoul-data/releases/tag/nagatoro-inochi2d-v13). 185 Grafikebenen, 249 Knoten, 61 Parameter, 107 Clips. Die Dreiviertelansichten haben jetzt Schulter-/Ellenbogen-/Handgelenk- sowie Hüft-/Knie-/Knöchelgelenke, vier Handposen und eigene Geh-/Lauf-/Start-/Stop-/Sprung-/Landebewegungen. Neutrale Front bleibt pixelidentisch. OtakuSoul-Laufzeit: 562 Standproben, höchstens 0,13 px Sohlenabweichung interpoliert; alle überprüften Meshes ohne Umklappen. Katalog v5 bietet v13; v12-Release bleibt verfügbar. Kein UI-Importtest über die vollständige App.
