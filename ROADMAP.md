@@ -3,6 +3,13 @@
 Dieses Dokument koordiniert die Erstellung und schrittweise Implementierung von modularen, optionalen Inhalten für **OtakuSoul**. Alle hier definierten Charaktere, Lorebooks und Stage-Geschichten werden im Repository **[`SnowwhiteOakheart/otakusoul-data`](https://github.com/SnowwhiteOakheart/otakusoul-data)** gepflegt und stehen lokal in der App zur Verfügung, ohne das Basis-Release der Anwendung aufzublähen.
 
 
+## Inochi2D: Nagatoro v11 · 31.10.2026
+
+- **DE:** [v11 veröffentlicht](https://github.com/SnowwhiteOakheart/otakusoul-data/releases/tag/nagatoro-inochi2d-v11): Profilmimik mit Blinzeln, Sprechformen, Lachen und Brauen; vier Drehclips mit Blinzeln beim diskreten Ansichtswechsel. 67 Clips, 57 Parameter. Katalog v3 ersetzt den v10-Eintrag durch v11; das frühere Release bleibt abrufbar und vorhandene Installationen bleiben unberührt. Frontansicht pixelgleich zu v10. 252 Profilkombinationen und 580 Dreh-Samples sowie Arm-/Fuß-/Haartests und WebGL bestanden. Offene Punkte: Dreiviertelansichten, automatische Clipübergänge in der App, Kollisionsbehandlung und vollständiger UI-Importtest.
+- **EN:** v11 adds profile blinking, speech, laughter and brows plus four blink-assisted clips for discrete view changes. 67 clips, 57 parameters. Registry v3 replaces the v10 entry with v11; the earlier release and existing installations remain available. Neutral front is pixel-identical to v10. Passed 252 profile combinations, 580 turn samples, arm/contact/hair tests and WebGL. Remaining: three-quarter views, automatic app clip transitions, collision handling and full UI import testing.
+- **RU:** v11 добавляет моргание, речь, смех и брови в профиль, а также четыре клипа дискретной смены ракурса с морганием. 67 клипов, 57 параметров. Реестр v3 заменяет запись v10 на v11; прежний релиз и установленные модели сохраняются. Нейтральный анфас попиксельно совпадает с v10. Проверены 252 сочетания мимики, 580 отсчётов поворота, тесты рук, контакта стоп, волос и WebGL. Далее: ракурсы в три четверти, автоматические переходы клипов в приложении, столкновения и полный тест импорта через интерфейс.
+
+
 ## Inochi2D: Nagatoro v10 · 31.10.2026
 
 - **DE:** Vollständiges Fanmodell mit 45 Clips und getrennter Haarphysik veröffentlicht: [Release mit INP, Vorschau, Prüfsumme und Nutzungsbedingungen](https://github.com/SnowwhiteOakheart/otakusoul-data/releases/tag/nagatoro-inochi2d-v10). Katalogversion 2 führt es neben Aka/Midori; verfügbar über Hub → Avatare → Inochi2D nach Katalogaktualisierung/Neustart. Keine Puppen-Binärdatei im Git-Baum. OtakuSoul-Parser, Physik und WebGL geprüft; vollständiger UI-Import noch nicht manuell geprüft. Nächste Modellarbeiten: Profilmimik, weichere Ansichts-/Clipübergänge und Überschneidungen in Extremposen.
