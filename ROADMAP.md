@@ -2,6 +2,14 @@
 
 Dieses Dokument koordiniert die Erstellung und schrittweise Implementierung von modularen, optionalen Inhalten für **OtakuSoul**. Alle hier definierten Charaktere, Lorebooks und Stage-Geschichten werden im Repository **[`SnowwhiteOakheart/otakusoul-data`](https://github.com/SnowwhiteOakheart/otakusoul-data)** gepflegt und stehen lokal in der App zur Verfügung, ohne das Basis-Release der Anwendung aufzublähen.
 
+
+## Inochi2D: Nagatoro v10 · 31.10.2026
+
+- **DE:** Vollständiges Fanmodell mit 45 Clips und getrennter Haarphysik veröffentlicht: [Release mit INP, Vorschau, Prüfsumme und Nutzungsbedingungen](https://github.com/SnowwhiteOakheart/otakusoul-data/releases/tag/nagatoro-inochi2d-v10). Katalogversion 2 führt es neben Aka/Midori; verfügbar über Hub → Avatare → Inochi2D nach Katalogaktualisierung/Neustart. Keine Puppen-Binärdatei im Git-Baum. OtakuSoul-Parser, Physik und WebGL geprüft; vollständiger UI-Import noch nicht manuell geprüft. Nächste Modellarbeiten: Profilmimik, weichere Ansichts-/Clipübergänge und Überschneidungen in Extremposen.
+- **EN:** Full-body fan model with 45 clips and layered hair physics released: INP, preview, checksum and terms are attached to the release above. Registry version 2 adds it alongside Aka/Midori; available under Hub → Avatars → Inochi2D after a catalog refresh/restart. No puppet binary in the Git tree. Tested with the OtakuSoul parser, physics and WebGL; full UI import has not been manually tested. Remaining: profile expressions, smoother view/clip transitions and overlap cleanup in extreme poses.
+- **RU:** Опубликована полнофигурная фан-модель с 45 клипами и раздельной физикой волос. INP, превью, контрольная сумма и условия — в релизе выше. Реестр версии 2 добавляет модель к Aka/Midori: Hub → Аватары → Inochi2D после обновления каталога/перезапуска. Бинарный файл модели не добавлен в Git. Проверены парсер, физика и WebGL OtakuSoul; импорт через полный интерфейс вручную не проверен. Далее: мимика в профиль, плавные переходы и устранение пересечений в крайних позах.
+
+
 ---
 
 ## 💎 Qualitätsstandards je Inhalt

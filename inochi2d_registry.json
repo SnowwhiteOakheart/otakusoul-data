@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "puppets": [
     {
       "id": "Aka.inx",
@@ -33,6 +33,23 @@
         "en": "Raccoon girl in a green dress, mesh-group deformation",
         "ru": "Девушка-енот в зелёном платье, деформация групп сеток",
         "ja": "緑のドレスの狸娘、メッシュグループ変形"
+      }
+    },
+    {
+      "id": "nagatoro-fullbody-v10.inp",
+      "name": "Hayase Nagatoro – full body v10",
+      "author": "SnowwhiteOakheart / AI-assisted artwork and rigging",
+      "license": "CC BY-NC 4.0 (original contributions; character rights excluded)",
+      "license_url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v10/NAGATORO-LICENSE.md",
+      "url": "https://github.com/SnowwhiteOakheart/otakusoul-data/releases/download/nagatoro-inochi2d-v10/nagatoro-fullbody-v10.inp",
+      "sha256": "f9b33be4cc5ff50652ca26b3651b79de0e5a8559fdb21b7ac166728a9b778cc8",
+      "size_bytes": 10658826,
+      "nsfw": false,
+      "description": {
+        "de": "Nichtkommerzielles Fanmodell: ganze Figur, 45 Clips, frontale Mimik, Handposen, seitliches Gehen/Laufen, Landungen und Haarphysik. Profilgesichter noch statisch. Charakterrechte: Nanashi / Kodansha.",
+        "en": "Non-commercial full-body fan model: 45 clips, frontal expressions, hand poses, side walking/running, landings and hair physics. Profile faces are still static. Character rights: Nanashi / Kodansha.",
+        "ru": "Некоммерческая фан-модель в полный рост: 45 клипов, мимика анфас, позы рук, ходьба и бег в профиль, приземления и физика волос. Лица в профиль пока статичны. Права на персонажа: Nanashi / Kodansha.",
+        "ja": "非営利の全身ファンモデル。45クリップ、正面の表情、手のポーズ、横歩き・走行、着地、髪の物理演算。横顔の表情は現在固定。キャラクター権利：Nanashi / 講談社。"
       }
     }
   ]
