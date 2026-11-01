@@ -14,10 +14,10 @@
 </p>
 
 <p align="center">
-  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-61%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
-  <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-52%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
-  <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-24%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
-  <img alt="Presets" src="https://img.shields.io/badge/Presets-21%20Welten-10b981?style=for-the-badge" />
+  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-72%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
+  <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-59%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
+  <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-28%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
+  <img alt="Presets" src="https://img.shields.io/badge/Presets-23%20Welten-10b981?style=for-the-badge" />
   <img alt="Format" src="https://img.shields.io/badge/Format-Character%20Card%20V2-f59e0b?style=for-the-badge" />
   <img alt="Lizenz" src="https://img.shields.io/badge/Lizenz-GPLv3-22c55e?style=for-the-badge" />
 </p>
@@ -41,6 +41,8 @@
 
 ## Deutsch
 
+**Neu: [World of Warcraft – Tirisfal](presets/world-of-warcraft/README.md)** – fünf erwachsene eigene Fanfiguren, 75 Emotionsbilder, ein LoreBook mit 35 Einträgen und „Die Glocke der namenlosen Seelen“. In DE/EN/RU/JA; über die Hub-Sammlung mit „Alles installieren“ ladbar. Warcraft: © Blizzard Entertainment; nicht offizielles Fanwerk.
+
 ### 🌸 Was ist `otakusoul-data`?
 
 Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul). Es versorgt die Anwendung über den integrierten **Hub & Gateway** mit fertigen Inhalten:
@@ -52,7 +54,7 @@ Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github
 - 🌍 **Vollständige Dreisprachigkeit:** Alle nutzerseitigen Texte, Begrüßungen, Dialogbeispiele und Szenen werden in **Deutsch (DE)**, **Englisch (EN)** und **Russisch (RU)** gepflegt.
 
 > 💡 **Schnellübersicht gesucht?**
-> - Eine vollständige, tokensparende Übersicht aller 61 Figuren, 52 Stages und 24 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Eine vollständige, tokensparende Übersicht aller 72 Figuren, 59 Stages und 28 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Den aktuellen Entwicklungsstand und geplante Kampagnen findest du in [**ROADMAP.md**](ROADMAP.md).
 > - Technische Standards, Formate und Veröffentlichungsregeln stehen verbindlich in [**AI.md**](AI.md).
 
@@ -98,7 +100,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 | [`stages_registry.json`](stages_registry.json) / [`stages_gateway/`](stages_gateway/) | Szenenkatalog und interaktive Story-JSONs |
 | [`lorebooks_registry.json`](lorebooks_registry.json) / [`lorebooks_gateway/`](lorebooks_gateway/) | Lorebook-Katalog und Wissensdatenbanken |
 | [`collections_registry.json`](collections_registry.json) | Sammlungen: Lorebooks, Szenen und Figuren einer Geschichte mit Titelbild |
-| [`presets/`](presets/) | 21 modulare Themenpakete mit Karten, Expressions, Hintergründen und Dokumentation |
+| [`presets/`](presets/) | 23 modulare Themenpakete mit Karten, Expressions, Hintergründen und Dokumentation |
 | [`CONTENT_INDEX.md`](CONTENT_INDEX.md) | Kompakte tokensparende Matrix über alle Charaktere, Stages, Lorebooks und App-Aufrufe |
 | [`ROADMAP.md`](ROADMAP.md) | Entwicklungs-Roadmap, Qualitätsstandards und Fortschritts-Checkliste |
 | [`AI.md`](AI.md) | Verbindlicher Wegweiser für Dateiformate, Übersetzungen, Validierungen und Git-Abläufe |
@@ -135,6 +137,8 @@ Dieses Repository ist ein unabhängiges, nicht-kommerzielles Fanprojekt für Ota
 
 ## English
 
+**New: [World of Warcraft – Tirisfal](presets/world-of-warcraft/README.md)** – five original adult fan characters, 75 expressions, a 35-entry lorebook and “The Bell of Nameless Souls”. DE/EN/RU/JA; available through the hub collection’s Install all option. Warcraft: © Blizzard Entertainment; unofficial fan work.
+
 ### 🌸 What is `otakusoul-data`?
 
 This repository serves as the official content and asset backend for [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), delivering rich modular story content via the integrated **Hub & Gateway**:
@@ -146,7 +150,7 @@ This repository serves as the official content and asset backend for [OtakuSoul]
 - 🌍 **Full Trilingual Support:** All character profiles, greetings, dialogue samples, and scenes are maintained in **German (DE)**, **English (EN)**, and **Russian (RU)**.
 
 > 💡 **Looking for an overview?**
-> - For a complete, token-saving reference of all 61 characters, 52 stages, and 24 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - For a complete, token-saving reference of all 72 characters, 59 stages, and 28 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - For current development progress and planned packs, check [**ROADMAP.md**](ROADMAP.md).
 > - For technical specifications and validation rules, see [**AI.md**](AI.md).
 
@@ -210,6 +214,8 @@ This repository is an independent, non-commercial fan project. All depicted char
 
 ## Русский
 
+**Новое: [World of Warcraft — Тирисфаль](presets/world-of-warcraft/README.md)** — пятеро взрослых авторских фан-персонажей, 75 эмоций, книга знаний из 35 записей и «Колокол безымянных душ». DE/EN/RU/JA; доступно через «Установить всё» в сборнике Hub. Warcraft: © Blizzard Entertainment; неофициальная фан-работа.
+
 ### 🌸 Что такое `otakusoul-data`?
 
 Этот репозиторий — официальное хранилище модульного контента для [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul), обеспечивающее приложение историями, мирами и персонажами через встроенный **Hub & Gateway**:
@@ -221,7 +227,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 - 🌍 **Трёхъязычная поддержка:** Все профили, приветствия, примеры диалогов и сцены поддерживаются на **немецком (DE)**, **английском (EN)** и **русском (RU)** языках.
 
 > 💡 **Быстрый обзор:**
-> - Компактный справочник всех 61 персонажа, 52 сцен и 24 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
+> - Компактный справочник всех 72 персонажей, 59 сцен и 28 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
 > - Текущий ход разработки и запланированные сюжеты: [**ROADMAP.md**](ROADMAP.md).
 > - Технические требования и правила валидации: [**AI.md**](AI.md).
 

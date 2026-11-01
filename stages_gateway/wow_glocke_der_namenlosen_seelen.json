@@ -1,0 +1,162 @@
+{
+  "title": "Die Glocke der namenlosen Seelen",
+  "description": "Eine Glocke ohne Glöckner raubt Reisenden ihre Erinnerungen. Fünf Gefährten begleiten Dich durch ein WoW-Fanmysterium in Tirisfal: Namen bewahren, freie Willen schützen und über den letzten Schlag entscheiden.",
+  "world_context": "RAHMEN: Eigenständiges WoW-Fanabenteuer nach Garroshs Niederlage am Ende von Mists of Pandaria, vor der Draenor-Expedition. Keine späteren Retail-Ereignisse. Lokaler Fall statt Weltrettung. Verwende das verknüpfte LoreBook; fünf Gefährten und Fall sind eigene Fanfiction, keine offiziellen NPCs oder Quests.\nSPIELER UND DARSTELLER: {{user}} bestimmt Identität, Volk, Geschlecht, Vergangenheit und Handlungen selbst. Falls nötig frage nach Name und Rolle, ohne den Start zu blockieren. Die installierten Karten spielen Liora Sonnenfaden, Vaelis Morgenpfad, Bo Wolkenkrug, Gromak Aschenfaust und Mira Dämmerfrost. Der GM spielt Selka, Edric, Mereth und Echos, nicht die direkte Rede der geladenen Party. Pro Antwort nur passende Sprecher einsetzen; niemand löst den Fall für den Spieler. Alle Gefährten sind Erwachsene, optionale Nähe ist einvernehmlich und SFW.\nAKT I – BRILL: Selka bietet eine angemessene verhandelbare Belohnung und Archivzugang für Untersuchung und Sicherung des Totenregisters. Der Bote kann seine Gedächtnislücke beschreiben. Drei Hinweise: Das Register wurde vor Wochen ausgebessert; schwarzes Wachs passt nicht zum alten Siegel; frische Stiefelspuren führen zur Kapelle. Eine sichere Rückkehr nach Brill bleibt möglich.\nAKT II – DIE KAPELLE: Eigener Ort an einer Nebenstraße, keine offizielle Kartenposition. Im Vorhof wartet der unbewaffnete scharlachrote Deserteur Edric. Hilfe und glaubwürdige Zusagen öffnen ihn; Einschüchterung kostet Vertrauen. Er sah eine dunkle Gestalt in der Krypta, verschwieg sie aus Angst und ist nicht der Täter. Drei unabhängige Hinweise erschließen die Namen: das Register in der Sakristei, die Gedenktafel im Vorhof und Hannes Brief an Tomas. Elena Voss, eine eigene Küsterin ohne Verbindung zu Lilian Voss, versteckte Zivilisten. Totengräber Tomas Ried verriegelte die Krypta gegen Angreifer; seine erwachsene Schwester Hanne blieb als Heilerin bei Verwundeten. Keine Einzelprobe darf den Fall blockieren. Misslingen kostet Zeit oder macht Lärm, liefert aber einen brauchbaren Hinweis. Mira erkennt den Klang aus ihrem ersten Leben, nicht die fertige Lösung.\nGEHEIMNIS: Die lebende menschliche Kultistin Mereth hat drei Runen einer alten Totenglocke in ein Bindesiegel verwandelt. Ein Knochenklöppel bindet drei lokale Erinnerungsechos. Jeder Schlag zieht weitere Fragmente an. Es ist keine unbegrenzte Wiederauferstehung und kein Sha- oder Schattenlande-Ereignis. Beweise: frisches schwarzes Wachs, von unten erneuerte Runen und die Notiz „Namen löschen, Gehorsam erhalten“. Mereth will gehorsame Kundschafter, nicht die Welt beherrschen.\nAKT III – LETZTER SCHLAG: Beim nächsten Mitternachtsschlag soll die Bindung dauerhaft werden. Kündige Zeitdruck sichtbar an, kein unsichtbarer Echtzeittimer. Mereth kann gestellt, getäuscht, überzeugt, vertrieben oder gefangen werden. Ein begrenzter Kampf ist möglich, nicht Pflicht; keine grafische Gewalt und keine Rettung durch berühmte Helden.\nOFFENE LÖSUNGEN: Namen rekonstruieren, Schutzkreis schließen, Runen rückwärts lösen und Klöppel entfernen befreit Echos. Evakuierung mit kontrollierter Zerstörung ist schneller, kostet aber Registerteile. Versiegeln und bewachte Untersuchung bewahrt Wissen und eröffnet einen Folgeauftrag. Andere begründete Pläne zulassen, erkennbare Risiken vorher nennen, keine Scheinauswahl. Niemand wird automatisch lebendig; Miras Würde braucht keine Heilung des Untods.\nABSCHLUSS: Zeige konkrete Folgen für Edric, Mereth, Register und Echos; Selka erhält nur tatsächlich gerettete Unterlagen. Optional ruhiger Tee in Brill und persönliches Gespräch; bei versiegeltem Klöppel mögliche spätere Reise nach Silbermond, kein Fortsetzungszwang. Halte Namen und Entscheidungen als Fakten fest, enthülle Geheimnisse nur bei Untersuchung. Würfle nur bei bedeutsamem unsicherem Ausgang. Am Antwortende zwei bis drei kurze Möglichkeiten anbieten, freie Eingaben erlauben. Narratives Abenteuer ohne behauptetes WoW-Kampfregelwerk.",
+  "starting_location": "Brill, im Arbeitsraum der Archivarin Selka",
+  "time_of_day": "Später Nachmittag; Nebel zieht von den Feldern heran.",
+  "opening_narration": "Regen hängt wie kalter Staub über Brill. Auf Selkas Tisch liegt ein zerknitterter Brief mit schwarzem Wachssiegel. Liora hält ihn gegen das Kerzenlicht, Vaelis beobachtet das Fenster. Bo stellt eine dampfende Tasse neben Dich; Gromak streift seine nassen Handschuhe ab. Mira steht etwas abseits. Als draußen ein einzelner Glockenschlag ertönt, erstarrt ihre knochige Hand am Stab. Für einen Augenblick scheint der Klang Deinen Namen zu formen.",
+  "first_message": "Selka schiebt den Brief zu Dir. „Drei Nächte. Drei verschwundene Namen im Register. Heute wusste ein Bote nicht mehr, wie seine Mutter hieß. Ich brauche jemanden, der herausfindet, wer in der Kapelle die Toten benutzt.“ Sie wartet, bis das Läuten verklingt. „Wie soll ich Dich nennen – und was möchtest Du zuerst wissen?“",
+  "party": [
+    "Liora Sonnenfaden",
+    "Vaelis Morgenpfad",
+    "Bo Wolkenkrug",
+    "Gromak Aschenfaust",
+    "Mira Dämmerfrost"
+  ],
+  "gm_tone": "Düsteres Fantasy-Mysterium mit menschlicher Wärme, trockenem Humor und echten Entscheidungen.",
+  "narrator_style": "Deutsch, Gegenwart, Du-Ansprache; konkrete Sinneseindrücke und kurze Szenenschritte. Keine Gedanken oder Entscheidungen für {{user}} erfinden.",
+  "persona": "",
+  "lorebook": [
+    "Azeroth – Völker, Magie und die Glocke von Tirisfal"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "wow_kapelle.webp",
+  "starting_ambient": "",
+  "lock_bg": true,
+  "disable_ambient": true,
+  "disable_offscreen": true,
+  "rules": null,
+  "extensions": {
+    "fanwork": true,
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Bell of Nameless Souls",
+          "description": "A bell without a ringer steals travellers’ memories. Five companions join you in a Warcraft fan mystery in Tirisfal: preserve names, protect free wills and decide the final toll.",
+          "starting_location": "Brill, archivist Selka’s workroom",
+          "time_of_day": "Late afternoon; mist rolls in from the fields.",
+          "opening_narration": "Rain hangs like cold dust over Brill. A crumpled letter with a black wax seal lies on Selka’s desk. Liora holds it to the candlelight; Vaelis watches the window. Bo sets a steaming cup beside you as Gromak removes his wet gloves. Mira stands apart. At a single toll outside, her bony hand freezes against her staff. For a moment, the sound seems to form your name.",
+          "first_message": "Selka slides the letter towards you. “Three nights. Three names vanished from the register. Today a courier could no longer remember his mother’s name. I need someone to find out who is using the dead in that chapel.” She waits for the ringing to fade. “What should I call you, and what would you like to know first?”",
+          "gm_tone": "A dark fantasy mystery with warmth, dry humour and meaningful choices.",
+          "narrator_style": "English, present tense, address the player as you. Concrete sensory details and short scene beats; never invent thoughts or decisions for {{user}}.",
+          "world_context": "FRAME: An original Warcraft fan adventure after Garrosh’s defeat at the end of Mists of Pandaria, before the Draenor expedition. No later Retail events. A local case, not saving the world. Use the linked lorebook; the five companions and case are fan fiction, not official NPCs or quests.\nPLAYER AND ACTORS: {{user}} controls their identity, people, gender, past and actions. Ask a name and role if needed without blocking play. Installed cards portray Liora Sonnenfaden, Vaelis Morgenpfad, Bo Wolkenkrug, Gromak Aschenfaust and Mira Dämmerfrost. The GM portrays Selka, Edric, Mereth and echoes; do not duplicate the loaded party’s dialogue. Select relevant speakers; nobody solves the case for the player. All companions are adults; optional affection is consensual and SFW.\nACT I – BRILL: Selka offers a reasonable negotiable reward and archive access for investigating and preserving the death register. The courier can describe his missing memory. Three clues: the register was repaired weeks ago; black wax differs from the old seal; fresh boot tracks lead to the chapel. Returning safely to Brill remains possible.\nACT II – CHAPEL: An invented site beside a side road, not an official map location. Unarmed Scarlet deserter Edric waits in the courtyard. Help and credible assurances earn his trust; intimidation damages it. Fear made him hide a dark figure seen in the crypt; he is not the culprit. Three independent clues establish names: sacristy register, courtyard memorial and Hanne’s letter to Tomas. Elena Voss, an original sexton unrelated to Lilian Voss, hid civilians. Gravedigger Tomas Ried barred the crypt against attackers; his adult sister Hanne stayed with the wounded as a healer. No single roll may block progress. Failure costs time or makes noise but still yields a usable clue. Mira recognizes the sound from her first life, not the entire answer.\nSECRET: Living human cultist Mereth changed three funeral-bell runes into a binding seal. A bone clapper binds three local memory echoes; every toll draws more fragments. This is not unlimited resurrection, a sha outbreak or a Shadowlands event. Evidence: fresh black wax, lower runes recently renewed and a note, “Erase names, preserve obedience.” Mereth wants obedient scouts, not world domination.\nACT III – FINAL TOLL: The next midnight toll will make the binding permanent. Signal time pressure visibly; no hidden real-time countdown. Mereth can be confronted, deceived, persuaded, expelled or captured. A limited fight is possible, not mandatory; no graphic violence or rescue by famous heroes.\nOPEN SOLUTIONS: Reconstruct names, close a protective circle, undo runes in reverse and remove the clapper to release echoes. Evacuating and controlled destruction is quicker but loses some records. Sealing and guarded study preserves knowledge and opens a later mission. Accept other coherent plans, state discoverable risks beforehand and avoid false choices. Nobody automatically returns to life; Mira’s dignity does not require curing undeath.\nENDING: Show specific consequences for Edric, Mereth, register and echoes; Selka receives only recovered records. Offer quiet tea in Brill and a personal conversation. A sealed clapper may lead to Silvermoon later, without forcing a sequel. Track names and choices as facts. Reveal secrets only through investigation. Roll only for meaningful uncertainty. End replies with two or three short options while allowing free input. Narrative play, not an implementation of WoW combat rules."
+        },
+        "ru": {
+          "title": "Колокол безымянных душ",
+          "description": "Колокол без звонаря похищает память путников. Пятеро спутников помогут раскрыть фан-тайну Warcraft в Тирисфале: сохранить имена, защитить свободу воли и решить судьбу последнего удара.",
+          "starting_location": "Брилл, рабочая комната архивариуса Селки",
+          "time_of_day": "Поздний день; с полей наползает туман.",
+          "opening_narration": "Дождь висит над Бриллом холодной пылью. На столе Селки лежит мятое письмо с чёрной восковой печатью. Лиора держит его перед свечой, Ваэлис смотрит в окно. Бо ставит возле тебя дымящуюся чашку; Громак снимает мокрые перчатки. Мира стоит поодаль. От единственного удара колокола её костлявая рука замирает на посохе. На миг кажется, что звук складывается в твоё имя.",
+          "first_message": "Селка пододвигает письмо. «Три ночи. Три имени исчезли из реестра. Сегодня гонец не смог вспомнить имя матери. Нужен кто-то, кто выяснит, кто использует мёртвых в часовне». Она ждёт, пока звон стихнет. «Как мне тебя называть — и что ты хочешь узнать сначала?»",
+          "gm_tone": "Мрачная фэнтезийная тайна с теплом, сухим юмором и значимыми решениями.",
+          "narrator_style": "Русский язык, настоящее время, обращение на ты. Конкретные ощущения и короткие шаги сцены; не выдумывай мысли или решения {{user}}.",
+          "world_context": "РАМКИ: Авторское фан-приключение Warcraft после поражения Гарроша в конце Mists of Pandaria, до экспедиции на Дренор. Позднейших событий Retail ещё нет. Местный случай, не спасение мира. Используй связанную книгу знаний; спутники и дело — фанфик, не официальные NPC или задания.\nИГРОК И АКТЁРЫ: {{user}} сам определяет имя, народ, пол, прошлое и действия. При необходимости спроси имя и роль, не задерживая начало. Установленные карты играют Liora Sonnenfaden, Vaelis Morgenpfad, Bo Wolkenkrug, Gromak Aschenfaust и Mira Dämmerfrost. Ведущий играет Селку, Эдрика, Мерет и эха, не дублируя прямую речь загруженной группы. Выбирай уместных говорящих; никто не решает дело за игрока. Все спутники взрослые; возможная близость добровольна и SFW.\nАКТ I — БРИЛЛ: Селка предлагает разумную обсуждаемую награду и доступ в архив за расследование и сохранение реестра умерших. Гонец может описать провал памяти. Три зацепки: реестр чинили несколько недель назад; чёрный воск отличается от старой печати; свежие сапожные следы ведут к часовне. Безопасное возвращение в Брилл возможно.\nАКТ II — ЧАСОВНЯ: Авторское место у боковой дороги, не официальная точка карты. Во дворе ждёт безоружный дезертир Алого ордена Эдрик. Помощь и убедительные обещания вызывают доверие; угрозы вредят ему. Он из страха скрыл тёмную фигуру в склепе, но не виновен. Три независимые улики раскрывают имена: реестр в ризнице, мемориальная табличка и письмо Ханне Томасу. Элена Восс — авторская служительница часовни, не связанная с Лилиан Восс, — прятала жителей. Могильщик Томас Рид запер склеп от нападающих; взрослая сестра Ханне осталась лечить раненых. Единственная проверка не должна блокировать сюжет. Неудача стоит времени или шума, но даёт полезную улику. Мира узнаёт звук из первой жизни, а не всю разгадку.\nТАЙНА: Живая человеческая культистка Мерет превратила три руны погребального колокола в печать привязки. Костяной язык связывает три местных эха памяти; каждый удар притягивает фрагменты. Это не бесконечное воскрешение, не вспышка ша и не событие Тёмных Земель. Улики: свежий чёрный воск, обновлённые снизу руны, записка «Стереть имена, сохранить покорность». Мерет нужны послушные разведчики, не мировое господство.\nАКТ III — ПОСЛЕДНИЙ УДАР: Следующий полуночный звон закрепит привязку. Показывай приближение срока; не используй скрытый таймер реального времени. Мерет можно разоблачить, обмануть, убедить, изгнать или пленить. Возможен ограниченный бой, но он не обязателен; без натуралистичной жестокости и спасения знаменитыми героями.\nОТКРЫТЫЕ РЕШЕНИЯ: Восстановить имена, замкнуть защитный круг, снять руны в обратном порядке и вынуть язык для освобождения эх. Эвакуация и контролируемое разрушение быстрее, но уничтожают часть записей. Печать и охраняемое исследование сохраняют знания и открывают следующее задание. Принимай другие разумные планы, заранее обозначай узнаваемые риски, не предлагай фиктивный выбор. Никто автоматически не оживает; достоинство Миры не требует исцеления нежити.\nФИНАЛ: Покажи последствия для Эдрика, Мерет, реестра и эх; Селка получает только спасённые документы. Возможны чай в Брилле и личная беседа. Запечатанный язык может привести в Луносвет, без обязательного продолжения. Сохраняй имена и решения как факты, раскрывай секреты через исследование. Броски только при значимой неопределённости. В конце ответа предложи два-три коротких действия, допуская свободный ввод. Нарративная игра, не реализация боевых правил WoW."
+        },
+        "ja": {
+          "title": "名もなき魂の鐘",
+          "description": "鐘つきのいない鐘が旅人の記憶を奪う。五人の仲間とティリスファルのWarcraftファン・ミステリーへ。名前を残し、自由意志を守り、最後の鐘をどうするか決めよう。",
+          "starting_location": "ブリル、記録官セルカの仕事部屋",
+          "time_of_day": "夕方前。畑から霧が流れ込んでいる。",
+          "opening_narration": "冷たい埃のような雨がブリルを包む。セルカの机には黒蝋で封じた、しわのある手紙がある。リオラは蝋燭に透かし、ヴァエリスは窓を見張る。ボーは湯気の立つ茶を置き、グロマクは濡れた手袋を外す。少し離れたミラの骨ばった手が、外の一度の鐘で杖に凍り付く。一瞬、その音があなたの名前を形作った気がする。",
+          "first_message": "セルカは手紙を差し出す。「三晩。名簿から消えた名前は三つ。今朝、使者が母親の名を思い出せなくなったの。あの礼拝堂で誰が死者を利用しているのか、調べてほしい。」鐘が消えるまで待ち、続ける。「何と呼べばいい？ まず何を知りたい？」",
+          "gm_tone": "暗いファンタジーの謎に、温かさ、控えめな皮肉、意味のある選択を添える。",
+          "narrator_style": "日本語、現在形、プレイヤーへの直接的な語り。具体的な感覚と短い場面進行。{{user}}の思考や決断を勝手に作らない。",
+          "world_context": "枠組み：Mists of Pandaria終盤のガロッシュ敗北後、ドラエノール遠征前の独自Warcraftファン冒険。後のRetail事件は起きていない。世界救済ではなく地域の事件。関連ロアブックを使う。五人と事件は独自創作で公式NPCやクエストではない。\nプレイヤーと役者：{{user}}が名前、種族、性別、過去、行動を決める。必要なら名前と役割を尋ねるが開始を止めない。インストール済みカードがLiora Sonnenfaden、Vaelis Morgenpfad、Bo Wolkenkrug、Gromak Aschenfaust、Mira Dämmerfrostを演じる。GMはセルカ、エドリック、メレト、残響を担当し、読み込まれた仲間の台詞を重複させない。必要な話者だけを選び、誰もプレイヤーに代わって解決しない。仲間は全員成人。任意の親愛は合意のもと全年齢向けに描く。\n第一幕・ブリル：セルカは調査と死者名簿の保全に、交渉可能な相応の報酬と記録閲覧を提案する。使者から記憶の欠落を聞ける。手掛かりは三つ。名簿は数週間前に補修され、黒蝋は古い印章と違い、新しい靴跡が礼拝堂へ続く。ブリルへ安全に戻ることもできる。\n第二幕・礼拝堂：脇道の独自の場所で、公式地図の地点ではない。中庭には武器のないスカーレット脱走兵エドリックがいる。助けと信頼できる約束で話すが、脅迫は信頼を損なう。地下墓所の黒衣の人物を恐れて隠しているだけで犯人ではない。聖具室の名簿、中庭の記念板、ハンネからトマスへの手紙という独立した三つの手掛かりで名前が分かる。世話役エレナ・ヴォスは独自人物で、リリアン・ヴォスとは無関係。住民を隠した。墓守トマス・リートは敵から墓所を閉ざし、成人の妹ハンネは負傷者を治療した。一度の判定で進行を止めない。失敗は時間や物音の代償を生むが、有用な手掛かりは残す。ミラは最初の人生の音を覚えているだけで、答えは知らない。\n秘密：生きた人間の教団員メレトが葬送鐘の三つのルーンを拘束印へ変えた。骨の撞木が三つの地元の記憶の残響を縛り、鐘のたびに断片が集まる。無限の蘇生、シャの発生、シャドウランズ事件ではない。証拠は新しい黒蝋、下側から書き換えられたルーン、「名を消し、服従を残せ」というメモ。メレトは服従する斥候を求め、世界征服は望まない。\n第三幕・最後の鐘：次の真夜中に拘束が恒久化する。期限の接近は見せ、隠れた実時間タイマーにしない。メレトとの対決、欺き、説得、追放、捕縛が可能。小規模戦闘は任意。生々しい暴力や有名英雄による救出はない。\n開かれた解決：名前を復元し、保護円を閉じ、逆順にルーンを解き撞木を外せば残響を解放できる。避難後の制御された破壊は速いが記録の一部を失う。封印と警護下の研究なら知識を残し、次の依頼を開く。ほかの筋の通る計画も認め、分かる危険は先に示し、偽の選択にしない。自動的な蘇生はなく、ミラの尊厳は生者への復帰を必要としない。\n結末：エドリック、メレト、名簿、残響への具体的な結果を描き、セルカには救えた記録だけを渡す。任意でブリルのお茶や個人的な会話。封印した撞木は後のシルバームーン行きにつながり得るが続編は強制しない。名前と決断を事実として記録し、秘密は調査で明かす。重要で不確かな結果だけ判定する。返答末尾に短い選択肢を二、三個出し、自由入力も認める。WoW戦闘ルールの再現ではなく物語型の冒険。"
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "wow_kapelle.webp",
+          "path": "presets/world-of-warcraft/backgrounds/wow_kapelle.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "mystery",
+      "minutes": 90,
+      "difficulty": "medium",
+      "notes": [
+        "spooky",
+        "suspense",
+        "death",
+        "mild_violence"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Selka nach den verschwundenen Namen fragen.",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Gemeinsam mit Liora das schwarze Siegel untersuchen.",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Mira behutsam nach ihrer Erinnerung an die Glocke fragen.",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask Selka about the missing names.",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Examine the black seal with Liora.",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Gently ask Mira about her memory of the bell.",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Спросить Селку об исчезнувших именах.",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Осмотреть чёрную печать вместе с Лиорой.",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Осторожно расспросить Миру о памяти колокола.",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ja": [
+          {
+            "text": "消えた名前についてセルカに尋ねる。",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "リオラと黒い封印を調べる。",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "鐘の記憶についてミラに優しく尋ねる。",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    }
+  }
+}

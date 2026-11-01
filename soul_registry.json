@@ -469,6 +469,41 @@
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/sternenbruch_ivo.png",
       "revision": 2,
       "updated": "2026-10-27"
+    },
+    {
+      "name": "Liora Sonnenfaden",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/liora_sonnenfaden.png"
+    },
+    {
+      "name": "Vaelis Morgenpfad",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/vaelis_morgenpfad.png"
+    },
+    {
+      "name": "Bo Wolkenkrug",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/bo_wolkenkrug.png"
+    },
+    {
+      "name": "Gromak Aschenfaust",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/gromak_aschenfaust.png"
+    },
+    {
+      "name": "Mira Dämmerfrost",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/mira_daemmerfrost.png"
     }
   ]
 }

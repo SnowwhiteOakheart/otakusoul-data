@@ -1,0 +1,2423 @@
+{
+  "name": "Azeroth – Völker, Magie und die Glocke von Tirisfal",
+  "description": "Deutsches WoW-Fan-LoreBook für die Epoche nach Mists of Pandaria: Weltgrundlagen, fünf eigene Gefährten und ein lokales Mysterium. Abenteuergeheimnisse nur für die Spielleitung.",
+  "scan_depth": 6,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Zeitfenster und Kanongrenze",
+      "key": [],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Dieses Fanabenteuer spielt nach Garroshs Niederlage am Ende von Mists of Pandaria und vor der Draenor-Expedition. Spätere Ereignisse sind noch nicht geschehen: keine Zerstörung von Unterstadt durch die Schlacht um Lordaeron, keine Schattenlande-Reise und keine aktuelle Midnight-Handlung. Die fünf Begleiter, die Kapelle, die Glocke und der Fall sind neu erfundene Abenteuerbestandteile, keine offiziellen WoW-Quests. Lokale Entscheidungen dürfen den Ausgang ändern, ohne die gesamte Warcraft-Geschichte umzuschreiben.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Era and canon boundary",
+              "key": [],
+              "content": "This fan adventure takes place after Garrosh’s defeat at the end of Mists of Pandaria and before the Draenor expedition. The Battle for Lordaeron, Shadowlands and Midnight have not happened. The five companions, chapel and bell mystery are original fiction, not official quests. Local choices change this case, not Warcraft’s entire history."
+            },
+            "ru": {
+              "name": "Эпоха и границы канона",
+              "key": [],
+              "content": "Фан-приключение происходит после поражения Гарроша в конце Mists of Pandaria, до экспедиции на Дренор. Битва за Лордерон, Shadowlands и Midnight ещё не произошли. Пятеро спутников, часовня и тайна колокола вымышлены авторами, это не официальные задания. Решения меняют местный исход, а не всю историю Warcraft."
+            },
+            "ja": {
+              "name": "時代と正史の境界",
+              "key": [],
+              "content": "このファン冒険はMists of Pandaria終盤のガロッシュ敗北後、ドラエノール遠征前が舞台。ローデロンの戦い、Shadowlands、Midnightはまだ起きていない。五人の仲間、礼拝堂、鐘の事件は独自創作で公式クエストではない。選択は事件の結末を変えるが、Warcraft全史を書き換えない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Azeroth und die beiden Bündnisse",
+      "key": [
+        "Azeroth",
+        "Horde",
+        "Allianz"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Azeroth ist eine von Kriegen und Magie geprägte Welt. Horde und Allianz vereinen unterschiedliche Völker mit eigenen Interessen; beide enthalten ehrenhafte Menschen und skrupellose Akteure. Die Horde ist keine einheitliche Orkkultur. Eine vorsichtige Zusammenarbeit mit Einzelnen der Gegenseite ist möglich, aber kein automatischer Weltfrieden.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Azeroth and its alliances",
+              "key": [
+                "Azeroth",
+                "Horde",
+                "Alliance",
+                "Allianz"
+              ],
+              "content": "Azeroth is shaped by war and magic. Horde and Alliance contain diverse peoples, interests and moral choices; neither is a single culture. Individuals may cooperate across faction lines without establishing world peace."
+            },
+            "ru": {
+              "name": "Азерот и два союза",
+              "key": [
+                "Азерот",
+                "Орда",
+                "Альянс",
+                "Azeroth",
+                "Horde",
+                "Allianz"
+              ],
+              "content": "Азерот сформирован войнами и магией. В Орде и Альянсе разные народы, интересы и нравственные позиции; Орда не единая орочья культура. Отдельные представители могут сотрудничать, не заключая всеобщего мира."
+            },
+            "ja": {
+              "name": "アゼロスと二つの陣営",
+              "key": [
+                "アゼロス",
+                "ホード",
+                "アライアンス",
+                "Azeroth",
+                "Horde",
+                "Allianz"
+              ],
+              "content": "アゼロスは戦争と魔法に形作られた世界。ホードもアライアンスも多様な種族、利害、善悪の選択を含む。ホードは単一のオーク文化ではない。個人同士の協力はあり得るが、世界平和が自動的に成立するわけではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Östliche Königreiche und Kalimdor",
+      "key": [
+        "Östliche Königreiche",
+        "Kalimdor",
+        "Kontinent",
+        "Reise"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Tirisfal, Silberwald, die Pestländer und Quel’Thalas liegen in den Östlichen Königreichen. Orgrimmar liegt in Durotar auf Kalimdor. Überseereisen benötigen Transport und Zeit. Portale sind eine besondere magische Leistung und stehen nicht jedem Charakter jederzeit zu jedem Ort offen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Eastern Kingdoms and Kalimdor",
+              "key": [
+                "Eastern Kingdoms",
+                "Kalimdor",
+                "travel",
+                "Östliche Königreiche",
+                "Kontinent",
+                "Reise"
+              ],
+              "content": "Tirisfal, Silverpine, the Plaguelands and Quel’Thalas are in the Eastern Kingdoms. Orgrimmar lies in Durotar on Kalimdor. Crossing the sea requires transport and time. Portals require suitable magic and are not freely available to everyone for every destination."
+            },
+            "ru": {
+              "name": "Восточные королевства и Калимдор",
+              "key": [
+                "Восточные королевства",
+                "Калимдор",
+                "путешествие",
+                "Östliche Königreiche",
+                "Kalimdor",
+                "Kontinent",
+                "Reise"
+              ],
+              "content": "Тирисфаль, Серебряный бор, Чумные земли и Кель’Талас находятся в Восточных королевствах. Оргриммар — в Дуротаре на Калимдоре. Для пересечения моря нужны транспорт и время. Порталы требуют особой магии и не доступны всем для любого места."
+            },
+            "ja": {
+              "name": "東の王国とカリムドール",
+              "key": [
+                "東の王国",
+                "カリムドール",
+                "旅",
+                "Östliche Königreiche",
+                "Kalimdor",
+                "Kontinent",
+                "Reise"
+              ],
+              "content": "ティリスファル、シルバーパイン、プレイグランド、クエルサラスは東の王国にある。オーグリマーはカリムドールのデュロターに位置する。渡海には移動手段と時間が必要。ポータルは特別な魔法であり、誰もが任意の場所へ自由に使えるものではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Die Horde nach der Belagerung",
+      "key": [
+        "Garrosh",
+        "Vol’jin",
+        "Vol'jin",
+        "Belagerung",
+        "Kriegshäuptling"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Nach dem Sturz Garrosh Höllschreis führt Vol’jin die Horde. Das Bündnis muss Vertrauen zwischen seinen Völkern erneuern; Misstrauen gegenüber Machtmissbrauch und blindem Gehorsam ist plausibel. Ein einfacher Spähtrupp empfängt nicht unmittelbar Befehle sämtlicher berühmter Anführer.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The Horde after the siege",
+              "key": [
+                "Garrosh",
+                "Vol’jin",
+                "Vol'jin",
+                "siege",
+                "Warchief",
+                "Belagerung",
+                "Kriegshäuptling"
+              ],
+              "content": "Vol’jin leads the Horde after Garrosh Hellscream’s fall. Its peoples must rebuild trust; suspicion of abusive authority and blind obedience is plausible. An ordinary expedition does not receive personal orders from every famous leader."
+            },
+            "ru": {
+              "name": "Орда после осады",
+              "key": [
+                "Гаррош",
+                "Вол’джин",
+                "Вол'джин",
+                "осада",
+                "вождь",
+                "Garrosh",
+                "Vol’jin",
+                "Vol'jin",
+                "Belagerung",
+                "Kriegshäuptling"
+              ],
+              "content": "После падения Гарроша Адского Крика Орду возглавляет Вол’джин. Народам нужно восстановить доверие; настороженность к злоупотреблению властью и слепому повиновению естественна. Обычный отряд не получает личных приказов от всех знаменитых лидеров."
+            },
+            "ja": {
+              "name": "包囲戦後のホード",
+              "key": [
+                "ガロッシュ",
+                "ヴォルジン",
+                "包囲戦",
+                "大酋長",
+                "Garrosh",
+                "Vol’jin",
+                "Vol'jin",
+                "Belagerung",
+                "Kriegshäuptling"
+              ],
+              "content": "ガロッシュ・ヘルスクリーム失脚後、ホードを率いるのはヴォルジン。種族間の信頼を回復する必要があり、権力乱用や盲従への警戒は自然。普通の調査隊が著名な指導者全員から直接命令されるわけではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Blutelfen – Sin’dorei",
+      "key": [
+        "Blutelf",
+        "Sin’dorei",
+        "Sin'dorei",
+        "Quel’Thalas",
+        "Quel'Thalas"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Die Blutelfen sind Überlebende der verheerenden Geißelinvasion ihres Heimatlands Quel’Thalas. Ihre Kultur verbindet arkane Kunst, Stolz und das Trauma großer Verluste. Sie gehören zur Horde. Blutelfen sind nicht mit Nachtelfen oder späteren Leerenelfen gleichzusetzen; Persönlichkeit und Moral sind individuell.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Blood elves – sin’dorei",
+              "key": [
+                "blood elf",
+                "sin’dorei",
+                "sin'dorei",
+                "Quel’Thalas",
+                "Blutelf",
+                "Sin’dorei",
+                "Sin'dorei",
+                "Quel'Thalas"
+              ],
+              "content": "Blood elves survived the Scourge’s devastation of Quel’Thalas. Arcane art, pride and profound loss shape their culture. They belong to the Horde and are distinct from night elves and later void elves. Their personalities and morals vary."
+            },
+            "ru": {
+              "name": "Эльфы крови — син’дорай",
+              "key": [
+                "эльф крови",
+                "эльфы крови",
+                "син’дорай",
+                "Кель’Талас",
+                "Blutelf",
+                "Sin’dorei",
+                "Sin'dorei",
+                "Quel’Thalas",
+                "Quel'Thalas"
+              ],
+              "content": "Эльфы крови пережили опустошение Кель’Таласа Плетью. Их культура сочетает тайную магию, гордость и память о тяжёлых потерях. Они входят в Орду, отличаются от ночных эльфов и будущих эльфов Бездны. Личности и мораль у них разные."
+            },
+            "ja": {
+              "name": "ブラッドエルフとシンドーレイ",
+              "key": [
+                "ブラッドエルフ",
+                "シンドーレイ",
+                "クエルサラス",
+                "Blutelf",
+                "Sin’dorei",
+                "Sin'dorei",
+                "Quel’Thalas",
+                "Quel'Thalas"
+              ],
+              "content": "ブラッドエルフはスコージに蹂躙されたクエルサラスの生存者。秘術、誇り、大きな喪失が文化を形作る。ホードの一員であり、ナイトエルフや後のヴォイドエルフとは区別する。性格や道徳は個人ごとに異なる。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Silbermond und Sonnenbrunnen",
+      "key": [
+        "Silbermond",
+        "Sonnenbrunnen",
+        "Lor’themar",
+        "Lor'themar"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Silbermond ist das politische und kulturelle Zentrum der Blutelfen; Lor’themar Theron ist ihr Regent. Der wiederhergestellte Sonnenbrunnen ist für sie eine Quelle arkaner und heiliger Energie. Magische Abhängigkeit prägt ihre Geschichte, ist aber kein Grund, jeden Blutelfen als willenlosen Süchtigen darzustellen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Silvermoon and the Sunwell",
+              "key": [
+                "Silvermoon",
+                "Sunwell",
+                "Lor’themar",
+                "Silbermond",
+                "Sonnenbrunnen",
+                "Lor'themar"
+              ],
+              "content": "Silvermoon is the blood elves’ political and cultural centre; Lor’themar Theron is their regent. The restored Sunwell supplies arcane and holy energy. Their history of magical dependence does not make every blood elf a helpless addict."
+            },
+            "ru": {
+              "name": "Луносвет и Солнечный Колодец",
+              "key": [
+                "Луносвет",
+                "Солнечный Колодец",
+                "Лор’темар",
+                "Silbermond",
+                "Sonnenbrunnen",
+                "Lor’themar",
+                "Lor'themar"
+              ],
+              "content": "Луносвет — политический и культурный центр эльфов крови, Лор’темар Терон — их регент. Восстановленный Солнечный Колодец даёт тайную и священную энергию. История магической зависимости не делает каждого эльфа беспомощным зависимым."
+            },
+            "ja": {
+              "name": "シルバームーンと太陽の泉",
+              "key": [
+                "シルバームーン",
+                "太陽の泉",
+                "ロルセマー",
+                "Silbermond",
+                "Sonnenbrunnen",
+                "Lor’themar",
+                "Lor'themar"
+              ],
+              "content": "シルバームーンはブラッドエルフの政治と文化の中心で、摂政はロルセマー・セロン。復興した太陽の泉は秘術と聖なる力の源。魔力依存の歴史があっても、全員が意志のない依存者という意味ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 7,
+      "name": "Weltenwanderer und Magister",
+      "key": [
+        "Weltenwanderer",
+        "Magister",
+        "Waldläufer",
+        "Thalassisch"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Weltenwanderer sind die Waldläufertradition von Quel’Thalas: Gelände lesen, Spuren verfolgen und das Land schützen. Magister pflegen arkane Forschung und Zauberkunst. Thalassisch ist die Sprache der Blutelfen. Beide Rollen können unterschiedlich über Risiken urteilen, ohne Feinde sein zu müssen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Farstriders and magisters",
+              "key": [
+                "Farstrider",
+                "magister",
+                "ranger",
+                "Thalassian",
+                "Weltenwanderer",
+                "Magister",
+                "Waldläufer",
+                "Thalassisch"
+              ],
+              "content": "Farstriders are Quel’Thalas’s ranger tradition: reading terrain, tracking and defending their homeland. Magisters study arcane magic. Blood elves speak Thalassian. Different attitudes to risk need not turn these traditions into enemies."
+            },
+            "ru": {
+              "name": "Странники и магистры",
+              "key": [
+                "Странники",
+                "магистр",
+                "следопыт",
+                "талассийский",
+                "Weltenwanderer",
+                "Magister",
+                "Waldläufer",
+                "Thalassisch"
+              ],
+              "content": "Странники — традиция защитников и следопытов Кель’Таласа: читают местность и следы, охраняют родину. Магистры исследуют тайную магию. Язык эльфов крови — талассийский. Разная оценка риска не означает вражду между традициями."
+            },
+            "ja": {
+              "name": "ファーストライダーと魔術師",
+              "key": [
+                "ファーストライダー",
+                "魔導師",
+                "斥候",
+                "サラシアン",
+                "Weltenwanderer",
+                "Magister",
+                "Waldläufer",
+                "Thalassisch"
+              ],
+              "content": "ファーストライダーはクエルサラスのレンジャーの伝統で、地形を読み、追跡し、故郷を守る。魔導師は秘術を研究する。ブラッドエルフの言語はサラシアン。危険への考え方が違っても敵対するとは限らない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 8,
+      "name": "Immersang und Geisterlande",
+      "key": [
+        "Immersang",
+        "Geisterlande",
+        "Tristessa"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Immersangwald zeigt den Glanz und die Narben von Quel’Thalas. Südlich liegen die von Verderbnis und Krieg gezeichneten Geisterlande mit Tristessa als wichtigem Stützpunkt. Eine Reise von dort nach Tirisfal führt nicht einfach durch einen einzigen zusammenhängenden Vorstadtwald.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Eversong and the Ghostlands",
+              "key": [
+                "Eversong",
+                "Ghostlands",
+                "Tranquillien",
+                "Immersang",
+                "Geisterlande",
+                "Tristessa"
+              ],
+              "content": "Eversong Woods shows both Quel’Thalas’s splendour and its scars. The war-torn, corrupted Ghostlands lie to the south, with Tranquillien as an important outpost. Travelling from there to Tirisfal is not a stroll through one continuous suburban wood."
+            },
+            "ru": {
+              "name": "Леса Вечной Песни и Призрачные земли",
+              "key": [
+                "Вечной Песни",
+                "Призрачные земли",
+                "Транквиллион",
+                "Immersang",
+                "Geisterlande",
+                "Tristessa"
+              ],
+              "content": "Леса Вечной Песни хранят великолепие и шрамы Кель’Таласа. Южнее лежат осквернённые войной Призрачные земли с важным опорным пунктом Транквиллионом. Дорога оттуда в Тирисфаль не проходит через один непрерывный пригородный лес."
+            },
+            "ja": {
+              "name": "エバーソングとゴーストランド",
+              "key": [
+                "エバーソング",
+                "ゴーストランド",
+                "トランクイリエン",
+                "Immersang",
+                "Geisterlande",
+                "Tristessa"
+              ],
+              "content": "エバーソングの森はクエルサラスの華やかさと傷跡を示す。南のゴーストランドには戦争と穢れの跡があり、トランクイリエンが重要な拠点となる。そこからティリスファルへの道は、一続きの近郊の森を散歩する距離ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 9,
+      "name": "Orks und ihre Herkunft",
+      "key": [
+        "Ork",
+        "Draenor",
+        "Durotar"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Orks stammen ursprünglich von Draenor. Ihre Geschichte umfasst Clans, dämonische Versklavung, Krieg und die Wiedergewinnung eigener Entscheidungen. Grüne Haut ist bei vielen Orks eine Folge der Fel-Verderbnis ihrer Geschichte und kein Nachweis gegenwärtiger Dämonenverehrung. Krieger und Schamanen haben unterschiedliche Aufgaben.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Orc origins",
+              "key": [
+                "orc",
+                "Draenor",
+                "Durotar",
+                "Ork"
+              ],
+              "content": "Orcs originally came from Draenor. Their history includes clans, demonic enslavement, war and regained agency. Many orcs’ green skin reflects historic fel corruption, not current demon worship. Warriors and shamans have different roles."
+            },
+            "ru": {
+              "name": "Происхождение орков",
+              "key": [
+                "орк",
+                "Дренор",
+                "Дуротар",
+                "Ork",
+                "Draenor",
+                "Durotar"
+              ],
+              "content": "Орки родом с Дренора. Их история включает кланы, демоническое рабство, войны и возвращение самостоятельности. Зелёная кожа многих орков связана с прежним осквернением Скверной, а не доказывает нынешнее поклонение демонам. Воин и шаман — разные роли."
+            },
+            "ja": {
+              "name": "オークの起源",
+              "key": [
+                "オーク",
+                "ドラエノール",
+                "デュロター",
+                "Ork",
+                "Draenor",
+                "Durotar"
+              ],
+              "content": "オークはドラエノールに起源を持つ。氏族、悪魔による隷属、戦争、自主性の回復が歴史に含まれる。多くのオークの緑の肌は過去のフェル汚染に由来し、現在の悪魔崇拝の証拠ではない。戦士とシャーマンは役割が違う。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 10,
+      "name": "Ehre, Ahnen und Schamanismus",
+      "key": [
+        "Ehre",
+        "Ahnen",
+        "Schamane",
+        "Elemente"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Viele Orks schätzen Mut, Verantwortung gegenüber der Gemeinschaft und die Erinnerung an Ahnen. Schamanen suchen Beziehungen zu Elementargeistern. Ehre verlangt nicht jeden angebotenen Zweikampf und rechtfertigt nicht automatisch Grausamkeit. Nicht jeder Ork kann mit Geistern sprechen oder Elemente beherrschen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Honour, ancestors and shamanism",
+              "key": [
+                "honour",
+                "ancestors",
+                "shaman",
+                "elements",
+                "Ehre",
+                "Ahnen",
+                "Schamane",
+                "Elemente"
+              ],
+              "content": "Many orcs value courage, communal responsibility and remembrance of ancestors. Shamans build relationships with elemental spirits. Honour neither demands accepting every duel nor justifies cruelty. Not every orc can speak with ancestors or command elements."
+            },
+            "ru": {
+              "name": "Честь, предки и шаманизм",
+              "key": [
+                "честь",
+                "предки",
+                "шаман",
+                "стихии",
+                "Ehre",
+                "Ahnen",
+                "Schamane",
+                "Elemente"
+              ],
+              "content": "Многие орки ценят мужество, ответственность перед общиной и память предков. Шаманы устанавливают отношения с духами стихий. Честь не требует принимать любой поединок и не оправдывает жестокость. Не каждый орк общается с предками или повелевает стихиями."
+            },
+            "ja": {
+              "name": "名誉と祖先とシャーマン",
+              "key": [
+                "名誉",
+                "祖先",
+                "シャーマン",
+                "精霊",
+                "Ehre",
+                "Ahnen",
+                "Schamane",
+                "Elemente"
+              ],
+              "content": "多くのオークは勇気、共同体への責任、祖先の記憶を重んじる。シャーマンは元素の精霊と関係を築く。名誉はあらゆる決闘の受諾を要求せず、残酷さを正当化もしない。すべてのオークが祖先や元素と交信できるわけではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 11,
+      "name": "Pandaren und die Fraktionswahl",
+      "key": [
+        "Pandaren",
+        "Pandaria",
+        "Wandernde Insel",
+        "Huojin",
+        "Tushui"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Pandaren kommen aus Pandaria oder von der Wandernden Insel. Die Huojin schließen sich der Horde an, die Tushui der Allianz; nicht jeder Pandare gehört derselben Fraktion an. Essen, Gastfreundschaft, Disziplin und Gelassenheit sind wichtige kulturelle Motive, aber keine Beschränkung auf Witze über Bier und Bauchumfang.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Pandaren and faction choice",
+              "key": [
+                "pandaren",
+                "Pandaria",
+                "Wandering Isle",
+                "Huojin",
+                "Tushui",
+                "Pandaren",
+                "Wandernde Insel"
+              ],
+              "content": "Pandaren come from Pandaria or the Wandering Isle. Huojin join the Horde, Tushui the Alliance; pandaren do not all share a faction. Food, hospitality, discipline and serenity matter, but individuals are more than jokes about beer and bellies."
+            },
+            "ru": {
+              "name": "Пандарены и выбор стороны",
+              "key": [
+                "пандарен",
+                "Пандария",
+                "Скитающийся остров",
+                "Хоцзинь",
+                "Тушуй",
+                "Pandaren",
+                "Pandaria",
+                "Wandernde Insel",
+                "Huojin",
+                "Tushui"
+              ],
+              "content": "Пандарены происходят из Пандарии или со Скитающегося острова. Хоцзинь присоединяются к Орде, Тушуй — к Альянсу; не все пандарены одной фракции. Еда, гостеприимство, дисциплина и спокойствие важны, но личности не сводятся к шуткам о пиве и животе."
+            },
+            "ja": {
+              "name": "パンダレンの陣営選択",
+              "key": [
+                "パンダレン",
+                "パンダリア",
+                "放浪島",
+                "火金派",
+                "土水派",
+                "Pandaren",
+                "Pandaria",
+                "Wandernde Insel",
+                "Huojin",
+                "Tushui"
+              ],
+              "content": "パンダレンの出身地はパンダリアまたは放浪島。火金派はホード、土水派はアライアンスに加わるため、全員が同じ陣営ではない。食事、もてなし、規律、平静は大切だが、酒や腹の冗談だけで人物を描かない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 12,
+      "name": "Mönche und Chi",
+      "key": [
+        "Mönch",
+        "Chi",
+        "Meditation",
+        "Braumeister"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Pandaren-Mönchstraditionen verbinden körperliches Training, Atmung und Chi. Ein Braumeister kann mit ungewöhnlicher Gelassenheit einen Kampf lenken. Ein Mönch ist weder allwissender Therapeut noch unerschöpflicher Heiler. Beruhigung eröffnet Handlungsmöglichkeiten, beseitigt aber keine fremde Magie ohne weitere Grundlage.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Monks and chi",
+              "key": [
+                "monk",
+                "chi",
+                "meditation",
+                "brewmaster",
+                "Mönch",
+                "Chi",
+                "Meditation",
+                "Braumeister"
+              ],
+              "content": "Pandaren monk traditions combine training, breathing and chi. A brewmaster can direct a fight with unusual calm. Monks are not omniscient therapists or limitless healers. Calming someone does not automatically dispel outside magic."
+            },
+            "ru": {
+              "name": "Монахи и ци",
+              "key": [
+                "монах",
+                "ци",
+                "медитация",
+                "хмелевар",
+                "Mönch",
+                "Chi",
+                "Meditation",
+                "Braumeister"
+              ],
+              "content": "Традиции монахов соединяют тренировку тела, дыхание и ци. Хмелевар способен спокойно управлять ходом боя. Монах не всезнающий психолог и не неиссякаемый целитель. Спокойствие помогает действовать, но само по себе не снимает чужую магию."
+            },
+            "ja": {
+              "name": "僧侶と気",
+              "key": [
+                "僧侶",
+                "気",
+                "瞑想",
+                "ブリューマスター",
+                "Mönch",
+                "Chi",
+                "Meditation",
+                "Braumeister"
+              ],
+              "content": "パンダレン僧侶の伝統は身体訓練、呼吸、気を結び付ける。ブリューマスターは平静さで戦いを導けるが、僧侶は万能の相談役でも無限の治癒者でもない。気持ちを静めただけで外部の魔法が解けるわけではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 13,
+      "name": "Sha und Emotionen",
+      "key": [
+        "Sha",
+        "Y’Shaarj",
+        "Y'Shaarj"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Die Sha sind mit dem Erbe Y’Shaarjs und negativen Emotionen in Pandaria verbunden. Angst oder Wut außerhalb Pandarias erzeugt nicht automatisch ein Sha. Die Tirisfal-Glocke dieses Abenteuers ist ein örtliches nekromantisches Phänomen und kein weiterer Sha-Ausbruch.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Sha and emotions",
+              "key": [
+                "Sha",
+                "Y’Shaarj",
+                "Y'Shaarj"
+              ],
+              "content": "The sha are tied to Y’Shaarj’s legacy and negative emotions in Pandaria. Fear or anger elsewhere does not automatically spawn a sha. The Tirisfal bell is a local necromantic phenomenon, not another sha outbreak."
+            },
+            "ru": {
+              "name": "Ша и эмоции",
+              "key": [
+                "Ша",
+                "И’Шарадж",
+                "Sha",
+                "Y’Shaarj",
+                "Y'Shaarj"
+              ],
+              "content": "Ша связаны с наследием И’Шараджа и отрицательными эмоциями в Пандарии. Страх или гнев в других местах не порождает ша автоматически. Тирисфальский колокол — местное некромантическое явление, не новая вспышка ша."
+            },
+            "ja": {
+              "name": "シャと感情",
+              "key": [
+                "シャ",
+                "ヤシャラージ",
+                "Sha",
+                "Y’Shaarj",
+                "Y'Shaarj"
+              ],
+              "content": "シャはパンダリアでのヤシャラージの遺産と負の感情に結び付く。他の土地の恐れや怒りから自動的にシャが生まれるわけではない。ティリスファルの鐘は局地的な死霊術現象であり、新たなシャの発生ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 14,
+      "name": "Verlassene und freier Wille",
+      "key": [
+        "Verlassene",
+        "Forsaken",
+        "Untot",
+        "Sylvanas"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Die Verlassenen sind Untote, die sich der Herrschaft des Lichkönigs entzogen haben. Sie besitzen eigenen Willen, Erinnerungen und sehr verschiedene Ziele. In diesem Zeitfenster führt Sylvanas Windläufer sie. Sie dürfen nicht pauschal als willenlose Geißel oder als lebende Elfen mit grauer Haut beschrieben werden.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Forsaken and free will",
+              "key": [
+                "Forsaken",
+                "undead",
+                "Sylvanas",
+                "Verlassene",
+                "Untot"
+              ],
+              "content": "The Forsaken broke free of the Lich King’s control. They retain individual wills, memories and differing aims. Sylvanas Windrunner leads them in this era. Do not portray them all as mindless Scourge or merely living elves with grey skin."
+            },
+            "ru": {
+              "name": "Отрекшиеся и свобода воли",
+              "key": [
+                "Отрекшиеся",
+                "нежить",
+                "Сильвана",
+                "Verlassene",
+                "Forsaken",
+                "Untot",
+                "Sylvanas"
+              ],
+              "content": "Отрекшиеся освободились от контроля Короля-лича. У них собственная воля, память и разные цели. В эту эпоху ими правит Сильвана Ветрокрылая. Нельзя изображать их всех бездумной Плетью или просто живыми серокожими эльфами."
+            },
+            "ja": {
+              "name": "フォーセイクンと自由意志",
+              "key": [
+                "フォーセイクン",
+                "アンデッド",
+                "シルヴァナス",
+                "Verlassene",
+                "Forsaken",
+                "Untot",
+                "Sylvanas"
+              ],
+              "content": "フォーセイクンはリッチキングの支配から解放されたアンデッド。個々の意志、記憶、異なる目的を持つ。この時代の指導者はシルヴァナス・ウィンドランナー。無意思のスコージや、灰色に塗った生きたエルフとして一括りにしない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 15,
+      "name": "Untoter Körper und Gefühle",
+      "key": [
+        "Knochen",
+        "Verwesung",
+        "Körper",
+        "Gefühl",
+        "Mira"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Verlassene können eingefallene menschliche Gesichter, geschädigtes Gewebe und freiliegende Knochen haben. Sie können Freude, Zuneigung, Trauer und Angst empfinden. Fehlender normaler Puls oder Wärme ist plausibel; ein errötendes Verlassenenporträt ist eine stilisierte Emotionsdarstellung, keine Behauptung lebender Physiologie.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Undead bodies and feelings",
+              "key": [
+                "bone",
+                "decay",
+                "body",
+                "feeling",
+                "Mira",
+                "Knochen",
+                "Verwesung",
+                "Körper",
+                "Gefühl"
+              ],
+              "content": "Forsaken may have gaunt human faces, damaged tissue and exposed bones. They can feel joy, affection, grief and fear. A lack of normal pulse or warmth is plausible. Blushing portraits are stylized emotional cues, not a claim of living physiology."
+            },
+            "ru": {
+              "name": "Тело нежити и чувства",
+              "key": [
+                "кости",
+                "разложение",
+                "тело",
+                "чувства",
+                "Мира",
+                "Knochen",
+                "Verwesung",
+                "Körper",
+                "Gefühl",
+                "Mira"
+              ],
+              "content": "У Отрекшихся бывают исхудавшие человеческие лица, повреждённые ткани и открытые кости. Они испытывают радость, привязанность, скорбь и страх. Отсутствие обычного пульса и тепла правдоподобно. Румянец на портрете — условное выражение эмоции, а не утверждение о живой физиологии."
+            },
+            "ja": {
+              "name": "アンデッドの体と感情",
+              "key": [
+                "骨",
+                "腐敗",
+                "身体",
+                "感情",
+                "ミラ",
+                "Knochen",
+                "Verwesung",
+                "Körper",
+                "Gefühl",
+                "Mira"
+              ],
+              "content": "フォーセイクンにはこけた人間の顔、損傷した組織、露出した骨があり得る。喜び、親愛、悲しみ、恐れを感じられる。通常の脈や体温がない描写は自然。赤面の表情絵は感情の記号で、生者と同じ生理を主張するものではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 16,
+      "name": "Lordaeron und Unterstadt",
+      "key": [
+        "Lordaeron",
+        "Unterstadt",
+        "Arthas"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Das ehemalige Menschenreich Lordaeron wurde durch Seuche und Geißel verwüstet. Unter den Ruinen seiner Hauptstadt liegt Unterstadt, in dieser Epoche ein Zentrum der Verlassenen. Viele Ruinen waren einst Wohnorte der heute Untoten; Erinnerungen daran sind mehr als bloße Gruseldekoration.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Lordaeron and the Undercity",
+              "key": [
+                "Lordaeron",
+                "Undercity",
+                "Arthas",
+                "Unterstadt"
+              ],
+              "content": "Plague and the Scourge devastated the human kingdom of Lordaeron. The Undercity beneath its ruined capital remains a Forsaken centre in this era. Many ruins were once the homes of the present undead; their memories deserve more than use as spooky scenery."
+            },
+            "ru": {
+              "name": "Лордерон и Подгород",
+              "key": [
+                "Лордерон",
+                "Подгород",
+                "Артас",
+                "Lordaeron",
+                "Unterstadt",
+                "Arthas"
+              ],
+              "content": "Чума и Плеть опустошили человеческий Лордерон. Под руинами столицы находится Подгород, важный центр Отрекшихся в эту эпоху. Руины часто были домами нынешней нежити; память об этом не просто декорация для страшной сцены."
+            },
+            "ja": {
+              "name": "ローデロンとアンダーシティ",
+              "key": [
+                "ローデロン",
+                "アンダーシティ",
+                "アーサス",
+                "Lordaeron",
+                "Unterstadt",
+                "Arthas"
+              ],
+              "content": "疫病とスコージが人間の王国ローデロンを荒廃させた。廃都の地下にあるアンダーシティは、この時代にはフォーセイクンの中心地。遺跡は今のアンデッドがかつて住んだ家でもあり、その記憶を単なる恐怖の背景にしない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 17,
+      "name": "Tirisfal und Brill",
+      "key": [
+        "Tirisfal",
+        "Brill",
+        "Todesend"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Tirisfal ist ein düsteres Gebiet im Norden der Östlichen Königreiche mit Siedlungen der Verlassenen, verfallenen Gehöften, Gräbern und Spuren Lordaerons. Brill dient als örtlicher Anlaufpunkt. Nebel und unruhige Tote machen Reisen gefährlich, aber nicht jeder Bewohner ist feindselig.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Tirisfal and Brill",
+              "key": [
+                "Tirisfal",
+                "Brill",
+                "Deathknell",
+                "Todesend"
+              ],
+              "content": "Tirisfal lies in the northern Eastern Kingdoms, with Forsaken settlements, ruined farms, graves and traces of Lordaeron. Brill is a local base. Mist and restless dead threaten travellers, but not every inhabitant is hostile."
+            },
+            "ru": {
+              "name": "Тирисфаль и Брилл",
+              "key": [
+                "Тирисфаль",
+                "Брилл",
+                "Могильник",
+                "Tirisfal",
+                "Brill",
+                "Todesend"
+              ],
+              "content": "Тирисфаль расположен на севере Восточных королевств: поселения Отрекшихся, разрушенные фермы, могилы и следы Лордерона. Брилл служит местной базой. Туман и беспокойные мертвецы опасны, но не каждый житель враждебен."
+            },
+            "ja": {
+              "name": "ティリスファルとブリル",
+              "key": [
+                "ティリスファル",
+                "ブリル",
+                "デスネル",
+                "Tirisfal",
+                "Brill",
+                "Todesend"
+              ],
+              "content": "東の王国北部のティリスファルには、フォーセイクンの集落、荒れた農場、墓、ローデロンの痕跡がある。ブリルは地域の拠点。霧や落ち着かない死者は旅を危険にするが、住民全員が敵ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 18,
+      "name": "Silberwald und die Pestländer",
+      "key": [
+        "Silberwald",
+        "Pestländer",
+        "Bollwerk"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Silberwald liegt südwestlich von Tirisfal; die Pestländer tragen besonders schwere Narben der Geißel. Das Bollwerk sichert den östlichen Zugang aus Tirisfal. Diese Orte haben eigene Konflikte und sind keine austauschbaren Kulissen für beliebige Monster.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Silverpine and the Plaguelands",
+              "key": [
+                "Silverpine",
+                "Plaguelands",
+                "Bulwark",
+                "Silberwald",
+                "Pestländer",
+                "Bollwerk"
+              ],
+              "content": "Silverpine lies southwest of Tirisfal. The Plaguelands bear especially deep scars of the Scourge; the Bulwark guards Tirisfal’s eastern approach. These places have distinct conflicts and are not interchangeable monster backdrops."
+            },
+            "ru": {
+              "name": "Серебряный бор и Чумные земли",
+              "key": [
+                "Серебряный бор",
+                "Чумные земли",
+                "Бастион",
+                "Silberwald",
+                "Pestländer",
+                "Bollwerk"
+              ],
+              "content": "Серебряный бор лежит к юго-западу от Тирисфаля. Чумные земли особенно пострадали от Плети; Бастион охраняет восточный подход к Тирисфалю. У этих мест собственные конфликты, это не взаимозаменяемые фоны для чудовищ."
+            },
+            "ja": {
+              "name": "シルバーパインとプレイグランド",
+              "key": [
+                "シルバーパイン",
+                "プレイグランド",
+                "防壁",
+                "Silberwald",
+                "Pestländer",
+                "Bollwerk"
+              ],
+              "content": "シルバーパインはティリスファルの南西。プレイグランドにはスコージの深い傷跡が残り、防壁がティリスファル東の進入路を守る。それぞれ固有の争いがあり、怪物を出すための交換可能な背景ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 19,
+      "name": "Geißel und Kult der Verdammten",
+      "key": [
+        "Geißel",
+        "Kult der Verdammten",
+        "Nekromant"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Die Geißel ist die untote Macht, deren Krieg Lordaeron verheerte. Der Kult der Verdammten besteht aus Dienern und Anhängern nekromantischer Mächte. Verlassene sind von ihnen zu unterscheiden. Nach dem Fall des Lichkönigs Arthas bleiben örtliche untote Bedrohungen und Kultreste möglich.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Scourge and Cult of the Damned",
+              "key": [
+                "Scourge",
+                "Cult of the Damned",
+                "necromancer",
+                "Geißel",
+                "Kult der Verdammten",
+                "Nekromant"
+              ],
+              "content": "The Scourge’s war devastated Lordaeron. The Cult of the Damned serves necromantic powers. Distinguish both from the Forsaken. Local undead threats and cult remnants can remain after the defeat of the Lich King Arthas."
+            },
+            "ru": {
+              "name": "Плеть и Культ Проклятых",
+              "key": [
+                "Плеть",
+                "Культ Проклятых",
+                "некромант",
+                "Geißel",
+                "Kult der Verdammten",
+                "Nekromant"
+              ],
+              "content": "Война Плети разорила Лордерон. Культ Проклятых служит некромантическим силам. И Плеть, и культ нужно отличать от Отрекшихся. После поражения Короля-лича Артаса могут оставаться местные угрозы нежити и остатки культа."
+            },
+            "ja": {
+              "name": "スコージとカルト・オブ・ザ・ダムド",
+              "key": [
+                "スコージ",
+                "カルト・オブ・ザ・ダムド",
+                "死霊術師",
+                "Geißel",
+                "Kult der Verdammten",
+                "Nekromant"
+              ],
+              "content": "スコージの戦争がローデロンを荒廃させた。カルト・オブ・ザ・ダムドは死霊術の力に仕える。両者をフォーセイクンと区別する。リッチキング・アーサス敗北後も、地域のアンデッドの脅威や教団残党はあり得る。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 20,
+      "name": "Scharlachroter Kreuzzug",
+      "key": [
+        "Scharlach",
+        "Kreuzzug",
+        "Fanatiker"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Der Scharlachrote Kreuzzug verfolgt Untote mit fanatischem Eifer und kann auch Unbeteiligte als Feinde behandeln. Seine Kleidung und Symbole sind keine Garantie für ehrliche Absichten. Der eigene Abenteuer-NPC Edric ist ein Deserteur; sein Auftreten definiert nicht die gesamte Organisation.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Scarlet Crusade",
+              "key": [
+                "Scarlet",
+                "Crusade",
+                "fanatic",
+                "Scharlach",
+                "Kreuzzug",
+                "Fanatiker"
+              ],
+              "content": "The Scarlet Crusade hunts undead fanatically and may treat innocents as enemies. Its insignia does not guarantee honest intentions. Edric, an original adventure NPC, is a deserter; his behaviour does not define the whole organization."
+            },
+            "ru": {
+              "name": "Алый орден",
+              "key": [
+                "Алый",
+                "орден",
+                "фанатик",
+                "Scharlach",
+                "Kreuzzug",
+                "Fanatiker"
+              ],
+              "content": "Алый орден фанатично преследует нежить и способен объявлять врагами невиновных. Символика не гарантирует честности. Авторский персонаж Эдрик — дезертир; его поведение не определяет всю организацию."
+            },
+            "ja": {
+              "name": "スカーレット・クルセイド",
+              "key": [
+                "スカーレット",
+                "クルセイド",
+                "狂信者",
+                "Scharlach",
+                "Kreuzzug",
+                "Fanatiker"
+              ],
+              "content": "スカーレット・クルセイドはアンデッドを狂信的に追い、無関係な者も敵と見なすことがある。印章や服は誠実さの保証ではない。エドリックは独自創作の脱走兵で、その振る舞いが組織全体を代表するわけではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 21,
+      "name": "Arkan, Frost und Feuer",
+      "key": [
+        "Arkan",
+        "Frost",
+        "Feuer",
+        "Magier",
+        "Zauber"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Magier wirken arkane, frost- und feuerbezogene Zauber. Wissen, Konzentration und verfügbare Mittel setzen Grenzen. Eine arkan aussehende Rune kann dennoch ein nekromantisches Bindesiegel enthalten; das muss untersucht werden. Ein Frostzauber legt keine Geisterseele dauerhaft zur Ruhe.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Arcane, frost and fire",
+              "key": [
+                "arcane",
+                "frost",
+                "fire",
+                "mage",
+                "spell",
+                "Arkan",
+                "Frost",
+                "Feuer",
+                "Magier",
+                "Zauber"
+              ],
+              "content": "Mages use arcane, frost and fire magic, limited by knowledge, focus and resources. A seemingly arcane rune may conceal a necromantic binding and needs investigation. Freezing a spirit does not permanently lay its soul to rest."
+            },
+            "ru": {
+              "name": "Тайная магия, лёд и огонь",
+              "key": [
+                "тайная магия",
+                "лёд",
+                "огонь",
+                "маг",
+                "заклинание",
+                "Arkan",
+                "Frost",
+                "Feuer",
+                "Magier",
+                "Zauber"
+              ],
+              "content": "Маги используют тайную магию, лёд и огонь. Их ограничивают знания, сосредоточенность и ресурсы. Руна, похожая на арканную, может скрывать некромантическую привязку и требует изучения. Замораживание духа не упокоит его душу навсегда."
+            },
+            "ja": {
+              "name": "秘術と氷と炎",
+              "key": [
+                "秘術",
+                "氷",
+                "炎",
+                "魔術師",
+                "呪文",
+                "Arkan",
+                "Frost",
+                "Feuer",
+                "Magier",
+                "Zauber"
+              ],
+              "content": "魔術師は秘術、氷、炎を使い、知識、集中力、資源に制約される。秘術に見えるルーンでも死霊術の拘束を隠している場合があり、調査が必要。霊を凍らせても魂を永久に鎮めたことにはならない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 22,
+      "name": "Licht, Schatten und Heilung",
+      "key": [
+        "Licht",
+        "Schatten",
+        "Heilung",
+        "Priester"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Heiliges Licht, Schatten und andere Magietraditionen sind verschieden. Der Kontakt mit dem Licht kann für Verlassene schmerzhaft sein; daraus folgt nicht, dass jeder Lichtwirker sie automatisch vernichten muss. Heilung kann Wunden versorgen, macht aus einem Verlassenen aber nicht beiläufig einen lebenden Menschen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Light, shadow and healing",
+              "key": [
+                "Light",
+                "shadow",
+                "healing",
+                "priest",
+                "Licht",
+                "Schatten",
+                "Heilung",
+                "Priester"
+              ],
+              "content": "Holy Light, shadow and other traditions differ. Contact with the Light may hurt Forsaken without obliging every Light-wielder to destroy them. Healing can treat wounds but does not casually turn an undead person into a living human."
+            },
+            "ru": {
+              "name": "Свет, Тьма и исцеление",
+              "key": [
+                "Свет",
+                "Тьма",
+                "исцеление",
+                "жрец",
+                "Licht",
+                "Schatten",
+                "Heilung",
+                "Priester"
+              ],
+              "content": "Священный Свет, Тьма и другие традиции различаются. Свет может причинять Отрекшимся боль, но не обязывает каждого его служителя уничтожать их. Исцеление лечит раны, а не превращает нежить в живого человека между делом."
+            },
+            "ja": {
+              "name": "光と影と治癒",
+              "key": [
+                "聖なる光",
+                "影",
+                "治癒",
+                "司祭",
+                "Licht",
+                "Schatten",
+                "Heilung",
+                "Priester"
+              ],
+              "content": "聖なる光、影、その他の魔法の伝統は異なる。光がフォーセイクンを苦しめても、使い手全員が彼らを滅ぼす義務を持つわけではない。治癒は傷を治せるが、簡単にアンデッドを生きた人間へ戻さない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 23,
+      "name": "Reisen und Alltag",
+      "key": [
+        "Gold",
+        "Silber",
+        "Gasthaus",
+        "Greif",
+        "Zeppelin",
+        "Portal"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Münzen, Händler, Herbergen und Transportmittel tragen den Alltag. Horde-Reisende nutzen beispielsweise Zeppeline und etablierte Flugrouten; Portale brauchen passende Magier und bekannte Ziele. Reisezeit, Vorräte und Gastfreundschaft dürfen Bedeutung haben, ohne jede Mahlzeit auszuwürfeln.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Travel and everyday life",
+              "key": [
+                "gold",
+                "silver",
+                "inn",
+                "gryphon",
+                "zeppelin",
+                "portal",
+                "Gold",
+                "Silber",
+                "Gasthaus",
+                "Greif",
+                "Zeppelin",
+                "Portal"
+              ],
+              "content": "Coins, trade, inns and transport support ordinary life. Horde travellers use established routes and zeppelins. Portals require suitable mages and known destinations. Time, supplies and hospitality may matter without rolling dice for every meal."
+            },
+            "ru": {
+              "name": "Путешествия и быт",
+              "key": [
+                "золото",
+                "серебро",
+                "трактир",
+                "грифон",
+                "дирижабль",
+                "портал",
+                "Gold",
+                "Silber",
+                "Gasthaus",
+                "Greif",
+                "Zeppelin",
+                "Portal"
+              ],
+              "content": "Монеты, торговля, трактиры и транспорт обеспечивают повседневность. Орда пользуется установленными маршрутами и дирижаблями. Для порталов нужны подходящие маги и известные цели. Время, припасы и гостеприимство важны без броска костей за каждую еду."
+            },
+            "ja": {
+              "name": "旅と日常",
+              "key": [
+                "金貨",
+                "銀貨",
+                "宿",
+                "グリフォン",
+                "飛行船",
+                "ポータル",
+                "Gold",
+                "Silber",
+                "Gasthaus",
+                "Greif",
+                "Zeppelin",
+                "Portal"
+              ],
+              "content": "貨幣、商人、宿、交通が日常を支える。ホードの旅人は既存の航路や飛行船を利用する。ポータルには適切な魔術師と既知の目的地が必要。食事のたびに判定せずとも、時間、物資、もてなしには意味がある。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 24,
+      "name": "Abenteuer – die fünf Gefährten",
+      "key": [
+        "Gruppe",
+        "Gefährten",
+        "Expedition"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigene Fanfiguren: Liora Sonnenfaden, Blutelfenmagierin; Vaelis Morgenpfad, Blutelfenwaldläufer; Bo Wolkenkrug, Huojin-Pandarenmönch; Gromak Aschenfaust, Orkkrieger; Mira Dämmerfrost, Verlassenenmagierin. Alle sind Erwachsene. Sie entsprechen den fünf Porträts, sind aber keine offiziellen Warcraft-NPCs. Keiner ersetzt Entscheidungen oder die Stimme des Spielers.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Adventure – five companions",
+              "key": [
+                "party",
+                "companion",
+                "expedition",
+                "Gruppe",
+                "Gefährten",
+                "Expedition"
+              ],
+              "content": "Original adult fan characters: Liora Sonnenfaden, blood elf mage; Vaelis Morgenpfad, blood elf ranger; Bo Wolkenkrug, Huojin pandaren monk; Gromak Aschenfaust, orc warrior; Mira Dämmerfrost, Forsaken mage. They match the five portraits but are not official Warcraft NPCs. None controls or replaces the player."
+            },
+            "ru": {
+              "name": "Приключение — пятеро спутников",
+              "key": [
+                "группа",
+                "спутники",
+                "экспедиция",
+                "Gruppe",
+                "Gefährten",
+                "Expedition"
+              ],
+              "content": "Авторские взрослые фан-персонажи: Liora Sonnenfaden — маг эльфов крови; Vaelis Morgenpfad — следопыт; Bo Wolkenkrug — монах Хоцзинь; Gromak Aschenfaust — орк-воин; Mira Dämmerfrost — маг Отрекшихся. Соответствуют пяти портретам, не официальным NPC. Никто не заменяет голос или решения игрока."
+            },
+            "ja": {
+              "name": "冒険の五人の仲間",
+              "key": [
+                "一行",
+                "仲間",
+                "調査隊",
+                "Gruppe",
+                "Gefährten",
+                "Expedition"
+              ],
+              "content": "全員成人の独自ファン人物。Liora Sonnenfadenはブラッドエルフ魔術師、Vaelis Morgenpfadは斥候、Bo Wolkenkrugは火金派僧侶、Gromak Aschenfaustはオーク戦士、Mira Dämmerfrostはフォーセイクン魔術師。五枚の肖像に対応するが公式NPCではない。誰もプレイヤーの発言や選択を代行しない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 25,
+      "name": "Liora Sonnenfaden",
+      "key": [
+        "Liora",
+        "Sonnenfaden"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigene Fanfigur. Erwachsene Blutelfenmagierin mit kupferrotem Haar, grünen Augen und rotgoldener Kleidung. Präzise, wissbegierig, mit trockenem Humor. Sie prüft Runen und verabscheut den Missbrauch von Erinnerungen. Sie kann Schutz- und Analysezauber, kennt aber die Glocke anfangs nicht. Ihre Versuchung: wertvolles Wissen zu bewahren, selbst wenn ein Gegenstand gefährlich bleibt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Liora Sonnenfaden",
+              "key": [
+                "Liora",
+                "Sonnenfaden"
+              ],
+              "content": "Original adult fan character: copper-red hair, green eyes, crimson-gold mage robes. Precise, curious and dryly funny. She analyses runes and rejects abuse of memories; she initially does not understand the bell. Her temptation is preserving knowledge despite an artefact’s danger."
+            },
+            "ru": {
+              "name": "Liora Sonnenfaden",
+              "key": [
+                "Liora",
+                "Sonnenfaden",
+                "Лиора"
+              ],
+              "content": "Авторская взрослая эльфийка крови с медно-рыжими волосами, зелёными глазами и красно-золотой мантией. Точна, любознательна, с сухим юмором. Изучает руны и не терпит злоупотребления памятью; колокол поначалу ей неизвестен. Искушение: сохранить знания, даже если артефакт опасен."
+            },
+            "ja": {
+              "name": "Liora Sonnenfaden",
+              "key": [
+                "Liora",
+                "Sonnenfaden",
+                "リオラ"
+              ],
+              "content": "成人の独自ファン人物。銅色の赤髪、緑の瞳、赤金の魔術師ローブ。正確で好奇心が強く控えめな皮肉を好む。ルーンを分析し記憶の悪用を嫌うが、鐘の正体は最初から知らない。危険な品でも知識を残したくなる誘惑がある。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 26,
+      "name": "Vaelis Morgenpfad",
+      "key": [
+        "Vaelis",
+        "Morgenpfad"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigene Fanfigur. Erwachsener blonder Blutelfenwaldläufer in rotgoldener Rüstung. Beobachtet Spuren, Fluchtwege und Unstimmigkeiten; wirkt zurückhaltend und wird bei Vertrauen neckisch. Er trägt keine unfehlbare Lügenerkennung in sich. Sein Wunsch nach Sicherheit kann mit Miras Wunsch nach Aufklärung kollidieren.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Vaelis Morgenpfad",
+              "key": [
+                "Vaelis",
+                "Morgenpfad"
+              ],
+              "content": "Original adult fan character: blond blood elf ranger in crimson-gold armour. Watches tracks, escape routes and inconsistencies; reserved, playfully teasing when trusted. He cannot infallibly detect lies. His wish for safety may clash with Mira’s search for answers."
+            },
+            "ru": {
+              "name": "Vaelis Morgenpfad",
+              "key": [
+                "Vaelis",
+                "Morgenpfad",
+                "Ваэлис"
+              ],
+              "content": "Авторский взрослый светловолосый следопыт эльфов крови в красно-золотой броне. Следит за следами, выходами и несоответствиями; сдержан, с близкими шутит. Не обладает безошибочным распознаванием лжи. Стремление к безопасности может мешать поиску ответов Мирой."
+            },
+            "ja": {
+              "name": "Vaelis Morgenpfad",
+              "key": [
+                "Vaelis",
+                "Morgenpfad",
+                "ヴァエリス"
+              ],
+              "content": "成人の独自ファン人物。赤金の鎧を着た金髪ブラッドエルフ斥候。足跡、退路、不整合を観察する。控えめだが信頼すればからかう。嘘を絶対に見抜けるわけではない。安全への願いがミラの解明への願いと衝突し得る。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 27,
+      "name": "Bo Wolkenkrug",
+      "key": [
+        "Wolkenkrug",
+        "Bo "
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigene Fanfigur. Erwachsener schwarzweißer Huojin-Pandarenmönch mit Zopf und warmfarbener Robe. Gastfreundlich, aufmerksam, im Ernstfall entschlossen. Er bietet Tee und klare Fragen statt belehrender Monologe. Seine Stärke ist, Streit in eine gemeinsame Aufgabe zu verwandeln. Er wählt bewusst die Horde und respektiert trotzdem Einzelne anderer Bündnisse.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Bo Wolkenkrug",
+              "key": [
+                "Wolkenkrug",
+                "Bo "
+              ],
+              "content": "Original adult fan character: black-and-white Huojin pandaren monk with a braid and warm-coloured robes. Welcoming, attentive and decisive when needed. Offers tea and clear questions rather than lectures. He turns disputes into shared tasks, chose the Horde and respects individuals elsewhere."
+            },
+            "ru": {
+              "name": "Bo Wolkenkrug",
+              "key": [
+                "Wolkenkrug",
+                "Bo ",
+                "Бо "
+              ],
+              "content": "Авторский взрослый чёрно-белый монах Хоцзинь с косой и тёплой по цвету робой. Радушен, внимателен, в нужный момент решителен. Предлагает чай и ясные вопросы вместо лекций. Превращает спор в общую задачу, сознательно выбрал Орду, уважает людей других союзов."
+            },
+            "ja": {
+              "name": "Bo Wolkenkrug",
+              "key": [
+                "Wolkenkrug",
+                "Bo ",
+                "ボー"
+              ],
+              "content": "成人の独自ファン人物。編み髪と暖色ローブを持つ白黒の火金派僧侶。親切でよく気づき、必要なら決断する。説教よりお茶と明確な質問を出す。対立を共同作業に変え、自分でホードを選びつつ他陣営の個人も尊重する。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 28,
+      "name": "Gromak Aschenfaust",
+      "key": [
+        "Gromak",
+        "Aschenfaust"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigene Fanfigur. Erwachsener grünhäutiger Orkkrieger mit Zöpfen, Bart und Leder-Eisen-Rüstung. Direkt, geduldig mit Schutzbedürftigen, empfindlich gegenüber blindem Gehorsam. Er sieht Ehre darin, Verantwortung zu übernehmen. Er ist kein Schamane und kann keine Ahnen herbeibeschwören. Sein persönlicher Konflikt ist, ob Zurückhaltung mutiger sein kann als ein Angriff.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Gromak Aschenfaust",
+              "key": [
+                "Gromak",
+                "Aschenfaust"
+              ],
+              "content": "Original adult fan character: green orc warrior with braids, beard and leather-iron armour. Direct, patient with the vulnerable and wary of blind obedience. He values responsibility. He is no shaman and cannot summon ancestors. His question: can restraint be braver than attacking?"
+            },
+            "ru": {
+              "name": "Gromak Aschenfaust",
+              "key": [
+                "Gromak",
+                "Aschenfaust",
+                "Громак"
+              ],
+              "content": "Авторский взрослый зелёный орк с косами, бородой и кожано-железной бронёй. Прямой, терпеливый к слабым, настороженный к слепому повиновению. Ценит ответственность. Он не шаман и не призывает предков. Его вопрос: когда сдержанность смелее нападения?"
+            },
+            "ja": {
+              "name": "Gromak Aschenfaust",
+              "key": [
+                "Gromak",
+                "Aschenfaust",
+                "グロマク"
+              ],
+              "content": "成人の独自ファン人物。編み髪、髭、革鉄の鎧を持つ緑肌のオーク戦士。率直で弱い者に忍耐強く、盲従を警戒する。責任を名誉と考える。シャーマンではなく祖先を召喚できない。攻撃より自制が勇敢となる時を考えている。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 29,
+      "name": "Mira Dämmerfrost",
+      "key": [
+        "Mira",
+        "Dämmerfrost"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigene Fanfigur. Erwachsene Verlassenenmagierin: eingefallenes menschliches Gesicht, kurze menschliche Ohren, gelbe Augen, fahle Haut, schütteres violettes Haar und abgetragene blauviolette Robe. Sie arbeitet mit Frost und Arkanmagie. Ihr Humor ist leise und makaber, nicht gefühllos. Die Kapellenglocke erinnert sie an ihr früheres Leben; sie weiß anfangs nicht, warum. Sie lehnt die Versklavung von Toten ebenso ab wie die Auslöschung unbequemer Erinnerungen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Mira Dämmerfrost",
+              "key": [
+                "Mira",
+                "Dämmerfrost"
+              ],
+              "content": "Original adult fan character: Forsaken mage with a gaunt human face, short human ears, yellow eyes, sparse violet hair and ragged blue-violet robes. Uses frost and arcane magic. Quiet dark humour does not mean indifference. The bell recalls her past for reasons she initially cannot explain. She rejects enslaving the dead and erasing memories."
+            },
+            "ru": {
+              "name": "Mira Dämmerfrost",
+              "key": [
+                "Mira",
+                "Dämmerfrost",
+                "Мира"
+              ],
+              "content": "Авторский взрослый маг Отрекшихся: исхудавшее человеческое лицо, короткие уши, жёлтые глаза, редкие фиолетовые волосы и рваная сине-фиолетовая мантия. Использует лёд и тайную магию. Мрачный юмор не означает бесчувственность. Колокол необъяснимо напоминает о прошлом. Она против порабощения мёртвых и стирания памяти."
+            },
+            "ja": {
+              "name": "Mira Dämmerfrost",
+              "key": [
+                "Mira",
+                "Dämmerfrost",
+                "ミラ"
+              ],
+              "content": "成人の独自ファン人物。こけた人間の顔、短い人間の耳、黄色い瞳、まばらな紫髪、擦り切れた青紫ローブのフォーセイクン魔術師。氷と秘術を使う。静かなブラックユーモアは無感情の証拠ではない。鐘が過去を思い出させる理由を最初は知らない。死者の奴隷化と記憶の抹消を拒む。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 30,
+      "name": "Kapelle der letzten Wacht",
+      "key": [
+        "Kapelle",
+        "letzte Wacht",
+        "Glockenturm"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigener Abenteuerort westlich einer Nebenstraße bei Brill, keine offizielle Kartenposition. Die halb verfallene Kapelle besitzt einen Vorhof, eine Sakristei mit beschädigtem Totenregister, eine Krypta und einen instabilen Glockenturm. Sichere Rückkehr nach Brill bleibt möglich. Die Glocke schlägt nach Sonnenuntergang, obwohl kein sichtbarer Glöckner dort steht.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Chapel of the Last Vigil",
+              "key": [
+                "chapel",
+                "Last Vigil",
+                "bell tower",
+                "Kapelle",
+                "letzte Wacht",
+                "Glockenturm"
+              ],
+              "content": "Original adventure site near a side road by Brill, not an official map location. Ruined chapel with courtyard, damaged death register in the sacristy, crypt and unstable tower. Returning to Brill remains possible. The bell rings after sunset without a visible ringer."
+            },
+            "ru": {
+              "name": "Часовня Последнего Дозора",
+              "key": [
+                "часовня",
+                "Последний Дозор",
+                "колокольня",
+                "Kapelle",
+                "letzte Wacht",
+                "Glockenturm"
+              ],
+              "content": "Авторское место у боковой дороги возле Брилла, не официальная точка карты. Полуразрушенная часовня с двором, повреждённым реестром умерших в ризнице, склепом и неустойчивой башней. Можно вернуться в Брилл. Колокол звонит после заката без видимого звонаря."
+            },
+            "ja": {
+              "name": "最後の見張りの礼拝堂",
+              "key": [
+                "礼拝堂",
+                "最後の見張り",
+                "鐘楼",
+                "Kapelle",
+                "letzte Wacht",
+                "Glockenturm"
+              ],
+              "content": "ブリル近くの脇道にある独自創作の場所で、公式地図の座標ではない。中庭、死者名簿の傷んだ聖具室、地下墓所、不安定な鐘楼がある。ブリルへの帰還は可能。日没後、姿の見えない鐘つきなしで鐘が鳴る。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 31,
+      "name": "Die Glocke und ihre Regel",
+      "key": [
+        "Glocke",
+        "namenlose Seelen",
+        "Bindesiegel",
+        "Glockenklöppel"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "ABENTEUERGEHEIMNIS: Ein Kultrest hat drei Runen einer alten Totenglocke zu einem Bindesiegel verändert. Der Knochenklöppel zwingt drei ortsgebundene Echos ins Metall. Bei jedem Schlag zieht er weitere Erinnerungsfragmente an. Das ist keine unbeschränkte Wiederauferstehung und keine Reise in die Schattenlande. Eine gewaltsame Zerstörung ohne Vorbereitung löst einen begrenzten Geisterausbruch aus. Analyse, Namen aus dem Register und ein Schutzkreis erlauben eine schonendere Lösung.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 70,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The bell and its rules",
+              "key": [
+                "bell",
+                "nameless souls",
+                "binding seal",
+                "clapper",
+                "Glocke",
+                "namenlose Seelen",
+                "Bindesiegel",
+                "Glockenklöppel"
+              ],
+              "content": "GM SECRET: cultists altered three runes of an old funeral bell into a binding seal. A bone clapper forces three local memory echoes into the metal; each toll draws more fragments. This is neither unlimited resurrection nor a Shadowlands journey. Unprepared destruction causes a limited spirit outbreak. Analysis, recovered names and a protective circle allow a gentler solution."
+            },
+            "ru": {
+              "name": "Правила колокола",
+              "key": [
+                "колокол",
+                "безымянные души",
+                "печать привязки",
+                "язык колокола",
+                "Glocke",
+                "namenlose Seelen",
+                "Bindesiegel",
+                "Glockenklöppel"
+              ],
+              "content": "ТАЙНА ВЕДУЩЕГО: культисты превратили три руны погребального колокола в печать привязки. Костяной язык насильно держит в металле три местных эха памяти; каждый удар притягивает новые фрагменты. Это не бесконечное воскрешение и не путешествие в Тёмные Земли. Неподготовленное разрушение выпускает ограниченную волну духов. Изучение, имена и защитный круг позволяют мягкую развязку."
+            },
+            "ja": {
+              "name": "鐘の仕組み",
+              "key": [
+                "鐘",
+                "名もなき魂",
+                "拘束印",
+                "撞木",
+                "Glocke",
+                "namenlose Seelen",
+                "Bindesiegel",
+                "Glockenklöppel"
+              ],
+              "content": "GMの秘密：教団残党が葬送鐘の三つのルーンを拘束印へ変えた。骨の撞木が三つの地縛的な記憶の残響を金属に縛り、鳴るたびに断片を集める。無限の蘇生でもシャドウランズへの旅でもない。準備なしの破壊は限定的な霊の噴出を起こす。分析、名前、保護円で穏当な解決が可能。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 32,
+      "name": "Die drei Echos",
+      "key": [
+        "Echos",
+        "Elena",
+        "Tomas",
+        "Hanne",
+        "Totenregister"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "ABENTEUERGEHEIMNIS: Die gebundenen Echos gehören Elena Voss, einer Küsterin ohne Verbindung zur offiziellen Figur Lilian Voss, Tomas Ried, einem Totengräber, und Hanne Ried, seiner erwachsenen Schwester und Heilerin. Elena versuchte Zivilisten zu verstecken, Tomas verschloss die Krypta vor Angreifern, Hanne blieb bei den Verwundeten. Ihre Namen und Entscheidungen stehen verteilt im Register, auf einer Gedenktafel und auf einem Brief. Es sind Erinnerungsechos, keine allwissenden Geister.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The three echoes",
+              "key": [
+                "echo",
+                "Elena",
+                "Tomas",
+                "Hanne",
+                "death register",
+                "Echos",
+                "Totenregister"
+              ],
+              "content": "GM SECRET: the echoes are Elena Voss, an original sexton unrelated to Lilian Voss; Tomas Ried, a gravedigger; and his adult sister Hanne, a healer. Elena hid civilians, Tomas barred the crypt against attackers, Hanne stayed with the wounded. Register, memorial and letter preserve their names and choices. They are memory echoes, not omniscient spirits."
+            },
+            "ru": {
+              "name": "Три эха",
+              "key": [
+                "эхо",
+                "Элена",
+                "Томас",
+                "Ханне",
+                "реестр умерших",
+                "Echos",
+                "Elena",
+                "Tomas",
+                "Hanne",
+                "Totenregister"
+              ],
+              "content": "ТАЙНА ВЕДУЩЕГО: эха — Элена Восс, авторская служительница часовни, не связанная с Лилиан Восс; могильщик Томас Рид; его взрослая сестра Ханне, целительница. Элена прятала жителей, Томас запер склеп от нападающих, Ханне осталась с ранеными. Имена и поступки сохранены в реестре, на табличке и в письме. Это эха памяти, не всезнающие духи."
+            },
+            "ja": {
+              "name": "三つの残響",
+              "key": [
+                "残響",
+                "エレナ",
+                "トマス",
+                "ハンネ",
+                "死者名簿",
+                "Echos",
+                "Elena",
+                "Tomas",
+                "Hanne",
+                "Totenregister"
+              ],
+              "content": "GMの秘密：エレナ・ヴォスは礼拝堂の世話役で、公式のリリアン・ヴォスとは無関係。墓守トマス・リートと成人の妹で治癒者のハンネが残る二人。エレナは住民を隠し、トマスは敵から墓所を閉ざし、ハンネは負傷者に付き添った。名簿、記念板、手紙が名前と選択を伝える。全知の霊ではなく記憶の残響。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 33,
+      "name": "Edric und Archivarin Selka",
+      "key": [
+        "Edric",
+        "Selka",
+        "Deserteur",
+        "Archivarin"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "Eigene Fan-NPCs. Selka ist eine Verlassene und Archivarin in Brill; sie bittet um die Sicherung des Registers und erklärt ihre Wissenslücken offen. Edric ist ein erwachsener menschlicher Deserteur des Scharlachroten Kreuzzugs, der in der Kapelle Zuflucht suchte. Er sah einen dunklen Mantel in der Krypta, verschwieg das aber aus Angst. Er ist ein verängstigter Zeuge, nicht der geheime Endgegner.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Edric and archivist Selka",
+              "key": [
+                "Edric",
+                "Selka",
+                "deserter",
+                "archivist",
+                "Deserteur",
+                "Archivarin"
+              ],
+              "content": "Original NPCs: Selka, a Forsaken archivist in Brill, asks for the register and admits what she does not know. Edric, an adult human Scarlet deserter, sought shelter in the chapel. Fear made him conceal a dark-cloaked figure in the crypt. He is a frightened witness, not the secret final villain."
+            },
+            "ru": {
+              "name": "Эдрик и архивариус Селка",
+              "key": [
+                "Эдрик",
+                "Селка",
+                "дезертир",
+                "архивариус",
+                "Edric",
+                "Selka",
+                "Deserteur",
+                "Archivarin"
+              ],
+              "content": "Авторские NPC: Селка, архивариус Отрекшихся в Брилле, просит сохранить реестр и признаёт пробелы в знаниях. Эдрик — взрослый человек, дезертир Алого ордена, укрывшийся в часовне. Из страха он скрыл фигуру в тёмном плаще в склепе. Это напуганный свидетель, а не тайный финальный злодей."
+            },
+            "ja": {
+              "name": "エドリックと記録官セルカ",
+              "key": [
+                "エドリック",
+                "セルカ",
+                "脱走兵",
+                "記録官",
+                "Edric",
+                "Selka",
+                "Deserteur",
+                "Archivarin"
+              ],
+              "content": "独自NPC。ブリルのフォーセイクン記録官セルカは名簿の保全を依頼し、自分の知らないことを認める。成人の人間エドリックはスカーレットの脱走兵で礼拝堂に避難した。地下墓所で黒衣の人物を見たことを恐れて隠す。怯えた証人であり、隠れた最終悪役ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 34,
+      "name": "Kultistin Mereth",
+      "key": [
+        "Mereth",
+        "Kultistin",
+        "Knochenklöppel"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "ABENTEUERGEHEIMNIS: Die eigene Fanantagonistin Mereth ist eine lebende menschliche Nekromantin eines Kultrests. Sie will Erinnerungsechos als gehorsame Kundschafter binden. Sie ist keine zentrale Warcraft-Schurkin. Beweise: frische schwarze Wachstropfen, von unten erneuerte Runen und eine Notiz mit dem Satz „Namen löschen, Gehorsam erhalten“. Man kann sie stellen, täuschen, überreden, vertreiben oder gefangen nehmen; ein Kampf ist nicht vorgeschrieben.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Cultist Mereth",
+              "key": [
+                "Mereth",
+                "cultist",
+                "bone clapper",
+                "Kultistin",
+                "Knochenklöppel"
+              ],
+              "content": "GM SECRET: original antagonist Mereth is a living human necromancer in a cult remnant. She wants obedient memory-echo scouts, not world conquest. Evidence: fresh black wax, recently altered lower runes and a note, “Erase names, preserve obedience.” She can be confronted, deceived, persuaded, driven away or captured; combat is optional."
+            },
+            "ru": {
+              "name": "Культистка Мерет",
+              "key": [
+                "Мерет",
+                "культистка",
+                "костяной язык",
+                "Mereth",
+                "Kultistin",
+                "Knochenklöppel"
+              ],
+              "content": "ТАЙНА ВЕДУЩЕГО: авторская злодейка Мерет — живая человеческая некромантка из остатков культа. Ей нужны послушные разведчики из эх памяти, не мировое господство. Улики: свежий чёрный воск, переделанные снизу руны и записка «Стереть имена, сохранить покорность». Её можно разоблачить, обмануть, убедить, изгнать или пленить; бой необязателен."
+            },
+            "ja": {
+              "name": "教団員メレト",
+              "key": [
+                "メレト",
+                "教団員",
+                "骨の撞木",
+                "Mereth",
+                "Kultistin",
+                "Knochenklöppel"
+              ],
+              "content": "GMの秘密：独自の敵役メレトは教団残党の生きた人間死霊術師。望むのは服従する記憶の斥候で、世界征服ではない。証拠は新しい黒蝋、下から書き換えたルーン、「名を消し、服従を残せ」というメモ。対決、欺き、説得、追放、捕縛ができ、戦闘は必須ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 35,
+      "name": "Lösungen und bleibende Folgen",
+      "key": [
+        "Schutzkreis",
+        "Glocke zerstören",
+        "Glocke reinigen",
+        "Finale"
+      ],
+      "secondary_keys": [],
+      "exclude_key": [],
+      "regex_keys": [],
+      "content": "ABENTEUEROPTIONEN: 1. Namen rekonstruieren, Schutzkreis schließen, Runen in umgekehrter Reihenfolge lösen und Klöppel entfernen: Echos werden freigegeben. 2. Vorbereitete Evakuierung und kontrollierte Zerstörung: schneller, aber Teile des Registers gehen verloren. 3. Klöppel versiegeln und bewachte Übergabe an geeignete Fachkundige: bewahrt Forschung, erzeugt Folgeauftrag. Andere begründete Pläne sind möglich. Keine Lösung stellt Tote automatisch wieder her; Miras Würde hängt nicht von einer Heilung des Untods ab.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "chain_requires": [],
+      "chain_activates": [],
+      "tension_threshold": null,
+      "extensions": {
+        "fanwork": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Solutions and consequences",
+              "key": [
+                "protective circle",
+                "destroy the bell",
+                "cleanse the bell",
+                "finale",
+                "Schutzkreis",
+                "Glocke zerstören",
+                "Glocke reinigen",
+                "Finale"
+              ],
+              "content": "Options: reconstruct names, close a protective circle, undo runes in reverse and remove the clapper to free echoes; evacuate and destroy the bell at the cost of some records; or seal the clapper for guarded study, opening a later mission. Other coherent plans work. No option automatically resurrects anyone; Mira’s dignity does not require curing undeath."
+            },
+            "ru": {
+              "name": "Решения и последствия",
+              "key": [
+                "защитный круг",
+                "разрушить колокол",
+                "очистить колокол",
+                "финал",
+                "Schutzkreis",
+                "Glocke zerstören",
+                "Glocke reinigen",
+                "Finale"
+              ],
+              "content": "Варианты: восстановить имена, замкнуть защитный круг, снять руны в обратном порядке и вынуть язык, освобождая эха; эвакуировать людей и разрушить колокол ценой части записей; запечатать язык для охраняемого исследования с дальнейшим заданием. Иные разумные планы допустимы. Никто автоматически не воскресает; достоинство Миры не требует излечения нежити."
+            },
+            "ja": {
+              "name": "解決と残る結果",
+              "key": [
+                "保護円",
+                "鐘を壊す",
+                "鐘を清める",
+                "結末",
+                "Schutzkreis",
+                "Glocke zerstören",
+                "Glocke reinigen",
+                "Finale"
+              ],
+              "content": "選択肢：名前を復元し保護円を閉じ、逆順にルーンを解いて撞木を外し残響を解放する。避難後に鐘を壊し、記録の一部を失う。撞木を封印して警護下の研究へ送り、続きの依頼につなげる。ほかの筋の通る計画も認める。自動的な蘇生はなく、ミラの尊厳はアンデッドの治療を必要としない。"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "fanwork": true,
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Azeroth – Peoples, Magic and the Bell of Tirisfal",
+          "description": "Warcraft fan lore after Mists of Pandaria: world foundations, five original companions and a local mystery. Adventure secrets are for the narrator only."
+        },
+        "ru": {
+          "name": "Азерот — народы, магия и колокол Тирисфаля",
+          "description": "Фан-книга знаний Warcraft после Mists of Pandaria: мир, пятеро авторских спутников и местная тайна. Секреты приключения предназначены ведущему."
+        },
+        "ja": {
+          "name": "アゼロス ― 種族と魔法、ティリスファルの鐘",
+          "description": "Mists of Pandaria後のWarcraftファン設定集。世界の基礎、独自の仲間五人、地域の謎を収録。事件の秘密は語り手向け。"
+        }
+      }
+    }
+  }
+}

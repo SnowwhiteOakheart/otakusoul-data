@@ -428,6 +428,42 @@
           "description": "Сигнал на краю карты, небольшой экипаж и врата, которым лучше было оставаться закрытыми."
         }
       }
+    },
+    {
+      "id": "world_of_warcraft_tirisfal",
+      "title": "World of Warcraft – Tirisfal",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "description": "Fünf Gefährten, eine Totenglocke und gestohlene Erinnerungen: ein eigenes WoW-Fanabenteuer nach Mists of Pandaria mit 75 Emotionsbildern.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/world-of-warcraft/cover.webp",
+      "characters": [
+        "Liora Sonnenfaden",
+        "Vaelis Morgenpfad",
+        "Bo Wolkenkrug",
+        "Gromak Aschenfaust",
+        "Mira Dämmerfrost"
+      ],
+      "lorebooks": [
+        "Azeroth – Völker, Magie und die Glocke von Tirisfal"
+      ],
+      "scenes": [
+        "wow_glocke_der_namenlosen_seelen"
+      ],
+      "translations": {
+        "en": {
+          "title": "World of Warcraft – Tirisfal",
+          "description": "Five companions, a funeral bell and stolen memories: an original post-Mists of Pandaria fan adventure with 75 expressions."
+        },
+        "ru": {
+          "title": "World of Warcraft — Тирисфаль",
+          "description": "Пятеро спутников, погребальный колокол и украденные воспоминания: авторское фан-приключение после Mists of Pandaria с 75 изображениями эмоций."
+        },
+        "ja": {
+          "title": "World of Warcraft ― ティリスファル",
+          "description": "五人の仲間、葬送鐘、奪われた記憶。Mists of Pandaria後の独自ファン冒険と75枚の表情イラスト。"
+        }
+      }
     }
   ]
 }

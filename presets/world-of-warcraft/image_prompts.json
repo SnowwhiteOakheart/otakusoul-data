@@ -1,0 +1,395 @@
+{
+  "tool": "Built-in Imagegen",
+  "provenance": "AI-generated Warcraft fan art; no game assets extracted.",
+  "references": {
+    "liora_sonnenfaden": "liora_sonnenfaden.png",
+    "vaelis_morgenpfad": "vaelis_morgenpfad.png",
+    "bo_wolkenkrug": "bo_wolkenkrug.png",
+    "gromak_aschenfaust": "gromak_aschenfaust.png",
+    "mira_daemmerfrost": "mira_daemmerfrost.png"
+  },
+  "processing": "Aspect-fit and dark padding without cropping: portraits 700x937 PNG, expressions 640x800 WebP, quality 92. Cards embed complete V2 metadata. No expression synthesized by resizing another expression.",
+  "sfw_interpretation": {
+    "seductive": "playful confident invitation",
+    "aroused": "nonsexual romantic excitement",
+    "ecstasy": "overwhelming joyful bliss",
+    "afterglow": "peaceful affectionate contentment"
+  },
+  "prompts": [
+    {
+      "name": "blutelfe_weiblich",
+      "prompt": "Use case: stylized-concept. Asset type: static character avatar portrait for OtakuSoul. Create a polished original digital fantasy illustration of an adult female Blood Elf from World of Warcraft, long pointed ears, glowing green eyes, auburn hair, elegant crimson and gold mage clothing. Single character only, centered waist-up portrait facing viewer, complete head and ears inside frame with ample margin, expressive approachable face, detailed painterly fantasy game art, soft cinematic lighting, simple dark atmospheric background. Fully clothed. No text, no logo, no watermark. This is a standalone character portrait, not a collage or model sheet."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "prompt": "Use case: stylized-concept. Asset type: static character avatar portrait for OtakuSoul. Create a polished original digital fantasy illustration of an adult male Blood Elf from World of Warcraft, long pointed ears, glowing green eyes, long blond hair, elegant crimson and gold ranger armor. Single character only, centered waist-up portrait facing viewer, complete head and ears inside frame with ample margin, expressive approachable face, detailed painterly fantasy game art, soft cinematic lighting, simple dark atmospheric background. Fully clothed. No text, no logo, no watermark. This is a standalone character portrait, not a collage or model sheet."
+    },
+    {
+      "name": "pandaren",
+      "prompt": "Use case: stylized-concept. Asset type: static character avatar portrait for OtakuSoul. Create a polished original digital fantasy illustration of an adult male Pandaren from World of Warcraft, black and white panda fur, friendly expressive face, traditional monk robes. Single character only, centered waist-up portrait facing viewer, complete head and ears inside frame with ample margin, expressive approachable face, detailed painterly fantasy game art, soft cinematic lighting, simple dark atmospheric background. Fully clothed. No text, no logo, no watermark. This is a standalone character portrait, not a collage or model sheet."
+    },
+    {
+      "name": "ork",
+      "prompt": "Use case: stylized-concept. Asset type: static character avatar portrait for OtakuSoul. Create a polished original digital fantasy illustration of an adult male Orc from World of Warcraft, green skin, strong jaw and tusks, dark braided hair, leather and iron warrior armor. Single character only, centered waist-up portrait facing viewer, complete head and ears inside frame with ample margin, expressive approachable face, detailed painterly fantasy game art, soft cinematic lighting, simple dark atmospheric background. Fully clothed. No text, no logo, no watermark. This is a standalone character portrait, not a collage or model sheet."
+    },
+    {
+      "name": "untote",
+      "prompt": "Use case: stylized-concept. Asset type: static character avatar portrait for OtakuSoul. Create a polished original digital fantasy illustration of an adult female Forsaken undead from World of Warcraft, pale gray lavender skin, glowing yellow eyes, dark hair, dark purple mage robes, dignified rather than gory. Single character only, centered waist-up portrait facing viewer, complete head and ears inside frame with ample margin, expressive approachable face, detailed painterly fantasy game art, soft cinematic lighting, simple dark atmospheric background. Fully clothed. No text, no logo, no watermark. This is a standalone character portrait, not a collage or model sheet."
+    },
+    {
+      "name": "pandaren",
+      "mood": "happy",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly happy: warm broad smile, raised cheeks, joyful eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "pandaren",
+      "mood": "sad",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly sad: inner brows raised, downturned mouth, sorrowful eyes, no tears needed. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "pandaren",
+      "mood": "angry",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly angry: brows drawn down and together, stern glare, tight mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "untote",
+      "mood": "happy",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly happy: warm broad smile, raised cheeks, joyful eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "happy",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly happy: warm broad smile, raised cheeks, joyful eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "pandaren",
+      "mood": "surprised",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly surprised: lifted brows, widened eyes, slightly open mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "untote",
+      "mood": "sad",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly sad: inner brows raised, downturned mouth, sorrowful eyes, no tears needed. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "happy",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly happy: warm broad smile, raised cheeks, joyful eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "pandaren",
+      "mood": "relaxed",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly relaxed: peaceful small closed-mouth smile, softened brows, half-lidded calm eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "sad",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly sad: inner brows raised, downturned mouth, sorrowful eyes, no tears needed. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "ork",
+      "mood": "happy",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly happy: warm broad smile, raised cheeks, joyful eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "untote",
+      "mood": "angry",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly angry: brows drawn down and together, stern glare, tight mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "sad",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly sad: inner brows raised, downturned mouth, sorrowful eyes, no tears needed. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "angry",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly angry: brows drawn down and together, stern glare, tight mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "ork",
+      "mood": "sad",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly sad: inner brows raised, downturned mouth, sorrowful eyes, no tears needed. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "untote",
+      "mood": "surprised",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly surprised: lifted brows, widened eyes, slightly open mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "surprised",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly surprised: lifted brows, widened eyes, slightly open mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "angry",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly angry: brows drawn down and together, stern glare, tight mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "relaxed",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly relaxed: peaceful small closed-mouth smile, softened brows, half-lidded calm eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "ork",
+      "mood": "angry",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly angry: brows drawn down and together, stern glare, tight mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "surprised",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly surprised: lifted brows, widened eyes, slightly open mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "ork",
+      "mood": "surprised",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly surprised: lifted brows, widened eyes, slightly open mouth. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "untote",
+      "mood": "relaxed",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly relaxed: peaceful small closed-mouth smile, softened brows, half-lidded calm eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "relaxed",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly relaxed: peaceful small closed-mouth smile, softened brows, half-lidded calm eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "ork",
+      "mood": "relaxed",
+      "prompt": "Use case: identity-preserve. Edit this exact character avatar portrait. Change ONLY the facial expression to clearly relaxed: peaceful small closed-mouth smile, softened brows, half-lidded calm eyes. Preserve the exact character identity, species, age, facial proportions, skin texture, hair, eye color, clothing, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve her gaunt undead human face, short human ears, skeletal details and weathered skin in every emotion. Single standalone image, no panels, no added text or watermark. Expression must be visibly distinct while anatomically natural."
+    },
+    {
+      "name": "untote",
+      "mood": "neutral",
+      "prompt": "Use case: stylized-concept. Create a single portrait of an adult female Forsaken undead mage from World of Warcraft. She must look distinctly like a reanimated HUMAN, NOT an elf, not a beautiful living woman painted purple. Normal short human ears, hollow sunken cheeks, angular gaunt face, weathered ashen gray-green skin, dark eye sockets with glowing yellow eyes, thin lips, sparse messy dark purple hair, small dry exposed bone areas on fingers and elbows, no blood or gore. Slight stooped posture. Wears a worn high-collared violet and blue cloth mage robe with ragged edges and modest magical shoulder pieces, no plate armor. Holds an arcane staff beside her body, subtle frost-blue magic. Neutral resting expression. Waist-up centered portrait with complete head in frame, detailed painterly fantasy game illustration, atmospheric ruined Lordaeron backdrop, soft cinematic light. No text, no logos, no watermark. Clearly recognizable Forsaken playable race aesthetic."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "blush",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to embarrassed and bashful: slightly lowered gaze, shy small smile, eyebrows gently raised; subtle natural cheek flush only where appropriate for this species. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "blush",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to embarrassed and bashful: slightly lowered gaze, shy small smile, eyebrows gently raised; subtle natural cheek flush only where appropriate for this species. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "teasing",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to playfully teasing: one eyebrow raised, a mischievous asymmetrical grin, amused eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "blush",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to embarrassed and bashful: slightly lowered gaze, shy small smile, eyebrows gently raised; subtle natural cheek flush only where appropriate for this species. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "teasing",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to playfully teasing: one eyebrow raised, a mischievous asymmetrical grin, amused eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "fear",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly afraid: brows lifted and drawn together, wide alert eyes, lips slightly parted and tense. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "blush",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to embarrassed and bashful: slightly lowered gaze, shy small smile, eyebrows gently raised; subtle natural cheek flush only where appropriate for this species. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "teasing",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to playfully teasing: one eyebrow raised, a mischievous asymmetrical grin, amused eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "blush",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to embarrassed and bashful: slightly lowered gaze, shy small smile, eyebrows gently raised; subtle natural cheek flush only where appropriate for this species. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "fear",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly afraid: brows lifted and drawn together, wide alert eyes, lips slightly parted and tense. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "disgust",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly disgusted: wrinkled nose, upper lip raised slightly, narrowed eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "disgust",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly disgusted: wrinkled nose, upper lip raised slightly, narrowed eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "crying",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to crying with grief: tear tracks, moist eyes, raised inner eyebrows and downturned mouth. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "fear",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly afraid: brows lifted and drawn together, wide alert eyes, lips slightly parted and tense. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "teasing",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to playfully teasing: one eyebrow raised, a mischievous asymmetrical grin, amused eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "teasing",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to playfully teasing: one eyebrow raised, a mischievous asymmetrical grin, amused eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "fear",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly afraid: brows lifted and drawn together, wide alert eyes, lips slightly parted and tense. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "seductive",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a tasteful flirtatious expression: confident gentle smile, slightly lowered eyelids, warm inviting eye contact; fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "crying",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to crying with grief: tear tracks, moist eyes, raised inner eyebrows and downturned mouth. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "fear",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly afraid: brows lifted and drawn together, wide alert eyes, lips slightly parted and tense. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "disgust",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly disgusted: wrinkled nose, upper lip raised slightly, narrowed eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "aroused",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a non-explicit romantic expression of fluttery excitement: bright attentive eyes, softly parted lips, shy delighted smile; focus only on facial emotion, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "crying",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to crying with grief: tear tracks, moist eyes, raised inner eyebrows and downturned mouth. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "disgust",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly disgusted: wrinkled nose, upper lip raised slightly, narrowed eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "seductive",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a tasteful flirtatious expression: confident gentle smile, slightly lowered eyelids, warm inviting eye contact; fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "ecstasy",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to an expression of overwhelming joyful bliss: eyes softly closed, cheeks raised, radiant broad smile; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "aroused",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a non-explicit romantic expression of fluttery excitement: bright attentive eyes, softly parted lips, shy delighted smile; focus only on facial emotion, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "disgust",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to visibly disgusted: wrinkled nose, upper lip raised slightly, narrowed eyes. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "seductive",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a tasteful flirtatious expression: confident gentle smile, slightly lowered eyelids, warm inviting eye contact; fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "crying",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to crying with grief: tear tracks, moist eyes, raised inner eyebrows and downturned mouth. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "aroused",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a non-explicit romantic expression of fluttery excitement: bright attentive eyes, softly parted lips, shy delighted smile; focus only on facial emotion, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelf_maennlich",
+      "mood": "afterglow",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a peaceful affectionate expression after a tender romantic moment: very soft contented smile, relaxed eyelids, warm tranquil gaze; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "ecstasy",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to an expression of overwhelming joyful bliss: eyes softly closed, cheeks raised, radiant broad smile; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "seductive",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a tasteful flirtatious expression: confident gentle smile, slightly lowered eyelids, warm inviting eye contact; fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "ecstasy",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to an expression of overwhelming joyful bliss: eyes softly closed, cheeks raised, radiant broad smile; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "crying",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to crying with grief: tear tracks, moist eyes, raised inner eyebrows and downturned mouth. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "untote",
+      "mood": "afterglow",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a peaceful affectionate expression after a tender romantic moment: very soft contented smile, relaxed eyelids, warm tranquil gaze; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "blutelfe_weiblich",
+      "mood": "afterglow",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a peaceful affectionate expression after a tender romantic moment: very soft contented smile, relaxed eyelids, warm tranquil gaze; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "seductive",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a tasteful flirtatious expression: confident gentle smile, slightly lowered eyelids, warm inviting eye contact; fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "aroused",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a non-explicit romantic expression of fluttery excitement: bright attentive eyes, softly parted lips, shy delighted smile; focus only on facial emotion, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "aroused",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a non-explicit romantic expression of fluttery excitement: bright attentive eyes, softly parted lips, shy delighted smile; focus only on facial emotion, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "ecstasy",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to an expression of overwhelming joyful bliss: eyes softly closed, cheeks raised, radiant broad smile; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "ecstasy",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to an expression of overwhelming joyful bliss: eyes softly closed, cheeks raised, radiant broad smile; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "ork",
+      "mood": "afterglow",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a peaceful affectionate expression after a tender romantic moment: very soft contented smile, relaxed eyelids, warm tranquil gaze; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    },
+    {
+      "name": "pandaren",
+      "mood": "afterglow",
+      "prompt": "Use case: identity-preserve. Edit this exact adult character avatar portrait. Change ONLY the facial expression to a peaceful affectionate expression after a tender romantic moment: very soft contented smile, relaxed eyelids, warm tranquil gaze; facial emotion only, fully clothed, unchanged pose. Preserve exact identity, species, age, facial proportions, skin texture, hairstyle, eye color, clothing coverage, armor, accessories, hands, body pose, background, lighting, camera framing, aspect ratio, and painting style. For the undead preserve the gaunt undead HUMAN face, short HUMAN ears, skeletal details and weathered skin. Do not beautify or rejuvenate her. Single standalone portrait, no panels, no added text or watermark. Anatomically natural, clearly readable expression. No nudity or sexual activity."
+    }
+  ]
+}

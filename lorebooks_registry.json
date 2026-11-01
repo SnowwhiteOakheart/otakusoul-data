@@ -609,6 +609,29 @@
           "name": "Sternenbruch — Экипаж и места"
         }
       }
+    },
+    {
+      "name": "Azeroth – Völker, Magie und die Glocke von Tirisfal",
+      "description": "Deutsches WoW-Fan-LoreBook für die Epoche nach Mists of Pandaria: Weltgrundlagen, fünf eigene Gefährten und ein lokales Mysterium. Abenteuergeheimnisse nur für die Spielleitung.",
+      "entry_count": 35,
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/wow_azeroth_tirisfal.json",
+      "translations": {
+        "en": {
+          "description": "Warcraft fan lore after Mists of Pandaria: world foundations, five original companions and a local mystery. Adventure secrets are for the narrator only.",
+          "name": "Azeroth – Peoples, Magic and the Bell of Tirisfal"
+        },
+        "ja": {
+          "description": "Mists of Pandaria後のWarcraftファン設定集。世界の基礎、独自の仲間五人、地域の謎を収録。事件の秘密は語り手向け。",
+          "name": "アゼロス ― 種族と魔法、ティリスファルの鐘"
+        },
+        "ru": {
+          "description": "Фан-книга знаний Warcraft после Mists of Pandaria: мир, пятеро авторских спутников и местная тайна. Секреты приключения предназначены ведущему.",
+          "name": "Азерот — народы, магия и колокол Тирисфаля"
+        }
+      }
     }
   ]
 }

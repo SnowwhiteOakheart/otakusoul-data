@@ -1566,6 +1566,33 @@
           "starting_location": "Поверхностный якорь врат Эйрена"
         }
       }
+    },
+    {
+      "id": "wow_glocke_der_namenlosen_seelen",
+      "title": "Die Glocke der namenlosen Seelen",
+      "description": "Eine Glocke ohne Glöckner raubt Reisenden ihre Erinnerungen. Fünf Gefährten begleiten Dich durch ein WoW-Fanmysterium in Tirisfal: Namen bewahren, freie Willen schützen und über den letzten Schlag entscheiden.",
+      "starting_location": "Brill, im Arbeitsraum der Archivarin Selka",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/wow_glocke_der_namenlosen_seelen.json",
+      "translations": {
+        "en": {
+          "title": "The Bell of Nameless Souls",
+          "description": "A bell without a ringer steals travellers’ memories. Five companions join you in a Warcraft fan mystery in Tirisfal: preserve names, protect free wills and decide the final toll.",
+          "starting_location": "Brill, archivist Selka’s workroom"
+        },
+        "ja": {
+          "title": "名もなき魂の鐘",
+          "description": "鐘つきのいない鐘が旅人の記憶を奪う。五人の仲間とティリスファルのWarcraftファン・ミステリーへ。名前を残し、自由意志を守り、最後の鐘をどうするか決めよう。",
+          "starting_location": "ブリル、記録官セルカの仕事部屋"
+        },
+        "ru": {
+          "title": "Колокол безымянных душ",
+          "description": "Колокол без звонаря похищает память путников. Пятеро спутников помогут раскрыть фан-тайну Warcraft в Тирисфале: сохранить имена, защитить свободу воли и решить судьбу последнего удара.",
+          "starting_location": "Брилл, рабочая комната архивариуса Селки"
+        }
+      }
     }
   ]
 }

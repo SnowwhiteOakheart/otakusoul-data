@@ -454,3 +454,13 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Alle 11 Sammlungen mit individuellen, KI-generierten Figuren-/Schauplatz-Keyvisuals als `presets/<paket>/cover.webp` (960×540) ausgestattet; Referenzen, Prompts und Nachbearbeitung je Paket in `cover_prompt.json` dokumentiert.
 
 - [x] Quintuplets-Titelbild wegen fehlerhafter Arm-Anatomie neu generiert, Figurenposen vereinfacht und Arme/Hände visuell geprüft.
+
+
+## World of Warcraft – Tirisfal (01.11.2026)
+
+- [x] Fünf erwachsene eigene Fanfiguren als vollständige V2-Karten: Liora Sonnenfaden, Vaelis Morgenpfad, Bo Wolkenkrug, Gromak Aschenfaust und Mira Dämmerfrost; mindestens zwei alternative Begrüßungen, drei Dialogbeispiele, DE/EN/RU/JA und englische Stimmbeschreibungen.
+- [x] 75 einzeln generierte SFW-Expressions (15 je Figur) in Hub-Karten verknüpft; technische Romance-Slots nichtsexuell dokumentiert.
+- [x] LoreBook mit 35 Einträgen und vier Sprachfassungen; Warcraft-Wissen und eigene Abenteuerhandlung gekennzeichnet.
+- [x] Narrative Stage „Die Glocke der namenlosen Seelen“ mit fünf Karten als Party, drei Startvorschlägen je Sprache, mehreren Lösungswegen und automatisch herunterladbarem Hintergrund.
+- [x] Sammlung mit Figuren-/Kapellen-Keyvisual (960×540 WebP), Quellen und Promptnachweisen für „Alles installieren“ vorbereitet.
+- [x] Abschließende Inhaltsvalidierung: 0 Fehler, 0 Warnungen; fünf PNG-/JSON-Profile, 75 unterschiedliche Expressions und Download-Verweise geprüft. Veröffentlichung als zusammenhängendes Hub-Paket auf main; kein Import ins echte Nutzerprofil.

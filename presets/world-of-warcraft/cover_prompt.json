@@ -1,0 +1,6 @@
+{
+  "tool": "Built-in Imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: landscape title artwork for a World of Warcraft fan roleplaying adventure called Die Glocke der namenlosen Seelen. Create a wide cinematic painterly fantasy illustration, 16:9 composition. In the misty Tirisfal Glades at blue twilight an abandoned ruined Lordaeron human chapel stands among crooked bare trees, old gravestones and mossy stone walls. Its cracked bronze bell glows faintly cold blue, thin blue spectral threads drift toward the bell tower; a warm candlelit doorway offers refuge. Five small adult adventurer silhouettes seen from behind in the foreground: a red-haired female blood elf mage in red gold robes, blond male blood elf ranger, stocky black-white pandaren monk, green orc warrior, gaunt female undead HUMAN mage with short human ears in ragged violet-blue robes carrying a frost-blue staff. Focus on the haunting beautiful environment and the mysterious bell; readable landscape with space above for UI title. Moody atmospheric dramatic lighting, detailed premium fantasy game key art, suspense and wonder. No text, no typography, no logos, no watermark, no gore.",
+  "references": [],
+  "processing": "Generated landscape artwork; centre crop to 960x540 WebP for the collection, full image as background WebP."
+}
