@@ -6,15 +6,33 @@
   ],
   "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
   "generated": "2026-11-01",
-  "prompt": "Official anime key visual poster for Neverness to Everness (NTE). Cinematic 16:9 widescreen composition set in the vibrant supernatural cyberpunk metropolis of Hethereau at night with glowing neon billboards, dimensional anomaly rifts in the violet sky, elevated highways, and sleek wet pavement outside an antique shop front. In the center, Nanally Colucci with cat ears, glasses, cropped blazer and pink skirt grinning with hands on hips, flanked by Female Esper Zero and Male Esper Zero in dark tailored sci-fi jackets and lavender ties. Joined by Mint with her turquoise high ponytail, Iroi with curved ram horns and floating mechanical dream-sheep, and Linko with antenna headphones, oversized teal jacket and glowing cyan ghost companion Xiaozhen. Dynamic urban lighting, volumetric neon reflections, clean anime lines, clean framing, completely free of text, no logos, no watermarks.",
+  "prompt": "Use case: stylized-concept. Asset type: NEW 16:9 landscape collection cover for an unofficial Neverness to Everness fan character pack, readable as a small app thumbnail.\nInput images are CHARACTER IDENTITY AND COSTUME references only, not edit targets: reference 1 Nanally Colucci, reference 2 Mint, reference 3 Iroi, reference 4 female Esper Zero. Match their distinctive faces, hair, ears/horns, accessories and complex layered costumes closely. Do not copy their portrait poses or backgrounds.\nCreate a single cohesive, beautifully composed premium anime game illustration: a candid supernatural investigation outside the warmly lit Eibon antique shop on a rainy Hethereau evening. A small floating glass-like anomaly hovers between the four women, reflecting an upside-down miniature city, with a subtle violet ripple behind it. Nanally leads with her confident playful grin, Mint watches excitedly, Iroi studies it with gentle curiosity accompanied by ONE small mechanical dream sheep, and female Esper Zero observes calmly.\nComposition: expressive shoulder-to-waist character grouping, faces large and clearly separated, asymmetrical layered arrangement with natural depth, Nanally and Mint the two main foreground faces, Iroi and Zero just behind with fully visible faces. Eye-level cinematic camera. Four characters exactly, all heads and ear/horn tips fully in frame with comfortable margins, no extreme perspective. Focus on faces, varied gazes and believable interaction rather than a lineup looking at camera. Keep arms simple and unobscured; no complicated hand gestures.\nIdentity locks: Nanally long vivid red-pink hair, black cat ears with white inner fur, round black glasses, white collared blouse and black-magenta detailed cropped blazer with straps. Mint turquoise high ponytail, matching cat ears, pink eyes, white sleeveless high-neck blouse, small gold bell, detailed black suspender waist outfit. Iroi pale mint long hair, two large black curled ram horns with magenta interiors, pink eyes, elegant white silver layered clothing with magenta accents. Zero short silver bob and black headband, gray-lilac eyes, white shirt, lilac tie and black strapped outerwear. Every character fully clothed, confident and natural, family-friendly.\nStyle: refined detailed anime illustration with delicate confident linework, rich painted hair, subtle luminous skin shading, fine fabric and metal details, polished expressive faces consistent with reference quality. Strong warm amber shop light against cool teal-violet rain reflections, restrained neon, atmospheric city architecture in soft focus. Luxurious nuanced colors and visual storytelling; composition remains legible at 960x540.\nAvoid generic simplified cartoon faces, identical poses, rigid row arrangement, cluttered neon signage, giant sky portals, fisheye perspective, excessive bloom, sexualized posing, collage panels, text, letters, signage typography, logos and watermarks. NO TEXT anywhere.",
   "references": [
     "presets/neverness-to-everness/nanally.png",
-    "presets/neverness-to-everness/zero_female.png",
-    "presets/neverness-to-everness/zero_male.png",
     "presets/neverness-to-everness/mint.png",
     "presets/neverness-to-everness/iroi.png",
-    "presets/neverness-to-everness/linko.png"
+    "presets/neverness-to-everness/zero_female.png"
   ],
-  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92. Vollbild als Szenenhintergrund in backgrounds/nte_hethereau_city.webp.",
-  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+  "postprocessing": "Neues Keyvisual mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 94. Bestehender Stage-Hintergrund unverändert.",
+  "provenance": "KI-generierte inoffizielle Fanart mit vier vorhandenen KI-Porträts als Identitäts-/Kostümreferenzen. Rechtehinweise des Pakets gelten.",
+  "previous_generation": {
+    "asset": "cover.webp",
+    "size": [
+      960,
+      540
+    ],
+    "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+    "generated": "2026-11-01",
+    "prompt": "Official anime key visual poster for Neverness to Everness (NTE). Cinematic 16:9 widescreen composition set in the vibrant supernatural cyberpunk metropolis of Hethereau at night with glowing neon billboards, dimensional anomaly rifts in the violet sky, elevated highways, and sleek wet pavement outside an antique shop front. In the center, Nanally Colucci with cat ears, glasses, cropped blazer and pink skirt grinning with hands on hips, flanked by Female Esper Zero and Male Esper Zero in dark tailored sci-fi jackets and lavender ties. Joined by Mint with her turquoise high ponytail, Iroi with curved ram horns and floating mechanical dream-sheep, and Linko with antenna headphones, oversized teal jacket and glowing cyan ghost companion Xiaozhen. Dynamic urban lighting, volumetric neon reflections, clean anime lines, clean framing, completely free of text, no logos, no watermarks.",
+    "references": [
+      "presets/neverness-to-everness/nanally.png",
+      "presets/neverness-to-everness/zero_female.png",
+      "presets/neverness-to-everness/zero_male.png",
+      "presets/neverness-to-everness/mint.png",
+      "presets/neverness-to-everness/iroi.png",
+      "presets/neverness-to-everness/linko.png"
+    ],
+    "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92. Vollbild als Szenenhintergrund in backgrounds/nte_hethereau_city.webp.",
+    "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+  }
 }

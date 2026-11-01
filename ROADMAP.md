@@ -491,3 +491,10 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Neues narratives Soul-Stage-Abenteuer `nte_ep1_die_anomalie_im_spiegelbezirk` (*Die Anomalie im Spiegelbezirk*) mit 6 Mitspielern als Party (Nanally Colucci, Mint, Iroi, Linko, Esper Zero (Female), Esper Zero (Male)), je 3 Startvorschlägen pro Sprache (DE/EN/RU/JA) und automatischem Hintergrund-Download.
 - [x] Individuelles, hochwertiges Anime-Keyvisual als Titelbild `presets/neverness-to-everness/cover.webp` (960×540 WebP) und Metropolen-Szenenhintergrund `presets/neverness-to-everness/backgrounds/nte_hethereau_city.webp` (1376×768 WebP) generiert; Promptnachweis in `cover_prompt.json`.
 - [x] Vollständige Inhaltsvalidierung und Registry-Synchronisation bestanden: 0 Fehler, 0 Warnungen. Veröffentlichung als Kampagnenpaket auf main.
+
+
+## NTE – neues Sammlungsbild (01.11.2026)
++
++- [x] Vierfiguren-Keyvisual mit Nanally, Mint, Iroi und Esper Zero (weiblich) aus vorhandenen Porträtreferenzen erzeugt und visuell geprüft; 960×540 WebP, Gesichtszüge und Kostümdetails deutlicher.
++- [x] Promptnachweis mit Vorgängerfassung erhalten; Sammlungsrevision erhöht. Bestehender Stage-Hintergrund und Karten unverändert.
++
