@@ -116,7 +116,7 @@ Neue Szenen/Lorebooks nach einem bestehenden vollständigen Beispiel desselben P
   `slice_of_life`, `comedy`, `romance`, `mystery`, `scifi`, `horror`), `minutes` (typische Spieldauer), `difficulty`
   (`easy`/`medium`/`hard`), `notes` (Inhaltshinweise: `mild_danger`, `mild_violence`, `action`, `spooky`, `suspense`,
   `flirting`, `romance`, `dark_themes`, `death`), `beginner` (für Einsteiger empfohlen, z. B. erste Episode) und `choices` =
-  je Sprache (`de`, `en`, `ru`) drei Startvorschläge `{text, badge, action_type}` (`action_type` `say`/`do`, `badge`
+  je Sprache (`de`, `en`, `ru`, `ja`) drei Startvorschläge `{text, badge, action_type}` (`action_type` `say`/`do`, `badge`
   optional eine Fertigkeit wie „Wahrnehmung“).
 - Veraltet und zu entfernen: `conversation_method` (die App wählt das Modell selbst).
 
@@ -156,7 +156,7 @@ zeigt die App in der Rückfallsprache.
 
 - Die App lädt beim Start `ui_registry.json` und jede gelistete Sprache, deren `version` sich gegenüber dem letzten Download
   geändert hat (nach `<Daten>/locales/ui-hub/`); nicht mehr gelistete Sprachen entfernt sie wieder.
-- Eine Sprache, die die App selbst mitbringt (`de`, `en`, `ru`), übernimmt die Datei von hier nur bei **höherer** `version`
+- Eine Sprache, die die App selbst mitbringt (`de`, `en`, `ru`, `ja`), übernimmt die Datei von hier nur bei **höherer** `version`
   als die mitgelieferte – so lassen sich Texte zwischen Releases korrigieren, ohne neue Schlüssel älterer Kopien zu verlieren.
 - Neue Sprache oder Korrektur: Datei anlegen/ändern, `__meta.version` erhöhen und denselben Wert in `ui_registry.json` eintragen
   (`id`, `name`, `english_name`, `version`). Eigene Dateien der Nutzer (`<Daten>/locales/ui/`) haben immer Vorrang.

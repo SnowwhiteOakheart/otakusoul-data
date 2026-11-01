@@ -51,7 +51,7 @@ Dieses Repository ist die offizielle Datenablage für [OtakuSoul](https://github
 - 📖 **Welten-Lorebooks:** Schlüsselwort- und Spannungs-gesteuerte Wissensdatenbanken für dynamische KI-Kontextinjektion.
 - 🎨 **Szenenhintergründe & Avatare:** Stimmige 16:9-Umgebungsbilder und optionale VRM-Modellhinweise.
 - 🌐 **Oberflächensprachen der App:** `locales/ui/` liefert Übersetzungen von Menüs, Knöpfen und Meldungen; neue Sprachen erscheinen in OtakuSoul ohne App-Update.
-- 🌍 **Vollständige Dreisprachigkeit:** Alle nutzerseitigen Texte, Begrüßungen, Dialogbeispiele und Szenen werden in **Deutsch (DE)**, **Englisch (EN)** und **Russisch (RU)** gepflegt.
+- 🌍 **Vollständige Viersprachigkeit:** Alle nutzerseitigen Texte, Begrüßungen, Dialogbeispiele, Szenen und Lorebooks werden in **Deutsch (DE)**, **Englisch (EN)**, **Russisch (RU)** und **Japanisch (JA)** gepflegt.
 
 > 💡 **Schnellübersicht gesucht?**
 > - Eine vollständige, tokensparende Übersicht aller 72 Figuren, 62 Stages und 34 Lorebooks bietet [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
@@ -75,7 +75,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 #### 🛠️ Wie reiche ich neue Inhalte ein? (Schritt-für-Schritt)
 1. **Forken:** Forke das Repository auf GitHub und klone deinen Fork lokal.
 2. **Preset-Ordner anlegen:** Erstelle unter `presets/<dein-paket>/` einen neuen Ordner (`kebab-case`).
-3. **Charaktere erstellen:** Lege Character Card V2 JSON- und PNG-Dateien an (mit Pflichtfeldern, mind. 2 Begrüßungen, 3 Beispieldialogen und DE/EN/RU-Übersetzungen laut [AI.md](AI.md)).
+3. **Charaktere erstellen:** Lege Character Card V2 JSON- und PNG-Dateien an (mit Pflichtfeldern, mind. 2 Begrüßungen, 3 Beispieldialogen und DE/EN/RU/JA-Übersetzungen laut [AI.md](AI.md)).
 4. **Bilder bereitstellen:** Hauptporträt als 700×937 PNG, Expressions als 640×800 WebP unter `presets/<dein-paket>/expressions/<figur>/` – mindestens die sechs Basisstimmungen, für neue vollständige Serien alle 15 Bildslots (die vier Romance-Schlüssel nur als nichtsexuelle Varianten, siehe [AI.md](AI.md)).
 5. **Validieren:** Führe den integrierten Validator aus:
    ```sh
@@ -105,7 +105,7 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 | [`ROADMAP.md`](ROADMAP.md) | Entwicklungs-Roadmap, Qualitätsstandards und Fortschritts-Checkliste |
 | [`AI.md`](AI.md) | Verbindlicher Wegweiser für Dateiformate, Übersetzungen, Validierungen und Git-Abläufe |
 | [`avatars/`](avatars/) | Zusätzliche Avatare (VRM-Hinweise in `avatars/vrm/lizenzen.txt`, Live2D in `avatars/live2d/`) und Bewegungen (`avatars/motions/`, Index `motion_packs_registry.json`); Hub-Kategorie „Avatare“ über `avatars_registry.json` |
-| [`locales/`](locales/) | Spieltexte der App (`de.json`, `ru.json`) und Oberflächensprachen (`ui/`, Index `ui_registry.json`) |
+| [`locales/`](locales/) | Spieltexte der App (`de.json`, `ja.json`, `ru.json`) und Oberflächensprachen (`ui/`, Index `ui_registry.json`) |
 | [`recommended_models.json`](recommended_models.json) | Startmodelle für den App-Einrichtungsassistenten (ohne Login ladbar, Lizenz gekennzeichnet) |
 | [`tools/`](tools/) | Wartungs-, Prüf- und Synchronisationswerkzeuge |
 
@@ -147,7 +147,7 @@ This repository serves as the official content and asset backend for [OtakuSoul]
 - 📖 **World Lorebooks:** Keyword- and tension-driven knowledge bases injected dynamically into the LLM context.
 - 🎨 **Scene Backgrounds & Avatare:** Atmospheric 16:9 widescreen artwork, VRM avatar references and free body motions (VRMA, `motion_packs_registry.json`).
 - 🌐 **App interface languages:** `locales/ui/` provides translations of menus, buttons and messages; new languages appear in OtakuSoul without an app update.
-- 🌍 **Full Trilingual Support:** All character profiles, greetings, dialogue samples, and scenes are maintained in **German (DE)**, **English (EN)**, and **Russian (RU)**.
+- 🌍 **Full Quadrilingual Support:** All character profiles, greetings, dialogue samples, scenes, and lorebooks are maintained in **German (DE)**, **English (EN)**, **Russian (RU)**, and **Japanese (JA)**.
 
 > 💡 **Looking for an overview?**
 > - For a complete, token-saving reference of all 72 characters, 62 stages, and 34 lorebooks, check [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
@@ -171,7 +171,7 @@ To keep the repository safe, high-quality, and legal for all users, please adher
 #### 🛠️ How to Contribute (Step-by-Step)
 1. **Fork:** Fork this repository and clone your fork locally.
 2. **Create Preset Folder:** Create a new folder under `presets/<your-package>/` (`kebab-case`).
-3. **Build Character Cards:** Create Character Card V2 JSON and PNG files (including required fields, 2+ greetings, 3 dialogue examples, and DE/EN/RU translations as specified in [AI.md](AI.md)).
+3. **Build Character Cards:** Create Character Card V2 JSON and PNG files (including required fields, 2+ greetings, 3 dialogue examples, and DE/EN/RU/JA translations as specified in [AI.md](AI.md)).
 4. **Add Artworks:** Provide 700×937 PNG master portraits and 640×800 WebP expressions under `presets/<your-package>/expressions/<char>/` – at least the six base moods, all 15 portrait slots for new complete series (the four romance keys as nonsexual variants only, see [AI.md](AI.md)).
 5. **Validate:** Run the built-in validator:
    ```sh
@@ -224,7 +224,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 - 📖 **Лорбуки миров:** Базы знаний с триггерами по ключевым словам и уровню напряжения для динамической вставки в контекст ИИ.
 - 🎨 **Фоны и аватары:** Атмосферные широкоформатные изображения 16:9, поддержка моделей VRM и свободные движения (VRMA, `motion_packs_registry.json`).
 - 🌐 **Языки интерфейса приложения:** `locales/ui/` содержит переводы меню, кнопок и сообщений; новые языки появляются в OtakuSoul без обновления приложения.
-- 🌍 **Трёхъязычная поддержка:** Все профили, приветствия, примеры диалогов и сцены поддерживаются на **немецком (DE)**, **английском (EN)** и **русском (RU)** языках.
+- 🌍 **Четырёхъязычная поддержка:** Все профили, приветствия, примеры диалогов, сцены и книги знаний поддерживаются на **немецком (DE)**, **английском (EN)**, **русском (RU)** и **японском (JA)** языках.
 
 > 💡 **Быстрый обзор:**
 > - Компактный справочник всех 72 персонажей, 62 сцен и 34 лорбуков: [**CONTENT_INDEX.md**](CONTENT_INDEX.md).
@@ -248,7 +248,7 @@ This repository is an independent, non-commercial fan project. All depicted char
 #### 🛠️ Как предложить свои материалы (Пошагово)
 1. **Форк:** Сделайте форк репозитория на GitHub и клонируйте его локально.
 2. **Папка набора:** Создайте папку `presets/<ваш-набор>/` (`kebab-case`).
-3. **Создайте карточки:** Оформите файлы Character Card V2 JSON и PNG (обязательные поля, 2+ приветствия, 3 примера диалогов и переводы DE/EN/RU согласно [AI.md](AI.md)).
+3. **Создайте карточки:** Оформите файлы Character Card V2 JSON и PNG (обязательные поля, 2+ приветствия, 3 примера диалогов и переводы DE/EN/RU/JA согласно [AI.md](AI.md)).
 4. **Добавьте изображения:** Основной портрет 700×937 PNG и эмоции 640×800 WebP в папке `presets/<ваш-набор>/expressions/<персонаж>/` – минимум шесть базовых настроений, для новых полных серий все 15 слотов (четыре романтических ключа – только в неэротических вариантах, см. [AI.md](AI.md)).
 5. **Валидация:** Запустите встроенный валидатор:
    ```sh
