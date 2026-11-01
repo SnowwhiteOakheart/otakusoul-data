@@ -1,0 +1,405 @@
+{
+  "name": "Overlord – Die Große Gruft von Nazarick",
+  "description": "Die zehn Ebenen der Großen Gruft von Nazarick, die 41 Obersten Wesen, YGGDRASIL-Magie, Welt-Items und die unbekannte Neue Welt.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Die Große Gruft von Nazarick",
+      "key": [
+        "Nazarick",
+        "Gruft",
+        "Gildenbasis",
+        "Ebenen",
+        "Festung"
+      ],
+      "content": "Die Große Gruft von Nazarick ist die uneinnehmbare unterirdische Gildenbasis der Gilde Ainz Ooal Gown. Ursprünglich ein schwerer Dungeon im Online-Rollenspiel YGGDRASIL, wurde sie von den Gildenmitgliedern erobert und in zehn kunstvolle Ebenen ausgebaut: von den Grabkatakomben der oberen Ebenen über den eisigen Gletschersee (Ebene 5) und die vulkanischen Lavafelder (Ebene 7) bis zum prunkvollen Wohnbereich und Thronsaal (Ebene 9 und 10). Die gesamte Festung samt aller Schätze, Fallen, Golems und loyalen NSCs wurde unvermittelt in eine unbekannte Neue Welt transferiert.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Great Tomb of Nazarick",
+              "content": "The Great Tomb of Nazarick is the impregnable subterranean guild stronghold of Ainz Ooal Gown. Originally a brutal dungeon within the DMMO-RPG YGGDRASIL, it was conquered by the guild and heavily fortified into ten distinct floors: spanning the upper catacombs, the sub-zero glacier (Floor 5), the scorching lava hellscapes (Floor 7), up to the opulent Royal Suite and grand Throne Room (Floors 9 and 10). The entire underground complex—including its traps, golems, and custom NPCs—was abruptly transported into an uncharted New World.",
+              "key": [
+                "Nazarick",
+                "Tomb",
+                "Guild Base",
+                "Floors",
+                "Stronghold"
+              ]
+            },
+            "ru": {
+              "name": "Великая гробница Назарик",
+              "content": "Великая гробница Назарик — неприступная подземная база гильдии Айнз Оал Гоун. Изначально сложнейшее подземелье в игре ИГГДРАСИЛЬ, она была захвачена гильдией и обустроена в десять уникальных этажей: от мрачных склепов верхних уровней через ледяной ледник (5-й этаж) и кипящие лавовые реки (7-й этаж) до роскошных чертогов и Тронного зала (9-й и 10-й этажи). Цитадель со всеми ловушками, сокровищами и преданными НИП была внезапно перенесена в неизведанный Новый Мир.",
+              "key": [
+                "Назарик",
+                "Гробница",
+                "База гильдии",
+                "Этажи",
+                "Крепость"
+              ]
+            },
+            "ja": {
+              "name": "ナザリック地下大墳墓",
+              "content": "ギルド「アインズ・ウール・ゴウン」が誇る難攻不落の本拠地。元はDMMO-RPG『ユグドラシル』に存在した高難度ダンジョンであり、ギルドメンバーたちによって攻略・改築され全10階層から構成される。地下墳墓の冷たい回廊から極寒の氷結樹林（第5階層）、灼熱の溶岩地帯（第7階層）、豪華絢爛な宮殿と玉座の間（第9・10階層）に至るまで、配備された防衛機構、トラップ、忠誠を誓うNPCたちごと未知の異世界へと転移した。",
+              "key": [
+                "ナザリック",
+                "ナザリック地下大墳墓",
+                "大墳墓",
+                "階層",
+                "ギルド拠点"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Die Gilde Ainz Ooal Gown & die 41 Obersten Wesen",
+      "key": [
+        "Ainz Ooal Gown",
+        "Oberste Wesen",
+        "Gilde",
+        "Momonga",
+        "Touch Me",
+        "Ulbert",
+        "Schöpfer"
+      ],
+      "content": "Ainz Ooal Gown war eine der legendärsten Gilden YGGDRASILs, bestehend aus genau 41 Mitgliedern. Grundvoraussetzungen für die Aufnahme waren die Wahl einer heteromorphen (nichtmenschlichen/monströsen) Rasse und ein Beruf im realen Leben der dystopischen Erde des 22. Jahrhunderts. Bekannte Mitglieder waren der Paladin Touch Me, der Dämonenmagier Ulbert Alain Odle und Peroroncino. Für die Wächter und Diener Nazaricks sind die '41 Obersten Wesen' allmächtige Schöpfergötter, deren Wille über allem steht. Momonga hütet als letztes verbliebenes Mitglied ihr gemeinsames Erbe.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Guild Ainz Ooal Gown & the 41 Supreme Beings",
+              "content": "Ainz Ooal Gown was one of YGGDRASIL's most infamous top-tier guilds, comprising strictly 41 players. Mandatory membership conditions required playing a heteromorphic (monster) race and being a working professional in real-world 22nd-century dystopian Tokyo. Prominent founders included the noble paladin Touch Me, the disaster-bringer Ulbert Alain Odle, and Peroroncino. To the NPCs of Nazarick, the '41 Supreme Beings' are infallible creator-gods whose benevolence and majesty define existence. Momonga stands as their sole remaining master.",
+              "key": [
+                "Ainz Ooal Gown",
+                "Supreme Beings",
+                "Guild",
+                "Momonga",
+                "Touch Me",
+                "Ulbert",
+                "Creators"
+              ]
+            },
+            "ru": {
+              "name": "Гильдия Айнз Оал Гоун и 41 Высшее Существо",
+              "content": "Айнз Оал Гоун — легендарная гильдия ИГГДРАСИЛЯ, насчитывавшая ровно 41 участника. Строгими правилами вступления были выбор гетероморфной (чудовищной) расы и работа в реальном мире антиутопического Токио XXII века. Среди основателей были благородный паладин Тач Ми, демонический маг Ульберт Ален Одл и Перорончино. Для стражей и слуг Назарика Высшие Существа — непогрешимые боги-создатели. Момонга остался единственным хранителем их общего наследия.",
+              "key": [
+                "Айнз Оал Гоун",
+                "Высшие Существа",
+                "Гильдия",
+                "Момонга",
+                "Тач Ми",
+                "Ульберт",
+                "Создатели"
+              ]
+            },
+            "ja": {
+              "name": "アインズ・ウール・ゴウンと至高の四十一人",
+              "content": "『ユグドラシル』全盛期に名を馳せた少数精鋭のトップギルド。加入条件は「社会人であること」および「異形種キャラクターであること」。盟主モモンガをはじめ、初代クランリーダーのタッチ・ミー、悪魔学者のウルベルト、ペペロンチーノら個性豊かな41名のプレイヤーによって創設された。ナザリックのNPCたちにとって彼ら「至高の四十一人」は絶対の創造主にして崇拝の対象であり、たった一人残ったモモンガはその想いと記憶を一身に背負っている。",
+              "key": [
+                "アインズ・ウール・ゴウン",
+                "至高の四十一人",
+                "ギルド",
+                "モモンガ",
+                "タッチ・ミー",
+                "ウルベルト",
+                "創造主"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Die Neue Welt & das Re-Estize Königreich",
+      "key": [
+        "Neue Welt",
+        "Re-Estize",
+        "Baharuth",
+        "Slane-Theokratie",
+        "Abenteurer",
+        "Wild Magic"
+      ],
+      "content": "Die Neue Welt ist ein weitgehend unerkundetes mittelalterliches Fantasy-Reich mit eigener Geschichte, Religionen und Gefahren. Mächtige Staaten prägen die Region: das von Korruption und Adelstwist zerrüttete Re-Estize-Königreich, das straff geführte Baharuth-Kaiserreich unter dem 'Blutkaiser' Jircniv und die menschenzentrierte, rassistische Slane-Theokratie. Die hiesigen Wesen schätzen Magie bis Rang 3 als bemerkenswert und Rang 6 als mythisch ein, völlig unvorbereitet auf die schiere Übermacht der Stufe-100-Wesen aus Nazarick. Ainz bewegt sich vorsichtig, stets auf der Hut vor verborgenen Spielern.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The New World & Re-Estize Kingdom",
+              "content": "The New World is an uncharted continental expanse governed by native kingdoms, feudal politics, and primordial magics. Key neighboring realms include the stagnating, corrupt Re-Estize Kingdom, the disciplined Baharuth Empire ruled by the shrewd young Emperor Jircniv, and the fanatically human-supremacist Slane Theocracy. Native inhabitants revere Tier 3 magic as elite and Tier 6 as mythical, leaving them hopelessly dwarfed by Nazarick's level 100 apex predators. Ainz expands his influence with calculated paranoia, searching for clues of fellow players.",
+              "key": [
+                "New World",
+                "Re-Estize",
+                "Baharuth",
+                "Slane Theocracy",
+                "Adventurers",
+                "Wild Magic"
+              ]
+            },
+            "ru": {
+              "name": "Новый Мир и Королевство Ре-Эстиз",
+              "content": "Новый Мир — неизведанный материк со своими королевствами, интригами и древними тайнами. Основными державами являются угасающее и погрязшее в коррупции Королевство Ре-Эстиз, милитаризованная Империя Бахарут во главе с молодым императором Зиркнифом и религиозная Слейновская Теократия. Местные жители считают магию 3-го ранга элитной, а 6-й ранг — уделом полубогов, оказываясь совершенно беспомощными перед монстрами 100-го уровня из Назарика.",
+              "key": [
+                "Новый Мир",
+                "Ре-Эстиз",
+                "Бахарут",
+                "Слейновская Теократия",
+                "Авантюристы",
+                "Дикая магия"
+              ]
+            },
+            "ja": {
+              "name": "未知なる新世界とリ・エスティーゼ王国",
+              "content": "ナザリックが転移した先の中世風ファンタジー世界。近隣には貴族派と王族派の派閥争いに揺れるリ・エスティーゼ王国、若き鮮血帝ジルクニフ率いる中央集権的なバハルス帝国、人間至上主義を掲げる宗教国家スレイン法国などが存在する。この世界の住人は第3位階魔法で達人、第6位階で英雄級と見なしており、レベル100を誇るナザリックの圧倒的武威とは隔絶した隔たりがある。アインズは他のプレイヤーの存在を警戒し、慎重に情報収集を進めている。",
+              "key": [
+                "新世界",
+                "リ・エスティーゼ王国",
+                "バハルス帝国",
+                "スレイン法国",
+                "冒険者",
+                "原始魔法"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "YGGDRASIL-Magie & Welt-Items",
+      "key": [
+        "YGGDRASIL",
+        "Rangmagie",
+        "Tier-Magie",
+        "Welt-Item",
+        "World Item",
+        "Super-Tier",
+        "Magie"
+      ],
+      "content": "Das Magiesystem von YGGDRASIL umfasst über 6.000 Zauber, aufgeteilt in zehn Ränge (Tiers) sowie die jenseits aller Ränge stehende Übermagie (Super-Tier). Letztere verbraucht kein Mana, besitzt aber lange Zauberzeiten und tägliche Abklingzeiten (wie Ainz' 'Fallen Down' oder das Beschwören der Finsteren Jungen über 'Ia Shub-Niggurath'). Die mächtigsten aller Artefakte sind die 200 Welt-Items (World Items), die das Regelwerk des Universums beugen können. Nazarick besitzt 11 dieser Schätze; ihr Besitz verleiht absolute Immunität gegen fremde Welt-Items.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "YGGDRASIL Magic & World Items",
+              "content": "YGGDRASIL's exhaustive magic system comprises over 6,000 unique spells structured into ten tiers, crowned by transcendental Super-Tier Magic. Super-Tier spells cost zero mana but demand extensive casting rituals and shared cooldowns (such as 'Fallen Down' or 'Ia Shub-Niggurath'). At the pinnacle of the cosmic hierarchy sit the 200 World Items, capable of rewriting physical laws. Nazarick controls an unprecedented hoard of 11 World Items, which grant absolute passive immunity against all opposing World Item effects.",
+              "key": [
+                "YGGDRASIL",
+                "Tier Magic",
+                "World Item",
+                "Super-Tier",
+                "Spells",
+                "Artifacts"
+              ]
+            },
+            "ru": {
+              "name": "Магия ИГГДРАСИЛЯ и Мировые Предметы",
+              "content": "Магическая система ИГГДРАСИЛЯ насчитывает свыше 6000 заклинаний, разделенных на 10 рангов, и сверхрасширенную Сверхранговую магию. Сверхранговые чары не требуют маны, но имеют долгое время подготовки и дневной откат (например, 'Падение с небес' или 'Иа Шуб-Ниггурат'). Вершиной творения служат 200 Мировых Предметов (World Items), способных менять ткань реальности. Назарик владеет 11 такими артефактами, дарующими абсолютную защиту от чужих Мировых Предметов.",
+              "key": [
+                "ИГГДРАСИЛЬ",
+                "Ранговая магия",
+                "Мировой Предмет",
+                "Сверхранговая магия",
+                "Заклинания"
+              ]
+            },
+            "ja": {
+              "name": "ユグドラシル魔法と世界級（ワールド）アイテム",
+              "content": "『ユグドラシル』に存在した6,000種以上の魔法体系。第1位階から第10位階に体系化され、その頂点にはMPを消費せず専用の発動待機時間を要する「超位魔法」（『フォールン・ダウン』や『イア・シュブニグラス』など）が君臨する。さらに全サーバーで200個しか存在しない「世界級（ワールド）アイテム」は、ゲームのルールそのものを改変する絶対的な力を秘める。ナザリックは全ギルド最多の11個を保有しており、これを所持することで他者の世界級アイテムの効果を完全に無効化できる。",
+              "key": [
+                "ユグドラシル",
+                "位階魔法",
+                "超位魔法",
+                "世界級アイテム",
+                "ワールドアイテム",
+                "魔法体系"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Die Wächter der Ebenen (Floor Guardians)",
+      "key": [
+        "Wächter",
+        "Floor Guardian",
+        "Demiurge",
+        "Cocytus",
+        "Aura",
+        "Mare",
+        "Gargantua",
+        "Victim",
+        "Loyalität"
+      ],
+      "content": "Die Ebenenwächter sind die ranghöchsten Befehlshaber und Elitekämpfer Nazaricks, die von den 41 Obersten Wesen als Wächter ihrer jeweiligen Territorien erschaffen wurden. Neben Albedo (Oberaufseherin) und Shalltear (Ebenen 1–3) gehören dazu: der geniale Teufelsstratege Demiurge (Ebene 7), der stoische vierarmige Insektenkrieger Cocytus (Ebene 5), die muntere Bestienzähmerin Aura und ihr schüchterner magiebegabter Zwillingsbruder Mare Bella Fiora (Ebene 6), der Belagerungsgolem Gargantua (Ebene 4) und der opferbereite Engel Victim (Ebene 8). Ihre Loyalität gegenüber Ainz ist makellos und ewig.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Floor Guardians",
+              "content": "The Floor Guardians represent the supreme command tier and ultimate battle power of Nazarick, meticulously crafted by the 41 Supreme Beings to rule their respective floors. Under Overseer Albedo and Shalltear (Floors 1–3), they comprise: the demonic mastermind Demiurge (Floor 7), the honorable insectoid warrior Cocytus (Floor 5), the energetic beast tamer Aura and her shy druidic twin brother Mare Bella Fiora (Floor 6), the mindless siege titan Gargantua (Floor 4), and the sacrificial angel Victim (Floor 8). Their fealty to Ainz is infinite and unbreakable.",
+              "key": [
+                "Guardians",
+                "Floor Guardian",
+                "Demiurge",
+                "Cocytus",
+                "Aura",
+                "Mare",
+                "Gargantua",
+                "Victim",
+                "Loyalty"
+              ]
+            },
+            "ru": {
+              "name": "Стражи этажей",
+              "content": "Стражи этажей — высшие военачальники и сильнейшие защитники Назарика, созданные Высшими Существами. Помимо Альбедо (Смотрителя) и Шалтир (1–3 этажи), в их число входят: гениальный демон-стратег Демиург (7-й этаж), благородный четырехрукий воин Коцит (5-й этаж), жизнерадостная укротительница Аура и ее застенчивый брат-друид Маре Белла Фиора (6-й этаж), колоссальный осадный голем Гаргантюа (4-й этаж) и ангел Виктим (8-й этаж). Их преданность Айнзу безгранична.",
+              "key": [
+                "Стражи",
+                "Стражи этажей",
+                "Демиург",
+                "Коцит",
+                "Аура",
+                "Маре",
+                "Гаргантюа",
+                "Виктим",
+                "Преданность"
+              ]
+            },
+            "ja": {
+              "name": "ナザリック階層守護者たち",
+              "content": "至高の四十一人によって創造された、ナザリック地下大墳墓の各階層を統括する最高峰のNPCたち。守護者統括アルベド、第1〜3階層守護者シャルティアに加え、冷酷無比な知略を巡らす悪魔デミウルゴス（第7階層）、武人の誇りを重んじる昆虫戦士コキュートス（第5階層）、天真爛漫な魔獣使いアウラと気弱な大土精術師マーレのダークエルフ姉弟（第6階層）、超巨大自律ゴーレムのガルガンチュア（第4階層）、身を捧げて大規模拘束を発動する胎児天使ヴィクティム（第8階層）がいる。全員がアインズに命を捧げる絶対忠誠を誓っている。",
+              "key": [
+                "階層守護者",
+                "守護者",
+                "デミウルゴス",
+                "コキュートス",
+                "アウラ",
+                "マーレ",
+                "ガルガンチュア",
+                "ヴィクティム",
+                "忠誠"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Die Plejaden & das Hauspersonal",
+      "key": [
+        "Plejaden",
+        "Pleiades",
+        "Kampfdienstmädchen",
+        "Sebas Tian",
+        "Yuri Alpha",
+        "Lupusregina",
+        "Narberal",
+        "CZ2128",
+        "Solution",
+        "Entoma"
+      ],
+      "content": "Die 'Pleiades Six Stars' sind ein sechsköpfiges Spezialkommando von Kampfdienstmädchen unter der Aufsicht des ehrenhaften Chefoberkellners Sebas Tian auf der neunten Ebene. Sie dienen als letzte Schutzlinie vor dem Thronsaal sowie als Vorhut bei Operationen in der Außenwelt: Yuri Alpha (besonnene Zombie-Nahkämpferin), Lupusregina Beta (sanguinische Werwolf-Klerikerin), Narberal Gamma (stolze Doppelgänger-Elementarmagierin), CZ2128 Delta (schweigsame Automaton-Schützin), Solution Epsilon (tödliche Raubschleim-Assassinin) und Entoma Vasilissa Zeta (insektoide Puppenspielerin).",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Pleiades Battle Maids",
+              "content": "The 'Pleiades Six Stars' form Nazarick's specialized combat maid squad, supervised by head butler Sebas Tian on the Ninth Floor. Serving as the vanguard in the outside world and the final security line before the Throne Room, they consist of: Yuri Alpha (composed dullahan/zombie brawler), Lupusregina Beta (cheerful sadistic werewolf cleric), Narberal Gamma (aloof doppelgänger battle mage), CZ2128 Delta (taciturn automaton gunner), Solution Epsilon (deceptive predatory slime assassin), and Entoma Vasilissa Zeta (insectoid arachne talisman-weaver).",
+              "key": [
+                "Pleiades",
+                "Battle Maids",
+                "Sebas Tian",
+                "Yuri Alpha",
+                "Lupusregina",
+                "Narberal",
+                "CZ2128",
+                "Solution",
+                "Entoma"
+              ]
+            },
+            "ru": {
+              "name": "Боевые горничные Плеяды",
+              "content": "'Шесть звезд Плеяд' — элитный отряд боевых горничных под руководством благородного дворецкого Себаса Тиана на девятом этаже. Они охраняют подступы к Тронному залу и выполняют секретные миссии на поверхности: Юрий Альфа (зомби-рукопашница), Люпусрегина Бета (садистичный вервольф-жрица), Нарберал Гамма (доппельгангер-маг молний), Сидзу Дельта (автоматон-снайпер), Солюшн Эпсилон (хищная слизь-убийца) и Энтома Василиса Дзета (инсектоид-заклинательница).",
+              "key": [
+                "Плеяды",
+                "Боевые горничные",
+                "Себас Тиан",
+                "Юрий Альфа",
+                "Люпусрегина",
+                "Нарберал",
+                "Сидзу",
+                "Солюшн",
+                "Энтома"
+              ]
+            },
+            "ja": {
+              "name": "戦闘メイド隊『プレアデス』",
+              "content": "第9階層の警護および地上任務を担当する、執事長セバス・チャン直属の戦闘メイド部隊「六連星（プレアデス）」。玉座の間に至る最終防衛線を担う異形種メイドたち：生真面目なゾンビ格闘家ユリ・アルファ、残虐な笑みを隠す人狼神官ルプスレギナ・ベータ、人間を見下す二重影（ドッペルゲンガー）電撃魔導師ナーベラル・ガンマ、無表情な魔導銃士CZ2128・デルタ、人間を溶かして捕食する不定形粘菌（スライム）暗殺者ソリュシャン・イプシロン、蟲を操る符術師エントマ・ヴァシリッサ・ゼータからなる。",
+              "key": [
+                "プレアデス",
+                "戦闘メイド",
+                "セバス・チャン",
+                "ユリ・アルファ",
+                "ルプスレギナ",
+                "ナーベラル",
+                "シズ",
+                "ソリュシャン",
+                "エントマ"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Overlord – The Great Tomb of Nazarick",
+          "description": "The ten floors of the Great Tomb of Nazarick, the 41 Supreme Beings, YGGDRASIL magic, World Items, and the unknown New World."
+        },
+        "ru": {
+          "name": "Overlord – Великая гробница Назарик",
+          "description": "Десять этажей Великой гробницы Назарик, 41 Высшее Существо, магия ИГГДРАСИЛЯ, Мировые Предметы и неизведанный Новый Мир."
+        },
+        "ja": {
+          "name": "オーバーロード ― ナザリック地下大墳墓",
+          "description": "ナザリック地下大墳墓の全10階層、41人の至高の四十一人、ユグドラシル魔法、世界級アイテム、そして未知の新世界。"
+        }
+      }
+    }
+  }
+}

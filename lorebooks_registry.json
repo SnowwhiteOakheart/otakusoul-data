@@ -678,6 +678,52 @@
           "name": "Re:Zero – Поместье Розвааля и Святилище"
         }
       }
+    },
+    {
+      "name": "Overlord – Die Große Gruft von Nazarick",
+      "author": "SnowwhiteOakheart",
+      "description": "Die zehn Ebenen der Großen Gruft von Nazarick, die 41 Obersten Wesen, YGGDRASIL-Magie, Welt-Items und die unbekannte Neue Welt.",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/overlord_nazarick_world.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "The ten floors of the Great Tomb of Nazarick, the 41 Supreme Beings, YGGDRASIL magic, World Items, and the unknown New World.",
+          "name": "Overlord – The Great Tomb of Nazarick"
+        },
+        "ja": {
+          "description": "ナザリック地下大墳墓の全10階層、41人の至高の四十一人、ユグドラシル魔法、世界級アイテム、そして未知の新世界。",
+          "name": "オーバーロード ― ナザリック地下大墳墓"
+        },
+        "ru": {
+          "description": "Десять этажей Великой гробницы Назарик, 41 Высшее Существо, магия ИГГДРАСИЛЯ, Мировые Предметы и неизведанный Новый Мир.",
+          "name": "Overlord – Великая гробница Назарик"
+        }
+      }
+    },
+    {
+      "name": "Overlord – Herrscher & Wächter",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Herrscherpersönlichkeit von Ainz Ooal Gown, Albedos administrative Macht und Shalltears vampirische Kampfkraft im Dienst von Nazarick.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/overlord_supreme_guardians.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "The dual persona of Ainz Ooal Gown, Albedo's administrative authority, and Shalltear's vampiric martial prowess in service to Nazarick.",
+          "name": "Overlord – Supreme Being & Guardians"
+        },
+        "ja": {
+          "description": "アインズ・ウール・ゴウンの支配者としての仮面と内面、アルベドの統括権限、そしてシャルティアの吸血鬼としての圧倒的武威。",
+          "name": "オーバーロード ― 至高の支配者と守護者"
+        },
+        "ru": {
+          "description": "Двойственная натура Айнза Оал Гоуна, административная власть Альбедо и вампирская мощь Шалтир на службе Назарика.",
+          "name": "Overlord – Владыка и Стражи"
+        }
+      }
     }
   ]
 }

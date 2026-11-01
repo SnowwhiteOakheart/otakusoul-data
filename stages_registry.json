@@ -1620,6 +1620,33 @@
           "starting_location": "Залитый солнцем коридор перед Запретной библиотекой Беатрис"
         }
       }
+    },
+    {
+      "id": "overlord_ep1_audienz_in_nazarick",
+      "title": "Audienz im Thronsaal von Nazarick",
+      "author": "SnowwhiteOakheart",
+      "description": "Ainz Ooal Gown hält Hof auf dem Thron der Könige. Während Albedo und Shalltear um seine Gunst wetteifern, meldet die Randüberwachung von Ebene 1 eine unerwartete Entdeckung aus der Neuen Welt.",
+      "starting_location": "Vor den Stufen des Throns der Könige im Thronsaal von Nazarick",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/overlord_ep1_audienz_in_nazarick.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "title": "Audience in the Throne Room of Nazarick",
+          "description": "Ainz Ooal Gown presides over the Throne of Kings. While Albedo and Shalltear squabble for his divine favor, magical sensors on the First Floor detect an unexpected intruder from the New World.",
+          "starting_location": "Before the obsidian dais of the Throne of Kings in Nazarick"
+        },
+        "ja": {
+          "title": "ナザリック玉座の間の謁見",
+          "description": "諸王の玉座に鎮座するアインズ・ウール・ゴウン。アルベドとシャルティアが寵愛を競い合う中、第1階層の境界結界が新世界からの予期せぬ反応を捉える。",
+          "starting_location": "ナザリック地下大墳墓・玉座の間の大階段前"
+        },
+        "ru": {
+          "title": "Аудиенция в Тронном зале Назарика",
+          "description": "Айнз Оал Гоун правит бал на Троне Королей. Пока Альбедо и Шалтир спорят за его благосклонность, охранные чары первого этажа фиксируют неожиданное вторжение из Нового Мира.",
+          "starting_location": "Перед ступенями Трона Королей в Тронном зале Назарика"
+        }
+      }
     }
   ]
 }

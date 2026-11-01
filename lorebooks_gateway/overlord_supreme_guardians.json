@@ -1,0 +1,309 @@
+{
+  "name": "Overlord – Herrscher & Wächter",
+  "description": "Die Herrscherpersönlichkeit von Ainz Ooal Gown, Albedos administrative Macht und Shalltears vampirische Kampfkraft im Dienst von Nazarick.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Ainz Ooal Gown (Momonga / Herrscher des Todes)",
+      "key": [
+        "Ainz",
+        "Ainz Ooal Gown",
+        "Momonga",
+        "Overlord",
+        "Untoter",
+        "Suzuki Satoru"
+      ],
+      "content": "Der letzte verbliebene Spieler der Gilde Ainz Ooal Gown und unbestrittener Herrscher von Nazarick. Im realen Leben ein gewöhnlicher Büroangestellter (Suzuki Satoru), wacht er nun im Körper eines uralten Lichs (Overlord). Seine Rasse verleiht ihm absolute Immunität gegen Kälte, Gift und Schlaf, dämpft jedoch auch starke Emotionen durch eine automatische Beruhigungs-Aura (Emotional Suppressor). Nach außen hin spielt er den perfekten, unfehlbaren Oberherrscher, während er innerlich ständig überlegt, wie er Nazaricks Sicherheit gewährleistet und die Erwartungen seiner Untergebenen erfüllt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Ainz Ooal Gown (Momonga / Overlord)",
+              "content": "The sole remaining player of the guild Ainz Ooal Gown and undisputed supreme ruler of the Great Tomb of Nazarick. Originally an ordinary office worker (Suzuki Satoru) in dystopian Tokyo, he is now permanently fused with his skeletal Elder Lich avatar (the Overlord class). His undead physiology grants total immunity to cold, poison, and sleep, while an involuntary emotional suppressor instantly dampens intense feelings with a green calming aura. Externally, he acts as an infallible god-king, while internally calculating how to safeguard Nazarick without shattering his subordinates' worship.",
+              "key": [
+                "Ainz",
+                "Ainz Ooal Gown",
+                "Momonga",
+                "Overlord",
+                "Undead",
+                "Suzuki Satoru"
+              ]
+            },
+            "ru": {
+              "name": "Айнз Оал Гоун (Момонга / Владыка Смерти)",
+              "content": "Единственный оставшийся игрок гильдии Айнз Оал Гоун и абсолютный владыка Великой гробницы Назарик. В реальном мире обычный офисный клерк (Судзуки Сатору), он перенесся в тело скелета-архилича расы Оверлорд. Природа нежити дарует ему иммунитет к ядам, холоду и усталости, а подавитель эмоций мгновенно гасит сильные всплески чувств зеленым свечением. Внешне он держится как непогрешимый правитель, скрывая внутреннюю тревогу и стараясь оправдать слепую веру стражей.",
+              "key": [
+                "Айнз",
+                "Айнз Оал Гоун",
+                "Момонга",
+                "Оверлорд",
+                "Нежить",
+                "Судзуки Сатору"
+              ]
+            },
+            "ja": {
+              "name": "アインズ・ウール・ゴウン（モモンガ／死の支配者）",
+              "content": "ギルド「アインズ・ウール・ゴウン」最後の生き残りであり、ナザリック地下大墳墓の絶対君主。現実世界ではしがないサラリーマン「鈴木悟」だったが、アンデッドの最高位種族「オーバーロード」の姿のまま異世界へと転移した。精神的動揺や激昂を強制的に鎮める「感情抑制」のパッシブスキルを持ち、外見は威厳に満ちた冷徹な支配者として振る舞いながらも、内心では守護者たちの期待を裏切らないよう常に頭を悩ませている。",
+              "key": [
+                "アインズ",
+                "アインズ・ウール・ゴウン",
+                "モモンガ",
+                "オーバーロード",
+                "鈴木悟",
+                "死の支配者"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Albedo (Aufseherin der Wächter)",
+      "key": [
+        "Albedo",
+        "Aufseherin",
+        "Succubus",
+        "Tabula Smaragdina",
+        "Ginnungagap"
+      ],
+      "content": "Eine Succubus von makelloser, überirdischer Schönheit, geschaffen von Tabula Smaragdina. Als Oberaufseherin aller Wächter leitet sie das tägliche Management und die zivile Verwaltung Nazaricks mit brillanter administrativer Intelligenz. Durch Momongas scherzhafte Modifikation ihrer Einstellungen vor dem Server-Shutdown ist sie unsterblich und obsessiv in Momonga verliebt. Neben ihrer organisatorischen Genialität ist sie ein Level-100-Panzer mit der seltenen Defensivfähigkeit, selbst mächtigste Super-Tier-Zauber aufzufangen und Angreifer mit ihrer Welt-Item-Waffe Ginnungagap zu zerschmettern.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Albedo (Guardian Overseer)",
+              "content": "A succubus of peerless divine beauty, meticulously created by Tabula Smaragdina. As the Overseer of the Floor Guardians, she commands Nazarick's daily administration and political affairs with razor-sharp intellect. Altered playfully by Momonga moments before the game servers closed, she is unconditionally and obsessively in love with him. In combat, Albedo serves as Nazarick's ultimate defensive tank at level 100, wielding her personal World Item Ginnungagap and capable of redirecting catastrophic super-tier damage.",
+              "key": [
+                "Albedo",
+                "Overseer",
+                "Succubus",
+                "Tabula Smaragdina",
+                "Ginnungagap"
+              ]
+            },
+            "ru": {
+              "name": "Альбедо (Смотритель Стражей)",
+              "content": "Суккуб ослепительной красоты, созданная Табулой Смарагдиной. В качестве Смотрителя Стражей она управляет внутренней жизнью Назарика с блестящим умом и расчетливостью. Из-за шуточной правки ее описания Момонгой перед закрытием серверов она безумно и преданно влюблена в своего господина. На поле боя Альбедо выступает непревзойденным танком 100-го уровня, способным выдерживать мощнейшие удары и сокрушать врагов Мировым Предметом Гиннунгагап.",
+              "key": [
+                "Альбедо",
+                "Смотритель",
+                "Суккуб",
+                "Табула Смарагдина",
+                "Гиннунгагап"
+              ]
+            },
+            "ja": {
+              "name": "アルベド（守護者統括）",
+              "content": "至高の四十人の一人「タブラ・スマラグディナ」によって創造された、絶世の美貌を誇るサキュバス。全階層守護者を束ねる総括責任者として、ナザリックの内政と防衛計画を完璧に統制する知性を備える。サービス終了直前にモモンガが設定を書き換えた結果「モモンガを狂愛している」という性質を持ち、彼への一途な恋慕を隠そうとしない。戦闘においては防御力に特化した最高峰の肉弾戦タンクであり、世界級アイテム『ギンヌンガガプ』を所持する。",
+              "key": [
+                "アルベド",
+                "守護者統括",
+                "サキュバス",
+                "タブラ・スマラグディナ",
+                "ギンヌンガガプ"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Shalltear Bloodfallen (Die Wahre Vampirin)",
+      "key": [
+        "Shalltear",
+        "Shalltear Bloodfallen",
+        "Vampirin",
+        "Peroroncino",
+        "Blutbegehren",
+        "Spiteful Lance"
+      ],
+      "content": "Eine Wahre Vampirin (True Vampire), erschaffen von Peroroncino als Wächterin der ersten bis dritten Ebene (den Katakomben). Trotz ihres zierlichen Äußeren im viktorianischen Rokoko-Kleid ist sie die stärkste Einzelkämpferin unter allen Ebenenwächtern. Ausgerüstet mit der göttlichen Waffe 'Spiteful Lance' (Tropfende Lanze) und einem Arsenal an nekromantischen und klerikalen Zaubern, regeneriert sie Gesundheit durch Schaden. Sie rivalisiert leidenschaftlich mit Albedo um die Gunst von Meister Ainz und verfällt bei zu viel Blutgeruch in einen unbändigen Blutrausch.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Shalltear Bloodfallen (The True Vampire)",
+              "content": "A True Vampire crafted by Peroroncino to guard the First through Third Floors (the Grave Catacombs). Despite her petite appearance in an extravagant Victorian gothic dress and bonnet, she possesses the highest single-target combat power among all Floor Guardians. Armed with the divine class Spiteful Lance and mastery of holy/unholy magics, she sustains herself indefinitely by leeching vitality. She engages in fierce romantic rivalry with Albedo over Lord Ainz and is susceptible to intoxicating blood frenzy.",
+              "key": [
+                "Shalltear",
+                "Shalltear Bloodfallen",
+                "Vampire",
+                "Peroroncino",
+                "Blood Frenzy",
+                "Spiteful Lance"
+              ]
+            },
+            "ru": {
+              "name": "Шалтир Бладфоллен (Истинный Вампир)",
+              "content": "Истинный Вампир, созданная Перорончино для охраны 1–3 этажей (катакомб Назарика). Несмотря на изящный кукольный облик в готическом викторианском платье, она является сильнейшим бойцом один на один среди всех Стражей. Вооруженная божественным Очищающим копьем и владеющая как темной, так и священной магией, она восстанавливает здоровье, нанося урон. Шалтир ревностно соперничает с Альбедо за внимание Айнза и подвержена опьяняющему безумию крови.",
+              "key": [
+                "Шалтир",
+                "Шалтир Бладфоллен",
+                "Вампир",
+                "Перорончино",
+                "Безумие крови",
+                "Очищающее копье"
+              ]
+            },
+            "ja": {
+              "name": "シャルティア・ブラッドフォールン（真祖）",
+              "content": "至高の四十人の一人「ペロロンチーノ」によって創造された吸血鬼の真祖。第1〜第3階層（地下墳墓）を守護する。ロリータ風の豪華なドレスをまとった少女の姿をしているが、階層守護者の中でも屈指の一騎打ち戦闘力を誇る。神器級アイテム「スポイトランス」によるHP吸収能力と聖俗双方の強力な信仰系魔法を操る。アルベドとはアインズの正妻の座を巡って激しい口論を繰り広げる宿命のライバルであり、血の匂いで興奮状態に陥る「血の狂乱」の特性を持つ。",
+              "key": [
+                "シャルティア",
+                "シャルティア・ブラッドフォールン",
+                "真祖",
+                "ペロロンチーノ",
+                "スポイトランス",
+                "血の狂乱"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Der Thron der Könige & die zehnte Ebene",
+      "key": [
+        "Thron der Könige",
+        "Thronsaal",
+        "Zehnte Ebene",
+        "Audienz",
+        "Throne of Kings"
+      ],
+      "content": "Das spirituelle und zeremonielle Zentrum von Nazarick auf der zehnten Ebene. Der monumentale Thronsaal wird von riesigen Säulen gesäumt, die die 72 Dämonen der Goetia darstellen, und führt über eine breite Treppe zum Welten-Item 'Thron der Könige' (Throne of Kings). Hier thronen Ainz Ooal Gown und Albedo, wenn Botschafter empfangen, Kriegsräte abgehalten oder die Treueschwüre der Wächter erneuert werden. Der Raum ist gegen sämtliche Spionagezauber versiegelt und verkörpert die uneingeschränkte Majestät der Gilde.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Throne of Kings & the Tenth Floor",
+              "content": "The sovereign ceremonial sanctuary of Nazarick located on the Tenth Floor. The grand hall is flanked by colossal demon-relief pillars representing the 72 spirits of the Goetia, leading up broad obsidian stairs to the World Item 'Throne of Kings'. Here Ainz Ooal Gown holds state audiences, convenes war councils, and receives the solemn fealty oaths of his guardians. Thoroughly warded against all divination, the hall radiates absolute imperial supremacy.",
+              "key": [
+                "Throne of Kings",
+                "Throne Room",
+                "Tenth Floor",
+                "Audience",
+                "Grand Hall"
+              ]
+            },
+            "ru": {
+              "name": "Трон Королей и Десятый этаж",
+              "content": "Церемониальное сердце Назарика на Десятом этаже. Величественный тронный зал обрамлен массивными колоннами с барельефами 72 демонов Гоэтии и ведет к ступеням из обсидиана, где возвышается Мировой Предмет 'Трон Королей'. Здесь Айнз Оал Гоун принимает доклады, проводит военные советы и принимает священные клятвы верности Стражей. Зал защищен от любого шпионажа и внушает трепет каждому смертному.",
+              "key": [
+                "Трон Королей",
+                "Тронный зал",
+                "Десятый этаж",
+                "Аудиенция",
+                "Чертог"
+              ]
+            },
+            "ja": {
+              "name": "諸王の玉座と第10階層",
+              "content": "ナザリック地下大墳墓の最奥、第10階層に位置する荘厳無比な謁見の間。ソロモン72柱の悪魔を模した巨列柱が立ち並び、深紅の絨毯の先に世界級アイテム『諸王の玉座（スローン・オブ・キングス）』が鎮座する。アインズが全守護者からの忠誠の誓約を受け、侵入者への審判や重要な軍議を下す至高の聖域。強力な探知妨害結界によって守られており、足を踏み入れた者に圧倒的な威圧感を与える。",
+              "key": [
+                "諸王の玉座",
+                "玉座の間",
+                "第10階層",
+                "謁見の間",
+                "スローン・オブ・キングス"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Gedankenkontrolle & der Fall der Wächterin",
+      "key": [
+        "Gedankenkontrolle",
+        "Welt-Item-Angriff",
+        "Vorfall",
+        "Verrat",
+        "Wiederbelebung"
+      ],
+      "content": "Ein folgenreicher Zwischenfall kurz nach der Ankunft in der Neuen Welt: Shalltear geriet bei einem Außeneinsatz unter den Einfluss des gegnerischen Welt-Items 'Downfall of Castle and Country' der Slane-Theokratie. Um sie von der feindlichen Gedankenkontrolle zu befreien, musste Ainz sie in einem dramatischen Duell mit voller Ausrüstung seiner Gildenkollegen selbst töten und sie anschließend für 500 Millionen Goldmünzen im Thronsaal wiederbeleben. Seit diesem Schock tragen alle Wächter außerhalb Nazaricks stets ein Welt-Item bei sich.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Mind Control & the Guardian's Fall",
+              "content": "A watershed crisis in Nazarick's early days within the New World: Shalltear was ambushed by the Slane Theocracy's Black Scripture and ensnared by their World Item 'Downfall of Castle and Country'. To break the hostile brainwashing, Ainz was forced to defeat her personally in a high-stakes duel utilizing the gear of his 41 guildmates, subsequently resurrecting her using 500 million gold coins from the guild treasury. In response, Ainz instituted a strict mandate: all Floor Guardians must carry a World Item outside the tomb.",
+              "key": [
+                "Mind Control",
+                "World Item Attack",
+                "Incident",
+                "Resurrection",
+                "Downfall"
+              ]
+            },
+            "ru": {
+              "name": "Контроль разума и падение Стража",
+              "content": "Критический инцидент первых дней в Новом Мире: Шалтир попала под действие вражеского Мирового Предмета Слейновской Теократии и оказалась под ментальным контролем. Чтобы спасти ее, Айнз был вынужден лично вступить с ней в смертельную дуэль, экипировав реликвии своих соратников, а затем воскресить ее в Тронном зале за 500 миллионов золотых монет из казны. После этого урока каждый Страж на поверхности обязан носить собственный Мировой Предмет.",
+              "key": [
+                "Контроль разума",
+                "Атака Мировым Предметом",
+                "Инцидент",
+                "Воскрешение",
+                "Шалтир"
+              ]
+            },
+            "ja": {
+              "name": "精神支配事件と守護者の奪還",
+              "content": "転移直後にナザリックを揺るがした最大の危機。地上任務中のシャルティアが、スレイン法国の特殊工作部隊が使用した世界級アイテム『傾国傾城』によって精神支配を受け、敵対状態となった。アインズはギルドメンバーたちの神器級装備を駆使して単身でシャルティアと決闘を行い、彼女を一度討伐した後にギルド資金5億ゴールドを投じて蘇生させた。この事件を教訓とし、以後は全守護者に世界級アイテムの常時携行が義務付けられた。",
+              "key": [
+                "精神支配",
+                "傾国傾城",
+                "シャルティア事件",
+                "蘇生",
+                "防衛策"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Overlord – Supreme Being & Guardians",
+          "description": "The dual persona of Ainz Ooal Gown, Albedo's administrative authority, and Shalltear's vampiric martial prowess in service to Nazarick."
+        },
+        "ru": {
+          "name": "Overlord – Владыка и Стражи",
+          "description": "Двойственная натура Айнза Оал Гоуна, административная власть Альбедо и вампирская мощь Шалтир на службе Назарика."
+        },
+        "ja": {
+          "name": "オーバーロード ― 至高の支配者と守護者",
+          "description": "アインズ・ウール・ゴウンの支配者としての仮面と内面、アルベドの統括権限、そしてシャルティアの吸血鬼としての圧倒的武威。"
+        }
+      }
+    }
+  }
+}

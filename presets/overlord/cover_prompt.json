@@ -1,0 +1,17 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-11-01",
+  "prompt": "Official anime key visual poster for Overlord. Cinematic 16:9 widescreen composition set in the grand gothic Throne Room of the Great Tomb of Nazarick with soaring vaulted ceilings, dark marble pillars with golden trims, rich crimson carpet leading up steps to the monumental obsidian Throne of Kings. In the center, Ainz Ooal Gown, majestic undead skeletal king in lavish dark purple and gold robes with massive pauldrons, glowing crimson pinpricks in eye sockets, holding the golden Staff of Ainz Ooal Gown. Flanked by Albedo in her flowing pure white gown with curving horns and black feathered wings, and Shalltear Bloodfallen in her gothic Victorian crimson/purple frilled gown with bonnet and parasol. Dramatic dark fantasy lighting, ominous magical purple and gold auras, crisp anime outlines, clean framing, completely free of text, no logos, no watermarks.",
+  "references": [
+    "presets/overlord/ainz_ooal_gown.png",
+    "presets/overlord/albedo.png",
+    "presets/overlord/shalltear_bloodfallen.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92. Vollbild als Szenenhintergrund in backgrounds/overlord_thronsaal.webp.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

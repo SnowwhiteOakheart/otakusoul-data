@@ -503,6 +503,41 @@
           "description": "親竜王国ルグニカ、ロズワール邸、そして魔女の死の禁忌。運命のループと魔法の狭間で交錯するスバル、エミリア、ベアトリス、ラム、エキドナの物語。"
         }
       }
+    },
+    {
+      "id": "overlord",
+      "title": "Overlord – Die Große Gruft von Nazarick",
+      "author": "SnowwhiteOakheart",
+      "description": "Ainz Ooal Gown, Albedo und Shalltear auf dem Thron der Könige: Die uneinnehmbare Festung Nazarick erobert die Neue Welt.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/overlord/cover.webp",
+      "characters": [
+        "Ainz Ooal Gown",
+        "Albedo",
+        "Shalltear Bloodfallen"
+      ],
+      "lorebooks": [
+        "Overlord – Die Große Gruft von Nazarick",
+        "Overlord – Herrscher & Wächter"
+      ],
+      "scenes": [
+        "overlord_ep1_audienz_in_nazarick"
+      ],
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "title": "Overlord – The Great Tomb of Nazarick",
+          "description": "Ainz Ooal Gown, Albedo, and Shalltear before the Throne of Kings: The impregnable fortress of Nazarick sets out to conquer the New World."
+        },
+        "ru": {
+          "title": "Overlord – Великая гробница Назарик",
+          "description": "Айнз Оал Гоун, Альбедо и Шалтир перед Троном Королей: неприступная цитадель Назарик начинает покорение Нового Мира."
+        },
+        "ja": {
+          "title": "オーバーロード ― ナザリック地下大墳墓",
+          "description": "アインズ・ウール・ゴウン、アルベド、シャルティアが座す諸王の玉座。難攻不落のナザリック地下大墳墓が未知の新世界へ進軍を開始する。"
+        }
+      }
     }
   ]
 }

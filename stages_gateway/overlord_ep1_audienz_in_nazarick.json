@@ -1,0 +1,154 @@
+{
+  "title": "Audienz im Thronsaal von Nazarick",
+  "description": "Ainz Ooal Gown hält Hof auf dem Thron der Könige. Während Albedo und Shalltear um seine Gunst wetteifern, meldet die Randüberwachung von Ebene 1 eine unerwartete Entdeckung aus der Neuen Welt.",
+  "world_context": "Auf der zehnten Ebene der Großen Gruft von Nazarick, im majestätischen Thronsaal der 72 Dämonensäulen, thront Ainz Ooal Gown auf dem Welten-Item 'Thron der Könige'. Zu seinen Füßen stehen die Oberaufseherin Albedo und die Wächterin der oberen Ebenen, Shalltear Bloodfallen. Während Ainz nach außen die unantastbare Würde des absoluten Herrschers des Todes wahrt, kalkuliert er im Inneren als besonnener Stratege jeden seiner Schritte in der unbekannten Neuen Welt. Das Gespräch der Wächterinnen pendelt zwischen ehrerbietiger Ergebenheit und hitziger Eifersucht, als plötzlich die magische Randüberwachung der Gruft anschlägt: An den Grenzbezirken von Ebene 1 wurde eine magische Anomalie aus der Außenwelt registriert. Ainz muss mit Bedacht urteilen, bevor die Wächterinnen das Umland in Schutt und Asche legen.",
+  "starting_location": "Vor den Stufen des Throns der Könige im Thronsaal von Nazarick",
+  "time_of_day": "Zeitlos (magische Beleuchtung der zehnten Ebene)",
+  "opening_narration": "Schwere, purpurne Schatten tanzen im warmen Schein der hängenden Kristallkronleuchter über den polierten Marmorboden des Thronsaals. Auf dem monumentalen Thron der Könige ruht die gewaltige Gestalt von Ainz Ooal Gown; die beiden roten Flammenpunkte in seinen Augenhöhlen funkeln mit ruhiger, uralter Macht. Vor den Thronstufen stehen Albedo und Shalltear. Albedos golden schimmernde Augen ruhen voller Hingabe auf ihrem Meister, während Shalltear mit kokettem Neigen ihres Schirms die Lippen spitzt: „Meister Ainz sieht heute wieder unbeschreiblich erhaben aus … findest du nicht auch, Großmaul-Kuh?“ Albedos Engelslächeln gefriert zu einer eisigen Fratze: „Hüte deine Zunge vor unserem geliebten Schöpfer, du wandelndes Holzbrett.“ Ein tiefes, hallendes Räuspern aus dem Knochentorso des Herrschers bringt die beiden sofort auf die Knie. In diesem Moment flackert das magische Überwachungsspiegelbild an der Wand auf: Am Eingang der Gruft hat sich eine fremde Präsenz gezeigt.",
+  "gm_tone": "Epische Dark Fantasy mit royaler Gravitas, subtiler schwarzer Komödie und taktischer Spannung",
+  "narrator_style": "Eindringlich, majestätisch und charaktergetreu. Hebe Ainz' königliche Ausstrahlung und seinen inneren pragmatischen Monolog hervor, Albedos betörende Loyalität gepaart mit mörderischer Kälte gegenüber Fremden, und Shalltears verspielte, doch grausame Raubtiernatur. Biete dem Spieler in jeder Runde klare Handlungsmöglichkeiten und respektiere die Hierarchie Nazaricks.",
+  "first_message": "",
+  "party": [
+    "Ainz Ooal Gown",
+    "Albedo",
+    "Shalltear Bloodfallen"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Overlord – Die Große Gruft von Nazarick",
+    "Overlord – Herrscher & Wächter"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 2,
+  "dice_rolls_enabled": true,
+  "starting_bg": "overlord_thronsaal.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Audience in the Throne Room of Nazarick",
+          "description": "Ainz Ooal Gown presides over the Throne of Kings. While Albedo and Shalltear squabble for his divine favor, magical sensors on the First Floor detect an unexpected intruder from the New World.",
+          "world_context": "Deep within the Tenth Floor of the Great Tomb of Nazarick, in the grand Throne Room flanked by 72 Goetia demon pillars, Ainz Ooal Gown presides atop the World Item 'Throne of Kings'. Standing below the dais are Guardian Overseer Albedo and First-to-Third Floor Guardian Shalltear Bloodfallen. While Ainz projects the chilling omnipotence of an ancient god-king, his inner monologue as a modern salaryman constantly scrambles to maintain his regal facade and ensure the safety of his domain. The banter between Albedo and Shalltear oscillates between fanatical worship and cutthroat romantic rivalry until Nazarick's boundary alarms flare: an unfamiliar magical entity has breached the outskirts of the surface mausoleum.",
+          "starting_location": "Before the obsidian dais of the Throne of Kings in Nazarick",
+          "time_of_day": "Timeless (arcane illumination of the Tenth Floor)",
+          "opening_narration": "Deep violet shadows ripple across polished dark marble as crystal chandeliers cast a somber glow over the monumental Throne Room. Reclining upon the Throne of Kings, Ainz Ooal Gown's towering skeletal frame radiates ancient power, crimson pinpricks burning within hollow eye sockets. At the foot of the dais stand Albedo and Shalltear. Albedo's golden eyes gaze upward in rapt adoration, while Shalltear twirls her parasol with a coquettish pout: \"Lord Ainz is breathtakingly magnificent today... Wouldn't you agree, big-mouthed cow?\" Albedo's serene expression hardens into a terrifying smile: \"Mind your tongue in the presence of our beloved creator, you padded lamp-post.\" A low, resonant clearing of the throat echoes from the Overlord's chest, instantly dropping both guardians to their knees in reverent silence. Right then, the arcane surveillance mirror on the wall ripples: an unknown magical signature has crossed into the outer cemetery above.",
+          "gm_tone": "Epic dark fantasy balancing imperial majesty, dry dark comedy, and tactical suspense",
+          "narrator_style": "Commanding, atmospheric, and true to each character. Capture Ainz's majestic presence alongside his anxious pragmatic inner monologue, Albedo's zealous loyalty and razor-sharp intellect, and Shalltear's playful yet lethal predatory nature. Provide the player with clear avenues for investigation and respect the imperial hierarchy of Nazarick."
+        },
+        "ru": {
+          "title": "Аудиенция в Тронном зале Назарика",
+          "description": "Айнз Оал Гоун правит бал на Троне Королей. Пока Альбедо и Шалтир спорят за его благосклонность, охранные чары первого этажа фиксируют неожиданное вторжение из Нового Мира.",
+          "world_context": "На десятом этаже Великой гробницы Назарик, в грандиозном Тронном зале среди 72 демонических колонн, Айнз Оал Гоун восседает на Мировом Предмете 'Трон Королей'. У подножия помоста предстали Смотритель Альбедо и Страж верхних этажей Шалтир Бладфоллен. Сохраняя невозмутимое величие Владыки Смерти, Айнз внутренне просчитывает каждый шаг, заботясь о безопасности гробницы в незнакомом Новом Мире. Спор между преданными сподвижницами внезапно прерывает сигнал тревоги: на поверхности у склепа первого этажа обнаружена чужеродная магия.",
+          "starting_location": "Перед ступенями Трона Королей в Тронном зале Назарика",
+          "time_of_day": "Вне времени (магическое сияние десятого этажа)",
+          "opening_narration": "Глубокие багровые тени ложатся на полированный мрамор в тусклом свете хрустальных люстр Тронного зала. На монументальном Троне Королей неподвижно возвышается скелет Айнза Оал Гоуна; красные угольки глаз горят древней неземной мощью. Перед помостом стоят Альбедо и Шалтир. Золотые глаза Альбедо полны обожания, пока Шалтир кокетливо крутит зонтик: «Владыка Айнз сегодня неописуемо прекрасен… Не находишь, широкоротая корова?» Улыбка Альбедо на мгновение превращается в леденящую маску ярости: «Придержи язык перед нашим создателем, ходячая деревяшка». Низкое, гулкое покашливание из костяной груди повелителя моментально заставляет обеих пасть на колени. В ту же секунду зеркало дальнего наблюдения на стене вспыхивает: у входа в гробницу обнаружено чужое присутствие.",
+          "gm_tone": "Эпическое темное фэнтези с царственным величием, тонкой черной комедией и тактической интригой",
+          "narrator_style": "Величественно, выразительно и в строгом согласии с характерами. Подчеркивай царственную стать Айнза и его прагматичные мысли, абсолютную преданность Альбедо и хищное очарование Шалтир. В каждом ответе давай игроку понятные направления действий, соблюдая строгую иерархию Назарика."
+        },
+        "ja": {
+          "title": "ナザリック玉座の間の謁見",
+          "description": "諸王の玉座に鎮座するアインズ・ウール・ゴウン。アルベドとシャルティアが寵愛を競い合う中、第1階層の境界結界が新世界からの予期せぬ反応を捉える。",
+          "world_context": "ナザリック地下大墳墓最深部、第10階層に広がる荘厳な玉座の間。72柱の悪魔の巨列柱が見守る中、アインズ・ウール・ゴウンは世界級アイテム『諸王の玉座』に腰掛けている。壇下には守護者統括アルベドと第1〜3階層守護者シャルティアが控えていた。絶対の君主としての威厳を湛えつつも、内心では慎重に新世界での生存戦略を巡らせるアインズ。二人の正妻争いが最高潮に達しようとしたその時、墳墓の外縁監視魔法が未知の侵入者の気配を感知する。",
+          "starting_location": "ナザリック地下大墳墓・玉座の間の大階段前",
+          "time_of_day": "無刻（第10階層の常夜の魔導照明）",
+          "opening_narration": "シャンデリアの仄暗い光が、磨き抜かれた黒大理石の床に深紅の影を落とす。諸王の玉座にゆったりと構えるアインズ・ウール・ゴウン。その眼窩の奥で二つの紅蓮の火が静かに瞬いていた。玉座の裾野では、アルベドとシャルティアが跪く準備を整えている。アルベドの黄金の瞳が熱い思慕に濡れる一方、シャルティアは日傘を傾けて挑発的な笑みを浮かべた。「アインズ様は今日もこの上なく御立派であらせられますわ……そう思いませんこと、大口女？」「愛する御前でその口を慎みなさい、このまな板が」。一触即発の空気を裂いたのは、アインズの喉骨から響く低く重厚な咳払いだった。二人は瞬時に平伏し、頭を垂れる。その刹那、壁面に浮かび上がった監視魔法の鏡が不穏に揺らめき、大墳墓の地上部付近に正体不明の魔力反応を映し出した。",
+          "gm_tone": "至高の威厳と暗黒の知略、そして皮肉なユーモアが織りなす本格ダークファンタジー",
+          "narrator_style": "重厚かつ威厳に満ちた格調高い語り口。アインズの圧倒的な覇気と内心のサラリーマン的思案、アルベドの狂愛と冷徹な軍師の顔、シャルティアの残酷可憐な吸血鬼としての本質を忠実に描き分ける。プレイヤーの行動に対し、ナザリックの規律に即した明確な選択肢を提示する。"
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 50,
+      "difficulty": "medium",
+      "notes": [
+        "dark_themes",
+        "action",
+        "suspense"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Befiehl Albedo, die Verteidigungsmagie von Ebene 1 zu prüfen und Verstärkung zu rufen",
+            "badge": "Überzeugen",
+            "action_type": "say"
+          },
+          {
+            "text": "Entsende Shalltear an die Oberfläche, um die fremde Präsenz lautlos abzufangen",
+            "badge": "Heimlichkeit",
+            "action_type": "do"
+          },
+          {
+            "text": "Nutze den Überwachungsspiegel und analysiere die magische Signatur der Neuen Welt selbst",
+            "badge": "Arkane Kunde",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Instruct Albedo to inspect Floor 1's warding grids and summon reserve guards",
+            "badge": "Persuasion",
+            "action_type": "say"
+          },
+          {
+            "text": "Dispatch Shalltear to the surface cemetery to quietly apprehend the trespasser",
+            "badge": "Stealth",
+            "action_type": "do"
+          },
+          {
+            "text": "Examine the surveillance mirror to analyze the mysterious New World magical signature",
+            "badge": "Arcana",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Приказать Альбедо проверить защитные контуры первого этажа и вызвать подкрепление",
+            "badge": "Убеждение",
+            "action_type": "say"
+          },
+          {
+            "text": "Отправить Шалтир на поверхность, чтобы бесшумно захватить лазутчика",
+            "badge": "Скрытность",
+            "action_type": "do"
+          },
+          {
+            "text": "Изучить зеркало наблюдения и лично проанализировать магический след из Нового Мира",
+            "badge": "Магия",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "アルベドに第1階層の防衛結界の点検と予備兵力の招集を命じる",
+            "badge": "説得",
+            "action_type": "say"
+          },
+          {
+            "text": "シャルティアを地上墓地へ派遣し、侵入者を秘密裏に生け捕りにさせる",
+            "badge": "隠密",
+            "action_type": "do"
+          },
+          {
+            "text": "遠視鏡の映像を拡大し、新世界特有の魔力波形を自ら精査する",
+            "badge": "知識（神秘）",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "overlord_thronsaal.webp",
+          "path": "presets/overlord/backgrounds/overlord_thronsaal.webp"
+        }
+      ]
+    }
+  }
+}

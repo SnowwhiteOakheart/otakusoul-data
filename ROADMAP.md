@@ -473,3 +473,12 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Neues narratives Soul-Stage-Abenteuer `re_zero_ep1_schatten_ueber_dem_anwesen` (*Schatten über dem Roswaal-Anwesen*) mit allen Figuren als Party, 3 Startvorschlägen je Sprache (DE/EN/RU/JA) und automatischem Hintergrund-Download. Die Starter-Szene `frozen_bells_emilia` ist ebenfalls integriert.
 - [x] Individuelles, hochwertiges Anime-Keyvisual als Titelbild `presets/re-zero/cover.webp` (960×540 WebP) und Szenenhintergrund `presets/re-zero/backgrounds/re_zero_roswaal_mansion.webp` (1376×768 WebP) generiert; Promptnachweis in `cover_prompt.json`.
 - [x] Vollständige Inhaltsvalidierung und Registry-Synchronisation bestanden: 0 Fehler, 0 Warnungen. Veröffentlichung als Kampagnenpaket auf main.
+
+
+## Overlord – Die Große Gruft von Nazarick (01.11.2026)
+
+- [x] Hub-Sammlung `overlord` in `collections_registry.json` veröffentlicht: Bündelt Ainz Ooal Gown, Albedo und Shalltear Bloodfallen für komfortables „Alles installieren“ inklusive Übersetzungen (DE/EN/RU/JA).
+- [x] Zwei neue Lorebooks mit insgesamt 11 Einträgen in allen vier Sprachen (DE/EN/RU/JA): `overlord_nazarick_world.json` (*Die Große Gruft von Nazarick*, 6 Einträge) und `overlord_supreme_guardians.json` (*Herrscher & Wächter*, 5 Einträge).
+- [x] Neues narratives Soul-Stage-Abenteuer `overlord_ep1_audienz_in_nazarick` (*Audienz im Thronsaal von Nazarick*) mit allen drei Figuren als Party, 3 Startvorschlägen je Sprache (DE/EN/RU/JA) und automatischem Hintergrund-Download.
+- [x] Individuelles, hochwertiges Anime-Keyvisual als Titelbild `presets/overlord/cover.webp` (960×540 WebP) und Thronsaal-Szenenhintergrund `presets/overlord/backgrounds/overlord_thronsaal.webp` (1376×768 WebP) generiert; Promptnachweis in `cover_prompt.json`.
+- [x] Vollständige Inhaltsvalidierung und Registry-Synchronisation bestanden: 0 Fehler, 0 Warnungen. Veröffentlichung als Kampagnenpaket auf main.
