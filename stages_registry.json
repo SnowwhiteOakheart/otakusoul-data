@@ -1647,6 +1647,33 @@
           "starting_location": "Перед ступенями Трона Королей в Тронном зале Назарика"
         }
       }
+    },
+    {
+      "id": "nte_ep1_die_anomalie_im_spiegelbezirk",
+      "title": "Die Anomalie im Spiegelbezirk",
+      "author": "SnowwhiteOakheart",
+      "description": "Mitten in der regennassen Neon-Metropole Hethereau bricht im alten Spiegelbezirk ein unkontrollierter Nexus-Riss auf. Nanally trommelt Mint, Iroi, Linko und beide Esper Zeros zusammen, um das Rätsel zu lösen.",
+      "starting_location": "Vor dem Antiquitätengeschäft Eibon im nächtlichen Hethereau",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/nte_ep1_die_anomalie_im_spiegelbezirk.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "title": "The Mirror District Anomaly",
+          "description": "Amid the rain-slicked neon avenues of Hethereau, an erratic Nexus rift erupts inside the historic Mirror District. Nanally gathers Mint, Iroi, Linko, and both Esper Zeros to resolve the supernatural crisis.",
+          "starting_location": "Outside the Eibon Antique Shop in neon-lit nighttime Hethereau"
+        },
+        "ja": {
+          "title": "鏡面区の異常事態",
+          "description": "雨に濡れるネオンの大都市ヘテロ。突如として発生した鏡面区のネクサス崩壊を解決するため、ナナリーはミント、イロイ、リンコ、そして二人のゼロを招集する。",
+          "starting_location": "夜のネオンに照らされた骨董店アイボンの前"
+        },
+        "ru": {
+          "title": "Аномалия в Зеркальном квартале",
+          "description": "Среди мокрых от дождя неоновых проспектов Хезэро в старом Зеркальном квартале вспыхивает неконтролируемый разлом Нексуса. Наналли собирает Минт, Ирои, Линко и обоих Эсперов Зеро, чтобы разгадать тайну.",
+          "starting_location": "У входа в антикварную лавку Эйбон в ночном сиянии Хезэро"
+        }
+      }
     }
   ]
 }

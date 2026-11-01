@@ -538,6 +538,46 @@
           "description": "アインズ・ウール・ゴウン、アルベド、シャルティアが座す諸王の玉座。難攻不落のナザリック地下大墳墓が未知の新世界へ進軍を開始する。"
         }
       }
+    },
+    {
+      "id": "neverness_to_everness",
+      "title": "NTE: Neverness to Everness",
+      "author": "SnowwhiteOakheart",
+      "description": "Urbane Anomalien, das Antiquitätengeschäft Eibon und die Straßen von Hethereau: Nanally, Mint, Iroi, Linko und Esper Zero im Kampf gegen den Nexus.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/neverness-to-everness/cover.webp",
+      "characters": [
+        "Mint",
+        "Iroi",
+        "Lacrimosa",
+        "Nanally Colucci",
+        "Linko",
+        "Esper Zero (Female)",
+        "Esper Zero (Male)",
+        "Shinku"
+      ],
+      "lorebooks": [
+        "NTE – Die Metropole Hethereau",
+        "NTE – Eibon-Crew & Agenten"
+      ],
+      "scenes": [
+        "nte_ep1_die_anomalie_im_spiegelbezirk"
+      ],
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "title": "NTE: Neverness to Everness",
+          "description": "Urban anomalies, the Eibon Antique Shop, and the neon avenues of Hethereau: Nanally, Mint, Iroi, Linko, and Esper Zero confronting the Nexus."
+        },
+        "ru": {
+          "title": "NTE: Neverness to Everness",
+          "description": "Городские аномалии, антикварная лавка Эйбон и неоновые проспекты Хезэро: Наналли, Минт, Ирои, Линко и Эспер Зеро в борьбе с Нексусом."
+        },
+        "ja": {
+          "title": "NTE：Neverness to Everness",
+          "description": "超常の都市異常、骨董店アイボン、そしてネオン輝くヘテロの街路。ナナリー、ミント、イロイ、リンコ、エスパー・ゼロが挑むネクサス調査行。"
+        }
+      }
     }
   ]
 }

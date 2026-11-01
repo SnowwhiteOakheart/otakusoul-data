@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 72 Charaktere · 61 Soul Stages (Szenen) · 32 Lorebooks · 23 Presets (14 Sammlungen).
+> **Stand:** 72 Charaktere · 62 Soul Stages (Szenen) · 34 Lorebooks · 23 Presets (15 Sammlungen).
 
 ---
 
@@ -23,6 +23,7 @@
 | `world-of-warcraft` | Warcraft · eigene Fanfiguren | `Liora Sonnenfaden`, `Vaelis Morgenpfad`, `Bo Wolkenkrug`, `Gromak Aschenfaust`, `Mira Dämmerfrost` (5 Erwachsene; je 15 SFW-Expressions) | `wow_glocke_der_namenlosen_seelen` · *Die Glocke der namenlosen Seelen* (narratives Mysterium, fünf Karten als Party) | *Azeroth – Völker, Magie und die Glocke von Tirisfal* (`wow_azeroth_tirisfal.json`), 35 Einträge; DE/EN/RU/JA; Sammlung `world_of_warcraft_tirisfal` |
 | `re-zero` | Re:Zero – Starting Life in Another World | `Subaru Natsuki`, `Emilia`, `Rem`, `Ram`, `Beatrice`, `Echidna` (6) | `re_zero_ep1_schatten_ueber_dem_anwesen` · *Schatten über dem Roswaal-Anwesen* (narratives Ensemble-Abenteuer, 6 Mitspieler)<br>`frozen_bells_emilia` · *Die Glocken von Frostweiler* (2) | • *Welt, Magie & Hexen* (`re_zero_world_magic.json`)<br>• *Roswaal-Anwesen & Heiligtum* (`re_zero_locations_sanctuary.json`)<br>Sammlung `re_zero` mit Keyvisual-Titelbild `cover.webp` und Hintergrund `re_zero_roswaal_mansion.webp` |
 | `overlord` | Overlord | `Ainz Ooal Gown`, `Albedo`, `Shalltear Bloodfallen` (3; je 15 SFW-Expressions) | `overlord_ep1_audienz_in_nazarick` · *Audienz im Thronsaal von Nazarick* (narratives Dark-Fantasy-Abenteuer, 3 Mitspieler) (1) | • *Die Große Gruft von Nazarick* (`overlord_nazarick_world.json`)<br>• *Herrscher & Wächter* (`overlord_supreme_guardians.json`)<br>Sammlung `overlord` mit Keyvisual-Titelbild `cover.webp` und Hintergrund `overlord_thronsaal.webp` |
+| `neverness-to-everness` | Neverness to Everness | `Mint`, `Iroi`, `Lacrimosa`, `Nanally Colucci`, `Linko`, `Esper Zero (Female)`, `Esper Zero (Male)`, `Shinku` (8; je 15 SFW-Expressions) | `nte_ep1_die_anomalie_im_spiegelbezirk` · *Die Anomalie im Spiegelbezirk* (narratives Urban-Fantasy-Abenteuer, 6 Mitspieler) (1) | • *Die Metropole Hethereau* (`nte_hethereau_world.json`)<br>• *Eibon-Crew & Agenten* (`nte_eibon_crew.json`)<br>Sammlung `neverness_to_everness` mit Keyvisual-Titelbild `cover.webp` und Hintergrund `nte_hethereau_city.webp` |
 
 ---
 
@@ -45,7 +46,6 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 
 | Preset-Ordner | Franchise / Herkunft | Registrierte Figuren (`name` in `soul_registry.json`) | Bemerkungen / Gastauftritte |
 |---|---|---|---|
-| `neverness-to-everness` | Neverness to Everness | `Mint`, `Iroi`, `Lacrimosa`, `Nanally Colucci`, `Linko`, `Esper Zero (Female)`, `Esper Zero (Male)`, `Shinku` (8) | Urban-Fantasy-Cast; Lacrimosa und Shinku treten in Cyberpunk-Stages auf. |
 | `frieren` | Sousou no Frieren | `Frieren` | Gastauftritt in `isekai_null_mana_summoning`. |
 | `nagatoro` | Don't Toy With Me, Miss Nagatoro | `Hayase Nagatoro` | Gastauftritt in `romance_rainy_clubroom_confessions`. |
 | `marin-kitagawa` | My Dress-Up Darling | `Marin Kitagawa` | Gastauftritt in `romance_rainy_clubroom_confessions`. |

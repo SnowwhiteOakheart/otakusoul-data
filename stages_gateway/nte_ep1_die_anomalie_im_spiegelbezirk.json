@@ -1,0 +1,157 @@
+{
+  "title": "Die Anomalie im Spiegelbezirk",
+  "description": "Mitten in der regennassen Neon-Metropole Hethereau bricht im alten Spiegelbezirk ein unkontrollierter Nexus-Riss auf. Nanally trommelt Mint, Iroi, Linko und beide Esper Zeros zusammen, um das Rätsel zu lösen.",
+  "world_context": "In der futuristischen Küstenmetropole Hethereau kündigt sich eine regnerische Nacht an. Im Schaufenster des Antiquitätengeschäfts Eibon flackern alte Röhrenfernseher im Takt einer seltsamen Frequenzstörung. Chefin Nanally Colucci ruft ihr Team zusammen: Im nahegelegenen Einkaufsviertel, dem Spiegelbezirk, haben sich die Schaufensterflächen zu einem dimensionsübergreifenden Nexus-Labyrinth verzerrt. Spaziergänger sehen Doppelgänger und Straßen biegen sich ins Endlose. Während Mint von der CSU-2 die Straßenabsperrungen im Blick behält und Iroi mit ihren Traumschafen die panischen Passanten beruhigt, fängt Linko die verzerrende Frequenz ab. Die beiden Esper Zeros müssen ihre Klingen und ihren scharfen Nexus-Sinn einsetzen, um den Kern des Phänomens zu lokalisieren und zu versiegeln.",
+  "starting_location": "Vor dem Antiquitätengeschäft Eibon im nächtlichen Hethereau",
+  "time_of_day": "Regnerische Nacht",
+  "opening_narration": "Neonfarbene Werbeschilder spiegeln sich in den Pfützen auf dem Asphalt vor dem Antiquitätengeschäft Eibon. Der Geruch von warmem Asphalt und feuchtem Ozon liegt in der Luft. Nanally stößt schwungvoll die Ladentür auf, schiebt mit der Fingerspitze ihre runde Brille hoch und stemmt die andere Hand in die Hüfte: „Aufgepasst, Leute! Der gemütliche Feierabend ist gestrichen! Die Sensoren im Spiegelbezirk spielen komplett verrückt – die Schaufenster spiegeln Dinge, die es gar nicht gibt, und die Passanten laufen im Kreis!“ Mint wischt sich mit dem Handrücken über die Wange, ihre Katzenohren zucken aufmerksam: „CSU-2 hat den Außenring schon abgeriegelt, aber das Signal ist verdammt schlüpfrig. Wir müssen rein, bevor die Stadtpolizei alles abfackelt!“ Neben ihr schwebt Linkos kleiner leuchtender Geist Xiaozhen aufgeregt über ihrem Rucksack, während Iroi sanft lächelt und ein schwebendes Traumschaf tätschelt: „Keine Sorge, die Angst der Stadt können wir sanft einschläfern.“ Die beiden Zeros nicken stumm und ziehen ihre Appraiser-Klingen. Das Abenteuer in Hethereau beginnt.",
+  "gm_tone": "Stilvolle, rasante Urban Fantasy mit Anime-Cyberpunk-Flair, dynamischem Humor und übernatürlicher Mystery",
+  "narrator_style": "Tempo- und bildreich, energiegeladen und jugendlich-cool. Bringe Nanallys lautstarke Entschlossenheit, Mints agile Spürnase, Linkos freche Technik-Kommentare, Irois verträumte Sanftmut und das präzise Zusammenspiel der Zeros zur Geltung. Biete dem Spieler in jeder Szene greifbare, taktische Aktionsmöglichkeiten.",
+  "first_message": "",
+  "party": [
+    "Nanally Colucci",
+    "Mint",
+    "Iroi",
+    "Linko",
+    "Esper Zero (Female)",
+    "Esper Zero (Male)"
+  ],
+  "persona": "",
+  "lorebook": [
+    "NTE – Die Metropole Hethereau",
+    "NTE – Eibon-Crew & Agenten"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 2,
+  "dice_rolls_enabled": true,
+  "starting_bg": "nte_hethereau_city.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Mirror District Anomaly",
+          "description": "Amid the rain-slicked neon avenues of Hethereau, an erratic Nexus rift erupts inside the historic Mirror District. Nanally gathers Mint, Iroi, Linko, and both Esper Zeros to resolve the supernatural crisis.",
+          "world_context": "A rainy night blankets the futuristic metropolis of Hethereau. Vintage television sets in the front window of Eibon Antique Shop flicker erratically to a warped frequency. Proprietor Nanally Colucci mobilizes her crew: in the nearby commercial arcade known as the Mirror District, storefront panes have folded into an interdimensional glass labyrinth. Pedestrians glimpse ominous doppelgängers while streets loop into infinity. While CSU-2 scout Mint monitors security perimeters and Iroi soothes panicked bystanders with dream-energy, Linko traces the rogue broadcast frequency. The twin Esper Zeros must wield their blades and anomaly senses to locate and seal the breach.",
+          "starting_location": "Outside the Eibon Antique Shop in neon-lit nighttime Hethereau",
+          "time_of_day": "Rainy Night",
+          "opening_narration": "Holographic neon advertisements shimmer across rain puddles outside the cozy storefront of Eibon Antique Shop. The scent of damp asphalt and ozone hangs in the crisp night air. Nanally kicks open the glass door, nudges her circular glasses up her nose with a grin, and plants a fist on her hip: \"Listen up, squad! Movie night is officially cancelled! Sensors across the Mirror District are going haywire—shop windows are reflecting places that don't exist, and people are trapped in endless loops!\" Mint wipes a smudge of grease from her cheek as her turquoise cat ears twitch alertly: \"CSU-2 set up an outer blockade, but the frequency is slippery. We've got to strike before municipal bureaucracy burns the whole block down!\" Above Linko's TV backpack, the glowing cyan spirit Xiaozhen hums with static, while Iroi offers a reassuring smile, stroking her floating mechanical dream-sheep: \"Fret not; we can lull the district's panic into a peaceful nap.\" Both Zeros silently unsheathe their appraiser blades. The mission in Hethereau begins.",
+          "gm_tone": "Stylish, high-octane urban fantasy blending anime-cyberpunk grit, vibrant comedic banter, and supernatural mystery",
+          "narrator_style": "Fast-paced, colorful, and youthfully cool. Showcase Nanally's boisterous leadership, Mint's streetwise agility, Linko's playful technobabble, Iroi's gentle dreamlike composure, and the calm lethal synchronization of the Zeros. Offer clear tactical pathways in every turn."
+        },
+        "ru": {
+          "title": "Аномалия в Зеркальном квартале",
+          "description": "Среди мокрых от дождя неоновых проспектов Хезэро в старом Зеркальном квартале вспыхивает неконтролируемый разлом Нексуса. Наналли собирает Минт, Ирои, Линко и обоих Эсперов Зеро, чтобы разгадать тайну.",
+          "world_context": "Дождливая ночь опускается на футуристический мегаполис Хезэро. В витрине антикварной лавки Эйбон старые телевизоры мерцают в такт тревожным помехам. Хозяйка Наналли Колуччи экстренно созывает команду: в соседнем торговом квартале витрины превратились в пространственный зеркальный лабиринт. Прохожие видят жутких двойников, а улицы замыкаются в бесконечные петли. Пока Минт из CSU-2 следит за оцеплением, а Ирои убаюкивает напуганных свидетелей овечками снов, Линко пеленгует сигнал аномалии. Обоим Эсперам Зеро предстоит пустить в ход клинки и чутье Нексуса, чтобы запечатать разлом.",
+          "starting_location": "У входа в антикварную лавку Эйбон в ночном сиянии Хезэро",
+          "time_of_day": "Дождливая ночь",
+          "opening_narration": "Неоновые вывески дрожат в лужах на асфальте перед витриной антикварной лавки Эйбон. В прохладном воздухе пахнет озоном и дождем. Наналли распахивает дверь, поправляет круглые очки и победно упирает руку в бок: «Внимание, банда! Спокойный вечер отменяется! Датчики в Зеркальном квартале взбесились — витрины отражают то, чего нет, а люди бегают по кругу!» Минт смахивает капли с щеки, ее бирюзовые ушки настороженно подергиваются: «CSU-2 уже выставили кордоны, но сигнал уходит сквозь пальцы. Надо перехватить аномалию, пока полиция не разнесла весь район!» Из монитора-рюкзака Линко вылетает сияющий дух Сяочжэнь, а Ирои мягко улыбается, поглаживая парящую механическую овечку снов: «Не волнуйтесь, мы мягко усыпим панику в квартале». Оба Зеро молча обнажают клинки оценщиков. Приключение в Хезэро начинается.",
+          "gm_tone": "Стильное и динамичное городское фэнтези с духом аниме-киберпанка, фирменным юмором и мистикой",
+          "narrator_style": "Быстро, образно и с молодежным задором. Подчеркивай командный дух Наналли, прыть Минт, колкости Линко, безмятежное спокойствие Ирои и молчаливую слаженность обоих Зеро. В каждом ответе давай четкие варианты тактических действий."
+        },
+        "ja": {
+          "title": "鏡面区の異常事態",
+          "description": "雨に濡れるネオンの大都市ヘテロ。突如として発生した鏡面区のネクサス崩壊を解決するため、ナナリーはミント、イロイ、リンコ、そして二人のゼロを招集する。",
+          "world_context": "雨煙る巨大都市ヘテロ。骨董店アイボンのショーウィンドウに並ぶブラウン管テレビが一斉に奇妙なノイズを発する。初代店主ナナリー・コルッチは即座にメンバーを招集した。近隣の商業街「鏡面区」においてショーウィンドウのガラス面が亜空間迷宮へと変貌し、歩行者が無限ループに囚われる異変が発生したという。CSU-2のミントが包囲網を監視し、イロイが夢羊で市民の恐慌を鎮める中、リンコが周波数を傍受。二人のゼロはアプレイザーの鋭敏な知覚とブレードを携え、異常の核を討伐すべく出撃する。",
+          "starting_location": "夜のネオンに照らされた骨董店アイボンの前",
+          "time_of_day": "雨の夜",
+          "opening_narration": "ネオンの光がアスファルトの水たまりに揺れる骨董店アイボンの軒先。湿ったオゾンの匂いが立ち込める中、ナナリーが勢いよく扉を蹴開け、指先で丸眼鏡を押し上げながら腰に手を当てた。「注目、全員集合！ 呑気なティータイムはここまでよ！ 鏡面区のセンサーが完全に暴走してるわ。ショーウィンドウが存在しない街を映し出して、通行人が無限ループに迷い込んでるのよ！」「CSU-2の外郭封鎖は完了してるけど、波長がすり抜けてるニャ。正規隊がドンパチ始める前にアタシたちでカタをつけなきゃ！」ミントがターコイズの猫耳をピクピクと動かして身を乗り出す。リンコのバックパックから青白い霊体シャオチェンが飛び出し、イロイは宙に浮く機械仕掛けの夢羊を優しく撫でて微笑んだ。「大丈夫、街の不安は私がそっと夢に包み込んであげますね」。二人のゼロが無言で頷き、アプレイザーブレードを抜剣する。ヘテロの夜を駆ける任務が始まった。",
+          "gm_tone": "スタイリッシュで疾走感あふれるアーバンファンタジー、サイバーパンクの色彩と軽妙なチーム劇",
+          "narrator_style": "テンポ良く爽快に。ナナリーの威勢の良いリーダーシップ、ミントの機敏な立ち回り、リンコの軽快な通信サポート、イロイの優雅な癒やし、そしてゼロたちの洗練された戦闘動作を鮮やかに描く。プレイヤーに常に明快な戦術的選択肢を提示する。"
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 50,
+      "difficulty": "medium",
+      "notes": [
+        "action",
+        "suspense",
+        "mild_danger"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Stürme mit Nanally und beiden Zeros direkt ins Zentrum des verzerrten Spiegelbezirks",
+            "badge": "Athletik",
+            "action_type": "do"
+          },
+          {
+            "text": "Lass Linko und Xiaozhen die Frequenzstörung der Schaufenster decodieren",
+            "badge": "Technik",
+            "action_type": "do"
+          },
+          {
+            "text": "Unterstütze Mint und Iroi dabei, die Zivilisten mit Traumwellen zu beruhigen",
+            "badge": "Einfühlung",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Charge directly into the heart of the warped Mirror District alongside Nanally and both Zeros",
+            "badge": "Athletics",
+            "action_type": "do"
+          },
+          {
+            "text": "Have Linko and Xiaozhen decode the resonant frequency glitching the shop windows",
+            "badge": "Technology",
+            "action_type": "do"
+          },
+          {
+            "text": "Assist Mint and Iroi in soothing panicked civilians with calming dream waves",
+            "badge": "Empathy",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Вместе с Наналли и обоими Зеро прорваться в эпицентр искаженного Зеркального квартала",
+            "badge": "Атлетика",
+            "action_type": "do"
+          },
+          {
+            "text": "Поручить Линко и Сяочжэнь расшифровать частотный сбой в витринах",
+            "badge": "Техника",
+            "action_type": "do"
+          },
+          {
+            "text": "Помочь Минт и Ирои успокоить напуганных прохожих убаюкивающими волнами снов",
+            "badge": "Эмпатия",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "ナナリーや二人のゼロと共に、歪んだ鏡面区の中心部へ直接突入する",
+            "badge": "運動",
+            "action_type": "do"
+          },
+          {
+            "text": "リンコとシャオチェンに、ショーウィンドウを狂わせている異常周波数を解析させる",
+            "badge": "技術",
+            "action_type": "do"
+          },
+          {
+            "text": "ミントとイロイを支援し、夢境の波動で逃げ惑う市民のパニックを鎮静化する",
+            "badge": "共感",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "nte_hethereau_city.webp",
+          "path": "presets/neverness-to-everness/backgrounds/nte_hethereau_city.webp"
+        }
+      ]
+    }
+  }
+}

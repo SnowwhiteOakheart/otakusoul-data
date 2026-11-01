@@ -724,6 +724,52 @@
           "name": "Overlord – Владыка и Стражи"
         }
       }
+    },
+    {
+      "name": "NTE – Die Metropole Hethereau",
+      "author": "SnowwhiteOakheart",
+      "description": "Die übernatürliche Metropole Hethereau, der Nexus, urbane Anomalien, Sicherheitskräfte der CSU-2 und das Antiquitätengeschäft Eibon.",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/nte_hethereau_world.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "The supernatural metropolis of Hethereau, the Nexus, urban anomalies, CSU-2 containment forces, and the Eibon Antique Shop.",
+          "name": "NTE – The Metropolis of Hethereau"
+        },
+        "ja": {
+          "description": "異能が交錯する大都市ヘテロ、ネクサス現象、都市異常事態、特殊治安部隊CSU-2、そして骨董店アイボン。",
+          "name": "NTE ― 大都市ヘテロ"
+        },
+        "ru": {
+          "description": "Сверхъестественный мегаполис Хезэро, Нексус, городские аномалии, подразделения сдерживания CSU-2 и антикварная лавка Эйбон.",
+          "name": "NTE – Мегаполис Хезэро"
+        }
+      }
+    },
+    {
+      "name": "NTE – Eibon-Crew & Agenten",
+      "author": "SnowwhiteOakheart",
+      "description": "Die Ermittler des Eibon-Antiquitätengeschäfts: Esper Zero, Nanally Colucci, Mint, Iroi, Linko sowie die Einsatzkräfte Lacrimosa und Shinku.",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/nte_eibon_crew.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "The investigators of the Eibon Antique Shop: Esper Zero, Nanally Colucci, Mint, Iroi, Linko, alongside specialists Lacrimosa and Shinku.",
+          "name": "NTE – Eibon Crew & Agents"
+        },
+        "ja": {
+          "description": "骨董店アイボンの調査員たち：エスパー・ゼロ、ナナリー・コルッチ、ミント、イロイ、リンコ、そしてラクリモサとシンク。",
+          "name": "NTE ― アイボン陣営とエージェント"
+        },
+        "ru": {
+          "description": "Следователи антикварной лавки Эйбон: Эспер Зеро, Наналли Колуччи, Минт, Ирои, Линко, а также оперативники Лакримоза и Шинку.",
+          "name": "NTE – Команда Эйбон и агенты"
+        }
+      }
     }
   ]
 }

@@ -482,3 +482,12 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Neues narratives Soul-Stage-Abenteuer `overlord_ep1_audienz_in_nazarick` (*Audienz im Thronsaal von Nazarick*) mit allen drei Figuren als Party, 3 Startvorschlägen je Sprache (DE/EN/RU/JA) und automatischem Hintergrund-Download.
 - [x] Individuelles, hochwertiges Anime-Keyvisual als Titelbild `presets/overlord/cover.webp` (960×540 WebP) und Thronsaal-Szenenhintergrund `presets/overlord/backgrounds/overlord_thronsaal.webp` (1376×768 WebP) generiert; Promptnachweis in `cover_prompt.json`.
 - [x] Vollständige Inhaltsvalidierung und Registry-Synchronisation bestanden: 0 Fehler, 0 Warnungen. Veröffentlichung als Kampagnenpaket auf main.
+
+
+## NTE: Neverness to Everness (01.11.2026)
+
+- [x] Hub-Sammlung `neverness_to_everness` in `collections_registry.json` veröffentlicht: Bündelt alle 8 NTE-Charaktere (Mint, Iroi, Lacrimosa, Nanally Colucci, Linko, Esper Zero weiblich und männlich, Shinku) für komfortables „Alles installieren“ inklusive Übersetzungen (DE/EN/RU/JA).
+- [x] Zwei neue Welten-Lorebooks mit je 6 Einträgen in allen vier Sprachen (DE/EN/RU/JA): `nte_hethereau_world.json` (*Die Metropole Hethereau*) und `nte_eibon_crew.json` (*Eibon-Crew & Agenten*).
+- [x] Neues narratives Soul-Stage-Abenteuer `nte_ep1_die_anomalie_im_spiegelbezirk` (*Die Anomalie im Spiegelbezirk*) mit 6 Mitspielern als Party (Nanally Colucci, Mint, Iroi, Linko, Esper Zero (Female), Esper Zero (Male)), je 3 Startvorschlägen pro Sprache (DE/EN/RU/JA) und automatischem Hintergrund-Download.
+- [x] Individuelles, hochwertiges Anime-Keyvisual als Titelbild `presets/neverness-to-everness/cover.webp` (960×540 WebP) und Metropolen-Szenenhintergrund `presets/neverness-to-everness/backgrounds/nte_hethereau_city.webp` (1376×768 WebP) generiert; Promptnachweis in `cover_prompt.json`.
+- [x] Vollständige Inhaltsvalidierung und Registry-Synchronisation bestanden: 0 Fehler, 0 Warnungen. Veröffentlichung als Kampagnenpaket auf main.

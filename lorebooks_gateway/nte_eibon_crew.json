@@ -1,0 +1,364 @@
+{
+  "name": "NTE – Eibon-Crew & Agenten",
+  "description": "Die Ermittler des Eibon-Antiquitätengeschäfts: Esper Zero, Nanally Colucci, Mint, Iroi, Linko sowie die Einsatzkräfte Lacrimosa und Shinku.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Esper Zero (Der lizenzlose Appraiser)",
+      "key": [
+        "Esper Zero",
+        "Zero",
+        "Appraiser",
+        "Schätzer",
+        "Nexus-Spürsinn"
+      ],
+      "content": "Der geheimnisvolle Protagonist von Hethereau (auftretend in weiblicher oder männlicher Gestalt), der ohne formelle staatliche Appraiser-Lizenz arbeitet, dafür aber über eine unvergleichliche Resonanzwahrnehmung zum Nexus verfügt. Zero spürt selbst feinste Risse im Raumgewebe instinktiv auf, kann den Ursprung von Anomalien zurückverfolgen und bedrohliche Anomalos im Nahkampf mit präzisen kinetischen Klingenangriffen unschädlich machen. Im Eibon-Laden ist Zero die unverzichtbare Speerspitze bei allen Außenmissionen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Esper Zero (The Unlicensed Appraiser)",
+              "content": "The enigmatic protagonist of Hethereau (appearing in either female or male persona), operating without an official state Appraiser license yet possessing unprecedented neural resonance with the Nexus. Zero instinctively detects microscopic spacetime fractures, tracing anomaly origins and pacifying hostile anomalous entities with razor-sharp kinetic blade arts. Within Eibon's clandestine circle, Zero serves as the indispensable vanguard on high-stakes investigations.",
+              "key": [
+                "Esper Zero",
+                "Zero",
+                "Appraiser",
+                "Nexus Sense",
+                "Blade"
+              ]
+            },
+            "ru": {
+              "name": "Эспер Зеро (Оценщик без лицензии)",
+              "content": "Таинственный протагонист Хезэро (в женском или мужском воплощении), действующий без официальной государственной лицензии, но обладающий феноменальным чутьем к резонансу Нексуса. Зеро безошибочно распознает микроскопические пространственные разломы, выслеживает очаги аномалий и нейтрализует аномало в ближнем бою кинетическим клинком. В лавке Эйбон Зеро является незаменимым острием любой операции.",
+              "key": [
+                "Эспер Зеро",
+                "Зеро",
+                "Оценщик",
+                "Чутье Нексуса",
+                "Клинок"
+              ]
+            },
+            "ja": {
+              "name": "エスパー・ゼロ（無免許のアプレイザー）",
+              "content": "ヘテロの街で暗躍する謎多き主人公（女性版／男性版の姿を持つ）。正規のアプレイザー（鑑定士）資格こそ持たないものの、ネクサスの微細な空間歪曲を直感的に察知する無類の共鳴知覚を誇る。発生源の特定から、鋭利な念動ブレードによる怪異性アノマロの制圧までを単独でこなす。骨董店アイボンにおいて、現場調査の切り込み隊長として不可欠な存在。",
+              "key": [
+                "エスパー・ゼロ",
+                "ゼロ",
+                "アプレイザー",
+                "鑑定士",
+                "ネクサス知覚"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Nanally Colucci (Ichi-daime von Eibon)",
+      "key": [
+        "Nanally",
+        "Nanally Colucci",
+        "Ichi-daime",
+        "Chefin",
+        "Katzenhybrid"
+      ],
+      "content": "Die stolze, energiegeladene Chefin ('Ichi-daime') des Eibon-Antiquitätengeschäfts. Die junge Katzenhybridin mit runden Boss-Brillengläsern, pinkrotem Haar und feinem Blazer leitet die Einsatzzentrale mit ansteckendem Selbstbewusstsein, flotter Klappe und einem riesigen Herzen für ihre Crew. Trotz ihrer theatralischen Prahlereien besitzt Nanally herausragendes kaufmännisches Geschick, wertvolle Kontakte in die Hethereau-Unterwelt und lässt niemanden im Stich, der ihren Schutz sucht.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Nanally Colucci (Ichi-daime of Eibon)",
+              "content": "The exuberant, fiercely loyal proprietor and self-proclaimed 'Ichi-daime' (First-Generation Boss) of the Eibon Antique Shop. Sporting signature round boss glasses, crimson-pink hair, and a tailored dark blazer, this young feline hybrid coordinates field missions with magnetic confidence and infectious theatricality. Behind her boisterous boasts lies sharp street smarts, deep underworld connections, and an unwavering protective instinct toward her crew.",
+              "key": [
+                "Nanally",
+                "Nanally Colucci",
+                "Ichi-daime",
+                "Boss",
+                "Feline Hybrid"
+              ]
+            },
+            "ru": {
+              "name": "Наналли Колуччи (Ичи-дайме лавки Эйбон)",
+              "content": "Гордая и неунывающая хозяйка ('Ичи-дайме' — босс первого поколения) антикварной лавки Эйбон. Молодая кошкодевушка в круглых стильных очках, ярком блейзере и с пышными розово-рыжими волосами руководит операциями с обезоруживающей уверенностью и театральным задором. За громкими хвастливыми речами скрываются острый ум, обширные связи на улицах Хезэро и бесконечная преданность своим друзьям.",
+              "key": [
+                "Наналли",
+                "Наналли Колуччи",
+                "Ичи-дайме",
+                "Босс",
+                "Кошкодевушка"
+              ]
+            },
+            "ja": {
+              "name": "ナナリー・コルッチ（アイボン初代店主）",
+              "content": "骨董店アイボンの若き店主にして、自称「初代（イチダイメ）」。丸眼鏡とピンクレッドのロングヘア、黒のクロップドブレザーがトレードマークの猫耳ハイブリッド少女。大風呂敷を広げるコミカルで尊大な物言いが目立つが、仲間思いで面倒見の良さは人一倍。ヘテロの裏通りに通じる幅広い情報網を持ち、チームの司令塔として調査を力強く牽引する。",
+              "key": [
+                "ナナリー",
+                "ナナリー・コルッチ",
+                "初代",
+                "店主",
+                "猫耳"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Mint (CSU-2-Spürnase)",
+      "key": [
+        "Mint",
+        "CSU-2",
+        "Spürnase",
+        "Katzenöhrchen",
+        "Turquoise"
+      ],
+      "content": "Eine dynamische, unerschütterlich optimistische CSU-2-Agentin mit markantem türkisem Riesenzopf und wachsamen Katzenohren. Mint patrouilliert mit Vorliebe in den verwinkelten Gassen von Hethereau, schnüffelt illegale Anomalie-Labore auf und spürt verfluchte Relikte auf, noch bevor die Sensoren der Stadt anschlagen. Sie ist eng mit der Eibon-Crew befreundet und versorgt Nanally regelmäßig mit Insider-Warnungen vor drohenden CSU-Sperrzonen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Mint (CSU-2 Scout)",
+              "content": "A perky, irrepressibly curious CSU-2 field scout characterized by a long vibrant turquoise high ponytail and twitching cat ears. Mint patrols the neon labyrinth of Hethereau with unmatched local knowledge, sniffing out contraband anomalies and clandestine rifts well before centralized municipal sensors trigger. A close friend of the Eibon team, she frequently slips Nanally classified intelligence regarding impending containment lockdowns.",
+              "key": [
+                "Mint",
+                "CSU-2",
+                "Scout",
+                "Cat Ears",
+                "Turquoise"
+              ]
+            },
+            "ru": {
+              "name": "Минт (Ищейка CSU-2)",
+              "content": "Непоседливая и жизнерадостная разведчица CSU-2 с длинным бирюзовым хвостом и чуткими кошачьими ушками. Минт превосходно ориентируется во дворах и закоулках Хезэро, вынюхивая скрытые аномалии и нелегальные лаборатории быстрее любых городских радаров. Дружит с командой Эйбон и частенько снабжает Наналли секретными сводками о готовящихся облавах.",
+              "key": [
+                "Минт",
+                "CSU-2",
+                "Ищейка",
+                "Кошачьи ушки",
+                "Бирюзовый"
+              ]
+            },
+            "ja": {
+              "name": "ミント（CSU-2の敏腕スカウト）",
+              "content": "鮮やかなターコイズブルーのポニーテールと猫耳が愛らしい、CSU-2所属の若き捜査官。ヘテロの路地裏やアンダーグラウンドを熟知しており、市警のセンサーが感知する前に危険なアノマリーの兆候を嗅ぎつける抜群の嗅覚を持つ。骨董店アイボンとは公私にわたる懇意の間柄で、封鎖区域の極秘情報をナナリーたちに融通することも多い。",
+              "key": [
+                "ミント",
+                "CSU-2",
+                "スカウト",
+                "猫耳",
+                "ターコイズ"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Iroi (Die Traum-Esperin)",
+      "key": [
+        "Iroi",
+        "Traum-Esperin",
+        "Traumschaf",
+        "Widderhörner",
+        "Traumebene"
+      ],
+      "content": "Eine sanftmütige, elegante Esperin mit geschwungenen Widderhörnern und zartem mintgrünem Haar. Iroi besitzt die seltene Gabe der Traum-Resonanz und wird von drei kleinen, mechanisch schwebenden Traumschafen begleitet. Ihre Kräfte manifestieren sich in beruhigenden, pastellfarbenen Energiewellen, die Panik dämpfen, die Gedanken aggressiver Anomalos in friedlichen Schlummer wiegen und instabile Raumverzerrungen wieder glätten können.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Iroi (The Dream Esper)",
+              "content": "A graceful, serene esper bearing dark curled ram horns and flowing mint-green hair. Iroi commands the elusive art of Dream Resonance, flanked by a trio of hovering miniature mechanical dream-sheep. Her powers emanate as gentle, pastel energy tides capable of quelling civic hysteria, lulling hyper-aggressive entities into pacified slumber, and smoothing warped spatial fractures back into equilibrium.",
+              "key": [
+                "Iroi",
+                "Dream Esper",
+                "Dream Sheep",
+                "Ram Horns",
+                "Slumber"
+              ]
+            },
+            "ru": {
+              "name": "Ирои (Эспер снов)",
+              "content": "Утонченная и кроткая эспер с витыми бараньими рожками и нежно-мятными волосами. Ирои повелевает резонансом мира снов в сопровождении трех летающих механических овечек. Ее способность разливается мягкими убаюкивающими волнами пастельного света, усмиряя агрессию диких аномало, снимая панику у свидетелей и разглаживая искривления пространства.",
+              "key": [
+                "Ирои",
+                "Эспер снов",
+                "Овечки снов",
+                "Рожки",
+                "Сон"
+              ]
+            },
+            "ja": {
+              "name": "イロイ（夢境のエスパー）",
+              "content": "カールした羊角とミントグリーンの髪が印象的な、物腰柔らかな少女。夢境の波動を操る稀有な能力を持ち、彼女の周囲には三匹の小さなからくり夢羊がふわふわと漂っている。パステル調の穏やかなマナを放つことで、暴走したアノマロの敵意を眠りに誘い、空間の亀裂を穏やかに修復する優れた鎮静・支援のエキスパート。",
+              "key": [
+                "イロイ",
+                "夢境",
+                "夢羊",
+                "羊角",
+                "鎮静"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Linko & Xiaozhen (ETD-6-Telepathin)",
+      "key": [
+        "Linko",
+        "Xiaozhen",
+        "ETD-6",
+        "Telepathie",
+        "Antennen",
+        "Frequenz"
+      ],
+      "content": "Eine aufgeweckte, exzentrische Technomagierin der ETD-6 mit fluffigem rosa Haar, Spiralantennen an ihren Kopfhörern und einer extragroßen Oversized-Jacke. Linko empfängt und moduliert paranormale Frequenzen im gesamten Stadtnetz. Aus ihrem kompakten Rucksack-Monitor schwebt ihr treuer Gefährte Xiaozhen – ein leuchtender cyanfarbener Geist, der Datenströme visualisiert und bei Bedarf als Schutzschild dient. Linko sorgt bei Einsätzen für abhörsichere Funkkanäle und deckt getarnte Anomalien auf.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Linko & Xiaozhen (ETD-6 Telepath)",
+              "content": "A quirky, hyper-perceptive technopath from ETD-6 sporting bubblegum-pink hair, spiral antenna headphones, and a baggy futuristic teal jacket. Linko intercepts, unscrambles, and broadcasts encrypted paranormal frequencies across Hethereau's infrastructure. Accompanying her is Xiaozhen, a luminous cyan ghost entity manifesting from her CRT backpack display to map anomaly data and deflect incoming kinetic bursts.",
+              "key": [
+                "Linko",
+                "Xiaozhen",
+                "ETD-6",
+                "Telepathy",
+                "Antenna",
+                "Frequencies"
+              ]
+            },
+            "ru": {
+              "name": "Линко и Сяочжэнь (Телепат ETD-6)",
+              "content": "Эксцентричная и сообразительная сотрудница ETD-6 с пушистыми розовыми волосами, спиральными антеннами на наушниках и в безразмерной бирюзовой куртке. Линко перехватывает и перенастраивает любые паранормальные частоты города. Из ее монитора-рюкзака парит верный призрак Сяочжэнь — сгусток цианового света, анализирующий потоки данных и ставящий защитные барьеры.",
+              "key": [
+                "Линко",
+                "Сяочжэнь",
+                "ETD-6",
+                "Телепатия",
+                "Антенны",
+                "Частоты"
+              ]
+            },
+            "ja": {
+              "name": "リンコ＆シャオチェン（ETD-6通信スペシャリスト）",
+              "content": "ふわふわのピンク髪に螺旋アンテナ付きヘッドフォン、オーバーサイズのサイバージャケットを着こなすETD-6の天才児。都市全域の不可視周波数や電磁テレパシーを自在にハッキングする。背負った小型テレビ型バックパックからは、相棒である青白い発光幽霊「シャオチェン」が出現し、敵データの可視化や電磁バリアの展開を行う。",
+              "key": [
+                "リンコ",
+                "シャオチェン",
+                "ETD-6",
+                "テレパシー",
+                "アンテナ",
+                "通信"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Lacrimosa & Shinku (Schlagkraft & Schutz)",
+      "key": [
+        "Lacrimosa",
+        "Shinku",
+        "ETD-4",
+        "Tomatensaft",
+        "Drachin",
+        "Drachenhörner"
+      ],
+      "content": "Zwei hochkarätige Kämpferinnen, die häufig bei schwerwiegenden Zwischenfällen zur Unterstützung gerufen werden: Lacrimosa (ETD-4) wirkt mit ihrem schwarz-weißen Bob und dem ewigen Tomatensaftpack stets schläfrig und unbeeindruckt, besitzt jedoch gewaltige physische und kinetische Schlagkraft. Shinku (CSU-2) ist eine reservierte Drachenhybridin mit imposanten roten Hörnern und gepanzertem Schweif, deren feuriger Gerechtigkeitssinn jeden Schutzbefehl zur obersten Priorität macht.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Lacrimosa & Shinku (Heavy Impact & Vanguard)",
+              "content": "Two elite combatants called upon during catastrophic metropolitan escalations: Lacrimosa (ETD-4) appears perpetually drowsy with her split-color bob and tomato juice carton, yet unleashes devastating kinetic brute force capable of flattening armored anomalies. Shinku (CSU-2) is a stoic, dragon-blooded warrior bearing imposing crimson horns and an armored tail, driven by an uncompromising moral code to shield the innocent at all costs.",
+              "key": [
+                "Lacrimosa",
+                "Shinku",
+                "ETD-4",
+                "Dragon Horns",
+                "Vanguard",
+                "Impact"
+              ]
+            },
+            "ru": {
+              "name": "Лакримоза и Шинку (Ударная мощь и авангард)",
+              "content": "Две сильнейшие воительницы, привлекаемые при критических инцидентах: Лакримоза (ETD-4) с черно-белым каре и неизменным пакетиком томатного сока кажется вечно сонной, но обладает сокрушительной физической мощью. Шинку (CSU-2) — сдержанная полудраконица с массивными багровыми рогами и бронированным хвостом, готовая пойти на всё ради защиты мирных жителей Хезэро.",
+              "key": [
+                "Лакримоза",
+                "Шинку",
+                "ETD-4",
+                "Драконьи рога",
+                "Авангард",
+                "Томатный сок"
+              ]
+            },
+            "ja": {
+              "name": "ラクリモサ＆シンク（強襲と守護）",
+              "content": "重大インシデントの際に招集される二大主力戦闘員。モノトーンボブとトマトジュースが好物のラクリモサ（ETD-4）は、常に気だるげで眠たそうに振る舞うが、大型アノマロを一撃で粉砕する桁外れの怪力を秘める。シンク（CSU-2）は漆黒と真紅の竜角を持つ誇り高き竜族の女性で、市民の安全を最優先とする冷徹かつ情熱的な守護本能で前線を死守する。",
+              "key": [
+                "ラクリモサ",
+                "シンク",
+                "竜族",
+                "ETD-4",
+                "重火器",
+                "前線防衛"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "NTE – Eibon Crew & Agents",
+          "description": "The investigators of the Eibon Antique Shop: Esper Zero, Nanally Colucci, Mint, Iroi, Linko, alongside specialists Lacrimosa and Shinku."
+        },
+        "ru": {
+          "name": "NTE – Команда Эйбон и агенты",
+          "description": "Следователи антикварной лавки Эйбон: Эспер Зеро, Наналли Колуччи, Минт, Ирои, Линко, а также оперативники Лакримоза и Шинку."
+        },
+        "ja": {
+          "name": "NTE ― アイボン陣営とエージェント",
+          "description": "骨董店アイボンの調査員たち：エスパー・ゼロ、ナナリー・コルッチ、ミント、イロイ、リンコ、そしてラクリモサとシンク。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "name": "NTE – Die Metropole Hethereau",
+  "description": "Die übernatürliche Metropole Hethereau, der Nexus, urbane Anomalien, Sicherheitskräfte der CSU-2 und das Antiquitätengeschäft Eibon.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Die Metropole Hethereau",
+      "key": [
+        "Hethereau",
+        "Metropole",
+        "Stadt",
+        "Skyline",
+        "Neonstadt",
+        "Urban"
+      ],
+      "content": "Hethereau ist eine pulsierende, gigantische Küstenmetropole, in der futuristische Großstadtarchitektur und fortschrittliche Technologie auf übernatürliche Anomalien treffen. Zwischen gläsernen Wolkenkratzern mit holografischen Neontafeln, mehrstöckigen Stadtautobahnen und belebten Einkaufsmeilen ereignen sich alltäglich surreale Phänomene: Straßenzüge biegen sich in unmögliche Winkel, Ampeln sprechen Rätsel, und alltägliche Gegenstände entwickeln eigenwillige Kognition. Die Bürger nehmen diese Kuriositäten gelassen hin, während spezialisierte Organisationen die gravierenden Zwischenfälle abschirmen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Metropolis of Hethereau",
+              "content": "Hethereau is a sprawling, luminous coastal megalopolis where cutting-edge modern urban life coexists with bizarre supernatural phenomena. Amid towering skyscrapers adorned with holographic displays, multi-tiered skyways, and bustling shopping arcades, surreal anomalies occur on a daily basis: gravity bends unexpectedly, street geometry morphs, and inanimate objects gain spontaneous awareness. While citizens take these oddities in stride, specialized organizations work relentlessly behind the scenes to contain catastrophic breaches.",
+              "key": [
+                "Hethereau",
+                "Metropolis",
+                "City",
+                "Skyline",
+                "Neon City",
+                "Urban"
+              ]
+            },
+            "ru": {
+              "name": "Мегаполис Хезэро",
+              "content": "Хезэро — сверкающий прибрежный мегаполис, где ультрасовременные технологии соседствуют со сверхъестественными аномалиями. Среди сияющих голографических небоскребов, многоуровневых автострад и оживленных кварталов ежедневно происходят сюрреалистические феномены: дома парят в воздухе, законы физики искажаются, а обычные вещи обретают разум. Горожане привыкли к причудам города, пока спецслужбы сдерживают масштабные инциденты.",
+              "key": [
+                "Хезэро",
+                "Мегаполис",
+                "Город",
+                "Небоскребы",
+                "Неон",
+                "Урбан"
+              ]
+            },
+            "ja": {
+              "name": "大都市ヘテロ",
+              "content": "近未来的なハイテク都市と超常現象が混在する巨大沿岸メトロポリス。巨大ホログラムが夜空を彩る超高層ビル群や立体高速道路の足元で、空間の歪みや無生物の異形化といった不可解な「異常事態」が日常茶飯事として発生する。住民たちはこの奇妙な都市生活を軽やかに受け入れつつ暮らしており、深刻な危機に対しては専門の治安部隊や異能者（エスパー）たちが秘密裏に対処している。",
+              "key": [
+                "ヘテロ",
+                "大都市",
+                "都市",
+                "摩天楼",
+                "ネオン街",
+                "メガロポリス"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Der Nexus & urbane Anomalien",
+      "key": [
+        "Nexus",
+        "Anomalie",
+        "Anomalien",
+        "Nexus-Resonanz",
+        "Verzerrung",
+        "Anomalo"
+      ],
+      "content": "Anomalien sind raumzeitliche Risse, materielle Verzerrungen und übernatürliche Manifestationen, die durch Resonanzspitzen im geheimnisvollen 'Nexus' hervorgerufen werden. Der Nexus wirkt wie eine energetische Zwischenschicht der Realität, in der menschliche Gedanken, unbewusste Wünsche und städtische Gerüchte greifbare Form annehmen können. Entsteht eine unkontrollierte Anomalie-Zone, verwandeln sich Gegenstände in aggressive Anomalos oder Räume falten sich in endlose Korridore, die von qualifizierten Appraisern untersucht und versiegelt werden müssen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Nexus & Urban Anomalies",
+              "content": "Anomalies represent spacetime distortions, physical warps, and entity manifestations triggered by surge spikes within the metaphysical layer known as the Nexus. The Nexus acts as an invisible reality-substrate where human subconscious thoughts, shared anxieties, and urban legends coalesce into physical form. When an unstable anomaly erupts, mundane objects mutate into bizarre entities or loop into endless spatial labyrinths, demanding immediate appraisal and containment.",
+              "key": [
+                "Nexus",
+                "Anomaly",
+                "Anomalies",
+                "Resonance",
+                "Distortion",
+                "Entities"
+              ]
+            },
+            "ru": {
+              "name": "Нексус и городские аномалии",
+              "content": "Аномалии — пространственно-временные разломы, физические искажения и порождения иной реальности, вызванные резонансом в таинственном измерении Нексуса. Нексус улавливает коллективное бессознательное, страхи и городские мифы, превращая их в осязаемую материю. В зонах всплесков аномалий пространство скручивается в бесконечные лабиринты, а предметы оживают в виде агрессивных сущностей, требуя вмешательства оценщиков (Appraisers).",
+              "key": [
+                "Нексус",
+                "Аномалия",
+                "Аномалии",
+                "Резонанс",
+                "Искажение",
+                "Сущности"
+              ]
+            },
+            "ja": {
+              "name": "ネクサスと都市異常現象",
+              "content": "未知の次元境界「ネクサス」の共鳴増幅によって引き起こされる空間の歪曲や超常現象。都市の人々の集合的無意識、恐怖、噂話がネクサスを通じて物質世界に具現化し、時に怪異な「アノマロ」として牙を剥く。ひとたび不安定な異常領域が発生すると、周囲の物理法則が崩壊し空間が無限にループするため、専門の鑑定士（アプレイザー）による調査と封印が不可欠となる。",
+              "key": [
+                "ネクサス",
+                "アノマリー",
+                "異常事態",
+                "共鳴",
+                "空間歪曲",
+                "怪異"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Das Antiquitätengeschäft Eibon",
+      "key": [
+        "Eibon",
+        "Antiquitätengeschäft",
+        "Eibon-Laden",
+        "Nanally",
+        "Appraiser",
+        "Zentrale"
+      ],
+      "content": "Ein charmant-uriges, edles Antiquitätengeschäft im Stadtteil von Hethereau, geführt von der temperamentvollen Nanally Colucci. Während im vorderen Verkaufsraum historische Teekannen, alte Fotoapparate und seltsame Artefakte ausgestellt sind, dient das Hinterzimmer als operative Kommandozentrale für Esper-Ermittlungen. Hier laufen anonyme Hilferufe und bizarre Aufträge von Bürgern ein, die Probleme mit unerklärlichen Phänomenen haben und sich nicht an die bürokratischen Behörden wenden wollen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Eibon Antique Shop",
+              "content": "A charming, vintage boutique nestled in a historic corner of Hethereau, managed by the exuberant Nanally Colucci. While the front showroom displays rare clockwork trinkets, retro cameras, and mystical curiosities, the backroom serves as a covert operations hub for licensed Appraisers. Eibon accepts eccentric and hazardous anomaly requests from citizens seeking discreet solutions outside bureaucratic city channels.",
+              "key": [
+                "Eibon",
+                "Antique Shop",
+                "Nanally",
+                "Appraiser",
+                "Headquarters",
+                "Curios"
+              ]
+            },
+            "ru": {
+              "name": "Антикварная лавка Эйбон",
+              "content": "Уютный и стильный магазинчик антиквариата в историческом квартале Хезэро, возглавляемый неугомонной Наналли Колуччи. В витринах выставлены старинные часы, пленочные камеры и редкие артефакты, а в задней комнате кипит работа неформального штаба эсперов. Эйбон берется за самые странные и щекотливые дела, за которые городские службы не берутся из-за строгой бюрократии.",
+              "key": [
+                "Эйбон",
+                "Антикварная лавка",
+                "Наналли",
+                "Оценщик",
+                "Штаб",
+                "Артефакты"
+              ]
+            },
+            "ja": {
+              "name": "骨董店アイボン",
+              "content": "ヘテロの一角に佇むクラシカルで風情ある骨董店。快活な女店主ナナリー・コルッチが営む。表向きはレトロなカメラや古時計、珍しい美術品を扱うアンティークショップだが、その奥は異能者（エスパー）たちが集う秘密の調査拠点となっている。役所の正規ルートでは対応できない、市民からの奇妙で切実な依頼を請け負う駆け込み寺でもある。",
+              "key": [
+                "アイボン",
+                "骨董店",
+                "アンティーク",
+                "ナナリー",
+                "拠点",
+                "アプレイザー"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "CSU-2 & ETD-Sicherheitskräfte",
+      "key": [
+        "CSU-2",
+        "ETD",
+        "Sicherheitskräfte",
+        "Containment",
+        "Tactical Division",
+        "Mint",
+        "Shinku"
+      ],
+      "content": "Die offiziellen Ordnungsorgane der Stadt Hethereau zur Abwehr übernatürlicher Gefahren: Die 'Containment and Security Unit 2' (CSU-2) übernimmt die Gefahrenerkennung, Spurensicherung und Straßenüberwachung (unter Beteiligung von Mint und Shinku). Die 'Esper Tactical Division' (ETD) ist die paramilitärische Spezialeinheit für hochriskante Interventionen bei massiven Nexus-Brüchen (mit Agentinnen wie Linko und Lacrimosa). Beide Organisationen pflegen eine pragmatische, wenngleich oft gereizte Kooperation mit Nanallys Eibon-Laden.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "CSU-2 & ETD Security Forces",
+              "content": "Hethereau's official governmental institutions tasked with supernatural risk management: The Containment and Security Unit 2 (CSU-2, featuring agents like Mint and Shinku) conducts street surveillance, field intelligence, and anomaly quarantine. The Esper Tactical Division (ETD, featuring specialists like Linko and Lacrimosa) provides heavy tactical firepower for catastrophic Nexus breaches. Both agencies maintain an uneasy yet essential working relationship with Eibon.",
+              "key": [
+                "CSU-2",
+                "ETD",
+                "Security",
+                "Containment",
+                "Tactical",
+                "Mint",
+                "Shinku"
+              ]
+            },
+            "ru": {
+              "name": "Силы безопасности CSU-2 и ETD",
+              "content": "Официальные городские службы безопасности Хезэро: Подразделение сдерживания и безопасности CSU-2 (где служат Минт и Шинку) ведет разведку, патрулирует улицы и оцепляет опасные зоны. Тактическая дивизия эсперов ETD (к которой относятся Линко и Лакримоза) выступает ударным кулаком при масштабных прорывах Нексуса. Обе структуры вынуждены регулярно взаимодействовать с лавкой Эйбон.",
+              "key": [
+                "CSU-2",
+                "ETD",
+                "Безопасность",
+                "Сдерживание",
+                "Минт",
+                "Шинку"
+              ]
+            },
+            "ja": {
+              "name": "治安維持組織CSU-2とETD",
+              "content": "ヘテロの秩序を守る正規の超常災害対策機関。「第2治安封じ込め部隊（CSU-2）」はミントやシンクらが所属し、街頭パトロール、情報収集、現場の初期隔離を担う。一方の「異能戦術師団（ETD）」にはリンコやラクリモサらが属し、大規模なネクサス崩壊に対する重火器・異能制圧を担当する。骨董店アイボンとは時に反発しながらも、不可欠な協力関係を結んでいる。",
+              "key": [
+                "CSU-2",
+                "ETD",
+                "治安部隊",
+                "特殊部隊",
+                "ミント",
+                "シンク",
+                "リンコ"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Esper-Fähigkeiten & Traum-Resonanz",
+      "key": [
+        "Esper",
+        "Esper-Kräfte",
+        "Traum",
+        "Telepathie",
+        "Iroi",
+        "Linko",
+        "Resonanz"
+      ],
+      "content": "Espers sind Menschen und Hybride mit einer angeborenen oder erwachten Resonanzfrequenz zum Nexus. Ihre Kräfte sind höchst individuell: Sie reichen von telepathischer Daten- und Funkübertragung über weite Distanzen (wie Linkos Frequenz-Kanalisierung) über die materielle Traumwellen-Beruhigung (wie Iroi mit ihren drei schwebenden, flauschigen Traumschafen) bis hin zu hochpräzisen Raum- und Schwertkampf-Künsten der Appraiser (wie Esper Zero).",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Esper Abilities & Dream Resonance",
+              "content": "Espers are individuals endowed with inherent neural resonance frequencies that interface with the Nexus. Their supernatural gifts are remarkably diverse: ranging from wide-range telepathic broadcasts (such as Linko's frequency tuning), to tangible dream-energy pacification (such as Iroi commanding her flock of floating mechanical dream sheep), to the keen dimensional sensory perception and blade arts mastered by Appraisers like Esper Zero.",
+              "key": [
+                "Esper",
+                "Abilities",
+                "Dream",
+                "Telepathy",
+                "Iroi",
+                "Linko",
+                "Resonance"
+              ]
+            },
+            "ru": {
+              "name": "Способности эсперов и резонанс снов",
+              "content": "Эсперы — люди и гибриды, обладающие особой частотой связи с Нексусом. Их дары уникальны: от дальней телепатии и перехвата частот (способности Линко) до материализации успокаивающих волн сна (Ирои с ее летающими заводными овечками снов) и тончайшего пространственного чутья боевых оценщиков вроде Эспера Зеро.",
+              "key": [
+                "Эспер",
+                "Способности",
+                "Сны",
+                "Телепатия",
+                "Ирои",
+                "Линко",
+                "Резонанс"
+              ]
+            },
+            "ja": {
+              "name": "異能（エスパー）と夢境共鳴",
+              "content": "ネクサスと波長を同調させ、超常の力を発現させる能力者たち。その性質は多岐にわたり、広域テレパシーや周波数傍受（リンコ）、夢境の波動を物質化して敵意を鎮める能力（イロイと空飛ぶ夢羊たち）、そしてネクサスの歪みを感知し断ち切るアプレイザーの鋭敏な空間知覚と剣技（エスパー・ゼロ）などが存在する。",
+              "key": [
+                "エスパー",
+                "異能",
+                "夢境",
+                "テレパシー",
+                "イロイ",
+                "リンコ",
+                "共鳴現象"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Straßenkultur, Sportwagen & Nachtleben",
+      "key": [
+        "Sportwagen",
+        "Rennen",
+        "Tuning",
+        "Skateboard",
+        "Straßenkultur",
+        "Hethereau-Nacht"
+      ],
+      "content": "Neben paranormalen Ermittlungen prägt ein pulsierendes Nachtleben die Metropole Hethereau. Hochgradig modifizierte, mit Sci-Fi-Elementen und Antischwerkraft-Tuning ausgestattete Sportwagen rasen nachts über beleuchtete Viadukte und durch Tunnelanlagen. Skater und Jugendliche nutzen die verwinkelten Gassen für Akrobatik und urbane Erkundung. Viele Esper-Crews besitzen eigene modifizierte Fahrzeuge, die gleichzeitig als rollendes Labor, mobiles Datenzentrum und Fluchtwagen dienen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Street Culture, Sports Cars & Nightlife",
+              "content": "Beyond paranormal hazards, Hethereau thrives on an electrifying urban nightlife and car-tuning culture. High-performance custom sports cars outfitted with futuristic drift systems and gravity dampeners tear across illuminated expressways and subterranean bypasses. Skaters glide across neon plazas, and many operative teams maintain heavily modified rides that double as mobile command units and high-speed extraction vehicles.",
+              "key": [
+                "Sports Cars",
+                "Racing",
+                "Tuning",
+                "Skateboard",
+                "Street Culture",
+                "Nightlife"
+              ]
+            },
+            "ru": {
+              "name": "Уличная культура, спорткары и ночной город",
+              "content": "Помимо аномалий, Хезэро славится драйвом ночной жизни и культурой тюнинга. Модифицированные футуристические спорткары устраивают ночные заезды по эстакадам и туннелям мегаполиса. Скейтеры скользят по сияющим неоном площадям, а команды эсперов часто используют заряженные авто как мобильные лаборатории и машины для быстрого отхода.",
+              "key": [
+                "Спорткары",
+                "Гонки",
+                "Тюнинг",
+                "Скейтборд",
+                "Уличная культура",
+                "Ночной город"
+              ]
+            },
+            "ja": {
+              "name": "ストリートカルチャーとカスタムマシン",
+              "content": "怪異現象の裏で、ヘテロの夜を彩る熱狂的なストリートカルチャーとマシンカスタマイズ。反重力技術や最新のサイバーチューンを施したスポーツカーが立体ハイウェイを疾走し、若者たちはスケートボードでネオン街を駆け抜ける。多くの異能者たちもまた、自慢のカスタムカーを移動式前線基地や緊急離脱用の足として愛用している。",
+              "key": [
+                "カスタムカー",
+                "スポーツカー",
+                "ストリート",
+                "スケートボード",
+                "夜のヘテロ",
+                "チューニング"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "NTE – The Metropolis of Hethereau",
+          "description": "The supernatural metropolis of Hethereau, the Nexus, urban anomalies, CSU-2 containment forces, and the Eibon Antique Shop."
+        },
+        "ru": {
+          "name": "NTE – Мегаполис Хезэро",
+          "description": "Сверхъестественный мегаполис Хезэро, Нексус, городские аномалии, подразделения сдерживания CSU-2 и антикварная лавка Эйбон."
+        },
+        "ja": {
+          "name": "NTE ― 大都市ヘテロ",
+          "description": "異能が交錯する大都市ヘテロ、ネクサス現象、都市異常事態、特殊治安部隊CSU-2、そして骨董店アイボン。"
+        }
+      }
+    }
+  }
+}

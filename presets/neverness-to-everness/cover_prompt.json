@@ -1,0 +1,20 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-11-01",
+  "prompt": "Official anime key visual poster for Neverness to Everness (NTE). Cinematic 16:9 widescreen composition set in the vibrant supernatural cyberpunk metropolis of Hethereau at night with glowing neon billboards, dimensional anomaly rifts in the violet sky, elevated highways, and sleek wet pavement outside an antique shop front. In the center, Nanally Colucci with cat ears, glasses, cropped blazer and pink skirt grinning with hands on hips, flanked by Female Esper Zero and Male Esper Zero in dark tailored sci-fi jackets and lavender ties. Joined by Mint with her turquoise high ponytail, Iroi with curved ram horns and floating mechanical dream-sheep, and Linko with antenna headphones, oversized teal jacket and glowing cyan ghost companion Xiaozhen. Dynamic urban lighting, volumetric neon reflections, clean anime lines, clean framing, completely free of text, no logos, no watermarks.",
+  "references": [
+    "presets/neverness-to-everness/nanally.png",
+    "presets/neverness-to-everness/zero_female.png",
+    "presets/neverness-to-everness/zero_male.png",
+    "presets/neverness-to-everness/mint.png",
+    "presets/neverness-to-everness/iroi.png",
+    "presets/neverness-to-everness/linko.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92. Vollbild als Szenenhintergrund in backgrounds/nte_hethereau_city.webp.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}
