@@ -464,6 +464,45 @@
           "description": "五人の仲間、葬送鐘、奪われた記憶。Mists of Pandaria後の独自ファン冒険と75枚の表情イラスト。"
         }
       }
+    },
+    {
+      "id": "re_zero",
+      "title": "Re:Zero – Starting Life in Another World",
+      "author": "SnowwhiteOakheart",
+      "description": "Das Drachenkönigreich Lugnica, das Roswaal-Anwesen und das tödliche Tabu der Hexe: Subaru, Emilia, Beatrice, Ram und Echidna zwischen Schicksalsschleifen und Magie.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/re-zero/cover.webp",
+      "characters": [
+        "Emilia",
+        "Subaru Natsuki",
+        "Rem",
+        "Ram",
+        "Beatrice",
+        "Echidna"
+      ],
+      "lorebooks": [
+        "Re:Zero – Welt, Magie & Hexen",
+        "Re:Zero – Roswaal-Anwesen & Heiligtum"
+      ],
+      "scenes": [
+        "re_zero_ep1_schatten_ueber_dem_anwesen",
+        "frozen_bells_emilia"
+      ],
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "title": "Re:Zero – Starting Life in Another World",
+          "description": "The Dragon Kingdom of Lugnica, Roswaal Manor, and the deadly taboo of the Witch: Subaru, Emilia, Beatrice, Ram, and Echidna caught between fate loops and arcane mysteries."
+        },
+        "ru": {
+          "title": "Re:Zero – Жизнь с нуля в другом мире",
+          "description": "Королевство Дракона Лугуника, поместье Розвааля и смертельное табу Ведьмы: Субару, Эмилия, Беатрис, Рам и Ехидна среди временных петель и магии."
+        },
+        "ja": {
+          "title": "Re:ゼロから始める異世界生活",
+          "description": "親竜王国ルグニカ、ロズワール邸、そして魔女の死の禁忌。運命のループと魔法の狭間で交錯するスバル、エミリア、ベアトリス、ラム、エキドナの物語。"
+        }
+      }
     }
   ]
 }

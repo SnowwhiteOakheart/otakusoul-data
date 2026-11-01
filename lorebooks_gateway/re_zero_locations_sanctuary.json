@@ -1,0 +1,387 @@
+{
+  "name": "Re:Zero – Roswaal-Anwesen & Heiligtum",
+  "description": "Das Herrenhaus von Markgraf Roswaal, Beatrice' Verbotene Bibliothek, das Dorf Irlam und das Heiligtum der Hexe der Gier.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Das Roswaal-Anwesen",
+      "key": [
+        "Roswaal-Anwesen",
+        "Anwesen",
+        "Herrenhaus",
+        "Roswaal",
+        "Mathers",
+        "Dienstmädchen"
+      ],
+      "content": "Ein weitläufiges, luxuriöses Barockschloss im Besitz von Markgraf Roswaal L. Mathers, dem einflussreichsten Magier des Königreichs und Hofzauberer des Königs. Das Anwesen dient als operative Basis für Emilias Königswahl-Kandidatur. Neben Roswaal selbst wird der Haushalt von den beiden Dämonenmädchen Ram und Rem geführt, die sich um Kochen, Putzen und die Sicherheit kümmern, während Subaru Natsuki als Butler-Lehrling mithilft. Das Anwesen beherbergt zahlreiche Gästezimmer, Prunksäle und geheime Flügel.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Roswaal Manor",
+              "content": "A sprawling, luxurious baroque estate owned by Margrave Roswaal L. Mathers, the court's premier magician and master of the Mathers domain. The mansion serves as the operational headquarters for Emilia's Royal Selection camp. Its daily maintenance and defenses are managed by twin oni maids Ram and Rem, alongside Subaru Natsuki serving as a bumbling yet earnest butler apprentice. The manor features sprawling guest wings, expansive rose terraces, and arcane corridors.",
+              "key": [
+                "Roswaal Manor",
+                "Manor",
+                "Mansion",
+                "Roswaal",
+                "Mathers",
+                "Maids"
+              ]
+            },
+            "ru": {
+              "name": "Поместье Розвааля",
+              "content": "Роскошный просторный особняк в стиле барокко, принадлежащий маркграфу Розваалю Л. Мейзерсу — верховному придворному магу королевства. Поместье служит оплотом и штаб-квартирой лагеря Эмилии в королевском отборе. Домашнее хозяйство и безопасность лежат на плечах сестер-горничных Рам и Рем, которым неуклюже, но старательно помогает слуга-новичок Субару Нацуки. Особняк полон парадных залов, террас и тайных коридоров.",
+              "key": [
+                "Поместье Розвааля",
+                "Поместье",
+                "Особняк",
+                "Розвааль",
+                "Мейзерс",
+                "Горничные"
+              ]
+            },
+            "ja": {
+              "name": "ロズワール邸",
+              "content": "ルグニカ王国筆頭宮廷魔導士にしてメイザース辺境伯、ロズワール・L・メイザースが所有する広大な豪邸。王選候補者エミリア陣営の本拠地として機能している。屋敷の管理・家事全般と警備は鬼族の双子メイドであるラムとレムが完璧に仕切っており、スバルも新人使用人（執事見習い）として雑務に励む。無数の客室、庭園、豪華な調度品、そして隠された魔導区画が存在する。",
+              "key": [
+                "ロズワール邸",
+                "屋敷",
+                "ロズワール",
+                "メイザース",
+                "メイド",
+                "使用人"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Die Verbotene Bibliothek & Türübertritt",
+      "key": [
+        "Verbotene Bibliothek",
+        "Bibliothek",
+        "Beatrice",
+        "Betty",
+        "Türübertritt",
+        "Bücher"
+      ],
+      "content": "Ein in einer eigenen Taschendimension verborgener Raum innerhalb des Roswaal-Anwesens, der von dem künstlichen Geist Beatrice (Betty) behütet wird. Die Bibliothek beherbergt jahrhundertealtes magisches Wissen und seltene Zauberbücher. Sie besitzt keine feste räumliche Lage: Beatrice nutzt den Raum-Zauber 'Türübertritt' (Door Crossing), wodurch jede beliebige Tür des Anwesens in die Bibliothek führen kann – oder auch nicht. Gewöhnliche Besucher werden von Beatrice sofort per Wind- oder Raumstoß vor die Tür befördert; nur wer intuitiv die richtige Tür erwischt, darf eintreten.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Forbidden Library & Door Crossing",
+              "content": "A mystical archive sequestered in a pocket dimension inside Roswaal Manor, guarded faithfully by the artificial spirit Beatrice (Betty). Stored within are centuries of forgotten grimoires, forbidden spells, and esoteric treatises. The room has no static coordinates: through the spacetime art 'Door Crossing', Beatrice maps its entrance behind any ordinary door in the mansion at will. Unwanted intruders are swiftly blown backward down the hall by Betty's repulsion spells.",
+              "key": [
+                "Forbidden Library",
+                "Library",
+                "Beatrice",
+                "Betty",
+                "Door Crossing",
+                "Grimoires"
+              ]
+            },
+            "ru": {
+              "name": "Запретная библиотека и Переход через дверь",
+              "content": "Таинственное хранилище знаний в карманном измерении поместья Розвааля, ревностно охраняемое искусственным духом Беатрис (Бетти). В библиотеке собраны редчайшие древние фолианты и забытые заклинания. У неё нет постоянного места: благодаря заклинанию 'Переход через дверь' Беатрис привязывает вход к любой двери в особняке. Незваных гостей Бетти мгновенно вышвыривает обратно в коридор пространственным толчком.",
+              "key": [
+                "Запретная библиотека",
+                "Библиотека",
+                "Беатрис",
+                "Бетти",
+                "Переход через дверь",
+                "Книги"
+              ]
+            },
+            "ja": {
+              "name": "禁書庫と扉渡り",
+              "content": "ロズワール邸内の亜空間に隔離された魔導書庫であり、人工精霊の少女ベアトリス（ベティ）が何百年もの間守り続けている。膨大な魔導書や失われた知識が眠る。禁書庫には固定の入り口が存在せず、ベアトリスの高度な陰魔法「扉渡り」によって屋敷内のあらゆる扉とランダムに連結されている。招かれざる侵入者はベティの空間魔法によって即座に廊下へと吹き飛ばされる。",
+              "key": [
+                "禁書庫",
+                "書庫",
+                "ベアトリス",
+                "ベティ",
+                "扉渡り",
+                "魔導書"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Das Dorf Irlam & der Wald der Dämonenbiester",
+      "key": [
+        "Irlam",
+        "Dorf",
+        "Dorfbewohner",
+        "Waldrand",
+        "Mabeast-Wald",
+        "Petra"
+      ],
+      "content": "Das friedliche Bauerndorf Irlam liegt in unmittelbarer Nachbarschaft des Roswaal-Anwesens am Rand eines dichten Urwalds. Das Dorf steht unter dem Schutz von Markgraf Roswaal. Eine uralte magische Barriere aus Steinsäulen hielt die blutrünstigen Dämonenbiester des Waldes jahrzehntelang fern, bis die Barriere einst sabotiert wurde. Subaru Natsuki rettete die Dorfkinder (unter ihnen die kleine Petra Leyte) vor dem Fluch der Wolgarm-Hunde, weshalb die Dorfbewohner ihm und Emilia tief dankbar und aufrichtig zugetan sind.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Irlam Village & the Mabeast Forest",
+              "content": "The rustic settlement of Irlam borders the outer perimeter of Roswaal Manor right beside an ominous primeval forest. The hamlet relies on Roswaal's patronage and protection. A ring of inscribed stone ward-posts previously kept the ravenous mabeasts at bay. After Subaru risked his life to rescue the village children (including young Petra Leyte) from a lethal Wolgarm infestation, the villagers became steadfast friends of Subaru and Emilia.",
+              "key": [
+                "Irlam",
+                "Village",
+                "Villagers",
+                "Mabeast Forest",
+                "Petra"
+              ]
+            },
+            "ru": {
+              "name": "Деревня Ирлам и Лес демонозверей",
+              "content": "Мирная сельская деревня Ирлам расположена неподалеку от особняка Розвааля на опушке глухого леса. Защитный барьер из древних каменных столбов годами сдерживал свирепых демонозверей. После того как Субару спас местных ребятишек (включая юную Петру) от смертельного проклятия псов-вольгармов, жители деревни всем сердцем полюбили его и стали верными союзниками лагеря Эмилии.",
+              "key": [
+                "Ирлам",
+                "Деревня",
+                "Жители",
+                "Лес демонозверей",
+                "Петра"
+              ]
+            },
+            "ja": {
+              "name": "アーラム村と魔獣の森",
+              "content": "ロズワール邸の近郊、深い原生林の境界に広がる素朴な農村。領主ロズワールの庇護下にあり、結界石の杭によって森に潜む凶悪な魔獣たちの侵入を防いできた。スバルが命がけでウルガルムの呪詛から村の子供たち（ペトラら）を救い出して以来、村人たちはスバルとエミリアに深い感謝と親しみを抱いている。",
+              "key": [
+                "アーラム村",
+                "村",
+                "村人",
+                "ペトラ",
+                "魔獣の森",
+                "結界石"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Das Heiligtum (Sanctuary) & Echidnas Grabmal",
+      "key": [
+        "Heiligtum",
+        "Sanctuary",
+        "Cremaldy",
+        "Barriere",
+        "Grabmal",
+        "Prüfungen"
+      ],
+      "content": "Das Heiligtum (von Roswaals Familie auch 'Versuchsfeld von Cremaldy' genannt) ist ein abgelegenes, waldiges Tal, das vor vier Jahrhunderten von Echidna erschaffen wurde. Es ist von einer mächtigen Barriere umgeben: Mischblüter (Wesen mit gemischter Abstammung, wie Halbmenschen) können das Tal betreten, verlieren jedoch das Bewusstsein, wenn sie versuchen, es ohne erfolgreiches Absolvieren der Prüfungen im Grabmal der Hexe wieder zu verlassen. Die drei Prüfungen konfrontieren den Geist mit der eigenen schmerzhaften Vergangenheit, Gegenwart und einer unvorstellbaren Zukunft.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Sanctuary & Echidna's Tomb",
+              "content": "The Sanctuary (formally dubbed the 'Cremaldy Experimental Grounds' by House Mathers) is a sequestered valley crafted four hundred years ago by Echidna. It is shrouded by an insurmountable barrier: demi-humans and mixed-blood beings can freely enter, but are forcefully rendered comatose if they attempt to depart without overcoming the three Trials inside the Witch's Tomb. The Trials compel candidates to face their agonizing past, present, and horrifying alternate futures.",
+              "key": [
+                "Sanctuary",
+                "Cremaldy",
+                "Barrier",
+                "Tomb",
+                "Trials",
+                "Echidna"
+              ]
+            },
+            "ru": {
+              "name": "Святилище и Гробница Ехидны",
+              "content": "Святилище (в записях рода Мейзерс — 'Испытательный полигон Кремалди') — глухая долина, созданная четыре века назад Ехидной. Она окружена мощным барьером: полукровки могут войти внутрь, но впадают в кому при попытке покинуть долину, пока не пройдут три Испытания в Гробнице Ведьмы. Испытания заставляют претендента заглянуть в лицо своему мучительному прошлому, настоящему и чудовищному возможному будущему.",
+              "key": [
+                "Святилище",
+                "Кремалди",
+                "Барьер",
+                "Гробница",
+                "Испытания",
+                "Ехидна"
+              ]
+            },
+            "ja": {
+              "name": "聖域とエキドナの墓所",
+              "content": "四百年前に強欲の魔女エキドナが作り上げた隔絶された土地。メイザース家の記録では「クレマルディの実験場」と呼ばれる。強力な結界に守られており、混血（ハーフ）の者は足を踏み入れることはできても、墓所で執り行われる「試練」を突破して結界を解放しない限り、外に出ようとすると意識を失い昏睡状態に陥る。試練は挑戦者に自身の過酷な過去、現在、そして起こり得た未来を突きつける。",
+              "key": [
+                "聖域",
+                "クレマルディ",
+                "実験場",
+                "結界",
+                "墓所",
+                "試練",
+                "エキドナ"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Echidnas Teegesellschaft in der Traumwelt",
+      "key": [
+        "Teegesellschaft",
+        "Tee",
+        "Echidna",
+        "Traumwelt",
+        "Hexentee",
+        "Wissen",
+        "Seelenwelt"
+      ],
+      "content": "In einem ätherischen, sonnigen Traumraum zwischen den Dimensionen lädt die Hexe der Gier, Echidna, auserwählte Gäste zu ihrer legendären Teegesellschaft ein. Die Welt besteht aus sanften grünen Hügeln, einem weiß gedeckten Tisch und friedlichem Sonnenschein. Echidna serviert Tee, der aus ihrer eigenen Seelenessenz (Körperflüssigkeiten) gebrüht wird und fremdes Mana aktiviert. Als Hexe der Gier begehrt sie nichts sehnlicher als allumfassendes Wissen und analysiert jede Reaktion, jeden Schmerz und jedes Dilemma ihrer Besucher mit funkelnder intellektueller Leidenschaft.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Echidna's Dreamworld Tea Party",
+              "content": "Within a timeless metaphysical dreamscape nestled beyond mortal dimensions, Echidna, the Witch of Greed, hosts her infamous tea parties for selected visitors. The realm appears as rolling green knolls beneath gentle sunbeams, furnished with a pristine tea table. Echidna serves tea brewed directly from her own spiritual bodily fluids, stabilizing and expanding the guest's mana. Driven by bottomless curiosity, she dissects every emotional agony, choice, and riddle with brilliant, ruthless intellect.",
+              "key": [
+                "Tea Party",
+                "Tea",
+                "Echidna",
+                "Dreamworld",
+                "Witch Tea",
+                "Knowledge"
+              ]
+            },
+            "ru": {
+              "name": "Чаепитие Ехидны в мире грёз",
+              "content": "В залитом мягким солнцем метафизическом пространстве вне времени Ведьма Жадности Ехидна принимает избранных гостей на своём легендарном чаепитии. Изумрудные холмы и изящный чайный столик создают видимость покоя. Ехидна подаёт чай, заваренный из эссенции её собственной духовной сущности. Движимая ненасытной жаждой познания, она с восторженным блеском в глазах препарирует любые тайны, боль и выбор своих собеседников.",
+              "key": [
+                "Чаепитие",
+                "Чай",
+                "Ехидна",
+                "Мир грёз",
+                "Чай ведьмы",
+                "Знания"
+              ]
+            },
+            "ja": {
+              "name": "エキドナのお茶会（精神世界）",
+              "content": "時間の概念が存在しない精神世界に広がる、青空と緑の丘陵。強欲の魔女エキドナが特定の招客を迎える優雅なお茶会。白いテーブルセットで振る舞われる紅茶は、エキドナ自身の体液（魂のマナ）から精製されており、飲んだ者の魔力を活性化させる。無限の知識欲に支配された彼女は、あらゆる未知、死生観、苦悩を蒐集・観測することに至上の歓喜を抱き、訪問者と対等な問答を繰り広げる。",
+              "key": [
+                "お茶会",
+                "紅茶",
+                "エキドナ",
+                "精神世界",
+                "知識欲",
+                "強欲の魔女"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Die Thronkandidatinnen der Königswahl",
+      "key": [
+        "Königswahl",
+        "Kandidatin",
+        "Kandidatinnen",
+        "Crusch",
+        "Anastasia",
+        "Priscilla",
+        "Felt",
+        "Emilia"
+      ],
+      "content": "Fünf vom Drachenstein anerkannte Priesterinnen wetteifern um die Krone von Lugnica: Emilia (Halbelfe, unterstützt von Roswaal und Subaru, will Gleichberechtigung aller Rassen), Herzogin Crusch Karsten (stolze Kriegerin und Anführerin der Karsten-Fraktion mit Ritter Felix, will Lugnica von der Abhängigkeit des Drachen befreien), Anastasia Hoshin (aus Kararagi stammende Großkauffrau der Hoshin-Gilde mit Julius Juukulius), Priscilla Barielle (hochmütige Adlige mit unverschämtem Glück und Al) und Felt (rebellisches Straßenmädchen aus den Slums mit Schwertheiligen Reinhard van Astrea).",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Royal Selection Candidates",
+              "content": "Five maiden priestesses acknowledged by the Dragon Stone vie for the crown of Lugnica: Emilia (the half-elf backed by Roswaal and Subaru, striving for racial equality), Duchess Crusch Karsten (valiant military leader allied with Ferris, determined to free the nation from dependence on the Dragon), Anastasia Hoshin (shrewd merchant tycoon from Kararagi supported by Julius Juukulius), Priscilla Barielle (arrogant noblewoman blessed with surreal fortune, accompanied by Al), and Felt (feisty former slum orphan championed by Sword Saint Reinhard van Astrea).",
+              "key": [
+                "Royal Selection",
+                "Candidate",
+                "Candidates",
+                "Crusch",
+                "Anastasia",
+                "Priscilla",
+                "Felt",
+                "Emilia"
+              ]
+            },
+            "ru": {
+              "name": "Кандидатки королевского отбора",
+              "content": "Пять дев, избранных Камнем Дракона для борьбы за престол Лугуники: Эмилия (полуэльфийка при поддержке Розвааля и Субару, борющаяся за равенство рас), герцогиня Круш Карстен (благородная воительница и рыцарь Феликс, стремящиеся избавить страну от опеки Дракона), Анастасия Хошин (деловая купчиха из Карараги и Юлиус Юклиус), Присцилла Барриэль (надменная аристократка невероятной удачи и Аль) и Фельт (дерзкая воровка из трущоб, поддержанная Святым Меча Райнхардом).",
+              "key": [
+                "Королевский отбор",
+                "Кандидатки",
+                "Круш",
+                "Анастасия",
+                "Присцилла",
+                "Фельт",
+                "Эмилия"
+              ]
+            },
+            "ja": {
+              "name": "王選候補者たち",
+              "content": "竜歴石によって選ばれた五人の竜の巫女候補：エミリア（ロズワールとスバルが支える銀髪の半魔、差別なき平等を目指す）、クルシュ・カルステン（カルステン公爵家当主、騎士フェリスと共に竜に頼らぬ自立した国を目指す）、アナスタシア・合辛（カララギの大商会を率いる商才の持ち主、最優の騎士ユリウスを従える）、プリシラ・バーリエル（傲岸不遜にして世界の幸運を味方につける太陽姫、アルを従える）、フェルト（貧民街出身の孤児、剣聖ラインハルトに擁立され王国の刷新を掲げる）。",
+              "key": [
+                "王選",
+                "王選候補者",
+                "クルシュ",
+                "アナスタシア",
+                "プリシラ",
+                "フェルト",
+                "エミリア",
+                "巫女"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Re:Zero – Roswaal Manor & Sanctuary",
+          "description": "Margrave Roswaal's opulent estate, Beatrice's Forbidden Library, Irlam village, and the Witch of Greed's Sanctuary."
+        },
+        "ru": {
+          "name": "Re:Zero – Поместье Розвааля и Святилище",
+          "description": "Особняк маркграфа Розвааля, Запретная библиотека Беатрис, деревня Ирлам и Святилище Ведьмы Жадности."
+        },
+        "ja": {
+          "name": "Re:Zero – ロズワール邸と聖域",
+          "description": "ロズワール辺境伯の豪邸、ベアトリスが守る禁書庫、アーラム村、そして強欲の魔女が遺した聖域。"
+        }
+      }
+    }
+  }
+}

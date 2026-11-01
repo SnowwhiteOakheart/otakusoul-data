@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 72 Charaktere · 59 Soul Stages (Szenen) · 28 Lorebooks · 23 Presets.
+> **Stand:** 72 Charaktere · 60 Soul Stages (Szenen) · 30 Lorebooks · 23 Presets (13 Sammlungen).
 
 ---
 
@@ -21,6 +21,7 @@
 | `quintessential-quintuplets` | The Quintessential Quintuplets (5-toubun no Hanayome) | `Ichika Nakano`, `Nino Nakano`, `Miku Nakano`, `Yotsuba Nakano`, `Itsuki Nakano`, `Futaro Uesugi` (6) | `quintuplets_ep1_penthouse_nachhilfe`<br>`quintuplets_ep2_feuerwerk_gestaendnis`<br>`quintuplets_ep3_zwischenpruefung`<br>`quintuplets_ep4_schneefahrt_huette`<br>`quintuplets_ep5_schulfest_gestaendnisse` (5) | • *Die Nakano-Schwestern* (`quintuplets_nakano_sisters.json`)<br>• *Nachhilfe & Uesugi-Haushalt* (`quintuplets_tutoring_study.json`)<br>• *Orte & Schulalltag* (`quintuplets_world_locations.json`) |
 | `sternenbruch` | OtakuSoul Original · Science-Fiction | `Mara Venn`, `Juno Serrat`, `Saeli`, `Dr. Idris Vale`, `Kian Rook`, `IVO` (6 erwachsene Figuren; jeweils 15 SFW-Expressions und englische Stimmbeschreibung) | `sternenbruch_ep1_signal`<br>`sternenbruch_ep2_market`<br>`sternenbruch_ep3_nacre`<br>`sternenbruch_ep4_garden`<br>`sternenbruch_ep5_memory`<br>`sternenbruch_ep6_gate` (6; jeweils eigenständig spielbar, gemeinsames Mystery-Finale mit drei Enden) | • *Welt & Technik* (`sternenbruch_world.json`)<br>• *Kulturen & Fraktionen* (`sternenbruch_factions.json`)<br>• *Crew & Orte* (`sternenbruch_crew_locations.json`)<br>16 Einträge; 10 Hintergründe; DE/EN/RU |
 | `world-of-warcraft` | Warcraft · eigene Fanfiguren | `Liora Sonnenfaden`, `Vaelis Morgenpfad`, `Bo Wolkenkrug`, `Gromak Aschenfaust`, `Mira Dämmerfrost` (5 Erwachsene; je 15 SFW-Expressions) | `wow_glocke_der_namenlosen_seelen` · *Die Glocke der namenlosen Seelen* (narratives Mysterium, fünf Karten als Party) | *Azeroth – Völker, Magie und die Glocke von Tirisfal* (`wow_azeroth_tirisfal.json`), 35 Einträge; DE/EN/RU/JA; Sammlung `world_of_warcraft_tirisfal` |
+| `re-zero` | Re:Zero – Starting Life in Another World | `Subaru Natsuki`, `Emilia`, `Rem`, `Ram`, `Beatrice`, `Echidna` (6) | `re_zero_ep1_schatten_ueber_dem_anwesen` · *Schatten über dem Roswaal-Anwesen* (narratives Ensemble-Abenteuer, 6 Mitspieler)<br>`frozen_bells_emilia` · *Die Glocken von Frostweiler* (2) | • *Welt, Magie & Hexen* (`re_zero_world_magic.json`)<br>• *Roswaal-Anwesen & Heiligtum* (`re_zero_locations_sanctuary.json`)<br>Sammlung `re_zero` mit Keyvisual-Titelbild `cover.webp` und Hintergrund `re_zero_roswaal_mansion.webp` |
 
 ---
 
@@ -44,7 +45,6 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 | Preset-Ordner | Franchise / Herkunft | Registrierte Figuren (`name` in `soul_registry.json`) | Bemerkungen / Gastauftritte |
 |---|---|---|---|
 | `overlord` | Overlord | `Ainz Ooal Gown` (Momonga), `Albedo`, `Shalltear Bloodfallen` (3) | Je 15 eigenständige SFW-Expressions; keine eigenen Stages/Lorebooks. |
-| `re-zero` | Re:Zero | `Subaru Natsuki`, `Emilia`, `Rem`, `Ram`, `Beatrice`, `Echidna` (6) | Rem tritt in Isekai- und Romance-Stages auf. Emilia kam am 19.10.2026 aus der App (bisher mitgeliefert), vorerst mit dem Sechser-Basissatz. Mit ihr kam die frühere App-Starter-Geschichte `frozen_bells_emilia` (*Die Glocken von Frostweiler*). |
 | `neverness-to-everness` | Neverness to Everness | `Mint`, `Iroi`, `Lacrimosa`, `Nanally Colucci`, `Linko`, `Esper Zero (Female)`, `Esper Zero (Male)`, `Shinku` (8) | Urban-Fantasy-Cast; Lacrimosa und Shinku treten in Cyberpunk-Stages auf. |
 | `frieren` | Sousou no Frieren | `Frieren` | Gastauftritt in `isekai_null_mana_summoning`. |
 | `nagatoro` | Don't Toy With Me, Miss Nagatoro | `Hayase Nagatoro` | Gastauftritt in `romance_rainy_clubroom_confessions`. |

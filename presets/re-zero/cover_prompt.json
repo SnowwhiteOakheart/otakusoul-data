@@ -1,0 +1,20 @@
+{
+  "asset": "cover.webp",
+  "size": [
+    960,
+    540
+  ],
+  "generator": "OpenAI image_gen (integriertes Bildwerkzeug)",
+  "generated": "2026-11-01",
+  "prompt": "Official anime key visual poster for Re:Zero Starting Life in Another World. Cinematic 16:9 widescreen composition set on the sunlit grand stone terrace of Roswaal Mansion with ornate carved balustrades, blooming red and white rose gardens, and a breathtaking magical twilight gradient sky with floating luminous mana particles. Cohesive ensemble character arrangement standing together naturally: In the center foreground, Emilia, an ethereal beautiful half-elf with long flowing silver hair, amethyst purple-blue eyes, wearing her iconic elegant white and purple fantasy dress with a white flower hair clip, gentle warm smile. Standing dynamically beside her, Subaru Natsuki, young man with short spiky black hair, wearing his signature black, white, and orange tracksuit jacket over a t-shirt, energetic friendly expression. Beside them, Beatrice, a petite young girl with magnificent tight blonde twin drill ringlets, wearing a lavish tiered pink and cream Victorian frilled dress with butterfly ribbons, holding an ornate leather-bound grimoire, adorable haughty expression. Twin maids Rem and Ram standing elegantly: Rem with short sky-blue hair and gentle devoted smile, Ram with short vibrant pink hair, both wearing matching Roswaal black maid dresses with crisp white frilly aprons and maid headdresses. Faintly woven into the dreamy twilight clouds in the upper background sky, an ethereal, translucent apparition of Echidna with long straight pure white hair, dark gothic Victorian mourning dress, and an enigmatic knowing smile. Masterpiece Japanese TV anime key art, studio quality animation illustration, vibrant cinematic lighting, volumetric dusk light rays, rich textures, crisp outlines, clean framing, completely free of text, no logos, no watermark.",
+  "references": [
+    "presets/re-zero/emilia.png",
+    "presets/re-zero/subaru_natsuki.png",
+    "presets/re-zero/rem.png",
+    "presets/re-zero/ram.png",
+    "presets/re-zero/beatrice.png",
+    "presets/re-zero/echidna.png"
+  ],
+  "postprocessing": "Mittig auf 16:9 zugeschnitten und mit Lanczos auf 960×540 skaliert; WebP Qualität 92. Vollbild als Szenenhintergrund in backgrounds/re_zero_roswaal_mansion.webp.",
+  "provenance": "KI-generiertes Titelbild; Figuren und Schauplätze anhand vorhandener Paketbilder. Bestehende Rechte- und Fanart-Hinweise gelten weiterhin."
+}

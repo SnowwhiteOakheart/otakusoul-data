@@ -464,3 +464,12 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Narrative Stage „Die Glocke der namenlosen Seelen“ mit fünf Karten als Party, drei Startvorschlägen je Sprache, mehreren Lösungswegen und automatisch herunterladbarem Hintergrund.
 - [x] Sammlung mit Figuren-/Kapellen-Keyvisual (960×540 WebP), Quellen und Promptnachweisen für „Alles installieren“ vorbereitet.
 - [x] Abschließende Inhaltsvalidierung: 0 Fehler, 0 Warnungen; fünf PNG-/JSON-Profile, 75 unterschiedliche Expressions und Download-Verweise geprüft. Veröffentlichung als zusammenhängendes Hub-Paket auf main; kein Import ins echte Nutzerprofil.
+
+
+## Re:Zero – Starting Life in Another World (01.11.2026)
+
+- [x] Hub-Sammlung `re_zero` in `collections_registry.json` veröffentlicht: Bündelt Emilia, Subaru Natsuki, Rem, Ram, Beatrice und Echidna für komfortables „Alles installieren“ inklusive Übersetzungen (DE/EN/RU/JA).
+- [x] Zwei neue, fundierte Lorebooks mit je 6 Einträgen in allen vier Sprachen (DE/EN/RU/JA): `re_zero_world_magic.json` (*Welt, Magie & Hexen*) und `re_zero_locations_sanctuary.json` (*Roswaal-Anwesen & Heiligtum*).
+- [x] Neues narratives Soul-Stage-Abenteuer `re_zero_ep1_schatten_ueber_dem_anwesen` (*Schatten über dem Roswaal-Anwesen*) mit allen Figuren als Party, 3 Startvorschlägen je Sprache (DE/EN/RU/JA) und automatischem Hintergrund-Download. Die Starter-Szene `frozen_bells_emilia` ist ebenfalls integriert.
+- [x] Individuelles, hochwertiges Anime-Keyvisual als Titelbild `presets/re-zero/cover.webp` (960×540 WebP) und Szenenhintergrund `presets/re-zero/backgrounds/re_zero_roswaal_mansion.webp` (1376×768 WebP) generiert; Promptnachweis in `cover_prompt.json`.
+- [x] Vollständige Inhaltsvalidierung und Registry-Synchronisation bestanden: 0 Fehler, 0 Warnungen. Veröffentlichung als Kampagnenpaket auf main.

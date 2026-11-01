@@ -1,0 +1,157 @@
+{
+  "title": "Schatten über dem Roswaal-Anwesen",
+  "description": "Ein unheilvolles Miasma legt sich über Roswaals Herrenhaus, Beatrice' Bibliothek spielt verrückt und Echidnas Teegesellschaft wirft ihren Schatten voraus. Kannst du mit Subaru, Emilia und den Bewohnern das Geheimnis lüften?",
+  "world_context": "Im weitläufigen Herrenhaus von Markgraf Roswaal L. Mathers bricht ein ungewöhnlicher Vormittag an. Aus dem nahegelegenen Wald der Dämonenbiester dringt ein unnatürlicher Hexenduft in die Korridore. Beatrice stellt fest, dass ihr Türübertritt durch magische Resonanz verzerrt wird, Ram beklagt mit gewohnt sarkastischer Zunge die Störung ihrer Hausarbeit, und Emilia versucht verzweifelt, mit den aufgeschreckten niederen Geistern zu kommunizieren. Gleichzeitig öffnet sich im Spiegel eines Salons ein geheimnisvoller Spalt in die Traumwelt der Hexe der Gier, Echidna. Subaru Natsuki und die Bewohner müssen herausfinden, was hinter dem Miasma steckt, bevor die Barriere des Anwesens bricht.",
+  "starting_location": "Der sonnenbeschienene Korridor vor Beatrice' Bibliothek",
+  "time_of_day": "Vormittag",
+  "opening_narration": "Der Duft von frisch gebrühtem schwarzem Tee vermischt sich plötzlich mit einem kalten, süßlich-schweren Hauch, der durch den Prunkkorridor des Roswaal-Anwesens weht. Die Türen entlang des Ganges vibrieren leise. Subaru streicht sich durch die verwuschelten Haare und winkt aufgeregt: „He, sieh dir das an! Irgendwas stimmt hier ganz und gar nicht – Beatrice' Tür hat mich gerade dreimal hintereinander in die Vorratskammer befördert!“ Eine Flügeltür knallt auf, und die zierliche Bibliothekarin mit den blonden Zopflocken mustert die Runde mit verschränkten Armen: „Wie oft muss Betty es dir noch sagen, Dummkopf? Betty hat keine Lust auf ungeladene Gäste, in der Tat!“ Neben ihr treten Ram, Rem und Emilia auf den Flur. Emilias Augen weiten sich besorgt: „Die niederen Geister zittern vor Angst ... Etwas nähert sich dem Anwesen.“ Und in der Glasvitrine des Flurs spiegelt sich für einen flüchtigen Augenblick das verschmitzte Lächeln einer weißhaarigen Hexe in schwarzem Trauerkleid.",
+  "gm_tone": "Spannende Fantasy mit Mystery, Charakter-Humor und Prise düsterer Bedrohung",
+  "narrator_style": "Lebendig, atmosphärisch und charaktertreu. Fange die scharfsinnigen Dialoge von Ram, Subarus unverwüstlichen Tatendrang, Emilias Herzenswärme, Beatrices schnippische Art ('in der Tat') und Echidnas rätselhafte Eleganz ein. Gib dem Spieler am Ende jeder Antwort eine stimmungsvolle Richtung und greifbare Handlungsmöglichkeiten.",
+  "first_message": "",
+  "party": [
+    "Subaru Natsuki",
+    "Emilia",
+    "Ram",
+    "Beatrice",
+    "Echidna",
+    "Rem"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Re:Zero – Welt, Magie & Hexen",
+    "Re:Zero – Roswaal-Anwesen & Heiligtum"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 2,
+  "dice_rolls_enabled": true,
+  "starting_bg": "re_zero_roswaal_mansion.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "disable_ambient": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Shadows Over Roswaal Manor",
+          "description": "An ominous miasma settles over Roswaal's estate, Beatrice's library goes haywire, and Echidna's tea party casts its surreal shadow. Can you uncover the mystery alongside Subaru, Emilia, and the household?",
+          "world_context": "An uneasy morning dawns across the sprawling estate of Margrave Roswaal L. Mathers. From the primeval mabeast forest nearby, an unnatural Witch's Scent seeps through the palace halls. Beatrice discovers that her Door Crossing spell is vibrating with warped dimensional resonance, Ram sharply scolds the universe for interrupting her chores, and Emilia desperately tries to console a flock of terrified micro-spirits. Meanwhile, an ornate salon mirror reveals a faint metaphysical fissure leading toward the tea party of Echidna, the Witch of Greed. Subaru Natsuki and the residents must uncover the source of the anomaly before the protective wards fracture.",
+          "starting_location": "The sunlit hallway outside Beatrice's Forbidden Library",
+          "time_of_day": "Morning",
+          "opening_narration": "The comforting aroma of freshly steeped black tea is suddenly overtaken by a chilled, cloying draft drifting down the gilded halls of Roswaal Manor. Ornate doors shudder in their frames. Subaru ruffles his messy dark hair and gestures in disbelief: \"Hey, look at this! Something is totally busted here—Beatrice's door just dumped me into the potato pantry three times in a row!\" A pair of double doors violently flies open, revealing the diminutive blonde librarian in her extravagant drill curls and frilled gown, glaring with crossed arms: \"How many times must Betty tell you, idiot? Betty has no desire to entertain uninvited slackers, in fact!\" From the adjoining parlor step Ram, Rem, and Emilia. Emilia's violet eyes fill with worry: \"The lesser spirits are trembling in panic... Something unnatural is approaching the estate.\" And in the glass pane of a display cabinet, for one fleeting instant, appears the enigmatic, smiling reflection of a white-haired witch draped in black.",
+          "gm_tone": "Thrilling fantasy mystery balanced with authentic character wit and dark undercurrents",
+          "narrator_style": "Vibrant, atmospheric, and true to each character's voice. Capture Ram's biting sarcasm, Subaru's resilient humor, Emilia's gentle earnestness, Beatrice's haughty tsundere mannerisms ('in fact'), and Echidna's teasing intellectual curiosity. Conclude replies with clear thematic momentum and actionable avenues for the player."
+        },
+        "ru": {
+          "title": "Тени над поместьем Розвааля",
+          "description": "Зловещие миазмы окутывают особняк Розвааля, библиотека Беатрис выходит из-под контроля, а чаепитие Ехидны отбрасывает призрачную тень. Сможешь ли ты разгадать тайну вместе с Субару, Эмилией и обитателями поместья?",
+          "world_context": "В просторном поместье маркграфа Розвааля Л. Мейзерса начинается тревожное утро. Из соседнего леса демонозверей сквозь коридоры просачивается неестественный запах Ведьмы. Беатрис обнаруживает, что её пространственное заклинание Перехода через дверь искажено странным резонансом, Рам с привычным сарказмом бранит беспорядок, а Эмилия пытается успокоить перепуганных микродухов. В то же время в зеркале гостиной мерцает трещина, ведущая в измерение Ведьмы Жадности Ехидны. Субару и обитатели дома должны выяснить причину аномалии, пока защитный барьер поместья не рухнул.",
+          "starting_location": "Залитый солнцем коридор перед Запретной библиотекой Беатрис",
+          "time_of_day": "Утро",
+          "opening_narration": "Аромат свежезаваренного черного чая внезапно перебивает холодный, слащаво-тяжелый сквозняк, потянувший по роскошному коридору поместья Розвааля. Двери тихо вибрируют в петлях. Субару взъерошивает волосы и возмущенно машет руками: «Эй, вы только поглядите! Тут явно что-то сломалось — дверь Беатрис трижды подряд вышвырнула меня в кладовку с репой!» Створки распахиваются настежь, и миниатюрная златовласая хранительница библиотеки с пышными локонами-бурами сверкает глазами, скрестив ручки на груди: «Сколько раз Бетти должна повторять тебе, остолоп? Бетти не намерена терпеть незваных гостей, на самом деле!» Следом за ней появляются Рам, Рем и Эмилия. Фиолетовые глаза Эмилии полны тревоги: «Младшие духи дрожат от страха... Что-то чужое приближается к поместью». А в стекле витрины на долю секунды отражается лукавая улыбка беловолосой ведьмы в траурном черном платье.",
+          "gm_tone": "Захватывающее фэнтези с мистикой, фирменным юмором и оттенком мрачной угрозы",
+          "narrator_style": "Живо, атмосферно и с любовью к оригинальным характерам. Передавай язвительный юмор Рам, неунывающий пыл Субару, душевное тепло Эмилии, манеры Беатрис ('на самом деле') и загадочное кокетство Ехидны. В конце ответов предлагай игроку ясные и осязаемые варианты действий."
+        },
+        "ja": {
+          "title": "ロズワール邸に落ちる影",
+          "description": "ロズワール邸を突如覆う不穏な瘴気、暴走するベアトリスの禁書庫、そして境界の向こうから干渉するエキドナの茶会。スバルやエミリアたちと共に、屋敷に迫る異変の真相を解き明かせるか？",
+          "world_context": "メイザース辺境伯ロズワール・L・メイザースの広大な屋敷に、不穏な朝が訪れる。近郊の魔獣の森から漂う異常な魔女の残り香。ベアトリスは「扉渡り」の空間結界が何者かの干渉で歪んでいることに苛立ち、ラムは家事の中断に毒舌を吐き、エミリアは怯える微精霊たちの声を聞き取ろうと必死に耳を澄ませる。さらにサロンの鏡には、強欲の魔女エキドナが待つ精神世界への裂け目が揺らめいていた。屋敷の結界が破られる前に、スバルと仲間たちは原因を突き止めなければならない。",
+          "starting_location": "禁書庫の前に続く日差しの差し込む廊下",
+          "time_of_day": "午前",
+          "opening_narration": "淹れたての紅茶の香りに混じり、ひやりと冷たく甘ったるい風がロズワール邸の豪奢な廊下を吹き抜けた。並ぶ扉がカタカタと小さく震える。スバルは乱れた黒髪をかきむしりながら叫んだ。「おいおい、ちょっと見てくれよ！ 絶対におかしいって！ ベアトリスの扉を開けたはずなのに、三連続で芋の貯蔵庫に放り出されたんだが!?」直後、目の前の扉がバンと開き、豪奢なフリルドレスをまとった金髪縦ロールの少女が腕を組んで睨みつける。「何度言えば分かるのかしら、間抜け面。ベティはお前のような無粋な客を相手にする気など微塵もないのよ、かしら！」その背後からラム、レム、そしてエミリアが駆け寄ってくる。紫紺の瞳を不安に揺らし、エミリアが言った。「微精霊たちが怯えて震えてる……何か、とても冷たいものが屋敷に近づいてるみたい」。その瞬間、廊下の飾り棚のガラスに、黒衣をまとった銀白の髪の魔女が楽しげに微笑む姿が一瞬だけ揺らめいた。",
+          "gm_tone": "本格ファンタジーミステリー、キャラクター同士のコミカルな掛け合いと緊迫感の融合",
+          "narrator_style": "生き生きと情緒豊かに。ラムの辛辣なツッコミ、スバルの前向きな軽妙さ、エミリアの優しさとひたむきさ、ベアトリスの特徴的な口調（「かしら」「のよ」）、そしてエキドナの知的で蠱惑的な雰囲気を忠実に再現する。プレイヤーの行動ごとに、次に調査できる明確な手がかりと選択肢を提示する。"
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "fantasy",
+      "minutes": 50,
+      "difficulty": "medium",
+      "notes": [
+        "suspense",
+        "mild_danger",
+        "action"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Untersuche zusammen mit Subaru und Beatrice die instabilen Türen des Korridors",
+            "badge": "Wahrnehmung",
+            "action_type": "do"
+          },
+          {
+            "text": "Frage Emilia, was die aufgeschreckten niederen Geister über die Bedrohung flüstern",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Begleite Ram und Rem zur Gartenterrasse, um die Herkunft des Miasmas zu prüfen",
+            "badge": "Athletik",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Examine the unstable corridor doors together with Subaru and Beatrice",
+            "badge": "Perception",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Emilia what the startled lesser spirits are whispering about the anomaly",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Accompany Ram and Rem toward the garden terrace to trace the origin of the miasma",
+            "badge": "Athletics",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осмотреть нестабильные двери коридора вместе с Субару и Беатрис",
+            "badge": "Внимательность",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Эмилию, о чем испуганно шепчут потревоженные духи",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Отправиться с Рам и Рем на садовую террасу, чтобы найти источник миазмов",
+            "badge": "Атлетика",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "スバルやベアトリスと共に、空間が歪んだ廊下の扉を調べる",
+            "badge": "知覚",
+            "action_type": "do"
+          },
+          {
+            "text": "エミリアに、怯える微精霊たちが何を囁いているのか尋ねる",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "ラムやレムと共にテラスへ向かい、瘴気の発生源を追跡する",
+            "badge": "運動",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "re_zero_roswaal_mansion.webp",
+          "path": "presets/re-zero/backgrounds/re_zero_roswaal_mansion.webp"
+        }
+      ]
+    }
+  }
+}

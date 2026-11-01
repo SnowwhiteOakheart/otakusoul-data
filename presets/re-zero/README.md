@@ -18,6 +18,12 @@ Die Zeitpunkte sind bewusst getrennte Rollenspieleinstiege, kein gemeinsamer neu
 
 Hub-Karten: `cards_gateway/<figur>.png`, mit öffentlichen Expressions-URLs. Lokale Preset-Pfade bleiben relativ zum Paket. Es wurden keine Karten in eine App-Installation importiert.
 
+### Sammlung, Story & Lorebooks (01.11.2026)
+Die Figuren sind über die Hub-Sammlung `re_zero` gebündelt („Alles installieren“ lädt den vollständigen Cast). Zur Sammlung gehören:
+- **Soul Stages:** `re_zero_ep1_schatten_ueber_dem_anwesen` (*Schatten über dem Roswaal-Anwesen*, 6 Gruppenmitglieder, 3 Startvorschläge je Sprache, automatischer Hintergrunddownload) und `frozen_bells_emilia` (*Die Glocken von Frostweiler*).
+- **Lorebooks:** `re_zero_world_magic.json` (*Welt, Magie & Hexen*) und `re_zero_locations_sanctuary.json` (*Roswaal-Anwesen & Heiligtum*), jeweils mit 6 fundierten Einträgen in DE/EN/RU/JA.
+- **Bilder:** Sammlungstitelbild `cover.webp` (960×540 WebP) und Szenenhintergrund `backgrounds/re_zero_roswaal_mansion.webp` (1376×768 WebP); Prompts und Nachbearbeitung dokumentiert in `cover_prompt.json`.
+
 ## English
 
 Five newly written Character Card V2 profiles: **Rem, Ram, Echidna, Beatrice, and Subaru Natsuki**. Echidna is the white-haired Witch of Greed and appears once. **Emilia** (`emilia.json` / `emilia.png`, half-elf royal selection candidate) was bundled with the OtakuSoul app until October 2026 and now lives here; her portrait uses the older 640×800 format, with six expressions and English as source language.
@@ -28,6 +34,12 @@ Rem and Ram use the original mansion period, with Rem awake before her loss of n
 
 Hub PNGs under `cards_gateway/` link public expression URLs; preset paths are package-relative. Nothing was imported into a local app installation.
 
+### Collection, Story & Lorebooks (01.11.2026)
+Characters are bundled under the Hub collection `re_zero` ("Install All" downloads the entire cast). Included in the collection:
+- **Soul Stages:** `re_zero_ep1_schatten_ueber_dem_anwesen` (*Shadows Over Roswaal Manor*, 6 party members, 3 choices per language, auto-downloading background) and `frozen_bells_emilia` (*The Bells of Frostweiler*).
+- **Lorebooks:** `re_zero_world_magic.json` (*World, Magic & Witches*) and `re_zero_locations_sanctuary.json` (*Roswaal Manor & Sanctuary*), each with 6 entries in DE/EN/RU/JA.
+- **Visuals:** Collection cover `cover.webp` (960×540 WebP) and stage background `backgrounds/re_zero_roswaal_mansion.webp` (1376×768 WebP); prompt documentation in `cover_prompt.json`.
+
 ## Русский
 
 Пять новых профилей Character Card V2: **Рем, Рам, Ехидна, Беатрис и Нацуки Субару**. Ехидна — беловолосая Ведьма Жадности; ее карта включена один раз. Также здесь **Эмилия** (`emilia.json` / `emilia.png`, полуэльфийка и кандидатка королевского отбора), которая до октября 2026 года входила в приложение OtakuSoul; портрет в старом формате 640×800, шесть эмоций, исходный язык — английский.
@@ -37,6 +49,12 @@ Hub PNGs under `cards_gateway/` link public expression URLs; preset paths are pa
 Рем и Рам относятся к периоду первоначального поместья; Рем бодрствует и еще не утратила имя и память. Ехидна принимает гостей на чаепитии во сне в Святилище. Беатрис хранит библиотеку до договора с Субару. Субару живет в первоначальном поместье и хранит тайну возвращения после смерти. Это отдельные точки начала ролевой игры, а не новый общий канон. Есть фоновые спойлеры; приветствия и примеры написаны заново, а не процитированы. Детский облик Беатрис трактуется уместно, близость только дружеская или семейная.
 
 Карты Hub в `cards_gateway/` используют публичные URL эмоций; пути пресетов относительны к пакету. В локальную установку приложения ничего не импортировалось.
+
+### Коллекция, сюжет и книги знаний (01.11.2026)
+Персонажи объединены в коллекцию Hub `re_zero` (кнопка «Установить всё» скачивает весь состав). В коллекцию входят:
+- **Soul Stages:** `re_zero_ep1_schatten_ueber_dem_anwesen` (*Тени над поместьем Розвааля*, 6 персонажей группы, по 3 начальных варианта выбора на язык, фоновое изображение) и `frozen_bells_emilia` (*Колокола Фроствайлера*).
+- **Lorebooks:** `re_zero_world_magic.json` (*Мир, магия и ведьмы*) и `re_zero_locations_sanctuary.json` (*Поместье Розвааля и Святилище*), по 6 статей на DE/EN/RU/JA.
+- **Иллюстрации:** Обложка коллекции `cover.webp` (960×540 WebP) и фон сцены `backgrounds/re_zero_roswaal_mansion.webp` (1376×768 WebP); описание промпта в `cover_prompt.json`.
 
 ## Bildherkunft / Image provenance / Происхождение изображений
 

@@ -632,6 +632,52 @@
           "name": "Азерот — народы, магия и колокол Тирисфаля"
         }
       }
+    },
+    {
+      "name": "Re:Zero – Welt, Magie & Hexen",
+      "author": "SnowwhiteOakheart",
+      "description": "Das Drachenkönigreich Lugnica, Manatore und Elemente, Geisterverträge, die Hexen der Sünde und das Tabu der Rückkehr durch den Tod.",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/re_zero_world_magic.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "The Dragon Kingdom of Lugnica, mana gates and elemental attributes, spirit pacts, the Witches of Sin, and the taboo of Return by Death.",
+          "name": "Re:Zero – World, Magic & Witches"
+        },
+        "ja": {
+          "description": "親竜王国ルグニカ、マナの門と六属性魔法、精霊契約、大罪の魔女、そして死に戻りの禁忌。",
+          "name": "Re:Zero – 世界観・魔法・魔女"
+        },
+        "ru": {
+          "description": "Королевство Дракона Лугуника, врата маны и стихии, договоры с духами, Ведьмы Греха и табу Посмертного возвращения.",
+          "name": "Re:Zero – Мир, магия и ведьмы"
+        }
+      }
+    },
+    {
+      "name": "Re:Zero – Roswaal-Anwesen & Heiligtum",
+      "author": "SnowwhiteOakheart",
+      "description": "Das Herrenhaus von Markgraf Roswaal, Beatrice' Verbotene Bibliothek, das Dorf Irlam und das Heiligtum der Hexe der Gier.",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/re_zero_locations_sanctuary.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "Margrave Roswaal's opulent estate, Beatrice's Forbidden Library, Irlam village, and the Witch of Greed's Sanctuary.",
+          "name": "Re:Zero – Roswaal Manor & Sanctuary"
+        },
+        "ja": {
+          "description": "ロズワール辺境伯の豪邸、ベアトリスが守る禁書庫、アーラム村、そして強欲の魔女が遺した聖域。",
+          "name": "Re:Zero – ロズワール邸と聖域"
+        },
+        "ru": {
+          "description": "Особняк маркграфа Розвааля, Запретная библиотека Беатрис, деревня Ирлам и Святилище Ведьмы Жадности.",
+          "name": "Re:Zero – Поместье Розвааля и Святилище"
+        }
+      }
     }
   ]
 }

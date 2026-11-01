@@ -1,0 +1,413 @@
+{
+  "name": "Re:Zero – Welt, Magie & Hexen",
+  "description": "Das Drachenkönigreich Lugnica, Manatore und Elemente, Geisterverträge, die Hexen der Sünde und das Tabu der Rückkehr durch den Tod.",
+  "scan_depth": 5,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Das Königreich Lugnica & Drachenbund",
+      "key": [
+        "Lugnica",
+        "Königreich",
+        "Drache",
+        "Volcanica",
+        "Drachenbund",
+        "Königswahl"
+      ],
+      "content": "Lugnica ist das östlichste Großreich der bekannten Welt, auch bekannt als das Drachenkönigreich. Vor Jahrhunderten schloss der erste König einen Bund mit dem göttlichen Drachen Volcanica, dessen Schutz dem Land Wohlstand und Schutz vor Katastrophen garantiert. Nach dem plötzlichen Aussterben der gesamten königlichen Familie durch eine verheerende Seuche wird das Reich vorübergehend vom Weisenrat regiert, bis im Rahmen der Königswahl eine von fünf prophezeiten Priesterinnen zur neuen Herrscherin gekrönt wird.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Kingdom of Lugnica & Dragon Covenant",
+              "content": "Lugnica is the easternmost great realm of the known world, widely celebrated as the Dragon Kingdom. Centuries ago, the founding king established a covenant with the divine dragon Volcanica, whose benevolent protection shields the land from calamities and ensures prosperity. Following the sudden extinction of the royal bloodline due to an epidemic, the kingdom is temporarily governed by the Council of Elders until the Royal Selection selects one of five prophesied dragon maiden candidates as the new sovereign.",
+              "key": [
+                "Lugnica",
+                "Kingdom",
+                "Dragon",
+                "Volcanica",
+                "Dragon Covenant",
+                "Royal Selection"
+              ]
+            },
+            "ru": {
+              "name": "Королевство Лугуника и Пакт с Драконом",
+              "content": "Лугуника — великое королевство на крайнем востоке известного мира, именуемое Королевством Дракона. Столетия назад первый король заключил священный союз с божественным драконом Волканикой, чьё покровительство оберегает страну от стихийных бедствий и захватчиков. После трагической гибели всей королевской династии от чумы государством временно управляет Совет Мудрецов в ожидании избрания новой правительницы из пяти предначертанных кандидаток королевского отбора.",
+              "key": [
+                "Лугуника",
+                "Королевство",
+                "Дракон",
+                "Волканика",
+                "Пакт Дракона",
+                "Королевский отбор"
+              ]
+            },
+            "ja": {
+              "name": "親竜王国ルグニカと竜の盟約",
+              "content": "ルグニカは世界東端に位置する大国であり、「親竜王国」の名で知られる。数百年前、初代国王と神竜ボルカニカとの間に交わされた盟約により、国の繁栄と外敵・災厄からの加護が約束されている。王族全員が謎の流行病によって絶命したため、現在は賢人会が暫定統治を行っており、竜歴石に示された五人の巫女候補から次期国王を選ぶ「王選」の渦中にある。",
+              "key": [
+                "ルグニカ",
+                "親竜王国",
+                "神竜",
+                "ボルカニカ",
+                "竜の盟約",
+                "王選"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Manatore & die Magie-Elemente",
+      "key": [
+        "Mana",
+        "Manator",
+        "Gate",
+        "Tor",
+        "Feuer",
+        "Wasser",
+        "Wind",
+        "Erde",
+        "Yang",
+        "Yin",
+        "Schattenmagie",
+        "Lichtmagie"
+      ],
+      "content": "Jedes Lebewesen besitzt ein Manator (Gate), über welches Mana aufgenommen und freigesetzt wird. Überanstrengung oder Verstopfung des Tors kann fatale Folgen haben. Die Magie unterteilt sich in vier physische Grundelemente sowie zwei metaphysische Aspekte: Feuer (steuert Wärme und Kälte; z. B. auch Eismagie), Wasser (steuert Heilung und biologische Flüssigkeiten), Wind (steuert Luftströme und Schneidwirkungen), Erde (steuert Mineralien und Festigkeit), Yang / Licht (beeinflusst Buffs, Vitalität und Raumaufhellung) und Yin / Schatten (beeinflusst Raum-Zeit, Schwächungszauber, Dimensionstore wie Beatrices Türübertritt und Subaros Shamac).",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Mana Gates & Magical Elements",
+              "content": "Every living being possesses a mana gate through which mana is circulated, absorbed, and expelled. Forcing or rupturing one's gate can lead to severe poisoning or death. Magic is categorized into four physical elements and two metaphysical aspects: Fire (regulates heat and cold; including Emilia's ice magic), Water (governs healing and fluids), Wind (manipulates atmospheric currents and slicing gale blades), Earth (shapes soil and mineral hardness), Yang / Light (enhances physical faculties and buff auras), and Yin / Shadow (governs spacetime anomalies, debuffs, dimensional rifts, and Beatrice's Door Crossing).",
+              "key": [
+                "Mana",
+                "Gate",
+                "Fire",
+                "Water",
+                "Wind",
+                "Earth",
+                "Yang",
+                "Yin",
+                "Shadow Magic",
+                "Light Magic"
+              ]
+            },
+            "ru": {
+              "name": "Врата маны и магические элементы",
+              "content": "У каждого живого существа есть врата маны (гейт), через которые циркулирует энергия. Повреждение или закупорка врат смертельно опасны. Магия делится на четыре стихийных элемента и два высших аспекта: Огонь (управляет температурой, включая лёд Эмилии), Вода (управляет исцелением и жизненными жидкостями), Ветер (управляет потоками воздуха и режущими лезвиями), Земля (управляет минералами и прочностью), Ян / Свет (усиливает способности и рассеивает тьму) и Инь / Тьма (управляет пространством-временем, проклятиями и теневыми чарами Беатрис и Субару).",
+              "key": [
+                "Мана",
+                "Врата",
+                "Гейт",
+                "Огонь",
+                "Вода",
+                "Ветер",
+                "Земля",
+                "Ян",
+                "Инь",
+                "Магия тени",
+                "Магия света"
+              ]
+            },
+            "ja": {
+              "name": "マナの門（ゲート）と魔法属性",
+              "content": "全ての生命は体内に「ゲート（マナの門）」を持ち、大気中のマナを循環・放出して魔法を行使する。酷使や破損はマナ中毒や死を招く。基本四属性と高次二属性に分類される：火（温度操作全般。エミリアの氷結魔法も火属性に属する）、水（治癒や生命体液の操作）、風（大気の制御や不可視の真空刃）、土（大地や鉱物の硬度・質量操作）、陽（身体強化や状態回復）、陰（時空間、デバフ、ベアトリスの扉渡りやスバルのシャマクなど空間干渉）。",
+              "key": [
+                "マナ",
+                "ゲート",
+                "門",
+                "火属性",
+                "水属性",
+                "風属性",
+                "土属性",
+                "陽属性",
+                "陰属性",
+                "シャマク",
+                "扉渡り"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Geister & Geistermagie",
+      "key": [
+        "Geist",
+        "Geister",
+        "Puck",
+        "Geistervertrag",
+        "Geistermagie",
+        "Mikrogeister"
+      ],
+      "content": "Geister sind von Natur aus existente spirituelle Wesenheiten, die das Mana der Umwelt leiten, anstatt das persönliche Mana des Anwenders aufzuzehren. Man unterscheidet winzige niedere Geister (Mikrogeister), halbe Geister und Große Geister wie Puck (der Große Geist des Feuers). Geistermagier schließen verbindliche Verträge ab, die Pflichten, Nutzungszeiten und Verbote festlegen. Puck wacht eifersüchtig über Emilia und greift nur zwischen morgens und abends aktiv ein, da er nachts in seinem Kristall meditiert.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Spirits & Spirit Magic",
+              "content": "Spirits are ethereal beings intertwined with nature that draw mana directly from the environment rather than burning their contractor's internal reserves. They range from faint lesser spirits (quasi-spirits) to Great Spirits such as Puck (the Great Spirit of Fire). Spirit arts depend on binding contracts establishing strict terms, schedules, and taboos. Puck watches fiercely over Emilia, remaining active exclusively during daylight hours before retreating to sleep inside his mana crystal at dusk.",
+              "key": [
+                "Spirit",
+                "Spirits",
+                "Puck",
+                "Spirit Contract",
+                "Spirit Arts",
+                "Quasi-spirits"
+              ]
+            },
+            "ru": {
+              "name": "Духи и магия духов",
+              "content": "Духи — бестелесные сущности природы, черпающие ману прямо из окружающей среды, экономя жизненные силы заклинателя. Они варьируются от крошечных низших духов (квази-духов) до Великих Духов вроде Пака (Великого Духа Огня). Заклинатель духов заключает священный договор с четкими условиями и ограничениями. Пак преданно оберегает Эмилию, действуя лишь в дневное время суток и засыпая в кристалле с наступлением сумерек.",
+              "key": [
+                "Дух",
+                "Духи",
+                "Пак",
+                "Договор с духом",
+                "Магия духов",
+                "Квази-духи"
+              ]
+            },
+            "ja": {
+              "name": "精霊と精霊術",
+              "content": "大気中のマナを媒介として自然現象を操る精神生命体。術者自身のオド（生命力）を消耗せず大気のマナを使える利点がある。微精霊、準精霊、そしてパック（火を司る大精霊）のような大精霊が存在する。精霊術師は契約によって精霊と結ばれ、活動時間や誓約事項が厳格に定められる。パックはエミリアを溺愛し命がけで守るが、朝から夕方までの活動制限があり、夜間は魔晶石の中で眠りにつく。",
+              "key": [
+                "精霊",
+                "微精霊",
+                "パック",
+                "精霊術",
+                "精霊契約",
+                "大精霊"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Die Hexen der Sünde & der Hexenkult",
+      "key": [
+        "Hexe",
+        "Hexen",
+        "Satella",
+        "Echidna",
+        "Neid",
+        "Gier",
+        "Hexenkult",
+        "Erzbischof",
+        "Miasma",
+        "Hexenduft"
+      ],
+      "content": "Vor 400 Jahren zerstörte die gefürchtete Hexe des Neides (Satella) die halbe Welt und verschlang die anderen sechs Hexen der Sünde (Echidna die Gier, Minerva den Zorn, Carmilla die Lust, Daphne die Völlerei, Typhon den Hochmut und Sekhmet die Trägheit). Bis heute verehrt der fanatische Hexenkult die Hexe des Neides und stiftet Chaos unter der Führung grausamer Todsünden-Erzbischöfe. Die Anwesenheit von Hexenmacht erzeugt ein widerwärtiges Miasma (Hexenduft), das Dämonenbiester anlockt und den Verstand gewöhnlicher Wesen vergiftet.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "The Witches of Sin & the Witch Cult",
+              "content": "Four centuries ago, the dreaded Witch of Envy (Satella) devoured half the known world along with the six other Witches of Sin (Echidna of Greed, Minerva of Wrath, Carmilla of Lust, Daphne of Gluttony, Typhon of Pride, and Sekhmet of Sloth). In the present day, the zealous Witch Cult worships her shadow, unleashing catastrophic terror orchestrated by the Sin Archbishops. The lingering essence of witch magic manifests as foul miasma (the Witch's Scent), driving beasts into homicidal frenzies and sickening mortal minds.",
+              "key": [
+                "Witch",
+                "Witches",
+                "Satella",
+                "Echidna",
+                "Envy",
+                "Greed",
+                "Witch Cult",
+                "Archbishop",
+                "Miasma",
+                "Witch Scent"
+              ]
+            },
+            "ru": {
+              "name": "Ведьмы греха и Культ Ведьмы",
+              "content": "Четыреста лет назад ужасающая Ведьма Зависти (Сателла) поглотила половину мира и шесть других Ведьм Греха (Ехидну Жадности, Минерву Гнева, Кармиллу Похоти, Дафну Чревоугодия, Тифон Гордыни и Сехмет Лени). По сей день фанатичный Культ Ведьмы сеет хаос и смерть под руководством Архиепископов Греха. Присутствие ведьминой силы оставляет тяжелый смрад — миазмы (запах Ведьмы), привлекающий демонозверей и сводящий людей с ума.",
+              "key": [
+                "Ведьма",
+                "Ведьмы",
+                "Сателла",
+                "Ехидна",
+                "Зависть",
+                "Жадность",
+                "Культ Ведьмы",
+                "Архиепископ",
+                "Миазмы",
+                "Запах ведьмы"
+              ]
+            },
+            "ja": {
+              "name": "大罪の魔女と魔女教",
+              "content": "四百年前、世界を半壊させ他の六人の魔女（強欲のエキドナ、憤怒のミネルヴァ、色欲のカーミラ、暴食のダフネ、傲慢のテュフォン、怠惰のセクメト）を飲み込んだ「嫉妬の魔女」サテラ。現在もサテラを盲信する狂信集団「魔女教」が暗躍し、大罪司教たちが各地で凶行を重ねている。魔女に由来する異質な魔力は「魔女の残り香（瘴気）」と呼ばれ、魔獣を引き寄せ狂乱させ、常人の精神を蝕む。",
+              "key": [
+                "魔女",
+                "大罪の魔女",
+                "サテラ",
+                "エキドナ",
+                "強欲",
+                "嫉妬",
+                "魔女教",
+                "大罪司教",
+                "瘴気",
+                "魔女の残り香"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Rückkehr durch den Tod (Return by Death)",
+      "key": [
+        "Rückkehr durch den Tod",
+        "Return by Death",
+        "Zeitschleife",
+        "Tabu",
+        "Schattenschwur",
+        "Herzschmerz"
+      ],
+      "content": "Subaru Natsukis geheimnisvolle, von der Hexe des Neides verliehene Gabe: Stirbt er, wird sein Bewusstsein durch die Zeit zurückgeworfen zu einem vorherigen Schicksalspunkt (Speicherpunkt). Alle physischen Wunden werden zurückgesetzt, doch die seelischen Traumata und Erinnerungen bleiben allein bei ihm. Er darf niemandem von dieser Fähigkeit erzählen; versucht er es dennoch, ergreift eine unbarmherzige Schattengreiferhand sein Herz und tötet ihn oder seine Vertrauten, während sein Miasmaduft drastisch ansteigt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Return by Death",
+              "content": "Subaru Natsuki's mysterious, horrifying curse bestowed by the Witch of Envy: upon death, his soul rewinds time to an unpredictable previous checkpoint. While physical trauma vanishes, all emotional anguish and vivid memories of dying remain etched into his psyche. A strict taboo forbids him from revealing this curse to anyone; attempting to do so summons an unseen shadowy hand that crushes his heart or slaughters his confidants, drastically intensifying his Witch's Scent.",
+              "key": [
+                "Return by Death",
+                "Time Loop",
+                "Taboo",
+                "Shadow Hand",
+                "Heartbreak",
+                "Checkpoint"
+              ]
+            },
+            "ru": {
+              "name": "Посмертное возвращение (Return by Death)",
+              "content": "Ужасающее проклятие Субару Нацуки, дарованное Ведьмой Зависти: после гибели его сознание переносится назад во времени к непредсказуемой точке сохранения. Физические раны исчезают, но душевные травмы и память о смерти остаются лишь с ним. Он не может никому рассказать об этой способности: при малейшей попытке невидимая рука сжимает его сердце или убивает близких, а исходящий от него запах ведьмы резко усиливается.",
+              "key": [
+                "Посмертное возвращение",
+                "Петля времени",
+                "Табу",
+                "Тень",
+                "Сердце",
+                "Точка сохранения"
+              ]
+            },
+            "ja": {
+              "name": "死に戻り（Return by Death）",
+              "content": "ナツキ・スバルが「嫉妬の魔女」から与えられた唯一無二にして残酷な能力。命を落とすと意識と記憶を保持したまま過去の「セーブポイント」へと巻き戻る。肉体の傷はリセットされるが、死の激痛と精神的絶望の記憶は全てスバル一人に蓄積される。この秘密を他者に明かすことは禁忌とされており、話そうとすると漆黒の見えざる手が心臓を握り締め、周囲の者を死に至らしめ、体から放たれる魔女の残り香が跳ね上がる。",
+              "key": [
+                "死に戻り",
+                "巻き戻り",
+                "セーブポイント",
+                "禁忌",
+                "見えざる手",
+                "黒い手"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Dämonenbiester (Mabeasts) & Wolgarm",
+      "key": [
+        "Dämonenbiest",
+        "Dämonenbiester",
+        "Mabeast",
+        "Wolgarm",
+        "Fluchhund",
+        "Miasma-Anziehung"
+      ],
+      "content": "Dämonenbiester sind unnatürliche, von der Hexe der Völlerei (Daphne) erschaffene Kreaturen, die keinerlei Furcht kennen und instinktiv Jagd auf alles Fleisch machen. Sie besitzen keine Manatore, sondern saugen Mana aus der Umwelt und ihrer Beute. Bestien wie die welpenartigen Wolgarm im Wald nahe des Roswaal-Anwesens beißen ihre Opfer und legen einen verzögerten Tötungsfluch auf sie, der das Mana bis zum Organversagen entzieht. Sie reagieren extrem aggressiv auf den Hexenduft.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "translations": {
+            "en": {
+              "name": "Mabeasts & Wolgarm",
+              "content": "Mabeasts are artificial monstrosities created centuries ago by Daphne, the Witch of Gluttony, driven by an insatiable hunger to consume all living matter. Lacking normal mana gates, they greedily absorb ambient mana. Pack predators such as the dog-like Wolgarm infesting the forest near Roswaal Manor inflict a delayed death curse with each bite, draining their victim's life force until vital failure. They are drawn irresistibly to the pungent Witch's Scent.",
+              "key": [
+                "Mabeast",
+                "Mabeasts",
+                "Wolgarm",
+                "Curse Hound",
+                "Curse Bite"
+              ]
+            },
+            "ru": {
+              "name": "Демонозвери (Мазвери) и Вольгармы",
+              "content": "Демонозвери — жуткие твари, созданные Ведьмой Чревоугодия Дафной, ведомые неутолимым голодом. Лишенные обычных врат маны, они жадно поглощают чужую энергию. Стайные хищники вроде псоподобных вольгармов, обитающих в лесу у поместья Розвааля, накладывают укусом отложенное смертельное проклятие, вытягивающее всю ману до остановки сердца. Они яростно реагируют на запах Ведьмы.",
+              "key": [
+                "Демонозвери",
+                "Мазвери",
+                "Вольгарм",
+                "Проклятие",
+                "Укус"
+              ]
+            },
+            "ja": {
+              "name": "魔獣とウルガルム",
+              "content": "「暴食の魔女」ダフネが生み出した人工の生態系破壊生物。飢餓感に突き動かされ、本能のままに生きた獲物を貪る。通常のゲートを持たず、周囲や獲物のマナを喰らう性質を持つ。ロズワール邸近郊の森に生息する仔犬型の魔獣「ウルガルム」は、噛みつくことで遅効性の呪詛を刻み、術者の合図で体内のマナを喰い尽くして宿主を衰弱死させる。魔女の残り香に極めて敏感に反応する。",
+              "key": [
+                "魔獣",
+                "ウルガルム",
+                "呪詛",
+                "魔獣の森",
+                "呪い犬"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Re:Zero – World, Magic & Witches",
+          "description": "The Dragon Kingdom of Lugnica, mana gates and elemental attributes, spirit pacts, the Witches of Sin, and the taboo of Return by Death."
+        },
+        "ru": {
+          "name": "Re:Zero – Мир, магия и ведьмы",
+          "description": "Королевство Дракона Лугуника, врата маны и стихии, договоры с духами, Ведьмы Греха и табу Посмертного возвращения."
+        },
+        "ja": {
+          "name": "Re:Zero – 世界観・魔法・魔女",
+          "description": "親竜王国ルグニカ、マナの門と六属性魔法、精霊契約、大罪の魔女、そして死に戻りの禁忌。"
+        }
+      }
+    }
+  }
+}

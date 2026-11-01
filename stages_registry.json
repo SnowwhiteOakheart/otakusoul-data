@@ -1593,6 +1593,33 @@
           "starting_location": "Брилл, рабочая комната архивариуса Селки"
         }
       }
+    },
+    {
+      "id": "re_zero_ep1_schatten_ueber_dem_anwesen",
+      "title": "Schatten über dem Roswaal-Anwesen",
+      "description": "Ein unheilvolles Miasma legt sich über Roswaals Herrenhaus, Beatrice' Bibliothek spielt verrückt und Echidnas Teegesellschaft wirft ihren Schatten voraus. Kannst du mit Subaru, Emilia und den Bewohnern das Geheimnis lüften?",
+      "starting_location": "Der sonnenbeschienene Korridor vor Beatrice' Bibliothek",
+      "author": "SnowwhiteOakheart",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/re_zero_ep1_schatten_ueber_dem_anwesen.json",
+      "translations": {
+        "en": {
+          "title": "Shadows Over Roswaal Manor",
+          "description": "An ominous miasma settles over Roswaal's estate, Beatrice's library goes haywire, and Echidna's tea party casts its surreal shadow. Can you uncover the mystery alongside Subaru, Emilia, and the household?",
+          "starting_location": "The sunlit hallway outside Beatrice's Forbidden Library"
+        },
+        "ja": {
+          "title": "ロズワール邸に落ちる影",
+          "description": "ロズワール邸を突如覆う不穏な瘴気、暴走するベアトリスの禁書庫、そして境界の向こうから干渉するエキドナの茶会。スバルやエミリアたちと共に、屋敷に迫る異変の真相を解き明かせるか？",
+          "starting_location": "禁書庫の前に続く日差しの差し込む廊下"
+        },
+        "ru": {
+          "title": "Тени над поместьем Розвааля",
+          "description": "Зловещие миазмы окутывают особняк Розвааля, библиотека Беатрис выходит из-под контроля, а чаепитие Ехидны отбрасывает призрачную тень. Сможешь ли ты разгадать тайну вместе с Субару, Эмилией и обитателями поместья?",
+          "starting_location": "Залитый солнцем коридор перед Запретной библиотекой Беатрис"
+        }
+      }
     }
   ]
 }
