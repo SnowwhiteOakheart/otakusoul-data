@@ -770,6 +770,52 @@
           "name": "NTE – Команда Эйбон и агенты"
         }
       }
+    },
+    {
+      "name": "SPY×FAMILY – Berlint & geheime Identitäten",
+      "description": "Weltwissen, Familie, Schule und klare Wissensgrenzen im frühen Anime-Zeitraum.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 8,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/spy_family_world.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "World, family, school and clear knowledge boundaries in the early-anime era.",
+          "name": "SPY×FAMILY – Berlint & secret identities"
+        },
+        "ja": {
+          "description": "アニメ初期の世界、家族、学校、知識の境界。",
+          "name": "SPY×FAMILY ― バーリントと秘密の正体"
+        },
+        "ru": {
+          "description": "Мир, семья, школа и границы знаний в ранний период аниме.",
+          "name": "SPY×FAMILY — Берлинт и тайные личности"
+        }
+      }
+    },
+    {
+      "name": "SPY×FAMILY – Operation Picknick",
+      "description": "Eigene Fanmission: Paketverwechslung, drei faire Hinweispfade und ein familienfreundliches Finale. Geheimnisse nur für die Spielleitung.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/spy_family_operation_picknick.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "description": "Original fan mission: swapped parcels, three fair clue routes and a family-friendly ending. Secrets for the narrator.",
+          "name": "SPY×FAMILY – Operation Picnic"
+        },
+        "ja": {
+          "description": "独自ファン任務。包みの取り違え、三つの公正な手掛かり、家族向けの結末。秘密は語り手用。",
+          "name": "SPY×FAMILY ― オペレーション・ピクニック"
+        },
+        "ru": {
+          "description": "Фан-миссия: перепутанные посылки, три честных пути улик и семейный финал. Тайны для ведущего.",
+          "name": "SPY×FAMILY — Операция «Пикник»"
+        }
+      }
     }
   ]
 }

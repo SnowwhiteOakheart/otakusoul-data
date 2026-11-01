@@ -294,3 +294,12 @@ This repository is an independent, non-commercial fan project. All depicted char
 **EN:** All 49 existing sets of six expressions received nine individually generated SFW images each (441 additional images). Including Overlord and the eight newly completed NTE characters, all 60 characters now have all 15 slots. The NTE series adds 120 individually generated images, requested on 19 October 2026. The four technically romance-named slots contain nonsexual variants only. Prompts and processing are documented per character in `expressions/<character>/additional_prompts.json`.
 
 **RU:** Все 49 существующих наборов из шести эмоций дополнены девятью отдельно сгенерированными неэротическими изображениями (441 новое изображение). Вместе с Overlord и восемью дополненными персонажами NTE у всех 60 персонажей есть все 15 слотов. По запросу от 19.10.2026 для NTE добавлено 120 отдельно сгенерированных изображений. Четыре технических слота романтики содержат только неэротические варианты. Запросы и обработка описаны в `expressions/<персонаж>/additional_prompts.json`.
+
+
+## SPY×FAMILY – Operation Picknick
+
+**DE:** Neue Hub-Sammlung mit Anya (Anja), Loid und Yor Forger, 45 Emotionsbildern, zwei Lorebooks und einer etwa 60-minütigen Story samt Cover und Museumsgarten. Alle Texte DE/EN/RU/JA. [Paketdetails](presets/spy-x-family/README.md).
+
+**EN:** New collection with Anya, Loid and Yor, 45 expressions, two lorebooks and a roughly 60-minute story with cover and museum garden; DE/EN/RU/JA.
+
+**RU:** Новая коллекция: Аня, Лойд, Йор, 45 эмоций, две книги знаний и история примерно на 60 минут с обложкой и музейным садом; DE/EN/RU/JA.

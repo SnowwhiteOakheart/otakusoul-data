@@ -14,3 +14,12 @@ Zur lokalen Nutzung die Karte importieren und die WebP-Dateien im lokalen Expres
 **EN:** All characters in this package now have 15 slots. The original six images are preserved; nine individually generated SFW variants were added. Prompts and processing: `expressions/<character>/additional_prompts.json`. Romance-named technical slots show courteous confidence, alertness, triumphant joy and relief, entirely nonsexual. Built-in OpenAI image_gen, 640×800 WebP, quality 92; existing provenance and rights notices remain applicable.
 
 **RU:** У всех персонажей пакета теперь 15 слотов. Исходные шесть изображений сохранены; добавлены девять отдельно сгенерированных неэротических вариантов. Запросы и обработка: `expressions/<персонаж>/additional_prompts.json`. Технические слоты романтики показывают учтивую уверенность, внимание, радость победы и облегчение без эротики. Встроенный OpenAI image_gen, WebP 640×800, качество 92; прежние сведения о происхождении и правах сохраняют силу.
+
+
+## SPY×FAMILY-Sammlung (01.11.2026)
+
+DE: Teil von [Operation Picknick](../spy-x-family/README.md). Welt-Lorebook, drittes Dialogbeispiel und Wissensgrenzen DE/EN/RU/JA ergänzt; vorhandene Bilder unverändert.
+
+EN: Included in Operation Picnic; world lore, third dialogue example and knowledge boundaries added in four languages. Existing images preserved.
+
+RU: Входит в «Операцию Пикник»; знания мира, третий диалог и границы знаний добавлены на четырёх языках. Изображения сохранены.

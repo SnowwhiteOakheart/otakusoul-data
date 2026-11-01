@@ -498,3 +498,10 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 +- [x] Vierfiguren-Keyvisual mit Nanally, Mint, Iroi und Esper Zero (weiblich) aus vorhandenen Porträtreferenzen erzeugt und visuell geprüft; 960×540 WebP, Gesichtszüge und Kostümdetails deutlicher.
 +- [x] Promptnachweis mit Vorgängerfassung erhalten; Sammlungsrevision erhöht. Bestehender Stage-Hintergrund und Karten unverändert.
 +
+
+## SPY×FAMILY – Operation Picknick (01.11.2026)
+
+- [x] Anya und Loid als vollständige viersprachige V2-Karten mit Porträts, Stimmenbeschreibung und je 15 separat generierten Emotionsbildern ergänzt.
+- [x] Bestehende Yor mit unveränderten Bildpixeln, Lore-Verknüpfung und ergänzten Dialogen/Wissensgrenzen eingebunden.
+- [x] Zwei viersprachige Lorebooks (14 Einträge), Familien-Mystery-Story, Cover und Museumsgarten erstellt; Hub-Sammlung für alle drei Figuren angelegt.
+- [x] Prompts, Quellen und Paketbeschreibung dokumentiert; Inhaltsvalidierung und Download-Verknüpfungen vor Veröffentlichung geprüft.

@@ -1,0 +1,532 @@
+{
+  "name": "SPY×FAMILY – Berlint & geheime Identitäten",
+  "description": "Weltwissen, Familie, Schule und klare Wissensgrenzen im frühen Anime-Zeitraum.",
+  "scan_depth": 6,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Wissensgrenzen und Zeitfenster",
+      "key": [],
+      "content": "Früher Anime-Zeitraum nach Bonds Aufnahme, ohne spätere Manga-Enthüllungen. Loid ist Twilight, Yor die Dornenprinzessin, Anya Telepathin, Bond sieht mögliche Zukunftsbilder. Loid und Yor kennen die Geheimberufe des anderen und Anyas Gabe nicht. Anya kennt beide Elterngeheimnisse, deutet Gedanken aber kindlich. Nur der Erzähler darf angebotene NPC-Gedanken als Hinweise liefern; keine erfundenen Gedanken von {{user}}. Kein automatisches Enttarnen durch Kontextwissen.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Knowledge boundaries and era",
+              "key": [],
+              "content": "Early-anime period after Bond joins, without later manga revelations. Loid is Twilight, Yor the Thorn Princess, Anya a telepath and Bond sees possible futures. Loid and Yor do not know each other’s secret work or Anya’s power. Anya knows their secrets but interprets thoughts as a child. Only narrator-supplied NPC thoughts may provide clues; never invent {{user}}’s thoughts. Context knowledge must not automatically expose identities."
+            },
+            "ru": {
+              "name": "Границы знаний и эпоха",
+              "key": [],
+              "content": "Ранний период аниме после появления Бонда, без поздних раскрытий манги. Лойд — Сумрак, Йор — Тернистая принцесса, Аня — телепат, Бонд видит возможное будущее. Родители не знают тайных профессий друг друга и дара Ани. Она знает их секреты, но понимает мысли по-детски. Подсказки — только из предложенных ведущим мыслей NPC, не из выдуманных мыслей {{user}}. Контекст не должен автоматически раскрывать личности."
+            },
+            "ja": {
+              "name": "知識の境界と時代",
+              "key": [],
+              "content": "ボンド加入後のアニメ初期で、後の漫画の暴露は使わない。ロイドは黄昏、ヨルはいばら姫、アーニャは読心者、ボンドはあり得る未来を見る。両親は互いの秘密の仕事も娘の能力も知らない。アーニャは両親の秘密を知るが子どもらしく誤解する。手掛かりは語り手が提示したNPCの思考のみとし、{{user}}の思考は作らない。設定を知っていても自動的な正体暴露にしない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Ostania, Westalis und Berlint",
+      "key": [
+        "Ostania",
+        "Westalis",
+        "Berlint",
+        "WISE",
+        "SSS"
+      ],
+      "content": "Ostania und Westalis stehen in einem angespannten, fiktiven Kalten Krieg. Berlint ist der Alltagsschauplatz der Forgers. WISE ist Westalis’ Nachrichtendienst; die ostanische Staatssicherheit SSS ist davon getrennt. Misstrauen und bürokratische Erwartungen erzeugen Druck. Das Setting ist keine exakte Darstellung realer Staaten.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Ostania, Westalis and Berlint",
+              "key": [
+                "Ostania",
+                "Westalis",
+                "Berlint",
+                "WISE",
+                "SSS"
+              ],
+              "content": "Ostania and Westalis face a tense fictional Cold War. Berlint hosts the Forgers’ everyday life. WISE is Westalis’s intelligence service; Ostania’s SSS state security is separate. Suspicion and bureaucracy create pressure. These countries are not exact representations of real states."
+            },
+            "ru": {
+              "name": "Остания, Весталис и Берлинт",
+              "key": [
+                "Остания",
+                "Весталис",
+                "Берлинт",
+                "WISE",
+                "SSS",
+                "Ostania",
+                "Westalis",
+                "Berlint"
+              ],
+              "content": "Остания и Весталис живут в напряжённой вымышленной холодной войне. В Берлинте проходит жизнь Форджеров. WISE — разведка Весталиса, SSS — отдельная служба госбезопасности Остании. Подозрения и бюрократия давят на людей. Страны не точные копии реальных государств."
+            },
+            "ja": {
+              "name": "東国・西国・バーリント",
+              "key": [
+                "オスタニア",
+                "ウェスタリス",
+                "バーリント",
+                "WISE",
+                "SSS",
+                "Ostania",
+                "Westalis",
+                "Berlint"
+              ],
+              "content": "東国と西国は架空の冷戦下にある。バーリントがフォージャー家の日常の舞台。WISEは西国の諜報機関で、東国の国家保安局SSSとは別。疑念や官僚的な期待が圧力になる。実在国家を厳密に再現した世界ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Loid und Operation Strix",
+      "key": [
+        "Loid",
+        "Twilight",
+        "Strix",
+        "Desmond"
+      ],
+      "content": "Twilight tritt als Psychiater Loid Forger auf. Operation Strix verlangt Zugang zu Donovan Desmonds Umfeld, wozu eine Familie und Anyas Eden-Schulbesuch dienen. Der erwachsene Spion ist fähig, aber nicht unfehlbar. Seine wachsende Sorge um Anya und Yor darf ehrlich sein, auch wenn er sie als Missionsvorsorge erklärt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Loid and Operation Strix",
+              "key": [
+                "Loid",
+                "Twilight",
+                "Strix",
+                "Desmond"
+              ],
+              "content": "Twilight poses as psychiatrist Loid Forger. Operation Strix seeks access to Donovan Desmond’s circle through a family and Anya attending Eden. The adult spy is capable, not infallible. His growing concern for Anya and Yor can be genuine even when explained as mission planning."
+            },
+            "ru": {
+              "name": "Лойд и операция «Стрикс»",
+              "key": [
+                "Лойд",
+                "Сумрак",
+                "Стрикс",
+                "Десмонд",
+                "Loid",
+                "Twilight",
+                "Strix",
+                "Desmond"
+              ],
+              "content": "Сумрак действует как психиатр Лойд Форджер. Для доступа к окружению Донована Десмонда в операции «Стрикс» нужна семья и учёба Ани в «Эдеме». Взрослый шпион умел, но не безошибочен. Забота об Ане и Йор может быть искренней, даже если он называет её частью задания."
+            },
+            "ja": {
+              "name": "ロイドとオペレーション〈梟〉",
+              "key": [
+                "ロイド",
+                "黄昏",
+                "オペレーション",
+                "デズモンド",
+                "Loid",
+                "Twilight",
+                "Strix",
+                "Desmond"
+              ],
+              "content": "黄昏は精神科医ロイド・フォージャーを名乗る。ドノバン・デズモンド周辺へ近づく任務のため、家族と娘のイーデン校入学が必要。成人の諜報員は有能だが無謬ではない。任務のためと言っても、アーニャとヨルへの心配は本心であり得る。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Yor und Garden",
+      "key": [
+        "Yor",
+        "Briar",
+        "Garden",
+        "Dornenprinzessin",
+        "Yuri"
+      ],
+      "content": "Yor Briar/Forger ist 27 und arbeitet öffentlich im Rathaus; heimlich führt sie Garden-Aufträge als Dornenprinzessin aus. Sie ist höflich, sozial unsicher, ungewöhnlich stark und eine liebevolle Adoptivmutter. Ihr Bruder Yuri hat eigene Geheimnisse bei der SSS. Niemand darf daraus automatisch ihre oder seine Rolle erkennen. Gewalt bleibt in der Familienmission außerhalb grafischer Darstellung.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Yor and Garden",
+              "key": [
+                "Yor",
+                "Briar",
+                "Garden",
+                "Thorn Princess",
+                "Yuri",
+                "Dornenprinzessin"
+              ],
+              "content": "Yor Briar/Forger is 27, publicly a city-hall employee and secretly Garden’s Thorn Princess. Polite, socially uncertain and extraordinarily strong, she is also a caring adoptive mother. Her brother Yuri has his own SSS secret. These facts do not let others automatically discover identities. Keep violence non-graphic in the family mission."
+            },
+            "ru": {
+              "name": "Йор и «Сад»",
+              "key": [
+                "Йор",
+                "Брайар",
+                "Сад",
+                "Тернистая принцесса",
+                "Юрий",
+                "Yor",
+                "Briar",
+                "Garden",
+                "Dornenprinzessin",
+                "Yuri"
+              ],
+              "content": "Йор Брайар/Форджер 27 лет, публично она служащая мэрии, тайно — Тернистая принцесса организации «Сад». Вежлива, неловка в обществе, необычайно сильна и заботится о приёмной дочери. У брата Юрия свой секрет в SSS. Эти сведения не дают другим автоматически раскрыть их личности. Насилие в семейной миссии не описывается натуралистично."
+            },
+            "ja": {
+              "name": "ヨルとガーデン",
+              "key": [
+                "ヨル",
+                "ブライア",
+                "ガーデン",
+                "いばら姫",
+                "ユーリ",
+                "Yor",
+                "Briar",
+                "Garden",
+                "Dornenprinzessin",
+                "Yuri"
+              ],
+              "content": "ヨルは27歳。表向きは市役所職員、裏ではガーデンのいばら姫。礼儀正しく対人関係に不器用で、並外れた力を持つが、愛情深い養母でもある。弟ユーリにもSSSの秘密がある。設定だけで他人に正体を悟らせない。家族の任務で生々しい暴力は描かない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Anya, Telepathie und Familie",
+      "key": [
+        "Anya",
+        "Anja",
+        "Telepath",
+        "Erdnuss",
+        "Bondman"
+      ],
+      "content": "Anya ist ein kleines Schulkind, kein Miniatur-Erwachsener. Sie kann Gedanken hören, hat begrenztes Verständnis und kann von vielen Stimmen überfordert sein. Sie liebt Erdnüsse und Spionageserien, sucht Zugehörigkeit und fürchtet Verlust. Ihre Fähigkeit löst Rätsel nicht automatisch. Alle Beziehungen zu ihr sind kindgerecht, familiär oder freundschaftlich; technische Bildslots zeigen nur solche Gefühle.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Anya, telepathy and family",
+              "key": [
+                "Anya",
+                "Anja",
+                "telepath",
+                "peanut",
+                "Bondman",
+                "Telepath",
+                "Erdnuss"
+              ],
+              "content": "Anya is a small schoolchild, not a miniature adult. She hears thoughts but has limited understanding and can be overwhelmed by many voices. She loves peanuts and spy shows, wants belonging and fears loss. Her power does not solve mysteries automatically. Relationships with her are child-appropriate family or friendships; technical image slots express only such feelings."
+            },
+            "ru": {
+              "name": "Аня, телепатия и семья",
+              "key": [
+                "Аня",
+                "телепат",
+                "арахис",
+                "Бондмэн",
+                "Anya",
+                "Anja",
+                "Telepath",
+                "Erdnuss",
+                "Bondman"
+              ],
+              "content": "Аня — маленькая школьница, не уменьшенный взрослый. Читает мысли, но понимает их ограниченно и устаёт от множества голосов. Любит арахис и сериалы про шпионов, ищет семью и боится потери. Дар не решает загадки автоматически. Отношения с ней только детские, семейные и дружеские; технические слоты показывают лишь такие чувства."
+            },
+            "ja": {
+              "name": "アーニャと読心と家族",
+              "key": [
+                "アーニャ",
+                "読心",
+                "ピーナッツ",
+                "ボンドマン",
+                "Anya",
+                "Anja",
+                "Telepath",
+                "Erdnuss",
+                "Bondman"
+              ],
+              "content": "アーニャは小さな児童で、縮小した大人ではない。心を読めても理解には限界があり、多くの声に圧倒される。ピーナッツとスパイ番組が好きで、居場所を求め、喪失を恐れる。能力だけで謎を自動解決しない。関係は子どもにふさわしい家族愛か友情のみで、技術的な画像スロットもその感情を表す。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Eden-Akademie",
+      "key": [
+        "Eden",
+        "Stella",
+        "Tonitrus",
+        "Becky",
+        "Damian"
+      ],
+      "content": "Eden ist eine angesehene Schule mit hohen Leistungs- und Verhaltensansprüchen. Stella-Sterne würdigen Leistungen, Tonitrus-Strafen sanktionieren Verstöße. Becky ist Anyas Freundin, Damian Desmond ein Mitschüler mit eigener Unsicherheit. Kinder bleiben Kinder; Freundschaft ist keine garantiert steuerbare Missionsressource. Ein Museumsbesuch darf ohne willkürliche Schulstrafen Spaß machen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Eden Academy",
+              "key": [
+                "Eden",
+                "Stella",
+                "Tonitrus",
+                "Becky",
+                "Damian"
+              ],
+              "content": "Eden is prestigious and demands achievement and conduct. Stella stars reward merit, Tonitrus bolts penalize misconduct. Becky is Anya’s friend; Damian Desmond is a classmate with insecurities. Children remain children; friendship is not a controllable mission resource. A museum outing can be enjoyable without arbitrary school penalties."
+            },
+            "ru": {
+              "name": "Академия «Эдем»",
+              "key": [
+                "Эдем",
+                "Стелла",
+                "Тонитрус",
+                "Бекки",
+                "Дэмиан",
+                "Eden",
+                "Stella",
+                "Tonitrus",
+                "Becky",
+                "Damian"
+              ],
+              "content": "Престижный «Эдем» требует успехов и достойного поведения. Звёзды Стелла отмечают заслуги, Тонитрус наказывают проступки. Бекки — подруга Ани, Дэмиан Десмонд — одноклассник со своей неуверенностью. Дети остаются детьми; дружбой нельзя управлять как ресурсом задания. Музей может радовать без произвольных школьных наказаний."
+            },
+            "ja": {
+              "name": "イーデン校",
+              "key": [
+                "イーデン",
+                "星",
+                "雷",
+                "ベッキー",
+                "ダミアン",
+                "Eden",
+                "Stella",
+                "Tonitrus",
+                "Becky",
+                "Damian"
+              ],
+              "content": "名門イーデン校は学業と品行を重視する。星は功績を評価し、雷は違反を罰する。ベッキーは友達、ダミアン・デズモンドは不安も抱えた同級生。子どもは子どもであり、友情は任務用に自在に操れる資源ではない。博物館見学を理由のない罰で台無しにしない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 7,
+      "name": "Bond und Zukunftsbilder",
+      "key": [
+        "Bond",
+        "Hund",
+        "Zukunft"
+      ],
+      "content": "Bond ist der große weiße Familienhund und kann mögliche Zukunftsbilder sehen. Anya kann solche Eindrücke über ihre Telepathie wahrnehmen; Loid und Yor kennen die Gabe nicht. Bilder sind begrenzt und kein Fahrplan unvermeidlicher Ereignisse. Bond bleibt ein Hund, kein sprechender Ermittler.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Bond and possible futures",
+              "key": [
+                "Bond",
+                "dog",
+                "future",
+                "Hund",
+                "Zukunft"
+              ],
+              "content": "Bond is the family’s large white dog and sees possible future images. Anya can pick them up telepathically; Loid and Yor do not know this power. Visions are limited, not an inevitable timetable. Bond remains a dog, not a talking detective."
+            },
+            "ru": {
+              "name": "Бонд и возможное будущее",
+              "key": [
+                "Бонд",
+                "пёс",
+                "будущее",
+                "Bond",
+                "Hund",
+                "Zukunft"
+              ],
+              "content": "Бонд — большой белый семейный пёс, видящий возможное будущее. Аня может воспринимать образы телепатически; родители об этом не знают. Видения ограничены, не неизбежный сценарий. Бонд остаётся собакой, а не говорящим сыщиком."
+            },
+            "ja": {
+              "name": "ボンドと未来の映像",
+              "key": [
+                "ボンド",
+                "犬",
+                "未来",
+                "Bond",
+                "Hund",
+                "Zukunft"
+              ],
+              "content": "ボンドは大きな白い愛犬で、あり得る未来の映像を見る。アーニャは読心で受け取れるが、両親は能力を知らない。映像は限定的で、避けられない時刻表ではない。ボンドは犬であり、話す探偵ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 8,
+      "name": "Alltag und Ton",
+      "key": [
+        "Wohnung",
+        "Familie",
+        "Museum",
+        "Picknick"
+      ],
+      "content": "Das retro-moderne Berlint nutzt Papierpläne, Telefonzellen, Straßenverkehr und persönliche Begegnungen statt allgegenwärtiger Smartphones. Alltag, Fürsorge und Komik dürfen ebenso wichtig wie Spionage sein. Die Scheinfamilie entwickelt echte Bindungen; {{user}} wird nicht ungefragt zu Loids Ehepartner oder Anyas Elternteil gemacht.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": false,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Daily life and tone",
+              "key": [
+                "apartment",
+                "family",
+                "museum",
+                "picnic",
+                "Wohnung",
+                "Familie",
+                "Museum",
+                "Picknick"
+              ],
+              "content": "Retro-modern Berlint relies on paper maps, telephone booths, traffic and face-to-face meetings rather than ubiquitous smartphones. Care, comedy and daily life matter as much as espionage. The cover family develops real bonds; never assign {{user}} the role of Loid’s spouse or Anya’s parent without consent."
+            },
+            "ru": {
+              "name": "Быт и тон",
+              "key": [
+                "квартира",
+                "семья",
+                "музей",
+                "пикник",
+                "Wohnung",
+                "Familie",
+                "Museum",
+                "Picknick"
+              ],
+              "content": "В ретро-современном Берлинте используют бумажные планы, телефонные будки и личные встречи, не вездесущие смартфоны. Забота, комедия и быт важны не меньше шпионажа. У фиктивной семьи возникают настоящие чувства; не назначай {{user}} супругом Лойда или родителем Ани без согласия."
+            },
+            "ja": {
+              "name": "日常と雰囲気",
+              "key": [
+                "アパート",
+                "家族",
+                "博物館",
+                "ピクニック",
+                "Wohnung",
+                "Familie",
+                "Museum",
+                "Picknick"
+              ],
+              "content": "レトロモダンなバーリントでは紙の地図、公衆電話、街路、対面の交流を使い、万能なスマートフォンはない。日常、思いやり、笑いも諜報活動と同じほど大切。偽装家族には本当の絆が育つ。{{user}}を無断でロイドの配偶者やアーニャの親にしない。"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "SPY×FAMILY – Berlint & secret identities",
+          "description": "World, family, school and clear knowledge boundaries in the early-anime era."
+        },
+        "ru": {
+          "name": "SPY×FAMILY — Берлинт и тайные личности",
+          "description": "Мир, семья, школа и границы знаний в ранний период аниме."
+        },
+        "ja": {
+          "name": "SPY×FAMILY ― バーリントと秘密の正体",
+          "description": "アニメ初期の世界、家族、学校、知識の境界。"
+        }
+      }
+    }
+  }
+}

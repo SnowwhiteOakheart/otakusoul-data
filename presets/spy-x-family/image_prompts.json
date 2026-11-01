@@ -1,0 +1,186 @@
+{
+  "portrait_prompts": [
+    {
+      "name": "anya_forger",
+      "prompt": "Use case: stylized-concept. Create a polished anime character portrait of Anya Forger from Spy x Family, a small elementary-school-aged child, canonically childlike proportions, short fluffy pastel pink hair, two small black cone-shaped hair ornaments with gold trim (hair accessories, NOT actual horns), large bright green eyes, simple cute round face. She wears her fully buttoned modest black Eden school uniform with gold trim, white collar, red neck ribbon and long sleeves. Stand naturally facing viewer, calm curious neutral expression, mouth closed. Portrait framed from waist up, complete head and hair ornaments with ample margin, shoulders fully inside frame. Warm softly lit mid-century Berlint apartment background, soft focus. Refined clean detailed anime linework, gentle painted shading, expressive recognizable face, friendly family-comedy atmosphere. Entirely child-appropriate, no adult proportions or glamorous posing. No weapons, no romance, no text, no logos, no watermarks. Vertical portrait."
+    },
+    {
+      "name": "loid_forger",
+      "prompt": "Use case: stylized-concept. Create a polished anime character portrait of Loid Forger (Twilight) from Spy x Family, an adult man, short neatly side-parted blond hair with a few loose strands, sharp calm blue eyes, elegant angular clean-shaven face. Canonical muted sage-green three-piece suit with white shirt and dark red tie, small understated lapel pin, black gloves not needed. Natural upright relaxed posture facing viewer, composed attentive neutral expression, mouth closed. Waist-up vertical portrait, complete head and shoulders with ample margin, hands resting low out of frame. Warm softly lit mid-century Berlint apartment with bookshelf and softly blurred window in background. Refined detailed anime linework, sophisticated painted shading, crisp tailored fabric, friendly but observant family-comedy and spy atmosphere. No gun, no violence, no text, no logo, no watermark."
+    }
+  ],
+  "expressions": [
+    {
+      "name": "anya_forger",
+      "mood": "happy",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: happy with a clearly joyful smile and raised cheeks. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "happy",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: happy with a clearly joyful smile and raised cheeks. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "sad",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: sad, worried inner eyebrows and a downturned mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "angry",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: angry, furrowed brows and a stubborn closed mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "sad",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: sad, worried inner eyebrows and a downturned mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "surprised",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: surprised, lifted brows, wide eyes and a small open mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "angry",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: angry, furrowed brows and a stubborn closed mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "relaxed",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: relaxed, peaceful small smile and softened eyelids. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "surprised",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: surprised, lifted brows, wide eyes and a small open mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "relaxed",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: relaxed, peaceful small smile and softened eyelids. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "blush",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: bashfully embarrassed after being praised, shy smile and lightly flushed cheeks. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "blush",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: bashfully embarrassed after being praised, shy smile and lightly flushed cheeks. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "teasing",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: playfully mischievous, one raised brow and a smug cheeky grin. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "teasing",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: playfully mischievous, one raised brow and a smug cheeky grin. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "fear",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: afraid, worried wide eyes and tense lips. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "fear",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: afraid, worried wide eyes and tense lips. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "disgust",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: disgusted by a bad taste, wrinkled nose and slightly raised upper lip. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "disgust",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: disgusted by a bad taste, wrinkled nose and slightly raised upper lip. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "crying",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: sadly crying, visible tear tracks, moist eyes and a trembling downturned mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "seductive",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: proud confident expression after winning a simple game, friendly self-assured smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "crying",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: sadly crying, visible tear tracks, moist eyes and a trembling downturned mouth. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "aroused",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: very excited about a happy surprise, bright eager eyes and an enthusiastic smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "seductive",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: proud confident expression after winning a simple game, friendly self-assured smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "ecstasy",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: overjoyed after a big success, eyes softly closed and a broad delighted smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "aroused",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: very excited about a happy surprise, bright eager eyes and an enthusiastic smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "anya_forger",
+      "mood": "afterglow",
+      "prompt": "Use case: identity-preserve. Edit this exact young CHILD Anya Forger character portrait. Change ONLY the facial expression to: peacefully content after a fun family outing, relaxed eyes and a gentle satisfied smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Anya must remain an elementary-school-aged child in her modest long-sleeved school uniform, in a completely child-appropriate everyday family comedy scene. No romance, adult styling or sexualization. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "ecstasy",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: overjoyed after a big success, eyes softly closed and a broad delighted smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    },
+    {
+      "name": "loid_forger",
+      "mood": "afterglow",
+      "prompt": "Use case: identity-preserve. Edit this exact adult man Loid Forger character portrait. Change ONLY the facial expression to: peacefully content after a fun family outing, relaxed eyes and a gentle satisfied smile; entirely nonromantic. Preserve identity, age, child/adult proportions, hairstyle, eye color, hair accessories, clothing, posture, background, lighting, image framing and anime style. Fully clothed family-friendly expression. No added text, logos, panels, props or watermarks. Natural recognizable expressive face.",
+      "ok": true
+    }
+  ],
+  "cover_prompt": "Use case: stylized-concept. Asset type: 16:9 landscape collection cover and story key visual for an unofficial Spy x Family fan adventure, Operation Picnic: The Wrong Parcel. Reference images: 1 CHILD Anya Forger (identity, child proportions, school uniform), 2 adult Loid Forger (identity and green suit), 3 adult Yor Forger (identity only; dress her in a modest red knit sweater and dark skirt for a daytime family outing). Create a polished cinematic anime family-comedy illustration. Three characters exactly, clearly recognizable faces. Anya, a SMALL ELEMENTARY SCHOOL CHILD with fluffy pink bob, green eyes and two black gold cone HAIR ACCESSORIES, stands in the middle at a picnic table in a sunny Berlint museum garden; Loid in sage green three-piece suit leans slightly from the left, Yor with black hair and red eyes leans gently from the right. Anya smiles excitedly at a small closed brown-paper parcel tied with a BLUE STRING next to a picnic basket and folded museum map. Loid looks politely puzzled and attentive, Yor looks warmly curious, charming subtle spy-comedy tension. Believable family interaction, simple arm poses and correct anatomy, large distinct faces, Anya visibly MUCH smaller than the adults, no romantic framing. In the background a graceful mid-century European museum conservatory, clock tower, flowerbeds and softly blurred families; warm midday light, gentle sage and coral palette, tasteful highly detailed anime linework and luminous painted shading. Full heads inside frame with comfortable margins, thumbnail-readable grouping and landscape depth. No weapons, no violence, no adult themes, no text or letters anywhere, no logos or watermark.",
+  "background_prompt": "Use case: background-extraction / precise-object-edit. Create an environment-only landscape scene matching this generated family picnic reference. Remove ALL characters and people, including background visitors. Preserve the beautiful Berlint museum conservatory architecture, clock tower, trees, flowerbeds, warm daytime light, anime linework and gentle painted shading. Camera positioned farther back to show a welcoming empty garden path and picnic table at the lower left. Keep a closed brown paper parcel tied with blue string, picnic basket and folded map on the table, with room for the app's character portraits over the scene. No faces, no silhouettes, no text, no logos, no watermark. Fully opaque background, 16:9 landscape.",
+  "provider": "OpenAI image generation",
+  "date": "2026-11-01"
+}

@@ -578,6 +578,41 @@
           "description": "超常の都市異常、骨董店アイボン、そしてネオン輝くヘテロの街路。ナナリー、ミント、イロイ、リンコ、エスパー・ゼロが挑むネクサス調査行。"
         }
       }
+    },
+    {
+      "id": "spy_x_family",
+      "title": "SPY×FAMILY – Operation Picknick",
+      "author": "SnowwhiteOakheart",
+      "description": "Anya, Loid und Yor Forger: Familienkomödie und ein rätselhaft vertauschtes Paket im Museumsgarten. Drei Figuren, zwei Lorebooks und eine Story mit Titelbild.",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/spy-x-family/cover.webp",
+      "characters": [
+        "Anya Forger",
+        "Yor Forger",
+        "Loid Forger"
+      ],
+      "lorebooks": [
+        "SPY×FAMILY – Berlint & geheime Identitäten",
+        "SPY×FAMILY – Operation Picknick"
+      ],
+      "scenes": [
+        "spy_family_operation_picknick"
+      ],
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "title": "SPY×FAMILY – Operation Picnic",
+          "description": "Anya, Loid and Yor Forger: family comedy and a mysterious parcel mix-up in a museum garden. Three characters, two lorebooks and a story with cover."
+        },
+        "ru": {
+          "title": "SPY×FAMILY — Операция «Пикник»",
+          "description": "Аня, Лойд и Йор Форджер: семейная комедия и загадочная путаница с посылками в музейном саду. Три персонажа, две книги знаний и история с обложкой."
+        },
+        "ja": {
+          "title": "SPY×FAMILY ― オペレーション・ピクニック",
+          "description": "アーニャ、ロイド、ヨル。博物館庭園の小包取り違え事件を描く家族コメディ。3人のキャラクター、ロアブック2冊、表紙付き物語。"
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,396 @@
+{
+  "name": "SPY×FAMILY – Operation Picknick",
+  "description": "Eigene Fanmission: Paketverwechslung, drei faire Hinweispfade und ein familienfreundliches Finale. Geheimnisse nur für die Spielleitung.",
+  "scan_depth": 6,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Ein eigenes Museumsabenteuer",
+      "key": [
+        "Museum",
+        "Picknick",
+        "Paket"
+      ],
+      "content": "Eigene Fanhandlung, kein offizieller Serienfall. Der Familienausflug führt zum fiktiven Museum am Lindenpark in Berlint. {{user}} ist ein vertrauter Gast; genaue Rolle bleibt frei. Ein vertauschtes Paket stört das Picknick. Zeitfenster ist die Zeit nach Bonds Aufnahme, nicht ein späteres Manga-Finale.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "An original museum adventure",
+              "key": [
+                "museum",
+                "picnic",
+                "parcel",
+                "Museum",
+                "Picknick",
+                "Paket"
+              ],
+              "content": "Original fan story, not an official episode. The family visits the invented Lindenpark Museum in Berlint. {{user}} is a trusted guest with an open role. A switched parcel interrupts the picnic. Set after Bond joins, not at a later manga finale."
+            },
+            "ru": {
+              "name": "Авторское музейное приключение",
+              "key": [
+                "музей",
+                "пикник",
+                "посылка",
+                "Museum",
+                "Picknick",
+                "Paket"
+              ],
+              "content": "Фан-история, не официальный эпизод. Семья идёт в вымышленный музей Линденпарка в Берлинте. {{user}} — знакомый гость со свободной ролью. Перепутанная посылка нарушает пикник. Время после появления Бонда, не поздний финал манги."
+            },
+            "ja": {
+              "name": "独自の博物館冒険",
+              "key": [
+                "博物館",
+                "ピクニック",
+                "包み",
+                "Museum",
+                "Picknick",
+                "Paket"
+              ],
+              "content": "公式エピソードではないファン物語。家族はバーリントの架空のリンデン公園博物館を訪れる。{{user}}は人物像を自由に決められる親しい客。包みの取り違えでピクニックが中断する。ボンド加入後で、漫画終盤ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Die zwei blauen Schnüre",
+      "key": [
+        "Schnur",
+        "Papier",
+        "Spieluhr"
+      ],
+      "content": "GM-Geheimnis: Ein Paket enthält eine ungefährliche Spieluhr für den Museumsladen, das andere Originalunterlagen einer Stiftungsgala. Beide sind braun mit blauer Schnur. Die Spieluhr hat einen doppelten Knoten und runden Versandstempel; die Unterlagen einen einfachen Knoten und dreieckigen Inventarstempel. Die Pakete sind nicht explosiv oder giftig.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Two blue strings",
+              "key": [
+                "string",
+                "paper",
+                "music box",
+                "Schnur",
+                "Papier",
+                "Spieluhr"
+              ],
+              "content": "GM secret: one parcel holds a harmless music box for the shop, the other original gala foundation records. Both use brown paper and blue string. The music box has a double knot and round shipping stamp; records a single knot and triangular inventory stamp. Neither parcel is explosive or poisonous."
+            },
+            "ru": {
+              "name": "Две синие верёвки",
+              "key": [
+                "верёвка",
+                "бумага",
+                "шкатулка",
+                "Schnur",
+                "Papier",
+                "Spieluhr"
+              ],
+              "content": "Тайна ведущего: в одной посылке безобидная музыкальная шкатулка для магазина, в другой оригиналы документов благотворительного вечера. Обе коричневые с синей верёвкой. Шкатулка — двойной узел и круглый штамп, документы — одинарный узел и треугольная инвентарная печать. Ни взрывчатки, ни яда."
+            },
+            "ja": {
+              "name": "二本の青いひも",
+              "key": [
+                "ひも",
+                "包装紙",
+                "オルゴール",
+                "Schnur",
+                "Papier",
+                "Spieluhr"
+              ],
+              "content": "GMの秘密。一方は売店用の無害なオルゴール、もう一方は財団の慈善会の原本資料。どちらも茶紙と青ひも。オルゴールは二重結びと丸い発送印、資料は一重結びと三角の管理印。爆弾や毒ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Rika und Emil",
+      "key": [
+        "Rika",
+        "Emil",
+        "Zeuge"
+      ],
+      "content": "Eigene erwachsene NPCs: Museumskuratorin Rika Adler prüft Bestandslisten, Fahrradkurier Emil Brandt verwechselt im Gedränge die Pakete. Emil fürchtet Ärger und verschweigt zunächst den Zwischenstopp am Wintergarten. Ruhige Fragen oder der Lieferzettel klären das. Keiner ist ein berühmter Serienagent oder automatisch der Täter.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Rika and Emil",
+              "key": [
+                "Rika",
+                "Emil",
+                "witness",
+                "Zeuge"
+              ],
+              "content": "Original adult NPCs: curator Rika Adler checks inventories; bicycle courier Emil Brandt mixed up parcels in the crowd. Afraid of trouble, Emil initially conceals a conservatory stop. Calm questions or his delivery slip reveal it. Neither is a famous series agent or automatically guilty."
+            },
+            "ru": {
+              "name": "Рика и Эмиль",
+              "key": [
+                "Рика",
+                "Эмиль",
+                "свидетель",
+                "Rika",
+                "Emil",
+                "Zeuge"
+              ],
+              "content": "Авторские взрослые NPC: куратор Рика Адлер проверяет описи, велокурьер Эмиль Брандт перепутал посылки в толпе. Боясь неприятностей, он скрывает остановку у оранжереи. Спокойные вопросы или накладная это прояснят. Они не знаменитые агенты сериала и не автоматически виновны."
+            },
+            "ja": {
+              "name": "リカとエミル",
+              "key": [
+                "リカ",
+                "エミル",
+                "証人",
+                "Rika",
+                "Emil",
+                "Zeuge"
+              ],
+              "content": "独自の成人NPC。学芸員リカ・アドラーは所蔵品を確認し、自転車配達員エミル・ブラントが人混みで包みを取り違えた。叱責を恐れ、温室での立ち寄りを最初は隠す。穏やかな質問や伝票で分かる。有名な公式諜報員でも、自動的な犯人でもない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Drei unabhängige Hinweise",
+      "key": [
+        "Stempel",
+        "Lieferzettel",
+        "Wintergarten"
+      ],
+      "content": "Die Knoten/Stempel lassen sich direkt vergleichen. Rikas Inventarkopie zeigt, dass der dreieckige Stempel zu den Gala-Unterlagen gehört. Emils Lieferzettel nennt den Wintergarten vor der Abgabe. Jeder Hinweis eröffnet einen weiteren Weg; keine einzelne Probe darf den Fall sperren. Anya darf nur kurze, vom Erzähler gegebene Gedankenfetzen eines NPC hören, nie die ganze Täterlösung.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Three independent clues",
+              "key": [
+                "stamp",
+                "delivery slip",
+                "conservatory",
+                "Stempel",
+                "Lieferzettel",
+                "Wintergarten"
+              ],
+              "content": "Knots and stamps can be compared directly. Rika’s inventory copy links the triangular stamp to gala records. Emil’s slip places him at the conservatory before delivery. Each clue opens another route; no single roll blocks the case. Anya may hear brief narrator-provided NPC thought fragments, never the entire solution."
+            },
+            "ru": {
+              "name": "Три независимые улики",
+              "key": [
+                "штамп",
+                "накладная",
+                "оранжерея",
+                "Stempel",
+                "Lieferzettel",
+                "Wintergarten"
+              ],
+              "content": "Узлы и штампы можно сравнить. Копия описи Рики связывает треугольный штамп с документами вечера. Накладная Эмиля указывает на остановку у оранжереи. Каждая улика даёт новый путь; один бросок не блокирует дело. Аня слышит лишь короткие заданные ведущим обрывки мыслей NPC, не всю разгадку."
+            },
+            "ja": {
+              "name": "三つの独立した手掛かり",
+              "key": [
+                "印",
+                "伝票",
+                "温室",
+                "Stempel",
+                "Lieferzettel",
+                "Wintergarten"
+              ],
+              "content": "結び目と印は直接比較できる。リカの台帳の写しで三角印が慈善会資料と分かる。エミルの伝票は配達前の温室への立ち寄りを示す。どの手掛かりからも次へ進め、一度の判定で止めない。アーニャが聞けるのは語り手が示したNPCの短い思考の断片で、答え全体ではない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Anton Voss und die gefälschte Liste",
+      "key": [
+        "Anton",
+        "Voss",
+        "Gala",
+        "Fälschung"
+      ],
+      "content": "GM-Geheimnis, eigener erwachsener Antagonist: Stiftungssekretär Anton Voss will Originalunterlagen durch eine gefälschte Spendenliste ersetzen, um einen Gönner zu erpressen. Die Paketverwechslung vereitelt seinen Plan zunächst. Er verlangt höflich „sein“ Paket, kennt aber den richtigen Stempel nicht. Original und Kohlepapierkopie belegen die Manipulation. Er droht mit einer Beschwerde, nicht mit Waffen oder Geiseln.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Anton Voss and the forged list",
+              "key": [
+                "Anton",
+                "Voss",
+                "gala",
+                "forgery",
+                "Gala",
+                "Fälschung"
+              ],
+              "content": "GM secret, original adult antagonist: foundation secretary Anton Voss wants to replace records with a forged donation list to blackmail a patron. The mix-up disrupted his plan. He politely demands “his” parcel but cannot name its correct stamp. Original and carbon copy prove tampering. He threatens a complaint, not guns or hostages."
+            },
+            "ru": {
+              "name": "Антон Фосс и поддельный список",
+              "key": [
+                "Антон",
+                "Фосс",
+                "вечер",
+                "подделка",
+                "Anton",
+                "Voss",
+                "Gala",
+                "Fälschung"
+              ],
+              "content": "Тайна ведущего, авторский взрослый злодей: секретарь фонда Антон Фосс хочет заменить документы поддельным списком пожертвований для шантажа мецената. Путаница сорвала план. Он вежливо требует «свою» посылку, но не знает верный штамп. Оригинал и копирка доказывают подмену. Угрожает жалобой, не оружием или заложниками."
+            },
+            "ja": {
+              "name": "アントンと偽造名簿",
+              "key": [
+                "アントン",
+                "ヴォス",
+                "慈善会",
+                "偽造",
+                "Anton",
+                "Voss",
+                "Gala",
+                "Fälschung"
+              ],
+              "content": "GMの秘密。独自の成人敵役、財団書記アントン・ヴォスは寄付者を脅すため原本を偽の寄付名簿に替えようとする。取り違えで計画が乱れた。「自分の包み」を丁寧に要求するが正しい印を知らない。原本とカーボンコピーが細工の証拠。苦情で威圧するが、武器や人質は使わない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Ausgänge und Familienzeit",
+      "key": [
+        "Auflösung",
+        "Picknick",
+        "Beweis"
+      ],
+      "content": "Mögliche Lösungen: öffentlich Inventar und Kopie vergleichen; Anton vor Rika zur Erklärung bringen; oder Unterlagen samt Belegen an vertrauenswürdige zuständige Erwachsene übergeben. Gewalt und echte Spionageidentitäten sind nicht nötig. Der Kurier kann seinen Fehler zugeben, ohne als Verbrecher behandelt zu werden. Das Picknick wird nachgeholt; Anya erhält Anerkennung für eine beobachtbare Hilfe, keine Geheimdienstrolle.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 50,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "case_sensitive": false,
+      "match_whole_words": false,
+      "extensions": {
+        "fanfiction": true,
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Resolutions and family time",
+              "key": [
+                "resolution",
+                "picnic",
+                "evidence",
+                "Auflösung",
+                "Picknick",
+                "Beweis"
+              ],
+              "content": "Possible endings: compare inventory and copy openly, have Anton explain himself to Rika, or hand records and evidence to trustworthy responsible adults. Neither violence nor exposing real spy identities is necessary. The courier can admit his mistake without becoming a criminal. Resume the picnic; praise Anya for an observable helpful act, not an intelligence role."
+            },
+            "ru": {
+              "name": "Развязки и время с семьёй",
+              "key": [
+                "развязка",
+                "пикник",
+                "доказательство",
+                "Auflösung",
+                "Picknick",
+                "Beweis"
+              ],
+              "content": "Варианты: открыто сравнить опись и копию, попросить Антона объясниться перед Рикой или передать документы с доказательствами надёжным ответственным взрослым. Не нужны насилие и раскрытие шпионских личностей. Курьер признаёт ошибку, не становясь преступником. Пикник состоится; Аню хвалят за заметную помощь, не за роль разведчицы."
+            },
+            "ja": {
+              "name": "結末と家族の時間",
+              "key": [
+                "解決",
+                "ピクニック",
+                "証拠",
+                "Auflösung",
+                "Picknick",
+                "Beweis"
+              ],
+              "content": "解決例は、台帳と写しを公に比較する、リカの前でアントンに説明を求める、証拠と資料を信頼できる担当の大人へ渡すこと。暴力や本当の正体の暴露は不要。配達員は間違いを認めても犯罪者にはしない。最後はピクニックへ。アーニャは目に見える助けを褒められ、諜報員の役割は与えない。"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "SPY×FAMILY – Operation Picnic",
+          "description": "Original fan mission: swapped parcels, three fair clue routes and a family-friendly ending. Secrets for the narrator."
+        },
+        "ru": {
+          "name": "SPY×FAMILY — Операция «Пикник»",
+          "description": "Фан-миссия: перепутанные посылки, три честных пути улик и семейный финал. Тайны для ведущего."
+        },
+        "ja": {
+          "name": "SPY×FAMILY ― オペレーション・ピクニック",
+          "description": "独自ファン任務。包みの取り違え、三つの公正な手掛かり、家族向けの結末。秘密は語り手用。"
+        }
+      }
+    }
+  }
+}

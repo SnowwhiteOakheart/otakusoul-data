@@ -1674,6 +1674,33 @@
           "starting_location": "У входа в антикварную лавку Эйбон в ночном сиянии Хезэро"
         }
       }
+    },
+    {
+      "id": "spy_family_operation_picknick",
+      "title": "Operation Picknick – Das falsche Paket",
+      "author": "SnowwhiteOakheart",
+      "description": "Ein Museumsbesuch, zwei identische Pakete und ein viel zu nervöser Kurier: Hilf Anya, Loid und Yor, den Ausflug zu retten, ohne die Familiengeheimnisse aufzudecken.",
+      "starting_location": "Berlint, Museumsgarten am fiktiven Lindenpark",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/spy_family_operation_picknick.json",
+      "revision": 1,
+      "updated": "2026-11-01",
+      "translations": {
+        "en": {
+          "title": "Operation Picnic – The Wrong Parcel",
+          "description": "A museum outing, two identical parcels and a very nervous courier: help Anya, Loid and Yor save the day without exposing the family’s secrets.",
+          "starting_location": "Berlint, the invented Lindenpark Museum garden"
+        },
+        "ja": {
+          "title": "オペレーション・ピクニック ― 違う包み",
+          "description": "博物館、そっくりな二つの包み、落ち着かない配達員。アーニャ、ロイド、ヨルと家族の秘密を守りながら、お出かけを救おう。",
+          "starting_location": "バーリント、架空のリンデン公園博物館の庭"
+        },
+        "ru": {
+          "title": "Операция «Пикник» — Не та посылка",
+          "description": "Музей, две одинаковые посылки и очень нервный курьер: помоги Ане, Лойду и Йор спасти прогулку, не раскрывая семейных тайн.",
+          "starting_location": "Берлинт, сад вымышленного музея Линденпарка"
+        }
+      }
     }
   ]
 }

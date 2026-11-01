@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 72 Charaktere · 62 Soul Stages (Szenen) · 34 Lorebooks · 23 Presets (15 Sammlungen).
+> **Stand:** 74 Charaktere · 63 Soul Stages (Szenen) · 36 Lorebooks · 24 Presets (16 Sammlungen).
 
 ---
 
@@ -158,3 +158,10 @@ python3 tools/set_card_voices.py stimmen.json --check
 **EN:** All 49 existing sets of six expressions received nine individually generated SFW images each (441 additional images). Including Overlord and the eight newly completed NTE characters, all 60 characters now have all 15 slots. The NTE series adds 120 individually generated images, requested on 19 October 2026. The four technically romance-named slots contain nonsexual variants only. Prompts and processing are documented per character in `expressions/<character>/additional_prompts.json`.
 
 **RU:** Все 49 существующих наборов из шести эмоций дополнены девятью отдельно сгенерированными неэротическими изображениями (441 новое изображение). Вместе с Overlord и восемью дополненными персонажами NTE у всех 60 персонажей есть все 15 слотов. По запросу от 19.10.2026 для NTE добавлено 120 отдельно сгенерированных изображений. Четыре технических слота романтики содержат только неэротические варианты. Запросы и обработка описаны в `expressions/<персонаж>/additional_prompts.json`.
+
+
+### SPY×FAMILY – Operation Picknick (01.11.2026)
+
+| Paket | Figuren | Story | Lorebooks |
+|---|---|---|---|
+| `spy-x-family` | `Anya Forger`, `Loid Forger`, bestehende `Yor Forger` unter `yor-forger`; je 15 Expressions | `spy_family_operation_picknick` · *Operation Picknick – Das falsche Paket*; ca. 60 Minuten, Cover und Museumsgarten | `spy_family_world.json` (8), `spy_family_operation_picknick.json` (6); DE/EN/RU/JA |

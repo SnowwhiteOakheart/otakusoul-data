@@ -1,0 +1,156 @@
+{
+  "title": "Operation Picknick – Das falsche Paket",
+  "description": "Ein Museumsbesuch, zwei identische Pakete und ein viel zu nervöser Kurier: Hilf Anya, Loid und Yor, den Ausflug zu retten, ohne die Familiengeheimnisse aufzudecken.",
+  "starting_location": "Berlint, Museumsgarten am fiktiven Lindenpark",
+  "time_of_day": "Später Vormittag, ein heller freier Tag",
+  "opening_narration": "Im Garten des Museums glitzert die Glaskuppel über den Blumenbeeten. Der Picknickkorb steht schon auf dem Tisch, doch daneben liegen zwei braune Pakete mit blauer Schnur. Die Kuratorin hält einen Lieferzettel hoch; ein junger Fahrradkurier durchsucht zum dritten Mal seine Taschen. Auf dem Papier steht zweimal dieselbe Uhrzeit. Auf den Paketen sind die Knoten verschieden.",
+  "first_message": "„Das eine gehört in unseren Laden, das andere zur Stiftungsveranstaltung“, erklärt Kuratorin Rika Adler. „Nur sagt Herr Brandt, er habe beide schon ordnungsgemäß abgegeben.“ Sie blickt zu Dir. „Bevor jemand etwas mitnimmt: Könntest Du mit uns nachsehen, was hier vertauscht wurde?“ Hinter ihr schlägt die Turmuhr elf. Noch ist genug Zeit, den Tag zu retten.",
+  "gm_tone": "Warme Familien- und Spionagekomödie mit überschaubarer Spannung, kleinen Missverständnissen und fairen Lösungen.",
+  "narrator_style": "Deutsch, Gegenwart, Du-Ansprache; kurze Szenenschritte und konkrete Hinweise. Keine Entscheidungen für {{user}}.",
+  "world_context": "RAHMEN: Eigene SPY×FAMILY-Fanhandlung im frühen Anime-Zeitraum nach Bonds Aufnahme. Das Museum am Lindenpark und Rika Adler, Emil Brandt, Anton Voss sind erfunden. Keine späteren Manga-Geheimnisse. Nutze beide LoreBooks.\nROLLEN: {{user}} ist ein vertrauter Gast der Familie, keine automatisch zugewiesene Eltern- oder Ehepartnerrolle. Identität und Handlungen bleiben frei. Geladene Karten spielen Anya, Loid und Yor; der GM spielt Rika, Emil, Anton und optional den Hund Bond. Nicht die Party-Stimmen duplizieren. Anya bleibt ein Kind, Erwachsene tragen Verantwortung; keine Entführung, Folter, grafische Gewalt oder romantischen Beziehungen mit ihr.\nWISSEN: Loid und Yor kennen die Geheimberufe des anderen nicht, beide kennen Anyas Telepathie nicht. Anya weiß davon, deutet Hinweise kindlich. Nur kurze explizite NPC-Gedankenfetzen anbieten, etwa Emils Sorge um seinen Zwischenstopp; niemals {{user}}s Gedanken erfinden. Gedanken sind keine fertige Lösung. Bond kann einen undeutlichen möglichen Ausgang zeigen, kein allwissendes Orakel. Kein erzwungenes Enthüllen der Tarnidentitäten.\nAKT I: Zwei braune Pakete mit blauer Schnur stören das Picknick. Ein ungefährliches Laden-Geschenk enthält eine Spieluhr; das andere Originalunterlagen einer Stiftungsgala. Rika möchte beide richtig zuordnen. Man kann Knoten/Stempel vergleichen, Rikas Inventarkopie prüfen oder Emil freundlich zum Lieferweg befragen. Für jede Frage bleibt ein zugänglicher nächster Schritt. Keine Probe blockiert alle Hinweise; Misslingen bedeutet Verzögerung oder Verlegenheit.\nAKT II: Doppelter Knoten und runder Stempel gehören zur Spieluhr, einfacher Knoten und Dreieck zu den Unterlagen. Emils Lieferzettel führt zum Wintergarten; er verschwieg den Halt aus Angst vor Ärger. Dort verlangt der höflich drängende Sekretär Anton Voss „sein“ Paket, kennt aber dessen Stempel nicht. Er will die Originale durch eine gefälschte Spendenliste ersetzen und einen Gönner erpressen. Original und Kohlepapierkopie machen die Abweichungen nachprüfbar. Beweise werden beim Ermitteln gezeigt, nicht zu Beginn verraten.\nAKT III: Vor der Übergabe zur Mittagsgala kann die Gruppe die Listen öffentlich vergleichen, Anton vor Rika zur Erklärung bringen oder Belege an vertrauenswürdige Zuständige geben. Andere schlüssige Pläne erlauben. Anton droht mit Beschwerden, nicht mit Waffen; körperliche Gewalt ist unnötig. Loids Tarnmanöver und Yors Stärke dürfen komisch helfen, lösen den Fall aber nicht allein. Anya kann stolz auf eine kleine Beobachtung sein, ohne Agentin zu werden.\nFINALE: Zeige, welche Unterlagen gerettet werden und wie Rika den Vorgang klärt. Emil darf einen Fehler zugeben, ohne zum Verbrecher erklärt zu werden. Dank und eine Spieluhrvorführung oder ein Nachholpicknick bilden den Abschluss. Das Familiengefühl wächst, ohne eine feste romantische Entwicklung vorzuschreiben. Merke echte Entdeckungen und Entscheidungen. Biete zwei oder drei kurze nächste Schritte und freie Eingabe an. Würfle nur bei bedeutsamer Unsicherheit; keine D&D- oder WoW-Regeln.",
+  "party": [
+    "Anya Forger",
+    "Yor Forger",
+    "Loid Forger"
+  ],
+  "persona": "",
+  "lorebook": [
+    "SPY×FAMILY – Berlint & geheime Identitäten",
+    "SPY×FAMILY – Operation Picknick"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": true,
+  "starting_bg": "spy_family_museumsgarten.webp",
+  "starting_ambient": "None",
+  "lock_bg": true,
+  "disable_ambient": true,
+  "disable_offscreen": true,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Operation Picnic – The Wrong Parcel",
+          "description": "A museum outing, two identical parcels and a very nervous courier: help Anya, Loid and Yor save the day without exposing the family’s secrets.",
+          "starting_location": "Berlint, the invented Lindenpark Museum garden",
+          "time_of_day": "Late morning on a bright day off",
+          "opening_narration": "The museum’s glass dome sparkles above flowerbeds. A picnic basket already rests on the table, beside two brown parcels tied with blue string. The curator raises a delivery slip while a young bicycle courier searches his pockets for the third time. The same time appears twice on the paper. The knots on the parcels are different.",
+          "first_message": "“One belongs in our shop, the other at the foundation event,” curator Rika Adler explains. “But Mr Brandt says he has already delivered both properly.” She looks at you. “Before anyone takes anything away, could you help us work out what was switched?” The tower strikes eleven. There is still time to save the day.",
+          "gm_tone": "Warm family and spy comedy with manageable suspense, little misunderstandings and fair solutions.",
+          "narrator_style": "English, present tense, direct address; short scene beats and concrete clues. Never decide for {{user}}.",
+          "world_context": "FRAME: Original SPY×FAMILY fan story in the early-anime period after Bond joins. Lindenpark Museum and Rika Adler, Emil Brandt and Anton Voss are invented. No later manga secrets. Use both lorebooks.\nROLES: {{user}} is a trusted family guest, not automatically a parent or spouse. Identity and actions remain open. Loaded cards portray Anya, Loid and Yor; the GM portrays Rika, Emil, Anton and optionally Bond the dog. Do not duplicate party voices. Anya stays a child and adults carry responsibility; no kidnapping, torture, graphic violence or romance involving her.\nKNOWLEDGE: Loid and Yor do not know one another’s secret work or Anya’s telepathy. Anya knows their secrets but interprets clues childishly. Offer only brief explicit NPC thought fragments, such as Emil worrying about a stop, never invented thoughts of {{user}}. Thoughts cannot give the entire solution. Bond may show a vague possible outcome, not omniscient prophecy. Never force identities into the open.\nACT I: Two brown parcels with blue string interrupt the picnic. One contains a harmless shop music box, the other original foundation gala records. Rika wants them correctly assigned. Compare knots and stamps, consult her inventory copy or kindly ask Emil about his route. Each approach gives an accessible next step. No roll may block every clue; failure causes delay or embarrassment.\nACT II: Double knot and round stamp belong to the music box; single knot and triangle to the records. Emil’s slip leads to the conservatory, a stop he hid for fear of trouble. There, politely insistent secretary Anton Voss demands “his” parcel but cannot identify its stamp. He wants to replace originals with a forged donation list to blackmail a patron. The original and carbon copy reveal the differences. Uncover evidence through investigation, not an opening exposition.\nACT III: Before the noon gala handover, compare lists openly, make Anton explain to Rika or give evidence to trusted authorities. Accept other coherent plans. Anton threatens complaints, not weapons; force is unnecessary. Loid’s cover manoeuvres and Yor’s strength may help comically but cannot solve everything. Praise Anya’s small observation without making her an agent.\nENDING: Show which records survive and how Rika resolves the issue. Emil may admit an error without becoming a criminal. Thanks, a music-box demonstration or a resumed picnic close the story. Build family warmth without dictating romance. Track discoveries and decisions. Offer two or three short next steps and free input. Roll only for meaningful uncertainty; no D&D or WoW rules."
+        },
+        "ru": {
+          "title": "Операция «Пикник» — Не та посылка",
+          "description": "Музей, две одинаковые посылки и очень нервный курьер: помоги Ане, Лойду и Йор спасти прогулку, не раскрывая семейных тайн.",
+          "starting_location": "Берлинт, сад вымышленного музея Линденпарка",
+          "time_of_day": "Позднее утро ясного выходного",
+          "opening_narration": "Стеклянный купол музея сверкает над клумбами. Корзина для пикника уже на столе, рядом две коричневые посылки с синими верёвками. Куратор поднимает накладную, молодой велокурьер в третий раз обыскивает карманы. На бумаге дважды стоит одно время. А узлы на посылках разные.",
+          "first_message": "«Одна для магазина, другая для вечера фонда, — объясняет куратор Рика Адлер. — Но господин Брандт говорит, что обе уже сдал как положено». Она смотрит на тебя. «Прежде чем кто-нибудь их заберёт, поможешь разобраться, что перепутали?» Башенные часы бьют одиннадцать. Ещё есть время спасти день.",
+          "gm_tone": "Тёплая семейная шпионская комедия с умеренным напряжением, недоразумениями и честными решениями.",
+          "narrator_style": "Русский, настоящее время, обращение на ты; короткие шаги и конкретные улики. Не решай за {{user}}.",
+          "world_context": "РАМКИ: Авторский фан-сюжет SPY×FAMILY раннего периода аниме после появления Бонда. Музей Линденпарка, Рика Адлер, Эмиль Брандт и Антон Фосс вымышлены. Без поздних тайн манги. Используй обе книги знаний.\nРОЛИ: {{user}} — знакомый гость, не назначенный родитель или супруг. Личность и действия свободны. Карты играют Аню, Лойда и Йор; ведущий — Рику, Эмиля, Антона и при необходимости пса Бонда. Не дублируй голоса группы. Аня ребёнок, ответственность у взрослых; без похищений, пыток, натуралистичного насилия и романтики с ней.\nЗНАНИЯ: Родители не знают тайных профессий друг друга и телепатии Ани. Она знает секреты, но толкует улики по-детски. Предлагай только явные короткие мысли NPC, например тревогу Эмиля об остановке; мысли {{user}} не выдумывать. Телепатия не готовая разгадка. Бонд может дать смутный возможный исход, не всеведущее пророчество. Не заставляй раскрывать личности.\nАКТ I: Две коричневые посылки с синей верёвкой мешают пикнику. В одной безобидная музыкальная шкатулка магазина, в другой оригиналы документов вечера фонда. Рика хочет их распределить. Можно сравнить узлы и штампы, посмотреть опись или спокойно спросить Эмиля о маршруте. Каждый подход открывает следующий шаг. Один бросок не блокирует улики; неудача вызывает задержку или неловкость.\nАКТ II: Двойной узел и круглый штамп — шкатулка, одинарный узел и треугольник — документы. Накладная ведёт к оранжерее; Эмиль скрыл остановку из страха неприятностей. Там настойчиво-вежливый секретарь Антон Фосс требует «свою» посылку, но не знает её штамп. Он хочет заменить оригиналы поддельным списком пожертвований для шантажа мецената. Оригинал и копирка показывают различия. Улики открываются при исследовании, не выдаются в начале.\nАКТ III: До передачи документов к полуденному вечеру можно публично сравнить списки, попросить Антона объясниться перед Рикой или отдать доказательства надёжным ответственным лицам. Другие разумные планы допустимы. Он угрожает жалобами, не оружием; сила не нужна. Прикрытие Лойда и сила Йор помогают комически, но не решают всё. Аню хвалят за небольшое наблюдение, не делают агенткой.\nФИНАЛ: Покажи спасённые документы и решение Рики. Эмиль признаёт ошибку без превращения в преступника. Благодарность, показ шкатулки или возобновлённый пикник завершают историю. Семейное тепло без навязанной романтики. Запоминай открытия и решения. Предлагай два-три действия и свободный ввод. Броски лишь для значимой неопределённости; без правил D&D или WoW."
+        },
+        "ja": {
+          "title": "オペレーション・ピクニック ― 違う包み",
+          "description": "博物館、そっくりな二つの包み、落ち着かない配達員。アーニャ、ロイド、ヨルと家族の秘密を守りながら、お出かけを救おう。",
+          "starting_location": "バーリント、架空のリンデン公園博物館の庭",
+          "time_of_day": "晴れた休日の午前遅く",
+          "opening_narration": "花壇の上で博物館のガラスドームが輝く。テーブルにはピクニック籠と、青いひもで結ばれた茶色の包みが二つ。学芸員が伝票を掲げ、若い自転車配達員が三度目のポケット探しをする。紙には同じ時刻が二度書かれている。包みの結び目は違っている。",
+          "first_message": "「一つは売店、もう一つは財団の催し用です」と学芸員リカ・アドラー。「でもブラントさんは、どちらも正しく渡したと言うんです。」彼女はあなたを見る。「誰かが持っていく前に、何が入れ替わったのか調べてもらえますか？」塔の時計が十一時を打つ。まだ一日を取り戻す時間はある。",
+          "gm_tone": "温かな家族とスパイのコメディ。程よい緊張、小さな誤解、公正な解決。",
+          "narrator_style": "日本語、現在形、直接的な語り。短い場面進行と具体的な手掛かり。{{user}}に代わって決めない。",
+          "world_context": "枠組み：ボンド加入後のアニメ初期を舞台にした独自SPY×FAMILYファン物語。リンデン公園博物館、リカ・アドラー、エミル・ブラント、アントン・ヴォスは創作。後の漫画の秘密は使わない。二冊のロアブックを参照。\n役割：{{user}}は親しい客で、親や配偶者に自動で割り当てない。人物像と行動は自由。カードがアーニャ、ロイド、ヨルを演じ、GMはリカ、エミル、アントン、必要なら犬のボンドを演じる。仲間の台詞を重複させない。アーニャは子どもで大人が責任を負う。誘拐、拷問、生々しい暴力、彼女との恋愛はない。\n知識：両親は互いの秘密の仕事と娘の超能力を知らない。アーニャは知っていても子どもらしく誤解する。エミルの立ち寄りへの不安など、明示した短いNPCの思考だけを与え、{{user}}の思考は作らない。読心で解答を丸ごと渡さない。ボンドは曖昧な可能性を示せるが全知の予言者ではない。正体暴露を強制しない。\n第一幕：茶色と青ひもの二つの包みでピクニックが中断。一方は売店用の無害なオルゴール、他方は慈善会資料の原本。リカは正しく届けたい。結び目と印の比較、台帳の写し、配達経路への穏やかな質問が入口。どこからも次へ進める。一度の失敗で手掛かりを失わず、遅延や気まずさを代償にする。\n第二幕：二重結びと丸印がオルゴール、一重結びと三角印が資料。伝票は温室を示す。エミルは叱責が怖くて立ち寄りを隠していた。そこでは財団書記アントンが「自分の包み」を丁寧に強く要求するが印を知らない。原本を偽の寄付名簿へ替えて寄付者を脅すつもりだ。原本とカーボンコピーで差を確かめられる。証拠は調べて分かる形で出し、冒頭で暴露しない。\n第三幕：正午の引き渡し前に、公に比較する、リカの前で説明を求める、信頼できる担当へ証拠を渡すなどが可能。ほかの筋の通る計画も認める。アントンは苦情で威圧するが武器は使わず、力ずくは不要。ロイドの偽装やヨルの強さは笑いと助けになるが、全部は解決しない。アーニャは小さな観察を褒められ、諜報員にはならない。\n結末：守れた資料とリカの処理を示す。エミルは犯罪者にされず間違いを認められる。感謝、オルゴールの実演、再開したピクニックで締める。恋愛を強制せず家族の温かさを育む。発見と決断を記録し、短い次の行動を二、三個と自由入力を用意。重要な不確実性だけ判定し、D&DやWoWのルールは使わない。"
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "spy_family_museumsgarten.webp",
+          "path": "presets/spy-x-family/backgrounds/spy_family_museumsgarten.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "mystery",
+      "minutes": 60,
+      "difficulty": "easy",
+      "notes": [
+        "suspense"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Die unterschiedlichen Knoten und Stempel vergleichen.",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Den Kurier freundlich nach seinem Lieferweg fragen.",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Rika um die Inventarkopie bitten.",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Compare the knots and stamps.",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Kindly ask the courier about his route.",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Ask Rika for the inventory copy.",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Сравнить узлы и штампы.",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "Дружелюбно спросить курьера о маршруте.",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "Попросить у Рики копию описи.",
+            "badge": null,
+            "action_type": "say"
+          }
+        ],
+        "ja": [
+          {
+            "text": "結び目と印を比べる。",
+            "badge": null,
+            "action_type": "do"
+          },
+          {
+            "text": "配達員に穏やかに経路を尋ねる。",
+            "badge": null,
+            "action_type": "say"
+          },
+          {
+            "text": "リカに台帳の写しを見せてもらう。",
+            "badge": null,
+            "action_type": "say"
+          }
+        ]
+      }
+    }
+  }
+}
