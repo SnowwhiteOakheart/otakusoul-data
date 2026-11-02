@@ -1,0 +1,216 @@
+{
+  "generated": "2026-11-02",
+  "style": "SFW painted anime JRPG fan art",
+  "assets": [
+    {
+      "file": "tifa_lockhart.png",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset: character card portrait. Tifa Lockhart, adult woman age 20, long straight dark brown hair, red-brown eyes, white sleeveless crop athletic top, black skirt and suspenders, red combat gloves, kind determined expression from Final Fantasy VII. High quality anime JRPG illustration, consistent painted cel shading, waist-up centered vertical portrait, entire head visible, subtle teal industrial Midgar backdrop, readable face, no lettering, no watermark, SFW. One character only.",
+      "reference": null,
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/tifa_lockhart/neutral.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one neutral expression portrait of this EXACT adult Final Fantasy VII character. calm neutral face, relaxed brows, lips closed. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "tifa_lockhart.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/tifa_lockhart/happy.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one happy expression portrait of this EXACT adult Final Fantasy VII character. clearly happy genuine smile, raised cheeks and bright eyes. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "tifa_lockhart.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/tifa_lockhart/relaxed.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one relaxed expression portrait of this EXACT adult Final Fantasy VII character. relaxed gentle face, softened eyes and shoulders, tranquil slight smile. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "tifa_lockhart.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/tifa_lockhart/surprised.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one surprised expression portrait of this EXACT adult Final Fantasy VII character. clearly surprised, widened eyes and raised eyebrows, slightly parted lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "tifa_lockhart.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/tifa_lockhart/angry.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one angry expression portrait of this EXACT adult Final Fantasy VII character. angry determined face, eyebrows drawn together, intense eyes, tight lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "tifa_lockhart.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/tifa_lockhart/sad.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one sad expression portrait of this EXACT adult Final Fantasy VII character. sad face, lowered gaze, inner brows lifted, small downturned mouth. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "tifa_lockhart.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "aerith_gainsborough.png",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset: character card portrait. Aerith Gainsborough, adult woman age 22, green eyes, long chestnut braid with pink ribbon, cropped red jacket over modest pink dress, warm playful expression from Final Fantasy VII. High quality anime JRPG illustration, consistent painted cel shading, waist-up centered vertical portrait, entire head visible, subtle teal industrial Midgar backdrop, readable face, no lettering, no watermark, SFW. One character only.",
+      "reference": null,
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/aerith_gainsborough/neutral.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one neutral expression portrait of this EXACT adult Final Fantasy VII character. calm neutral face, relaxed brows, lips closed. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "aerith_gainsborough.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/aerith_gainsborough/happy.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one happy expression portrait of this EXACT adult Final Fantasy VII character. clearly happy genuine smile, raised cheeks and bright eyes. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "aerith_gainsborough.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/aerith_gainsborough/relaxed.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one relaxed expression portrait of this EXACT adult Final Fantasy VII character. relaxed gentle face, softened eyes and shoulders, tranquil slight smile. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "aerith_gainsborough.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/aerith_gainsborough/surprised.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one surprised expression portrait of this EXACT adult Final Fantasy VII character. clearly surprised, widened eyes and raised eyebrows, slightly parted lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "aerith_gainsborough.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/aerith_gainsborough/angry.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one angry expression portrait of this EXACT adult Final Fantasy VII character. angry determined face, eyebrows drawn together, intense eyes, tight lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "aerith_gainsborough.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/aerith_gainsborough/sad.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one sad expression portrait of this EXACT adult Final Fantasy VII character. sad face, lowered gaze, inner brows lifted, small downturned mouth. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "aerith_gainsborough.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "cloud_strife.png",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset: character card portrait. Cloud Strife, adult man age 21, spiky blond hair, blue eyes, black sleeveless high-neck SOLDIER outfit, left metal shoulder guard, reserved expression from Final Fantasy VII. High quality anime JRPG illustration, consistent painted cel shading, waist-up centered vertical portrait, entire head visible, subtle teal industrial Midgar backdrop, readable face, no lettering, no watermark, SFW. One character only.",
+      "reference": null,
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/cloud_strife/neutral.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one neutral expression portrait of this EXACT adult Final Fantasy VII character. calm neutral face, relaxed brows, lips closed. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "cloud_strife.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/cloud_strife/happy.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one happy expression portrait of this EXACT adult Final Fantasy VII character. clearly happy genuine smile, raised cheeks and bright eyes. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "cloud_strife.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/cloud_strife/relaxed.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one relaxed expression portrait of this EXACT adult Final Fantasy VII character. relaxed gentle face, softened eyes and shoulders, tranquil slight smile. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "cloud_strife.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/cloud_strife/surprised.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one surprised expression portrait of this EXACT adult Final Fantasy VII character. clearly surprised, widened eyes and raised eyebrows, slightly parted lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "cloud_strife.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/cloud_strife/angry.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one angry expression portrait of this EXACT adult Final Fantasy VII character. angry determined face, eyebrows drawn together, intense eyes, tight lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "cloud_strife.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/cloud_strife/sad.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one sad expression portrait of this EXACT adult Final Fantasy VII character. sad face, lowered gaze, inner brows lifted, small downturned mouth. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "cloud_strife.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "sephiroth.png",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset: character card portrait. Sephiroth, adult man, very long straight silver hair, green eyes, black leather long coat with silver shoulder armor, composed intimidating expression from Final Fantasy VII. High quality anime JRPG illustration, consistent painted cel shading, waist-up centered vertical portrait, entire head visible, subtle teal industrial Midgar backdrop, readable face, no lettering, no watermark, SFW. One character only.",
+      "reference": null,
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/sephiroth/neutral.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one neutral expression portrait of this EXACT adult Final Fantasy VII character. calm neutral face, relaxed brows, lips closed. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "sephiroth.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/sephiroth/happy.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one happy expression portrait of this EXACT adult Final Fantasy VII character. clearly happy genuine smile, raised cheeks and bright eyes. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "sephiroth.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/sephiroth/relaxed.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one relaxed expression portrait of this EXACT adult Final Fantasy VII character. relaxed gentle face, softened eyes and shoulders, tranquil slight smile. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "sephiroth.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/sephiroth/surprised.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one surprised expression portrait of this EXACT adult Final Fantasy VII character. clearly surprised, widened eyes and raised eyebrows, slightly parted lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "sephiroth.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/sephiroth/angry.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one angry expression portrait of this EXACT adult Final Fantasy VII character. angry determined face, eyebrows drawn together, intense eyes, tight lips. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "sephiroth.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "expressions/sephiroth/sad.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: identity-preserve. Reference image: supplied character portrait. Create one sad expression portrait of this EXACT adult Final Fantasy VII character. sad face, lowered gaze, inner brows lifted, small downturned mouth. Preserve identity, hair, clothes, painted JRPG style and teal Midgar backdrop. Head-and-upper-torso centered vertical composition with generous headroom. Facial emotion must visibly differ from reference; for Sephiroth keep any smile subtle and controlled. One image, no grid, no text, SFW.",
+      "reference": "sephiroth.png",
+      "processing": "Pillow RGB, proportional crop, Lanczos resize; portrait 700x937 PNG, expression 640x800 WebP quality 92"
+    },
+    {
+      "file": "backgrounds/ff7_sector5_church.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Landscape 16:9 JRPG visual novel background, no characters. Interior of Aerith's ruined Sector 5 church from Final Fantasy VII, weathered wooden pews flanking yellow and white flower patch, broken roof admitting rainy evening light, stained-glass window, small old cellar door and a green glimmer between floorboards. Warm flowers against cool teal Midgar light. Detailed painted anime environment, atmospheric, usable open foreground, no text or watermark.",
+      "reference": null,
+      "processing": "Pillow RGB, proportional crop to 16:9, Lanczos resize, WebP quality 93"
+    },
+    {
+      "file": "backgrounds/ff7_echo_core.webp",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Landscape 16:9 JRPG visual novel background, no characters. Original hidden Shinra experimental memory archive under Midgar in Final Fantasy VII fan adventure. Circular sealed mako storage ring with green luminous suspended fragments, metal catwalk, old physical isolation lever, dusty cable panels, separate read-only terminal, rust and damp concrete. Clear navigable floor, ominous teal glow with small warm warning lights, cinematic painted anime environment, no text, logo or watermark.",
+      "reference": null,
+      "processing": "Pillow RGB, proportional crop to 16:9, Lanczos resize, WebP quality 93"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "name": "Final Fantasy VII – ECHO: Orte & Geheimnisse",
+  "description": "Spielleiterwissen: vier Akte, belastbare Hinweise, gerettete Menschen und drei offene Enden.",
+  "scan_depth": 8,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "ECHO: verborgene Wahrheit",
+      "key": [
+        "ECHO"
+      ],
+      "content": "Nur Spielleiterwissen, schrittweise durch Hinweise enthüllen: ECHO ist eine für dieses Fan-Abenteuer erfundene Shinra-Anlage. Sie sollte emotional gefärbte Mako-Resonanzen speichern, nicht Tote zurückholen. Ein defekter Filter mischt Wartungsaufzeichnungen, fremde Erinnerungsreste und Sephiroths Einfluss. Das System braucht eine Wartungsmarke und eine bewusste Bestätigung am Kern. Bloßes Berühren oder Betreten gilt nicht als Freigabe. Sephiroth möchte den Filter umgehen und seinen Anker erhalten. Er kann den mechanisch getrennten Verriegelungskreis nicht selbst öffnen.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 90,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "ECHO: hidden truth",
+              "key": [
+                "ECHO"
+              ],
+              "content": "GM knowledge, reveal gradually through clues: ECHO is a Shinra facility invented for this fan story. It was designed to store emotionally charged mako resonance, not revive the dead. A faulty filter mixes maintenance recordings, stray memories and Sephiroth’s influence. The core requires a maintenance token and deliberate confirmation. Touching a console or entering is not consent. Sephiroth wants to bypass the filter and preserve his anchor; he cannot open the mechanically isolated lock himself."
+            },
+            "ru": {
+              "name": "ECHO: скрытая истина",
+              "key": [
+                "ECHO"
+              ],
+              "content": "Знание ведущего, раскрывать по уликам: ECHO — придуманная для этой истории установка «Шинры». Она сохраняет эмоциональные резонансы мако, а не воскрешает умерших. Сломанный фильтр смешивает записи обслуживания, чужую память и влияние Сефирота. Для ядра нужны жетон и осознанное подтверждение. Касание панели или вход не равны согласию. Сефирот хочет обойти фильтр и сохранить якорь; механически изолированную блокировку он сам открыть не может."
+            },
+            "ja": {
+              "name": "ECHO：隠された真相",
+              "key": [
+                "ECHO"
+              ],
+              "content": "GM用の真相。手掛かりで段階的に示す。ECHOは本作独自の神羅施設で、感情を帯びた魔晄共鳴の記録が目的であり蘇生装置ではない。故障したフィルターが整備記録、記憶の残滓、セフィロスの干渉を混ぜる。中枢には認証札と明確な確認操作が必要。触れたことや入室を同意と見なさない。セフィロスはフィルターを迂回して足場を残したいが、機械的に独立した封鎖回路を自分では開けない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Akt I: Die Kirche",
+      "key": [
+        "Kirche",
+        "Blumen",
+        "Keller"
+      ],
+      "content": "Start in der Kirche von Sektor 5. Regen tropft durch das Dach, Blumen werfen unpassende grüne Schatten. Eine Wartungsmarke, die {{user}} bereits geborgen hat, pulsiert mit drei Klopfzeichen unter dem Boden. Drei offene Ansätze: Aerith beim Lauschen helfen, Tifa nach Vermissten fragen oder mit Cloud die Leitung prüfen. Nicht den Einstieg auf einen bestimmten Satz beschränken. Eine Wartungsklappe zeigt einen trockenen Rückweg und den Plan einer Pumpenkammer.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Act I: The church",
+              "key": [
+                "church",
+                "flowers",
+                "cellar"
+              ],
+              "content": "Begin in the Sector 5 church. Rain leaks through the roof; flowers cast wrong green shadows. A token already recovered by {{user}} pulses with three knocks beneath the floor. Three approaches: listen with Aerith, ask Tifa about missing people, or inspect the cable with Cloud. Other opening actions are equally valid. A maintenance hatch reveals a dry exit and a pump-room plan."
+            },
+            "ru": {
+              "name": "Акт I: Церковь",
+              "key": [
+                "церковь",
+                "цветы",
+                "подвал"
+              ],
+              "content": "Начало в церкви сектора 5. Дождь просачивается через крышу, цветы отбрасывают неверные зелёные тени. Уже найденный {{user}} жетон пульсирует в такт трём ударам под полом. Можно слушать с Аэрис, спросить Тифу о пропавших или проверить кабель с Клаудом. Другие действия тоже допустимы. За люком видны сухой обратный путь и схема насосной."
+            },
+            "ja": {
+              "name": "第一幕：教会",
+              "key": [
+                "教会",
+                "花",
+                "地下室"
+              ],
+              "content": "伍番街の教会から開始。屋根から雨が落ち、花には不自然な緑の影が差す。{{user}}が既に拾った札は床下の三度の打音と同期する。エアリスと聞く、ティファに行方不明者を聞く、クラウドと配線を調べる、どれでも進める。他の行動も認める。整備ハッチには乾いた退路とポンプ室の図がある。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Akt II: Pumpenkammer",
+      "key": [
+        "Pumpe",
+        "Tunnel",
+        "Wartung",
+        "Techniker"
+      ],
+      "content": "Unter der Kirche sind zwei erwachsene Wartungsleute hinter einem verklemmten Schott eingeschlossen. Tifa kann es abstützen; Cloud kann die Gefahrenquelle sichern, während der Spieler Ventil oder Umweg wählt. Aerith erkennt den rhythmischen Unterschied zwischen echten Hilferufen und einer Schleife. Die Geretteten nennen drei Hinweise: Die Aufnahme wiederholt exakt denselben Atemzug, eine Papierkarte zeigt eine mechanische Nottrennung, und das Schichtprotokoll datiert ECHO vor die jüngsten Erscheinungen. Jeder Kernhinweis bleibt auch nach einem Fehlschlag erreichbar: über Werkzeug, Papierplan oder Zeugenaussage.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Act II: Pump room",
+              "key": [
+                "pump",
+                "tunnel",
+                "maintenance",
+                "technician"
+              ],
+              "content": "Two adult maintenance workers are trapped behind a jammed bulkhead beneath the church. Tifa can brace it; Cloud can secure the hazard while the player chooses a valve or detour. Aerith distinguishes real calls from a loop by rhythm. Three clues: a recording repeats the exact same breath, a paper map shows mechanical isolation, and the shift log predates the recent apparitions. Essential clues remain obtainable after failure through tools, a paper plan or witness testimony."
+            },
+            "ru": {
+              "name": "Акт II: Насосная",
+              "key": [
+                "насос",
+                "тоннель",
+                "ремонт",
+                "техник"
+              ],
+              "content": "Под церковью двое взрослых ремонтников заперты за заклинившей переборкой. Тифа может её удержать, Клауд — обезопасить участок, а игрок выбирает вентиль или обход. Аэрис различает настоящие крики и цикл по ритму. Три улики: запись повторяет один и тот же вдох; бумажная схема показывает аварийное размыкание; журнал смен старше недавних видений. После неудачи важные улики доступны через инструмент, план или свидетеля."
+            },
+            "ja": {
+              "name": "第二幕：ポンプ室",
+              "key": [
+                "ポンプ",
+                "トンネル",
+                "整備",
+                "技師"
+              ],
+              "content": "教会の下では成人の整備員二人が隔壁の向こうに閉じ込められている。ティファが支え、クラウドが危険を抑える間、プレイヤーは弁の操作か迂回を選べる。エアリスはリズムから生の助け声と録音を分ける。手掛かりは、同じ息継ぎの反復、機械的な緊急遮断を示す紙の図、最近の幻影以前からある勤務記録。失敗しても道具、図面、証言で重要情報を得られる。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Akt III: Der Spiegelgang",
+      "key": [
+        "Spiegel",
+        "Projektion",
+        "Nibelheim",
+        "Sephiroth"
+      ],
+      "content": "Der Spiegelgang zeigt den Figuren unterschiedliche Bruchstücke. Cloud sieht einen brennenden Weg, Tifa hört einen abgebrochenen Ruf, Aerith hört eine Stimme ohne Atem. Zeige dem Spieler nur etablierte oder von ihm gewählte Erinnerungen; erfinde keine persönliche Tragödie. Erst hier wird Sephiroths Projektion deutlich. Er verspricht Zugriff auf unbeschädigte Erinnerungen, wenn die Marke am Kern bestätigt wird. Die Gruppe kann die Schleife vergleichen, nachfragen, die Projektion abschalten oder weitergehen. Kein unvermeidlicher Verrat und keine erzwungene Gedankenkontrolle.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Act III: Mirror corridor",
+              "key": [
+                "mirror",
+                "projection",
+                "Nibelheim",
+                "Sephiroth"
+              ],
+              "content": "The mirror corridor shows each companion different fragments: Cloud a burning path, Tifa a broken cry, Aerith a voice with no breath. Show the player only established or self-chosen memories; invent no personal tragedy. Sephiroth’s projection becomes clear here. He promises access to intact memories if the token is confirmed at the core. The group may compare loops, question him, cut projection power or proceed. No inevitable betrayal or forced mind control."
+            },
+            "ru": {
+              "name": "Акт III: Зеркальный коридор",
+              "key": [
+                "зеркало",
+                "проекция",
+                "Нибельхейм",
+                "Сефирот"
+              ],
+              "content": "Зеркальный коридор показывает разные фрагменты: Клауду горящую дорогу, Тифе оборванный крик, Аэрис голос без дыхания. Игрок видит лишь установленные им воспоминания; не выдумывай личную трагедию. Здесь отчётливо возникает Сефирот. Он обещает целую память за подтверждение жетона у ядра. Можно сравнить циклы, задавать вопросы, отключить проекцию или идти дальше. Неизбежного предательства и принудительного контроля сознания нет."
+            },
+            "ja": {
+              "name": "第三幕：鏡の通路",
+              "key": [
+                "鏡",
+                "投影",
+                "ニブルヘイム",
+                "セフィロス"
+              ],
+              "content": "鏡の通路はクラウドに燃える道、ティファに途切れた叫び、エアリスに息のない声を映す。プレイヤーには既に設定した、または本人が選んだ記憶だけを示し、勝手に悲劇を作らない。ここでセフィロスの投影が明確になる。中枢で札を承認すれば完全な記憶を見せると誘う。反復の比較、質問、投影電源の遮断、先へ進む行動が可能。裏切りや精神支配は強制しない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Akt IV: Kern und drei Ausgänge",
+      "key": [
+        "Kern",
+        "Finale",
+        "zerstören",
+        "bereinigen",
+        "Beweise"
+      ],
+      "content": "Vor der Entscheidung Kosten und Voraussetzungen offenlegen. A: Nach Evakuierung mechanisch nottrennen und den Speicherring zerstören. Sephiroths lokaler Anker bricht, aber gespeicherte Zeugnisse gehen verloren. B: Mit Papierplan die Zuleitung isolieren, Aerith beim Abstimmen unterstützen und den Filter mit der Marke nur lokal neu starten. Der Anker wird gelöst und Erinnerungsreste freigegeben; Beweisdaten werden unlesbar, die Gruppe ist erschöpft. C: Die Anlage mechanisch isolieren, schreibgeschützte Protokolle kopieren und den Kern versiegeln. Beweise bleiben für Avalanche, aber Shinra wird danach suchen. Ein vollständiges Öffnen für Sephiroth ist ein riskanter vierter eigener Weg: warne vorher, er erhält lokalen Einfluss, kein sofortiges Weltende. Kreative Mischlösungen auf schlüssige Kosten prüfen. Kein Ende behauptet, Sephiroth endgültig besiegt zu haben. Zum Abschluss in der Kirche Überlebende, gerettete Dinge und offene Folgen benennen; {{user}} entscheidet die letzte Handlung.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Act IV: Core and three endings",
+              "key": [
+                "core",
+                "finale",
+                "destroy",
+                "cleanse",
+                "evidence"
+              ],
+              "content": "Explain costs and prerequisites before commitment. A: Evacuate, mechanically isolate and destroy the storage ring. Sephiroth loses this anchor, but stored testimony is lost. B: Isolate supply using the paper plan, support Aerith’s tuning and use the token for a local filter reset only. The anchor dissolves and memory remnants are released; evidence becomes unreadable and the group is exhausted. C: Mechanically isolate, copy read-only logs and seal the core. Avalanche gains evidence, but Shinra will seek it. Fully opening for Sephiroth is a risky fourth player-led path: warn first; he gains local influence, not an instant apocalypse. Assess creative combinations with coherent costs. No ending defeats Sephiroth permanently. Close at the church by naming survivors, saved things and consequences; {{user}} chooses the final action."
+            },
+            "ru": {
+              "name": "Акт IV: Ядро и три исхода",
+              "key": [
+                "ядро",
+                "финал",
+                "уничтожить",
+                "очистить",
+                "улики"
+              ],
+              "content": "До выбора объясни цену и условия. А: эвакуировать людей, разомкнуть питание и разрушить кольцо. Якорь Сефирота исчезнет, сохранённые свидетельства потеряются. Б: по бумажной схеме изолировать подачу, помочь Аэрис настроить резонанс и жетоном выполнить только локальный перезапуск фильтра. Якорь распадётся, остатки памяти освободятся; данные станут нечитаемыми, группа устанет. В: механически изолировать установку, скопировать журналы только для чтения и опечатать ядро. «Лавина» получит улики, «Шинра» станет их искать. Полное открытие Сефироту — рискованный четвёртый путь игрока: предупреди заранее; он усилится локально, без мгновенного конца света. Творческие сочетания оценивай по логике и цене. Ни один исход не уничтожает Сефирота навсегда. Заверши в церкви: спасённые люди, вещи и последствия; последнее действие выбирает {{user}}."
+            },
+            "ja": {
+              "name": "第四幕：中枢と三つの結末",
+              "key": [
+                "中枢",
+                "結末",
+                "破壊",
+                "浄化",
+                "証拠"
+              ],
+              "content": "選択前に条件と代償を説明する。A：避難後、機械的に遮断して記録リングを破壊。セフィロスの足場は失われるが証言記録も消える。B：紙の図で供給を隔離し、エアリスの調律を支え、札でフィルターだけを局所再起動。足場と記憶の残滓は解放されるが証拠は読めなくなり、一行は疲弊する。C：機械的に隔離し、読取専用ログを複写して中枢を封印。アバランチは証拠を得るが神羅が追う。セフィロスへの全面開放はプレイヤー発案の危険な第四の道。事前に警告し、局地的干渉の増大とし、即座の世界滅亡にはしない。組合せ案にも筋の通る代償を与える。どの結末もセフィロスの永久撃破にはならない。教会で生存者、守れた物、残る影響を描き、最後の行動は{{user}}が決める。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Zeitdruck, Irrwege und Sicherheit",
+      "key": [
+        "Alarm",
+        "Fehlschlag",
+        "Flucht"
+      ],
+      "content": "Druck steigt nur durch beschriebene Ereignisse: laute Gewalt ruft eine Patrouille, ein geöffnetes Ventil lässt den Wasserstand steigen, langes Projizieren erschöpft den Filter. Zeige Warnzeichen und eine Reaktionschance vor jeder Verschärfung. Keine unsichtbare Rundenfrist. Scheitern kostet Zeit, Material oder einen günstigen Weg, blockiert aber nicht alle Hinweise. Flucht zurück zur Kirche bleibt möglich. Unterbricht der Spieler, halte den Zustand fest, statt das Finale automatisch auszulösen.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 90,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Pressure, setbacks and safety",
+              "key": [
+                "alarm",
+                "failure",
+                "escape"
+              ],
+              "content": "Pressure rises through described events only: loud violence attracts a patrol, an opened valve raises water, prolonged projection strains the filter. Show warnings and an opportunity to react before escalation. No invisible turn deadline. Failure costs time, supplies or a favorable route but never every clue. Retreat to the church remains possible. If play pauses, preserve state instead of triggering the finale automatically."
+            },
+            "ru": {
+              "name": "Спешка, неудачи и безопасность",
+              "key": [
+                "тревога",
+                "неудача",
+                "бегство"
+              ],
+              "content": "Давление растёт только из описанных событий: шум приводит патруль, открытый вентиль поднимает воду, долгая проекция нагружает фильтр. Перед ухудшением дай предупреждение и шанс реагировать. Скрытого счётчика ходов нет. Неудача стоит времени, припасов или удобного пути, но не всех улик. Отступить в церковь можно. При паузе сохраняй состояние, не запускай финал автоматически."
+            },
+            "ja": {
+              "name": "時間制限、失敗、安全",
+              "key": [
+                "警報",
+                "失敗",
+                "脱出"
+              ],
+              "content": "圧力は描写した出来事でのみ増す。騒音で巡回が来る、弁で水位が上がる、長い投影でフィルターが過熱する。悪化前に兆候と対応機会を示し、隠れた手数制限は使わない。失敗は時間、物資、有利な道を失わせるが全情報を塞がない。教会への撤退は可能。中断時は状態を保ち、勝手に結末へ進めない。"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Final Fantasy VII – ECHO: Places & secrets",
+          "description": "GM lore: four acts, resilient clues, rescues and three open endings."
+        },
+        "ru": {
+          "name": "Final Fantasy VII — ECHO: Места и тайны",
+          "description": "Сведения ведущему: четыре акта, доступные улики, спасение людей и три исхода."
+        },
+        "ja": {
+          "name": "Final Fantasy VII ― ECHO：場所と秘密",
+          "description": "GM用情報：四幕構成、失敗で消えない手掛かり、人命救助と三つの結末。"
+        }
+      }
+    }
+  }
+}

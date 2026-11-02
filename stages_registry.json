@@ -1701,6 +1701,33 @@
           "starting_location": "Берлинт, сад вымышленного музея Линденпарка"
         }
       }
+    },
+    {
+      "id": "ff7_das_echo_unter_midgar",
+      "title": "Das Echo unter Midgar",
+      "description": "Unter Aeriths Kirche erwacht ein vergessener Shinra-Speicher. Gemeinsam mit Tifa, Aerith und Cloud rettest du Vermisste und prüfst Erinnerungen, während Sephiroth dir einen gefährlichen Handel anbietet.",
+      "starting_location": "Kirche in den Slums von Sektor 5",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ff7_das_echo_unter_midgar.json",
+      "revision": 1,
+      "updated": "2026-11-02",
+      "translations": {
+        "en": {
+          "title": "The Echo Beneath Midgar",
+          "description": "A forgotten Shinra archive awakens beneath Aerith’s church. With Tifa, Aerith and Cloud, rescue missing workers and test memories while Sephiroth offers a dangerous bargain.",
+          "starting_location": "Church in the Sector 5 slums"
+        },
+        "ja": {
+          "title": "ミッドガルの底に響く残響",
+          "description": "エアリスの教会の下で忘れられた神羅の記録庫が目覚める。ティファ、エアリス、クラウドと行方不明者を救い、記憶を確かめる中、セフィロスが危険な取引を持ちかける。",
+          "starting_location": "伍番街スラムの教会"
+        },
+        "ru": {
+          "title": "Эхо под Мидгаром",
+          "description": "Под церковью Аэрис пробуждается забытое хранилище «Шинры». Вместе с Тифой, Аэрис и Клаудом спаси рабочих и проверь воспоминания, пока Сефирот предлагает опасную сделку.",
+          "starting_location": "Церковь в трущобах сектора 5"
+        }
+      }
     }
   ]
 }

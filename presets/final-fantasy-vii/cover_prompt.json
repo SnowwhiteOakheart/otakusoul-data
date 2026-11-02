@@ -1,0 +1,8 @@
+{
+  "generated": "2026-11-02",
+  "file": "cover.webp",
+  "tool": "image_gen",
+  "prompt": "Use case: illustration-story. Wide 16:9 coherent cinematic key visual for original Final Fantasy VII fan story. Tifa Lockhart with dark hair white athletic top and red gloves, Aerith Gainsborough with chestnut braid pink ribbon red jacket pink dress, Cloud Strife with spiky blond hair black SOLDIER outfit Buster Sword, all adults in foreground inside ruined Sector 5 church with yellow flowers, rain through roof, green mako light leaking from a cellar hatch. Sephiroth long silver hair black coat silver pauldrons appears as an ominous faint projection behind them. Painterly polished anime JRPG art. All FOUR distinct characters recognizable, one coherent scene, not a collage, no lettering or logo or watermark. SFW.",
+  "reference": null,
+  "processing": "Pillow RGB, proportional crop to 16:9, Lanczos resize, WebP quality 93"
+}

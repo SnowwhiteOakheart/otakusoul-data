@@ -816,6 +816,75 @@
           "name": "SPY×FAMILY — Операция «Пикник»"
         }
       }
+    },
+    {
+      "name": "Final Fantasy VII – Planet, Mako & Midgar",
+      "author": "SnowwhiteOakheart",
+      "description": "Weltwissen, Fraktionen und Grenzen von Magie für das alternative ECHO-Abenteuer.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/ff7_world.json",
+      "revision": 1,
+      "updated": "2026-11-02",
+      "translations": {
+        "en": {
+          "description": "World lore, factions and limits of magic for the alternate ECHO adventure.",
+          "name": "Final Fantasy VII – Planet, Mako & Midgar"
+        },
+        "ja": {
+          "description": "別設定のECHO冒険で使う世界、組織、魔法の限界。",
+          "name": "Final Fantasy VII ― 星・魔晄・ミッドガル"
+        },
+        "ru": {
+          "description": "Мир, фракции и границы магии для альтернативной истории ECHO.",
+          "name": "Final Fantasy VII — Планета, мако и Мидгар"
+        }
+      }
+    },
+    {
+      "name": "Final Fantasy VII – Stimmen & Beziehungen",
+      "author": "SnowwhiteOakheart",
+      "description": "Tifa, Aerith, Cloud und Sephiroth mit Beziehungen, Wissensgrenzen und klaren Rollen.",
+      "entry_count": 5,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/ff7_characters.json",
+      "revision": 1,
+      "updated": "2026-11-02",
+      "translations": {
+        "en": {
+          "description": "Tifa, Aerith, Cloud and Sephiroth: relationships, knowledge limits and distinct roles.",
+          "name": "Final Fantasy VII – Voices & relationships"
+        },
+        "ja": {
+          "description": "ティファ、エアリス、クラウド、セフィロスの関係、知識の限界、役割。",
+          "name": "Final Fantasy VII ― 声と絆"
+        },
+        "ru": {
+          "description": "Тифа, Аэрис, Клауд и Сефирот: отношения, границы знаний и роли.",
+          "name": "Final Fantasy VII — Голоса и отношения"
+        }
+      }
+    },
+    {
+      "name": "Final Fantasy VII – ECHO: Orte & Geheimnisse",
+      "author": "SnowwhiteOakheart",
+      "description": "Spielleiterwissen: vier Akte, belastbare Hinweise, gerettete Menschen und drei offene Enden.",
+      "entry_count": 6,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/ff7_echo.json",
+      "revision": 1,
+      "updated": "2026-11-02",
+      "translations": {
+        "en": {
+          "description": "GM lore: four acts, resilient clues, rescues and three open endings.",
+          "name": "Final Fantasy VII – ECHO: Places & secrets"
+        },
+        "ja": {
+          "description": "GM用情報：四幕構成、失敗で消えない手掛かり、人命救助と三つの結末。",
+          "name": "Final Fantasy VII ― ECHO：場所と秘密"
+        },
+        "ru": {
+          "description": "Сведения ведущему: четыре акта, доступные улики, спасение людей и три исхода.",
+          "name": "Final Fantasy VII — ECHO: Места и тайны"
+        }
+      }
     }
   ]
 }

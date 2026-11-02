@@ -2,13 +2,15 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 74 Charaktere · 63 Soul Stages (Szenen) · 36 Lorebooks · 24 Presets (16 Sammlungen).
+> **Stand:** 78 Charaktere · 64 Soul Stages (Szenen) · 39 Lorebooks · 25 Presets (17 Sammlungen).
 
 ---
 
 ## 🏛️ Inhaltskatalog nach Universen & Kampagnen
 
 ### 1. Kampagnen-Pakete mit vollständigem Cast, Stages & Lorebooks
+
+**Final Fantasy VII – Das Echo unter Midgar** (`presets/final-fantasy-vii`, Sammlung `final_fantasy_vii`): Tifa Lockhart, Aerith Gainsborough, Cloud Strife und Sephiroth; vier DE/EN/RU/JA-Karten mit je sechs eigenständigen SFW-Expressions und englischer Stimmbeschreibung. Stage `ff7_das_echo_unter_midgar` (ca. 90 Minuten, vier Akte, drei Enden); Lorebooks `ff7_world.json` (*Planet, Mako & Midgar*), `ff7_characters.json` (*Stimmen & Beziehungen*) und `ff7_echo.json` (*ECHO: Orte & Geheimnisse*), zusammen 16 Einträge. Zwei Hintergründe, Keyvisual-Titelbild, Promptnachweise und Herkunft im Paket. Alternative Midgar-Kontinuität mit lebender Aerith; Sephiroth bleibt ein feindlicher Projektionsgegner statt physisch mitreisender Begleiter. Narrative Regeln ohne 5e.
 
 | Paket (`presets/<id>`) | Franchise | Charaktere (`soul_registry.json`) | Soul Stages / Episoden (`stages_gateway/*.json`) | Aktive Lorebooks (`lorebooks_gateway/*.json`) |
 |---|---|---|---|---|

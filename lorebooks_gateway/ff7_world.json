@@ -1,0 +1,268 @@
+{
+  "name": "Final Fantasy VII – Planet, Mako & Midgar",
+  "description": "Weltwissen, Fraktionen und Grenzen von Magie für das alternative ECHO-Abenteuer.",
+  "scan_depth": 8,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Alternative Kontinuität",
+      "key": [
+        "ECHO"
+      ],
+      "content": "Eigenständige alternative FFVII-Kontinuität während der Midgar-Phase: Aerith lebt, Tifa und Cloud kennen sie bereits. Keine Ereignisse späterer Spiele sind vorbestimmt. {{user}} ist eine ortskundige Hilfskraft mit einer geborgenen Shinra-Wartungsmarke und darf Herkunft und Fähigkeiten selbst bestimmen. Unter Sektor 5 erwacht der erfundene Versuchsspeicher ECHO. Seine Mako-Resonanz projiziert bruchstückhafte Erinnerungen, keine verlässlichen Zukunftsbilder. Sephiroth erscheint zunächst nur als feindliche Projektion; er ist weder Verbündeter noch allwissend.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 90,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Alternate continuity",
+              "key": [
+                "ECHO"
+              ],
+              "content": "Standalone alternate FFVII continuity during the Midgar phase: Aerith is alive and already knows Tifa and Cloud. Later game events are not predetermined. {{user}} is a local volunteer carrying a recovered Shinra maintenance token and chooses their own background and skills. Beneath Sector 5, the invented ECHO experimental archive awakens. Its mako resonance projects fragmented memories, not reliable visions of the future. Sephiroth first appears as a hostile projection; he is neither an ally nor omniscient."
+            },
+            "ru": {
+              "name": "Альтернативная история",
+              "key": [
+                "ECHO"
+              ],
+              "content": "Самостоятельная альтернативная история FFVII периода Мидгара: Аэрис жива и уже знакома с Тифой и Клаудом. События поздних игр не предрешены. {{user}} — местный доброволец с найденным жетоном техобслуживания «Шинры»; происхождение и навыки выбирает игрок. Под сектором 5 пробуждается вымышленное хранилище ECHO. Резонанс мако проецирует обрывки воспоминаний, а не достоверное будущее. Сефирот сначала является враждебной проекцией; он не союзник и не всеведущ."
+            },
+            "ja": {
+              "name": "別設定",
+              "key": [
+                "ECHO"
+              ],
+              "content": "ミッドガル編を舞台にした独立したFFVII別設定。エアリスは生存し、ティファとクラウドとは既に面識がある。後の作品の展開は確定していない。{{user}}は拾った神羅の整備用認証札を持つ地元の協力者で、経歴や能力はプレイヤー自身が決める。伍番街の地下で、創作の実験記録庫ECHOが再起動する。魔晄共鳴は断片的な記憶を映すが、確実な未来を示すものではない。セフィロスは最初は敵対的な投影として現れ、味方でも全知でもない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Midgar und Shinra",
+      "key": [
+        "Midgar",
+        "Shinra",
+        "Sektor"
+      ],
+      "content": "Midgar ist eine Industriestadt mit einer hoch gelegenen Platte und benachteiligten Slums darunter. Shinra kontrolliert Energieversorgung und große Teile des öffentlichen Lebens. Mako wird dem Planeten zur Energiegewinnung entzogen. Nicht jeder Angestellte ist ein Fanatiker: Wartungspersonal kann verhandeln, fliehen oder Beweise liefern. Für dieses Abenteuer sind Sperren, Kontrollgänge und Stromausfälle lokale Probleme; eine ganze Plattenkatastrophe ist nicht vorbestimmt.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Midgar and Shinra",
+              "key": [
+                "Midgar",
+                "Shinra",
+                "sector"
+              ],
+              "content": "Midgar is an industrial city with an elevated plate and disadvantaged slums beneath. Shinra controls energy and much of public life. Mako is extracted from the Planet for power. Not every employee is a zealot: maintenance staff can negotiate, flee or provide evidence. Checkpoints, patrols and outages are local obstacles here; no plate catastrophe is predetermined."
+            },
+            "ru": {
+              "name": "Мидгар и «Шинра»",
+              "key": [
+                "Мидгар",
+                "Шинра",
+                "сектор"
+              ],
+              "content": "Мидгар — промышленный город с верхней платформой и бедными трущобами внизу. «Шинра» контролирует энергию и общественную жизнь, извлекая мако из Планеты. Не каждый сотрудник фанатик: рабочие могут договориться, бежать или дать показания. Блокпосты, патрули и перебои питания здесь локальны; катастрофа платформы не предрешена."
+            },
+            "ja": {
+              "name": "ミッドガルと神羅",
+              "key": [
+                "ミッドガル",
+                "神羅",
+                "街"
+              ],
+              "content": "ミッドガルは上層のプレートと下層のスラムを持つ工業都市。神羅は星から魔晄を抽出し、電力と社会の多くを支配する。社員全員が狂信者ではなく、整備員とは交渉でき、逃げたり証言したりもする。本作の検問や停電は局地的な障害で、プレートの大災害は確定していない。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Lebensstrom und Cetra",
+      "key": [
+        "Lebensstrom",
+        "Cetra",
+        "Planet",
+        "Aerith"
+      ],
+      "content": "Der Lebensstrom ist mit Leben und Erinnerungen des Planeten verbunden. Aeriths Cetra-Erbe ermöglicht besondere Wahrnehmungen, aber keine frei abrufbare Antwort auf jede Frage. ECHO-Bilder sind durch eine Maschine gefilterte Fragmente. Sie sind weder wiederbelebte Personen noch verbindliche Prophezeiungen. Eine bekannte Stimme beweist keine Identität. Physische Beobachtungen und unabhängige Zeugnisse können Projektionen widerlegen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Lifestream and Cetra",
+              "key": [
+                "Lifestream",
+                "Cetra",
+                "Planet",
+                "Aerith"
+              ],
+              "content": "The Lifestream is connected with the Planet’s life and memories. Aerith’s Cetra heritage enables unusual perception, not an on-demand answer to every question. ECHO images are machine-filtered fragments, neither resurrected people nor binding prophecies. A familiar voice proves no identity. Physical observations and independent testimony can disprove projections."
+            },
+            "ru": {
+              "name": "Поток Жизни и цетра",
+              "key": [
+                "Поток Жизни",
+                "цетра",
+                "Планета",
+                "Аэрис"
+              ],
+              "content": "Поток Жизни связан с жизнью и памятью Планеты. Наследие цетра даёт Аэрис особое восприятие, а не готовый ответ на любой вопрос. Образы ECHO — фрагменты, пропущенные через машину, не воскресшие люди и не обязательные пророчества. Знакомый голос не доказывает личность. Физические наблюдения и независимые свидетельства могут опровергнуть проекцию."
+            },
+            "ja": {
+              "name": "ライフストリームとセトラ",
+              "key": [
+                "ライフストリーム",
+                "セトラ",
+                "星",
+                "エアリス"
+              ],
+              "content": "ライフストリームは星の生命と記憶に関わる。エアリスのセトラの力は特別な知覚であり、何でも答える能力ではない。ECHOの映像は機械を通した断片で、蘇った人でも確定した予言でもない。知っている声だけでは本人の証拠にならず、現物の観察や別の証言で反証できる。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Materia und Grenzen",
+      "key": [
+        "Materia",
+        "Heilung",
+        "Magie"
+      ],
+      "content": "Materia kann Magie und besondere Fähigkeiten ermöglichen, wenn sie ausgerüstet und beherrscht wird. Es gibt hier kein 5e-Regelsystem. Beschreibe nachvollziehbare Erschöpfung und begrenzte Ausrüstung statt erfundener Zahlenwerte. Heilung hilft bei Verletzungen, repariert aber keine Daten, beseitigt nicht jede Mako-Belastung und setzt keine erzählerischen Konsequenzen zurück. Neue Fähigkeiten von {{user}} nur nach dessen Festlegung anerkennen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Materia and limits",
+              "key": [
+                "materia",
+                "healing",
+                "magic"
+              ],
+              "content": "Equipped materia enables magic and special abilities when the wielder can use it. This story has no 5e ruleset. Describe believable fatigue and limited supplies rather than invented numerical stats. Healing treats injuries, not damaged data or every mako exposure, and does not reset consequences. Accept new abilities for {{user}} only when the player establishes them."
+            },
+            "ru": {
+              "name": "Материя и ограничения",
+              "key": [
+                "материя",
+                "лечение",
+                "магия"
+              ],
+              "content": "Экипированная материя позволяет пользоваться магией и умениями при соответствующих навыках. Правил 5e здесь нет. Описывай усталость и ограниченные припасы вместо вымышленных числовых характеристик. Лечение помогает при ранах, но не чинит данные, не устраняет любое воздействие мако и не отменяет последствия. Способности {{user}} устанавливает сам игрок."
+            },
+            "ja": {
+              "name": "マテリアと限界",
+              "key": [
+                "マテリア",
+                "回復",
+                "魔法"
+              ],
+              "content": "装備したマテリアは使い手の習熟に応じて魔法や技を可能にする。本作は5eルールを使わない。架空の数値ではなく疲労や物資の限界を描く。回復は傷を助けるが、データ修復や全ての魔晄障害の解消、結果の巻き戻しには使えない。{{user}}の能力はプレイヤーが設定したものに限る。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Shinra, Avalanche und Unbeteiligte",
+      "key": [
+        "Avalanche",
+        "Wache",
+        "Zivilisten"
+      ],
+      "content": "Avalanche widersetzt sich Shinras Ausbeutung des Planeten. Tifa gewichtet den Schutz von Unbeteiligten hoch. Die örtliche Shinra-Wache will den Versuchsspeicher sichern; sie kennt nicht automatisch dessen Geheimnisse. Tarnung, ein Wartungsauftrag oder ein Angebot zur Evakuierung können einen Kampf ersetzen. Alarm verändert Wege und Zeitdruck, erzwingt aber kein einziges Lösungsverfahren.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 40,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Shinra, Avalanche and civilians",
+              "key": [
+                "Avalanche",
+                "guard",
+                "civilians"
+              ],
+              "content": "Avalanche opposes Shinra’s exploitation of the Planet. Tifa prioritizes civilian safety. The local Shinra guard wants the archive secured but does not automatically know its secrets. Disguise, a maintenance order or an evacuation offer may replace combat. An alarm changes routes and pressure without dictating a single solution."
+            },
+            "ru": {
+              "name": "«Шинра», «Лавина» и мирные жители",
+              "key": [
+                "Лавина",
+                "охранник",
+                "жители"
+              ],
+              "content": "«Лавина» борется с эксплуатацией Планеты корпорацией. Для Тифы важна безопасность мирных жителей. Местная охрана хочет изолировать хранилище, но не знает всех тайн. Маскировка, наряд на ремонт или предложение эвакуации могут заменить бой. Тревога меняет маршруты и темп, но не навязывает единственное решение."
+            },
+            "ja": {
+              "name": "神羅、アバランチ、市民",
+              "key": [
+                "アバランチ",
+                "警備",
+                "住民"
+              ],
+              "content": "アバランチは神羅による星の搾取に抵抗する。ティファは住民の安全を重視する。地元の神羅警備は記録庫確保を目指すが、秘密を全て知ってはいない。変装、整備の口実、避難の提案で戦闘を避けられる。警報は道や時間の余裕を変えるが、解決法を一つに固定しない。"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Final Fantasy VII – Planet, Mako & Midgar",
+          "description": "World lore, factions and limits of magic for the alternate ECHO adventure."
+        },
+        "ru": {
+          "name": "Final Fantasy VII — Планета, мако и Мидгар",
+          "description": "Мир, фракции и границы магии для альтернативной истории ECHO."
+        },
+        "ja": {
+          "name": "Final Fantasy VII ― 星・魔晄・ミッドガル",
+          "description": "別設定のECHO冒険で使う世界、組織、魔法の限界。"
+        }
+      }
+    }
+  }
+}

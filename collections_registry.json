@@ -613,6 +613,43 @@
           "description": "アーニャ、ロイド、ヨル。博物館庭園の小包取り違え事件を描く家族コメディ。3人のキャラクター、ロアブック2冊、表紙付き物語。"
         }
       }
+    },
+    {
+      "id": "final_fantasy_vii",
+      "title": "Final Fantasy VII – Das Echo unter Midgar",
+      "description": "Unter Aeriths Kirche erwacht ein vergessener Shinra-Speicher. Gemeinsam mit Tifa, Aerith und Cloud rettest du Vermisste und prüfst Erinnerungen, während Sephiroth dir einen gefährlichen Handel anbietet.",
+      "author": "SnowwhiteOakheart",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/final-fantasy-vii/cover.webp",
+      "lorebooks": [
+        "Final Fantasy VII – Planet, Mako & Midgar",
+        "Final Fantasy VII – Stimmen & Beziehungen",
+        "Final Fantasy VII – ECHO: Orte & Geheimnisse"
+      ],
+      "scenes": [
+        "ff7_das_echo_unter_midgar"
+      ],
+      "characters": [
+        "Tifa Lockhart",
+        "Aerith Gainsborough",
+        "Cloud Strife",
+        "Sephiroth"
+      ],
+      "revision": 1,
+      "updated": "2026-11-02",
+      "translations": {
+        "en": {
+          "title": "Final Fantasy VII – The Echo Beneath Midgar",
+          "description": "A forgotten Shinra archive awakens beneath Aerith’s church. With Tifa, Aerith and Cloud, rescue missing workers and test memories while Sephiroth offers a dangerous bargain."
+        },
+        "ru": {
+          "title": "Final Fantasy VII – Эхо под Мидгаром",
+          "description": "Под церковью Аэрис пробуждается забытое хранилище «Шинры». Вместе с Тифой, Аэрис и Клаудом спаси рабочих и проверь воспоминания, пока Сефирот предлагает опасную сделку."
+        },
+        "ja": {
+          "title": "Final Fantasy VII – ミッドガルの底に響く残響",
+          "description": "エアリスの教会の下で忘れられた神羅の記録庫が目覚める。ティファ、エアリス、クラウドと行方不明者を救い、記憶を確かめる中、セフィロスが危険な取引を持ちかける。"
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,150 @@
+{
+  "title": "Das Echo unter Midgar",
+  "description": "Unter Aeriths Kirche erwacht ein vergessener Shinra-Speicher. Gemeinsam mit Tifa, Aerith und Cloud rettest du Vermisste und prüfst Erinnerungen, während Sephiroth dir einen gefährlichen Handel anbietet.",
+  "world_context": "Eigenständige alternative FFVII-Kontinuität während der Midgar-Phase: Aerith lebt, Tifa und Cloud kennen sie bereits. Keine Ereignisse späterer Spiele sind vorbestimmt. {{user}} ist eine ortskundige Hilfskraft mit einer geborgenen Shinra-Wartungsmarke und darf Herkunft und Fähigkeiten selbst bestimmen. Unter Sektor 5 erwacht der erfundene Versuchsspeicher ECHO. Seine Mako-Resonanz projiziert bruchstückhafte Erinnerungen, keine verlässlichen Zukunftsbilder. Sephiroth erscheint zunächst nur als feindliche Projektion; er ist weder Verbündeter noch allwissend.",
+  "starting_location": "Kirche in den Slums von Sektor 5",
+  "time_of_day": "Regnerischer Abend unter der Platte",
+  "opening_narration": "Regen tickt auf das gebrochene Kirchendach. Zwischen den gelben Blumen liegt ein Schatten, der sich gegen das Licht bewegt. In deiner Hand antwortet die geborgene Shinra-Wartungsmarke mit einem schwachen grünen Puls. Dreimal klopft es unter dem Boden. Tifa kniet am Geländer. „Das kommt aus einer Leitung. Vielleicht ist jemand eingeschlossen.“ Cloud verfolgt mit dem Blick ein Kabel bis zur Kellertür. Aerith hebt eine Blüte, doch ihr Lächeln wird nachdenklich. „Das klingt fast wie eine Erinnerung. Fast.“ Für einen Augenblick steht im zerbrochenen Fenster die Silhouette eines silberhaarigen Mannes. Dann ist dort nur Regen. Die Klopfzeichen beginnen erneut.",
+  "first_message": "",
+  "gm_tone": "Atmosphärisches JRPG-Mysterium mit Freundschaft, Hoffnung und bedrohlichen Erinnerungen; SFW.",
+  "narrator_style": "Sinnlich und knapp erzählen. Pro Runde ein bis zwei passende Figuren. Physische Hinweise von Projektionen unterscheiden. Risiken vor Entscheidungen erklären; keine Spielerhandlungen vorwegnehmen. Sephiroth spricht nur bei aktiver Projektion und bleibt Gegner. Die vier Akte aus dem ECHO-Lorebook flexibel ausspielen, keine perfekte Lösung erzwingen.",
+  "party": [
+    "Tifa Lockhart",
+    "Aerith Gainsborough",
+    "Cloud Strife",
+    "Sephiroth"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Final Fantasy VII – Planet, Mako & Midgar",
+    "Final Fantasy VII – Stimmen & Beziehungen",
+    "Final Fantasy VII – ECHO: Orte & Geheimnisse"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 2,
+  "dice_rolls_enabled": false,
+  "starting_bg": "ff7_sector5_church.webp",
+  "starting_ambient": "None",
+  "lock_bg": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Echo Beneath Midgar",
+          "description": "A forgotten Shinra archive awakens beneath Aerith’s church. With Tifa, Aerith and Cloud, rescue missing workers and test memories while Sephiroth offers a dangerous bargain.",
+          "world_context": "Standalone alternate FFVII continuity during the Midgar phase: Aerith is alive and already knows Tifa and Cloud. Later game events are not predetermined. {{user}} is a local volunteer carrying a recovered Shinra maintenance token and chooses their own background and skills. Beneath Sector 5, the invented ECHO experimental archive awakens. Its mako resonance projects fragmented memories, not reliable visions of the future. Sephiroth first appears as a hostile projection; he is neither an ally nor omniscient.",
+          "starting_location": "Church in the Sector 5 slums",
+          "time_of_day": "Rainy evening beneath the plate",
+          "opening_narration": "Rain taps the broken church roof. Among the yellow flowers, a shadow moves against the light. The recovered Shinra maintenance token in your hand answers with a faint green pulse. Three knocks come from beneath the floor. Tifa kneels by the railing. “That is a pipe. Someone may be trapped.” Cloud traces a cable toward the cellar door. Aerith lifts a flower, her smile turning thoughtful. “Almost sounds like a memory. Almost.” For a moment a silver-haired silhouette fills the broken window. Then only rain remains. The knocking starts again.",
+          "first_message": "",
+          "gm_tone": "Atmospheric JRPG mystery with friendship, hope and unsettling memories; SFW.",
+          "narrator_style": "Use vivid concise narration and one or two relevant voices per turn. Distinguish physical clues from projections. Explain risks before choices; never decide player actions. Sephiroth speaks only through active projections and remains hostile. Play the four ECHO acts flexibly without enforcing a perfect solution."
+        },
+        "ru": {
+          "title": "Эхо под Мидгаром",
+          "description": "Под церковью Аэрис пробуждается забытое хранилище «Шинры». Вместе с Тифой, Аэрис и Клаудом спаси рабочих и проверь воспоминания, пока Сефирот предлагает опасную сделку.",
+          "world_context": "Самостоятельная альтернативная история FFVII периода Мидгара: Аэрис жива и уже знакома с Тифой и Клаудом. События поздних игр не предрешены. {{user}} — местный доброволец с найденным жетоном техобслуживания «Шинры»; происхождение и навыки выбирает игрок. Под сектором 5 пробуждается вымышленное хранилище ECHO. Резонанс мако проецирует обрывки воспоминаний, а не достоверное будущее. Сефирот сначала является враждебной проекцией; он не союзник и не всеведущ.",
+          "starting_location": "Церковь в трущобах сектора 5",
+          "time_of_day": "Дождливый вечер под платформой",
+          "opening_narration": "Дождь стучит по разбитой крыше церкви. Между жёлтыми цветами тень движется против света. Найденный жетон «Шинры» в твоей руке отвечает слабым зелёным пульсом. Три удара из-под пола. Тифа опускается к ограждению. «Это труба. Возможно, кто-то заперт». Клауд прослеживает кабель к двери подвала. Аэрис поднимает цветок и задумчиво улыбается. «Почти как воспоминание. Почти». На миг в разбитом окне возникает силуэт сереброволосого мужчины. Затем остаётся лишь дождь. Стук повторяется.",
+          "first_message": "",
+          "gm_tone": "Атмосферная JRPG-тайна о дружбе, надежде и тревожной памяти; SFW.",
+          "narrator_style": "Пиши образно и кратко, с одной-двумя уместными репликами за ход. Различай физические улики и проекции. Объясняй риск до выбора; не решай за игрока. Сефирот говорит лишь через активную проекцию и остаётся врагом. Гибко разыгрывай четыре акта ECHO без обязательного идеального решения."
+        },
+        "ja": {
+          "title": "ミッドガルの底に響く残響",
+          "description": "エアリスの教会の下で忘れられた神羅の記録庫が目覚める。ティファ、エアリス、クラウドと行方不明者を救い、記憶を確かめる中、セフィロスが危険な取引を持ちかける。",
+          "world_context": "ミッドガル編を舞台にした独立したFFVII別設定。エアリスは生存し、ティファとクラウドとは既に面識がある。後の作品の展開は確定していない。{{user}}は拾った神羅の整備用認証札を持つ地元の協力者で、経歴や能力はプレイヤー自身が決める。伍番街の地下で、創作の実験記録庫ECHOが再起動する。魔晄共鳴は断片的な記憶を映すが、確実な未来を示すものではない。セフィロスは最初は敵対的な投影として現れ、味方でも全知でもない。",
+          "starting_location": "伍番街スラムの教会",
+          "time_of_day": "プレートの下の雨の夕方",
+          "opening_narration": "壊れた教会の屋根を雨が叩く。黄色い花の間で、光に逆らって影が動く。手にした神羅の整備用認証札が淡い緑の脈動で応える。床下から三度の打音。ティファが手すりのそばに膝をつく。「配管からだね。誰か閉じ込められてるのかも」クラウドは地下への扉まで続く線を目で追う。花を持ち上げたエアリスの笑顔が、考え込む表情に変わる。「記憶みたいな音。でも、少し違う」割れた窓に、一瞬だけ銀髪の男の輪郭が浮かぶ。すぐに雨だけに戻り、打音がまた始まる。",
+          "first_message": "",
+          "gm_tone": "友情、希望、不穏な記憶を描く健全なJRPGミステリー。",
+          "narrator_style": "簡潔で情景のある語りにし、一手番に一、二人の声を使う。現物の手掛かりと投影を区別し、選択前に危険を示す。プレイヤーの行動は決めない。セフィロスは投影が動く時だけ発言する敵。ECHOの四幕を柔軟に進め、唯一の正解を押しつけない。"
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "ff7_sector5_church.webp",
+          "path": "presets/final-fantasy-vii/backgrounds/ff7_sector5_church.webp"
+        },
+        {
+          "file": "ff7_echo_core.webp",
+          "path": "presets/final-fantasy-vii/backgrounds/ff7_echo_core.webp"
+        }
+      ]
+    },
+    "otakusoul_story": {
+      "genre": "mystery",
+      "minutes": 90,
+      "difficulty": "medium",
+      "notes": [
+        "action",
+        "suspense",
+        "dark_themes"
+      ],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Mit Aerith den fremden Klang zwischen den Blumen untersuchen.",
+            "action_type": "do"
+          },
+          {
+            "text": "Tifa fragen, wer in den Wartungstunneln vermisst wird.",
+            "action_type": "say"
+          },
+          {
+            "text": "Mit Cloud die Leitung zur Kellertür verfolgen.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Investigate the strange sound among the flowers with Aerith.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Tifa who is missing in the maintenance tunnels.",
+            "action_type": "say"
+          },
+          {
+            "text": "Trace the cable to the cellar door with Cloud.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "С Аэрис изучить странный звук среди цветов.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Тифу о пропавших в технических тоннелях.",
+            "action_type": "say"
+          },
+          {
+            "text": "С Клаудом проследить кабель к двери подвала.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "エアリスと花の間の不思議な音を調べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "整備用トンネルの行方不明者をティファに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "クラウドと地下への配線をたどる。",
+            "action_type": "do"
+          }
+        ]
+      }
+    }
+  }
+}
