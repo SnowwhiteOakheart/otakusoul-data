@@ -157,6 +157,38 @@
           "path": "presets/quintessential-quintuplets/backgrounds/schulfest_abenddaemmerung.png"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "quintessential_quintuplets",
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm",
+      "moods": {
+        "calm": {
+          "caption": "tutoring session in a penthouse living room, gentle piano",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "summer fireworks confession, swelling strings and piano",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "exam pressure, ticking clock, nervous pizzicato",
+          "bpm": 110,
+          "duration": 100
+        },
+        "sorrow": {
+          "caption": "snowed-in mountain hut, quiet piano and cello",
+          "bpm": 62,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "school festival finale, bright band, joyful",
+          "bpm": 126,
+          "duration": 120
+        }
+      }
     }
   }
 }

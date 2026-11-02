@@ -7,8 +7,8 @@
       "description": "Grundlagen des Universums: Sukkuben, das Reich, Hirokis Duft, die WG, Presse und Geheimhaltung.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_world.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Foundations of the universe: Succubi, the Realm, Hiroki's scent, the shared apartment, press, and secrecy.",
@@ -30,8 +30,8 @@
       "description": "Kurzprofile aller Haupt- und Nebenfiguren, für Szenen, in denen eine Figur nicht als Charakterkarte geladen ist.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_characters.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Short profiles of all main and supporting characters, for scenes where a character is not loaded as an individual character card.",
@@ -53,8 +53,8 @@
       "description": "Schauplätze: Wohnung, Redaktion, Cosplay-Café, Vorstandsetage, Bühne, Tennisanlage, Teezimmer, Thronsaal, Empfänge.",
       "entry_count": 9,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sakura_succubus_3_locations.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Key settings: Apartment, Newsroom, Cosplay Café, Executive Boardroom, Stage, Tennis Courts, Tea Room, Throne Room, and Galas.",
@@ -76,8 +76,8 @@
       "description": "Grundregeln Disboards: die Zehn Gebote, Tets Ursprung, Rasseneinsätze und der Ruf von Blank.",
       "entry_count": 8,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_world.json",
-      "revision": 4,
-      "updated": "2026-10-20",
+      "revision": 5,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Core laws of Disboard: the Ten Pledges, Tet's origin, Race Pieces, and the reputation of Blank.",
@@ -99,8 +99,8 @@
       "description": "Die sechzehn Rassen Disboards und die wichtigsten Schauplätze: Elkia, Avant Heim, Elfengard, der Östliche Bund.",
       "entry_count": 9,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_races_locations.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The sixteen races of Disboard and its key locations: Elkia, Avant Heim, Elfengard, and the Eastern Union.",
@@ -122,8 +122,8 @@
       "description": "Kurzreferenzen zu Sora, Shiro und allen wichtigen Neben- und Hintergrundfiguren der Kampagne.",
       "entry_count": 10,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/no_game_no_life_characters.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Quick references for Sora, Shiro, and key supporting characters across the campaign.",
@@ -145,8 +145,8 @@
       "description": "Das Mana-System des Dungeons, Monster-Biologie, Seelenbindung und Regenerationsregeln.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_ecology.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The dungeon's mana ecosystem, monster biology, soul tethering, and resurrection rules.",
@@ -168,8 +168,8 @@
       "description": "Kulinarische Zubereitungen von Riesen-Skorpionen, Basiliskeneiern, Alraunen und Glibber.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_recipes.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Culinary recipes and butchery for giant scorpions, basilisk eggs, mandrakes, and slime.",
@@ -191,8 +191,8 @@
       "description": "Laios' Gruppe, die Suche nach Fallin und das Geheimnis des Wahnsinnigen Magiers.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/dungeon_meshi_world.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Laios' party, the race to rescue Falin, and the curse of the Lunatic Magician.",
@@ -214,8 +214,8 @@
       "description": "Divergenz-Meter, Alpha- und Beta-Attraktorfelder, Konvergenz und Schicksalsfixpunkte.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_divergence.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The Divergence Meter, Alpha and Beta Attractor Fields, convergence points, and temporal causality.",
@@ -237,8 +237,8 @@
       "description": "Zukunftsgadgets, die Telefon-Mikrowelle, Zeitreisesprünge und der IBN 5100.",
       "entry_count": 2,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_gadgets.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Future Gadget Laboratory inventions, the Phone Microwave, time leaping, and the IBN 5100.",
@@ -260,8 +260,8 @@
       "description": "Das Zukunftsgadget-Labor, das Radiogebäude, MayQueen Nyan² und die Bedrohung durch SERN.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/steins_gate_akihabara.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The Future Gadget Lab, Radio Kaikan, MayQueen Nyan², and the looming shadow of SERN.",
@@ -283,8 +283,8 @@
       "description": "Direct Attack Organisation, Lycoris-Agentinnen, Alan-Kinder und das Gesetz der Ordnung.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_da.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The Direct Attack organization, covert schoolgirl Lycoris agents, Alan Children, and the illusion of public peace.",
@@ -306,8 +306,8 @@
       "description": "Das gemütliche Café in Sumida, Speisekarte, Stammgäste und Tarnung.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_cafe.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The cozy Sumida branch café, seasonal menu, loyal patrons, and covert operations.",
@@ -329,8 +329,8 @@
       "description": "Chisatos Ausweichfähigkeiten, Nicht-tödliche Munition und Waffen.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/lycoris_recoil_tactics.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Chisato's predictive evasion, specialized non-lethal munitions, and combat equipment.",
@@ -352,8 +352,8 @@
       "description": "Sword Skills, HP-Regeln, Permadeath, Teleportkristalle und Menüführung.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_system_rules.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Sword Skills, HP bars, permadeath rules, teleport crystals, and system menus.",
@@ -375,8 +375,8 @@
       "description": "Ritter des Blutschwurs, Fuurinkazan, Händlergilden und Laughing Coffin.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_guilds_factions.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Knights of the Blood Oath, Fuurinkazan, merchant syndicates, and the killers of Laughing Coffin.",
@@ -398,8 +398,8 @@
       "description": "Die 100 schwebenden Ebenen, Startstadt, Labyrinthe und Ebene 22.",
       "entry_count": 1,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sao_aincrad_geography.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The 100 floating castle floors, Town of Beginnings, labyrinth spires, and Floor 22.",
@@ -421,8 +421,8 @@
       "description": "Megakonzerne, Bezirke, Gangs, Cyberware, Ripperdocs, Netrunning hinter der Blackwall und das Gesetz der Straße im Jahr 2077.",
       "entry_count": 12,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/cyberpunk_night_city.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Megacorporations, districts, gangs, cyberware, ripperdocs, netrunning beyond the Blackwall, and the law of the street in 2077.",
@@ -444,8 +444,8 @@
       "description": "Klassische Isekai-Fantasy-Welt: das Weltsystem mit Statusfenstern und Einzigartigen Skills, die Abenteurergilde (Rang F bis S), Labyrinthe, Reiche und der Dämonenkönig.",
       "entry_count": 12,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/isekai_fantasy_rpg_world.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Classic isekai fantasy world: the World System with status windows and Unique Skills, the Adventurers' Guild (Ranks F to S), labyrinths, realms, and the Demon Lord.",
@@ -467,8 +467,8 @@
       "description": "Dramaturgie, Tropes und Schauplätze für klassische Anime-Romance-, Slice-of-Life- und Harem-Geschichten: Charakter-Dynamik, Eifersucht, Feste, Dates und Schlüsselmomente.",
       "entry_count": 12,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/modern_anime_academy_romance.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Dramaturgy, tropes, and settings for classic anime romance, slice-of-life, and harem stories: character chemistry, jealousy sparks, festivals, dates, and key moments.",
@@ -490,8 +490,8 @@
       "description": "Charaktereigenschaften, Dynamik und Erkennungsmerkmale der fünf Nakano-Fünflinge sowie die Erinnerung an ihre Mutter Rena.",
       "entry_count": 5,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_nakano_sisters.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Personalities, relationships, and distinct traits of the five Nakano quintuplets, along with the memory of their mother Rena.",
@@ -513,8 +513,8 @@
       "description": "Futaros Nachhilfemethoden, Schulstoff-Aufteilung, Fächerstärken und die Verhältnisse im Hause Uesugi.",
       "entry_count": 4,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_tutoring_study.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Futaro's tutoring methods, subject specializations, academic struggles, and the Uesugi household dynamic.",
@@ -536,8 +536,8 @@
       "description": "Schauplätze der Serie: Das Penthouse der Schwestern, die Schule, Bäckerei Revontulet und Festplätze.",
       "entry_count": 4,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/quintuplets_world_locations.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Iconic settings: The quintuplets' penthouse, Asahiyama High, bakery Revontulet, and festival grounds.",
@@ -559,8 +559,8 @@
       "description": "Sternenbruch, Navigation und Grenzen der Technik.",
       "entry_count": 5,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sternenbruch_world.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Starbreak, navigation and technological limits.",
@@ -578,8 +578,8 @@
       "description": "Interessen, Handelsregeln und fremde Perspektiven.",
       "entry_count": 5,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sternenbruch_factions.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Interests, trade rules and unfamiliar perspectives.",
@@ -597,8 +597,8 @@
       "description": "Bordleben, Beziehungen und Schauplätze ohne vorweggenommene Auflösung.",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/sternenbruch_crew_locations.json",
-      "revision": 1,
-      "updated": "2026-10-23",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Shipboard life, relationships and locations without premature revelations.",
@@ -615,8 +615,8 @@
       "description": "Deutsches WoW-Fan-LoreBook für die Epoche nach Mists of Pandaria: Weltgrundlagen, fünf eigene Gefährten und ein lokales Mysterium. Abenteuergeheimnisse nur für die Spielleitung.",
       "entry_count": 35,
       "author": "SnowwhiteOakheart",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/wow_azeroth_tirisfal.json",
       "translations": {
         "en": {
@@ -639,8 +639,8 @@
       "description": "Das Drachenkönigreich Lugnica, Manatore und Elemente, Geisterverträge, die Hexen der Sünde und das Tabu der Rückkehr durch den Tod.",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/re_zero_world_magic.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The Dragon Kingdom of Lugnica, mana gates and elemental attributes, spirit pacts, the Witches of Sin, and the taboo of Return by Death.",
@@ -662,8 +662,8 @@
       "description": "Das Herrenhaus von Markgraf Roswaal, Beatrice' Verbotene Bibliothek, das Dorf Irlam und das Heiligtum der Hexe der Gier.",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/re_zero_locations_sanctuary.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Margrave Roswaal's opulent estate, Beatrice's Forbidden Library, Irlam village, and the Witch of Greed's Sanctuary.",
@@ -685,8 +685,8 @@
       "description": "Die zehn Ebenen der Großen Gruft von Nazarick, die 41 Obersten Wesen, YGGDRASIL-Magie, Welt-Items und die unbekannte Neue Welt.",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/overlord_nazarick_world.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The ten floors of the Great Tomb of Nazarick, the 41 Supreme Beings, YGGDRASIL magic, World Items, and the unknown New World.",
@@ -708,8 +708,8 @@
       "description": "Die Herrscherpersönlichkeit von Ainz Ooal Gown, Albedos administrative Macht und Shalltears vampirische Kampfkraft im Dienst von Nazarick.",
       "entry_count": 5,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/overlord_supreme_guardians.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The dual persona of Ainz Ooal Gown, Albedo's administrative authority, and Shalltear's vampiric martial prowess in service to Nazarick.",
@@ -731,8 +731,8 @@
       "description": "Die übernatürliche Metropole Hethereau, der Nexus, urbane Anomalien, Sicherheitskräfte der CSU-2 und das Antiquitätengeschäft Eibon.",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/nte_hethereau_world.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The supernatural metropolis of Hethereau, the Nexus, urban anomalies, CSU-2 containment forces, and the Eibon Antique Shop.",
@@ -754,8 +754,8 @@
       "description": "Die Ermittler des Eibon-Antiquitätengeschäfts: Esper Zero, Nanally Colucci, Mint, Iroi, Linko sowie die Einsatzkräfte Lacrimosa und Shinku.",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/nte_eibon_crew.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "The investigators of the Eibon Antique Shop: Esper Zero, Nanally Colucci, Mint, Iroi, Linko, alongside specialists Lacrimosa and Shinku.",
@@ -777,8 +777,8 @@
       "author": "SnowwhiteOakheart",
       "entry_count": 8,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/spy_family_world.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "World, family, school and clear knowledge boundaries in the early-anime era.",
@@ -800,8 +800,8 @@
       "author": "SnowwhiteOakheart",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/spy_family_operation_picknick.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "description": "Original fan mission: swapped parcels, three fair clue routes and a family-friendly ending. Secrets for the narrator.",
@@ -823,7 +823,7 @@
       "description": "Weltwissen, Fraktionen und Grenzen von Magie für das alternative ECHO-Abenteuer.",
       "entry_count": 5,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/ff7_world.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-11-02",
       "translations": {
         "en": {
@@ -846,7 +846,7 @@
       "description": "Tifa, Aerith, Cloud und Sephiroth mit Beziehungen, Wissensgrenzen und klaren Rollen.",
       "entry_count": 5,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/ff7_characters.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-11-02",
       "translations": {
         "en": {
@@ -869,7 +869,7 @@
       "description": "Spielleiterwissen: vier Akte, belastbare Hinweise, gerettete Menschen und drei offene Enden.",
       "entry_count": 6,
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/ff7_echo.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-11-02",
       "translations": {
         "en": {

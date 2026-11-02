@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "A vampire who sounds like a young girl with a sweet, high, theatrical voice; haughty and coquettish, speaks with exaggerated archaic politeness and a dangerous edge."
+      },
+      "otakusoul_music": {
+        "theme": "gothic harpsichord and blood-red choir",
+        "moods": [
+          "combat",
+          "tension"
+        ]
       }
     }
   }

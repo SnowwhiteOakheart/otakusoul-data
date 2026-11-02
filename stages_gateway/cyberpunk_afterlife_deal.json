@@ -156,6 +156,33 @@
           "path": "presets/cyberpunk-night-city/backgrounds/cyberpunk_kabuki_safehouse.png"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "night_city_2077",
+      "style": "dark cyberpunk synthwave, industrial beats, distorted bass, neon-soaked megacity",
+      "moods": {
+        "calm": {
+          "caption": "downtempo synth pads, rain on neon streets, lonely night",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "throbbing industrial bass, glitch noises, a deal going sideways",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "cold ambient drones, data hum, a ghost in the subnet",
+          "bpm": 70,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "aggressive industrial techno, distorted synths, gunfire rhythm",
+          "bpm": 160,
+          "duration": 120
+        }
+      }
     }
   }
 }

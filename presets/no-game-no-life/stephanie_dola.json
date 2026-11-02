@@ -109,6 +109,9 @@
       "custom_avatar": "stephanie_dola.png",
       "otakusoul_voice": {
         "description": "A young noblewoman with an expressive, high mid voice; emotional and whiny, speaks quickly, easily upset and indignant, earnest at heart."
+      },
+      "otakusoul_music": {
+        "theme": "flustered pizzicato and a sweet clarinet line"
       }
     }
   }

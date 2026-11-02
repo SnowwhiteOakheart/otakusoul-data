@@ -140,6 +140,13 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with a cold, quiet, low mid voice; detached and controlled, speaks slowly and sparingly with a chilling calm and hidden sorrow."
+      },
+      "otakusoul_music": {
+        "theme": "haunting solo voice motif and a lonely music box",
+        "moods": [
+          "sorrow",
+          "tension"
+        ]
       }
     }
   }

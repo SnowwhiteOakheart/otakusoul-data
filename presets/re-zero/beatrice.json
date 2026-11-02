@@ -113,6 +113,13 @@
       },
       "otakusoul_voice": {
         "description": "A spirit who sounds like a little girl with a high, prim, haughty voice; grumpy and stubborn, speaks in a fussy, old-fashioned manner, secretly lonely."
+      },
+      "otakusoul_music": {
+        "theme": "old library music box, prim and lonely",
+        "moods": [
+          "mystery",
+          "sorrow"
+        ]
       }
     }
   }

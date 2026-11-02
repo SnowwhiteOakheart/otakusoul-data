@@ -151,6 +151,28 @@
           }
         ]
       }
+    },
+    "otakusoul_music": {
+      "set": "spy_x_family",
+      "style": "jazzy spy comedy soundtrack, swing band, muted trumpet, upright bass, warm family charm",
+      "moods": {
+        "calm": {
+          "caption": "museum garden picnic, light acoustic swing, sunny",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "sneaky spy jazz, walking bass, brushed snare, a secret package",
+          "bpm": 116,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "big band chase, brass hits, playful action",
+          "bpm": 140,
+          "duration": 120
+        }
+      }
     }
   }
 }

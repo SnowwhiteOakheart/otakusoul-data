@@ -109,6 +109,13 @@
       "custom_avatar": "sora.png",
       "otakusoul_voice": {
         "description": "A young man with an energetic, cocky tenor; confident and quick-witted, speaks fast with mischievous bravado and a gamer's swagger."
+      },
+      "otakusoul_music": {
+        "theme": "cocky chiptune lead, confident gamer swagger",
+        "moods": [
+          "adventure",
+          "tension"
+        ]
       }
     }
   }

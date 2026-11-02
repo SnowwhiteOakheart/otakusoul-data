@@ -120,6 +120,13 @@
       },
       "otakusoul_voice": {
         "description": "Adult androgynous voice, medium register, smooth clear timbre with subtle bright resonance, even deliberate pacing and precise articulation. Warm curiosity and literal dry humour, expressive but restrained; natural speech without a robotic vocoder."
+      },
+      "otakusoul_music": {
+        "theme": "precise synthetic arpeggio, gentle and curious",
+        "moods": [
+          "mystery",
+          "calm"
+        ]
       }
     }
   }

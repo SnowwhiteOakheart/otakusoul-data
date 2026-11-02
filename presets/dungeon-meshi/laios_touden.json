@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "A tall young man with a warm, earnest, slightly awkward baritone; cheerful and sincere, speaks with eager enthusiasm, especially excited about monsters."
+      },
+      "otakusoul_music": {
+        "theme": "cheerful recorder tune, endlessly curious about monsters",
+        "moods": [
+          "calm",
+          "adventure"
+        ]
       }
     }
   }

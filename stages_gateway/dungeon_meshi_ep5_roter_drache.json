@@ -157,6 +157,38 @@
           "path": "presets/dungeon-meshi/backgrounds/dungeon_meshi_ep4_wassergeister.png"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "dungeon_meshi",
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm",
+      "moods": {
+        "calm": {
+          "caption": "campfire cooking, plucked lute, gentle recorder, warm and cozy",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "jaunty fiddle and bodhran, descending dungeon stairs, curious and brave",
+          "bpm": 116,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low cello drones, dripping cave echoes, something moves in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "galloping percussion, urgent fiddle ostinato, monster fight in the labyrinth",
+          "bpm": 146,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "thunderous timpani, brass and choir, the red dragon awakens, epic and terrifying",
+          "bpm": 150,
+          "duration": 150
+        }
+      }
     }
   }
 }

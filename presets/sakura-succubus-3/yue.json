@@ -118,6 +118,14 @@
       "custom_avatar": "yue.png",
       "otakusoul_voice": {
         "description": "A regal young woman with a cool, low, resonant voice; majestic and haughty, speaks slowly with possessive intensity, an undertone of loneliness and longing."
+      },
+      "otakusoul_music": {
+        "theme": "regal harpsichord motif with a dark choir shadow",
+        "moods": [
+          "tension",
+          "romance",
+          "sorrow"
+        ]
       }
     }
   }

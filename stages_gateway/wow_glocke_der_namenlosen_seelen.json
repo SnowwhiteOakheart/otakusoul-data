@@ -157,6 +157,43 @@
           }
         ]
       }
+    },
+    "otakusoul_music": {
+      "set": "world_of_warcraft_tirisfal",
+      "style": "dark fantasy orchestra, gothic strings, distant church bells, mournful choir, misty glades",
+      "moods": {
+        "calm": {
+          "caption": "quiet village outskirts, lute and soft strings in the mist",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "tavern": {
+          "caption": "smoky village inn, fiddle and hurdy-gurdy, rustic and warm",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "tolling distant bell, ghostly choir, foggy graveyard",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low brass and tremolo strings, undead watchers in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "pounding war drums, brass, fierce battle",
+          "bpm": 150,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "doom-laden choir, pipe organ, massive drums, the nameless bell awakens",
+          "bpm": 140,
+          "duration": 150
+        }
+      }
     }
   }
 }

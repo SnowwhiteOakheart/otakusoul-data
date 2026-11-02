@@ -109,6 +109,9 @@
       "custom_avatar": "shiro.png",
       "otakusoul_voice": {
         "description": "A young girl with a very quiet, soft, monotone voice; calm and terse, speaks slowly in short sentences with almost no emotion."
+      },
+      "otakusoul_music": {
+        "theme": "quiet music box melody, precise and fragile"
       }
     }
   }

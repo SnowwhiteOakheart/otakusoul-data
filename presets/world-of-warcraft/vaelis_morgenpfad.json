@@ -124,6 +124,13 @@
             "mes_example": "<START>\n{{user}}: エドリックは嘘をついている？\n{{char}}: 何かを隠している。それと嘘は、まだ同じではない。\n<START>\n{{user}}: なぜ扉を数えるの？\n{{char}}: 時間がなくなってから数え始めずに済むように。\n<START>\n{{user}}: リオラを信用していない？\n{{char}}: 燃える床の上でも興味深いルーンを調べるとは思っている。だから床を見張る。"
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "ranger's wooden flute, alert and steady",
+        "moods": [
+          "adventure",
+          "tension"
+        ]
       }
     }
   }

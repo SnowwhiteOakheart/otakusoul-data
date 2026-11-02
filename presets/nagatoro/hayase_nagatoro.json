@@ -124,6 +124,13 @@
       "custom_avatar": "hayase_nagatoro.png",
       "otakusoul_voice": {
         "description": "A teenage girl with a bright, teasing mid-high voice; mischievous and playful, speaks quickly with smug giggles and drawn-out mocking tones, briefly flustered when sincere."
+      },
+      "otakusoul_music": {
+        "theme": "teasing bass slides and playful handclaps",
+        "moods": [
+          "calm",
+          "romance"
+        ]
       }
     }
   }

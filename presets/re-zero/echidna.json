@@ -113,6 +113,13 @@
       },
       "otakusoul_voice": {
         "description": "A young-sounding woman with a calm, smooth, refined mid-low voice; intellectual and endlessly curious, speaks evenly and deliberately with a polite, faintly unsettling warmth."
+      },
+      "otakusoul_music": {
+        "theme": "enigmatic music box and whispering choir",
+        "moods": [
+          "mystery",
+          "tension"
+        ]
       }
     }
   }

@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "A young man with a friendly, clear, warm tenor; curious and quick-witted, speaks naturally with calm confidence and a light, teasing humor."
+      },
+      "otakusoul_music": {
+        "theme": "mysterious synth bell motif, calm and perceptive",
+        "moods": [
+          "mystery",
+          "calm"
+        ]
       }
     }
   }

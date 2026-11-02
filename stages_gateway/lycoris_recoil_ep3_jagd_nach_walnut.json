@@ -151,6 +151,38 @@
           "path": "presets/lycoris-recoil/backgrounds/lycoris_recoil_ep4_duell_im_morgengrauen.png"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "lycoris_recoil",
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire",
+      "moods": {
+        "calm": {
+          "caption": "cozy café jazz, warm acoustic guitar and electric piano, coffee brewing",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat funk rock, escort mission through the city, confident groove",
+          "bpm": 124,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "tight drum groove, muted guitar, sneaky stakeout in back alleys",
+          "bpm": 104,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "fast breakbeat, distorted guitar riffs, brass hits, gunfight choreography",
+          "bpm": 156,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "gentle piano and strings at dawn, bittersweet farewell",
+          "bpm": 66,
+          "duration": 110
+        }
+      }
     }
   }
 }

@@ -155,6 +155,43 @@
           "path": "presets/isekai-aetheria/backgrounds/isekai_aetheria_star_chamber.png"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "aetheria_chronicles",
+      "style": "bright isekai fantasy orchestra, adventurous woodwinds, strings and light percussion, game-like charm",
+      "moods": {
+        "calm": {
+          "caption": "adventurer guild hall in the morning, lute and flute, cheerful",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "tavern": {
+          "caption": "lively tavern jig, fiddle, accordion and stomps",
+          "bpm": 126,
+          "duration": 120
+        },
+        "adventure": {
+          "caption": "heroic quest theme, brass and strings, open fields",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "crystal sanctuary, shimmering harp and celesta, ancient magic",
+          "bpm": 70,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "energetic battle orchestra, pounding drums, spell flashes",
+          "bpm": 150,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "epic dungeon guardian, choir and brass, overwhelming power",
+          "bpm": 160,
+          "duration": 150
+        }
+      }
     }
   }
 }

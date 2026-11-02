@@ -128,7 +128,15 @@
       },
       "bound_lorebooks": [
         "SPY×FAMILY – Berlint & geheime Identitäten"
-      ]
+      ],
+      "otakusoul_music": {
+        "theme": "elegant waltz with a hidden sharp edge",
+        "moods": [
+          "calm",
+          "romance",
+          "combat"
+        ]
+      }
     }
   }
 }

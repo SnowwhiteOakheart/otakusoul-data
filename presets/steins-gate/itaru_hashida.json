@@ -125,6 +125,9 @@
       },
       "otakusoul_voice": {
         "description": "A young man with a relaxed, slightly nasal mid voice; casual otaku, speaks lazily and quickly with offhand jokes and laid-back confidence."
+      },
+      "otakusoul_music": {
+        "theme": "8-bit synth bleeps and a laid-back bassline"
       }
     }
   }

@@ -110,6 +110,13 @@
       "custom_avatar": "izuna_hatsuse.png",
       "otakusoul_voice": {
         "description": "A small werebeast girl with a high, cute, slightly blunt voice; childlike and simple, speaks in short, earnest sentences with a flat, matter-of-fact tone."
+      },
+      "otakusoul_music": {
+        "theme": "bouncy shamisen riff, beastly and cute",
+        "moods": [
+          "adventure",
+          "combat"
+        ]
       }
     }
   }

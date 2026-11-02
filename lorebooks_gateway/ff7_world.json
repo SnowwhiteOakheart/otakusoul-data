@@ -263,6 +263,9 @@
           "description": "別設定のECHO冒険で使う世界、組織、魔法の限界。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city"
     }
   }
 }

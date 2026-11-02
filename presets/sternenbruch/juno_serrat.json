@@ -120,6 +120,13 @@
       },
       "otakusoul_voice": {
         "description": "Adult female voice, late twenties, bright medium register with a lightly husky edge, agile conversational pacing and lively pitch variation. Quick dry jokes, relaxed confidence and occasional nervous pauses; emotionally grounded rather than shrill."
+      },
+      "otakusoul_music": {
+        "theme": "adventurous slide guitar over synths",
+        "moods": [
+          "adventure",
+          "calm"
+        ]
       }
     }
   }

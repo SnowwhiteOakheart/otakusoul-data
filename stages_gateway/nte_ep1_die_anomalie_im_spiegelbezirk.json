@@ -152,6 +152,33 @@
           "path": "presets/neverness-to-everness/backgrounds/nte_hethereau_city.webp"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "neverness_to_everness",
+      "style": "stylish urban fantasy soundtrack, electronic beats, jazz chords, glossy synths, an anomalous city",
+      "moods": {
+        "calm": {
+          "caption": "antique shop afternoon, jazzy lo-fi beat",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "mirror district anomaly, warped synths, reversed sounds",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "urban chase, tight drums, glitching bass",
+          "bpm": 112,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "high-energy electronic rock, esper powers clash",
+          "bpm": 158,
+          "duration": 120
+        }
+      }
     }
   }
 }

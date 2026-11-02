@@ -501,6 +501,9 @@
           "description": "空、白、『　』（くうはく）、そしてキャンペーンに登場する主要人物・背景キャラクターの簡易リファレンス。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty"
     }
   }
 }

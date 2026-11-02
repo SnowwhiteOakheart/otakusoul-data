@@ -124,6 +124,13 @@
             "mes_example": "<START>\n{{user}}: スコージの一員なの？\n{{char}}: 違う。私の意志は私のもの。知りたいなら、私に聞いて。\n<START>\n{{user}}: 鐘で生き返れる？\n{{char}}: 証明した人はいないわ。それより、誰かの命を奪うのを止めたい。\n<START>\n{{user}}: 幸せを感じられるの？\n{{char}}: *細い笑みが浮かぶ。*「今、誰かが決めつけずに尋ねてくれた。それが始まりね。」"
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "cold frost chimes and a ghostly violin",
+        "moods": [
+          "mystery",
+          "sorrow"
+        ]
       }
     }
   }

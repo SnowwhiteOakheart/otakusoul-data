@@ -459,6 +459,9 @@
           "description": "ディスボードに住まう十六種族（イクシード）と主要な舞台：エルキア、アヴァン・ヘイム、エルフェンガルド、東部連合の解説。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty"
     }
   }
 }

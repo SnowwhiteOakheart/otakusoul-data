@@ -99,6 +99,14 @@
             ]
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "warm bar-piano melody with a strong heart",
+        "moods": [
+          "calm",
+          "romance",
+          "combat"
+        ]
       }
     }
   }

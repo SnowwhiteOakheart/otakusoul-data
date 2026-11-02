@@ -99,6 +99,13 @@
             ]
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "ominous chanting choir motif, cold and overwhelming",
+        "moods": [
+          "boss",
+          "tension"
+        ]
       }
     }
   }

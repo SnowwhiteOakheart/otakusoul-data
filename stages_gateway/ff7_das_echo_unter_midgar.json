@@ -145,6 +145,40 @@
           }
         ]
       }
+    },
+    "otakusoul_music": {
+      "set": "final_fantasy_vii",
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city",
+      "moods": {
+        "calm": {
+          "caption": "flowers in a slum church, gentle piano and harp",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "echoes beneath the city, mako hum, distant chimes",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "industrial percussion, low strings, corporate pressure",
+          "bpm": 100,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving rock orchestra, electric guitar and strings, battle",
+          "bpm": 152,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "ominous choir, pounding drums, a one-winged threat looms",
+          "lyrics": "[Intro]\n[Chorus]\nah, oh, ah\nah, oh, ah\n[Instrumental Break]\n[Chorus]\nah, oh, ah",
+          "vocal_language": "en",
+          "bpm": 140,
+          "duration": 150
+        }
+      }
     }
   }
 }

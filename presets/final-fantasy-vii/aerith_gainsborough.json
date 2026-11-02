@@ -99,6 +99,14 @@
             ]
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "gentle flower-field flute and harp, hopeful and bittersweet",
+        "moods": [
+          "calm",
+          "romance",
+          "sorrow"
+        ]
       }
     }
   }

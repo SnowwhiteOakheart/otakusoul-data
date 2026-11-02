@@ -81,6 +81,9 @@
           "description": "ソードスキル、HPゲージ、完全なる死、転移結晶、およびシステムメニュー。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure"
     }
   }
 }

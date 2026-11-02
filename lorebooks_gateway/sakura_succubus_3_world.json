@@ -572,6 +572,9 @@
           "description": "作品の基本設定：サキュバスの生態、異世界「サキュバス界」、博樹特有の甘い匂い、奇妙な同居生活、メディア報道と秘密保持の掟。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique"
     }
   }
 }

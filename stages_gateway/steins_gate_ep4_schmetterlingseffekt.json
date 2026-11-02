@@ -154,6 +154,38 @@
           "path": "presets/steins-gate/backgrounds/steins_gate_ep5_tor_zu_steins_gate.png"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "steins_gate",
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat",
+      "moods": {
+        "calm": {
+          "caption": "lo-fi electronic beat, buzzing summer cicadas, cluttered gadget lab",
+          "bpm": 86,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "sparse piano, ticking clocks, glitch textures, world line uncertainty",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pulsing synth bass, rising strings, conspiracy closing in",
+          "bpm": 108,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "driving electronic rock, determined race against fate",
+          "bpm": 132,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "solo piano and violin, regret across time, very slow",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
     }
   }
 }

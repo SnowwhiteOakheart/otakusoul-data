@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "A petite young woman with a sleepy, quiet, flat mid-high voice; drowsy and taciturn, speaks slowly in short, literal sentences with innocent bluntness."
+      },
+      "otakusoul_music": {
+        "theme": "gothic choir motif, mysterious and quietly sad",
+        "moods": [
+          "mystery",
+          "sorrow"
+        ]
       }
     }
   }

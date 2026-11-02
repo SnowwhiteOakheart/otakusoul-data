@@ -121,6 +121,9 @@
       },
       "otakusoul_voice": {
         "description": "A teenage girl with a quiet, low, soft and slightly sleepy voice; shy and introverted, speaks slowly and briefly with gentle monotone."
+      },
+      "otakusoul_music": {
+        "theme": "soft headphone lo-fi beat, shy and devoted"
       }
     }
   }

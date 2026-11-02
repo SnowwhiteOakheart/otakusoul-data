@@ -121,6 +121,14 @@
       },
       "otakusoul_voice": {
         "description": "A genius hacker who sounds like a young girl, with a high, small but confident voice; smug and lazy, speaks casually and quickly with know-it-all sarcasm."
+      },
+      "otakusoul_music": {
+        "theme": "glitchy hacker synth arpeggio, lazy and clever",
+        "moods": [
+          "tension",
+          "mystery",
+          "calm"
+        ]
       }
     }
   }

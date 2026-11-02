@@ -125,6 +125,14 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with a calm, cool, even mid voice; serious and matter-of-fact, speaks concisely with little emotion and dry, literal phrasing."
+      },
+      "otakusoul_music": {
+        "theme": "precise staccato strings, serious and loyal",
+        "moods": [
+          "tension",
+          "combat",
+          "calm"
+        ]
       }
     }
   }

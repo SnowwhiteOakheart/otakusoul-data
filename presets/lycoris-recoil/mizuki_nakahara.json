@@ -121,6 +121,9 @@
       },
       "otakusoul_voice": {
         "description": "A woman in her late twenties with a loud, brassy mid voice; sardonic and dramatic, complains theatrically and speaks fast with blunt, tipsy humor."
+      },
+      "otakusoul_music": {
+        "theme": "tipsy lounge saxophone, dramatic and loud"
       }
     }
   }

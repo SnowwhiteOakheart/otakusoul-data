@@ -2418,6 +2418,9 @@
           "description": "Mists of Pandaria後のWarcraftファン設定集。世界の基礎、独自の仲間五人、地域の謎を収録。事件の秘密は語り手向け。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "dark fantasy orchestra, gothic strings, distant church bells, mournful choir, misty glades"
     }
   }
 }

@@ -120,6 +120,9 @@
       },
       "otakusoul_voice": {
         "description": "Adult male voice, early thirties, mellow medium-low baritone with a faint roughness, relaxed measured pacing and understated warmth. Practical precise explanations, small amused pauses and restrained emotion; no stereotyped mechanical effects."
+      },
+      "otakusoul_music": {
+        "theme": "mechanical rhythm of clanking percussion and warm bass"
       }
     }
   }

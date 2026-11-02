@@ -124,6 +124,9 @@
       },
       "otakusoul_voice": {
         "description": "A quiet 17-year-old boy with a soft, calm tenor; reserved and thoughtful, speaks slowly and briefly with dry understatement and a gentle, reliable tone."
+      },
+      "otakusoul_music": {
+        "theme": "warm acoustic guitar arpeggio, quiet photographer's eye"
       }
     }
   }

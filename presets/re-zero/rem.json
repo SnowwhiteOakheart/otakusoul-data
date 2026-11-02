@@ -113,6 +113,14 @@
       },
       "otakusoul_voice": {
         "description": "A young maid with a soft, gentle, clear mid-high voice; polite and devoted, speaks calmly and formally with quiet warmth and steady resolve."
+      },
+      "otakusoul_music": {
+        "theme": "devoted cello melody, warm and steadfast",
+        "moods": [
+          "romance",
+          "sorrow",
+          "combat"
+        ]
       }
     }
   }

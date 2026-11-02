@@ -149,6 +149,40 @@
           "path": "presets/overlord/backgrounds/overlord_thronsaal.webp"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "overlord",
+      "style": "grand dark fantasy orchestra, pipe organ, deep choir, heavy brass, regal and menacing",
+      "moods": {
+        "calm": {
+          "caption": "solemn throne room, dark elegant strings and harp",
+          "bpm": 70,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ominous low brass, whispering choir, audience before an undead ruler",
+          "bpm": 84,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "dark corridors of a great tomb, sparse harp and drones",
+          "bpm": 60,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "brutal orchestral battle, pounding drums, clashing steel",
+          "bpm": 150,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "overwhelming dark choir, organ, war drums, absolute power",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 120,
+          "duration": 150
+        }
+      }
     }
   }
 }

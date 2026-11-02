@@ -122,6 +122,13 @@
       },
       "otakusoul_voice": {
         "description": "A teenage boy with a dry, flat, slightly brusque tenor; blunt and studious, speaks quickly and matter-of-factly with deadpan sarcasm."
+      },
+      "otakusoul_music": {
+        "theme": "dry ticking metronome and focused piano",
+        "moods": [
+          "tension",
+          "calm"
+        ]
       }
     }
   }

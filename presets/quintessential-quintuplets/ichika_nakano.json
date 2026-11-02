@@ -117,6 +117,9 @@
       },
       "otakusoul_voice": {
         "description": "A teenage girl with a mature, mellow, relaxed mid voice; easygoing and teasing, speaks smoothly like an older sister with a playful smile."
+      },
+      "otakusoul_music": {
+        "theme": "easygoing jazz piano, big-sister warmth"
       }
     }
   }

@@ -113,6 +113,13 @@
       },
       "otakusoul_voice": {
         "description": "A young man with an energetic, expressive tenor; talkative and jokey, speaks fast with forced cheerfulness, raw and shaky in serious moments."
+      },
+      "otakusoul_music": {
+        "theme": "stubborn heartbeat drum and a hopeful piano",
+        "moods": [
+          "tension",
+          "sorrow"
+        ]
       }
     }
   }

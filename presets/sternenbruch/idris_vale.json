@@ -120,6 +120,9 @@
       },
       "otakusoul_voice": {
         "description": "Adult male voice, early forties, warm rounded baritone, steady moderate pacing and soft clear articulation. Reassuring conversational presence with quiet humour; firm and concise when discussing safety, never patronising."
+      },
+      "otakusoul_music": {
+        "theme": "warm clarinet and soft heartbeat pulse"
       }
     }
   }

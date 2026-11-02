@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with a friendly, clear, steady mid voice; curious and quick-witted, speaks naturally with calm confidence and a light, teasing humor."
+      },
+      "otakusoul_music": {
+        "theme": "mysterious synth bell motif, calm and perceptive",
+        "moods": [
+          "mystery",
+          "calm"
+        ]
       }
     }
   }

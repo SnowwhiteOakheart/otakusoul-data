@@ -99,6 +99,14 @@
             ]
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "brooding electric guitar over low strings",
+        "moods": [
+          "combat",
+          "sorrow",
+          "tension"
+        ]
       }
     }
   }

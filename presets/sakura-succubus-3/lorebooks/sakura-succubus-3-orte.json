@@ -407,6 +407,9 @@
           "description": "Ключевые локации: квартира, редакция, косплей-кафе, кабинет президента, сцена, теннисный корт, чайная комната, тронный зал и приёмы."
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique"
     }
   }
 }

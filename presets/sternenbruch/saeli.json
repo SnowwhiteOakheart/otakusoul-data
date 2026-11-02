@@ -120,6 +120,13 @@
       },
       "otakusoul_voice": {
         "description": "Mature adult female alien voice, low gentle alto with a subtle resonant sheen, precise articulation and thoughtful pauses. Curious, direct and quietly playful, with naturally expressive phrasing; no exaggerated alien filter or theatrical accent."
+      },
+      "otakusoul_music": {
+        "theme": "ancient wordless vocalise texture and singing bowls",
+        "moods": [
+          "mystery",
+          "calm"
+        ]
       }
     }
   }

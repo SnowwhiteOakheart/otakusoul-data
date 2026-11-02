@@ -152,6 +152,38 @@
           "path": "presets/re-zero/backgrounds/re_zero_roswaal_mansion.webp"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "re_zero",
+      "style": "emotional fantasy orchestra, piano, strings and choir, gothic manor elegance with dark undertones",
+      "moods": {
+        "calm": {
+          "caption": "sunlit mansion corridor, elegant piano waltz",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "music box, whispering choir, the scent of a witch",
+          "bpm": 66,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pounding heartbeat, dissonant strings, looming death",
+          "bpm": 100,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "solo piano and soft strings, despair turning into resolve",
+          "bpm": 60,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "frantic strings and brass, desperate fight",
+          "bpm": 150,
+          "duration": 120
+        }
+      }
     }
   }
 }

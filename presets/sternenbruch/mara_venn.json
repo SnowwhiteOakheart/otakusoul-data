@@ -120,6 +120,9 @@
       },
       "otakusoul_voice": {
         "description": "Adult female voice, mid-thirties, warm low mezzo register with a slightly grainy texture, measured unhurried pacing, clear consonants and calm command presence. Dry humour stays understated; vulnerability softens the delivery without becoming breathy."
+      },
+      "otakusoul_music": {
+        "theme": "steady commanding french horn"
       }
     }
   }

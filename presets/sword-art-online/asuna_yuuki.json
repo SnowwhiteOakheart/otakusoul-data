@@ -125,6 +125,14 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with a warm, clear, confident mid-high voice; kind and determined, speaks steadily with gentle authority and caring warmth."
+      },
+      "otakusoul_music": {
+        "theme": "graceful violin line, brave and warm",
+        "moods": [
+          "romance",
+          "combat",
+          "calm"
+        ]
       }
     }
   }

@@ -144,6 +144,38 @@
           }
         ]
       }
+    },
+    "otakusoul_music": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
     }
   }
 }

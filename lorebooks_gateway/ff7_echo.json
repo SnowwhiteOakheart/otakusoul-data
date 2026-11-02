@@ -324,6 +324,9 @@
           "description": "GM用情報：四幕構成、失敗で消えない手掛かり、人命救助と三つの結末。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city"
     }
   }
 }

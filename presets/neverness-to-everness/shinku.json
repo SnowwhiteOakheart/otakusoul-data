@@ -125,6 +125,13 @@
       },
       "otakusoul_voice": {
         "description": "A young dragon girl with a calm, low, composed mid voice; reserved and polite, speaks quietly and resolutely in few words, a little awkward socially."
+      },
+      "otakusoul_music": {
+        "theme": "fierce taiko and electric guitar, dragon pride",
+        "moods": [
+          "combat",
+          "tension"
+        ]
       }
     }
   }

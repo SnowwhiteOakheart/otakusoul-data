@@ -379,6 +379,9 @@
           "description": "Краткие справки о Соре, Сиро и ключевых второстепенных персонажах кампании."
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty"
     }
   }
 }

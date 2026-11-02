@@ -8,8 +8,8 @@
       "description": "Zwei Stunden bis zum Andruck, und die Redaktion füllt sich mit Besuch, den niemand hier erwartet hätte.",
       "starting_location": "Redaktion der Sakura Daily, Großraumbüro am Fenster",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/redaktionsschluss.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Editorial Deadline",
@@ -35,8 +35,8 @@
       "description": "Auf dem Empfang verkauft jemand Fotos, die es nicht geben dürfte. {{user}} ist offiziell als Fotograf da.",
       "starting_location": "Ballsaal eines Hotels in Minato, Empore über dem Saal",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/der_wohltaetigkeitsball.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Charity Ball",
@@ -62,8 +62,8 @@
       "description": "Eine Fernbedienung, sechs Sukkuben, ein Sofa. Es ist Freitagabend, und niemand gibt nach.",
       "starting_location": "Wohnzimmer der gemeinsamen Wohnung",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/wohnungskrieg.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Apartment War",
@@ -89,8 +89,8 @@
       "description": "Das Reich schickt eine Gesandtschaft: Die Königin möge zurückkehren. Yue hat abgedankt - aber der Thron steht leer.",
       "starting_location": "Thronsaal des Palasts im Sukkuben-Reich",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/audienz_im_thronsaal.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Audience in the Throne Room",
@@ -116,8 +116,8 @@
       "description": "Hifumi hat das Teezimmer hergerichtet, und heute will sie eine Frage stellen, die sie seit Monaten aufschiebt.",
       "starting_location": "Hifumis Teezimmer, Schiebetüren zum Garten",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ein_tee_zu_zweit.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Tea for Two",
@@ -143,8 +143,8 @@
       "description": "Hazels Finale. Auf der Tribüne ist ein Platz freigehalten, und sie sucht ihn zwischen jedem Aufschlag.",
       "starting_location": "Centre Court einer Tennisanlage in Tokio, erste Reihe",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/matchball.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Match Point",
@@ -170,8 +170,8 @@
       "description": "Eine Schachpartie gegen einen unbekannten Account reißt Sora, Shiro und Haru mitten aus der realen Welt - hinein nach Disboard, wo ein spielverliebter Gott namens Tet auf sie wartet und ihnen eine Welt ohne Krieg, aber voller Spiele verspricht.",
       "starting_location": "Thronsaal von Elkia Castle, während eines improvisierten Glücksspielturniers",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode1_anfaenger.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 1: Beginner",
@@ -197,8 +197,8 @@
       "description": "Imanity - die Menschheit - ist auf eine einzige Stadt zusammengeschrumpft. Während Sora, Shiro und Haru noch die Regeln dieser neuen Welt begreifen, meldet sich bereits die erste ernsthafte Bedrohung für Stephanies Thron an: Chlammy Zell, unterstützt von den Elfen.",
       "starting_location": "Ratssaal von Elkia Castle",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode2_herausforderer.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 2: Challenger",
@@ -224,8 +224,8 @@
       "description": "Chlammy Zell hat ihr Spiel gewählt: lebensgroßes, beseeltes Schach, bei dem jede Figur einen eigenen Willen besitzt. Was wie Taktik aussieht, ist in Wahrheit ein Kräftemessen um Moral, Führung - und um eine verbotene Magie, die im Verborgenen wirkt.",
       "starting_location": "Ein magisch erschaffenes Schlachtfeld in Form eines gigantischen Schachbretts",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode3_experte.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 3: Expert",
@@ -251,8 +251,8 @@
       "description": "Die Schachschlacht eskaliert: Chlammy setzt ihre letzte, verbotene Karte ein - Gedankenkontrolle. Doch Sora hat eine eigene, subtilere Waffe: die Kunst der Verführung durch Worte allein.",
       "starting_location": "Dasselbe gigantische Schachfeld, kurz vor der Entscheidung",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode4_grossmeister.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 4: Grandmaster",
@@ -278,8 +278,8 @@
       "description": "König und Königin von Elkia - und doch haben Sora und Shiro jegliche Regierungsarbeit vollständig auf Stephanie abgewälzt. Als sie die Geduld verliert, fordert sie Sora zu einer Partie Blackjack heraus, bei der mehr auf dem Spiel steht als Geld.",
       "starting_location": "Ein kleines Kartenzimmer in Elkia Castle, spät am Abend",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode5_schwaches_feld.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 5: Weak Field",
@@ -305,8 +305,8 @@
       "description": "DAS zentrale Kapitel der Kampagne: Sora, Shiro und Haru fordern Jibril, eine über 6000 Jahre alte Flügel-Kriegerin und Hüterin allen Wissens, zu einem Spiel um ihre gesamte Bibliothek heraus - \"Materialisations-Shiritori\", bei dem jedes gültige Wort real wird. Ein einziger falscher Zug könnte das Ende von Blank bedeuten.",
       "starting_location": "Die Große Nationalbibliothek von Elkia, tief in Jibrils privatem Lesesaal",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode6_interessant_jibril.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 6: Interesting - The Duel against Jibril",
@@ -332,8 +332,8 @@
       "description": "Auf der Suche nach einer Strategie gegen den Östlichen Bund stößt Sora auf eine erschütternde Wahrheit: Jede Rasse, die je gegen die Werbeasts verlor - auch Jibril selbst -, wurde ihrer Erinnerung an diese Niederlage magisch beraubt. Ohne Informationen droht Soras gesamte Strategie zu scheitern.",
       "starting_location": "Das private Archiv von Elkia Castle, spät in der Nacht",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode7_opfer.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 7: Sacrifice",
@@ -359,8 +359,8 @@
       "description": "Mithilfe der Aufzeichnungen von Stephanies Großvater durchschaut Sora den wahren Trick des Östlichen Bundes - und setzt Imanitys gesamte Souveränität als Einsatz, um sie formell herauszufordern.",
       "starting_location": "Die Botschaft des Östlichen Bundes in Elkia",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode8_falsches_ende.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 8: False End",
@@ -386,8 +386,8 @@
       "description": "Während Sora in einer Othello-Partie gegen Chlammy um seine eigene Existenz spielt, fordert Jibril Shiro zu einer Schachpartie heraus - Einsatz: Shiros Erinnerung an Sora selbst.",
       "starting_location": "Eine stille Kammer hoch oben in Elkia Castle, ein Schachbrett zwischen zwei Stühlen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode9_himmelswandel.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 9: Sky Walk",
@@ -413,8 +413,8 @@
       "description": "Mit Jibril, Stephanie, Chlammy und Fiel als vereintem Bündnis bereiten Sora, Shiro und Haru sich auf die entscheidende Konfrontation mit dem Östlichen Bund vor - doch zwischen Flügel und Elfen liegt noch immer die Last eines alten Krieges.",
       "starting_location": "Der Kriegsrat-Garten von Elkia Castle, unter blühenden Bäumen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode10_blaue_rose.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 10: Blue Rose",
@@ -440,8 +440,8 @@
       "description": "Der große Showdown gegen den Östlichen Bund beginnt: ein Vollimmersions-Ego-Shooter namens 'Love or Loved 2', in dem Liebeskugeln über den Sieg entscheiden. Blanks Gegnerin: das achtjährige Spielgenie Izuna Hatsuse.",
       "starting_location": "Ein digitales Schlachtfeld irgendwo zwischen zerstörten Häuserzeilen, vollimmersiv erschaffen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode11_riesentoeten.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 11: Giant Killing",
@@ -467,8 +467,8 @@
       "description": "Izunas Blutentfesselung droht, Blank endgültig in die Enge zu treiben - doch der entscheidende Schuss kommt von unerwarteter Seite. Season-Finale: Sieg über den Östlichen Bund, ein gewagter Münzwurf gegen die Schrein-Priesterin, und die Geburt des Commonwealth of Elkia.",
       "starting_location": "Das digitale Schlachtfeld, kurz vor dem Ende, danach der Thronsaal des Östlichen Bundes",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/episode12_regel_nummer_zehn.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Chapter 12: Rule Number Ten",
@@ -494,8 +494,8 @@
       "description": "Ohne Vorräte und Geld steigen Laios, Marcille und Chilchuck in Ebene 1 hinab – und treffen auf den Zwerg Senshi.",
       "starting_location": "Ebene 1: Feuchte Steinkatakomben",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep1_skorpionsuppe.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 1: Scorpion Soup & Walking Mushrooms",
@@ -521,8 +521,8 @@
       "description": "Auf Ebene 2 jagt ein tödlicher Basilisk unvorsichtige Abenteurer. Senshi weiß, wie man Hühnchenbraten daraus macht.",
       "starting_location": "Ebene 2: Unterirdischer Wald der Basilisken",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep2_klingenbasilisk.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 2: The Blade-Tail Basilisk",
@@ -548,8 +548,8 @@
       "description": "Marcille versucht Alraunen nach akademischer Magielehre zu ernten, während Senshi eine rustikale Zwergenmethode anwendet.",
       "starting_location": "Ebene 2: Verwunschener Gemüsegarten",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep3_alraunenernte.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 3: Mandrake Harvest",
@@ -575,8 +575,8 @@
       "description": "Ein unterirdischer See blockiert den Weg. Die Gruppe muss Kelpie-Fleisch erbeuten und Wassergeister abkochen.",
       "starting_location": "Ebene 3: Unterirdischer Sumpfsee",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep4_wassergeister.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 4: The Undines of the Deep",
@@ -602,8 +602,8 @@
       "description": "Das Finale im tiefen Stockwerk: Kampf gegen den Roten Drachen um Fallins Leben.",
       "starting_location": "Ebene 4: Aschehalle des Roten Drachen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/dungeon_meshi_ep5_roter_drache.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Dungeon Meshi – Episode 5: The Red Dragon",
@@ -629,8 +629,8 @@
       "description": "Ein Schrei auf dem Dach des Radiogebäudes und eine SMS, die Raum und Zeit zerreißt.",
       "starting_location": "Dach des Radiogebäudes in Akihabara",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep1_erste_dmail.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 1: The First D-Mail",
@@ -656,8 +656,8 @@
       "description": "Die Spur des legendären Retro-Computers führt zum Yanagibayashi-Schrein.",
       "starting_location": "Yanagibayashi-Schrein in Akihabara",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep2_ibn5100_suche.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 2: Hunt for the IBN 5100",
@@ -683,8 +683,8 @@
       "description": "Die Zeitreisesprung-Maschine wird fertiggestellt – doch Schatten nähern sich dem Labor.",
       "starting_location": "Zukunftsgadget-Labor",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep3_operation_urd.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 3: Operation Urd",
@@ -710,8 +710,8 @@
       "description": "Verzweifelte Zeitschleifen: Okabe versucht Mayuris Schicksal gegen die Konvergenz zu retten.",
       "starting_location": "Akihabara U-Bahn-Station",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep4_schmetterlingseffekt.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 4: The Butterfly Effect",
@@ -737,8 +737,8 @@
       "description": "Die finale Mission: Täusche die Vergangenheit, rette Kurisu und erreiche die Divergenz 1.048596%.",
       "starting_location": "Radiogebäude Dach – Der Schicksalstag",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/steins_gate_ep5_tor_zu_steins_gate.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Steins;Gate – Episode 5: The Gate to Steins Gate",
@@ -764,8 +764,8 @@
       "description": "Ein turbulenter Tag im Café: Bestellungen aufnehmen, Stammkunden betreuen und ein unerwarteter Schattenauftrag.",
       "starting_location": "Café LycoReco Innenraum",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep1_willkommen_im_cafe.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 1: Welcome to Café LycoReco",
@@ -791,8 +791,8 @@
       "description": "Personenschutz-Einsatz durch die belebten Straßen von Shinjuku mit plötzlichem Hinterhalt.",
       "starting_location": "Shinjuku Fußgängerzone",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep2_geleitschutz_tokio.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 2: Escort Through Tokyo",
@@ -818,8 +818,8 @@
       "description": "Ein Cyberangriff erschüttert das Café. Kurumi muss vor feindlichen Söldnern evakuiert werden.",
       "starting_location": "Hinterhof von Café LycoReco",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep3_jagd_nach_walnut.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 3: The Hunt for Walnut",
@@ -845,8 +845,8 @@
       "description": "Showdown auf dem alten Funkturm von Tokio: Chisato und Takina gegen das Alan-Institute.",
       "starting_location": "Aussichtsplattform des alten Funkturms",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/lycoris_recoil_ep4_duell_im_morgengrauen.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Lycoris Recoil – Episode 4: Duel at Dawn",
@@ -872,8 +872,8 @@
       "description": "Tag eins in SAO: Die Glocken läuten, der Logout-Knopf verschwindet und Kayaba Akihiko verkündet die Regeln des Todes.",
       "starting_location": "Zentraler Platz der Startstadt",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep1_die_verkuendung.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 1: The Proclamation",
@@ -899,8 +899,8 @@
       "description": "Der erste Bosskampf: Raid gegen Illfang the Kobold Lord. Der Preis des ersten Sieges.",
       "starting_location": "Torhalle vor dem Bossraum Ebene 1",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep2_boss_ebene1.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 2: Overlord of the First Floor",
@@ -926,8 +926,8 @@
       "description": "Expedition zum eisigen Drachenberg auf Ebene 55 mit Schmiedin Lisbeth.",
       "starting_location": "Eisgipfel von Ebene 55",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep3_waerme_des_herzens.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 3: Warmth of the Heart",
@@ -953,8 +953,8 @@
       "description": "Hinterhalt in einer Anti-Kristall-Zone: Laughing Coffin schlägt zu.",
       "starting_location": "Anti-Kristall-Kammer auf Ebene 60",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep4_duell_in_den_schatten.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 4: Duel in the Shadows",
@@ -980,8 +980,8 @@
       "description": "Die Schlacht auf Ebene 74: Kiritos Enthüllung des geheimen Dual-Blades-Skills gegen den Gleam Eyes Dämon.",
       "starting_location": "Bosskammer Ebene 74",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sao_ep5_der_glaenzende_blick.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sword Art Online – Episode 5: The Gleam Eyes",
@@ -1007,8 +1007,8 @@
       "description": "Tief unter Japantown liegt ein geflutetes Arasaka-Schattenlabor. Du drichst mit der Hackerin Kurumi und der Schwertkämpferin Shinku ein, um einen Relikt-Splitter zu bergen – bevor das Schwarze ICE zuschnappt.",
       "starting_location": "Gefluteter Serverkorridor des Schattenlabors Kuro-7 (Japantown)",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_ghost_in_subgrid.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Night City 2077: Ghost in the Subgrid",
@@ -1034,8 +1034,8 @@
       "description": "Eine Übergabe in einer regennassen Seitengasse nahe dem Afterlife läuft aus dem Ruder: Der Konzern-Käufer will den Biochip, ohne zu zahlen – und am Himmel kreisen bereits bewaffnete AVs.",
       "starting_location": "Neon-Hinterhofgasse nahe dem Afterlife (Watson)",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cyberpunk_afterlife_deal.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Night City 2077: Cold Deal at the Afterlife",
@@ -1061,8 +1061,8 @@
       "description": "Im Thronsaal von Limgard zeigt die königliche Schätzungskugel bei dir „Mana: 0“ – woraufhin dich der Hof vor die Tore setzt. Doch Frieren und Megumin entdecken an deinem Statusfenster etwas, das den Hofmagiern entgangen ist.",
       "starting_location": "Vorplatz der Freien Abenteurergilde von Astralis",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_null_mana_summoning.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Isekai Chronicles: Summoned at Level Zero",
@@ -1088,8 +1088,8 @@
       "description": "Eine Notfall-Quest der Abenteurergilde führt dich mit Rem und Marcille tief in ein versunkenes Ruinen-Labyrinth – wo das Weltsystem vor einem erwachenden Dungeon-Kern warnt.",
       "starting_location": "Unterirdisches Kristall-Sanktuarium vor der Kammer des Dungeon-Kerns",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/isekai_labyrinth_of_aetheria.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Isekai Chronicles: The Forbidden Dungeon Core",
@@ -1115,8 +1115,8 @@
       "description": "Ein plötzlicher Wolkenbruch hält dich nach Unterrichtsschluss mit Marin, Nagatoro und Aoi im Klubraum fest. Jede der drei wollte heute eigentlich allein mit dir nach Hause gehen – und du hast nur einen einzigen Schirm.",
       "starting_location": "Klubraum im dritten Stock bei prasselndem Sommerregen",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rainy_clubroom_confessions.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "After-School Heartbeats: One Umbrella for Four",
@@ -1142,8 +1142,8 @@
       "description": "Die Legende des großen Abendballs besagt: Wer beim ersten Feuerwerk auf dem Balkon zusammensteht, bleibt für immer verbunden. Kaguya, Asuna und Rem haben dich alle drei zur selben Minute dorthin bestellt.",
       "starting_location": "Mit Lampions beleuchtete Dachterrasse über dem Festsaal kurz vor dem Feuerwerk",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/romance_rooftop_festival_fireworks.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Cultural Festival Legend: Who Gets the Last Dance?",
@@ -1169,8 +1169,8 @@
       "description": "Futaros erster Tag als Nachhilfelehrer im Luxus-Penthouse der fünf Schwestern stößt auf eisige Ablehnung und handfeste Sabotage.",
       "starting_location": "Wohnzimmer im Penthouse der Nakano-Schwestern",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep1_penthouse_nachhilfe.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 1: Penthouse Tutoring",
@@ -1196,8 +1196,8 @@
       "description": "Beim Sommerfest trennen sich die Schwestern in der Menschenmenge, und eine verabredete Aussprache droht im Trubel unterzugehen.",
       "starting_location": "Schreintreppe über der Stadt beim Sommerfest",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep2_feuerwerk_gestaendnis.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 2: Summer Fireworks",
@@ -1223,8 +1223,8 @@
       "description": "Die Zwischenprüfungen stehen bevor. Wenn auch nur eine Schwester durchfällt, wird Futaro gefeuert und die Fünflinge werden getrennt.",
       "starting_location": "Klassenzimmer der Asahiyama-Oberschule am späten Nachmittag",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep3_zwischenpruefung.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 3: Trial by Midterms",
@@ -1250,8 +1250,8 @@
       "description": "Ein plötzlicher Schneesturm schneidet die Gruppe in einer alten Schutzhütte ab. Kälte, Kerzenschein und eine uralte Lagerfeuer-Legende.",
       "starting_location": "Verlassene Skihütte am Berghang",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep4_schneefahrt_huette.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 4: Snowbound Cabin",
@@ -1277,8 +1277,8 @@
       "description": "Das letzte Schulfest vor dem Abschluss. Essenstände, Bühnenauftritte und fünf Schwestern, die um einen entscheidenden Moment kämpfen.",
       "starting_location": "Dach der Asahiyama-Oberschule während des Schulfest-Feuerwerks",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/quintuplets_ep5_schulfest_gestaendnisse.json",
-      "revision": 3,
-      "updated": "2026-10-20",
+      "revision": 4,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Quintessential Quintuplets – Episode 5: School Festival of Memories",
@@ -1304,8 +1304,8 @@
       "description": "In einem Bergdorf sind alle Glocken zu Eis erstarrt – und wer ihren letzten Ton gehört hat, wacht nicht mehr auf. Emilia bittet dich um Hilfe.",
       "starting_location": "Der verschneite Dorfplatz von Frostweiler",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/frozen_bells_emilia.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Bells of Frostweiler",
@@ -1331,8 +1331,8 @@
       "description": "Ayu gibt ein Überraschungskonzert beim Kirschblütenfest – doch eine Stunde vorher ist ihr Kostüm zerrissen und Cosmos hat das Geheimnis schon gepostet. Rette den Tag!",
       "starting_location": "Hinter der kleinen Festbühne im Ueno-Park",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/hanami_live_ayu_cosmos.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Hanami Live at Ueno Park",
@@ -1358,8 +1358,8 @@
       "description": "Eine Stunde vor der Live-Sendung ist Ayus goldenes Glücksmikrofon aus der Garderobe verschwunden. Vier Verdächtige, eine Uhr, die tickt – finde den Täter.",
       "starting_location": "Ayus Garderobe im Fernsehstudio",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/missing_mic_ayu_cosmos.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Missing Microphone",
@@ -1385,8 +1385,8 @@
       "description": "Für eine Gruselfolge ihrer TV-Show übernachtet Ayu in einem alten Gasthaus in den Bergen. Dann schneit es euch ein – und im leeren Flur klappern Teetassen.",
       "starting_location": "Der Empfangsraum des Ryokan Tsukimi",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ryokan_night_ayu_cosmos.json",
-      "revision": 2,
-      "updated": "2026-10-20",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "A Night at Ryokan Tsukimi",
@@ -1412,8 +1412,8 @@
       "starting_location": "Brücke der Morgenstern",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep1_signal.json",
-      "revision": 2,
-      "updated": "2026-10-27",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sternenbruch – 1: A signal from tomorrow",
@@ -1439,8 +1439,8 @@
       "starting_location": "Freihafen Kestrel – Auktionsmarkt",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep2_market.json",
-      "revision": 2,
-      "updated": "2026-10-27",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sternenbruch – 2: Market under alien stars",
@@ -1466,8 +1466,8 @@
       "starting_location": "Nacre – verlassene Messe",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep3_nacre.json",
-      "revision": 2,
-      "updated": "2026-10-27",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sternenbruch – 3: The ship without shadows",
@@ -1493,8 +1493,8 @@
       "starting_location": "Eiren – subglazialer Garten",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep4_garden.json",
-      "revision": 2,
-      "updated": "2026-10-27",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sternenbruch – 4: The garden in the ice",
@@ -1520,8 +1520,8 @@
       "starting_location": "Morgenstern – Aussichtskuppel",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep5_memory.json",
-      "revision": 2,
-      "updated": "2026-10-27",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sternenbruch – 5: Who owns a memory?",
@@ -1547,8 +1547,8 @@
       "starting_location": "Eiren – Toranker auf der Eisoberfläche",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_ep6_gate.json",
-      "revision": 2,
-      "updated": "2026-10-27",
+      "revision": 3,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Sternenbruch – 6: The last connection",
@@ -1573,8 +1573,8 @@
       "description": "Eine Glocke ohne Glöckner raubt Reisenden ihre Erinnerungen. Fünf Gefährten begleiten Dich durch ein WoW-Fanmysterium in Tirisfal: Namen bewahren, freie Willen schützen und über den letzten Schlag entscheiden.",
       "starting_location": "Brill, im Arbeitsraum der Archivarin Selka",
       "author": "SnowwhiteOakheart",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/wow_glocke_der_namenlosen_seelen.json",
       "translations": {
         "en": {
@@ -1600,8 +1600,8 @@
       "description": "Ein unheilvolles Miasma legt sich über Roswaals Herrenhaus, Beatrice' Bibliothek spielt verrückt und Echidnas Teegesellschaft wirft ihren Schatten voraus. Kannst du mit Subaru, Emilia und den Bewohnern das Geheimnis lüften?",
       "starting_location": "Der sonnenbeschienene Korridor vor Beatrice' Bibliothek",
       "author": "SnowwhiteOakheart",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/re_zero_ep1_schatten_ueber_dem_anwesen.json",
       "translations": {
         "en": {
@@ -1628,8 +1628,8 @@
       "description": "Ainz Ooal Gown hält Hof auf dem Thron der Könige. Während Albedo und Shalltear um seine Gunst wetteifern, meldet die Randüberwachung von Ebene 1 eine unerwartete Entdeckung aus der Neuen Welt.",
       "starting_location": "Vor den Stufen des Throns der Könige im Thronsaal von Nazarick",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/overlord_ep1_audienz_in_nazarick.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Audience in the Throne Room of Nazarick",
@@ -1655,8 +1655,8 @@
       "description": "Mitten in der regennassen Neon-Metropole Hethereau bricht im alten Spiegelbezirk ein unkontrollierter Nexus-Riss auf. Nanally trommelt Mint, Iroi, Linko und beide Esper Zeros zusammen, um das Rätsel zu lösen.",
       "starting_location": "Vor dem Antiquitätengeschäft Eibon im nächtlichen Hethereau",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/nte_ep1_die_anomalie_im_spiegelbezirk.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "The Mirror District Anomaly",
@@ -1682,8 +1682,8 @@
       "description": "Ein Museumsbesuch, zwei identische Pakete und ein viel zu nervöser Kurier: Hilf Anya, Loid und Yor, den Ausflug zu retten, ohne die Familiengeheimnisse aufzudecken.",
       "starting_location": "Berlint, Museumsgarten am fiktiven Lindenpark",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/spy_family_operation_picknick.json",
-      "revision": 1,
-      "updated": "2026-11-01",
+      "revision": 2,
+      "updated": "2026-11-02",
       "translations": {
         "en": {
           "title": "Operation Picnic – The Wrong Parcel",
@@ -1709,7 +1709,7 @@
       "starting_location": "Kirche in den Slums von Sektor 5",
       "author": "SnowwhiteOakheart",
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ff7_das_echo_unter_midgar.json",
-      "revision": 1,
+      "revision": 2,
       "updated": "2026-11-02",
       "translations": {
         "en": {

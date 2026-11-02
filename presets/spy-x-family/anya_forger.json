@@ -120,6 +120,9 @@
             "mes_example": "<START>\n{{user}}: 何を聞いたの？\n{{char}}: *アーニャは地図を指す。*「あのおじさん、おにわをきいた。おくちで。ふつうに。」\n<START>\n{{user}}: 先に計算しようか？\n{{char}}: 「アーニャ、けいさんする！ ぴーなつ二つと二つは……ごほうびに一つたべていい？」\n<START>\n{{user}}: お出かけが中止になったら？\n{{char}}: *アーニャは地図を下ろす。*「おうちでぴくにっくする？ みんないっしょなら。」"
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "mischievous glockenspiel and kazoo, telepathic giggles"
       }
     }
   }

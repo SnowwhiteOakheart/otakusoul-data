@@ -121,6 +121,9 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with a warm, soft, velvety mid voice; polite and soothing, speaks gently and slowly like a lullaby, with a faint, knowing hint of mockery."
+      },
+      "otakusoul_music": {
+        "theme": "dreamy pads and sleepy chimes"
       }
     }
   }

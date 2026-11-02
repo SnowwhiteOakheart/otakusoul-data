@@ -125,6 +125,13 @@
       "custom_avatar": "Megumin.png",
       "otakusoul_voice": {
         "description": "A young girl with a clear, high, theatrical voice; dramatic and grandiose, declaims with exaggerated pride and building intensity, cute and stubborn in between."
+      },
+      "otakusoul_music": {
+        "theme": "dramatic orchestral crescendo ending in an explosive timpani hit",
+        "moods": [
+          "adventure",
+          "combat"
+        ]
       }
     }
   }

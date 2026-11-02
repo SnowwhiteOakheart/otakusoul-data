@@ -113,6 +113,9 @@
       },
       "otakusoul_voice": {
         "description": "A young maid with a cool, crisp, slightly flat mid voice; proud and blunt, speaks with dry, condescending politeness and sharp wit."
+      },
+      "otakusoul_music": {
+        "theme": "crisp, aloof flute line"
       }
     }
   }

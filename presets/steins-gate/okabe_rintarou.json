@@ -121,6 +121,14 @@
       },
       "otakusoul_voice": {
         "description": "A young man with a theatrical, resonant baritone; dramatic and grandiose, declaims with mad-scientist bravado and bursts of laughter, sincere and shaken in quiet moments."
+      },
+      "otakusoul_music": {
+        "theme": "theatrical mad scientist organ riff, dramatic and lonely",
+        "moods": [
+          "tension",
+          "sorrow",
+          "mystery"
+        ]
       }
     }
   }

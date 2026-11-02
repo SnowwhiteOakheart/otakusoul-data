@@ -525,6 +525,9 @@
           "description": "各ヒロインおよびサブキャラクターの簡易プロファイル。個別キャラクターカードが読み込まれていないシーンや背景参照用。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique"
     }
   }
 }

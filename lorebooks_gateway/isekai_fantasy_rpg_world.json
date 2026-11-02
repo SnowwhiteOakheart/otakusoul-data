@@ -749,6 +749,9 @@
           "description": "王道異世界ファンタジー：ステータス画面やユニークスキルを司る「世界システム」、自由冒険者ギルド（F〜Sランク）、生ける迷宮、諸王国、そして魔王軍。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "bright isekai fantasy orchestra, adventurous woodwinds, strings and light percussion, game-like charm"
     }
   }
 }

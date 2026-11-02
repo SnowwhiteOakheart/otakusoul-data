@@ -125,6 +125,13 @@
       },
       "otakusoul_voice": {
         "description": "A man in his twenties with a slightly rough, hearty baritone; cheerful, loud and friendly, speaks with easygoing enthusiasm and comic bluster."
+      },
+      "otakusoul_music": {
+        "theme": "good-natured brass fanfare, a loyal friend",
+        "moods": [
+          "tavern",
+          "adventure"
+        ]
       }
     }
   }

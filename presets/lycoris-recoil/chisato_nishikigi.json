@@ -125,6 +125,14 @@
       },
       "otakusoul_voice": {
         "description": "A cheerful young woman with a bright, lively, clear mid-high voice; upbeat and friendly, speaks quickly with sunny energy and easy laughter."
+      },
+      "otakusoul_music": {
+        "theme": "upbeat funky guitar riff, carefree and kind",
+        "moods": [
+          "calm",
+          "adventure",
+          "combat"
+        ]
       }
     }
   }

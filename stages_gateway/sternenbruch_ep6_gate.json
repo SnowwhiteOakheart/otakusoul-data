@@ -179,6 +179,40 @@
           }
         ]
       }
+    },
+    "otakusoul_music": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "ship bridge humming, warm pads, crew camaraderie",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "sweeping strings over pulsing synths, following an uncharted signal",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "derelict ship without shadows, eerie pads, distant sonar pings",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "ticking sequencer, rising strings, hull alarms",
+          "bpm": 104,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "garden under the ice, solo piano and soft wordless choir far away, airy",
+          "lyrics": "[Intro]\n[Verse]\naah, ooh\naah, ooh\n[Outro]",
+          "vocal_language": "en",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
     }
   }
 }

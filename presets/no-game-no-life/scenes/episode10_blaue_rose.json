@@ -144,6 +144,43 @@
           }
         ]
       }
+    },
+    "otakusoul_music": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
     }
   }
 }

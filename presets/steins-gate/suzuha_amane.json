@@ -125,6 +125,13 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with an energetic, clear, firm mid voice; direct and sporty, speaks briskly and frankly with a soldier's alertness."
+      },
+      "otakusoul_music": {
+        "theme": "determined acoustic guitar strum carrying a hidden urgency",
+        "moods": [
+          "adventure",
+          "sorrow"
+        ]
       }
     }
   }

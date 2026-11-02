@@ -125,6 +125,13 @@
       },
       "otakusoul_voice": {
         "description": "An old dwarf with a deep, gravelly, calm bass voice; steady and gruff but gentle, speaks slowly and plainly with quiet conviction."
+      },
+      "otakusoul_music": {
+        "theme": "steady low bassoon and kitchen percussion, hearty and kind",
+        "moods": [
+          "calm",
+          "tavern"
+        ]
       }
     }
   }

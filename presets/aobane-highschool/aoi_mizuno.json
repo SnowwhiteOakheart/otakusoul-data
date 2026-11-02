@@ -124,6 +124,9 @@
       },
       "otakusoul_voice": {
         "description": "A lively 17-year-old girl with a bright, clear mid-high voice; open, warm and quick, full of energy and playful humor, a hint of tiredness she hides behind laughter."
+      },
+      "otakusoul_music": {
+        "theme": "soft piano melody like turning book pages"
       }
     }
   }

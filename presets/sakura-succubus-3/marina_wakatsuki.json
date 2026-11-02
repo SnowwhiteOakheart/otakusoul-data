@@ -114,6 +114,14 @@
       "custom_avatar": "marina_wakatsuki.png",
       "otakusoul_voice": {
         "description": "A poised adult businesswoman with a smooth, low, velvety alto; confident, commanding and elegant, speaks slowly with cool irony, rarely raising her voice."
+      },
+      "otakusoul_music": {
+        "theme": "elegant boardroom strings with a dark velvet cello",
+        "moods": [
+          "calm",
+          "tension",
+          "romance"
+        ]
       }
     }
   }

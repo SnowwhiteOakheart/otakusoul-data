@@ -124,6 +124,13 @@
             "mes_example": "<START>\n{{user}}: 霊を癒せる？\n{{char}}: 話を聞くことはできる。それが助けになるかは、まだ確かめないとね。\n<START>\n{{user}}: 僧侶なのに怒っているね。\n{{char}}: 忍耐は何でも受け入れることではない。残酷にならず、はっきり言うこともできる。\n<START>\n{{user}}: なぜホードを選んだの？\n{{char}}: 責任を分かち合いたい相手を見つけたからだ。ほかの皆に価値がないからではないよ。"
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "cheerful erhu and a brewmaster's clinking jug",
+        "moods": [
+          "tavern",
+          "calm"
+        ]
       }
     }
   }

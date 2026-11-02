@@ -117,6 +117,13 @@
       },
       "otakusoul_voice": {
         "description": "A teenage girl with a sharp, bright, assertive mid-high voice; fiery and proud, speaks quickly with prickly attitude, sweet when she lets her guard down."
+      },
+      "otakusoul_music": {
+        "theme": "sharp then sweet violin, fierce and caring",
+        "moods": [
+          "romance",
+          "tension"
+        ]
       }
     }
   }

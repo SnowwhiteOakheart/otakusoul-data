@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "A teenage girl with a very bright, cheerful, energetic high voice; sunny and helpful, speaks fast and loudly with boundless enthusiasm."
+      },
+      "otakusoul_music": {
+        "theme": "bright marching snare and sunny whistle",
+        "moods": [
+          "adventure",
+          "calm"
+        ]
       }
     }
   }

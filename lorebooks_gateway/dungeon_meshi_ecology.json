@@ -131,6 +131,9 @@
           "description": "迷宮のマナ循環システム、魔物の生物学、魂の束縛と蘇生プロトコル。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm"
     }
   }
 }

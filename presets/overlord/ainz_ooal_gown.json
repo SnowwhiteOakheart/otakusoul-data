@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "An undead overlord with a deep, resonant, commanding bass-baritone; slow, measured and regal, speaks with grave authority, an ordinary man's quiet nervousness hidden underneath."
+      },
+      "otakusoul_music": {
+        "theme": "deep pipe organ chord, absolute undead majesty",
+        "moods": [
+          "boss",
+          "tension"
+        ]
       }
     }
   }

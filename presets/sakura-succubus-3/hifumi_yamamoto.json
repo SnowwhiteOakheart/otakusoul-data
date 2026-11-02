@@ -114,6 +114,9 @@
       "custom_avatar": "hifumi_yamamoto.png",
       "otakusoul_voice": {
         "description": "A graceful young Japanese woman with a soft, warm, low-mid voice; calm, gentle and motherly, speaks slowly and politely with poetic phrasing and a quiet, teasing smile."
+      },
+      "otakusoul_music": {
+        "theme": "graceful koto melody, calm and refined"
       }
     }
   }

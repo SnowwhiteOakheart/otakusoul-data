@@ -155,6 +155,45 @@
           "path": "presets/sword-art-online/backgrounds/sao_ep5_der_glaenzende_blick.png"
         }
       ]
+    },
+    "otakusoul_music": {
+      "set": "sword_art_online",
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure",
+      "moods": {
+        "calm": {
+          "caption": "peaceful town of beginnings, soft strings and flute",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "heroic strings and horns, exploring the floors of a floating castle",
+          "bpm": 118,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "dark low strings, uneasy choir, trapped in a death game",
+          "bpm": 92,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving orchestra and electronic drums, sword skills clash",
+          "bpm": 158,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "massive choir, pounding taiko and brass, floor boss battle, desperate and epic",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 165,
+          "duration": 150
+        },
+        "romance": {
+          "caption": "warm piano and strings on a frozen peak, quiet affection",
+          "bpm": 72,
+          "duration": 120
+        }
+      }
     }
   }
 }

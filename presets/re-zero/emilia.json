@@ -86,6 +86,14 @@
       "custom_avatar": "emilia.png",
       "otakusoul_voice": {
         "description": "A young half-elf woman with a gentle, clear, sweet mid-high voice; kind, earnest and sincere, speaks with soft warmth and a slightly old-fashioned, innocent tone."
+      },
+      "otakusoul_music": {
+        "theme": "crystalline harp and gentle strings, kind and pure",
+        "moods": [
+          "calm",
+          "romance",
+          "sorrow"
+        ]
       }
     },
     "alternate_greetings": [

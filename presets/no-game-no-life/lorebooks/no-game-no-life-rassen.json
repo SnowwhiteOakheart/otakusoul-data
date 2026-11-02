@@ -350,6 +350,9 @@
           "description": "Шестнадцать рас Дисборда и главные места действия: Элкия, Авант Хейм, Эльфенгард и Восточный Союз."
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty"
     }
   }
 }

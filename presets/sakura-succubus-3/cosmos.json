@@ -114,6 +114,9 @@
       "custom_avatar": "cosmos.png",
       "otakusoul_voice": {
         "description": "A cheerful catgirl with a high, cute, bouncy voice; playful and clingy, giggly and affectionate, speaks quickly with a sing-song, mischievous lilt."
+      },
+      "otakusoul_music": {
+        "theme": "playful cat-like pizzicato and twinkling bells, genki"
       }
     }
   }

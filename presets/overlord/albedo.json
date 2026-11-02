@@ -121,6 +121,13 @@
       },
       "otakusoul_voice": {
         "description": "A beautiful demon woman with a smooth, elegant, rich mid voice; poised and devoted, speaks graciously and formally, turning breathless and obsessive when passionate."
+      },
+      "otakusoul_music": {
+        "theme": "dark romantic strings with a jealous edge",
+        "moods": [
+          "romance",
+          "tension"
+        ]
       }
     }
   }

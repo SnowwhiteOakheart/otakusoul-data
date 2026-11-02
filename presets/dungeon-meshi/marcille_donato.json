@@ -125,6 +125,9 @@
       },
       "otakusoul_voice": {
         "description": "A young elven mage with an expressive, high, clear voice; emotional and fussy, speaks quickly, easily panicked and shrill when upset, sweet when calm."
+      },
+      "otakusoul_music": {
+        "theme": "bright elven harp with a fussy flute flourish"
       }
     }
   }

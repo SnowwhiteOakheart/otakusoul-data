@@ -124,6 +124,13 @@
             "mes_example": "<START>\n{{user}}: なぜ今すぐ攻撃しないの？\n{{char}}: 目的のない力は、ただ物を壊すだけだ。\n<START>\n{{user}}: 祖先に聞ける？\n{{char}}: いや。俺は戦士で、シャーマンではない。教えを思い出すことはできる。\n<START>\n{{user}}: エドリックは敵だ。\n{{char}}: そうかもしれん。今は武器もなく、怯えている。それを倒して勝利と呼ぶ必要はない。"
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "heavy war drums and a gruff horn",
+        "moods": [
+          "combat",
+          "tension"
+        ]
       }
     }
   }

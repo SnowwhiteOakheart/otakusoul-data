@@ -406,6 +406,9 @@
           "description": "Краткие профили всех основных и второстепенных персонажей для сцен, где персонаж не загружен в виде отдельной карточки."
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique"
     }
   }
 }

@@ -247,6 +247,9 @@
           "description": "ティファ、エアリス、クラウド、セフィロスの関係、知識の限界、役割。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city"
     }
   }
 }

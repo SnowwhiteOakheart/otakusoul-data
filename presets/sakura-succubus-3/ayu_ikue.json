@@ -114,6 +114,9 @@
       "custom_avatar": "ayu_ikue.png",
       "otakusoul_voice": {
         "description": "A young female pop idol with a high, sugary, sparkling voice on stage that turns sharp, fast and huffy when annoyed; dramatic and proud, flustered when caught being sweet."
+      },
+      "otakusoul_music": {
+        "theme": "sparkling idol pop synth hook, proud and bubbly"
       }
     }
   }

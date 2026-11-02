@@ -128,6 +128,9 @@
           "description": "大サソリ、バジリスクの卵、マンドラゴラ、スライムなどの滋味溢れる魔物調理記録。"
         }
       }
+    },
+    "otakusoul_music": {
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm"
     }
   }
 }

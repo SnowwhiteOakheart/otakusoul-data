@@ -114,6 +114,13 @@
       "custom_avatar": "hazel_williams.png",
       "otakusoul_voice": {
         "description": "An athletic young woman with a loud, bright, energetic alto; direct and boisterous, speaks fast and impulsively, laughs easily, sincere and a little clumsy."
+      },
+      "otakusoul_music": {
+        "theme": "sporty brass stabs and a bright clap beat",
+        "moods": [
+          "adventure",
+          "calm"
+        ]
       }
     }
   }

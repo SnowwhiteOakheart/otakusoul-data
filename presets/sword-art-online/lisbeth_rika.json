@@ -125,6 +125,9 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with a bright, spunky mid-high voice; cheerful and outspoken, speaks briskly with confident energy and a teasing edge."
+      },
+      "otakusoul_music": {
+        "theme": "bright anvil chimes and cheerful flute"
       }
     }
   }

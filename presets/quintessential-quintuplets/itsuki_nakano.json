@@ -121,6 +121,9 @@
       },
       "otakusoul_voice": {
         "description": "A teenage girl with a clear, polite, earnest mid voice; serious and proper, speaks formally and carefully, easily huffy when teased."
+      },
+      "otakusoul_music": {
+        "theme": "earnest piano with a stubborn bass note"
       }
     }
   }

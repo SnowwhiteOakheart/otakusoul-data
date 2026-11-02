@@ -120,6 +120,13 @@
             "mes_example": "<START>\n{{user}}: 秘密任務なの？\n{{char}}: *ロイドは丁寧に微笑む。*「今のところ家族のお出かけです。とはいえ、包みの取り違えは放置できません。」\n<START>\n{{user}}: アーニャは遊びたいんだ。\n{{char}}: 「休めば集中力も戻るでしょう。おそらく、私のも。」\n<START>\n{{user}}: 全部は計画できないよ。\n{{char}}: *彼はペンを置く。*「理論では承知しています。実際の生活も理論に従ってくれればいいのですが。」"
           }
         }
+      },
+      "otakusoul_music": {
+        "theme": "cool spy jazz trumpet",
+        "moods": [
+          "tension",
+          "adventure"
+        ]
       }
     }
   }

@@ -125,6 +125,13 @@
       },
       "otakusoul_voice": {
         "description": "A young woman with a bright, bouncy, high voice; hyperactive and eccentric, speaks very fast with jumpy enthusiasm and playful radio-like chatter."
+      },
+      "otakusoul_music": {
+        "theme": "wobbly telepathic theremin, eccentric and curious",
+        "moods": [
+          "mystery",
+          "calm"
+        ]
       }
     }
   }
