@@ -1,0 +1,2722 @@
+{
+  "scenes": {
+    "redaktionsschluss": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "der_wohltaetigkeitsball": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "wohnungskrieg": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "audienz_im_thronsaal": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "ein_tee_zu_zweit": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "matchball": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "hanami_live_ayu_cosmos": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "missing_mic_ayu_cosmos": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "ryokan_night_ayu_cosmos": {
+      "set": "sakura_succubus_3",
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique",
+      "moods": {
+        "calm": {
+          "caption": "soft lo-fi electric piano, sunny Tokyo apartment, relaxed and carefree",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat j-pop instrumental, bouncy bass, handclaps, busy city day, idol energy",
+          "bpm": 128,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "noir jazz bass, muted trumpet, ticking hi-hat, glamorous ballroom intrigue",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "sparse koto and electric piano, whispering pads, quiet ryokan corridor at night",
+          "bpm": 70,
+          "duration": 120
+        },
+        "romance": {
+          "caption": "tender piano and strings, tea room with sliding doors, shy warm feelings",
+          "bpm": 76,
+          "duration": 120
+        }
+      }
+    },
+    "episode1_anfaenger": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode2_herausforderer": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode3_experte": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode4_grossmeister": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode5_schwaches_feld": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode6_interessant_jibril": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode7_opfer": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode8_falsches_ende": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode9_himmelswandel": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode10_blaue_rose": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode11_riesentoeten": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "episode12_regel_nummer_zehn": {
+      "set": "no_game_no_life",
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty",
+      "moods": {
+        "calm": {
+          "caption": "light harpsichord waltz, Elkia castle afternoon, whimsical",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ticking clock, staccato strings, high-stakes card game, clever suspense",
+          "bpm": 112,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "grand orchestral fanfare, living chessboard battlefield, theatrical and heroic",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "music box and celesta, dusty royal archive, curious riddles",
+          "bpm": 72,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "driving electronic beat with orchestral hits, digital battlefield, fast and cunning",
+          "bpm": 150,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "quiet piano and solo cello, lonely tower room under an endless sky",
+          "bpm": 64,
+          "duration": 110
+        }
+      }
+    },
+    "dungeon_meshi_ep1_skorpionsuppe": {
+      "set": "dungeon_meshi",
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm",
+      "moods": {
+        "calm": {
+          "caption": "campfire cooking, plucked lute, gentle recorder, warm and cozy",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "jaunty fiddle and bodhran, descending dungeon stairs, curious and brave",
+          "bpm": 116,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low cello drones, dripping cave echoes, something moves in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "galloping percussion, urgent fiddle ostinato, monster fight in the labyrinth",
+          "bpm": 146,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "thunderous timpani, brass and choir, the red dragon awakens, epic and terrifying",
+          "bpm": 150,
+          "duration": 150
+        }
+      }
+    },
+    "dungeon_meshi_ep2_klingenbasilisk": {
+      "set": "dungeon_meshi",
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm",
+      "moods": {
+        "calm": {
+          "caption": "campfire cooking, plucked lute, gentle recorder, warm and cozy",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "jaunty fiddle and bodhran, descending dungeon stairs, curious and brave",
+          "bpm": 116,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low cello drones, dripping cave echoes, something moves in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "galloping percussion, urgent fiddle ostinato, monster fight in the labyrinth",
+          "bpm": 146,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "thunderous timpani, brass and choir, the red dragon awakens, epic and terrifying",
+          "bpm": 150,
+          "duration": 150
+        }
+      }
+    },
+    "dungeon_meshi_ep3_alraunenernte": {
+      "set": "dungeon_meshi",
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm",
+      "moods": {
+        "calm": {
+          "caption": "campfire cooking, plucked lute, gentle recorder, warm and cozy",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "jaunty fiddle and bodhran, descending dungeon stairs, curious and brave",
+          "bpm": 116,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low cello drones, dripping cave echoes, something moves in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "galloping percussion, urgent fiddle ostinato, monster fight in the labyrinth",
+          "bpm": 146,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "thunderous timpani, brass and choir, the red dragon awakens, epic and terrifying",
+          "bpm": 150,
+          "duration": 150
+        }
+      }
+    },
+    "dungeon_meshi_ep4_wassergeister": {
+      "set": "dungeon_meshi",
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm",
+      "moods": {
+        "calm": {
+          "caption": "campfire cooking, plucked lute, gentle recorder, warm and cozy",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "jaunty fiddle and bodhran, descending dungeon stairs, curious and brave",
+          "bpm": 116,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low cello drones, dripping cave echoes, something moves in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "galloping percussion, urgent fiddle ostinato, monster fight in the labyrinth",
+          "bpm": 146,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "thunderous timpani, brass and choir, the red dragon awakens, epic and terrifying",
+          "bpm": 150,
+          "duration": 150
+        }
+      }
+    },
+    "dungeon_meshi_ep5_roter_drache": {
+      "set": "dungeon_meshi",
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm",
+      "moods": {
+        "calm": {
+          "caption": "campfire cooking, plucked lute, gentle recorder, warm and cozy",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "jaunty fiddle and bodhran, descending dungeon stairs, curious and brave",
+          "bpm": 116,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low cello drones, dripping cave echoes, something moves in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "galloping percussion, urgent fiddle ostinato, monster fight in the labyrinth",
+          "bpm": 146,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "thunderous timpani, brass and choir, the red dragon awakens, epic and terrifying",
+          "bpm": 150,
+          "duration": 150
+        }
+      }
+    },
+    "steins_gate_ep1_erste_dmail": {
+      "set": "steins_gate",
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat",
+      "moods": {
+        "calm": {
+          "caption": "lo-fi electronic beat, buzzing summer cicadas, cluttered gadget lab",
+          "bpm": 86,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "sparse piano, ticking clocks, glitch textures, world line uncertainty",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pulsing synth bass, rising strings, conspiracy closing in",
+          "bpm": 108,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "driving electronic rock, determined race against fate",
+          "bpm": 132,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "solo piano and violin, regret across time, very slow",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "steins_gate_ep2_ibn5100_suche": {
+      "set": "steins_gate",
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat",
+      "moods": {
+        "calm": {
+          "caption": "lo-fi electronic beat, buzzing summer cicadas, cluttered gadget lab",
+          "bpm": 86,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "sparse piano, ticking clocks, glitch textures, world line uncertainty",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pulsing synth bass, rising strings, conspiracy closing in",
+          "bpm": 108,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "driving electronic rock, determined race against fate",
+          "bpm": 132,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "solo piano and violin, regret across time, very slow",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "steins_gate_ep3_operation_urd": {
+      "set": "steins_gate",
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat",
+      "moods": {
+        "calm": {
+          "caption": "lo-fi electronic beat, buzzing summer cicadas, cluttered gadget lab",
+          "bpm": 86,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "sparse piano, ticking clocks, glitch textures, world line uncertainty",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pulsing synth bass, rising strings, conspiracy closing in",
+          "bpm": 108,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "driving electronic rock, determined race against fate",
+          "bpm": 132,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "solo piano and violin, regret across time, very slow",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "steins_gate_ep4_schmetterlingseffekt": {
+      "set": "steins_gate",
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat",
+      "moods": {
+        "calm": {
+          "caption": "lo-fi electronic beat, buzzing summer cicadas, cluttered gadget lab",
+          "bpm": 86,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "sparse piano, ticking clocks, glitch textures, world line uncertainty",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pulsing synth bass, rising strings, conspiracy closing in",
+          "bpm": 108,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "driving electronic rock, determined race against fate",
+          "bpm": 132,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "solo piano and violin, regret across time, very slow",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "steins_gate_ep5_tor_zu_steins_gate": {
+      "set": "steins_gate",
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat",
+      "moods": {
+        "calm": {
+          "caption": "lo-fi electronic beat, buzzing summer cicadas, cluttered gadget lab",
+          "bpm": 86,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "sparse piano, ticking clocks, glitch textures, world line uncertainty",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pulsing synth bass, rising strings, conspiracy closing in",
+          "bpm": 108,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "driving electronic rock, determined race against fate",
+          "bpm": 132,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "solo piano and violin, regret across time, very slow",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "lycoris_recoil_ep1_willkommen_im_cafe": {
+      "set": "lycoris_recoil",
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire",
+      "moods": {
+        "calm": {
+          "caption": "cozy café jazz, warm acoustic guitar and electric piano, coffee brewing",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat funk rock, escort mission through the city, confident groove",
+          "bpm": 124,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "tight drum groove, muted guitar, sneaky stakeout in back alleys",
+          "bpm": 104,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "fast breakbeat, distorted guitar riffs, brass hits, gunfight choreography",
+          "bpm": 156,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "gentle piano and strings at dawn, bittersweet farewell",
+          "bpm": 66,
+          "duration": 110
+        }
+      }
+    },
+    "lycoris_recoil_ep2_geleitschutz_tokio": {
+      "set": "lycoris_recoil",
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire",
+      "moods": {
+        "calm": {
+          "caption": "cozy café jazz, warm acoustic guitar and electric piano, coffee brewing",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat funk rock, escort mission through the city, confident groove",
+          "bpm": 124,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "tight drum groove, muted guitar, sneaky stakeout in back alleys",
+          "bpm": 104,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "fast breakbeat, distorted guitar riffs, brass hits, gunfight choreography",
+          "bpm": 156,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "gentle piano and strings at dawn, bittersweet farewell",
+          "bpm": 66,
+          "duration": 110
+        }
+      }
+    },
+    "lycoris_recoil_ep3_jagd_nach_walnut": {
+      "set": "lycoris_recoil",
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire",
+      "moods": {
+        "calm": {
+          "caption": "cozy café jazz, warm acoustic guitar and electric piano, coffee brewing",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat funk rock, escort mission through the city, confident groove",
+          "bpm": 124,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "tight drum groove, muted guitar, sneaky stakeout in back alleys",
+          "bpm": 104,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "fast breakbeat, distorted guitar riffs, brass hits, gunfight choreography",
+          "bpm": 156,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "gentle piano and strings at dawn, bittersweet farewell",
+          "bpm": 66,
+          "duration": 110
+        }
+      }
+    },
+    "lycoris_recoil_ep4_duell_im_morgengrauen": {
+      "set": "lycoris_recoil",
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire",
+      "moods": {
+        "calm": {
+          "caption": "cozy café jazz, warm acoustic guitar and electric piano, coffee brewing",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "upbeat funk rock, escort mission through the city, confident groove",
+          "bpm": 124,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "tight drum groove, muted guitar, sneaky stakeout in back alleys",
+          "bpm": 104,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "fast breakbeat, distorted guitar riffs, brass hits, gunfight choreography",
+          "bpm": 156,
+          "duration": 120
+        },
+        "sorrow": {
+          "caption": "gentle piano and strings at dawn, bittersweet farewell",
+          "bpm": 66,
+          "duration": 110
+        }
+      }
+    },
+    "sao_ep1_die_verkuendung": {
+      "set": "sword_art_online",
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure",
+      "moods": {
+        "calm": {
+          "caption": "peaceful town of beginnings, soft strings and flute",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "heroic strings and horns, exploring the floors of a floating castle",
+          "bpm": 118,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "dark low strings, uneasy choir, trapped in a death game",
+          "bpm": 92,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving orchestra and electronic drums, sword skills clash",
+          "bpm": 158,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "massive choir, pounding taiko and brass, floor boss battle, desperate and epic",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 165,
+          "duration": 150
+        },
+        "romance": {
+          "caption": "warm piano and strings on a frozen peak, quiet affection",
+          "bpm": 72,
+          "duration": 120
+        }
+      }
+    },
+    "sao_ep2_boss_ebene1": {
+      "set": "sword_art_online",
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure",
+      "moods": {
+        "calm": {
+          "caption": "peaceful town of beginnings, soft strings and flute",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "heroic strings and horns, exploring the floors of a floating castle",
+          "bpm": 118,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "dark low strings, uneasy choir, trapped in a death game",
+          "bpm": 92,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving orchestra and electronic drums, sword skills clash",
+          "bpm": 158,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "massive choir, pounding taiko and brass, floor boss battle, desperate and epic",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 165,
+          "duration": 150
+        },
+        "romance": {
+          "caption": "warm piano and strings on a frozen peak, quiet affection",
+          "bpm": 72,
+          "duration": 120
+        }
+      }
+    },
+    "sao_ep3_waerme_des_herzens": {
+      "set": "sword_art_online",
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure",
+      "moods": {
+        "calm": {
+          "caption": "peaceful town of beginnings, soft strings and flute",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "heroic strings and horns, exploring the floors of a floating castle",
+          "bpm": 118,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "dark low strings, uneasy choir, trapped in a death game",
+          "bpm": 92,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving orchestra and electronic drums, sword skills clash",
+          "bpm": 158,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "massive choir, pounding taiko and brass, floor boss battle, desperate and epic",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 165,
+          "duration": 150
+        },
+        "romance": {
+          "caption": "warm piano and strings on a frozen peak, quiet affection",
+          "bpm": 72,
+          "duration": 120
+        }
+      }
+    },
+    "sao_ep4_duell_in_den_schatten": {
+      "set": "sword_art_online",
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure",
+      "moods": {
+        "calm": {
+          "caption": "peaceful town of beginnings, soft strings and flute",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "heroic strings and horns, exploring the floors of a floating castle",
+          "bpm": 118,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "dark low strings, uneasy choir, trapped in a death game",
+          "bpm": 92,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving orchestra and electronic drums, sword skills clash",
+          "bpm": 158,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "massive choir, pounding taiko and brass, floor boss battle, desperate and epic",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 165,
+          "duration": 150
+        },
+        "romance": {
+          "caption": "warm piano and strings on a frozen peak, quiet affection",
+          "bpm": 72,
+          "duration": 120
+        }
+      }
+    },
+    "sao_ep5_der_glaenzende_blick": {
+      "set": "sword_art_online",
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure",
+      "moods": {
+        "calm": {
+          "caption": "peaceful town of beginnings, soft strings and flute",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "heroic strings and horns, exploring the floors of a floating castle",
+          "bpm": 118,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "dark low strings, uneasy choir, trapped in a death game",
+          "bpm": 92,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving orchestra and electronic drums, sword skills clash",
+          "bpm": 158,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "massive choir, pounding taiko and brass, floor boss battle, desperate and epic",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 165,
+          "duration": 150
+        },
+        "romance": {
+          "caption": "warm piano and strings on a frozen peak, quiet affection",
+          "bpm": 72,
+          "duration": 120
+        }
+      }
+    },
+    "cyberpunk_ghost_in_subgrid": {
+      "set": "night_city_2077",
+      "style": "dark cyberpunk synthwave, industrial beats, distorted bass, neon-soaked megacity",
+      "moods": {
+        "calm": {
+          "caption": "downtempo synth pads, rain on neon streets, lonely night",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "throbbing industrial bass, glitch noises, a deal going sideways",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "cold ambient drones, data hum, a ghost in the subnet",
+          "bpm": 70,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "aggressive industrial techno, distorted synths, gunfire rhythm",
+          "bpm": 160,
+          "duration": 120
+        }
+      }
+    },
+    "cyberpunk_afterlife_deal": {
+      "set": "night_city_2077",
+      "style": "dark cyberpunk synthwave, industrial beats, distorted bass, neon-soaked megacity",
+      "moods": {
+        "calm": {
+          "caption": "downtempo synth pads, rain on neon streets, lonely night",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "throbbing industrial bass, glitch noises, a deal going sideways",
+          "bpm": 100,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "cold ambient drones, data hum, a ghost in the subnet",
+          "bpm": 70,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "aggressive industrial techno, distorted synths, gunfire rhythm",
+          "bpm": 160,
+          "duration": 120
+        }
+      }
+    },
+    "isekai_null_mana_summoning": {
+      "set": "aetheria_chronicles",
+      "style": "bright isekai fantasy orchestra, adventurous woodwinds, strings and light percussion, game-like charm",
+      "moods": {
+        "calm": {
+          "caption": "adventurer guild hall in the morning, lute and flute, cheerful",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "tavern": {
+          "caption": "lively tavern jig, fiddle, accordion and stomps",
+          "bpm": 126,
+          "duration": 120
+        },
+        "adventure": {
+          "caption": "heroic quest theme, brass and strings, open fields",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "crystal sanctuary, shimmering harp and celesta, ancient magic",
+          "bpm": 70,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "energetic battle orchestra, pounding drums, spell flashes",
+          "bpm": 150,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "epic dungeon guardian, choir and brass, overwhelming power",
+          "bpm": 160,
+          "duration": 150
+        }
+      }
+    },
+    "isekai_labyrinth_of_aetheria": {
+      "set": "aetheria_chronicles",
+      "style": "bright isekai fantasy orchestra, adventurous woodwinds, strings and light percussion, game-like charm",
+      "moods": {
+        "calm": {
+          "caption": "adventurer guild hall in the morning, lute and flute, cheerful",
+          "bpm": 92,
+          "duration": 150,
+          "count": 2
+        },
+        "tavern": {
+          "caption": "lively tavern jig, fiddle, accordion and stomps",
+          "bpm": 126,
+          "duration": 120
+        },
+        "adventure": {
+          "caption": "heroic quest theme, brass and strings, open fields",
+          "bpm": 120,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "crystal sanctuary, shimmering harp and celesta, ancient magic",
+          "bpm": 70,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "energetic battle orchestra, pounding drums, spell flashes",
+          "bpm": 150,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "epic dungeon guardian, choir and brass, overwhelming power",
+          "bpm": 160,
+          "duration": 150
+        }
+      }
+    },
+    "romance_rainy_clubroom_confessions": {
+      "set": "herzensklopfen",
+      "style": "sweet romantic comedy anime soundtrack, piano, acoustic guitar, glockenspiel, light strings",
+      "moods": {
+        "calm": {
+          "caption": "rainy afternoon in a clubroom, soft piano, raindrops",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "tender confession theme, swelling strings, nervous heartbeat",
+          "bpm": 74,
+          "duration": 120
+        },
+        "adventure": {
+          "caption": "bubbly school festival rush, playful pizzicato and handclaps",
+          "bpm": 124,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "comic suspense, plucked strings, who will confess first",
+          "bpm": 108,
+          "duration": 100
+        }
+      }
+    },
+    "romance_rooftop_festival_fireworks": {
+      "set": "herzensklopfen",
+      "style": "sweet romantic comedy anime soundtrack, piano, acoustic guitar, glockenspiel, light strings",
+      "moods": {
+        "calm": {
+          "caption": "rainy afternoon in a clubroom, soft piano, raindrops",
+          "bpm": 80,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "tender confession theme, swelling strings, nervous heartbeat",
+          "bpm": 74,
+          "duration": 120
+        },
+        "adventure": {
+          "caption": "bubbly school festival rush, playful pizzicato and handclaps",
+          "bpm": 124,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "comic suspense, plucked strings, who will confess first",
+          "bpm": 108,
+          "duration": 100
+        }
+      }
+    },
+    "quintuplets_ep1_penthouse_nachhilfe": {
+      "set": "quintessential_quintuplets",
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm",
+      "moods": {
+        "calm": {
+          "caption": "tutoring session in a penthouse living room, gentle piano",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "summer fireworks confession, swelling strings and piano",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "exam pressure, ticking clock, nervous pizzicato",
+          "bpm": 110,
+          "duration": 100
+        },
+        "sorrow": {
+          "caption": "snowed-in mountain hut, quiet piano and cello",
+          "bpm": 62,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "school festival finale, bright band, joyful",
+          "bpm": 126,
+          "duration": 120
+        }
+      }
+    },
+    "quintuplets_ep2_feuerwerk_gestaendnis": {
+      "set": "quintessential_quintuplets",
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm",
+      "moods": {
+        "calm": {
+          "caption": "tutoring session in a penthouse living room, gentle piano",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "summer fireworks confession, swelling strings and piano",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "exam pressure, ticking clock, nervous pizzicato",
+          "bpm": 110,
+          "duration": 100
+        },
+        "sorrow": {
+          "caption": "snowed-in mountain hut, quiet piano and cello",
+          "bpm": 62,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "school festival finale, bright band, joyful",
+          "bpm": 126,
+          "duration": 120
+        }
+      }
+    },
+    "quintuplets_ep3_zwischenpruefung": {
+      "set": "quintessential_quintuplets",
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm",
+      "moods": {
+        "calm": {
+          "caption": "tutoring session in a penthouse living room, gentle piano",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "summer fireworks confession, swelling strings and piano",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "exam pressure, ticking clock, nervous pizzicato",
+          "bpm": 110,
+          "duration": 100
+        },
+        "sorrow": {
+          "caption": "snowed-in mountain hut, quiet piano and cello",
+          "bpm": 62,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "school festival finale, bright band, joyful",
+          "bpm": 126,
+          "duration": 120
+        }
+      }
+    },
+    "quintuplets_ep4_schneefahrt_huette": {
+      "set": "quintessential_quintuplets",
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm",
+      "moods": {
+        "calm": {
+          "caption": "tutoring session in a penthouse living room, gentle piano",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "summer fireworks confession, swelling strings and piano",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "exam pressure, ticking clock, nervous pizzicato",
+          "bpm": 110,
+          "duration": 100
+        },
+        "sorrow": {
+          "caption": "snowed-in mountain hut, quiet piano and cello",
+          "bpm": 62,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "school festival finale, bright band, joyful",
+          "bpm": 126,
+          "duration": 120
+        }
+      }
+    },
+    "quintuplets_ep5_schulfest_gestaendnisse": {
+      "set": "quintessential_quintuplets",
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm",
+      "moods": {
+        "calm": {
+          "caption": "tutoring session in a penthouse living room, gentle piano",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "romance": {
+          "caption": "summer fireworks confession, swelling strings and piano",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "exam pressure, ticking clock, nervous pizzicato",
+          "bpm": 110,
+          "duration": 100
+        },
+        "sorrow": {
+          "caption": "snowed-in mountain hut, quiet piano and cello",
+          "bpm": 62,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "school festival finale, bright band, joyful",
+          "bpm": 126,
+          "duration": 120
+        }
+      }
+    },
+    "sternenbruch_ep1_signal": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "ship bridge humming, warm pads, crew camaraderie",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "sweeping strings over pulsing synths, following an uncharted signal",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "derelict ship without shadows, eerie pads, distant sonar pings",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "ticking sequencer, rising strings, hull alarms",
+          "bpm": 104,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "garden under the ice, solo piano and soft wordless choir far away, airy",
+          "lyrics": "[Intro]\n[Verse]\naah, ooh\naah, ooh\n[Outro]",
+          "vocal_language": "en",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "sternenbruch_ep2_market": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "ship bridge humming, warm pads, crew camaraderie",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "sweeping strings over pulsing synths, following an uncharted signal",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "derelict ship without shadows, eerie pads, distant sonar pings",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "ticking sequencer, rising strings, hull alarms",
+          "bpm": 104,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "garden under the ice, solo piano and soft wordless choir far away, airy",
+          "lyrics": "[Intro]\n[Verse]\naah, ooh\naah, ooh\n[Outro]",
+          "vocal_language": "en",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "sternenbruch_ep3_nacre": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "ship bridge humming, warm pads, crew camaraderie",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "sweeping strings over pulsing synths, following an uncharted signal",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "derelict ship without shadows, eerie pads, distant sonar pings",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "ticking sequencer, rising strings, hull alarms",
+          "bpm": 104,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "garden under the ice, solo piano and soft wordless choir far away, airy",
+          "lyrics": "[Intro]\n[Verse]\naah, ooh\naah, ooh\n[Outro]",
+          "vocal_language": "en",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "sternenbruch_ep4_garden": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "ship bridge humming, warm pads, crew camaraderie",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "sweeping strings over pulsing synths, following an uncharted signal",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "derelict ship without shadows, eerie pads, distant sonar pings",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "ticking sequencer, rising strings, hull alarms",
+          "bpm": 104,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "garden under the ice, solo piano and soft wordless choir far away, airy",
+          "lyrics": "[Intro]\n[Verse]\naah, ooh\naah, ooh\n[Outro]",
+          "vocal_language": "en",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "sternenbruch_ep5_memory": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "ship bridge humming, warm pads, crew camaraderie",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "sweeping strings over pulsing synths, following an uncharted signal",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "derelict ship without shadows, eerie pads, distant sonar pings",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "ticking sequencer, rising strings, hull alarms",
+          "bpm": 104,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "garden under the ice, solo piano and soft wordless choir far away, airy",
+          "lyrics": "[Intro]\n[Verse]\naah, ooh\naah, ooh\n[Outro]",
+          "vocal_language": "en",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "sternenbruch_ep6_gate": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "ship bridge humming, warm pads, crew camaraderie",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "adventure": {
+          "caption": "sweeping strings over pulsing synths, following an uncharted signal",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "derelict ship without shadows, eerie pads, distant sonar pings",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "ticking sequencer, rising strings, hull alarms",
+          "bpm": 104,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "garden under the ice, solo piano and soft wordless choir far away, airy",
+          "lyrics": "[Intro]\n[Verse]\naah, ooh\naah, ooh\n[Outro]",
+          "vocal_language": "en",
+          "bpm": 60,
+          "duration": 120
+        }
+      }
+    },
+    "wow_glocke_der_namenlosen_seelen": {
+      "set": "world_of_warcraft_tirisfal",
+      "style": "dark fantasy orchestra, gothic strings, distant church bells, mournful choir, misty glades",
+      "moods": {
+        "calm": {
+          "caption": "quiet village outskirts, lute and soft strings in the mist",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "tavern": {
+          "caption": "smoky village inn, fiddle and hurdy-gurdy, rustic and warm",
+          "bpm": 112,
+          "duration": 120
+        },
+        "mystery": {
+          "caption": "tolling distant bell, ghostly choir, foggy graveyard",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "low brass and tremolo strings, undead watchers in the dark",
+          "bpm": 90,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "pounding war drums, brass, fierce battle",
+          "bpm": 150,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "doom-laden choir, pipe organ, massive drums, the nameless bell awakens",
+          "bpm": 140,
+          "duration": 150
+        }
+      }
+    },
+    "re_zero_ep1_schatten_ueber_dem_anwesen": {
+      "set": "re_zero",
+      "style": "emotional fantasy orchestra, piano, strings and choir, gothic manor elegance with dark undertones",
+      "moods": {
+        "calm": {
+          "caption": "sunlit mansion corridor, elegant piano waltz",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "music box, whispering choir, the scent of a witch",
+          "bpm": 66,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pounding heartbeat, dissonant strings, looming death",
+          "bpm": 100,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "solo piano and soft strings, despair turning into resolve",
+          "bpm": 60,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "frantic strings and brass, desperate fight",
+          "bpm": 150,
+          "duration": 120
+        }
+      }
+    },
+    "frozen_bells_emilia": {
+      "set": "re_zero",
+      "style": "emotional fantasy orchestra, piano, strings and choir, gothic manor elegance with dark undertones",
+      "moods": {
+        "calm": {
+          "caption": "sunlit mansion corridor, elegant piano waltz",
+          "bpm": 84,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "music box, whispering choir, the scent of a witch",
+          "bpm": 66,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "pounding heartbeat, dissonant strings, looming death",
+          "bpm": 100,
+          "duration": 110
+        },
+        "sorrow": {
+          "caption": "solo piano and soft strings, despair turning into resolve",
+          "bpm": 60,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "frantic strings and brass, desperate fight",
+          "bpm": 150,
+          "duration": 120
+        }
+      }
+    },
+    "overlord_ep1_audienz_in_nazarick": {
+      "set": "overlord",
+      "style": "grand dark fantasy orchestra, pipe organ, deep choir, heavy brass, regal and menacing",
+      "moods": {
+        "calm": {
+          "caption": "solemn throne room, dark elegant strings and harp",
+          "bpm": 70,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "ominous low brass, whispering choir, audience before an undead ruler",
+          "bpm": 84,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "dark corridors of a great tomb, sparse harp and drones",
+          "bpm": 60,
+          "duration": 120
+        },
+        "combat": {
+          "caption": "brutal orchestral battle, pounding drums, clashing steel",
+          "bpm": 150,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "overwhelming dark choir, organ, war drums, absolute power",
+          "lyrics": "[Intro]\n[Chorus]\nah, ah, oh\nah, ah, oh\n[Instrumental Break]\n[Chorus]\nah, ah, oh",
+          "vocal_language": "en",
+          "bpm": 120,
+          "duration": 150
+        }
+      }
+    },
+    "nte_ep1_die_anomalie_im_spiegelbezirk": {
+      "set": "neverness_to_everness",
+      "style": "stylish urban fantasy soundtrack, electronic beats, jazz chords, glossy synths, an anomalous city",
+      "moods": {
+        "calm": {
+          "caption": "antique shop afternoon, jazzy lo-fi beat",
+          "bpm": 88,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "mirror district anomaly, warped synths, reversed sounds",
+          "bpm": 72,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "urban chase, tight drums, glitching bass",
+          "bpm": 112,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "high-energy electronic rock, esper powers clash",
+          "bpm": 158,
+          "duration": 120
+        }
+      }
+    },
+    "spy_family_operation_picknick": {
+      "set": "spy_x_family",
+      "style": "jazzy spy comedy soundtrack, swing band, muted trumpet, upright bass, warm family charm",
+      "moods": {
+        "calm": {
+          "caption": "museum garden picnic, light acoustic swing, sunny",
+          "bpm": 96,
+          "duration": 150,
+          "count": 2
+        },
+        "tension": {
+          "caption": "sneaky spy jazz, walking bass, brushed snare, a secret package",
+          "bpm": 116,
+          "duration": 110
+        },
+        "adventure": {
+          "caption": "big band chase, brass hits, playful action",
+          "bpm": 140,
+          "duration": 120
+        }
+      }
+    },
+    "ff7_das_echo_unter_midgar": {
+      "set": "final_fantasy_vii",
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city",
+      "moods": {
+        "calm": {
+          "caption": "flowers in a slum church, gentle piano and harp",
+          "bpm": 76,
+          "duration": 150,
+          "count": 2
+        },
+        "mystery": {
+          "caption": "echoes beneath the city, mako hum, distant chimes",
+          "bpm": 64,
+          "duration": 120
+        },
+        "tension": {
+          "caption": "industrial percussion, low strings, corporate pressure",
+          "bpm": 100,
+          "duration": 110
+        },
+        "combat": {
+          "caption": "driving rock orchestra, electric guitar and strings, battle",
+          "bpm": 152,
+          "duration": 120
+        },
+        "boss": {
+          "caption": "ominous choir, pounding drums, a one-winged threat looms",
+          "lyrics": "[Intro]\n[Chorus]\nah, oh, ah\nah, oh, ah\n[Instrumental Break]\n[Chorus]\nah, oh, ah",
+          "vocal_language": "en",
+          "bpm": 140,
+          "duration": 150
+        }
+      }
+    }
+  },
+  "lorebooks": {
+    "Sakura Succubus 3 – Welt": {
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique"
+    },
+    "Sakura Succubus 3 – Figuren": {
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique"
+    },
+    "Sakura Succubus 3 – Orte": {
+      "style": "modern anime soundtrack, bright j-pop band with playful synths and light orchestra, glamorous Tokyo with a hint of demonic mystique"
+    },
+    "No Game No Life – Welt & Gebote": {
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty"
+    },
+    "No Game No Life – Rassen & Orte": {
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty"
+    },
+    "No Game No Life – Figuren": {
+      "style": "playful fantasy game soundtrack, harpsichord and pizzicato strings, bright chiptune accents, grand orchestral flourishes, colorful and witty"
+    },
+    "Dungeon Meshi – Ökologie & Labyrinth-Regeln": {
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm"
+    },
+    "Dungeon Meshi – Monster-Rezepte & Kochkunst": {
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm"
+    },
+    "Dungeon Meshi – Figuren & Goldene Dynastie": {
+      "style": "whimsical medieval folk, lute, fiddle, recorder and frame drum, earthy dungeon adventure with cozy cooking-pot charm"
+    },
+    "Steins;Gate – Weltlinien & Divergenz": {
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat"
+    },
+    "Steins;Gate – Labor-Gadgets & D-Mails": {
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat"
+    },
+    "Steins;Gate – Akihabara 2010 & SERN": {
+      "style": "melancholic sci-fi thriller soundtrack, electronic pulses, glitchy synths, piano and strings, summer Akihabara heat"
+    },
+    "Lycoris Recoil – DA & Alan Institute": {
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire"
+    },
+    "Lycoris Recoil – Café LycoReco": {
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire"
+    },
+    "Lycoris Recoil – Ausrüstung & Taktik": {
+      "style": "stylish action anime soundtrack, funky bass, electric guitar, brass stabs, café warmth meets gunfire"
+    },
+    "Sword Art Online – Aincrad-Systemregeln": {
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure"
+    },
+    "Sword Art Online – Gilden & Fraktionen": {
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure"
+    },
+    "Sword Art Online – Aincrad-Geografie": {
+      "style": "epic VRMMO fantasy orchestra, soaring strings, choir, electronic undertones, high-stakes adventure"
+    },
+    "Night City 2077 – Edgerunner, Konzerne & das Netz": {
+      "style": "dark cyberpunk synthwave, industrial beats, distorted bass, neon-soaked megacity"
+    },
+    "Aetheria Chronicles – Isekai-Abenteuer, Gilden & Systemmagie": {
+      "style": "bright isekai fantasy orchestra, adventurous woodwinds, strings and light percussion, game-like charm"
+    },
+    "Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik": {
+      "style": "sweet romantic comedy anime soundtrack, piano, acoustic guitar, glockenspiel, light strings"
+    },
+    "The Quintessential Quintuplets – Die Nakano-Schwestern": {
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm"
+    },
+    "The Quintessential Quintuplets – Nachhilfe & Uesugi-Haushalt": {
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm"
+    },
+    "The Quintessential Quintuplets – Orte & Schulalltag": {
+      "style": "warm romantic comedy soundtrack, piano, strings, acoustic guitar, school life charm"
+    },
+    "Sternenbruch – Welt & Technik": {
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir"
+    },
+    "Sternenbruch – Kulturen & Fraktionen": {
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir"
+    },
+    "Sternenbruch – Crew & Orte": {
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir"
+    },
+    "Azeroth – Völker, Magie und die Glocke von Tirisfal": {
+      "style": "dark fantasy orchestra, gothic strings, distant church bells, mournful choir, misty glades"
+    },
+    "Re:Zero – Welt, Magie & Hexen": {
+      "style": "emotional fantasy orchestra, piano, strings and choir, gothic manor elegance with dark undertones"
+    },
+    "Re:Zero – Roswaal-Anwesen & Heiligtum": {
+      "style": "emotional fantasy orchestra, piano, strings and choir, gothic manor elegance with dark undertones"
+    },
+    "Overlord – Die Große Gruft von Nazarick": {
+      "style": "grand dark fantasy orchestra, pipe organ, deep choir, heavy brass, regal and menacing"
+    },
+    "Overlord – Herrscher & Wächter": {
+      "style": "grand dark fantasy orchestra, pipe organ, deep choir, heavy brass, regal and menacing"
+    },
+    "NTE – Die Metropole Hethereau": {
+      "style": "stylish urban fantasy soundtrack, electronic beats, jazz chords, glossy synths, an anomalous city"
+    },
+    "NTE – Eibon-Crew & Agenten": {
+      "style": "stylish urban fantasy soundtrack, electronic beats, jazz chords, glossy synths, an anomalous city"
+    },
+    "SPY×FAMILY – Berlint & geheime Identitäten": {
+      "style": "jazzy spy comedy soundtrack, swing band, muted trumpet, upright bass, warm family charm"
+    },
+    "SPY×FAMILY – Operation Picknick": {
+      "style": "jazzy spy comedy soundtrack, swing band, muted trumpet, upright bass, warm family charm"
+    },
+    "Final Fantasy VII – Planet, Mako & Midgar": {
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city"
+    },
+    "Final Fantasy VII – Stimmen & Beziehungen": {
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city"
+    },
+    "Final Fantasy VII – ECHO: Orte & Geheimnisse": {
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city"
+    }
+  },
+  "cards": {
+    "Ayu Ikue": {
+      "theme": "sparkling idol pop synth hook, proud and bubbly"
+    },
+    "Marina Wakatsuki": {
+      "theme": "elegant boardroom strings with a dark velvet cello",
+      "moods": [
+        "calm",
+        "tension",
+        "romance"
+      ]
+    },
+    "Cosmos": {
+      "theme": "playful cat-like pizzicato and twinkling bells, genki"
+    },
+    "Hazel Williams": {
+      "theme": "sporty brass stabs and a bright clap beat",
+      "moods": [
+        "adventure",
+        "calm"
+      ]
+    },
+    "Hifumi Yamamoto": {
+      "theme": "graceful koto melody, calm and refined"
+    },
+    "Yue": {
+      "theme": "regal harpsichord motif with a dark choir shadow",
+      "moods": [
+        "tension",
+        "romance",
+        "sorrow"
+      ]
+    },
+    "Sora": {
+      "theme": "cocky chiptune lead, confident gamer swagger",
+      "moods": [
+        "adventure",
+        "tension"
+      ]
+    },
+    "Shiro": {
+      "theme": "quiet music box melody, precise and fragile"
+    },
+    "Jibril": {
+      "theme": "ethereal angelic harp and choir pads, curious and ancient",
+      "moods": [
+        "mystery",
+        "romance",
+        "calm"
+      ]
+    },
+    "Stephanie Dola": {
+      "theme": "flustered pizzicato and a sweet clarinet line"
+    },
+    "Izuna Hatsuse": {
+      "theme": "bouncy shamisen riff, beastly and cute",
+      "moods": [
+        "adventure",
+        "combat"
+      ]
+    },
+    "Chlammy Zell": {
+      "theme": "cunning oboe line over tense strings",
+      "moods": [
+        "tension",
+        "sorrow"
+      ]
+    },
+    "Fiel Nirvalen": {
+      "theme": "airy elven flute, playful and sly"
+    },
+    "Hayase Nagatoro": {
+      "theme": "teasing bass slides and playful handclaps",
+      "moods": [
+        "calm",
+        "romance"
+      ]
+    },
+    "Marin Kitagawa": {
+      "theme": "bright pop guitar and sparkly synths, cosplay enthusiasm"
+    },
+    "Frieren": {
+      "theme": "gentle elven flute and celesta, timeless and calm",
+      "moods": [
+        "calm",
+        "sorrow",
+        "adventure"
+      ]
+    },
+    "Ren Takahashi": {
+      "theme": "warm acoustic guitar arpeggio, quiet photographer's eye"
+    },
+    "Aoi Mizuno": {
+      "theme": "soft piano melody like turning book pages"
+    },
+    "Yor Forger": {
+      "theme": "elegant waltz with a hidden sharp edge",
+      "moods": [
+        "calm",
+        "romance",
+        "combat"
+      ]
+    },
+    "Megumin": {
+      "theme": "dramatic orchestral crescendo ending in an explosive timpani hit",
+      "moods": [
+        "adventure",
+        "combat"
+      ]
+    },
+    "Kaguya Shinomiya": {
+      "theme": "refined classical piano with a proud flourish",
+      "moods": [
+        "romance",
+        "tension"
+      ]
+    },
+    "Lucy": {
+      "theme": "haunting solo voice motif and a lonely music box",
+      "moods": [
+        "sorrow",
+        "tension"
+      ]
+    },
+    "Chilchuck Tims": {
+      "theme": "nimble plucked lute, wary and dry-humored"
+    },
+    "Laios Touden": {
+      "theme": "cheerful recorder tune, endlessly curious about monsters",
+      "moods": [
+        "calm",
+        "adventure"
+      ]
+    },
+    "Marcille Donato": {
+      "theme": "bright elven harp with a fussy flute flourish"
+    },
+    "Senshi": {
+      "theme": "steady low bassoon and kitchen percussion, hearty and kind",
+      "moods": [
+        "calm",
+        "tavern"
+      ]
+    },
+    "Itaru Hashida": {
+      "theme": "8-bit synth bleeps and a laid-back bassline"
+    },
+    "Mayuri Shiina": {
+      "theme": "gentle whistled melody, innocent and warm",
+      "moods": [
+        "calm",
+        "sorrow"
+      ]
+    },
+    "Okabe Rintarou": {
+      "theme": "theatrical mad scientist organ riff, dramatic and lonely",
+      "moods": [
+        "tension",
+        "sorrow",
+        "mystery"
+      ]
+    },
+    "Suzuha Amane": {
+      "theme": "determined acoustic guitar strum carrying a hidden urgency",
+      "moods": [
+        "adventure",
+        "sorrow"
+      ]
+    },
+    "Chisato Nishikigi": {
+      "theme": "upbeat funky guitar riff, carefree and kind",
+      "moods": [
+        "calm",
+        "adventure",
+        "combat"
+      ]
+    },
+    "Kurumi": {
+      "theme": "glitchy hacker synth arpeggio, lazy and clever",
+      "moods": [
+        "tension",
+        "mystery",
+        "calm"
+      ]
+    },
+    "Mizuki Nakahara": {
+      "theme": "tipsy lounge saxophone, dramatic and loud"
+    },
+    "Takina Inoue": {
+      "theme": "precise staccato strings, serious and loyal",
+      "moods": [
+        "tension",
+        "combat",
+        "calm"
+      ]
+    },
+    "Asuna Yuuki": {
+      "theme": "graceful violin line, brave and warm",
+      "moods": [
+        "romance",
+        "combat",
+        "calm"
+      ]
+    },
+    "Kirito (Kazuto Kirigaya)": {
+      "theme": "lone electric guitar over strings, a solo swordsman",
+      "moods": [
+        "combat",
+        "adventure",
+        "sorrow"
+      ]
+    },
+    "Klein (Ryoutarou Tsuboi)": {
+      "theme": "good-natured brass fanfare, a loyal friend",
+      "moods": [
+        "tavern",
+        "adventure"
+      ]
+    },
+    "Lisbeth (Rika Shinozaki)": {
+      "theme": "bright anvil chimes and cheerful flute"
+    },
+    "Mint": {
+      "theme": "playful cat-like synth pluck, smug and cute"
+    },
+    "Iroi": {
+      "theme": "dreamy pads and sleepy chimes"
+    },
+    "Lacrimosa": {
+      "theme": "gothic choir motif, mysterious and quietly sad",
+      "moods": [
+        "mystery",
+        "sorrow"
+      ]
+    },
+    "Nanally Colucci": {
+      "theme": "jazzy mafia swing with a kitten bounce"
+    },
+    "Linko": {
+      "theme": "wobbly telepathic theremin, eccentric and curious",
+      "moods": [
+        "mystery",
+        "calm"
+      ]
+    },
+    "Esper Zero (Female)": {
+      "theme": "mysterious synth bell motif, calm and perceptive",
+      "moods": [
+        "mystery",
+        "calm"
+      ]
+    },
+    "Esper Zero (Male)": {
+      "theme": "mysterious synth bell motif, calm and perceptive",
+      "moods": [
+        "mystery",
+        "calm"
+      ]
+    },
+    "Shinku": {
+      "theme": "fierce taiko and electric guitar, dragon pride",
+      "moods": [
+        "combat",
+        "tension"
+      ]
+    },
+    "Emilia": {
+      "theme": "crystalline harp and gentle strings, kind and pure",
+      "moods": [
+        "calm",
+        "romance",
+        "sorrow"
+      ]
+    },
+    "Rem": {
+      "theme": "devoted cello melody, warm and steadfast",
+      "moods": [
+        "romance",
+        "sorrow",
+        "combat"
+      ]
+    },
+    "Ram": {
+      "theme": "crisp, aloof flute line"
+    },
+    "Echidna": {
+      "theme": "enigmatic music box and whispering choir",
+      "moods": [
+        "mystery",
+        "tension"
+      ]
+    },
+    "Beatrice": {
+      "theme": "old library music box, prim and lonely",
+      "moods": [
+        "mystery",
+        "sorrow"
+      ]
+    },
+    "Subaru Natsuki": {
+      "theme": "stubborn heartbeat drum and a hopeful piano",
+      "moods": [
+        "tension",
+        "sorrow"
+      ]
+    },
+    "Ichika Nakano": {
+      "theme": "easygoing jazz piano, big-sister warmth"
+    },
+    "Nino Nakano": {
+      "theme": "sharp then sweet violin, fierce and caring",
+      "moods": [
+        "romance",
+        "tension"
+      ]
+    },
+    "Miku Nakano": {
+      "theme": "soft headphone lo-fi beat, shy and devoted"
+    },
+    "Yotsuba Nakano": {
+      "theme": "bright marching snare and sunny whistle",
+      "moods": [
+        "adventure",
+        "calm"
+      ]
+    },
+    "Itsuki Nakano": {
+      "theme": "earnest piano with a stubborn bass note"
+    },
+    "Futaro Uesugi": {
+      "theme": "dry ticking metronome and focused piano",
+      "moods": [
+        "tension",
+        "calm"
+      ]
+    },
+    "Ainz Ooal Gown": {
+      "theme": "deep pipe organ chord, absolute undead majesty",
+      "moods": [
+        "boss",
+        "tension"
+      ]
+    },
+    "Albedo": {
+      "theme": "dark romantic strings with a jealous edge",
+      "moods": [
+        "romance",
+        "tension"
+      ]
+    },
+    "Shalltear Bloodfallen": {
+      "theme": "gothic harpsichord and blood-red choir",
+      "moods": [
+        "combat",
+        "tension"
+      ]
+    },
+    "Mara Venn": {
+      "theme": "steady commanding french horn"
+    },
+    "Juno Serrat": {
+      "theme": "adventurous slide guitar over synths",
+      "moods": [
+        "adventure",
+        "calm"
+      ]
+    },
+    "Saeli": {
+      "theme": "ancient wordless vocalise texture and singing bowls",
+      "moods": [
+        "mystery",
+        "calm"
+      ]
+    },
+    "Dr. Idris Vale": {
+      "theme": "warm clarinet and soft heartbeat pulse"
+    },
+    "Kian Rook": {
+      "theme": "mechanical rhythm of clanking percussion and warm bass"
+    },
+    "IVO": {
+      "theme": "precise synthetic arpeggio, gentle and curious",
+      "moods": [
+        "mystery",
+        "calm"
+      ]
+    },
+    "Liora Sonnenfaden": {
+      "theme": "golden arcane harp shimmer"
+    },
+    "Vaelis Morgenpfad": {
+      "theme": "ranger's wooden flute, alert and steady",
+      "moods": [
+        "adventure",
+        "tension"
+      ]
+    },
+    "Bo Wolkenkrug": {
+      "theme": "cheerful erhu and a brewmaster's clinking jug",
+      "moods": [
+        "tavern",
+        "calm"
+      ]
+    },
+    "Gromak Aschenfaust": {
+      "theme": "heavy war drums and a gruff horn",
+      "moods": [
+        "combat",
+        "tension"
+      ]
+    },
+    "Mira Dämmerfrost": {
+      "theme": "cold frost chimes and a ghostly violin",
+      "moods": [
+        "mystery",
+        "sorrow"
+      ]
+    },
+    "Anya Forger": {
+      "theme": "mischievous glockenspiel and kazoo, telepathic giggles"
+    },
+    "Loid Forger": {
+      "theme": "cool spy jazz trumpet",
+      "moods": [
+        "tension",
+        "adventure"
+      ]
+    },
+    "Tifa Lockhart": {
+      "theme": "warm bar-piano melody with a strong heart",
+      "moods": [
+        "calm",
+        "romance",
+        "combat"
+      ]
+    },
+    "Aerith Gainsborough": {
+      "theme": "gentle flower-field flute and harp, hopeful and bittersweet",
+      "moods": [
+        "calm",
+        "romance",
+        "sorrow"
+      ]
+    },
+    "Cloud Strife": {
+      "theme": "brooding electric guitar over low strings",
+      "moods": [
+        "combat",
+        "sorrow",
+        "tension"
+      ]
+    },
+    "Sephiroth": {
+      "theme": "ominous chanting choir motif, cold and overwhelming",
+      "moods": [
+        "boss",
+        "tension"
+      ]
+    }
+  }
+}

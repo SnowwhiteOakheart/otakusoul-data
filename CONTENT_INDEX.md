@@ -73,6 +73,7 @@ Hier wird beschrieben, an welchen Stellen im OtakuSoul-Codebase (`OtakuSoul/src-
   * `src-tauri/src/modules/emotions.rs` erkennt Emotionen und zusätzliche Porträtslots; `src/utils/characterPortraits.ts` wählt die in `extensions.expressions` hinterlegten Bilder aus (`PORTRAIT_MOODS`: sechs Grundstimmungen plus neun Zusatzslots, insgesamt 15). Overlord enthält alle 15; ältere Sechser-Sätze bleiben über den Stimmungs-Fallback kompatibel.
 * **Stimme:**
   * `extensions.otakusoul_voice.description` (Englisch): `src/services/characterVoice.ts` füllt damit eine leere Stimmbeschreibung der Figur (Qwen3-TTS VoiceDesign, OpenAI-TTS); setzen mit `tools/set_card_voices.py`.
+  * `extensions.otakusoul_music` (Englisch): Musik für ACE-Step – Szenen `set`/`style`/`moods`, Lorebooks `style`, Karten `theme`; Quelle `tools/music_settings.json`, schreiben mit `tools/set_music.py tools/music_settings.json` (`--check` prüft nur).
 * **Langzeitgedächtnis:**
   * `src-tauri/src/modules/memory/soul.rs`: Verwaltet Soul Memory, Fakten-Extraktion und Kontextgedächtnis der Figur.
 
@@ -143,6 +144,7 @@ python3 tools/validate_aobane.py
 
 # 4. Stimmbeschreibungen setzen ({"<Kartenname>": "<Beschreibung>"}; --check schreibt nichts):
 python3 tools/set_card_voices.py stimmen.json --check
+python3 tools/set_music.py tools/music_settings.json --check
 ```
 
 ---
