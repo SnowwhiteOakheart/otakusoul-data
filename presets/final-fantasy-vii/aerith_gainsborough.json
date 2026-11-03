@@ -30,7 +30,16 @@
         "relaxed": "expressions/aerith_gainsborough/relaxed.webp",
         "surprised": "expressions/aerith_gainsborough/surprised.webp",
         "angry": "expressions/aerith_gainsborough/angry.webp",
-        "sad": "expressions/aerith_gainsborough/sad.webp"
+        "sad": "expressions/aerith_gainsborough/sad.webp",
+        "blush": "expressions/aerith_gainsborough/blush.webp",
+        "teasing": "expressions/aerith_gainsborough/teasing.webp",
+        "fear": "expressions/aerith_gainsborough/fear.webp",
+        "disgust": "expressions/aerith_gainsborough/disgust.webp",
+        "crying": "expressions/aerith_gainsborough/crying.webp",
+        "seductive": "expressions/aerith_gainsborough/seductive.webp",
+        "aroused": "expressions/aerith_gainsborough/aroused.webp",
+        "ecstasy": "expressions/aerith_gainsborough/ecstasy.webp",
+        "afterglow": "expressions/aerith_gainsborough/afterglow.webp"
       },
       "otakusoul_voice": {
         "description": "Adult female voice, light warm mezzo register, bright clear diction, playful lilting phrasing with grounded reflective pauses; calm and sincere under pressure."

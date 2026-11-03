@@ -513,3 +513,4 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Prompts, Quellen und Paketbeschreibung dokumentiert; Inhaltsvalidierung und Download-Verknüpfungen vor Veröffentlichung geprüft.
 - [x] **Emilia** (re-zero): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Tifa Lockhart** (final-fantasy-vii): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+- [x] **Aerith Gainsborough** (final-fantasy-vii): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
