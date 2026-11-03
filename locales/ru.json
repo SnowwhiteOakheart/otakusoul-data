@@ -92,5 +92,14 @@
   "Promise not kept: {}": "Обещание не выполнено: {}",
   "Plan dropped: {}": "План отменён: {}",
   "Ask Lirwen whether she can decipher these runes": "Спросить Лирвен, может ли она расшифровать эти знаки",
-  "Keen mind": "Ясный ум"
+  "Keen mind": "Ясный ум",
+  "Game master": "Ведущий",
+  "Place": "Место",
+  "Time": "Время",
+  "Goals": "Цели",
+  "Lasting consequences": "Долгосрочные последствия",
+  "Date": "Дата",
+  "Thinks": "Думает",
+  "Whispers": "Шепчет",
+  "Made with OtakuSoul": "Создано в OtakuSoul"
 }
