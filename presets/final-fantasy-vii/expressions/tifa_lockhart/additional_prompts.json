@@ -1,0 +1,49 @@
+{
+  "tool": "OpenAI image_gen (eingebaut)",
+  "date": "2026-11-03",
+  "generation_dates": {
+    "blush": "2026-11-03",
+    "teasing": "2026-11-03",
+    "fear": "2026-11-03",
+    "disgust": "2026-11-03",
+    "crying": "2026-11-03",
+    "seductive": "2026-11-03",
+    "aroused": "2026-11-03",
+    "ecstasy": "2026-11-03",
+    "afterglow": "2026-11-03"
+  },
+  "reference": "../../tifa_lockhart.png",
+  "original_reference": "../../tifa_lockhart.png",
+  "references_by_slot": {
+    "blush": "../../tifa_lockhart.png",
+    "teasing": "../../tifa_lockhart.png",
+    "fear": "../../tifa_lockhart.png",
+    "disgust": "../../tifa_lockhart.png",
+    "crying": "../../tifa_lockhart.png",
+    "seductive": "../../tifa_lockhart.png",
+    "aroused": "../../tifa_lockhart.png",
+    "ecstasy": "../../tifa_lockhart.png",
+    "afterglow": "../../tifa_lockhart.png"
+  },
+  "reference_edit_prompt": null,
+  "reference_note": "Vorhandenes KI-Fanart-Porträt; Identität, Alter, Kleidung und Stil erhalten.",
+  "prompts": {
+    "blush": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: shy embarrassed pink cheeks, small hesitant smile, slightly averted gaze. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "teasing": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: playful teasing, knowing tilted smile and one raised eyebrow. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "fear": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: frightened, widened eyes, raised brows, tense parted lips. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "disgust": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: displeased disgust, wrinkled nose and narrowed eyes. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "crying": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: crying with clear tears down cheeks, sorrowful trembling mouth. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "seductive": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: polite self-assured welcoming smile and calm direct eye contact, entirely nonsexual. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "aroused": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: heightened alert attention before a difficult task, focused wide eyes, determined lips, entirely nonsexual. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "ecstasy": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: overjoyed after a victory, radiant broad smile and joyful eyes. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "afterglow": "Use case: identity-preserve. One new SFW portrait of Tifa Lockhart based closely on the reference, expression: peaceful relief after completing a task, gentle relieved smile, softened eyelids, entirely nonsexual. Preserve her identity, long dark hair, brown eyes, earrings, white athletic top, dark straps, red gloves and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression, no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal."
+  },
+  "slot_semantics": {
+    "seductive": "SFW: höflich-selbstsicherer Empfang, keine sexuelle Verführung",
+    "aroused": "SFW: erhöhte Aufmerksamkeit vor einer Aufgabe, keine sexuelle Erregung",
+    "ecstasy": "SFW: überschwängliche Freude nach einem Erfolg",
+    "afterglow": "SFW: Erleichterung und Ruhe nach einer bewältigten Aufgabe"
+  },
+  "postprocessing": "Oben ausgerichteter Lanczos-Ausschnitt auf 640×800 WebP, Qualität 92. Bestehende Porträtpixel und Emotionsbilder bleiben unverändert.",
+  "provenance": "Inoffizielle KI-generierte Fanart; vorhandene Herkunfts- und Rechtehinweise des jeweiligen Pakets gelten weiter. Alle Varianten sind nichtsexuell und altersgerecht."
+}

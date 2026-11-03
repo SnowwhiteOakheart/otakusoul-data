@@ -30,7 +30,16 @@
         "relaxed": "expressions/tifa_lockhart/relaxed.webp",
         "surprised": "expressions/tifa_lockhart/surprised.webp",
         "angry": "expressions/tifa_lockhart/angry.webp",
-        "sad": "expressions/tifa_lockhart/sad.webp"
+        "sad": "expressions/tifa_lockhart/sad.webp",
+        "blush": "expressions/tifa_lockhart/blush.webp",
+        "teasing": "expressions/tifa_lockhart/teasing.webp",
+        "fear": "expressions/tifa_lockhart/fear.webp",
+        "disgust": "expressions/tifa_lockhart/disgust.webp",
+        "crying": "expressions/tifa_lockhart/crying.webp",
+        "seductive": "expressions/tifa_lockhart/seductive.webp",
+        "aroused": "expressions/tifa_lockhart/aroused.webp",
+        "ecstasy": "expressions/tifa_lockhart/ecstasy.webp",
+        "afterglow": "expressions/tifa_lockhart/afterglow.webp"
       },
       "otakusoul_voice": {
         "description": "Adult female voice, warm middle register, clear and grounded, gentle conversational pace, firm breath-supported delivery in danger; natural restrained emotion."
