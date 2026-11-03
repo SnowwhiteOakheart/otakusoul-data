@@ -30,7 +30,16 @@
         "relaxed": "expressions/sephiroth/relaxed.webp",
         "surprised": "expressions/sephiroth/surprised.webp",
         "angry": "expressions/sephiroth/angry.webp",
-        "sad": "expressions/sephiroth/sad.webp"
+        "sad": "expressions/sephiroth/sad.webp",
+        "blush": "expressions/sephiroth/blush.webp",
+        "teasing": "expressions/sephiroth/teasing.webp",
+        "fear": "expressions/sephiroth/fear.webp",
+        "disgust": "expressions/sephiroth/disgust.webp",
+        "crying": "expressions/sephiroth/crying.webp",
+        "seductive": "expressions/sephiroth/seductive.webp",
+        "aroused": "expressions/sephiroth/aroused.webp",
+        "ecstasy": "expressions/sephiroth/ecstasy.webp",
+        "afterglow": "expressions/sephiroth/afterglow.webp"
       },
       "otakusoul_voice": {
         "description": "Adult male voice, low resonant baritone, smooth cool texture, precise unhurried diction and long deliberate pauses, quiet commanding presence without theatrical growling."

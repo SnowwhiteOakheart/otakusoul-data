@@ -515,3 +515,4 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] **Tifa Lockhart** (final-fantasy-vii): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Aerith Gainsborough** (final-fantasy-vii): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
 - [x] **Cloud Strife** (final-fantasy-vii): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
+- [x] **Sephiroth** (final-fantasy-vii): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.
