@@ -72,6 +72,9 @@ Damit die Inhalte für alle Nutzer sicher, hochwertig und legal bleiben, beachte
 3. **Strikt jugendfrei (SFW & Safe):** Keine pornografischen, gewaltverherrlichenden oder jugendgefährdenden Inhalte. Charaktere müssen stets altersgerecht dargestellt werden; Minderjährige dürfen keinesfalls sexualisiert werden.
 4. **Respektierung von Rechten Dritter:** Keine geschützten Modellgewichte oder gated Modelle einbinden. `recommended_models.json` nimmt nur Modelle auf, die sich ohne Login laden lassen; Modelle ohne freie Lizenz (MIT, Apache-2.0, BSD) brauchen einen Lizenzhinweis und werden in der App gekennzeichnet.
 
+#### 📤 Direkt aus der App einreichen
+In OtakuSoul geht es auch ohne Fork: an einer Figur im Charakter-Archiv (Teilen-Symbol) oder im Stage-Menü einer Geschichte („Zum Hub beisteuern“). Die App prüft, was das Hub braucht, fragt Name, Lizenz (CC0 vorbelegt, CC BY, CC BY-SA) und Altersmarke ab und speichert ein ZIP im Ordner-Layout dieses Repos (`cards_gateway/`, `stages_gateway/`, dazu `EINREICHUNG.json` mit Prüfsummen). Danach öffnet sich hier ein vorbefülltes Issue; das ZIP wird hineingezogen und wir prüfen es (Checkliste in der Vorlage) und nehmen es per Pull Request auf. Inhalte ab 18 gehen an `otakusoul-data-nsfw`.
+
 #### 🛠️ Wie reiche ich neue Inhalte ein? (Schritt-für-Schritt)
 1. **Forken:** Forke das Repository auf GitHub und klone deinen Fork lokal.
 2. **Preset-Ordner anlegen:** Erstelle unter `presets/<dein-paket>/` einen neuen Ordner (`kebab-case`).
@@ -167,6 +170,9 @@ To keep the repository safe, high-quality, and legal for all users, please adher
 2. **AI Transparency & Image Rights:** Use your own AI-generated fan art or original artwork for portraits and expressions. Document your generation prompts and parameters in `image_prompts.json` (see existing presets for reference).
 3. **Strictly Safe for Work (SFW):** No pornographic, excessively violent, or adult-themed content. Minor characters must always be depicted age-appropriately and must never be sexualized.
 4. **Third-Party Rights:** Do not include proprietary model binaries or gated downloads. `recommended_models.json` only accepts models that download without a login; models without a free licence (MIT, Apache-2.0, BSD) need a licence note and are marked in the app.
+
+#### 📤 Submit straight from the app
+OtakuSoul can do it without a fork: on a character in the library (share icon) or in a story's Stage menu (“Contribute to the hub”). The app checks what the hub needs, asks for a name, a licence (CC0 preselected, CC BY, CC BY-SA) and the age mark, and saves a ZIP in this repository's layout (`cards_gateway/`, `stages_gateway/`, plus `EINREICHUNG.json` with checksums). A prefilled issue then opens here; drag the ZIP into it and we review it (checklist in the template) and add it by pull request. Adult content goes to `otakusoul-data-nsfw`.
 
 #### 🛠️ How to Contribute (Step-by-Step)
 1. **Fork:** Fork this repository and clone your fork locally.

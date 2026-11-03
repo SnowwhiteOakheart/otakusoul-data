@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Wie reiche ich Inhalte ein? / How to contribute
+    url: https://github.com/SnowwhiteOakheart/otakusoul-data#-mitmachen--eigene-inhalte-beisteuern-community-contributions
+    about: Regeln, Validator und Pull-Request-Weg
