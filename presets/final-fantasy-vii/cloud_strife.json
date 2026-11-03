@@ -30,7 +30,16 @@
         "relaxed": "expressions/cloud_strife/relaxed.webp",
         "surprised": "expressions/cloud_strife/surprised.webp",
         "angry": "expressions/cloud_strife/angry.webp",
-        "sad": "expressions/cloud_strife/sad.webp"
+        "sad": "expressions/cloud_strife/sad.webp",
+        "blush": "expressions/cloud_strife/blush.webp",
+        "teasing": "expressions/cloud_strife/teasing.webp",
+        "fear": "expressions/cloud_strife/fear.webp",
+        "disgust": "expressions/cloud_strife/disgust.webp",
+        "crying": "expressions/cloud_strife/crying.webp",
+        "seductive": "expressions/cloud_strife/seductive.webp",
+        "aroused": "expressions/cloud_strife/aroused.webp",
+        "ecstasy": "expressions/cloud_strife/ecstasy.webp",
+        "afterglow": "expressions/cloud_strife/afterglow.webp"
       },
       "otakusoul_voice": {
         "description": "Adult male voice, youthful low mid register, dry slightly husky texture, economical clipped phrasing, restrained feeling and natural pauses; intensity without shouting."

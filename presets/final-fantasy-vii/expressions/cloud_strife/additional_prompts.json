@@ -1,0 +1,49 @@
+{
+  "tool": "OpenAI image_gen (eingebaut)",
+  "date": "2026-11-03",
+  "generation_dates": {
+    "blush": "2026-11-03",
+    "teasing": "2026-11-03",
+    "fear": "2026-11-03",
+    "disgust": "2026-11-03",
+    "crying": "2026-11-03",
+    "seductive": "2026-11-03",
+    "aroused": "2026-11-03",
+    "ecstasy": "2026-11-03",
+    "afterglow": "2026-11-03"
+  },
+  "reference": "../../cloud_strife.png",
+  "original_reference": "../../cloud_strife.png",
+  "references_by_slot": {
+    "blush": "../../cloud_strife.png",
+    "teasing": "../../cloud_strife.png",
+    "fear": "../../cloud_strife.png",
+    "disgust": "../../cloud_strife.png",
+    "crying": "../../cloud_strife.png",
+    "seductive": "../../cloud_strife.png",
+    "aroused": "../../cloud_strife.png",
+    "ecstasy": "../../cloud_strife.png",
+    "afterglow": "../../cloud_strife.png"
+  },
+  "reference_edit_prompt": null,
+  "reference_note": "Vorhandenes KI-Fanart-Porträt; Identität, Alter, Kleidung und Stil erhalten.",
+  "prompts": {
+    "blush": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: shy embarrassed pink cheeks, small hesitant smile, slightly averted gaze. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "teasing": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: playful teasing, knowing tilted smile and one raised eyebrow. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "fear": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: frightened, widened eyes, raised brows, tense parted lips. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "disgust": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: displeased disgust, wrinkled nose and narrowed eyes. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "crying": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: crying with clear tears down cheeks, sorrowful trembling mouth. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "seductive": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: polite self-assured welcoming smile and calm direct eye contact, entirely nonsexual. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "aroused": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: heightened alert attention before a difficult task, focused wide eyes, determined lips, entirely nonsexual. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "ecstasy": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: overjoyed after a victory, radiant broad smile and joyful eyes. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal.",
+    "afterglow": "Use case: identity-preserve. One new SFW portrait of Cloud Strife based closely on the reference, expression: peaceful relief after completing a task, gentle relieved smile, softened eyelids, entirely nonsexual. Preserve his masculine face identity, blue eyes, spiky blond hair, black ribbed sleeveless turtleneck, straps, metal shoulder armor and industrial night Midgar background. Same detailed painterly 3D-anime illustration, head and upper torso portrait 4:5. Clear facial expression suited to his reserved personality; no added props, no text, no watermark. Fully clothed wholesome nonsexual portrayal."
+  },
+  "slot_semantics": {
+    "seductive": "SFW: höflich-selbstsicherer Empfang, keine sexuelle Verführung",
+    "aroused": "SFW: erhöhte Aufmerksamkeit vor einer Aufgabe, keine sexuelle Erregung",
+    "ecstasy": "SFW: überschwängliche Freude nach einem Erfolg",
+    "afterglow": "SFW: Erleichterung und Ruhe nach einer bewältigten Aufgabe"
+  },
+  "postprocessing": "Oben ausgerichteter Lanczos-Ausschnitt auf 640×800 WebP, Qualität 92. Bestehende Porträtpixel und Emotionsbilder bleiben unverändert.",
+  "provenance": "Inoffizielle KI-generierte Fanart; vorhandene Herkunfts- und Rechtehinweise des jeweiligen Pakets gelten weiter. Alle Varianten sind nichtsexuell und altersgerecht."
+}
