@@ -511,3 +511,4 @@ Prompts, Herkunft und nichtsexuelle Interpretation der technischen Romance-Slots
 - [x] Bestehende Yor mit unveränderten Bildpixeln, Lore-Verknüpfung und ergänzten Dialogen/Wissensgrenzen eingebunden.
 - [x] Zwei viersprachige Lorebooks (14 Einträge), Familien-Mystery-Story, Cover und Museumsgarten erstellt; Hub-Sammlung für alle drei Figuren angelegt.
 - [x] Prompts, Quellen und Paketbeschreibung dokumentiert; Inhaltsvalidierung und Download-Verknüpfungen vor Veröffentlichung geprüft.
+- [x] **Emilia** (re-zero): alle 15 Slots, 9 neue eigenständige SFW-Bilder, Promptnachweis und PNG-/Hub-Metadaten geprüft.

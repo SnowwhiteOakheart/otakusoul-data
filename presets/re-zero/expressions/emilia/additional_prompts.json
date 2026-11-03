@@ -1,0 +1,49 @@
+{
+  "tool": "OpenAI image_gen (eingebaut)",
+  "date": "2026-11-03",
+  "generation_dates": {
+    "blush": "2026-11-03",
+    "teasing": "2026-11-03",
+    "fear": "2026-11-03",
+    "disgust": "2026-11-03",
+    "crying": "2026-11-03",
+    "seductive": "2026-11-03",
+    "aroused": "2026-11-03",
+    "ecstasy": "2026-11-03",
+    "afterglow": "2026-11-03"
+  },
+  "reference": "../../emilia.png",
+  "original_reference": "../../emilia.png",
+  "references_by_slot": {
+    "blush": "../../emilia.png",
+    "teasing": "../../emilia.png",
+    "fear": "../../emilia.png",
+    "disgust": "../../emilia.png",
+    "crying": "../../emilia.png",
+    "seductive": "../../emilia.png",
+    "aroused": "../../emilia.png",
+    "ecstasy": "../../emilia.png",
+    "afterglow": "../../emilia.png"
+  },
+  "reference_edit_prompt": null,
+  "reference_note": "Vorhandenes KI-Fanart-Porträt; Identität, Alter, Kleidung und Stil erhalten.",
+  "prompts": {
+    "blush": "Use case: identity-preserve. Create one portrait expression variant of Emilia from the reference for a SFW anime character card. Expression: shy embarrassment, visibly pink cheeks, hesitant little smile, eyes slightly averted (blush). Preserve exactly her face identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume and snowy castle background, polished anime illustration style. Portrait aspect 4:5, head and upper torso, same scale. Entirely wholesome, nonsexual, no text or watermark. Save the generated image.",
+    "teasing": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: playful teasing, knowing tilted smile and one raised eyebrow. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark.",
+    "fear": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: frightened, widened eyes, raised brows, tense parted lips. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark.",
+    "disgust": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: displeased disgust, wrinkled nose and narrowed eyes. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark.",
+    "crying": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: crying with clear tears down cheeks, sorrowful trembling mouth. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark.",
+    "seductive": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: polite self-assured welcoming smile and calm direct eye contact, entirely nonsexual. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark.",
+    "aroused": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: heightened alert attention before a difficult task, focused wide eyes, determined lips, entirely nonsexual. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark.",
+    "ecstasy": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: overjoyed after a victory, radiant broad smile and joyful eyes. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark.",
+    "afterglow": "Use case: identity-preserve. Create one SFW anime portrait expression variant of Emilia from the reference. Expression: peaceful relief after completing a task, gentle relieved smile, softened eyelids, entirely nonsexual. Preserve identity, silver braided hair, purple eyes, elf ears, white flower, white-and-purple costume, snowy castle background and polished anime style. Portrait 4:5, head and upper torso at same scale as reference. Wholesome and nonsexual, no text or watermark."
+  },
+  "slot_semantics": {
+    "seductive": "SFW: höflich-selbstsicherer Empfang, keine sexuelle Verführung",
+    "aroused": "SFW: erhöhte Aufmerksamkeit vor einer Aufgabe, keine sexuelle Erregung",
+    "ecstasy": "SFW: überschwängliche Freude nach einem Erfolg",
+    "afterglow": "SFW: Erleichterung und Ruhe nach einer bewältigten Aufgabe"
+  },
+  "postprocessing": "Oben ausgerichteter Lanczos-Ausschnitt auf 640×800 WebP, Qualität 92. Bestehende Porträtpixel und Emotionsbilder bleiben unverändert.",
+  "provenance": "Inoffizielle KI-generierte Fanart; vorhandene Herkunfts- und Rechtehinweise des jeweiligen Pakets gelten weiter. Alle Varianten sind nichtsexuell und altersgerecht."
+}

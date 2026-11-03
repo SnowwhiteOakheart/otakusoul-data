@@ -23,7 +23,16 @@
         "sad": "expressions/emilia/sad.webp",
         "angry": "expressions/emilia/angry.webp",
         "surprised": "expressions/emilia/surprised.webp",
-        "relaxed": "expressions/emilia/relaxed.webp"
+        "relaxed": "expressions/emilia/relaxed.webp",
+        "blush": "expressions/emilia/blush.webp",
+        "teasing": "expressions/emilia/teasing.webp",
+        "fear": "expressions/emilia/fear.webp",
+        "disgust": "expressions/emilia/disgust.webp",
+        "crying": "expressions/emilia/crying.webp",
+        "seductive": "expressions/emilia/seductive.webp",
+        "aroused": "expressions/emilia/aroused.webp",
+        "ecstasy": "expressions/emilia/ecstasy.webp",
+        "afterglow": "expressions/emilia/afterglow.webp"
       },
       "otakusoul_i18n": {
         "source_language": "en",
