@@ -51,6 +51,8 @@ ATTACHMENT = re.compile(
 
 errors: list[str] = []
 warnings: list[str] = []
+# SHA-256 of the checked ZIP: shows in the comment, so a package swapped after review stands out.
+package_sha = ''
 
 
 def this_repo() -> str:
@@ -133,7 +135,7 @@ def local_traces(value, where: str):
 
 
 def check_manifest(manifest, files: dict[str, bytes]) -> dict | None:
-    if not isinstance(manifest, dict) or manifest.get('schema') != 1:
+    if not isinstance(manifest, dict) or manifest.get('schema') != 1 or not isinstance(manifest.get('files'), list):
         errors.append('`EINREICHUNG.json`: unbekanntes Format (schema 1 erwartet).')
         return None
     if manifest.get('kind') not in ('character', 'story'):
@@ -328,6 +330,8 @@ def report(manifest: dict | None, applied: str | None) -> str:
         lines.append(f'**{manifest.get("kind")}** „{manifest.get("title")}“ von {manifest.get("author")} · '
                      f'{manifest.get("license")} · {"ab 18" if manifest.get("adult") else "jugendfrei"} · '
                      f'App {manifest.get("app_version", "?")}')
+    if package_sha:
+        lines.append(f'Paket SHA-256: `{package_sha}`')
     if errors:
         lines += ['', '**Fehler** (verhindern die Aufnahme):'] + [f'- {e}' for e in errors]
     if warnings:
@@ -378,8 +382,16 @@ def main():
     if data is None:
         errors.append('Kein ZIP-Anhang gefunden. Bitte das Paket aus der App ins Issue ziehen.')
         finish(2)
-    files = read_package(data)
-    result = check_package(files) if files is not None else None
+    global package_sha
+    package_sha = hashlib.sha256(data).hexdigest()
+    # Anything a hostile or broken package trips (encrypted members, wrong types in the
+    # manifest or card) still ends in a report, so the issue always gets an answer.
+    try:
+        files = read_package(data)
+        result = check_package(files) if files is not None else None
+    except Exception as e:  # noqa: BLE001
+        errors.append(f'Das Paket ließ sich nicht lesen ({type(e).__name__}: {e}).')
+        finish(1)
     manifest = result[0] if result else None
     if errors or not result:
         finish(1, manifest)

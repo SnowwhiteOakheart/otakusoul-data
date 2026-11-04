@@ -12,24 +12,24 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: einreichung-${{ github.event.issue.number }}
-  cancel-in-progress: false
-
 jobs:
   pruefen:
     if: >-
       (github.event.action == 'opened' || github.event.action == 'edited') &&
       (startsWith(github.event.issue.title, 'Beitrag:') || contains(github.event.issue.labels.*.name, 'einreichung'))
     runs-on: ubuntu-latest
+    # The newest check of an issue wins; taking it in has its own queue (below).
+    concurrency:
+      group: einreichung-pruefen-${{ github.event.issue.number }}
+      cancel-in-progress: true
     permissions:
       contents: read
       issues: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Paket prüfen
@@ -41,6 +41,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           ISSUE: ${{ github.event.issue.number }}
         run: |
+          [ -f report.md ] || echo '<!-- otakusoul-pruefung --> ❌ Die Prüfung ist abgebrochen, siehe Actions-Protokoll.' > report.md
           # One result comment per issue: a later check replaces it instead of adding another.
           id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE/comments" --paginate \
             --jq '.[] | select(.user.login == "github-actions[bot]" and (.body | contains("<!-- otakusoul-pruefung -->"))) | .id' | tail -n1)
@@ -53,13 +54,16 @@ jobs:
   aufnehmen:
     if: github.event.action == 'labeled' && github.event.label.name == 'aufnehmen'
     runs-on: ubuntu-latest
+    concurrency:
+      group: einreichung-aufnehmen-${{ github.event.issue.number }}
+      cancel-in-progress: false
     permissions:
       contents: write
       pull-requests: write
       issues: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Paket übernehmen
@@ -92,6 +96,8 @@ jobs:
             echo "Aus #$ISSUE übernommen (\`tools/check_submission.py --apply\`, danach \`validate_content.py --sync-registry\`)."
             echo
             echo "Vor dem Mergen von Hand: Rechte an Text und Bild, Altersmarke, Ton, Übersetzungen."
+            echo "Geprüft wird der Diff dieses Pull Requests, nicht der Anhang im Issue (der kann sich seit der Prüfung geändert haben)."
+            grep -m1 'Paket SHA-256' report.md || true
             echo
             echo '```'
             tail -n 30 validate.txt
@@ -114,6 +120,8 @@ jobs:
           ISSUE: ${{ github.event.issue.number }}
         run: |
           [ -f report.md ] || echo "Übernahme fehlgeschlagen, siehe Actions-Protokoll." > report.md
+          # Without the marker: the result of a later check must not overwrite the pull request link.
+          sed -i '/<!-- otakusoul-pruefung -->/d' report.md
           gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file report.md
       - name: Abbrechen, wenn das Paket Fehler hat
         if: steps.apply.outputs.ok != '1'
