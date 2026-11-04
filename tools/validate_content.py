@@ -30,6 +30,8 @@ SCENE_TEXT = ['title', 'description', 'world_context', 'starting_location', 'tim
               'opening_narration', 'first_message', 'gm_tone', 'narrator_style']
 TRIGGERS = {'keyword', 'regex', 'always_on', 'tension'}
 OBSOLETE_SCENE_FIELDS = {'conversation_method'}
+# Figures the app ships itself (OtakuSoul presets/characters): a scene may take them along.
+APP_STARTERS = {'shiori amane', 'sota minase', 'lirwen', 'faelion'}
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -185,7 +187,7 @@ def check_scene(path: str, scene: dict, names: set[str], lorebooks: set[str]):
         errors.append(f'{where}: persona "None" (leer lassen für die aktive Persona)')
     for member in scene.get('party') or []:
         name = member if isinstance(member, str) else (member or {}).get('name', '')
-        if name.lower() not in names and short_name(name) not in names:
+        if name.lower() not in names | APP_STARTERS and short_name(name) not in names:
             errors.append(f'{where}: Mitspieler „{name}“ hat keine Karte')
     for book in scene.get('lorebook') or []:
         if book not in lorebooks:
