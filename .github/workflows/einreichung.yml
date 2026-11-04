@@ -1,0 +1,120 @@
+# Contributions from the app arrive as issues with the ZIP package attached ("Beitrag: …",
+# template einreichung.md). Every new or edited issue is checked and keeps one result comment;
+# the label `aufnehmen` (only maintainers can set labels) turns a passing package into a branch
+# and a pull request. The package is data: tools/check_submission.py reads it and never runs
+# anything from it, and the issue text reaches the steps only through environment variables.
+name: Einreichung prüfen
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: einreichung-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  pruefen:
+    if: >-
+      (github.event.action == 'opened' || github.event.action == 'edited') &&
+      (startsWith(github.event.issue.title, 'Beitrag:') || contains(github.event.issue.labels.*.name, 'einreichung'))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Paket prüfen
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python3 tools/check_submission.py --issue-body-env ISSUE_BODY --report report.md || true
+      - name: Ergebnis ins Issue schreiben
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          # One result comment per issue: a later check replaces it instead of adding another.
+          id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE/comments" --paginate \
+            --jq '.[] | select(.user.login == "github-actions[bot]" and (.body | contains("<!-- otakusoul-pruefung -->"))) | .id' | tail -n1)
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -F body=@report.md > /dev/null
+          else
+            gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file report.md
+          fi
+
+  aufnehmen:
+    if: github.event.action == 'labeled' && github.event.label.name == 'aufnehmen'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Paket übernehmen
+        id: apply
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          if python3 tools/check_submission.py --issue-body-env ISSUE_BODY --apply --issue "$ISSUE" --report report.md; then
+            echo "ok=1" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Registry abgleichen und Repository prüfen
+        if: steps.apply.outputs.ok == '1'
+        run: python3 tools/validate_content.py --sync-registry > validate.txt 2>&1 || true
+      - name: Branch und Pull Request
+        if: steps.apply.outputs.ok == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          TITLE: ${{ github.event.issue.title }}
+        run: |
+          branch="beitrag/issue-$ISSUE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add cards_gateway stages_gateway soul_registry.json stages_registry.json lorebooks_registry.json
+          git commit -m "feat(hub): $TITLE (#$ISSUE)"
+          git push -f origin "$branch"
+          {
+            echo "Aus #$ISSUE übernommen (\`tools/check_submission.py --apply\`, danach \`validate_content.py --sync-registry\`)."
+            echo
+            echo "Vor dem Mergen von Hand: Rechte an Text und Bild, Altersmarke, Ton, Übersetzungen."
+            echo
+            echo '```'
+            tail -n 30 validate.txt
+            echo '```'
+            echo
+            echo "Closes #$ISSUE"
+          } > pr.md
+          if url=$(gh pr create --head "$branch" --base main --title "$TITLE" --body-file pr.md); then
+            echo "Pull Request: $url" >> report.md
+          elif url=$(gh pr view "$branch" --json url --jq .url); then
+            echo "Pull Request aktualisiert: $url" >> report.md
+          else
+            # Repositories where Actions may not open pull requests: the branch is there, one click opens it.
+            echo "Branch \`$branch\` ist angelegt; Pull Request mit einem Klick: https://github.com/$GITHUB_REPOSITORY/compare/main...$branch?expand=1" >> report.md
+          fi
+      - name: Ergebnis ins Issue schreiben
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          [ -f report.md ] || echo "Übernahme fehlgeschlagen, siehe Actions-Protokoll." > report.md
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file report.md
+      - name: Abbrechen, wenn das Paket Fehler hat
+        if: steps.apply.outputs.ok != '1'
+        run: exit 1
