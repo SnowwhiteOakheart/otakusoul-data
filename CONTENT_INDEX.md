@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 78 Charaktere (alle mit 15 SFW-Expressions) · 64 Soul Stages (Szenen) · 39 Lorebooks · 25 Presets (17 Sammlungen).
+> **Stand:** 79 Charaktere (alle mit 15 SFW-Expressions) · 64 Soul Stages (Szenen) · 39 Lorebooks · 26 Presets (17 Sammlungen).
 
 ---
 
@@ -48,6 +48,7 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 
 | Preset-Ordner | Franchise / Herkunft | Registrierte Figuren (`name` in `soul_registry.json`) | Bemerkungen / Gastauftritte |
 |---|---|---|---|
+| `hatsune-miku` | Piapro Characters | `Hatsune Miku` | Eigenständige Karte mit 15 SFW-Expressions und Studioprobe. |
 | `frieren` | Sousou no Frieren | `Frieren` | Gastauftritt in `isekai_null_mana_summoning`. |
 | `nagatoro` | Don't Toy With Me, Miss Nagatoro | `Hayase Nagatoro` | Gastauftritt in `romance_rainy_clubroom_confessions`. |
 | `marin-kitagawa` | My Dress-Up Darling | `Marin Kitagawa` | Gastauftritt in `romance_rainy_clubroom_confessions`. |

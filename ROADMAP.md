@@ -1,3 +1,9 @@
+## Hatsune Miku · 06.11.2026
+
+- **DE:** Eigenständige Hub-Karte mit nächtlicher Studioprobe, DE/EN/RU/JA, 15 SFW-Emotionsbildern, Stimmprofil und Musik-Leitmotiv.
+- **EN:** Standalone Hub card with a late-night studio rehearsal, DE/EN/RU/JA, 15 SFW expression portraits, voice profile and music theme.
+- **RU:** Самостоятельная карточка хаба с ночной репетицией, DE/EN/RU/JA, 15 портретами SFW, описанием голоса и музыкальной темой.
+
 ## Final Fantasy VII: Das Echo unter Midgar · 02.11.2026
 
 - **DE:** Neues vollständiges Fan-Abenteuer in alternativer Midgar-Kontinuität: Tifa Lockhart, Aerith Gainsborough, Cloud Strife und Sephiroth als vier mehrsprachige Character-Card-V2-Profile (DE/EN/RU/JA) mit je sechs einzeln generierten SFW-Expressions, PNG-Karte und englischer Stimmbeschreibung. Eine narrative Stage mit vier Akten, Rettungsmission, drei Enden und ca. 90 Minuten Spieldauer; drei Lorebooks mit 16 Einträgen. Zwei Hintergründe, Keyvisual-Titelbild, Prompt- und Herkunftsnachweise sowie vollständige Hub-Sammlung `final_fantasy_vii`. Sephiroth bleibt ein gegnerisches Projektionsbild; keine 5e-Regeln. Inhaltsvalidator, PNG-/JSON-Abgleich, Bildmaße, Übersetzungen und Verweise geprüft; kein Import in eine lokale App-Installation.

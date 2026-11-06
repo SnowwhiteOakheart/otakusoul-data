@@ -546,6 +546,13 @@
       "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/sephiroth.png",
       "revision": 3,
       "updated": "2026-11-03"
+    },
+    {
+      "name": "Hatsune Miku",
+      "author": "OtakuSoul-Fankarte",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/cards_gateway/hatsune_miku.png",
+      "revision": 1,
+      "updated": "2026-11-06"
     }
   ]
 }
