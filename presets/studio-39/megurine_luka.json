@@ -88,6 +88,23 @@
       },
       "otakusoul_music": {
         "theme": "warm downtempo electro-pop instrumental, soft low electric piano, brushed drums and a restrained melodic answering line"
+      },
+      "expressions": {
+        "neutral": "expressions/megurine_luka/neutral.webp",
+        "happy": "expressions/megurine_luka/happy.webp",
+        "sad": "expressions/megurine_luka/sad.webp",
+        "angry": "expressions/megurine_luka/angry.webp",
+        "surprised": "expressions/megurine_luka/surprised.webp",
+        "relaxed": "expressions/megurine_luka/relaxed.webp",
+        "blush": "expressions/megurine_luka/blush.webp",
+        "teasing": "expressions/megurine_luka/teasing.webp",
+        "fear": "expressions/megurine_luka/fear.webp",
+        "disgust": "expressions/megurine_luka/disgust.webp",
+        "crying": "expressions/megurine_luka/crying.webp",
+        "seductive": "expressions/megurine_luka/seductive.webp",
+        "aroused": "expressions/megurine_luka/aroused.webp",
+        "ecstasy": "expressions/megurine_luka/ecstasy.webp",
+        "afterglow": "expressions/megurine_luka/afterglow.webp"
       }
     }
   }

@@ -11,3 +11,5 @@ Kagamine Rin, © Crypton Future Media, Inc. 2007. Based on a work at https://pia
 Megurine Luka, © Crypton Future Media, Inc. 2009. Based on a work at https://piapro.net/license. CC BY-NC 3.0 (https://creativecommons.org/licenses/by-nc/3.0/).
 
 Die Verwendung der Figuren und der abgeleiteten Darstellungen ist auf nichtkommerzielle Zwecke beschränkt.
+
+Rin und Luka haben jeweils 15 SFW-Emotionsbilder. Die vier Romance-Slots zeigen Bühnencharme, Vorfreude, Auftrittseuphorie und Zufriedenheit nach dem Konzert. Die Bildprompts stehen bei den jeweiligen Emotionsbildern.

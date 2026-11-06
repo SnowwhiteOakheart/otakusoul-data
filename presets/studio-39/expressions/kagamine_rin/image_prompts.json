@@ -1,0 +1,65 @@
+{
+  "tool": "OpenAI ImageGen (integriert)",
+  "postprocessing": "Auf 640 × 800 skaliert und zugeschnitten.",
+  "expressions": {
+    "neutral": {
+      "prompt": "Polished 2D cel-shaded anime character portrait for OtakuSoul, Kagamine Rin, short golden blond bob with swept bangs, iconic large white bow, blue eyes, black and white headset and sailor-inspired white and black high-collar stage costume with yellow accents. Fully clothed, centered head and upper torso, softly lit cyan-violet recording studio backdrop with studio microphone, same understated composition as a virtual singer during a late-night recording session. Neutral attentive expression, restrained small mouth, clean anime linework. Vertical portrait, no text or watermark."
+    },
+    "happy": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show genuine cheerful smile, bright softened eyes, eyebrows lifted. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "sad": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show quiet sadness, gaze lowered, eyebrows gently tilted and small downturned closed mouth. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "angry": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show firm anger, sharply lowered brows and tight closed mouth. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "surprised": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show wide eyes, raised eyebrows and small round mouth. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "relaxed": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show peaceful half-lidded eyes and a small serene closed smile. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "blush": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show bashful embarrassment after praise, pink cheeks, averted eyes and tiny uncertain smile. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "teasing": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show playful mischievous wink and small asymmetric grin after a musical joke. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "fear": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show stage fright, tense eyes and high inner brows, small pressed lips. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "disgust": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show mild distaste at a sour smell, subtly wrinkled nose and a small closed asymmetrical anime frown drawn as a simple short line, no visible teeth. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "crying": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show sad tears visible on both cheeks, furrowed inner brows and small trembling mouth. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "seductive": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show all-ages confident charismatic performer greeting an audience, small knowing smile with head upright and direct gaze. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "aroused": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show all-ages preconcert anticipation, sparkling alert eyes, lifted brows and eager closed smile. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "ecstasy": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show all-ages euphoric laughter celebrating a successful rehearsal, closed happy eyes and open delighted smile. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    },
+    "afterglow": {
+      "prompt": "Precise facial-expression edit for an OtakuSoul character portrait. Use the reference as the exact identity, costume, framing and lighting guide. Change only the face to show all-ages contented tiredness after a performance, softly closed eyes and small grateful smile. Keep hairstyle, headset, clothes, studio microphone, background, anime cel shading and head position. Keep mouth in the same small anime style. All-ages, fully clothed, no text.",
+      "reference": "../../kagamine_rin.png"
+    }
+  }
+}

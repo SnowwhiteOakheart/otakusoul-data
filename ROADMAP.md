@@ -1,3 +1,7 @@
+## Studio 39: Emotionsporträts · 06.11.2026
+
+- Kagamine Rin und Megurine Luka haben je 15 eigenständige, jugendfreie Emotionsporträts einschließlich Neutralbild. Hub-Karten auf Revision 2.
+
 ## Vier Takte vor Mitternacht · 06.11.2026
 
 - Hub-Sammlung mit Studio-Mysterium, Lorebook, Cover und drei Figuren. Neue Profilkarten für Kagamine Rin und Megurine Luka mit je einem Profilporträt. Texte auf DE/EN/RU/JA.

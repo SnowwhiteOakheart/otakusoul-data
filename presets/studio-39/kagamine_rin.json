@@ -88,6 +88,23 @@
       },
       "otakusoul_music": {
         "theme": "bright electro-pop instrumental, chopped claps and nimble yellow-bright synth plucks, brisk four-bar hook"
+      },
+      "expressions": {
+        "neutral": "expressions/kagamine_rin/neutral.webp",
+        "happy": "expressions/kagamine_rin/happy.webp",
+        "sad": "expressions/kagamine_rin/sad.webp",
+        "angry": "expressions/kagamine_rin/angry.webp",
+        "surprised": "expressions/kagamine_rin/surprised.webp",
+        "relaxed": "expressions/kagamine_rin/relaxed.webp",
+        "blush": "expressions/kagamine_rin/blush.webp",
+        "teasing": "expressions/kagamine_rin/teasing.webp",
+        "fear": "expressions/kagamine_rin/fear.webp",
+        "disgust": "expressions/kagamine_rin/disgust.webp",
+        "crying": "expressions/kagamine_rin/crying.webp",
+        "seductive": "expressions/kagamine_rin/seductive.webp",
+        "aroused": "expressions/kagamine_rin/aroused.webp",
+        "ecstasy": "expressions/kagamine_rin/ecstasy.webp",
+        "afterglow": "expressions/kagamine_rin/afterglow.webp"
       }
     }
   }
