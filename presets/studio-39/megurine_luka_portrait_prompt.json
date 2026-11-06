@@ -1,0 +1,5 @@
+{
+  "tool": "OpenAI ImageGen (integriert)",
+  "prompt": "Polished 2D cel-shaded anime character portrait for OtakuSoul, Megurine Luka, very long soft pink hair, blue eyes, elegant black high-neck sleeveless stage outfit with muted gold trim and turquoise brooch, gold headset. Fully clothed, centered head and upper torso, softly lit cyan-violet recording studio backdrop with studio microphone, same understated composition as a virtual singer during a late-night recording session. Neutral attentive expression, restrained small mouth, clean anime linework. Vertical portrait, no text or watermark.",
+  "postprocessing": "Auf 700 × 937 skaliert und zugeschnitten."
+}

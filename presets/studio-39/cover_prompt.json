@@ -1,0 +1,10 @@
+{
+  "tool": "OpenAI ImageGen (integriert)",
+  "prompt": "Landscape 16:9 cel-shaded anime key art for an intimate virtual-singer studio mystery, no text. Hatsune Miku (teal twin tails and gray stage top with teal necktie), Kagamine Rin (blonde bob, white bow, yellow-trim white costume) and Megurine Luka (long pink hair and black and gold high-neck costume) in the same cozy blue-violet recording studio at night, all fully clothed. Miku centered by mixing desk with illuminated ghost track waveform, Rin left leaning in with curious energy, Luka right listening closely. City lights and rain behind studio glass, cinematic but warm teamwork mood, clear faces at thumbnail size. Reference images identify characters and costumes. No brand logos, lettering or watermark.",
+  "references": [
+    "../hatsune-miku/hatsune_miku.png",
+    "kagamine_rin.png",
+    "megurine_luka.png"
+  ],
+  "postprocessing": "Auf 960 × 540 skaliert."
+}

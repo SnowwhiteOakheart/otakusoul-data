@@ -1728,6 +1728,33 @@
           "starting_location": "Церковь в трущобах сектора 5"
         }
       }
+    },
+    {
+      "id": "studio_39_vier_takte_vor_mitternacht",
+      "title": "Vier Takte vor Mitternacht",
+      "description": "Eine Stunde bis zum Soundcheck. Hilf Miku, Rin und Luka, eine fremde Gesangsspur zu erklären und einen Refrain für die Bühne zu finden.",
+      "starting_location": "Regieraum von Studio 39",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/studio_39_vier_takte_vor_mitternacht.json",
+      "revision": 1,
+      "updated": "2026-11-06",
+      "translations": {
+        "en": {
+          "title": "Four Bars to Midnight",
+          "description": "One hour to soundcheck. Help Miku, Rin and Luka trace a mystery vocal and find a chorus they can perform.",
+          "starting_location": "Studio 39 control room"
+        },
+        "ja": {
+          "title": "真夜中まで、あと四小節",
+          "description": "サウンドチェックまで一時間。ミク、リン、ルカと一緒に謎の歌声の出どころを探り、ステージで歌えるサビを作ろう。",
+          "starting_location": "スタジオ39の調整室"
+        },
+        "ru": {
+          "title": "Четыре такта до полуночи",
+          "description": "До саундчека час. Помоги Мику, Рин и Луке выяснить, чей голос звучит на записи, и подобрать припев для сцены.",
+          "starting_location": "Аппаратная студии 39"
+        }
+      }
     }
   ]
 }

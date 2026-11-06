@@ -2138,6 +2138,22 @@
           "duration": 150
         }
       }
+    },
+    "studio_39_vier_takte_vor_mitternacht": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "soft electric piano, rainy window ambience and a gentle electronic pulse",
+          "bpm": 82,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "quiet synth pulses, sparse piano notes and subtle tape texture",
+          "bpm": 96,
+          "duration": 100
+        }
+      }
     }
   },
   "lorebooks": {
@@ -2257,6 +2273,9 @@
     },
     "Final Fantasy VII – ECHO: Orte & Geheimnisse": {
       "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city"
+    },
+    "Studio 39 – Spuren und Stimmen": {
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano"
     }
   },
   "cards": {
@@ -2720,6 +2739,12 @@
     },
     "Hatsune Miku": {
       "theme": "bright virtual idol instrumental, glassy synth lead, syncopated electronic drums, soft electric piano, late-night rehearsal warmth"
+    },
+    "Kagamine Rin": {
+      "theme": "bright electro-pop instrumental, chopped claps and nimble yellow-bright synth plucks, brisk four-bar hook"
+    },
+    "Megurine Luka": {
+      "theme": "warm downtempo electro-pop instrumental, soft low electric piano, brushed drums and a restrained melodic answering line"
     }
   }
 }

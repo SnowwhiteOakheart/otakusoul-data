@@ -1,0 +1,226 @@
+{
+  "name": "Studio 39 – Spuren und Stimmen",
+  "description": "Weltwissen, Indizien und Auflösung für das nächtliche Studio-Mysterium.",
+  "scan_depth": 6,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Studio 39",
+      "key": [],
+      "content": "Eine Regie, eine Gesangskabine und ein Archiv früherer Sessions. Die drei Sängerinnen sind in dieser Fan-Kontinuität Kolleginnen. Aufnahmen bleiben privat, bis alle Beteiligten der Veröffentlichung zustimmen.",
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 100,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Studio 39",
+              "key": [],
+              "content": "A control room, vocal booth and archive of earlier sessions. The three singers are colleagues in this fan continuity. Recordings stay private unless everyone involved agrees to release them."
+            },
+            "ja": {
+              "name": "スタジオ39",
+              "key": [],
+              "content": "調整室、録音ブース、過去のセッションの保管庫がある。このファン設定では三人は仕事仲間。録音の公開には参加者全員の同意が必要。"
+            },
+            "ru": {
+              "name": "Студия 39",
+              "key": [],
+              "content": "Аппаратная, вокальная кабина и архив сессий. В этой фан-истории три певицы работают вместе. Записи остаются закрытыми, пока все участницы не согласятся на публикацию."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Die graue Spur",
+      "key": [
+        "RAUMTEST_04",
+        "Archiv",
+        "Spur",
+        "Atemzug"
+      ],
+      "content": "Beim Solo-Hören fallen zwei Klopfer und ein kurzer Atemzug auf. Im Versionsverlauf ist RAUMTEST_04 als importierte Raumtest-Spur der letzten Probe markiert. Die Spur wurde am Abend aus einer alten Vorlage mitgeladen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 90,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The grey track",
+              "key": [
+                "RAUMTEST_04",
+                "archive",
+                "track",
+                "breath"
+              ],
+              "content": "Solo playback reveals two taps and a short breath. Track history lists RAUMTEST_04 as a room test imported from the previous rehearsal. It came along with an old session template tonight."
+            },
+            "ja": {
+              "name": "灰色のトラック",
+              "key": [
+                "RAUMTEST_04",
+                "アーカイブ",
+                "トラック",
+                "息"
+              ],
+              "content": "ソロ再生では二回のノックと短い息継ぎが聞こえる。履歴上のRAUMTEST_04は前回のリハーサルの部屋鳴りテスト。今夜、古いテンプレートと一緒に読み込まれた。"
+            },
+            "ru": {
+              "name": "Серая дорожка",
+              "key": [
+                "RAUMTEST_04",
+                "архив",
+                "дорожка",
+                "вдох"
+              ],
+              "content": "При отдельном прослушивании слышны два стука и короткий вдох. В истории RAUMTEST_04 указан как тест помещения с прошлой репетиции. Сегодня он загрузился вместе со старым шаблоном."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Wer sang den Raumtest?",
+      "key": [
+        "Raumtest",
+        "Vergleich",
+        "Klopfer",
+        "Rin",
+        "Luka"
+      ],
+      "content": "Spielleitung: Rin erkennt ihr Klopfen aus der Probe. Luka erkennt ihren anschließenden Summton und bestätigt ihn, wenn sie die Spur hört. Miku hatte damals dieselben Akkorde gespielt. Das Zusammenfallen der Melodien ist musikalisch erklärbar. Keine Sabotage. Gib bei einem anderen sinnvollen Rechercheweg gleichwertige Hinweise.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 80,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Who sang the room test?",
+              "key": [
+                "room test",
+                "compare",
+                "taps",
+                "Rin",
+                "Luka"
+              ],
+              "content": "GM: Rin recognizes her taps from rehearsal. Luka recognizes the note she hummed after them and confirms it on hearing the track. Miku was playing the same chords that day. The melodies fit for musical reasons. There was no sabotage. Give equivalent clues for other sensible investigation routes."
+            },
+            "ja": {
+              "name": "テストで歌ったのは誰？",
+              "key": [
+                "テスト",
+                "聴き比べ",
+                "ノック",
+                "リン",
+                "ルカ"
+              ],
+              "content": "進行役用。リンはリハーサルで自分が刻んだ音に気づく。ルカは再生を聴くと、その直後に自分が口ずさんだ音だと認める。当時ミクが弾いていたコードは今と同じ。旋律が合う理由は音楽にあり、妨害はない。別の妥当な調べ方にも同等の手掛かりを返す。"
+            },
+            "ru": {
+              "name": "Кто пел на пробе?",
+              "key": [
+                "проба",
+                "сравнить",
+                "стук",
+                "Рин",
+                "Лука"
+              ],
+              "content": "Ведущему: Рин узнаёт свой стук с репетиции. Услышав дорожку, Лука узнаёт ноту, которую напела следом. Тогда Мику играла те же аккорды. Совпадение объясняется музыкой. Саботажа не было. За другой разумный способ поиска дай равноценные улики."
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Drei Fassungen für den Soundcheck",
+      "key": [
+        "Soundcheck",
+        "Refrain",
+        "Mitternacht",
+        "Take"
+      ],
+      "content": "Spielleitung: Biete Mikus offene Fassung mit neu eingesungener Harmonie, Rins früheren Einsatz oder eine reduzierte Live-Fassung ohne Archivspur an. Eigene Arrangements sind möglich. Die alte Spur darf privat als Arbeitsmaterial bleiben. Beende die Geschichte mit dem ersten hörbaren Durchlauf und einer kurzen Reaktion der drei Sängerinnen.",
+      "trigger_type": "keyword",
+      "probability": 100,
+      "priority": 70,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Three soundcheck versions",
+              "key": [
+                "soundcheck",
+                "chorus",
+                "midnight",
+                "take"
+              ],
+              "content": "GM: Offer Miku's spacious version with a fresh harmony take, Rin's early entrance or a stripped-down live version without the archive track. Allow original arrangements. The old track can remain private reference material. End on the first audible run-through and a short reaction from the three singers."
+            },
+            "ja": {
+              "name": "サウンドチェックの三案",
+              "key": [
+                "サウンドチェック",
+                "サビ",
+                "真夜中",
+                "テイク"
+              ],
+              "content": "進行役用。余白のあるミク案に新しいハモりを録る、リン案の早い入りを使う、保管トラックを使わず簡素に生演奏する、の三案。独自アレンジも可。古い録音は非公開の参考素材にできる。初めて通して演奏し、三人が短く反応するところで締める。"
+            },
+            "ru": {
+              "name": "Три версии для саундчека",
+              "key": [
+                "саундчек",
+                "припев",
+                "полночь",
+                "дубль"
+              ],
+              "content": "Ведущему: предложи свободный вариант Мику с новой гармонией, раннее вступление Рин или простую живую версию без архивной дорожки. Допускай авторские решения игрока. Старую запись можно оставить рабочим материалом. Заверши первым прогоном и короткой реакцией трёх певиц."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Studio 39 – Tracks and Voices",
+          "description": "Setting, clues and solution for the late-night studio mystery."
+        },
+        "ja": {
+          "name": "スタジオ39 ― トラックと声",
+          "description": "深夜のスタジオミステリーの舞台、手掛かり、真相。"
+        },
+        "ru": {
+          "name": "Студия 39 — Дорожки и голоса",
+          "description": "Мир, улики и разгадка ночной студийной истории."
+        }
+      }
+    },
+    "otakusoul_music": {
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano"
+    }
+  }
+}

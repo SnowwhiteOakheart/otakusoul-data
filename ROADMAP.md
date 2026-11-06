@@ -1,3 +1,7 @@
+## Vier Takte vor Mitternacht · 06.11.2026
+
+- Hub-Sammlung mit Studio-Mysterium, Lorebook, Cover und drei Figuren. Neue Profilkarten für Kagamine Rin und Megurine Luka mit je einem Profilporträt. Texte auf DE/EN/RU/JA.
+
 ## Hatsune Miku · 06.11.2026
 
 - **DE:** Eigenständige Hub-Karte mit nächtlicher Studioprobe, DE/EN/RU/JA, 15 SFW-Emotionsbildern, Stimmprofil und Musik-Leitmotiv.

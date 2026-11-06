@@ -1,0 +1,144 @@
+{
+  "title": "Vier Takte vor Mitternacht",
+  "description": "Eine Stunde bis zum Soundcheck. Hilf Miku, Rin und Luka, eine fremde Gesangsspur zu erklären und einen Refrain für die Bühne zu finden.",
+  "starting_location": "Regieraum von Studio 39",
+  "time_of_day": "23 Uhr, eine Stunde vor dem Soundcheck",
+  "opening_narration": "*Regen tickt gegen die Studioscheibe. Miku spielt vier Takte ab. Wo der Refrain einsetzen sollte, singt eine zweite Stimme die Melodie zu Ende. Rin hält mitten im Klopfen inne. Luka dreht den Regler herunter.* „Noch mal ab dem Atemzug“, sagt sie. Auf dem Bildschirm blinkt eine graue Spur: RAUMTEST_04.",
+  "gm_tone": "Warmes Studio-Mysterium unter Zeitdruck",
+  "narrator_style": "Erzähle in kurzen, sinnlichen Beats. Lass die Spielerfigur am Mischpult Entscheidungen treffen. Gib Hinweise durch Hörvergleiche, den Spurverlauf und Gespräche. Verrate die Lösung erst nach einer Untersuchung. Kein Würfeln und keine erzwungene Veröffentlichung.",
+  "world_context": "Studio 39 ist ein frei erfundenes virtuelles Tonstudio. Die Spielerfigur produziert den Soundcheck. Miku will Raum in der Melodie lassen, Rin einen frühen Einsatz ausprobieren, Luka beide Varianten bei gleichem Pegel vergleichen. Ziel ist eine aufführbare Fassung vor Mitternacht. Das Lorebook enthält Indizien, Auflösung und mögliche Enden. Die Uhr rückt nach bedeutenden Entscheidungen vor und lässt bei Zeitnot eine schlichte Live-Fassung zu.",
+  "first_message": "",
+  "party": [
+    "Hatsune Miku",
+    "Kagamine Rin",
+    "Megurine Luka"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Studio 39 – Spuren und Stimmen"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Four Bars to Midnight",
+          "description": "One hour to soundcheck. Help Miku, Rin and Luka trace a mystery vocal and find a chorus they can perform.",
+          "starting_location": "Studio 39 control room",
+          "time_of_day": "11 p.m., one hour before soundcheck",
+          "opening_narration": "*Rain ticks against the studio window. Miku plays four bars. Where the chorus should begin, a second voice finishes the melody. Rin stops tapping. Luka lowers the fader.* “Again, from the breath,” she says. A grey track flashes on screen: RAUMTEST_04.",
+          "gm_tone": "Warm studio mystery under time pressure",
+          "narrator_style": "Use short sensory beats. Let the player make choices at the console. Offer clues through listening tests, track history and dialogue. Hold the answer until someone investigates. Play without dice and leave publication up to the player.",
+          "world_context": "Studio 39 is a fictional virtual recording studio. The player produces the soundcheck. Miku wants space in the melody, Rin wants an early entrance, and Luka wants to compare both at equal volume. Aim for a playable version by midnight. The lorebook supplies clues, the answer and possible endings. Advance the clock after meaningful choices and allow a stripped-down live version if time runs short.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "真夜中まで、あと四小節",
+          "description": "サウンドチェックまで一時間。ミク、リン、ルカと一緒に謎の歌声の出どころを探り、ステージで歌えるサビを作ろう。",
+          "starting_location": "スタジオ39の調整室",
+          "time_of_day": "23時、サウンドチェックの一時間前",
+          "opening_narration": "*雨粒がスタジオの窓を打つ。ミクが四小節を再生する。サビが始まるはずのところで、別の声が旋律の続きを歌う。リンの指が止まり、ルカがフェーダーを下げる。*「息を吸うところから、もう一度」。画面で灰色のトラックが点滅する。RAUMTEST_04。",
+          "gm_tone": "時間制限のある温かなスタジオミステリー",
+          "narrator_style": "短い音や光の描写を使い、卓での判断はプレイヤーに任せる。聴き比べ、トラック履歴、会話から手掛かりを出す。調べるまで真相は伏せる。ダイス判定や公開の強制はしない。",
+          "world_context": "スタジオ39は架空のバーチャル録音スタジオ。プレイヤーはサウンドチェックを担当する。ミクは旋律に余白を残し、リンは早めに入りたい。ルカは同じ音量で両案を比べたい。真夜中までに演奏できる形を決める。手掛かり、真相、結末はロアブックを参照。重要な判断のあとに時間を進め、時間が足りなければ簡素な生演奏を選べる。",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Четыре такта до полуночи",
+          "description": "До саундчека час. Помоги Мику, Рин и Луке выяснить, чей голос звучит на записи, и подобрать припев для сцены.",
+          "starting_location": "Аппаратная студии 39",
+          "time_of_day": "23:00, за час до саундчека",
+          "opening_narration": "*Дождь стучит по стеклу. Мику включает четыре такта. Там, где должен начаться припев, второй голос допевает мелодию. Рин перестаёт отбивать ритм. Лука опускает фейдер.* «Ещё раз, со вдоха». На экране мигает серая дорожка RAUMTEST_04.",
+          "gm_tone": "Уютная студийная загадка с ограничением по времени",
+          "narrator_style": "Описывай короткие звуковые и зрительные детали. Оставляй решения за игроком у пульта. Давай улики через прослушивание, историю дорожек и диалог. Раскрывай ответ после проверки. Без кубиков и принудительной публикации.",
+          "world_context": "Студия 39 — вымышленная виртуальная студия. Игрок отвечает за саундчек. Мику хочет оставить паузы, Рин предлагает вступить раньше, а Лука хочет сравнить варианты на одинаковой громкости. До полуночи нужно выбрать исполнимый вариант. В лорбуке есть улики, разгадка и концовки. Время идёт после важных решений; если его мало, возможна простая живая версия.",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "mystery",
+      "minutes": 35,
+      "difficulty": "easy",
+      "notes": [],
+      "beginner": true,
+      "choices": {
+        "de": [
+          {
+            "text": "Spiele RAUMTEST_04 solo ab.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Rin nach ihrer ersten Rhythmusprobe.",
+            "action_type": "say"
+          },
+          {
+            "text": "Bitte Luka, beide Refrains bei gleichem Pegel zu vergleichen.",
+            "action_type": "say"
+          }
+        ],
+        "en": [
+          {
+            "text": "Solo the RAUMTEST_04 track.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Rin about her first rhythm test.",
+            "action_type": "say"
+          },
+          {
+            "text": "Ask Luka to compare both choruses at equal volume.",
+            "action_type": "say"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Прослушать дорожку RAUMTEST_04 отдельно.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Рин о первой пробе ритма.",
+            "action_type": "say"
+          },
+          {
+            "text": "Попросить Луку сравнить припевы на одинаковой громкости.",
+            "action_type": "say"
+          }
+        ],
+        "ja": [
+          {
+            "text": "RAUMTEST_04だけを再生する。",
+            "action_type": "do"
+          },
+          {
+            "text": "最初のリズムテストについてリンに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "両方のサビを同じ音量で比べたいとルカに頼む。",
+            "action_type": "say"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "soft electric piano, rainy window ambience and a gentle electronic pulse",
+          "bpm": 82,
+          "duration": 110
+        },
+        "mystery": {
+          "caption": "quiet synth pulses, sparse piano notes and subtle tape texture",
+          "bpm": 96,
+          "duration": 100
+        }
+      }
+    }
+  }
+}

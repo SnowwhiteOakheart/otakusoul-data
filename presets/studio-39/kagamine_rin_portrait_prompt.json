@@ -1,0 +1,5 @@
+{
+  "tool": "OpenAI ImageGen (integriert)",
+  "prompt": "Polished 2D cel-shaded anime character portrait for OtakuSoul, Kagamine Rin, short golden blond bob with swept bangs, iconic large white bow, blue eyes, black and white headset and sailor-inspired white and black high-collar stage costume with yellow accents. Fully clothed, centered head and upper torso, softly lit cyan-violet recording studio backdrop with studio microphone, same understated composition as a virtual singer during a late-night recording session. Neutral attentive expression, restrained small mouth, clean anime linework. Vertical portrait, no text or watermark.",
+  "postprocessing": "Auf 700 × 937 skaliert und zugeschnitten."
+}

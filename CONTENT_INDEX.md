@@ -2,7 +2,7 @@
 
 > **Zweck für AI-Agenten:** Dieses Dokument dient als tokensparende Schnellreferenz für den gesamten Inhaltsbestand (`otakusoul-data`) sowie für die Aufrufe und Validierungs-Checks in der OtakuSoul-App (`OtakuSoul`). Anstatt ~180 KB JSON-Dateien zu parsen, enthält dieser Index alle Verknüpfungen auf einen Blick.
 >
-> **Stand:** 79 Charaktere (alle mit 15 SFW-Expressions) · 64 Soul Stages (Szenen) · 39 Lorebooks · 26 Presets (17 Sammlungen).
+> **Stand:** 81 Charaktere · 65 Soul Stages (Szenen) · 40 Lorebooks · 27 Presets (18 Sammlungen).
 
 ---
 
@@ -43,6 +43,10 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 | | `romance_rooftop_festival_fireworks` *(Wem gehört der letzte Tanz?)* | `Kaguya Shinomiya`, `Asuna Yuuki`, `Rem` (Re:Zero) | `Herzensklopfen & Kirschblüten – Anime-Romance & Harem-Dynamik` (`modern_anime_academy_romance.json`) |
 
 ---
+
+### Studio 39
+
+**Vier Takte vor Mitternacht** (Sammlung und Szene studio_39_vier_takte_vor_mitternacht): Hatsune Miku, Kagamine Rin und Megurine Luka in einem nächtlichen Studio-Mysterium mit vier Lorebook-Einträgen auf DE/EN/RU/JA.
 
 ### 3. Standalone-Charaktere & Welten ohne eigene Kampagnen-Episoden
 

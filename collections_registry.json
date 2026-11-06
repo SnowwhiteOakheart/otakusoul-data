@@ -650,6 +650,40 @@
           "description": "エアリスの教会の下で忘れられた神羅の記録庫が目覚める。ティファ、エアリス、クラウドと行方不明者を救い、記憶を確かめる中、セフィロスが危険な取引を持ちかける。"
         }
       }
+    },
+    {
+      "id": "studio_39_vier_takte_vor_mitternacht",
+      "title": "Vier Takte vor Mitternacht",
+      "description": "Eine Stunde bis zum Soundcheck. Hilf Miku, Rin und Luka, eine fremde Gesangsspur zu erklären und einen Refrain für die Bühne zu finden.",
+      "author": "SnowwhiteOakheart",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/studio-39/cover.webp",
+      "lorebooks": [
+        "Studio 39 – Spuren und Stimmen"
+      ],
+      "scenes": [
+        "studio_39_vier_takte_vor_mitternacht"
+      ],
+      "characters": [
+        "Hatsune Miku",
+        "Kagamine Rin",
+        "Megurine Luka"
+      ],
+      "revision": 1,
+      "updated": "2026-11-06",
+      "translations": {
+        "en": {
+          "title": "Four Bars to Midnight",
+          "description": "One hour to soundcheck. Help Miku, Rin and Luka trace a mystery vocal and find a chorus they can perform."
+        },
+        "ja": {
+          "title": "真夜中まで、あと四小節",
+          "description": "サウンドチェックまで一時間。ミク、リン、ルカと一緒に謎の歌声の出どころを探り、ステージで歌えるサビを作ろう。"
+        },
+        "ru": {
+          "title": "Четыре такта до полуночи",
+          "description": "До саундчека час. Помоги Мику, Рин и Луке выяснить, чей голос звучит на записи, и подобрать припев для сцены."
+        }
+      }
     }
   ]
 }

@@ -885,6 +885,29 @@
           "name": "Final Fantasy VII — ECHO: Места и тайны"
         }
       }
+    },
+    {
+      "name": "Studio 39 – Spuren und Stimmen",
+      "description": "Weltwissen, Indizien und Auflösung für das nächtliche Studio-Mysterium.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/studio_39_spuren_und_stimmen.json",
+      "revision": 1,
+      "updated": "2026-11-06",
+      "translations": {
+        "en": {
+          "description": "Setting, clues and solution for the late-night studio mystery.",
+          "name": "Studio 39 – Tracks and Voices"
+        },
+        "ja": {
+          "description": "深夜のスタジオミステリーの舞台、手掛かり、真相。",
+          "name": "スタジオ39 ― トラックと声"
+        },
+        "ru": {
+          "description": "Мир, улики и разгадка ночной студийной истории.",
+          "name": "Студия 39 — Дорожки и голоса"
+        }
+      }
     }
   ]
 }
