@@ -7,14 +7,14 @@ Dieses Dokument ist der verbindliche Leitfaden für `SnowwhiteOakheart/otakusoul
 - Mit dem Nutzer auf Deutsch kommunizieren; thematische Commit-Beschreibungen auf Deutsch.
 - Bestehende Nutzeränderungen vorab mit `git status` prüfen. Nur beauftragte Änderungen committen; parallel entstandene Änderungen nicht beiläufig aufnehmen.
 - Beauftragte, erfolgreich geprüfte Arbeit immer selbstständig auf `main` committen und sofort nach GitHub pushen; keine erneute Rückfrage. Der Nutzer hat diese dauerhafte Freigabe am 18.10.2026 ausdrücklich bestätigt. Nach jedem fertiggestellten Charakter: prüfen, `ROADMAP.md` aktualisieren, committen und sofort pushen. Fremde Änderungen bleiben ausgeschlossen.
-- Nur `ROADMAP.md` pflegen; keine zweite Roadmap erzeugen. README bei strukturellen Änderungen in DE, EN und RU synchron aktualisieren.
+- Nur `ROADMAP.md` pflegen; keine zweite Roadmap erzeugen. Die öffentliche `README.md` ausschließlich auf Englisch als Übersicht des aktuellen Bestands pflegen; keine Sprachduplikate oder datierten Neuigkeiten-Abschnitte ergänzen. Die vier Inhaltssprachen der Karten, Szenen und Lorebooks bleiben bestehen.
 - Keine Maschinenpfade, Geheimnisse, virtuellen Umgebungen, Caches, temporären Kontaktbögen oder einmaligen Migrationsskripte einchecken.
 - Bestehende öffentliche Pfade nicht ohne Prüfung aller Registry- und Kartenverweise umbenennen. Groß-/Kleinschreibung beachten.
 
 ## Verzeichnisstruktur
 
 ```text
-README.md                       Einstieg in DE / EN / RU
+README.md                       englische Bestandsübersicht, Katalog und Lizenzhinweise
 AI.md                           dieser verbindliche Wegweiser
 AGENTS.md / CLAUDE.md            Verweise auf CONTENT_INDEX.md und AI.md
 CONTENT_INDEX.md                tokensparende Inhalts- und Architekturreferenz für Agenten
