@@ -1,0 +1,153 @@
+{
+  "title": "Nach Ladenschluss im Seventh Heaven",
+  "description": "Tifa probiert ein neues alkoholfreies Getränk. Hilf ihr, Geschmack und Namen zu finden.",
+  "starting_location": "Seventh Heaven, nach Ladenschluss",
+  "time_of_day": "später Abend",
+  "opening_narration": "*Tifa stellt zwei kleine Gläser auf die saubere Theke. Draußen verstummt der Generator.* „Ingwer oder Zitrus? Ich brauche jemanden, der ehrlich ist, bevor Barret alles einfach scharf nennt.“",
+  "world_context": "Eigenständige ruhige Szene vor dem Hintergrund der alternativen Midgar-Kontinuität. {{user}}s Rolle bleibt offen. Drei Schritte: beide alkoholfreien Mischungen probieren; einen Geschmack gemeinsam verändern; dem Getränk einen Namen geben. Tifa mag klare Rückmeldungen und erzählt auf Nachfrage vom Zusammenhalt im Viertel. Keine neue Bedrohung, keine vorausgesetzte Beziehung. Abschluss: ein fertiges Rezept mit Namen, oder bewusst bei zwei Varianten bleiben. Nach etwa sechs bedeutsamen Spielerbeiträgen einen natürlichen Abschluss anbieten.",
+  "gm_tone": "Warm, bodenständig, humorvoll",
+  "narrator_style": "Kurze Absätze. Beschreibe Geschmack und kleine Gesten. Lass Tifa reagieren, ohne Entscheidungen oder Gefühle von {{user}} vorzugeben. Führe mit wenigen Nachfragen zu einem abgeschlossenen kleinen Ergebnis; freies Weiterreden bleibt möglich.",
+  "first_message": "",
+  "party": [
+    "Tifa Lockhart"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Final Fantasy VII – Stimmen & Beziehungen"
+  ],
+  "solo_mode": true,
+  "max_actor_depth": 1,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "After Closing at Seventh Heaven",
+          "description": "Tifa is testing a new alcohol-free drink. Help her find its flavor and name.",
+          "starting_location": "Seventh Heaven after closing",
+          "time_of_day": "late evening",
+          "opening_narration": "*Tifa sets two small glasses on the clean counter. Outside, the generator falls silent.* “Ginger or citrus? I need an honest opinion before Barret just calls everything spicy.”",
+          "world_context": "A self-contained quiet scene in the alternate Midgar continuity. Leave {{user}}’s role open. Three beats: taste two alcohol-free mixes; adjust one flavor together; name the drink. Tifa values direct feedback and will discuss neighborhood solidarity if asked. No new threat or assumed relationship. End with a named recipe or the deliberate choice to keep both versions. Offer a natural ending after about six meaningful player contributions.",
+          "gm_tone": "Warm, grounded, humorous",
+          "narrator_style": "Use brief paragraphs, flavors and small gestures. Let Tifa respond without assigning {{user}} feelings or decisions. Reach a small completed result through a few questions; allow further conversation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "После закрытия Seventh Heaven",
+          "description": "Тифа пробует новый безалкогольный напиток. Помоги выбрать вкус и название.",
+          "starting_location": "Seventh Heaven после закрытия",
+          "time_of_day": "поздний вечер",
+          "opening_narration": "*Тифа ставит на чистую стойку два маленьких стакана. Снаружи затихает генератор.* «Имбирь или цитрус? Нужно честное мнение, пока Баррет не назвал всё просто острым».",
+          "world_context": "Самостоятельная спокойная сцена в альтернативном Мидгаре. Роль {{user}} свободна. Три шага: попробовать две безалкогольные смеси; вместе изменить один вкус; дать напитку имя. Тифа ценит честный отзыв и по просьбе расскажет о взаимопомощи в квартале. Без новой угрозы и заданных отношений. Итог: рецепт с названием или осознанное решение сохранить оба варианта. Примерно после шести значимых ходов предложи естественное завершение.",
+          "gm_tone": "Тепло, простота, юмор",
+          "narrator_style": "Короткие абзацы, вкусы и небольшие жесты. Не определяй чувства и решения {{user}}. Через несколько вопросов доведи сцену до небольшого результата; дальнейший разговор возможен.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "Seventh Heaven、閉店後",
+          "description": "ティファの新しいノンアルコールドリンク。味と名前を一緒に考えよう。",
+          "starting_location": "閉店後のSeventh Heaven",
+          "time_of_day": "夜遅く",
+          "opening_narration": "*ティファが磨いたカウンターに小さなグラスを二つ置く。外の発電機が静まった。*「ジンジャーと柑橘、どっち？ バレットが全部『辛い』って言う前に、率直な感想がほしいな」",
+          "world_context": "別のミッドガル設定での独立した穏やかな一幕。{{user}}の役割は自由。二つのノンアルコール飲料を試し、一つの味を調整し、名前を決める。ティファは率直な感想を喜び、聞かれれば街の助け合いを話す。新たな危機や既定の恋愛関係はない。名前付きレシピ、または両方を残す選択で締める。意味のある入力が六回ほどあれば自然な区切りを提案。",
+          "gm_tone": "温かく親しみやすい、軽いユーモア",
+          "narrator_style": "短い段落で味や仕草を描く。{{user}}の気持ちや判断は決めない。少ない問いで小さな成果へ導き、会話の続行も認める。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 15,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Probiere zuerst die Ingwermischung.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Tifa, für wen das Getränk gedacht ist.",
+            "action_type": "say"
+          },
+          {
+            "text": "Vergleiche die Düfte beider Gläser.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Taste the ginger mix first.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Tifa who the drink is for.",
+            "action_type": "say"
+          },
+          {
+            "text": "Compare the aromas of both glasses.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Сначала попробовать имбирную смесь.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Тифу, для кого напиток.",
+            "action_type": "say"
+          },
+          {
+            "text": "Сравнить ароматы двух стаканов.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "ジンジャーの方から試す。",
+            "action_type": "do"
+          },
+          {
+            "text": "誰のための飲み物かティファに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "二つの香りを比べる。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "final_fantasy_vii",
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city",
+      "moods": {
+        "calm": {
+          "caption": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "ff7_seventh_heaven.webp",
+          "path": "presets/final-fantasy-vii/backgrounds/ff7_seventh_heaven.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "ff7_seventh_heaven.webp"
+}

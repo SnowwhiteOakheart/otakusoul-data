@@ -1,0 +1,162 @@
+{
+  "title": "Nachtschicht auf Gleis 0 – 00:17",
+  "description": "Ein abgestecktes Telefon klingelt. Draußen hält ein Zug, der in keinem Fahrplan steht.",
+  "starting_location": "Stellwerk Bahnhof Lindenhafen",
+  "time_of_day": "00:17, erste Nachtschicht",
+  "opening_narration": "*Die Innenuhr bleibt auf 00:17 stehen. Draußen wandert der Sekundenzeiger weiter. Das schwarze Telefon klingelt; sein Kabel liegt auf dem Tisch. Ben steht neben dir. Aus dem Hörer kommt seine Stimme: „Gib das rote Signal.“*",
+  "world_context": "Erste Nachtschicht einer erwachsenen Spielerfigur. Ada bietet das Dienstbuch offen an, Ruths beleuchteter Kiosk bleibt erreichbar. Drei Regeln im Lorebook sind fest und überprüfbar. Ein erwachsener Fahrgast im grauen Mantel möchte aussteigen; Ticket von 1987 unter einer leeren Kiosktasse, weiße Linie beleuchten. Hilfreiches Aussteigen, bloßes Beobachten und sicherer Rückzug sind mögliche Enden. Telefon imitiert Ben, ist keine verlässliche Instanz. Keine erfundenen Kindheitserinnerungen, kein Splatter, keine sofortige Todesstrafe. Zehn bedeutsame Beiträge als Richtwert.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Ada Kern",
+    "Ben Ortiz",
+    "Ruth Seidel"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Gleis 0 – Dienstbuch der ersten Nacht"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Night Shift on Platform 0 – 00:17",
+          "description": "An unplugged phone rings. Outside stops a train absent from every timetable.",
+          "starting_location": "Lindenhafen station signal room",
+          "time_of_day": "00:17, first night shift",
+          "opening_narration": "*The inside clock stops at 00:17. Outside, the second hand keeps moving. The black phone rings, its cable on the desk. Ben stands beside you. His voice comes from the handset: “Give the red signal.”*",
+          "world_context": "First night shift for an adult player character. Ada offers the logbook openly; Ruth’s lit kiosk stays reachable. Three lorebook rules are fixed and testable. An adult passenger in gray wants to leave; a 1987 ticket lies under an empty kiosk cup; light the white line. Helping the passenger, observing and safe retreat are all endings. The phone imitates Ben and is unreliable. No invented childhood memories, gore or instant death penalty. Roughly ten meaningful contributions.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Ночная смена на платформе 0 — 00:17",
+          "description": "Отключённый телефон звонит. Снаружи поезд, которого нет в расписании.",
+          "starting_location": "пост сигнализации Линденхафена",
+          "time_of_day": "00:17, первая ночная смена",
+          "opening_narration": "*Внутренние часы замерли на 00:17. Снаружи стрелка идёт. Звонит чёрный телефон с кабелем на столе. Бен рядом. Из трубки его голос: «Дай красный сигнал».*",
+          "world_context": "Первая ночная смена взрослого игрока. Ада сразу даёт журнал, освещённый киоск Рут доступен. Три правила лорбука неизменны и проверяемы. Взрослый в сером хочет выйти; билет 1987 года под пустой чашкой киоска, нужна освещённая белая линия. Помощь, наблюдение и безопасный отход равноценны. Телефон подражает Бену и ненадёжен. Без выдуманного детства, крови и мгновенной смертной кары. Около десяти значимых ходов.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "0番線の夜勤 ― 00:17",
+          "description": "線の抜けた電話が鳴る。外には時刻表にない列車。",
+          "starting_location": "リンデンハーフェン駅の信号室",
+          "time_of_day": "00:17、最初の夜勤",
+          "opening_narration": "*室内時計は00:17で止まり、外の秒針は進む。線の抜けた黒電話が鳴る。ベンは隣にいる。受話器から彼の声。*「赤い信号を出して」",
+          "world_context": "成人の初夜勤。アダは勤務簿をすぐ示し、ルートの明るい売店へ行ける。ロアブックの三規則は固定し検証可能。灰色の成人旅客は降りたい。売店の空のカップ下の1987年切符と白線の照明が手掛かり。降車を助ける、観察、安全な退避が結末。電話はベンの偽物で信用しない。幼少期を捏造せず、流血や即死罰なし。意味ある入力十回ほどを目安。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "horror",
+      "minutes": 20,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [
+        "spooky",
+        "suspense"
+      ],
+      "choices": {
+        "de": [
+          {
+            "text": "Vergleiche Innen- und Außenuhr.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag den sichtbaren Ben nach dem Telefon.",
+            "action_type": "say"
+          },
+          {
+            "text": "Öffne mit Ada das Dienstbuch.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Compare inside and outside clocks.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask the visible Ben about the phone.",
+            "action_type": "say"
+          },
+          {
+            "text": "Open the logbook with Ada.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Сравнить внутренние и наружные часы.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить видимого Бена о телефоне.",
+            "action_type": "say"
+          },
+          {
+            "text": "Открыть с Адой журнал.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "内外の時計を比べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "隣の本物のベンに電話を聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "アダと勤務簿を開く。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "gleis_null",
+      "style": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds",
+      "moods": {
+        "calm": {
+          "caption": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "signal_room.webp",
+          "path": "presets/gleis-null/backgrounds/signal_room.webp"
+        },
+        {
+          "file": "platform_zero.webp",
+          "path": "presets/gleis-null/backgrounds/platform_zero.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "signal_room.webp"
+}

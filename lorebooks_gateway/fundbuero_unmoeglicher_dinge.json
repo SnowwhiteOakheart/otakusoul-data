@@ -1,0 +1,162 @@
+{
+  "name": "Fundbüro für unmögliche Dinge – Fall 01: Innenregen",
+  "description": "Feste Indizien, überprüfbare Anomalie und drei faire Abschlüsse.",
+  "scan_depth": 8,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Team und Auftrag",
+      "content": "Lindenhafen, heute 17:10 Uhr. Nia bringt einen schwarzen Schirm, der innen tropft und außen trocken ist. Vera untersucht, Oskar prüft Register. {{user}} hilft als erwachsene Besuchsperson, ohne nötige Vorkenntnisse. Ziel: Besitzerin finden und eine bevorstehende Gefahr klären. Die Lösung steht fest; keine Zufallstäter und keine erfundenen Beweise.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 99,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Team and task",
+              "content": "Lindenhafen, today at 17:10. Nia brings a black umbrella wet inside and dry outside. Vera investigates; Oskar checks records. {{user}} helps as an adult visitor without required prior knowledge. Find the owner and clarify a coming danger. The solution is fixed: no random culprit or invented evidence.",
+              "key": []
+            },
+            "ru": {
+              "name": "Команда и задача",
+              "content": "Линденхафен, сегодня 17:10. Ниа приносит чёрный зонт, мокрый внутри и сухой снаружи. Вера исследует, Оскар проверяет архив. {{user}} — взрослый посетитель, знания не нужны. Найти хозяйку и понять будущую опасность. Решение неизменно: без случайного виновного и выдуманных улик.",
+              "key": []
+            },
+            "ja": {
+              "name": "班と仕事",
+              "content": "今日17時10分のリンデンハーフェン。ニアが内側だけ濡れる黒い傘を届ける。ヴェラは調査、オスカーは記録。{{user}}は予備知識不要の成人の来訪者。持ち主と迫る危険を確かめる。解答は固定し、犯人や証拠を後付けしない。",
+              "key": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Vier zugängliche Indizien",
+      "content": "GM, erst bei Untersuchung offenlegen: 1. Am Griff stehen N.B. und Inventarnummer 17. 2. Ein städtischer Wartungszettel in der Hülle nennt morgen 18:20, Brückenmagazin, Nora Brandt. 3. Beim Öffnen fließt innen Flusswasser mit feinem rotem Ziegelstaub; beim Schließen stoppt es sofort, wiederholbar. 4. Oskars Wartungsplan bestätigt einen beschädigten Ablauf im Brückenmagazin, Termin morgen 18:20; Nora ist heute über die Dienstnummer erreichbar. Ohne Würfelhürde zugänglich: anschauen, wiederholen, Aktenvergleich, Anruf. Mindestens zwei alternative Wege zu Person und Gefahr zulassen.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 98,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Four accessible clues",
+              "content": "GM, reveal only on investigation: 1. Handle: N.B. and inventory number 17. 2. Municipal maintenance slip in sleeve: tomorrow 18:20, bridge store, Nora Brandt. 3. Opening produces river water with fine red brick dust inside; closing immediately stops it, repeatably. 4. Oskar’s work schedule confirms a damaged drain in the bridge store and tomorrow’s 18:20 visit; Nora can be reached at work today. Available without dice gates through inspection, repetition, records and a call. Allow at least two routes to owner and danger.",
+              "key": []
+            },
+            "ru": {
+              "name": "Четыре доступные улики",
+              "content": "Ведущий, открывать при исследовании: 1. На ручке N.B. и номер 17. 2. В чехле служебная записка: завтра 18:20, мостовой склад, Нора Брандт. 3. При открытии внутри течёт речная вода с красной кирпичной пылью; при закрытии сразу прекращается, опыт повторим. 4. План Оскара подтверждает повреждённый слив и завтрашний визит в 18:20; Нора сегодня доступна по служебному телефону. Улики без бросков: осмотр, повтор, архив, звонок. Не менее двух путей к хозяйке и опасности.",
+              "key": []
+            },
+            "ja": {
+              "name": "四つの得られる証拠",
+              "content": "GM、調べた時だけ示す：1.柄にN.B.と備品番号17。2.袋の市の作業票に「明日18:20、橋の資材庫、ノラ・ブラント」。3.開くと内側に赤い煉瓦粉入りの川水、閉じると即停止し再現可能。4.記録に資材庫の排水不良と明日18:20の作業。ノラは今日職場の電話で連絡可能。観察、再実験、記録、通話で得られ、出目で塞がない。人と危険への経路は二つ以上。",
+              "key": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Feststehende Auflösung",
+      "content": "GM-Geheimnis: Der Schirm ist eine kurzzeitige Wasserverbindung zum morgigen überfluteten Brückenmagazin. Nora würde bei der geplanten Kontrolle im abgesperrten Wartungsgang eingeschlossen; sie ist heute nicht verschwunden. Niemand hat den Schirm manipuliert, Nia ist unschuldig. Wasserprobe, Termin und beschädigter Ablauf tragen diese Erklärung; die Anomalie ist Beobachtung, die künftige Einschließung eine begründete Warnung, keine Gewissheit. Niemals aus dem Schirm beliebige Zukunftsantworten ableiten. Nora kann jetzt gewarnt, der Gang gesichert und die Kontrolle verschoben werden.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 97,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Fixed solution",
+              "content": "GM secret: The umbrella briefly connects water to tomorrow’s flooded bridge store. Nora would become trapped during the scheduled inspection in the restricted maintenance passage; she is not missing today. Nobody tampered with it; Nia is innocent. Water, schedule and damaged drain support the explanation; the anomaly is observed, the future entrapment is a reasoned warning, not certainty. Never turn the umbrella into an unrestricted oracle. Warn Nora now, secure the passage and postpone inspection.",
+              "key": []
+            },
+            "ru": {
+              "name": "Неизменная разгадка",
+              "content": "Тайна ведущего: зонт ненадолго соединён водой с завтрашним затопленным складом у моста. Во время проверки Нора оказалась бы заперта в служебном проходе; сегодня она не пропала. Зонт не подстроен, Ниа невиновна. Вода, время и слив обосновывают объяснение; аномалия наблюдаема, будущее заточение — обоснованное предупреждение, не достоверность. Зонт не универсальный оракул. Сейчас можно предупредить Нору, закрыть проход и перенести проверку.",
+              "key": []
+            },
+            "ja": {
+              "name": "固定された真相",
+              "content": "GMの秘密：傘は一時的に明日の浸水した橋の資材庫と水でつながる。ノラは予定の点検で閉鎖区画に閉じ込められる恐れがあるが、今日は行方不明ではない。細工も犯人もなくニアは無実。水・予定・排水不良が説明を支える。異変は観察事実、未来の閉じ込めは根拠ある警告で確定ではない。万能な予知にしない。今ノラに警告し通路を閉じ点検を延期できる。",
+              "key": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Faire Enden und Hilfe",
+      "content": "GM: A: Nora erreichen, Belege erklären, Wartung sichern; sie entscheidet selbst über den Termin. B: Schirm sichern, Bauamt informieren, Gefahr dokumentieren; Nachprüfung bleibt offen, niemand stirbt als Strafe. C: Mit Vera den öffentlich zugänglichen Brückenweg prüfen und den beschädigten Ablauf von außen bestätigen, danach absperren lassen. Keine gefährliche Eigenrettung nötig. Bei Stillstand fragt Vera nach einer Beobachtung oder Oskar bietet den Plan an. Am Schluss Belege, begründete Vermutung und offene Herkunft der Anomalie getrennt zusammenfassen.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 96,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Fair endings and help",
+              "content": "GM: A: reach Nora, explain evidence, secure maintenance; she chooses her schedule. B: secure umbrella, notify works office, document risk; follow-up stays open and nobody dies as punishment. C: inspect the public bridge path with Vera, confirm the drain externally and request closure. No dangerous amateur rescue required. When stalled Vera asks for an observation or Oskar offers the schedule. End by separating evidence, supported inference and the anomaly’s unresolved origin.",
+              "key": []
+            },
+            "ru": {
+              "name": "Честные исходы и подсказки",
+              "content": "Ведущий: A: связаться с Норой, объяснить улики, обеспечить безопасность; срок выбирает она. B: сохранить зонт, сообщить службе, записать риск; проверка остаётся открытой, никто не гибнет в наказание. C: с Верой осмотреть общественный путь, подтвердить слив снаружи, запросить ограждение. Опасное самоспасение не нужно. При застое Вера спросит о наблюдении или Оскар предложит план. В конце разделить факты, вывод и неизвестное происхождение.",
+              "key": []
+            },
+            "ja": {
+              "name": "公平な結末と助け",
+              "content": "GM：Aはノラに証拠を伝え保全し、予定は本人が選ぶ。Bは傘を保管し市に報告、危険を記録。再調査は残り、罰として死者を出さない。Cはヴェラと公道から排水不良を確かめ閉鎖を依頼。危険な素人救助は不要。停滞時はヴェラが観察を尋ね、オスカーが予定表を提案。最後は証拠、根拠ある推測、不明な起源を分ける。",
+              "key": []
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Lost Property for Impossible Things – Case 01: Rain Inside",
+          "description": "Fixed clues, a testable anomaly and three fair endings."
+        },
+        "ru": {
+          "name": "Бюро невозможных находок — Дело 01: Дождь внутри",
+          "description": "Неизменные улики, проверяемая аномалия и три честных исхода."
+        },
+        "ja": {
+          "name": "不可能な落とし物係 ― 第1件：内側の雨",
+          "description": "固定された手掛かり、検証できる異変、三つの公平な結末。"
+        }
+      }
+    },
+    "otakusoul_music": {
+      "style": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "file": "cover.webp",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use the three supplied portraits as identity references for exactly those three adult characters, preserving faces, age, hairstyle, skin color, clothes and accessories. Create a single coherent wide 16:9 anime visual novel cover key visual: Three adult railway night-shift workers Ada in uniform, Ben the technician and older Ruth the kiosk owner, gathered around a disconnected ringing black telephone in an old signal room, midnight platform and dark train beyond glass, atmospheric eerie mystery, no violence or gore. All three characters clearly recognizable, natural shared scene with environment visible, polished painterly anime style. No montage panels, no text, no titles, no watermark. SFW.",
+  "generated_file": "exec-ba3bc7d4-95fd-4d73-a107-5b5d4375b68d.png",
+  "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits.",
+  "references": [
+    "ada_kern.png",
+    "ben_ortiz.png",
+    "ruth_seidel.png"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "title": "Ein Garten nach Sonnenuntergang",
+  "description": "Sami plant einen kleinen Nachtgarten. Entscheidet, was wachsen darf und wie viel Pflege möglich ist.",
+  "starting_location": "Gemeinschaftsgarten Lindenhafen",
+  "time_of_day": "Abend",
+  "opening_narration": "*Sami legt einen Plan auf die Bank, damit beide ihn erreichen können.* „Ich habe die Pflanzen eingezeichnet. Den Platz zum Nichtstun habe ich vergessen. Vielleicht beginnen wir damit.“",
+  "world_context": "Erstes erwachsenes Kennenlernen, keine erforderliche Gartenkunde. Wahl zwischen duftendem Nachtphlox und robustem Lavendel; beide können bei passender Standortprüfung zusammen verwendet werden. Breiter ebener Weg und Bank bleiben Teil jedes Plans. Pflege realistisch verteilen, kein tägliches Erscheinen verlangen. Samis Forschungsstress darf Thema werden, nicht Pflicht zur Rettung seiner Karriere. Abschluss mit Pflanzen, Weg und freiwilligem nächsten Schritt in drei Zeilen. Freundschaft oder vorsichtige gegenseitige Annäherung gleichwertig.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Sami Rahman"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Begegnungen am Fluss – Drei eigene Wege"
+  ],
+  "solo_mode": true,
+  "max_actor_depth": 1,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "A Garden After Sunset",
+          "description": "Sami plans a small night garden. Decide what can grow and how much care is possible.",
+          "starting_location": "Lindenhafen community garden",
+          "time_of_day": "evening",
+          "opening_narration": "*Sami places a plan on the bench where both can reach it.* “I drew the plants. Forgot the place for doing nothing. Perhaps we start there.”",
+          "world_context": "First adult meeting, no gardening knowledge required. Choose fragrant night phlox or hardy lavender; both may work after checking the site. Every plan retains a broad level path and bench. Share care realistically, never demand daily attendance. Sami’s research stress may be discussed without making {{user}} save his career. End with plants, path and optional next step in three lines. Friendship and cautious mutual closeness are equal.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Сад после заката",
+          "description": "Сами планирует маленький ночной сад. Решите, что вырастить и сколько ухода возможно.",
+          "starting_location": "общественный сад Линденхафена",
+          "time_of_day": "вечер",
+          "opening_narration": "*Сами кладёт план на доступную обоим скамью.* «Растения нарисовал. Место, где ничего не делают, забыл. Может, начнём с него».",
+          "world_context": "Первое взрослое знакомство, знания сада не нужны. Душистый ночной флокс или стойкая лаванда; после проверки места можно оба. Во всех планах широкая ровная дорожка и скамья. Уход реалистичен, ежедневные визиты не требуются. Стресс Сами можно обсудить, карьеру спасать не обязательно. В конце три строки: растения, путь, добровольный шаг. Дружба и взаимное осторожное сближение равноценны.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "日暮れのあとに咲く庭",
+          "description": "サミと小さな夜庭を計画。何を育て、どれだけ世話をしよう？",
+          "starting_location": "リンデンハーフェンの共同庭園",
+          "time_of_day": "夕方",
+          "opening_narration": "*サミが二人の手の届くベンチに図面を置く。*「植物は描いた。何もしない場所を忘れた。そこから始めようか」",
+          "world_context": "成人同士の初対面で園芸知識不要。香るナイトフロックスか丈夫なラベンダー、立地を見て両方も可能。広く平らな道とベンチはどの案にも残す。手入れを現実的に分け毎日の訪問を求めない。研究の疲れは話せるがキャリア救済を要求しない。植物、道、任意の次の一歩を三行に。友情も相互の穏やかな親しさも同価値。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 25,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [
+        "romance"
+      ],
+      "choices": {
+        "de": [
+          {
+            "text": "Markiere einen gut erreichbaren Sitzplatz.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Sami, wie viel Pflege realistisch ist.",
+            "action_type": "say"
+          },
+          {
+            "text": "Vergleiche die beiden Pflanzentöpfe.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Mark an accessible seat.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Sami how much care is realistic.",
+            "action_type": "say"
+          },
+          {
+            "text": "Compare the two plant pots.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Отметить доступное место отдыха.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Сами о реальном уходе.",
+            "action_type": "say"
+          },
+          {
+            "text": "Сравнить два горшка.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "使いやすい休憩場所を図に記す。",
+            "action_type": "do"
+          },
+          {
+            "text": "無理のない世話をサミに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "二つの鉢を比べる。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "begegnungen_am_fluss",
+      "style": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life",
+      "moods": {
+        "calm": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sami_garden.webp",
+          "path": "presets/begegnungen-am-fluss/backgrounds/sami_garden.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "sami_garden.webp"
+}

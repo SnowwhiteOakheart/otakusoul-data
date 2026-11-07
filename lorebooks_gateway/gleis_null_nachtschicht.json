@@ -1,0 +1,162 @@
+{
+  "name": "Gleis 0 – Dienstbuch der ersten Nacht",
+  "description": "Überprüfbare Regeln, ein verlorener Fahrgast und ein sicherer Rückzug.",
+  "scan_depth": 8,
+  "is_global": false,
+  "entries": [
+    {
+      "uid": 1,
+      "name": "Bahnhof nach Mitternacht",
+      "content": "Fiktiver Bahnhof Lindenhafen in eigenständiger unheimlicher Kontinuität. Ada, 48, führt die Schicht; Ben, 29, wartet Signale; Ruth, 61, betreibt den Kiosk. {{user}} ist ein neues erwachsenes Teammitglied. Um 00:17 erscheint ein Zug an Gleis 0. Atmosphäre durch Geräusche, Zeitabweichungen und Erinnerungen, ohne Splatter. Niemand kennt die vollständige Ursache.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 99,
+      "enabled": true,
+      "injection_behavior": "passive",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Station after midnight",
+              "content": "Fictional Lindenhafen station in its own uncanny continuity. Ada, 48, leads; Ben, 29, maintains signals; Ruth, 61, runs the kiosk. {{user}} is a new adult team member. At 00:17 a train appears on Platform 0. Build atmosphere through sounds, time discrepancies and memory, without gore. Nobody knows the full cause.",
+              "key": []
+            },
+            "ru": {
+              "name": "Вокзал после полуночи",
+              "content": "Вымышленный вокзал Линденхафена в отдельной жуткой версии мира. Ада, 48, старшая; Бен, 29, техник; Рут, 61, держит киоск. {{user}} — новый взрослый сотрудник. В 00:17 прибывает поезд на платформу 0. Атмосфера из звуков, сдвига времени и памяти, без кровавых сцен. Причина никому полностью не известна.",
+              "key": []
+            },
+            "ja": {
+              "name": "真夜中の駅",
+              "content": "独立した不気味な設定の架空のリンデンハーフェン駅。責任者アダ48歳、技師ベン29歳、売店のルート61歳。{{user}}は新しい成人の同僚。00:17に0番線へ列車が現れる。音、時刻のずれ、記憶で怖さを描き流血は使わない。原因の全体は誰も知らない。",
+              "key": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Drei prüfbare Regeln",
+      "content": "GM: Dienstbuch offen anbieten. 1. Vor jedem Signal Außen- und Innenuhr vergleichen; Innenzeiger bleibt bei Zugankunft 00:17 stehen, Außenzeit läuft weiter. 2. Anweisungen aus dem abgesteckten Telefon mit einer sichtbaren Kollegin oder einem Kollegen prüfen; es imitiert Ben, während der echte Ben im Raum steht. 3. Rückweg und Kiosklicht bleiben offen, solange niemand die rote Zugschwelle überschreitet. Regeln nicht nachträglich ändern. Unvorsicht löst erst eine klare Warnung aus, keine sofortige Tötung oder erzwungene Kontrolle.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 98,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Three testable rules",
+              "content": "GM: Offer the logbook openly. 1. Compare outside and inside clocks before signaling; the inside clock stops at 00:17 when the train arrives, outside time continues. 2. Check unplugged-phone instructions with a visible colleague; it imitates Ben while the real Ben stands in the room. 3. The exit and kiosk light remain available while nobody crosses the train’s red threshold. Never change rules retroactively. Carelessness first brings a clear warning, not instant death or forced control.",
+              "key": []
+            },
+            "ru": {
+              "name": "Три проверяемых правила",
+              "content": "Ведущий: журнал доступен. 1. До сигнала сравнивать наружные и внутренние часы; внутренние замирают в 00:17 при поезде, наружные идут. 2. Указания отключённого телефона проверять у видимого коллеги; он подражает Бену, пока настоящий Бен рядом. 3. Выход и свет киоска доступны, пока никто не пересёк красный порог поезда. Правила не менять задним числом. Неосторожность сначала даёт ясное предупреждение, не мгновенную смерть или контроль.",
+              "key": []
+            },
+            "ja": {
+              "name": "検証できる三規則",
+              "content": "GM：勤務簿は最初から読める。1.信号前に内外の時計を比較。列車到着で室内は00:17に止まり外は進む。2.線の抜けた電話の指示は見える同僚に確認。室内の本物のベンをよそに電話は彼をまねる。3.赤い列車の敷居を越えない限り退路と売店の灯は残る。後から規則を変えない。不注意にはまず明確な警告を出し即死や強制支配をしない。",
+              "key": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Der Fahrgast",
+      "content": "GM-Geheimnis: Eine erwachsene Person im grauen Mantel sucht eine Fahrkarte von 1987 und möchte aussteigen, nicht jemanden ersetzen. Die Karte liegt sichtbar unter einer leeren Tasse im Kiosk; Ruth erkennt das damalige Streckenmuster, nicht die Identität. Beim Zeigen der Karte und Beleuchten des weißen Bahnsteigstrichs kann die Person selbst aussteigen. Das Telefon will dagegen das rote Einstiegssignal. Keine fremde echte Identität, keine Biografie von {{user}} erfinden. Die Person darf einen Namen selbst nennen oder namenlos bleiben.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 97,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "The passenger",
+              "content": "GM secret: An adult in a gray coat seeks a 1987 ticket and wants to leave, not replace anyone. The ticket lies visibly under an empty cup in the kiosk; Ruth recognizes the old route pattern, not the passenger’s identity. Showing it and lighting the white platform line lets the passenger choose to step off. The phone instead wants the red boarding signal. Do not invent a real identity or {{user}}’s biography. The passenger may volunteer a name or remain unnamed.",
+              "key": []
+            },
+            "ru": {
+              "name": "Пассажир",
+              "content": "Тайна: взрослый человек в сером пальто ищет билет 1987 года и хочет выйти, не заменить другого. Билет виден под пустой чашкой киоска; Рут узнаёт рисунок маршрута, не личность. Показать билет и осветить белую линию — человек сам может выйти. Телефон требует красный сигнал посадки. Не выдумывать подлинную чужую личность или прошлое {{user}}. Пассажир сам назовётся либо останется безымянным.",
+              "key": []
+            },
+            "ja": {
+              "name": "旅客",
+              "content": "GMの秘密：灰色のコートの成人は1987年の切符を探し、誰かと入れ替わるのでなく降りたい。切符は売店の空のカップの下に見えている。ルートは昔の路線模様を知るが身元は知らない。切符を示し白いホーム線を照らせば本人が降りるか選べる。電話は赤い乗車信号を求める。{{user}}の過去や他人の本名を捏造しない。旅客は自分で名乗るか無名でもよい。",
+              "key": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Drei Ausgänge",
+      "content": "GM: Helfen: Fahrkarte finden, Telefon mit Ben prüfen, weiße Linie beleuchten; Fahrgast entscheidet und Zug fährt leer. Beobachten: kein Einstiegssignal geben, Zug vorbeilassen, Daten und offene Frage notieren. Rückzug: alle in den beleuchteten Kiosk, Fenster schließen, kein Signal; Zug verschwindet mit fortlaufender Außenuhr. Kein Ende bestraft die Spielerfigur. Nach etwa zehn bedeutsamen Beiträgen Nacht abschließen. Gefahr nicht endlos eskalieren; bei gewünschter Pause sofort ruhigen Rückzug ermöglichen.",
+      "key": [],
+      "trigger_type": "always_on",
+      "probability": 100,
+      "priority": 96,
+      "enabled": true,
+      "injection_behavior": "active",
+      "extensions": {
+        "otakusoul_i18n": {
+          "source_language": "de",
+          "translations": {
+            "en": {
+              "name": "Three ways out",
+              "content": "GM: Help: find ticket, check phone with Ben, light white line; passenger chooses and train leaves empty. Observe: give no boarding signal, let train pass, note data and the open question. Retreat: everyone enters lit kiosk, closes window, gives no signal; train vanishes while outside time advances. No ending punishes the player. Close the night after about ten meaningful contributions. Do not escalate forever; allow a quiet retreat immediately if requested.",
+              "key": []
+            },
+            "ru": {
+              "name": "Три выхода",
+              "content": "Ведущий: помочь — билет, сверить телефон с Беном, осветить белую линию; пассажир решает, поезд уходит пустым. Наблюдать — без сигнала посадки пропустить поезд, записать факты и вопрос. Отступить — всем в освещённый киоск, закрыть окно, без сигнала; поезд исчезнет при ходе наружных часов. Без наказания игрока. Около десяти значимых ходов до конца ночи. Не усиливать опасность бесконечно; пауза сразу допускает спокойный отход.",
+              "key": []
+            },
+            "ja": {
+              "name": "三つの終わり方",
+              "content": "GM：助けるなら切符、ベンと電話を照合、白線を照らし本人の選択で列車は空で去る。観察なら乗車信号を出さず通過を待ち記録。退避なら全員で明るい売店へ、窓を閉め無信号。外の時が進み列車は消える。どの結末もプレイヤーへの罰にしない。入力十回ほどで夜を締める。危険を無限に強めず、希望すれば直ちに静かな退避を可能にする。",
+              "key": []
+            }
+          }
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "name": "Platform 0 – First Night Logbook",
+          "description": "Testable rules, a lost passenger and a safe retreat."
+        },
+        "ru": {
+          "name": "Платформа 0 — Журнал первой ночи",
+          "description": "Проверяемые правила, потерянный пассажир и безопасное отступление."
+        },
+        "ja": {
+          "name": "0番線 ― 最初の夜の勤務簿",
+          "description": "検証できる規則、迷った旅客、安全な退避。"
+        }
+      }
+    },
+    "otakusoul_music": {
+      "style": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds"
+    }
+  }
+}

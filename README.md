@@ -14,10 +14,10 @@
 </p>
 
 <p align="center">
-  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-72%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
-  <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-62%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
-  <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-34%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
-  <img alt="Presets" src="https://img.shields.io/badge/Presets-23%20Welten-10b981?style=for-the-badge" />
+  <img alt="Charaktere" src="https://img.shields.io/badge/Charaktere-93%20Karten-ff69b4?style=for-the-badge&logo=heart&logoColor=white" />
+  <img alt="Soul Stages" src="https://img.shields.io/badge/Soul%20Stages-80%20Szenen-7c3aed?style=for-the-badge&logo=book-open&logoColor=white" />
+  <img alt="Lorebooks" src="https://img.shields.io/badge/Lorebooks-46%20Bücher-0ea5e9?style=for-the-badge&logo=bookmark&logoColor=white" />
+  <img alt="Presets" src="https://img.shields.io/badge/Presets-31%20Welten-10b981?style=for-the-badge" />
   <img alt="Format" src="https://img.shields.io/badge/Format-Character%20Card%20V2-f59e0b?style=for-the-badge" />
   <img alt="Lizenz" src="https://img.shields.io/badge/Lizenz-GPLv3-22c55e?style=for-the-badge" />
 </p>
@@ -313,3 +313,12 @@ This repository is an independent, non-commercial fan project. All depicted char
 **EN:** New collection with Anya, Loid and Yor, 45 expressions, two lorebooks and a roughly 60-minute story with cover and museum garden; DE/EN/RU/JA.
 
 **RU:** Новая коллекция: Аня, Лойд, Йор, 45 эмоций, две книги знаний и история примерно на 60 минут с обложкой и музейным садом; DE/EN/RU/JA.
+
+
+## Neue Geschichten / New Stories / Новые истории · 07.11.2026
+
+**DE:** Neu im Hub: **Café zwischen den Tagen** (3 Alltagsfolgen), **Begegnungen am Fluss** (3 erwachsene Begegnungen), **Fundbüro für unmögliche Dinge** (erster Detektivfall), **Nachtschicht auf Gleis 0** (Horror-Pilot) und **Aobane – Kleine Momente**. Dazu vier Kurzbesuche mit Tifa, Kian, Miku sowie Ren und Aoi und die dreiteilige Kreativreihe **Studio 39 – Unser erster Auftritt**. Zwölf neue Originalfiguren mit je sechs Basis-Expressions; Texte auf Deutsch, Englisch, Russisch und Japanisch. Im Hub die jeweilige Sammlung öffnen und „Alles installieren“ wählen. Die neuen kurzen Szenen dauern etwa 10–15 Minuten; Spieldauer hängt vom Gespräch ab. Freundschaft und optionale erwachsene Romantik bleiben offene Wege.
+
+**EN:** New in the Hub: **Café Between Days** (3 everyday episodes), **Riverside Encounters** (3 adult encounters), **Lost Property for Impossible Things** (first detective case), **Night Shift on Platform 0** (horror pilot) and **Aobane – Small Moments**. Also four short visits with Tifa, Kian, Miku, and Ren with Aoi, plus the three-part creative series **Studio 39 – Our First Performance**. Twelve new original characters with six base expressions each; text in German, English, Russian and Japanese. Open the collection in the Hub and choose “Install all.” The short scenes take roughly 10–15 minutes, depending on conversation. Friendship and optional adult romance remain open paths.
+
+**RU:** Новое в Хабе: **Кафе между днями** (3 бытовые серии), **Встречи у реки** (3 взрослые встречи), **Бюро невозможных находок** (первое дело), **Ночная смена на платформе 0** (пилот хоррора), **Аобанэ — Маленькие моменты**. Также четыре коротких визита к Тифе, Киану, Мику, Рэну с Аои и три творческие серии **Студия 39 — Наше первое выступление**. Двенадцать новых оригинальных героев, по шесть базовых эмоций, тексты на немецком, английском, русском и японском. Открой коллекцию в Хабе и выбери «Установить всё». Короткие сцены длятся около 10–15 минут, в зависимости от разговора. Дружба и необязательная романтика взрослых равноценны.

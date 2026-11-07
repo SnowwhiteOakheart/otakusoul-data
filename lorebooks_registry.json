@@ -908,6 +908,144 @@
           "name": "Студия 39 — Дорожки и голоса"
         }
       }
+    },
+    {
+      "name": "Café zwischen den Tagen – Nachbarschaft & kleine Anfänge",
+      "description": "Lindenhafen, drei Erwachsene und kleine Geschichten ohne Pflicht zur Romantik.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/cafe_zwischen_den_tagen.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "description": "Lindenhafen, three adults and small stories with optional romance.",
+          "name": "Café Between Days – Neighbors and Small Beginnings"
+        },
+        "ja": {
+          "description": "リンデンハーフェンの成人三人と、恋愛を必須としない小さな物語。",
+          "name": "日々のあいだのカフェ ― 隣人と小さな始まり"
+        },
+        "ru": {
+          "description": "Линденхафен, трое взрослых и небольшие истории с необязательной романтикой.",
+          "name": "Кафе между днями — Соседи и маленькие начала"
+        }
+      }
+    },
+    {
+      "name": "Begegnungen am Fluss – Drei eigene Wege",
+      "description": "Drei erwachsene Männer, Lindenhafen und Freundschaft oder langsame Romantik.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/begegnungen_am_fluss.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "description": "Three adult men, Lindenhafen, friendship or slow romance.",
+          "name": "Riverside Encounters – Three Paths"
+        },
+        "ja": {
+          "description": "成人男性三人との、リンデンハーフェンの友情やゆっくりした恋。",
+          "name": "川辺の出会い ― 三つの道"
+        },
+        "ru": {
+          "description": "Трое взрослых мужчин, Линденхафен, дружба или медленная романтика.",
+          "name": "Встречи у реки — Три пути"
+        }
+      }
+    },
+    {
+      "name": "Fundbüro für unmögliche Dinge – Fall 01: Innenregen",
+      "description": "Feste Indizien, überprüfbare Anomalie und drei faire Abschlüsse.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/fundbuero_unmoeglicher_dinge.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "description": "Fixed clues, a testable anomaly and three fair endings.",
+          "name": "Lost Property for Impossible Things – Case 01: Rain Inside"
+        },
+        "ja": {
+          "description": "固定された手掛かり、検証できる異変、三つの公平な結末。",
+          "name": "不可能な落とし物係 ― 第1件：内側の雨"
+        },
+        "ru": {
+          "description": "Неизменные улики, проверяемая аномалия и три честных исхода.",
+          "name": "Бюро невозможных находок — Дело 01: Дождь внутри"
+        }
+      }
+    },
+    {
+      "name": "Gleis 0 – Dienstbuch der ersten Nacht",
+      "description": "Überprüfbare Regeln, ein verlorener Fahrgast und ein sicherer Rückzug.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/gleis_null_nachtschicht.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "description": "Testable rules, a lost passenger and a safe retreat.",
+          "name": "Platform 0 – First Night Logbook"
+        },
+        "ja": {
+          "description": "検証できる規則、迷った旅客、安全な退避。",
+          "name": "0番線 ― 最初の夜の勤務簿"
+        },
+        "ru": {
+          "description": "Проверяемые правила, потерянный пассажир и безопасное отступление.",
+          "name": "Платформа 0 — Журнал первой ночи"
+        }
+      }
+    },
+    {
+      "name": "Studio 39 – Unser erster Auftritt",
+      "description": "Drei eigenständige Kreativfolgen mit optionaler gemeinsamer Fortsetzung.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 4,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/studio_39_unser_erster_auftritt.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "description": "Three independent creative episodes with optional shared continuation.",
+          "name": "Studio 39 – Our First Performance"
+        },
+        "ja": {
+          "description": "独立して遊べて、続けることもできる三つの創作話。",
+          "name": "スタジオ39 ― はじめてのステージ"
+        },
+        "ru": {
+          "description": "Три самостоятельных творческих эпизода с возможным продолжением.",
+          "name": "Студия 39 — Наше первое выступление"
+        }
+      }
+    },
+    {
+      "name": "Aobane – Kleine Momente",
+      "description": "Klasse 2-B, Fotoausstellung und freundschaftliche Entscheidungen.",
+      "author": "SnowwhiteOakheart",
+      "entry_count": 3,
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/lorebooks_gateway/aobane_kleine_momente.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "description": "Class 2-B, a photo exhibition and friendly choices.",
+          "name": "Aobane – Small Moments"
+        },
+        "ja": {
+          "description": "2年B組、写真展と友人同士の選択。",
+          "name": "青羽 ― 小さなひととき"
+        },
+        "ru": {
+          "description": "Класс 2-B, фотовыставка и дружеские решения.",
+          "name": "Аобанэ — Маленькие моменты"
+        }
+      }
     }
   ]
 }

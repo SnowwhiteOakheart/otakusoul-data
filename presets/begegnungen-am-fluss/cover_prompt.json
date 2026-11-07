@@ -1,0 +1,12 @@
+{
+  "file": "cover.webp",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use the three supplied portraits as identity references for exactly those three adult characters, preserving faces, age, hairstyle, skin color, clothes and accessories. Create a single coherent wide 16:9 anime visual novel cover key visual: Three distinct adult men Elias the restorer, Noah the radio host and Sami the botanist share a relaxed conversation on a riverside terrace in a fictional central European town at blue hour, a small potted plant and wooden radio on table, intimate warm mood, no assumed couple. All three characters clearly recognizable, natural shared scene with environment visible, polished painterly anime style. No montage panels, no text, no titles, no watermark. SFW.",
+  "generated_file": "exec-b675643d-8a4f-4e8f-82c2-9197ee935949.png",
+  "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits.",
+  "references": [
+    "elias_hartmann.png",
+    "noah_sommer.png",
+    "sami_rahman.png"
+  ]
+}

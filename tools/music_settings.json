@@ -2154,6 +2154,276 @@
           "duration": 100
         }
       }
+    },
+    "ff7_kurz_nach_ladenschluss": {
+      "set": "final_fantasy_vii",
+      "style": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city",
+      "moods": {
+        "calm": {
+          "caption": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "atmospheric JRPG orchestra, piano, strings, industrial undertones, mako-lit city, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "sternenbruch_kurz_radio": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "studio_39_kurz_drei_geraeusche": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "aobane_kurz_letztes_foto": {
+      "set": "aobane_kleine_momente",
+      "style": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental",
+      "moods": {
+        "calm": {
+          "caption": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "cafe_ep1_fenstertisch": {
+      "set": "cafe_zwischen_den_tagen",
+      "style": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet",
+      "moods": {
+        "calm": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "cafe_ep2_kuchen": {
+      "set": "cafe_zwischen_den_tagen",
+      "style": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet",
+      "moods": {
+        "calm": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "cafe_ep3_erste_lesung": {
+      "set": "cafe_zwischen_den_tagen",
+      "style": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet",
+      "moods": {
+        "calm": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "begegnungen_ep1_reparaturspuren": {
+      "set": "begegnungen_am_fluss",
+      "style": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life",
+      "moods": {
+        "calm": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "begegnungen_ep2_letzte_sendung": {
+      "set": "begegnungen_am_fluss",
+      "style": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life",
+      "moods": {
+        "calm": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "begegnungen_ep3_nachtgarten": {
+      "set": "begegnungen_am_fluss",
+      "style": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life",
+      "moods": {
+        "calm": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "fundbuero_fall01_innenregen": {
+      "set": "fundbuero_unmoeglicher_dinge",
+      "style": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet",
+      "moods": {
+        "calm": {
+          "caption": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "gleis_null_ep1_0017": {
+      "set": "gleis_null",
+      "style": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds",
+      "moods": {
+        "calm": {
+          "caption": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "studio_39_auftritt_ep1_refrain": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "studio_39_auftritt_ep2_buehnenplan": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "studio_39_auftritt_ep3_generalprobe": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, tender restrained melody",
+          "duration": 100
+        }
+      }
     }
   },
   "lorebooks": {
@@ -2276,6 +2546,24 @@
     },
     "Studio 39 – Spuren und Stimmen": {
       "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano"
+    },
+    "Café zwischen den Tagen – Nachbarschaft & kleine Anfänge": {
+      "style": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet"
+    },
+    "Begegnungen am Fluss – Drei eigene Wege": {
+      "style": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life"
+    },
+    "Fundbüro für unmögliche Dinge – Fall 01: Innenregen": {
+      "style": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet"
+    },
+    "Gleis 0 – Dienstbuch der ersten Nacht": {
+      "style": "restrained atmospheric horror, low piano, distant metallic textures and sparse dark woodwinds"
+    },
+    "Studio 39 – Unser erster Auftritt": {
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano"
+    },
+    "Aobane – Kleine Momente": {
+      "style": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental"
     }
   },
   "cards": {
@@ -2745,6 +3033,42 @@
     },
     "Megurine Luka": {
       "theme": "warm downtempo electro-pop instrumental, soft low electric piano, brushed drums and a restrained melodic answering line"
+    },
+    "Jonas Berg": {
+      "theme": "warm upright piano and brushed jazz drums"
+    },
+    "Mira Falk": {
+      "theme": "soft clarinet with intimate piano"
+    },
+    "Leo Winter": {
+      "theme": "light fingerpicked guitar and marimba"
+    },
+    "Elias Hartmann": {
+      "theme": "warm cello and acoustic guitar"
+    },
+    "Noah Sommer": {
+      "theme": "mellow electric piano and soft analog synth"
+    },
+    "Sami Rahman": {
+      "theme": "gentle nylon guitar with glassy ambient keys"
+    },
+    "Vera Lenz": {
+      "theme": "muted trumpet and plucked double bass"
+    },
+    "Oskar Reed": {
+      "theme": "dry pizzicato strings and soft bass clarinet"
+    },
+    "Nia Quill": {
+      "theme": "light syncopated percussion and plucked strings"
+    },
+    "Ada Kern": {
+      "theme": "low piano ostinato and distant metallic ambience"
+    },
+    "Ben Ortiz": {
+      "theme": "soft irregular percussion and muted electric strings"
+    },
+    "Ruth Seidel": {
+      "theme": "distant music box with warm low woodwinds"
     }
   }
 }

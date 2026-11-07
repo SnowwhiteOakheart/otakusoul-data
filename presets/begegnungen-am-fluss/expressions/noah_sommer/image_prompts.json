@@ -1,0 +1,55 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "tool": "image_gen.imagegen",
+  "neutral_is_profile_source": true,
+  "assets": [
+    {
+      "file": "expressions/noah_sommer/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Noah Sommer, adult man age 30, late-night radio host, olive skin, short wavy black hair, hazel eyes, small silver hoop earring, plum overshirt and charcoal tee, headphones around neck, witty but quietly vulnerable neutral face, warm radio studio. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-badbf2fa-1ac2-4e2f-863b-160dc6a094ad.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/noah_sommer/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-9112845d-f742-4fa6-ab0a-94da9bf3c2f7.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "noah_sommer.png"
+    },
+    {
+      "file": "expressions/noah_sommer/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-18262a49-5c89-46a8-98a1-0e3be07e10f3.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "noah_sommer.png"
+    },
+    {
+      "file": "expressions/noah_sommer/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-0ad8bafc-b094-4aca-a52e-43c5c1d768c2.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "noah_sommer.png"
+    },
+    {
+      "file": "expressions/noah_sommer/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-8c971e2c-44bd-4524-8a07-001f7833e091.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "noah_sommer.png"
+    },
+    {
+      "file": "expressions/noah_sommer/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-71af4c2f-e463-4730-85b8-097b2638d3a7.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "noah_sommer.png"
+    }
+  ]
+}

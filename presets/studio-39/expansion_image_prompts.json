@@ -1,0 +1,14 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "origin": "AI-generated illustration; original OtakuSoul characters except existing Aobane and FFVII settings. Existing franchise rights remain with their owners.",
+  "assets": [
+    {
+      "file": "backgrounds/studio_39_room.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one wide 16:9 anime visual novel background: small contemporary virtual vocal recording studio, control room with mixer, microphones and empty vocal booth visible through glass, rain at night, cyan accent lights and warm electric piano, quiet creative atmosphere. Beautiful clean painterly environment art, detailed coherent perspective, inviting composition with open center for character overlays. Absolutely no people, no characters, no silhouettes, no text, no logos, no watermark.",
+      "generated_file": "exec-46b05846-3f16-462d-9f1c-42621a2b0ec3.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 1376x774, WebP quality 93, no compositional edits."
+    }
+  ]
+}

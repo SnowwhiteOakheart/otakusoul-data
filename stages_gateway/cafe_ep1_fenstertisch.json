@@ -1,0 +1,155 @@
+{
+  "title": "Dein üblicher Tisch ist besetzt",
+  "description": "Ein neuer Gast sitzt am Fenster. Finde heraus, wie aus einer kleinen Enttäuschung ein guter Abend wird.",
+  "starting_location": "Café zwischen den Tagen",
+  "time_of_day": "Abend",
+  "opening_narration": "*Am Fenster sitzt eine Frau mit zwei Fahrkarten. Jonas hält mit dem Tablett inne.* „Ich habe dir nichts reserviert. Möchtest du sie fragen, ob noch Platz ist, oder suchen wir einen anderen?“",
+  "world_context": "Erster Besuch oder Wiederkehr nach Wahl von {{user}}; keine Erinnerung erfinden. Die Besucherin wartet auf ihre Schwester. Jonas möchte niemanden verdrängen, Mira bietet den Büchertisch an, Leo kann seine Zeichnungen zusammenrücken. Kennenlernen, Platzfrage, eigene Abendgestaltung. Teilen, anderer Tisch oder späterer Besuch sind gleichwertig. Am Ende eine konkrete Vorliebe nur mit Zustimmung festhalten.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Jonas Berg",
+    "Mira Falk",
+    "Leo Winter"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Café zwischen den Tagen – Nachbarschaft & kleine Anfänge"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Your Usual Table Is Taken",
+          "description": "A new guest sits by the window. Turn a small disappointment into a good evening.",
+          "starting_location": "Café Between Days",
+          "time_of_day": "evening",
+          "opening_narration": "*A woman with two train tickets sits by the window. Jonas pauses with his tray.* “I haven’t reserved anything for you. Ask whether there’s room, or find another spot?”",
+          "world_context": "Let {{user}} choose first visit or return; invent no memories. The visitor awaits her sister. Jonas wants nobody displaced, Mira offers the book table, Leo can move his drawings. Meet, resolve seating, choose the evening. Sharing, another seat or a later visit are equal outcomes. Note a preference at the end only with permission.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Твой привычный стол занят",
+          "description": "У окна новый гость. Преврати небольшое разочарование в хороший вечер.",
+          "starting_location": "Кафе между днями",
+          "time_of_day": "вечер",
+          "opening_narration": "*У окна женщина с двумя билетами. Йонас останавливается с подносом.* «Я ничего не бронировал. Спросишь, есть ли место, или найдём другое?»",
+          "world_context": "{{user}} выбирает первый визит или возвращение; память не выдумывать. Гостья ждёт сестру. Йонас не хочет никого сгонять, Мира предлагает книжный стол, Лео подвинет рисунки. Знакомство, вопрос места, собственный вечер. Поделиться, другой стол или новый визит равноценны. Предпочтение в конце записать лишь с разрешения.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "いつもの席には先客",
+          "description": "窓辺には新しい客。小さな落胆から、よい夕方を見つけよう。",
+          "starting_location": "日々のあいだのカフェ",
+          "time_of_day": "夕方",
+          "opening_narration": "*窓辺には切符を二枚持つ女性。ヨナスが盆を止める。*「予約はしていないんだ。相席を聞く？ それとも別の場所にする？」",
+          "world_context": "初訪問か再訪かは{{user}}が決め、記憶を作らない。客は姉妹を待つ。ヨナスは誰も追いたくなく、ミラは本の机を提案し、レオは絵を寄せられる。知り合い、席を決め、夕方を選ぶ。相席、別席、再訪は同価値。最後に好みを残すなら許可を得る。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 20,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Sieh nach, welche Plätze noch frei sind.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag die Besucherin, ob sie Gesellschaft möchte.",
+            "action_type": "say"
+          },
+          {
+            "text": "Schau dir Miras Büchertisch an.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Check which seats are free.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask the visitor whether she would like company.",
+            "action_type": "say"
+          },
+          {
+            "text": "Look at Mira’s book table.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осмотреть свободные места.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить гостью, нужна ли компания.",
+            "action_type": "say"
+          },
+          {
+            "text": "Посмотреть книжный стол Миры.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "空いている席を探す。",
+            "action_type": "do"
+          },
+          {
+            "text": "先客に相席したいか聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "ミラの本の机を見る。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "cafe_zwischen_den_tagen",
+      "style": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet",
+      "moods": {
+        "calm": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "cafe_room.webp",
+          "path": "presets/cafe-zwischen-den-tagen/backgrounds/cafe_room.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "cafe_room.webp"
+}

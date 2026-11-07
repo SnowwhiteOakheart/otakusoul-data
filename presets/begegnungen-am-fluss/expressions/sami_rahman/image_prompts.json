@@ -1,0 +1,55 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "tool": "image_gen.imagegen",
+  "neutral_is_profile_source": true,
+  "assets": [
+    {
+      "file": "expressions/sami_rahman/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Sami Rahman, adult man age 33, botanist, warm medium brown skin, short black hair with soft side part, dark brown eyes, rectangular glasses, sage green field jacket over cream knit shirt, reserved observant neutral face, greenhouse at dusk. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-15e1a68b-537f-4e52-b64b-299d651eefe8.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/sami_rahman/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-d8fbc6bb-c03e-43d9-adea-bb51005b2779.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "sami_rahman.png"
+    },
+    {
+      "file": "expressions/sami_rahman/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-e342da0d-8689-4965-af02-964174c3f601.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "sami_rahman.png"
+    },
+    {
+      "file": "expressions/sami_rahman/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-921f2a91-cd92-47ef-943e-2db306493212.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "sami_rahman.png"
+    },
+    {
+      "file": "expressions/sami_rahman/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-1f7957ee-6b58-49fa-be2a-ad808772cebd.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "sami_rahman.png"
+    },
+    {
+      "file": "expressions/sami_rahman/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-064e5fd1-7b62-4d11-927f-e5535367b015.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "sami_rahman.png"
+    }
+  ]
+}

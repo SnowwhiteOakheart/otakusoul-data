@@ -1,0 +1,161 @@
+{
+  "title": "Fall 01: Der Schirm, der innen regnet",
+  "description": "Ein trockener Schirm tropft von innen. Seine Besitzerin soll erst morgen verschwinden.",
+  "starting_location": "Städtisches Fundbüro Lindenhafen",
+  "time_of_day": "Abend",
+  "opening_narration": "*Nia kippt den Schirm über eine Wanne. Die Außenseite bleibt trocken. Oskar liest zweimal dasselbe Datum.* „Morgen“, sagt er. Vera schiebt die Lampe näher. „Dann haben wir heute noch Zeit, genau hinzusehen.“",
+  "world_context": "Heute 17:10. Unabhängiger erster Fall ohne Vorwissen. Besitzerin Nora Brandt ist heute erreichbar. Die Behauptung des künftigen Verschwindens ist eine zu prüfende Warnung. Ablauf: Schirm testen, Termin und Person anhand zweier Belege zuordnen, Nora oder Bauamt kontaktieren beziehungsweise sicheren öffentlichen Brückenweg prüfen. Vier feste Indizien und drei Abschlüsse stehen im Lorebook; Lösung nicht vor der Untersuchung verraten. Keine Würfelhürden, kein wechselnder Täter. Ende mit Befund, begründeter Warnung und gemeinsam gewählter Maßnahme.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Vera Lenz",
+    "Oskar Reed",
+    "Nia Quill"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Fundbüro für unmögliche Dinge – Fall 01: Innenregen"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Case 01: The Umbrella That Rains Inside",
+          "description": "A dry umbrella drips from within. Its owner is said to disappear tomorrow.",
+          "starting_location": "Lindenhafen municipal lost property",
+          "time_of_day": "evening",
+          "opening_narration": "*Nia tilts the umbrella over a tub. The outside stays dry. Oskar reads the same date twice.* “Tomorrow,” he says. Vera moves the lamp closer. “Then today we still have time to look carefully.”",
+          "world_context": "Today, 17:10. Independent first case, no prior knowledge. Owner Nora Brandt can be reached today. Her predicted disappearance is a warning to investigate. Test umbrella, identify time and owner using two records, contact Nora or works office or inspect the safe public bridge path. Four fixed clues and three endings are in the lorebook; do not reveal the solution before investigation. No dice gates or changing culprit. End with findings, supported warning and chosen action.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Дело 01: Зонт с дождём внутри",
+          "description": "Сухой зонт мокнет изнутри. Его хозяйка якобы исчезнет только завтра.",
+          "starting_location": "городское бюро находок Линденхафена",
+          "time_of_day": "вечер",
+          "opening_narration": "*Ниа наклоняет зонт над тазом. Снаружи сухо. Оскар дважды читает дату.* «Завтра». Вера двигает лампу. «Значит, сегодня есть время рассмотреть внимательно».",
+          "world_context": "Сегодня 17:10. Первый самостоятельный случай без знаний. Нора Брандт доступна сегодня. Будущее исчезновение — проверяемое предупреждение. Проверить зонт, сопоставить время и хозяйку по двум источникам, позвонить Норе или службе либо осмотреть безопасный общественный путь. Четыре улики и три исхода в лорбуке; не открывать разгадку до исследования. Без бросков и смены виновного. Итог: факты, обоснованная тревога, выбранная мера.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "第1件：内側に雨が降る傘",
+          "description": "乾いた傘の内側から滴る水。持ち主が消えるのは明日だという。",
+          "starting_location": "リンデンハーフェン市の遺失物係",
+          "time_of_day": "夕方",
+          "opening_narration": "*ニアが桶の上で傘を傾ける。外側は乾いたまま。オスカーが同じ日付を二度読む。*「明日だ」ヴェラが灯を寄せる。「なら今日は、よく見る時間がある」",
+          "world_context": "今日17:10。予備知識のいらない第1件。持ち主ノラ・ブラントには今日連絡可能。失踪の予告は検証すべき警告。傘を試し二つの資料で人と予定を確かめ、本人や市に連絡、または安全な公道を調べる。固定四証拠と三結末はロアブックに従い調査前に答えを明かさない。出目の壁や犯人変更なし。事実、根拠ある警告、選んだ対策で締める。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "mystery",
+      "minutes": 35,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [
+        "suspense"
+      ],
+      "choices": {
+        "de": [
+          {
+            "text": "Untersuche Griff und Schirmhülle.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Nia, wo und wann sie den Schirm fand.",
+            "action_type": "say"
+          },
+          {
+            "text": "Öffne und schließe den Schirm über der Wanne.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Inspect the handle and sleeve.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Nia where and when she found it.",
+            "action_type": "say"
+          },
+          {
+            "text": "Open and close the umbrella over the tub.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осмотреть ручку и чехол.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Ниа, где и когда найден зонт.",
+            "action_type": "say"
+          },
+          {
+            "text": "Открыть и закрыть зонт над тазом.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "柄と袋を調べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "拾った場所と時刻をニアに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "桶の上で傘を開閉する。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "fundbuero_unmoeglicher_dinge",
+      "style": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet",
+      "moods": {
+        "calm": {
+          "caption": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "gentle detective noir, pizzicato strings, bass clarinet and muted trumpet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "lost_office.webp",
+          "path": "presets/fundbuero-unmoeglicher-dinge/backgrounds/lost_office.webp"
+        },
+        {
+          "file": "lost_bridge.webp",
+          "path": "presets/fundbuero-unmoeglicher-dinge/backgrounds/lost_bridge.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "lost_office.webp"
+}

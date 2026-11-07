@@ -1,0 +1,14 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "origin": "AI-generated illustration; original OtakuSoul characters except existing Aobane and FFVII settings. Existing franchise rights remain with their owners.",
+  "assets": [
+    {
+      "file": "backgrounds/ff7_seventh_heaven.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one wide 16:9 anime visual novel background: Final Fantasy VII inspired Seventh Heaven bar in Midgar sector seven, cozy rustic counter after closing, two tiny alcohol-free ginger and citrus drinks, wood and steel, warm lamps, slum machinery through small window. Beautiful clean painterly environment art, detailed coherent perspective, inviting composition with open center for character overlays. Absolutely no people, no characters, no silhouettes, no text, no logos, no watermark.",
+      "generated_file": "exec-a6569c18-af9c-462c-9b24-eea630889aff.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 1376x774, WebP quality 93, no compositional edits."
+    }
+  ]
+}

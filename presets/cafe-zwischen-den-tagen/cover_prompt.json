@@ -1,0 +1,12 @@
+{
+  "file": "cover.webp",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use the three supplied portraits as identity references for exactly those three adult characters, preserving faces, age, hairstyle, skin color, clothes and accessories. Create a single coherent wide 16:9 anime visual novel cover key visual: Three adult friends Jonas the cafe owner, Mira the bookseller and Leo the illustrator, sitting around a small wooden cafe table, choosing a handwritten reading program, warm neighborhood cafe, rain and golden lights, welcoming everyday friendship. All three characters clearly recognizable, natural shared scene with environment visible, polished painterly anime style. No montage panels, no text, no titles, no watermark. SFW.",
+  "generated_file": "exec-060bcaa8-a357-4c9b-8e56-61392d6e795c.png",
+  "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits.",
+  "references": [
+    "jonas_berg.png",
+    "mira_falk.png",
+    "leo_winter.png"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Ein Sender für die Heimreise",
+  "description": "Kian repariert ein altes Radio. Welche Stimme soll auf der Morgenstern wieder zu hören sein?",
+  "starting_location": "Werkstatt der Morgenstern",
+  "time_of_day": "Bordabend",
+  "opening_narration": "*Zwischen Ersatzteilen steht ein kleines Radio. Kian dreht den Regler; drei Töne knistern durch den Raum.* „Die Antenne lebt. Beim Rest bin ich noch in Verhandlungen.“",
+  "world_context": "Eigenständige Pause zwischen Missionen, keine Kenntnis der Kampagne nötig. Kian findet einen losen Antennenstecker und eine gespeicherte private Nachricht des Vorbesitzers. Beide Tatsachen bleiben fest. {{user}} kann prüfen, reparieren und entscheiden, ob die Nachricht ungehört gesichert oder mit Erlaubnis ihres erreichbaren Besitzers angehört wird. Keine Geheimmission und kein neuer Notruf. Kians Prothese ist alltägliches Werkzeug. Drei Schritte: Fehler lokalisieren, Stecker befestigen, einen Sender oder Stille wählen. Nach sechs bedeutsamen Beiträgen mit einem gemeinsamen Hörmoment oder beschriftetem Reparaturzettel abschließen.",
+  "gm_tone": "Herzlich, handwerklich, trockener Humor",
+  "narrator_style": "Kleine konkrete Handgriffe, keine Technikprüfung voraussetzen. Frage nach Vorlieben statt eine Vergangenheit für {{user}} zu erfinden. Kian darf selbst Hilfe benötigen.",
+  "first_message": "",
+  "party": [
+    "Kian Rook"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Sternenbruch – Crew & Orte"
+  ],
+  "solo_mode": true,
+  "max_actor_depth": 1,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "A Station for the Journey Home",
+          "description": "Kian repairs an old radio. Which voice should return to the Morgenstern?",
+          "starting_location": "Morgenstern workshop",
+          "time_of_day": "shipboard evening",
+          "opening_narration": "*A little radio sits among spare parts. Kian turns the dial; three notes crackle into the room.* “The antenna lives. Negotiations with the rest continue.”",
+          "world_context": "A self-contained break between missions; no campaign knowledge needed. Kian finds a loose antenna connector and a private recording from its previous owner. Keep both facts fixed. {{user}} may inspect, repair, and choose to preserve the recording unheard or listen with its reachable owner’s permission. No secret mission or new distress call. Kian’s prosthesis is an everyday tool. Locate the fault, secure the connector, then choose a station or silence. After six meaningful contributions, end with shared listening or a labeled repair note.",
+          "gm_tone": "Warm, practical, dry humor",
+          "narrator_style": "Use small concrete actions without requiring technical knowledge. Ask preferences rather than inventing {{user}}’s past. Let Kian need help himself.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Волна для дороги домой",
+          "description": "Киан чинит старое радио. Какой голос снова зазвучит на «Моргенштерн»?",
+          "starting_location": "Мастерская «Моргенштерн»",
+          "time_of_day": "бортовой вечер",
+          "opening_narration": "*Среди запчастей стоит маленькое радио. Киан крутит ручку; слышны три трескучие ноты.* «Антенна жива. С остальным ещё веду переговоры».",
+          "world_context": "Самостоятельная пауза между миссиями, знания кампании не нужны. Киан находит отошедший разъём антенны и личную запись прежнего владельца. Эти факты неизменны. Можно осмотреть и починить радио, сохранить запись непрослушанной или послушать с разрешения доступного для связи владельца. Без тайной миссии и нового сигнала бедствия. Протез Киана — обычный инструмент. Найти неисправность, закрепить разъём, выбрать станцию или тишину. После шести значимых ходов завершить совместным прослушиванием или запиской о ремонте.",
+          "gm_tone": "Тепло, работа руками, сухой юмор",
+          "narrator_style": "Небольшие понятные действия без экзамена по технике. Спрашивай предпочтения, не придумывай прошлое {{user}}. Киану тоже может требоваться помощь.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "帰り道の周波数",
+          "description": "古いラジオを直すキアン。モルゲンシュテルンに、どんな声を取り戻そう？",
+          "starting_location": "モルゲンシュテルンの工房",
+          "time_of_day": "船内の夕方",
+          "opening_narration": "*部品の間に小さなラジオがある。キアンがつまみを回すと、三つの音が雑音に交じった。*「アンテナは生きてる。残りとは交渉中」",
+          "world_context": "任務の合間の独立した休憩。前の物語の知識は不要。アンテナの接続不良と前の持ち主の私的な録音が見つかる。この事実は固定。調べて直し、録音を聞かずに保管するか、連絡できる持ち主の許可を得て聞く。秘密任務や新しい救難信号はない。義手は日常の道具。不具合を探し、端子を留め、放送か静けさを選ぶ。六回ほどの意味ある入力で、一緒に聞く時間か修理メモを残して締める。",
+          "gm_tone": "温かい手仕事と控えめなユーモア",
+          "narrator_style": "技術知識を要求せず、小さな作業を具体的に。{{user}}の過去を作らず好みを聞く。キアン自身も助けを必要としてよい。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 15,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Untersuche den lockeren Stecker.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Kian nach seinem liebsten Radiosender.",
+            "action_type": "say"
+          },
+          {
+            "text": "Sortiere die kleinen Schrauben auf dem Tuch.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Inspect the loose connector.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Kian about his favorite radio station.",
+            "action_type": "say"
+          },
+          {
+            "text": "Sort the little screws on the cloth.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осмотреть отошедший разъём.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Киана о любимой радиостанции.",
+            "action_type": "say"
+          },
+          {
+            "text": "Разложить винтики на ткани.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "緩んだ端子を調べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "好きな放送をキアンに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "布の上で小さなねじを整理する。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "sternenbruch",
+      "style": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir",
+      "moods": {
+        "calm": {
+          "caption": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "hopeful space exploration soundtrack, warm analog synths, strings, piano and gentle choir, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "sternenbruch_engine_room.webp",
+          "path": "presets/sternenbruch/backgrounds/sternenbruch_engine_room.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "sternenbruch_engine_room.webp"
+}

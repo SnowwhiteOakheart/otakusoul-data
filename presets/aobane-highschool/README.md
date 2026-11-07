@@ -26,3 +26,34 @@ Die Bilder wurden mit dem eingebauten `image_gen`-Werkzeug erzeugt. Beide Hauptp
 ## Prüfung
 
 `python3 tools/validate_aobane.py` prüft Sprachen und Pflichtfelder, Profilumfang, Gesprächseinstiege, Dialogbeispiele, sechs Bildzuordnungen pro Figur, Bildgrößen, die eingebetteten PNG-Definitionen und die Repository-Ziele der Hub-Karten. Benötigt Python 3 und Pillow. Es erfolgt kein App-Import und keine Netzwerkabfrage.
+
+
+# Aobane – Kleine Momente (DE)
+
+Eine Viertelstunde mit Ren und Aoi im Fotografieclub: Zwei Hafenbilder, eine freie Ausstellungsfläche und eure gemeinsame Bildunterschrift.
+
+# Aobane – Small Moments (EN)
+
+Fifteen minutes with Ren and Aoi in photography club: two harbor pictures, one empty exhibition spot and your shared caption.
+
+# Аобанэ — Маленькие моменты (RU)
+
+Пятнадцать минут с Рэном и Аои: два снимка гавани, одно место на выставке и общая подпись.
+
+# 青羽 ― 小さなひととき (JA)
+
+レンとアオイと写真部で十五分。港の写真二枚、展示の空き一つ、みんなで作る説明文。
+
+## Hub-Inhalt
+
+- Sammlung: `aobane_kleine_momente`
+- Figuren: Ren Takahashi, Aoi Mizuno
+- Lorebooks: Aobane – Kleine Momente
+
+- `aobane_kurz_letztes_foto`: Das letzte Foto für die Ausstellung · ca. 15 Minuten
+
+DE/EN/RU/JA. Neue Erwachsene: je sechs Basis-Expressions (neutral, happy, relaxed, surprised, angry, sad), Stimme und Musik-Leitmotiv. Vorhandene Aobane-Figuren behalten ihre bisherigen Bilder.
+
+KI-Bilder: integriertes ImageGen; genaue Prompts und Bearbeitung in `expansion_image_prompts.json`, Cover zusätzlich in `cover_prompt.json`. OtakuSoul Originals von SnowwhiteOakheart; bestehende Figuren und Rechte bleiben unverändert.
+
+Szenen sind einzeln spielbar. Frühere Entscheidungen nur aus vorhandenem Gesprächskontext oder einer Zusammenfassung der Spielerfigur übernehmen. Keine automatische Übernahme zwischen getrennten Spielständen voraussetzen.

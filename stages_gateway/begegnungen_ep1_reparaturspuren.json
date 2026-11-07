@@ -1,0 +1,155 @@
+{
+  "title": "Was bleiben darf",
+  "description": "Ein alter Stuhl, zwei Reparaturwege und ein Gespräch über sichtbare Spuren.",
+  "starting_location": "Elias’ Werkstatt",
+  "time_of_day": "Abend",
+  "opening_narration": "*Elias stellt einen wackelnden Stuhl auf die Werkbank.* „Der gehört niemandes großer Geschichte. Noch nicht. Möchtest du sehen, was ihn zusammenhält?“",
+  "world_context": "Unabhängige erste erwachsene Begegnung. Stuhl hat eine lockere Verbindung, kein verborgenes Erbstück. Gemeinsam prüfen, sichtbaren Holzverbinder oder unauffällige Leimreparatur wählen, Verwendung im Repair-Café festlegen. Elias darf erzählen, dass er Nützlichkeit oft mit Nähe verwechselt, aber {{user}} muss ihn nicht therapieren. Freundlicher Abschied, weiteres Treffen oder beidseitig gewünschtes vorsichtiges Flirten. Acht bis zehn bedeutsame Beiträge, Abschluss mit einem reparierten oder klar geplanten Stuhl.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Elias Hartmann"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Begegnungen am Fluss – Drei eigene Wege"
+  ],
+  "solo_mode": true,
+  "max_actor_depth": 1,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "What May Remain",
+          "description": "An old chair, two repair methods and a conversation about visible traces.",
+          "starting_location": "Elias’s workshop",
+          "time_of_day": "evening",
+          "opening_narration": "*Elias sets a wobbly chair on the bench.* “It belongs to nobody’s grand story. Not yet. Want to see what holds it together?”",
+          "world_context": "Independent first adult meeting. The chair has a loose joint, no secret inheritance. Inspect together, choose a visible wooden brace or discreet glued joint, decide its use at the repair café. Elias may admit confusing usefulness with closeness, but {{user}} need not become his therapist. Friendly goodbye, another meeting or mutually welcome cautious flirting. Eight to ten meaningful contributions; end with a repaired chair or clear repair plan.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Что можно оставить",
+          "description": "Старый стул, два способа ремонта и разговор о видимых следах.",
+          "starting_location": "мастерская Элиаса",
+          "time_of_day": "вечер",
+          "opening_narration": "*Элиас ставит шаткий стул на верстак.* «Пока он не часть чьей-то великой истории. Хочешь увидеть, что его держит?»",
+          "world_context": "Первое самостоятельное знакомство взрослых. Разболталось соединение, тайного наследства нет. Осмотреть, выбрать видимую накладку или скрытую склейку, назначение в ремонтном кафе. Элиас может признать, что путает полезность с близостью, но игрок не обязан его лечить. Дружеское прощание, новая встреча или взаимный осторожный флирт. Восемь-десять значимых ходов, итог — стул или ясный план ремонта.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "残していいもの",
+          "description": "古い椅子と二つの直し方。残る跡について話そう。",
+          "starting_location": "エリアスの工房",
+          "time_of_day": "夕方",
+          "opening_narration": "*エリアスが揺れる椅子を台に置く。*「まだ誰かの大きな物語の品じゃない。何が支えてるか見る？」",
+          "world_context": "成人同士の独立した初対面。接合が緩いだけで秘密の遺産ではない。調べ、見える木の補強か目立たない接着を選び、修理カフェでの用途を決める。役立つことと親しさを混同しがちと話しても、{{user}}に治療を求めない。友情の別れ、再会、相互の控えめな誘いが可能。八〜十回ほどで修理済みの椅子か明確な計画へ。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 25,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [
+        "romance"
+      ],
+      "choices": {
+        "de": [
+          {
+            "text": "Prüfe vorsichtig, welches Bein wackelt.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Elias, ob Reparaturspuren sichtbar bleiben dürfen.",
+            "action_type": "say"
+          },
+          {
+            "text": "Lege die beiden Holzverbinder nebeneinander.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Carefully check which leg wobbles.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Elias whether repair marks may stay visible.",
+            "action_type": "say"
+          },
+          {
+            "text": "Place the two wooden braces side by side.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Осторожно проверить ножку.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Элиаса о видимых следах ремонта.",
+            "action_type": "say"
+          },
+          {
+            "text": "Положить рядом две деревянные накладки.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "どの脚が揺れるか慎重に調べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "修理跡を残すことをエリアスに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "二つの木の補強を並べる。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "begegnungen_am_fluss",
+      "style": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life",
+      "moods": {
+        "calm": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "elias_workshop.webp",
+          "path": "presets/begegnungen-am-fluss/backgrounds/elias_workshop.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "elias_workshop.webp"
+}

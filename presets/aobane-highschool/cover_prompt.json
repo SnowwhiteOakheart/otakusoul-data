@@ -1,0 +1,11 @@
+{
+  "file": "cover.webp",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use the two reference portraits for Ren Takahashi and Aoi Mizuno, both age 17, preserve their faces, hairstyles, navy uniforms, burgundy tie and bow and Aoi's pale blue hair clip. Make one coherent wide 16:9 anime visual novel cover: two teenage classmates selecting photographs and captions in a sunlit school photography club room after school. Friendly teamwork, natural age-appropriate school scene, warm golden light. Two distinct characters, no romance pose, no text, no panels or watermark. Fully clothed SFW.",
+  "generated_file": "exec-6c573e48-fb76-414a-95b6-7a90b75defb2.png",
+  "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits.",
+  "references": [
+    "ren_takahashi.png",
+    "aoi_mizuno.png"
+  ]
+}

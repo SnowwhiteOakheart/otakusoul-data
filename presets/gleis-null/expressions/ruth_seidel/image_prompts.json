@@ -1,0 +1,55 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "tool": "image_gen.imagegen",
+  "neutral_is_profile_source": true,
+  "assets": [
+    {
+      "file": "expressions/ruth_seidel/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Ruth Seidel, adult woman age 61, night kiosk owner, light skin, silver hair in loose braid over shoulder, warm brown eyes, burgundy cable-knit cardigan and dark floral scarf, mature expressive face with realistic smile lines, calm neutral expression, railway station kiosk at night. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-e0945c11-ba13-41f0-92b6-8262b7e0e0b9.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/ruth_seidel/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-3ff8d87b-fc33-4895-8abb-0dbcf066e9c5.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "ruth_seidel.png"
+    },
+    {
+      "file": "expressions/ruth_seidel/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-5f7b59ea-2ec9-4b7d-8fc9-15bcdd1383cc.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "ruth_seidel.png"
+    },
+    {
+      "file": "expressions/ruth_seidel/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-785d93ec-b860-4693-8f16-958d21771e24.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "ruth_seidel.png"
+    },
+    {
+      "file": "expressions/ruth_seidel/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-0d3dc029-457e-40ba-a4a2-a9af7946d3c4.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "ruth_seidel.png"
+    },
+    {
+      "file": "expressions/ruth_seidel/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-97a69a7e-f78a-4585-af03-c87f6d2d888c.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "ruth_seidel.png"
+    }
+  ]
+}

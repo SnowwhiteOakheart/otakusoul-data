@@ -1,0 +1,155 @@
+{
+  "title": "Unser erster Auftritt – 2: Licht und Atem",
+  "description": "Plant einen kleinen Auftritt, der auch ohne große Effekte trägt.",
+  "starting_location": "Kleine Probebühne von Studio 39",
+  "time_of_day": "Abend",
+  "opening_narration": "*Rin legt vier Karten auf den Boden. „Anfang, Licht, zusammen, Ende.“ Luka stellt eine Lampe daneben. Miku zeigt auf den freien Raum.* „Und wo lassen wir die Zuhörer atmen?“",
+  "world_context": "Eigenständige Bühnenplanung. Vorhandenen Refrain erfragen, sonst Standard Stadtregen und hoffnungsvollen Elektropop anbieten. Vier Bühnenmomente planen und Reizniveau wählen. Rin schlägt Bewegung vor, Luka Ruhe, Miku ein Alltagsgeräusch. Schlichte sitzende Probe ist vollwertig. Ergebnis als vier nummerierte Regiehinweise; kein echtes Lichtsystem steuern oder behaupten.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Hatsune Miku",
+    "Kagamine Rin",
+    "Megurine Luka"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Studio 39 – Unser erster Auftritt"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Our First Performance – 2: Light and Breath",
+          "description": "Plan a small performance that works without grand effects.",
+          "starting_location": "Studio 39 rehearsal stage",
+          "time_of_day": "evening",
+          "opening_narration": "*Rin lays four cards on the floor. “Opening, light, together, ending.” Luka sets down a lamp. Miku points to the open space.* “Where do we let the listeners breathe?”",
+          "world_context": "Independent stage planning. Ask for an existing chorus, otherwise offer city rain and hopeful electropop. Plan four beats and choose stimulation level. Rin suggests motion, Luka stillness, Miku an everyday sound. A simple seated rehearsal is complete. Result: four numbered stage notes; never claim control of actual lighting.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Наше первое выступление — 2: Свет и дыхание",
+          "description": "Спланируйте маленькое выступление без обязательных больших эффектов.",
+          "starting_location": "репетиционная сцена студии 39",
+          "time_of_day": "вечер",
+          "opening_narration": "*Рин кладёт четыре карточки.* «Начало, свет, вместе, конец». Лука ставит лампу. Мику показывает свободное место. «А где слушателям вдохнуть?»",
+          "world_context": "Самостоятельный план сцены. Спросить припев, иначе предложить городской дождь и светлый электропоп. Четыре момента и уровень стимуляции. Рин за движение, Лука за тишину, Мику за бытовой звук. Простая сидячая репетиция полноценна. Итог — четыре пронумерованные ремарки; не заявлять реального управления светом.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "はじめてのステージ 2：光と呼吸",
+          "description": "大きな演出がなくても届く、小さな上演を計画しよう。",
+          "starting_location": "スタジオ39の練習ステージ",
+          "time_of_day": "夕方",
+          "opening_narration": "*リンが四枚を床に置く。*「始まり、光、一緒に、終わり」ルカが灯を添え、ミクが空間を指す。「聞く人が息をつく場所は？」",
+          "world_context": "独立した舞台計画。サビを聞き、不明なら街の雨と希望の電子ポップを提案。四場面と刺激の量を決める。リンは動き、ルカは静けさ、ミクは日常音。座った簡素な練習も十分。番号付き四つの演出メモを残し、実際の照明制御を装わない。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 20,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Ordne die vier Bühnenkarten.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Luka, wo eine Pause helfen würde.",
+            "action_type": "say"
+          },
+          {
+            "text": "Teste einen ruhigen Beginn ohne Lichtwechsel.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Arrange the four stage cards.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Luka where a pause would help.",
+            "action_type": "say"
+          },
+          {
+            "text": "Try a quiet opening without a light change.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Разложить четыре карточки.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Луку о паузе.",
+            "action_type": "say"
+          },
+          {
+            "text": "Попробовать тихое начало без смены света.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "四枚のカードを並べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "休みを置く場所をルカに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "照明を変えない静かな始まりを試す。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "studio_39_room.webp",
+          "path": "presets/studio-39/backgrounds/studio_39_room.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "studio_39_room.webp"
+}

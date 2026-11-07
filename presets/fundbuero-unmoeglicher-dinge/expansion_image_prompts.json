@@ -1,0 +1,169 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "origin": "AI-generated illustration; original OtakuSoul characters except existing Aobane and FFVII settings. Existing franchise rights remain with their owners.",
+  "assets": [
+    {
+      "file": "expressions/vera_lenz/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Vera Lenz, adult woman age 39, pragmatic detective, short black bob with gray streak at temple, brown eyes, tan trench coat over dark teal turtleneck, confident thoughtful neutral face, old municipal lost-property office with brass drawers. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-1f067d6d-df38-421c-a096-44f875172c63.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/oskar_reed/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Oskar Reed, adult man age 46, skeptical archivist, light skin, receding neatly combed brown hair graying at sides, rectangular glasses, tweed waistcoat and pale blue shirt, slender mature face, restrained dry neutral expression, old municipal archive. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-7e0a6f3d-b70b-4019-a951-dbea70e47397.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/nia_quill/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Nia Quill, adult woman age 26, unusual bicycle courier, dark brown skin, short curly hair shaved at sides, amber eyes, yellow rain jacket over navy shirt, bicycle messenger strap, alert direct neutral expression, rain-blurred lost-property office doorway. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-8c686f03-7620-4ad8-b7fa-84b5b671df4f.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "backgrounds/lost_office.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one wide 16:9 anime visual novel background: old municipal lost property office, brass numbered drawers without readable text, raincoat stand, black umbrella dripping into a basin, desk with two forms and warm lamp, rain outside. Beautiful clean painterly environment art, detailed coherent perspective, inviting composition with open center for character overlays. Absolutely no people, no characters, no silhouettes, no text, no logos, no watermark.",
+      "generated_file": "exec-318556e7-e417-4891-b24a-55a3b3487a3b.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 1376x774, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "backgrounds/lost_bridge.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one wide 16:9 anime visual novel background: old stone pedestrian bridge over fictional small city river in rain, distant street lamps, safe riverside path, closed brass maintenance gate, blue twilight, subtle uncanny reflections. Beautiful clean painterly environment art, detailed coherent perspective, inviting composition with open center for character overlays. Absolutely no people, no characters, no silhouettes, no text, no logos, no watermark.",
+      "generated_file": "exec-4138acfa-dc4a-424b-a49a-6c9344996ec1.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 1376x774, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "cover.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Use the three supplied portraits as identity references for exactly those three adult characters, preserving faces, age, hairstyle, skin color, clothes and accessories. Create a single coherent wide 16:9 anime visual novel cover key visual: Adult detective Vera, archivist Oskar and bicycle courier Nia investigating a black umbrella dripping from inside into a basin on an old municipal lost-property desk, brass drawers, rainy window, intriguing gentle supernatural detective atmosphere. All three characters clearly recognizable, natural shared scene with environment visible, polished painterly anime style. No montage panels, no text, no titles, no watermark. SFW.",
+      "generated_file": "exec-7c9e48dd-89a7-4da6-b637-91d844486ed3.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/vera_lenz/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-50bec2ed-b41a-4530-b896-ff2cdbd3f3ea.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "vera_lenz.png"
+    },
+    {
+      "file": "expressions/vera_lenz/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-a6009683-fde9-4274-9f0f-126ea6bf26f0.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "vera_lenz.png"
+    },
+    {
+      "file": "expressions/vera_lenz/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-fedd92f7-66e8-4594-b275-2c64bfac97fc.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "vera_lenz.png"
+    },
+    {
+      "file": "expressions/vera_lenz/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-fc3682c9-662e-4369-b5b5-be98e1e16b80.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "vera_lenz.png"
+    },
+    {
+      "file": "expressions/vera_lenz/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-faecabcf-78e0-4b20-9f69-b6aa6e52f6d4.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "vera_lenz.png"
+    },
+    {
+      "file": "expressions/oskar_reed/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-3f66f072-6c93-45f4-affb-e69d18cbc71f.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "oskar_reed.png"
+    },
+    {
+      "file": "expressions/oskar_reed/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-a13e4023-e259-45bc-8073-e0cac14a2e55.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "oskar_reed.png"
+    },
+    {
+      "file": "expressions/oskar_reed/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-54ef6d8b-7eaa-4794-8de3-26afac596d87.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "oskar_reed.png"
+    },
+    {
+      "file": "expressions/oskar_reed/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-b39a109b-87ce-4a4d-8ab0-9b3c2bfc3269.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "oskar_reed.png"
+    },
+    {
+      "file": "expressions/oskar_reed/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-3f99b4f0-5c4a-4a0d-930f-7b5035a2589d.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "oskar_reed.png"
+    },
+    {
+      "file": "expressions/nia_quill/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-e8f73f41-7293-4e6a-943a-d97e54bda1ca.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "nia_quill.png"
+    },
+    {
+      "file": "expressions/nia_quill/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-49b4da15-babb-49b7-8a60-fc8dbe0580c4.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "nia_quill.png"
+    },
+    {
+      "file": "expressions/nia_quill/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-465285d8-7949-46fc-8362-fe7ce9f72a6e.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "nia_quill.png"
+    },
+    {
+      "file": "expressions/nia_quill/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-389f685c-6d64-45de-9456-c19ca44aeeed.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "nia_quill.png"
+    },
+    {
+      "file": "expressions/nia_quill/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-80060b3b-a2c7-4bdc-a3c3-fbc29db084de.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "nia_quill.png"
+    }
+  ]
+}

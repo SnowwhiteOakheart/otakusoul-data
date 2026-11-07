@@ -1,0 +1,55 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "tool": "image_gen.imagegen",
+  "neutral_is_profile_source": true,
+  "assets": [
+    {
+      "file": "expressions/leo_winter/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Leo Winter, adult man age 27, freelance illustrator, dark brown skin, short tight black curls, dark eyes, mustard overshirt over navy t-shirt, pencil behind one ear, slim adult build, quietly curious neutral face, cozy cafe sketchbooks. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-83e83e8f-4193-48e3-8eb4-01eecaa4be76.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/leo_winter/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-638855bf-ccd5-4fd9-a887-b01c92037d81.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-1f4b0479-273c-4acf-a016-8f7bd14f4b84.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-d623174f-9101-4fa8-b617-7c7ec7e351d1.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-355650c8-7c49-4ecf-91be-9a1692be6a1a.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-89a1c0f7-0c40-4a2d-b4ab-66aeb2c4e445.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    }
+  ]
+}

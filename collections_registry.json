@@ -405,7 +405,8 @@
         "sternenbruch_ep3_nacre",
         "sternenbruch_ep4_garden",
         "sternenbruch_ep5_memory",
-        "sternenbruch_ep6_gate"
+        "sternenbruch_ep6_gate",
+        "sternenbruch_kurz_radio"
       ],
       "characters": [
         "Mara Venn",
@@ -415,8 +416,8 @@
         "Kian Rook",
         "Dr. Idris Vale"
       ],
-      "revision": 2,
-      "updated": "2026-10-25",
+      "revision": 3,
+      "updated": "2026-11-07",
       "translations": {
         "en": {
           "description": "A signal at the edge of the map, a small crew and a gate that should have stayed shut."
@@ -626,7 +627,8 @@
         "Final Fantasy VII – ECHO: Orte & Geheimnisse"
       ],
       "scenes": [
-        "ff7_das_echo_unter_midgar"
+        "ff7_das_echo_unter_midgar",
+        "ff7_kurz_nach_ladenschluss"
       ],
       "characters": [
         "Tifa Lockhart",
@@ -634,8 +636,8 @@
         "Cloud Strife",
         "Sephiroth"
       ],
-      "revision": 1,
-      "updated": "2026-11-02",
+      "revision": 2,
+      "updated": "2026-11-07",
       "translations": {
         "en": {
           "title": "Final Fantasy VII – The Echo Beneath Midgar",
@@ -653,35 +655,213 @@
     },
     {
       "id": "studio_39_vier_takte_vor_mitternacht",
-      "title": "Vier Takte vor Mitternacht",
-      "description": "Eine Stunde bis zum Soundcheck. Hilf Miku, Rin und Luka, eine fremde Gesangsspur zu erklären und einen Refrain für die Bühne zu finden.",
+      "title": "Studio 39 – Spuren und Auftritte",
+      "description": "Ein nächtliches Studio-Mysterium, ein kurzer Geräusche-Refrain und drei kreative Folgen bis zur kleinen Generalprobe mit Miku, Rin und Luka.",
       "author": "SnowwhiteOakheart",
       "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/studio-39/cover.webp",
       "lorebooks": [
-        "Studio 39 – Spuren und Stimmen"
+        "Studio 39 – Spuren und Stimmen",
+        "Studio 39 – Unser erster Auftritt"
       ],
       "scenes": [
-        "studio_39_vier_takte_vor_mitternacht"
+        "studio_39_vier_takte_vor_mitternacht",
+        "studio_39_kurz_drei_geraeusche",
+        "studio_39_auftritt_ep1_refrain",
+        "studio_39_auftritt_ep2_buehnenplan",
+        "studio_39_auftritt_ep3_generalprobe"
       ],
       "characters": [
         "Hatsune Miku",
         "Kagamine Rin",
         "Megurine Luka"
       ],
-      "revision": 1,
-      "updated": "2026-11-06",
+      "revision": 2,
+      "updated": "2026-11-07",
       "translations": {
         "en": {
-          "title": "Four Bars to Midnight",
-          "description": "One hour to soundcheck. Help Miku, Rin and Luka trace a mystery vocal and find a chorus they can perform."
+          "title": "Studio 39 – Tracks and Performances",
+          "description": "A late-night studio mystery, a short sound-based chorus and three creative episodes leading to a small dress rehearsal with Miku, Rin and Luka."
         },
         "ja": {
-          "title": "真夜中まで、あと四小節",
-          "description": "サウンドチェックまで一時間。ミク、リン、ルカと一緒に謎の歌声の出どころを探り、ステージで歌えるサビを作ろう。"
+          "title": "スタジオ39 ― トラックとステージ",
+          "description": "ミク、リン、ルカとの深夜の謎、音から作る短いサビ、そして小さな通し稽古へ続く三つの創作話。"
         },
         "ru": {
-          "title": "Четыре такта до полуночи",
-          "description": "До саундчека час. Помоги Мику, Рин и Луке выяснить, чей голос звучит на записи, и подобрать припев для сцены."
+          "title": "Студия 39 — Дорожки и выступления",
+          "description": "Ночная студийная загадка, короткий припев из звуков и три творческие серии до маленькой генеральной репетиции с Мику, Рин и Лукой."
+        }
+      }
+    },
+    {
+      "id": "cafe_zwischen_den_tagen",
+      "title": "Café zwischen den Tagen",
+      "description": "Drei erwachsene Nachbarn, ein vertrauter Ort und drei kleine Geschichten: Platz finden, einen Kuchen zuordnen und die erste Lesung gestalten. Freundschaft oder optionale langsame Romantik.",
+      "author": "SnowwhiteOakheart",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/cafe-zwischen-den-tagen/cover.webp",
+      "characters": [
+        "Jonas Berg",
+        "Mira Falk",
+        "Leo Winter"
+      ],
+      "scenes": [
+        "cafe_ep1_fenstertisch",
+        "cafe_ep2_kuchen",
+        "cafe_ep3_erste_lesung"
+      ],
+      "lorebooks": [
+        "Café zwischen den Tagen – Nachbarschaft & kleine Anfänge"
+      ],
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Café Between Days",
+          "description": "Three adult neighbors, a familiar place and three small stories: find a seat, trace a cake order and host a first reading. Friendship or optional slow romance."
+        },
+        "ru": {
+          "title": "Кафе между днями",
+          "description": "Трое взрослых соседей и три небольшие истории: найти место, разобраться с заказом пирога и устроить первые чтения. Дружба или необязательная медленная романтика."
+        },
+        "ja": {
+          "title": "日々のあいだのカフェ",
+          "description": "成人の隣人三人と三つの物語。席を見つけ、ケーキの注文を確かめ、初めての朗読会を作る。友情も、望めばゆっくりした恋も。"
+        }
+      }
+    },
+    {
+      "id": "begegnungen_am_fluss",
+      "title": "Begegnungen am Fluss",
+      "description": "Lerne Elias, Noah und Sami in drei eigenständigen Geschichten kennen: Werkstatt, letzte Radiosendung und Nachtgarten. Erwachsene Figuren, freie Spieleridentität, Freundschaft oder gegenseitige Romantik.",
+      "author": "SnowwhiteOakheart",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/begegnungen-am-fluss/cover.webp",
+      "characters": [
+        "Elias Hartmann",
+        "Noah Sommer",
+        "Sami Rahman"
+      ],
+      "scenes": [
+        "begegnungen_ep1_reparaturspuren",
+        "begegnungen_ep2_letzte_sendung",
+        "begegnungen_ep3_nachtgarten"
+      ],
+      "lorebooks": [
+        "Begegnungen am Fluss – Drei eigene Wege"
+      ],
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Riverside Encounters",
+          "description": "Meet Elias, Noah and Sami in three independent stories: a workshop, a final radio show and a night garden. Adult characters, open player identity, friendship or mutual romance."
+        },
+        "ru": {
+          "title": "Встречи у реки",
+          "description": "Познакомься с Элиасом, Ноа и Сами: мастерская, последний эфир, ночной сад. Три независимые истории взрослых, свободная личность игрока, дружба или взаимная романтика."
+        },
+        "ja": {
+          "title": "川辺の出会い",
+          "description": "工房、最後のラジオ、夜の庭でエリアス、ノア、サミと出会う三つの独立話。成人の人物、自由なプレイヤー像、友情や相互の恋。"
+        }
+      }
+    },
+    {
+      "id": "fundbuero_unmoeglicher_dinge",
+      "title": "Fundbüro für unmögliche Dinge",
+      "description": "Vera, Oskar und Nia untersuchen einen Schirm, der innen regnet. Ein eigenständiger erster Detektivfall mit festen Hinweisen, überprüfbarer Anomalie und drei Lösungswegen.",
+      "author": "SnowwhiteOakheart",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/fundbuero-unmoeglicher-dinge/cover.webp",
+      "characters": [
+        "Vera Lenz",
+        "Oskar Reed",
+        "Nia Quill"
+      ],
+      "scenes": [
+        "fundbuero_fall01_innenregen"
+      ],
+      "lorebooks": [
+        "Fundbüro für unmögliche Dinge – Fall 01: Innenregen"
+      ],
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Lost Property for Impossible Things",
+          "description": "Vera, Oskar and Nia investigate an umbrella that rains inside. A standalone first detective case with fixed clues, a testable anomaly and three paths to resolution."
+        },
+        "ru": {
+          "title": "Бюро невозможных находок",
+          "description": "Вера, Оскар и Ниа исследуют зонт с дождём внутри. Первое самостоятельное дело с неизменными уликами, проверяемой аномалией и тремя путями решения."
+        },
+        "ja": {
+          "title": "不可能な落とし物係",
+          "description": "ヴェラ、オスカー、ニアと内側に雨が降る傘を調査。固定された証拠と検証できる異変、三つの解決経路がある独立した第1件。"
+        }
+      }
+    },
+    {
+      "id": "gleis_null",
+      "title": "Nachtschicht auf Gleis 0",
+      "description": "Um 00:17 klingelt ein abgestecktes Telefon. Übernimm mit Ada, Ben und Ruth die erste Nachtschicht: atmosphärischer Horror mit prüfbaren Regeln und sicherem Rückzug, ohne Splatter.",
+      "author": "SnowwhiteOakheart",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/gleis-null/cover.webp",
+      "characters": [
+        "Ada Kern",
+        "Ben Ortiz",
+        "Ruth Seidel"
+      ],
+      "scenes": [
+        "gleis_null_ep1_0017"
+      ],
+      "lorebooks": [
+        "Gleis 0 – Dienstbuch der ersten Nacht"
+      ],
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Night Shift on Platform 0",
+          "description": "At 00:17 an unplugged phone rings. Join Ada, Ben and Ruth for a first night shift: atmospheric horror with testable rules and safe retreat, without gore."
+        },
+        "ru": {
+          "title": "Ночная смена на платформе 0",
+          "description": "В 00:17 звонит отключённый телефон. Первая смена с Адой, Беном и Рут: атмосферный хоррор с проверяемыми правилами и безопасным отходом, без кровавых сцен."
+        },
+        "ja": {
+          "title": "0番線の夜勤",
+          "description": "00:17、線の抜けた電話が鳴る。アダ、ベン、ルートと初夜勤へ。検証できる規則と安全な退避のある、流血に頼らないホラー。"
+        }
+      }
+    },
+    {
+      "id": "aobane_kleine_momente",
+      "title": "Aobane – Kleine Momente",
+      "description": "Eine Viertelstunde mit Ren und Aoi im Fotografieclub: Zwei Hafenbilder, eine freie Ausstellungsfläche und eure gemeinsame Bildunterschrift.",
+      "author": "SnowwhiteOakheart",
+      "cover_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/presets/aobane-highschool/cover.webp",
+      "characters": [
+        "Ren Takahashi",
+        "Aoi Mizuno"
+      ],
+      "scenes": [
+        "aobane_kurz_letztes_foto"
+      ],
+      "lorebooks": [
+        "Aobane – Kleine Momente"
+      ],
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Aobane – Small Moments",
+          "description": "Fifteen minutes with Ren and Aoi in photography club: two harbor pictures, one empty exhibition spot and your shared caption."
+        },
+        "ru": {
+          "title": "Аобанэ — Маленькие моменты",
+          "description": "Пятнадцать минут с Рэном и Аои: два снимка гавани, одно место на выставке и общая подпись."
+        },
+        "ja": {
+          "title": "青羽 ― 小さなひととき",
+          "description": "レンとアオイと写真部で十五分。港の写真二枚、展示の空き一つ、みんなで作る説明文。"
         }
       }
     }

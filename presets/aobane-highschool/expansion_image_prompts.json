@@ -1,0 +1,21 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "origin": "AI-generated illustration; original OtakuSoul characters except existing Aobane and FFVII settings. Existing franchise rights remain with their owners.",
+  "assets": [
+    {
+      "file": "backgrounds/aobane_club.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one wide 16:9 anime visual novel background: Japanese high school photography club room after school, two photos of an empty harbor pier on table, blank exhibition mount on wall, camera on shelf, golden light, peaceful youthful school atmosphere. Beautiful clean painterly environment art, detailed coherent perspective, inviting composition with open center for character overlays. Absolutely no people, no characters, no silhouettes, no text, no logos, no watermark.",
+      "generated_file": "exec-c723a5fe-7744-4849-9fe2-8848ecffbe3f.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 1376x774, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "cover.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Use the two reference portraits for Ren Takahashi and Aoi Mizuno, both age 17, preserve their faces, hairstyles, navy uniforms, burgundy tie and bow and Aoi's pale blue hair clip. Make one coherent wide 16:9 anime visual novel cover: two teenage classmates selecting photographs and captions in a sunlit school photography club room after school. Friendly teamwork, natural age-appropriate school scene, warm golden light. Two distinct characters, no romance pose, no text, no panels or watermark. Fully clothed SFW.",
+      "generated_file": "exec-6c573e48-fb76-414a-95b6-7a90b75defb2.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "origin": "AI-generated illustration; original OtakuSoul characters except existing Aobane and FFVII settings. Existing franchise rights remain with their owners.",
+  "assets": [
+    {
+      "file": "expressions/jonas_berg/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 composition, waist-up centered with safe headroom, no text or border. Original adult male Jonas Berg, age 38, owner of a cozy neighborhood cafe, broad friendly face, short wavy chestnut hair with a few gray strands, warm brown eyes, subtle stubble, forest-green rolled-sleeve shirt and cinnamon brown canvas apron. Calm attentive neutral expression, hands relaxed below chest, warmly lit softly blurred cafe bookshelves behind him. Attractive believable mature adult, clean expressive line art, painterly warm shading, contemporary slice-of-life anime style, fully clothed SFW. This is the canonical identity portrait for future expression variants.",
+      "generated_file": "exec-f9c26cd0-bb60-4328-861b-d5295312c63e.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/jonas_berg/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a joyful genuine open smile, raised cheeks and bright eyes. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-5d27d372-b58d-4d6c-8982-3f3311ef77a8.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a peaceful soft smile, relaxed eyelids and shoulders. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-be48f350-d9b0-4014-b538-38593fc8fb75.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-3e2676ae-aff9-453f-acca-83d5c07cb12e.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a firm displeased frown, knit eyebrows, set jaw, no violence. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-de53e2ac-98de-4e72-a02b-402f2c326f1c.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a visibly sad downturned mouth, softened eyes and worried inner eyebrows. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-9e4f15da-45a4-4933-b88e-67390f8d775a.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/mira_falk/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Mira Falk, adult woman age 42, independent bookseller, chin-length dark auburn bob, gray-green eyes, light freckles, round brass glasses, burgundy cardigan over cream blouse, thoughtful composed neutral face, cozy cafe bookshelves. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-0adb75f5-2c05-4a17-99ea-2f8481d23b3b.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/leo_winter/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 waist-up centered composition, safe headroom, no text, no border. Original character: Leo Winter, adult man age 27, freelance illustrator, dark brown skin, short tight black curls, dark eyes, mustard overshirt over navy t-shirt, pencil behind one ear, slim adult build, quietly curious neutral face, cozy cafe sketchbooks. Clean expressive anime line art, painterly shading, believable visibly adult proportions and age, attractive individual personality, softly blurred setting. Fully clothed SFW. Canonical identity portrait for future expression variants.",
+      "generated_file": "exec-83e83e8f-4193-48e3-8eb4-01eecaa4be76.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "backgrounds/cafe_room.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one wide 16:9 anime visual novel background: cozy contemporary neighborhood cafe in a fictional central European riverside town, warm wood tables, mismatched chairs, book nook, small cake counter, rain on broad windows, accessible open paths, golden late afternoon. Beautiful clean painterly environment art, detailed coherent perspective, inviting composition with open center for character overlays. Absolutely no people, no characters, no silhouettes, no text, no logos, no watermark.",
+      "generated_file": "exec-4e34e2fb-16f9-4185-9d9b-1b49d22c04c7.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 1376x774, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "cover.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Use the three supplied portraits as identity references for exactly those three adult characters, preserving faces, age, hairstyle, skin color, clothes and accessories. Create a single coherent wide 16:9 anime visual novel cover key visual: Three adult friends Jonas the cafe owner, Mira the bookseller and Leo the illustrator, sitting around a small wooden cafe table, choosing a handwritten reading program, warm neighborhood cafe, rain and golden lights, welcoming everyday friendship. All three characters clearly recognizable, natural shared scene with environment visible, polished painterly anime style. No montage panels, no text, no titles, no watermark. SFW.",
+      "generated_file": "exec-060bcaa8-a357-4c9b-8e56-61392d6e795c.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/mira_falk/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-6f202117-e427-4808-beaa-3e4fdae1dd47.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "mira_falk.png"
+    },
+    {
+      "file": "expressions/mira_falk/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-0979bb25-33bd-45c6-9a1b-038a1907fafe.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "mira_falk.png"
+    },
+    {
+      "file": "expressions/mira_falk/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-60b09508-6de3-4701-be43-5b6348e80798.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "mira_falk.png"
+    },
+    {
+      "file": "expressions/mira_falk/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-d0fd907b-d2c2-43f9-b204-75225a231041.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "mira_falk.png"
+    },
+    {
+      "file": "expressions/mira_falk/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-5387bd7e-0d37-4751-8dcd-064015105c09.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "mira_falk.png"
+    },
+    {
+      "file": "expressions/leo_winter/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a joyful genuine open smile with raised cheeks and bright eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-638855bf-ccd5-4fd9-a887-b01c92037d81.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a peaceful small smile, softened eyelids and relaxed shoulders. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-1f4b0479-273c-4acf-a016-8f7bd14f4b84.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-d623174f-9101-4fa8-b617-7c7ec7e351d1.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a visibly displeased frown, knitted eyebrows and a set jaw, no violence. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-355650c8-7c49-4ecf-91be-9a1692be6a1a.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    },
+    {
+      "file": "expressions/leo_winter/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference character portrait. Preserve exactly the same person's identity, visibly adult age, skin tone, hairstyle, clothes, accessories, pose, framing, background and anime art style. Change only facial expression to a sad downturned mouth, worried inner eyebrows and soft sorrowful eyes. Make the emotion clearly readable. One single portrait, no panels or text. Fully clothed SFW.",
+      "generated_file": "exec-89a1c0f7-0c40-4a2d-b4ab-66aeb2c4e445.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "leo_winter.png"
+    }
+  ]
+}

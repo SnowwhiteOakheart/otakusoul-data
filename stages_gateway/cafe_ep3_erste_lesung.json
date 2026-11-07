@@ -1,0 +1,155 @@
+{
+  "title": "Die erste Lesung",
+  "description": "Mira zählt leere Stühle, Leo hält unfertige Zeichnungen fest. Gestaltet einen Abend, der zu euch passt.",
+  "starting_location": "Bücherecke des Cafés",
+  "time_of_day": "Abend",
+  "opening_narration": "*Mira rückt zum dritten Mal denselben Stuhl zurecht.* „Sechs Zusagen. Vielleicht vier Gäste.“ Leo klappt den Block halb zu. „Meine Bilder sind auch noch vielleicht.“",
+  "world_context": "Mira will eine kleine lokale Lesung, Leo eine unfertige Bildfolge zeigen. Jonas kann Getränke vorbereiten, aber nicht gleichzeitig moderieren. Aufgaben verteilen, Format wählen, den ersten Beitrag erzählen. {{user}} darf vorlesen, zuhören oder organisieren. Kleine Lesung, stille Ausstellung und Verschiebung sind gültig. Kein plötzliches Starpublikum. Eine persönliche Einladung nach dem Abend bleibt optional, auch rein freundschaftlich.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Mira Falk",
+    "Jonas Berg",
+    "Leo Winter"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Café zwischen den Tagen – Nachbarschaft & kleine Anfänge"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The First Reading",
+          "description": "Mira counts empty chairs; Leo holds unfinished drawings. Shape an evening that fits you.",
+          "starting_location": "café book corner",
+          "time_of_day": "evening",
+          "opening_narration": "*Mira adjusts the same chair for the third time.* “Six replies. Maybe four guests.” Leo half closes his sketchbook. “My pictures are still maybe, too.”",
+          "world_context": "Mira wants a small local reading; Leo wants to show unfinished pictures. Jonas can prepare drinks but cannot host simultaneously. Share tasks, choose a format, narrate the opening contribution. {{user}} may read, listen or organize. A small reading, quiet exhibition and postponement are valid. No sudden celebrity crowd. A later personal invitation stays optional and may be purely friendly.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Первые чтения",
+          "description": "Мира считает пустые стулья, Лео держит наброски. Создайте подходящий вам вечер.",
+          "starting_location": "книжный уголок кафе",
+          "time_of_day": "вечер",
+          "opening_narration": "*Мира в третий раз поправляет стул.* «Шесть ответов. Может, четыре гостя». Лео прикрывает блокнот. «Мои рисунки тоже ещё может быть».",
+          "world_context": "Мира хочет маленький вечер местных авторов, Лео — показать незавершённые работы. Йонас готовит напитки, но не может одновременно вести. Разделить задачи, выбрать формат, сыграть начало. {{user}} читает, слушает или помогает. Чтение, тихая выставка и перенос допустимы. Без внезапной толпы знаменитостей. Личное приглашение позже необязательно и может быть дружеским.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "はじめての朗読会",
+          "description": "空席を数えるミラと未完成の絵を抱えるレオ。自分たちらしい夜を作ろう。",
+          "starting_location": "カフェの本の一角",
+          "time_of_day": "夕方",
+          "opening_narration": "*ミラが同じ椅子を三度直す。*「返事は六人。来るのは四人かも」レオがノートを半分閉じる。「絵も、まだ『かも』なんだ」",
+          "world_context": "ミラは地元の小さな朗読会、レオは未完成の絵を見せたい。ヨナスは飲物を用意できるが司会と兼ねられない。分担、形式、最初の一作へ。{{user}}は読む、聞く、運営のどれでもよい。小規模開催、静かな展示、延期が可能。有名人の大群を呼ばない。その後の個人的な誘いは任意で友情でもよい。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 25,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Ordne die Stühle als kleinen Kreis an.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Mira, was sie an dem Abend teilen möchte.",
+            "action_type": "say"
+          },
+          {
+            "text": "Sieh mit Leo zwei unfertige Skizzen an.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Arrange the chairs in a small circle.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Mira what she wants to share.",
+            "action_type": "say"
+          },
+          {
+            "text": "Look at two unfinished sketches with Leo.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Поставить стулья небольшим кругом.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Миру, чем она хочет поделиться.",
+            "action_type": "say"
+          },
+          {
+            "text": "Посмотреть с Лео два наброска.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "椅子を小さな輪に並べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "何を伝えたいかミラに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "レオと未完成の絵を二枚見る。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "cafe_zwischen_den_tagen",
+      "style": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet",
+      "moods": {
+        "calm": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "cafe_room.webp",
+          "path": "presets/cafe-zwischen-den-tagen/backgrounds/cafe_room.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "cafe_room.webp"
+}

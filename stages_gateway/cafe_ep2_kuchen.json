@@ -1,0 +1,154 @@
+{
+  "title": "Ein Kuchen für jemanden, der nicht kommt",
+  "description": "Auf der Theke wartet ein Zitronenkuchen. Auf dem Abholzettel fehlt der Name.",
+  "starting_location": "Cafétresen",
+  "time_of_day": "Abend",
+  "opening_narration": "*Jonas blickt auf einen Zettel mit einer Uhrzeit.* „Ich habe die Füllung notiert, aber nicht, wer sie abholt. Das ist leider sehr nach mir.“ Leo schiebt eine leere Karte heran.",
+  "world_context": "Der Kuchen ist für Nachbarin Ida, die ihre Abholung telefonisch verschoben hat; die Nachricht liegt im Café-Postfach. Kein Unglück erfinden. Zettel und Nachricht vergleichen, diskret Rückfrage halten, Dekoration oder Aufbewahrung planen. Leo kann eine Karte zeichnen, wenn {{user}} das möchte. Kuchen bleibt reserviert und wird nicht ohne Erlaubnis verschenkt. Abschluss mit Abholplan und kleiner Karte oder ruhiger Pause.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Jonas Berg",
+    "Leo Winter"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Café zwischen den Tagen – Nachbarschaft & kleine Anfänge"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 2,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "A Cake for Someone Who Does Not Come",
+          "description": "A lemon cake waits on the counter. Its pickup note has no name.",
+          "starting_location": "café counter",
+          "time_of_day": "evening",
+          "opening_narration": "*Jonas looks at a note carrying only a time.* “I wrote down the filling, not who collects it. Unfortunately very like me.” Leo slides over a blank card.",
+          "world_context": "The cake belongs to neighbor Ida, who rescheduled by phone; her message is in the café inbox. Invent no disaster. Compare note and message, ask discreetly, plan decoration or storage. Leo can draw a card if wanted. Keep the cake reserved; never give it away without permission. End with a pickup plan and little card or quiet break.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Пирог для того, кто не приходит",
+          "description": "На стойке лимонный пирог. В записке о выдаче нет имени.",
+          "starting_location": "стойка кафе",
+          "time_of_day": "вечер",
+          "opening_narration": "*Йонас смотрит на записку с одним временем.* «Начинку записал, получателя нет. К сожалению, очень на меня похоже». Лео подвигает чистую открытку.",
+          "world_context": "Пирог соседки Иды, которая по телефону перенесла время; сообщение в почте кафе. Без бедствия. Сверить записку и сообщение, деликатно уточнить, решить украшение или хранение. Лео нарисует открытку по желанию. Пирог остаётся заказным, без разрешения не дарить. Итог — время выдачи и открытка или отдых.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "来ない誰かのためのケーキ",
+          "description": "台にはレモンケーキ。受取票には名前がない。",
+          "starting_location": "カフェのカウンター",
+          "time_of_day": "夕方",
+          "opening_narration": "*ヨナスが時刻だけの紙を見る。*「中身は書いたのに受け取る人を忘れた。残念ながら僕らしい」レオが白紙のカードを寄せる。",
+          "world_context": "隣人イダの予約で、電話で延期した伝言は店の受信箱にある。事故を作らない。紙と伝言を比べ静かに確認し、飾りか保管を選ぶ。希望すればレオがカードを描く。予約品を勝手に贈らない。受取計画とカード、または休憩で締める。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 20,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Vergleiche Zettel und Café-Postfach.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Jonas, wer Bestellungen annimmt.",
+            "action_type": "say"
+          },
+          {
+            "text": "Wähle mit Leo eine Idee für die Karte.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Compare the note with the café inbox.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Jonas who takes orders.",
+            "action_type": "say"
+          },
+          {
+            "text": "Choose a card idea with Leo.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Сверить записку и почту кафе.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Йонаса, кто принимает заказы.",
+            "action_type": "say"
+          },
+          {
+            "text": "Выбрать с Лео идею открытки.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "紙と店の受信箱を比べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "注文担当をヨナスに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "レオとカード案を選ぶ。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "cafe_zwischen_den_tagen",
+      "style": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet",
+      "moods": {
+        "calm": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "cozy acoustic jazz, brushed drums, upright piano and warm clarinet, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "cafe_room.webp",
+          "path": "presets/cafe-zwischen-den-tagen/backgrounds/cafe_room.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "cafe_room.webp"
+}

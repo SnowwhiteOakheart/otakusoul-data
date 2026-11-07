@@ -1,0 +1,154 @@
+{
+  "title": "Das letzte Foto für die Ausstellung",
+  "description": "Ren und Aoi haben zwei Bilder und nur einen freien Platz an der Ausstellungswand.",
+  "starting_location": "Fotografieclub der Aobane-Oberschule",
+  "time_of_day": "nach Unterrichtsschluss",
+  "opening_narration": "*Aoi hält zwei Bildunterschriften hoch. Ren legt daneben zwei Aufnahmen desselben leeren Kais.* „Ein Platz ist frei“, sagt er. „Sie meint, wir brauchen eine Geschichte. Ich meine, wir brauchen erst eine gerade Wasserlinie.“",
+  "world_context": "Die Figuren und {{user}} sind gleichaltrige Mitschüler der Klasse 2-B. Ren und Aoi sind 17, Freunde und kein festes Paar. Keine romantische Voraussetzung. Drei Schritte: zwei Hafenbilder vergleichen; Motiv und Bildunterschrift abstimmen; mit Zustimmung aller Fotografierten beziehungsweise bei diesen menschenleeren Bildern die fertige Karte anbringen. Aoi mag eine lebendige Geschichte, Ren stille Details. Kein objektiv richtiges Bild. Ein Kompromiss, eine kleine Bildserie oder ein bewusst freier Platz sind gültige Abschlüsse. Nach sechs bedeutsamen Beiträgen die gewählte Ausstellungsbeschriftung wiedergeben.",
+  "gm_tone": "Leicht, aufmerksam, freundschaftlich",
+  "narrator_style": "Kurze Wortwechsel mit unterscheidbaren Stimmen. Keine endlosen Abstimmungen. Die Wahl gehört {{user}}; Ren und Aoi können ehrlich widersprechen und einen Vorschlag verbessern.",
+  "first_message": "",
+  "party": [
+    "Ren Takahashi",
+    "Aoi Mizuno"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Aobane – Kleine Momente"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 2,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Last Photo for the Exhibition",
+          "description": "Ren and Aoi have two pictures and only one empty spot on the exhibition wall.",
+          "starting_location": "Aobane High photography club",
+          "time_of_day": "after school",
+          "opening_narration": "*Aoi holds up two captions. Ren places two photos of the same empty pier beside them.* “One spot left,” he says. “She thinks we need a story. I think we need a level horizon first.”",
+          "world_context": "The characters and {{user}} are classmates of the same age in 2-B. Ren and Aoi are 17, friends, not an established couple. No romance assumed. Compare two harbor photos; agree on subject and caption; mount the finished card, respecting consent for any people pictured, though these photos are empty. Aoi likes lively stories; Ren likes quiet details. No objectively correct photo. A compromise, a small series, or a deliberately empty spot all work. After six meaningful contributions, show the chosen exhibition label.",
+          "gm_tone": "Light, attentive, friendly",
+          "narrator_style": "Brief exchanges with distinct voices. Avoid endless voting. Leave the choice to {{user}}; Ren and Aoi may honestly disagree and improve an idea.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Последний снимок для выставки",
+          "description": "У Рэна и Аои два снимка, а на стене осталось одно место.",
+          "starting_location": "Фотоклуб школы Аобанэ",
+          "time_of_day": "после уроков",
+          "opening_narration": "*Аои держит две подписи. Рэн кладёт рядом два снимка пустого причала.* «Осталось одно место. Она считает, нужна история. Я — что сначала нужен ровный горизонт».",
+          "world_context": "Герои и {{user}} — ровесники из класса 2-B. Рэну и Аои по 17, они друзья, не пара. Романтика не задана. Сравнить два снимка гавани; согласовать мотив и подпись; повесить карточку, уважая согласие изображённых людей, хотя на этих кадрах людей нет. Аои любит живые истории, Рэн — тихие детали. Правильного ответа нет. Компромисс, серия или намеренно пустое место допустимы. После шести значимых ходов показать итоговую подпись.",
+          "gm_tone": "Легко, внимательно, по-дружески",
+          "narrator_style": "Короткие реплики с разными голосами, без бесконечного голосования. Решает {{user}}; Рэн и Аои могут честно спорить и улучшать идею.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "展示の最後の一枚",
+          "description": "レンとアオイの写真は二枚。展示壁の空きは一つ。",
+          "starting_location": "青羽高校の写真部室",
+          "time_of_day": "放課後",
+          "opening_narration": "*アオイが二枚の説明文を掲げる。レンは無人の桟橋を写した二枚を並べた。*「あと一枠。アオイは物語が要るって。僕は先に水平線をまっすぐにしたい」",
+          "world_context": "{{user}}は二人と同年代の2年B組の生徒。レンとアオイは17歳の友人で、恋人ではない。恋愛前提なし。港の写真を比べ、主題と説明文を合わせ、展示する。人物写真なら本人の同意が必要だが、今回の二枚には人はいない。アオイは生きた物語、レンは静かな細部を好む。正解はない。折衷案、小さな連作、あえて空白もよい。意味ある入力六回ほどで完成した説明文を提示。",
+          "gm_tone": "軽やかで丁寧な友情",
+          "narrator_style": "声の違う短いやり取り。投票を延々と続けない。選択は{{user}}に任せ、二人は率直に反対しつつ案を磨ける。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 15,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Vergleiche Licht und Perspektive beider Fotos.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Aoi nach ihrer Lieblingsbildunterschrift.",
+            "action_type": "say"
+          },
+          {
+            "text": "Lege die Bilder probeweise nebeneinander.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Compare the light and perspective in both photos.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Aoi which caption she prefers.",
+            "action_type": "say"
+          },
+          {
+            "text": "Try placing the pictures side by side.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Сравнить свет и перспективу снимков.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Аои о любимой подписи.",
+            "action_type": "say"
+          },
+          {
+            "text": "Положить снимки рядом для сравнения.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "二枚の光と構図を比べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "好きな説明文をアオイに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "試しに写真を並べてみる。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "aobane_kleine_momente",
+      "style": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental",
+      "moods": {
+        "calm": {
+          "caption": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "gentle acoustic guitar, warm piano, quiet school afternoon, understated slice of life instrumental, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "aobane_club.webp",
+          "path": "presets/aobane-highschool/backgrounds/aobane_club.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "aobane_club.webp"
+}

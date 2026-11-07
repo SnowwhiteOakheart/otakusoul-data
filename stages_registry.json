@@ -1755,6 +1755,411 @@
           "starting_location": "Аппаратная студии 39"
         }
       }
+    },
+    {
+      "id": "ff7_kurz_nach_ladenschluss",
+      "title": "Nach Ladenschluss im Seventh Heaven",
+      "description": "Tifa probiert ein neues alkoholfreies Getränk. Hilf ihr, Geschmack und Namen zu finden.",
+      "starting_location": "Seventh Heaven, nach Ladenschluss",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/ff7_kurz_nach_ladenschluss.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "After Closing at Seventh Heaven",
+          "description": "Tifa is testing a new alcohol-free drink. Help her find its flavor and name.",
+          "starting_location": "Seventh Heaven after closing"
+        },
+        "ja": {
+          "title": "Seventh Heaven、閉店後",
+          "description": "ティファの新しいノンアルコールドリンク。味と名前を一緒に考えよう。",
+          "starting_location": "閉店後のSeventh Heaven"
+        },
+        "ru": {
+          "title": "После закрытия Seventh Heaven",
+          "description": "Тифа пробует новый безалкогольный напиток. Помоги выбрать вкус и название.",
+          "starting_location": "Seventh Heaven после закрытия"
+        }
+      }
+    },
+    {
+      "id": "sternenbruch_kurz_radio",
+      "title": "Ein Sender für die Heimreise",
+      "description": "Kian repariert ein altes Radio. Welche Stimme soll auf der Morgenstern wieder zu hören sein?",
+      "starting_location": "Werkstatt der Morgenstern",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/sternenbruch_kurz_radio.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "A Station for the Journey Home",
+          "description": "Kian repairs an old radio. Which voice should return to the Morgenstern?",
+          "starting_location": "Morgenstern workshop"
+        },
+        "ja": {
+          "title": "帰り道の周波数",
+          "description": "古いラジオを直すキアン。モルゲンシュテルンに、どんな声を取り戻そう？",
+          "starting_location": "モルゲンシュテルンの工房"
+        },
+        "ru": {
+          "title": "Волна для дороги домой",
+          "description": "Киан чинит старое радио. Какой голос снова зазвучит на «Моргенштерн»?",
+          "starting_location": "Мастерская «Моргенштерн»"
+        }
+      }
+    },
+    {
+      "id": "studio_39_kurz_drei_geraeusche",
+      "title": "Drei Geräusche, ein Refrain",
+      "description": "Mit Miku werden Regen, ein Löffel und zwei Schritte zum Anfang eines Liedes.",
+      "starting_location": "Regieraum von Studio 39",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/studio_39_kurz_drei_geraeusche.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Three Sounds, One Chorus",
+          "description": "With Miku, rain, a spoon and two footsteps become the start of a song.",
+          "starting_location": "Studio 39 control room"
+        },
+        "ja": {
+          "title": "三つの音、一つのサビ",
+          "description": "雨とスプーンと二つの足音。ミクと一緒に歌の始まりを探そう。",
+          "starting_location": "スタジオ39の調整室"
+        },
+        "ru": {
+          "title": "Три звука, один припев",
+          "description": "Дождь, ложка и два шага становятся с Мику началом песни.",
+          "starting_location": "Аппаратная студии 39"
+        }
+      }
+    },
+    {
+      "id": "aobane_kurz_letztes_foto",
+      "title": "Das letzte Foto für die Ausstellung",
+      "description": "Ren und Aoi haben zwei Bilder und nur einen freien Platz an der Ausstellungswand.",
+      "starting_location": "Fotografieclub der Aobane-Oberschule",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/aobane_kurz_letztes_foto.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "The Last Photo for the Exhibition",
+          "description": "Ren and Aoi have two pictures and only one empty spot on the exhibition wall.",
+          "starting_location": "Aobane High photography club"
+        },
+        "ja": {
+          "title": "展示の最後の一枚",
+          "description": "レンとアオイの写真は二枚。展示壁の空きは一つ。",
+          "starting_location": "青羽高校の写真部室"
+        },
+        "ru": {
+          "title": "Последний снимок для выставки",
+          "description": "У Рэна и Аои два снимка, а на стене осталось одно место.",
+          "starting_location": "Фотоклуб школы Аобанэ"
+        }
+      }
+    },
+    {
+      "id": "cafe_ep1_fenstertisch",
+      "title": "Dein üblicher Tisch ist besetzt",
+      "description": "Ein neuer Gast sitzt am Fenster. Finde heraus, wie aus einer kleinen Enttäuschung ein guter Abend wird.",
+      "starting_location": "Café zwischen den Tagen",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cafe_ep1_fenstertisch.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Your Usual Table Is Taken",
+          "description": "A new guest sits by the window. Turn a small disappointment into a good evening.",
+          "starting_location": "Café Between Days"
+        },
+        "ja": {
+          "title": "いつもの席には先客",
+          "description": "窓辺には新しい客。小さな落胆から、よい夕方を見つけよう。",
+          "starting_location": "日々のあいだのカフェ"
+        },
+        "ru": {
+          "title": "Твой привычный стол занят",
+          "description": "У окна новый гость. Преврати небольшое разочарование в хороший вечер.",
+          "starting_location": "Кафе между днями"
+        }
+      }
+    },
+    {
+      "id": "cafe_ep2_kuchen",
+      "title": "Ein Kuchen für jemanden, der nicht kommt",
+      "description": "Auf der Theke wartet ein Zitronenkuchen. Auf dem Abholzettel fehlt der Name.",
+      "starting_location": "Cafétresen",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cafe_ep2_kuchen.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "A Cake for Someone Who Does Not Come",
+          "description": "A lemon cake waits on the counter. Its pickup note has no name.",
+          "starting_location": "café counter"
+        },
+        "ja": {
+          "title": "来ない誰かのためのケーキ",
+          "description": "台にはレモンケーキ。受取票には名前がない。",
+          "starting_location": "カフェのカウンター"
+        },
+        "ru": {
+          "title": "Пирог для того, кто не приходит",
+          "description": "На стойке лимонный пирог. В записке о выдаче нет имени.",
+          "starting_location": "стойка кафе"
+        }
+      }
+    },
+    {
+      "id": "cafe_ep3_erste_lesung",
+      "title": "Die erste Lesung",
+      "description": "Mira zählt leere Stühle, Leo hält unfertige Zeichnungen fest. Gestaltet einen Abend, der zu euch passt.",
+      "starting_location": "Bücherecke des Cafés",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/cafe_ep3_erste_lesung.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "The First Reading",
+          "description": "Mira counts empty chairs; Leo holds unfinished drawings. Shape an evening that fits you.",
+          "starting_location": "café book corner"
+        },
+        "ja": {
+          "title": "はじめての朗読会",
+          "description": "空席を数えるミラと未完成の絵を抱えるレオ。自分たちらしい夜を作ろう。",
+          "starting_location": "カフェの本の一角"
+        },
+        "ru": {
+          "title": "Первые чтения",
+          "description": "Мира считает пустые стулья, Лео держит наброски. Создайте подходящий вам вечер.",
+          "starting_location": "книжный уголок кафе"
+        }
+      }
+    },
+    {
+      "id": "begegnungen_ep1_reparaturspuren",
+      "title": "Was bleiben darf",
+      "description": "Ein alter Stuhl, zwei Reparaturwege und ein Gespräch über sichtbare Spuren.",
+      "starting_location": "Elias’ Werkstatt",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/begegnungen_ep1_reparaturspuren.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "What May Remain",
+          "description": "An old chair, two repair methods and a conversation about visible traces.",
+          "starting_location": "Elias’s workshop"
+        },
+        "ja": {
+          "title": "残していいもの",
+          "description": "古い椅子と二つの直し方。残る跡について話そう。",
+          "starting_location": "エリアスの工房"
+        },
+        "ru": {
+          "title": "Что можно оставить",
+          "description": "Старый стул, два способа ремонта и разговор о видимых следах.",
+          "starting_location": "мастерская Элиаса"
+        }
+      }
+    },
+    {
+      "id": "begegnungen_ep2_letzte_sendung",
+      "title": "Die letzte Sendung",
+      "description": "Noahs Sendeplatz endet. Hilf ihm, einen ehrlichen Abschied zu gestalten.",
+      "starting_location": "Lokalradio Lindenhafen",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/begegnungen_ep2_letzte_sendung.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "The Last Broadcast",
+          "description": "Noah’s slot is ending. Help him shape an honest farewell.",
+          "starting_location": "Lindenhafen local radio"
+        },
+        "ja": {
+          "title": "最後の放送",
+          "description": "ノアの番組枠が終わる。誠実な別れを一緒に作ろう。",
+          "starting_location": "リンデンハーフェンの地域ラジオ"
+        },
+        "ru": {
+          "title": "Последний эфир",
+          "description": "Время передачи Ноа заканчивается. Помоги придумать честное прощание.",
+          "starting_location": "местное радио Линденхафена"
+        }
+      }
+    },
+    {
+      "id": "begegnungen_ep3_nachtgarten",
+      "title": "Ein Garten nach Sonnenuntergang",
+      "description": "Sami plant einen kleinen Nachtgarten. Entscheidet, was wachsen darf und wie viel Pflege möglich ist.",
+      "starting_location": "Gemeinschaftsgarten Lindenhafen",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/begegnungen_ep3_nachtgarten.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "A Garden After Sunset",
+          "description": "Sami plans a small night garden. Decide what can grow and how much care is possible.",
+          "starting_location": "Lindenhafen community garden"
+        },
+        "ja": {
+          "title": "日暮れのあとに咲く庭",
+          "description": "サミと小さな夜庭を計画。何を育て、どれだけ世話をしよう？",
+          "starting_location": "リンデンハーフェンの共同庭園"
+        },
+        "ru": {
+          "title": "Сад после заката",
+          "description": "Сами планирует маленький ночной сад. Решите, что вырастить и сколько ухода возможно.",
+          "starting_location": "общественный сад Линденхафена"
+        }
+      }
+    },
+    {
+      "id": "fundbuero_fall01_innenregen",
+      "title": "Fall 01: Der Schirm, der innen regnet",
+      "description": "Ein trockener Schirm tropft von innen. Seine Besitzerin soll erst morgen verschwinden.",
+      "starting_location": "Städtisches Fundbüro Lindenhafen",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/fundbuero_fall01_innenregen.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Case 01: The Umbrella That Rains Inside",
+          "description": "A dry umbrella drips from within. Its owner is said to disappear tomorrow.",
+          "starting_location": "Lindenhafen municipal lost property"
+        },
+        "ja": {
+          "title": "第1件：内側に雨が降る傘",
+          "description": "乾いた傘の内側から滴る水。持ち主が消えるのは明日だという。",
+          "starting_location": "リンデンハーフェン市の遺失物係"
+        },
+        "ru": {
+          "title": "Дело 01: Зонт с дождём внутри",
+          "description": "Сухой зонт мокнет изнутри. Его хозяйка якобы исчезнет только завтра.",
+          "starting_location": "городское бюро находок Линденхафена"
+        }
+      }
+    },
+    {
+      "id": "gleis_null_ep1_0017",
+      "title": "Nachtschicht auf Gleis 0 – 00:17",
+      "description": "Ein abgestecktes Telefon klingelt. Draußen hält ein Zug, der in keinem Fahrplan steht.",
+      "starting_location": "Stellwerk Bahnhof Lindenhafen",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/gleis_null_ep1_0017.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Night Shift on Platform 0 – 00:17",
+          "description": "An unplugged phone rings. Outside stops a train absent from every timetable.",
+          "starting_location": "Lindenhafen station signal room"
+        },
+        "ja": {
+          "title": "0番線の夜勤 ― 00:17",
+          "description": "線の抜けた電話が鳴る。外には時刻表にない列車。",
+          "starting_location": "リンデンハーフェン駅の信号室"
+        },
+        "ru": {
+          "title": "Ночная смена на платформе 0 — 00:17",
+          "description": "Отключённый телефон звонит. Снаружи поезд, которого нет в расписании.",
+          "starting_location": "пост сигнализации Линденхафена"
+        }
+      }
+    },
+    {
+      "id": "studio_39_auftritt_ep1_refrain",
+      "title": "Unser erster Auftritt – 1: Wovon wir singen",
+      "description": "Findet mit Miku, Rin und Luka ein Thema und vier Refrainzeilen.",
+      "starting_location": "Regie von Studio 39",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/studio_39_auftritt_ep1_refrain.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Our First Performance – 1: What We Sing About",
+          "description": "Find a theme and four chorus lines with Miku, Rin and Luka.",
+          "starting_location": "Studio 39 control room"
+        },
+        "ja": {
+          "title": "はじめてのステージ 1：何を歌おう",
+          "description": "ミク、リン、ルカと主題とサビ四行を考えよう。",
+          "starting_location": "スタジオ39の調整室"
+        },
+        "ru": {
+          "title": "Наше первое выступление — 1: О чём поём",
+          "description": "Найдите с Мику, Рин и Лукой тему и четыре строки припева.",
+          "starting_location": "аппаратная студии 39"
+        }
+      }
+    },
+    {
+      "id": "studio_39_auftritt_ep2_buehnenplan",
+      "title": "Unser erster Auftritt – 2: Licht und Atem",
+      "description": "Plant einen kleinen Auftritt, der auch ohne große Effekte trägt.",
+      "starting_location": "Kleine Probebühne von Studio 39",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/studio_39_auftritt_ep2_buehnenplan.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Our First Performance – 2: Light and Breath",
+          "description": "Plan a small performance that works without grand effects.",
+          "starting_location": "Studio 39 rehearsal stage"
+        },
+        "ja": {
+          "title": "はじめてのステージ 2：光と呼吸",
+          "description": "大きな演出がなくても届く、小さな上演を計画しよう。",
+          "starting_location": "スタジオ39の練習ステージ"
+        },
+        "ru": {
+          "title": "Наше первое выступление — 2: Свет и дыхание",
+          "description": "Спланируйте маленькое выступление без обязательных больших эффектов.",
+          "starting_location": "репетиционная сцена студии 39"
+        }
+      }
+    },
+    {
+      "id": "studio_39_auftritt_ep3_generalprobe",
+      "title": "Unser erster Auftritt – 3: Die kleine Generalprobe",
+      "description": "Spielt eure Fassung an und entscheidet gemeinsam, was ihr behaltet.",
+      "starting_location": "Studio 39, vor dem Probenfenster",
+      "author": "SnowwhiteOakheart",
+      "download_url": "https://raw.githubusercontent.com/SnowwhiteOakheart/otakusoul-data/main/stages_gateway/studio_39_auftritt_ep3_generalprobe.json",
+      "revision": 1,
+      "updated": "2026-11-07",
+      "translations": {
+        "en": {
+          "title": "Our First Performance – 3: The Small Dress Rehearsal",
+          "description": "Try your version and decide together what to keep.",
+          "starting_location": "Studio 39 by the rehearsal window"
+        },
+        "ja": {
+          "title": "はじめてのステージ 3：小さな通し稽古",
+          "description": "一度試して、残すものを一緒に決めよう。",
+          "starting_location": "スタジオ39の練習窓の前"
+        },
+        "ru": {
+          "title": "Наше первое выступление — 3: Маленькая генеральная репетиция",
+          "description": "Попробуйте вашу версию и вместе решите, что оставить.",
+          "starting_location": "студия 39 у окна репетиционной"
+        }
+      }
     }
   ]
 }

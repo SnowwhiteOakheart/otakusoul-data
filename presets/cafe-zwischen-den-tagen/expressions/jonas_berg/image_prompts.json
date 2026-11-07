@@ -1,0 +1,55 @@
+{
+  "author": "SnowwhiteOakheart",
+  "date": "2026-11-07",
+  "tool": "image_gen.imagegen",
+  "neutral_is_profile_source": true,
+  "assets": [
+    {
+      "file": "expressions/jonas_berg/neutral.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Create one polished anime visual novel character portrait, vertical 3:4 composition, waist-up centered with safe headroom, no text or border. Original adult male Jonas Berg, age 38, owner of a cozy neighborhood cafe, broad friendly face, short wavy chestnut hair with a few gray strands, warm brown eyes, subtle stubble, forest-green rolled-sleeve shirt and cinnamon brown canvas apron. Calm attentive neutral expression, hands relaxed below chest, warmly lit softly blurred cafe bookshelves behind him. Attractive believable mature adult, clean expressive line art, painterly warm shading, contemporary slice-of-life anime style, fully clothed SFW. This is the canonical identity portrait for future expression variants.",
+      "generated_file": "exec-f9c26cd0-bb60-4328-861b-d5295312c63e.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits."
+    },
+    {
+      "file": "expressions/jonas_berg/happy.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a joyful genuine open smile, raised cheeks and bright eyes. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-5d27d372-b58d-4d6c-8982-3f3311ef77a8.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/relaxed.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a peaceful soft smile, relaxed eyelids and shoulders. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-be48f350-d9b0-4014-b538-38593fc8fb75.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/surprised.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to clearly raised eyebrows, widened eyes and a slightly open mouth. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-3e2676ae-aff9-453f-acca-83d5c07cb12e.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/angry.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a firm displeased frown, knit eyebrows, set jaw, no violence. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-de53e2ac-98de-4e72-a02b-402f2c326f1c.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    },
+    {
+      "file": "expressions/jonas_berg/sad.webp",
+      "tool": "image_gen.imagegen",
+      "prompt": "Edit the reference portrait of Jonas Berg. Preserve exactly his identity, age 38, chestnut hair, stubble, green shirt, brown apron, framing, warm cafe background and anime art style. Change facial expression to a visibly sad downturned mouth, softened eyes and worried inner eyebrows. One portrait only, no labels or panels. Fully clothed SFW.",
+      "generated_file": "exec-9e4f15da-45a4-4933-b88e-67390f8d775a.png",
+      "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 640x800, WebP quality 93, no compositional edits.",
+      "reference": "jonas_berg.png"
+    }
+  ]
+}

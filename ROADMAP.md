@@ -1,3 +1,19 @@
+## Neue Einstiege und eigene Welten · 07.11.2026
+
+- **DE:** Alle sechs vereinbarten Inhaltsrichtungen umgesetzt: vier Kurzbesuche (10–15 Minuten), drei Café-Folgen, drei erwachsene persönliche Begegnungen, ein erster Detektivfall, ein Horror-Pilot und drei kreative Studio-39-Folgen. Zwölf neue Originalfiguren von 26 bis 61 Jahren mit je sechs eigenständigen Basis-Expressions, englischer Stimmbeschreibung, Musik-Leitmotiv, zwei alternativen Begrüßungen und drei Dialogbeispielen. Alle Profile, Stories, sechs neuen Lorebooks und fünf neuen Sammlungen auf DE/EN/RU/JA. Elf neue Szenenhintergründe, fünf Keyvisual-Cover und dokumentierte ImageGen-Prompts. Freundschaft ist gleichwertig; Romantik bei Erwachsenen optional. Vorige Spielergebnisse werden nur aus vorhandenem Kontext übernommen. Daten und Bilder automatisiert geprüft; kein Import oder Spieltest in einer lokalen App-Installation.
+- **EN:** All six agreed directions implemented: four short visits (10–15 minutes), three café episodes, three adult personal encounters, a first detective case, a horror pilot and three creative Studio 39 episodes. Twelve original adults aged 26–61 with six distinct base expressions each, English voice descriptions, music themes, two alternate greetings and three dialogue examples. All profiles, stories, six new lorebooks and five new collections in DE/EN/RU/JA. Eleven new backgrounds, five key visual covers and documented ImageGen prompts. Friendship is a complete path; adult romance is optional. Previous player results are reused only from available context. Data and images checked automatically; no local app import or playtest.
+- **RU:** Реализованы все шесть направлений: четыре коротких визита (10–15 минут), три эпизода кафе, три личные встречи взрослых, первое детективное дело, пилот хоррора и три творческие серии студии 39. Двенадцать оригинальных взрослых 26–61 лет, по шесть отдельных базовых эмоций, английское описание голоса, музыкальная тема, два приветствия и три примера диалога. Профили, истории, шесть новых лорбуков и пять коллекций на DE/EN/RU/JA. Одиннадцать фонов, пять обложек и запросы ImageGen. Дружба полноценна, романтика взрослых необязательна. Прошлые результаты только из доступного контекста. Автоматические проверки данных и изображений; без импорта и прохождения в локальном приложении.
+
+| Paket | Neue Figuren | Neue Stories | Neues Lorebook |
+|---|---|---|---|
+| `cafe-zwischen-den-tagen` | Jonas Berg (38), Mira Falk (42), Leo Winter (27) | `cafe_ep1_fenstertisch`, `cafe_ep2_kuchen`, `cafe_ep3_erste_lesung` | `cafe_zwischen_den_tagen.json` |
+| `begegnungen-am-fluss` | Elias Hartmann (35), Noah Sommer (30), Sami Rahman (33) | `begegnungen_ep1_reparaturspuren`, `begegnungen_ep2_letzte_sendung`, `begegnungen_ep3_nachtgarten` | `begegnungen_am_fluss.json` |
+| `fundbuero-unmoeglicher-dinge` | Vera Lenz (39), Oskar Reed (46), Nia Quill (26) | `fundbuero_fall01_innenregen` | `fundbuero_unmoeglicher_dinge.json` |
+| `gleis-null` | Ada Kern (48), Ben Ortiz (29), Ruth Seidel (61) | `gleis_null_ep1_0017` | `gleis_null_nachtschicht.json` |
+| `aobane-highschool` | bestehende Ren Takahashi und Aoi Mizuno | `aobane_kurz_letztes_foto` | `aobane_kleine_momente.json` |
+| `studio-39` | bestehende Miku, Rin und Luka | `studio_39_kurz_drei_geraeusche`, `studio_39_auftritt_ep1_refrain`, `studio_39_auftritt_ep2_buehnenplan`, `studio_39_auftritt_ep3_generalprobe` | `studio_39_unser_erster_auftritt.json` |
+| `final-fantasy-vii` / `sternenbruch` | bestehende Tifa / Kian | `ff7_kurz_nach_ladenschluss`, `sternenbruch_kurz_radio` | bestehende Figuren-Lorebooks |
+
 ## Studio 39: Emotionsporträts · 06.11.2026
 
 - Kagamine Rin und Megurine Luka haben je 15 eigenständige, jugendfreie Emotionsporträts einschließlich Neutralbild. Hub-Karten auf Revision 2.

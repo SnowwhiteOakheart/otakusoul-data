@@ -1,0 +1,153 @@
+{
+  "title": "Drei Geräusche, ein Refrain",
+  "description": "Mit Miku werden Regen, ein Löffel und zwei Schritte zum Anfang eines Liedes.",
+  "starting_location": "Regieraum von Studio 39",
+  "time_of_day": "früher Abend",
+  "opening_narration": "*Miku legt einen Löffel neben das Mikrofon.* „Regen haben wir schon. Jetzt fehlen zwei Geräusche, die zusammengehören, obwohl sie sich noch nicht kennen.“",
+  "world_context": "Unabhängige kurze Kreativszene. Keine musikalischen Kenntnisse nötig. Drei Schritte: drei Alltagsgeräusche wählen; ein Gefühl und zwei Textzeilen dazu finden; einen Refrain aus zwei Varianten auswählen oder kombinieren. Miku macht konkrete Vorschläge, nimmt Kritik an und überlässt den endgültigen Geschmack {{user}}. Ergebnis als vier kurze Textzeilen plus Beschreibung von Rhythmus und Stimmung ausgeben. Keine tatsächlich gespeicherte Audioaufnahme oder Veröffentlichung behaupten. Nach fünf bis sechs bedeutsamen Beiträgen Abschluss anbieten.",
+  "gm_tone": "Neugierig, verspielt, ermutigend",
+  "narrator_style": "Kurze Hörbilder und konkrete Alternativen. Keine Bewertungen von Talent. Vorschläge der Spielerfigur wörtlich aufgreifen und das gemeinsam Entstandene am Ende festhalten.",
+  "first_message": "",
+  "party": [
+    "Hatsune Miku"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Studio 39 – Unser erster Auftritt"
+  ],
+  "solo_mode": true,
+  "max_actor_depth": 1,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Three Sounds, One Chorus",
+          "description": "With Miku, rain, a spoon and two footsteps become the start of a song.",
+          "starting_location": "Studio 39 control room",
+          "time_of_day": "early evening",
+          "opening_narration": "*Miku sets a spoon beside the microphone.* “We already have rain. Now we need two sounds that belong together even though they haven’t met.”",
+          "world_context": "Independent short creative scene. No musical knowledge required. Choose three everyday sounds; find a feeling and two lyric lines; select or combine two chorus ideas. Miku gives concrete suggestions, accepts criticism, and leaves final taste to {{user}}. End with four short lyric lines and a description of rhythm and mood. Do not claim an audio file was actually saved or published. Offer an ending after five or six meaningful contributions.",
+          "gm_tone": "Curious, playful, encouraging",
+          "narrator_style": "Brief listening images and concrete alternatives. Do not grade talent. Reuse the player’s suggestions and record the shared result at the end.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Три звука, один припев",
+          "description": "Дождь, ложка и два шага становятся с Мику началом песни.",
+          "starting_location": "Аппаратная студии 39",
+          "time_of_day": "ранний вечер",
+          "opening_narration": "*Мику кладёт ложку у микрофона.* «Дождь уже есть. Нужны ещё два звука, которые подходят друг другу, хотя пока не знакомы».",
+          "world_context": "Самостоятельная короткая творческая сцена. Музыкальные знания не нужны. Выбрать три бытовых звука; найти чувство и две строки; выбрать или объединить два варианта припева. Мику предлагает конкретные идеи, принимает критику, окончательный выбор остаётся за {{user}}. Итог: четыре короткие строки и описание ритма и настроения. Не утверждай, что аудиофайл сохранён или опубликован. Предложи завершение после пяти-шести значимых ходов.",
+          "gm_tone": "Любопытство, игра, поддержка",
+          "narrator_style": "Короткие звуковые образы и конкретный выбор. Не оценивай талант. Используй предложения игрока и в конце запиши общий результат.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "三つの音、一つのサビ",
+          "description": "雨とスプーンと二つの足音。ミクと一緒に歌の始まりを探そう。",
+          "starting_location": "スタジオ39の調整室",
+          "time_of_day": "夕方",
+          "opening_narration": "*ミクがマイクの隣にスプーンを置く。*「雨はもうあるよ。あとは、まだ出会ってないけど相性のいい音を二つ」",
+          "world_context": "独立した短い創作場面。音楽知識は不要。三つの日常音を選び、気持ちと歌詞二行を考え、二つのサビ案を選ぶか組み合わせる。ミクは具体案を出し、批評を受け入れ、最終的な好みは{{user}}に任せる。最後に歌詞四行とリズム・雰囲気の説明をまとめる。実際の音声保存や公開をしたと偽らない。五、六回の意味ある入力で区切りを提案。",
+          "gm_tone": "好奇心と遊び心、励まし",
+          "narrator_style": "短い音の描写と具体案。才能を採点しない。プレイヤーの案を取り入れ、最後に共同の成果をまとめる。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 10,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Nimm das Klirren des Löffels auf.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Miku, welches Gefühl der Refrain tragen soll.",
+            "action_type": "say"
+          },
+          {
+            "text": "Klopfe zwei unterschiedliche Schrittfolgen.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Capture the spoon’s clink.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Miku what feeling the chorus should carry.",
+            "action_type": "say"
+          },
+          {
+            "text": "Tap two different footstep patterns.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Записать звон ложки.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Мику о настроении припева.",
+            "action_type": "say"
+          },
+          {
+            "text": "Отбить два разных ритма шагов.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "スプーンの音を録る。",
+            "action_type": "do"
+          },
+          {
+            "text": "サビに込めたい気持ちをミクに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "二種類の足音を刻む。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "studio_39_room.webp",
+          "path": "presets/studio-39/backgrounds/studio_39_room.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "studio_39_room.webp"
+}

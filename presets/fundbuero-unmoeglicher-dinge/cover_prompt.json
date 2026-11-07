@@ -1,0 +1,12 @@
+{
+  "file": "cover.webp",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use the three supplied portraits as identity references for exactly those three adult characters, preserving faces, age, hairstyle, skin color, clothes and accessories. Create a single coherent wide 16:9 anime visual novel cover key visual: Adult detective Vera, archivist Oskar and bicycle courier Nia investigating a black umbrella dripping from inside into a basin on an old municipal lost-property desk, brass drawers, rainy window, intriguing gentle supernatural detective atmosphere. All three characters clearly recognizable, natural shared scene with environment visible, polished painterly anime style. No montage panels, no text, no titles, no watermark. SFW.",
+  "generated_file": "exec-7c9e48dd-89a7-4da6-b637-91d844486ed3.png",
+  "processing": "Pillow ImageOps.fit, centering (0.5, 0.4), 960x540, WebP quality 93, no compositional edits.",
+  "references": [
+    "vera_lenz.png",
+    "oskar_reed.png",
+    "nia_quill.png"
+  ]
+}

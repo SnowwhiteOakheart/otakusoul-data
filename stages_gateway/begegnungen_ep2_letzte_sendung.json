@@ -1,0 +1,155 @@
+{
+  "title": "Die letzte Sendung",
+  "description": "Noahs Sendeplatz endet. Hilf ihm, einen ehrlichen Abschied zu gestalten.",
+  "starting_location": "Lokalradio Lindenhafen",
+  "time_of_day": "Abend",
+  "opening_narration": "*Das rote Licht ist noch aus. Noah schiebt drei leere Moderationskarten über den Tisch.* „Zwanzig Minuten. Einen Jingle, den niemand vermissen wird. Und einen letzten Satz, den ich noch nicht habe.“",
+  "world_context": "Erstes erwachsenes Kennenlernen vor Noahs letzter regulärer Sendung. Die Sendung endet aus Programmplanung, keine heimliche Entlassungsintrige. Drei Blöcke: Stadtgeräusch, Hörergruß aus freigegebenem Archiv, Abschied. Persönliches Gespräch bleibt off air, außer alle stimmen ausdrücklich zu. {{user}} kann beraten, sprechen oder nur zuhören. Noah muss nach dem Ende keinen Lebensplan haben. Ergebnis als drei Moderationskarten und Abschiedssatz. Optionales Treffen oder Freundschaft, keine tatsächliche Sendung oder Audiodatei behaupten.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Noah Sommer"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Begegnungen am Fluss – Drei eigene Wege"
+  ],
+  "solo_mode": true,
+  "max_actor_depth": 1,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "The Last Broadcast",
+          "description": "Noah’s slot is ending. Help him shape an honest farewell.",
+          "starting_location": "Lindenhafen local radio",
+          "time_of_day": "evening",
+          "opening_narration": "*The red light is still off. Noah slides three empty cue cards across the table.* “Twenty minutes. One jingle nobody will miss. And a final sentence I haven’t found.”",
+          "world_context": "First adult meeting before Noah’s final regular show. Scheduling ends it, not a secret firing plot. Three segments: city sound, listener greeting from a cleared archive, goodbye. Personal conversation stays off air unless everyone explicitly agrees. {{user}} may advise, speak or listen. Noah needs no instant life plan. End with three cue cards and a farewell line. Optional later meeting or friendship; do not claim a real broadcast or audio file.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Последний эфир",
+          "description": "Время передачи Ноа заканчивается. Помоги придумать честное прощание.",
+          "starting_location": "местное радио Линденхафена",
+          "time_of_day": "вечер",
+          "opening_narration": "*Красная лампа ещё погашена. Ноа подвигает три пустые карточки.* «Двадцать минут. Джингл, по которому никто не соскучится. И последняя фраза, которой пока нет».",
+          "world_context": "Первое взрослое знакомство перед последним регулярным эфиром. Причина — сетка вещания, не тайная интрига. Три блока: звук города, разрешённый архивный привет слушателя, прощание. Личное остаётся вне эфира без согласия всех. Можно советовать, говорить или слушать. Ноа не обязан сразу придумать новую жизнь. Итог — три карточки и фраза. Дружба или новая встреча необязательны; не утверждать реального эфира или аудиофайла.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "最後の放送",
+          "description": "ノアの番組枠が終わる。誠実な別れを一緒に作ろう。",
+          "starting_location": "リンデンハーフェンの地域ラジオ",
+          "time_of_day": "夕方",
+          "opening_narration": "*赤い灯はまだ消えている。ノアが白い進行カード三枚を寄せる。*「二十分。誰も惜しまないジングル。まだ見つからない最後の一言」",
+          "world_context": "最後の定期放送前の成人同士の初対面。終了は編成上の理由で陰謀ではない。街の音、許可済みの便り、別れの三部。私的な会話は全員の明確な同意なしに放送しない。助言、話す、聞くだけも可能。次の人生計画を即座に要求しない。三枚のカードと別れの一文を残す。友情や再会は任意。実際の放送や音声ファイルを装わない。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "romance",
+      "minutes": 25,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [
+        "romance"
+      ],
+      "choices": {
+        "de": [
+          {
+            "text": "Lege die drei Moderationskarten in eine Reihenfolge.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Noah, was er vermissen wird.",
+            "action_type": "say"
+          },
+          {
+            "text": "Höre ein freigegebenes Stadtgeräusch an.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Arrange the three cue cards.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Noah what he will miss.",
+            "action_type": "say"
+          },
+          {
+            "text": "Listen to a cleared city sound.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Разложить три карточки.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Ноа, чего будет не хватать.",
+            "action_type": "say"
+          },
+          {
+            "text": "Послушать разрешённый звук города.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "三枚のカードを並べる。",
+            "action_type": "do"
+          },
+          {
+            "text": "何が恋しくなるかノアに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "許可済みの街の音を聞く。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "begegnungen_am_fluss",
+      "style": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life",
+      "moods": {
+        "calm": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate acoustic guitar, soft cello and mellow electric piano, modern riverside slice of life, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "noah_radio.webp",
+          "path": "presets/begegnungen-am-fluss/backgrounds/noah_radio.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "noah_radio.webp"
+}

@@ -1,0 +1,155 @@
+{
+  "title": "Unser erster Auftritt – 3: Die kleine Generalprobe",
+  "description": "Spielt eure Fassung an und entscheidet gemeinsam, was ihr behaltet.",
+  "starting_location": "Studio 39, vor dem Probenfenster",
+  "time_of_day": "Abend",
+  "opening_narration": "*Das Aufnahmelicht bleibt aus. Luka zählt ein. Nach vier Takten hebt Rin die Hand und lacht.* „Zu früh. Aber nicht hoffnungslos.“ Miku schaut zu dir. „Einmal zum Zuhören, einmal zum Ändern?“",
+  "world_context": "Unabhängig oder als Finale. Vorherige Ergebnisse nur nach Kontext oder Nachfrage übernehmen. Sonst Standard anbieten. Eine Probe narrativ spielen, zwei konkrete Rückmeldungen sammeln und eine Änderung oder bewusstes Beibehalten wählen. Freiwillig leerer Raum oder wenige eingeladene Gäste. Kein perfekt bewerteter Sieg. Ende mit Titel, vier Refrainzeilen und Bühnenplan als kopierbarem Text sowie offenem nächsten Schritt, ohne echte Datei oder Upload zu behaupten.",
+  "gm_tone": "Nah an den Figuren, konkrete Entscheidungen, kurze Szenen",
+  "narrator_style": "Kurze sinnliche Absätze, pro Runde höchstens zwei passende Stimmen. Gefühle und Handlungen von {{user}} bleiben frei. Hinweise und Ziele aus dem Lorebook konsistent halten, bei Stillstand eine konkrete Möglichkeit anbieten. Einen abgeschlossenen Bogen ermöglichen, Fortsetzung optional.",
+  "first_message": "",
+  "party": [
+    "Hatsune Miku",
+    "Kagamine Rin",
+    "Megurine Luka"
+  ],
+  "persona": "",
+  "lorebook": [
+    "Studio 39 – Unser erster Auftritt"
+  ],
+  "solo_mode": false,
+  "max_actor_depth": 3,
+  "dice_rolls_enabled": false,
+  "extensions": {
+    "otakusoul_i18n": {
+      "source_language": "de",
+      "translations": {
+        "en": {
+          "title": "Our First Performance – 3: The Small Dress Rehearsal",
+          "description": "Try your version and decide together what to keep.",
+          "starting_location": "Studio 39 by the rehearsal window",
+          "time_of_day": "evening",
+          "opening_narration": "*The recording light stays off. Luka counts in. After four bars Rin raises her hand and laughs.* “Too early. Not hopeless.” Miku looks at you. “Once to listen, once to change?”",
+          "world_context": "Standalone or finale. Reuse earlier work only from context or after asking; otherwise offer a default. Narrate one rehearsal, gather two concrete comments, choose one change or deliberate retention. Empty room or a few invited listeners, voluntarily. No perfect graded victory. End with title, four chorus lines and stage plan as copyable text and an open next step, without claiming an actual file or upload.",
+          "gm_tone": "Character-focused, concrete decisions, brief scenes",
+          "narrator_style": "Brief sensory paragraphs, at most two relevant voices per turn. Leave {{user}}’s feelings and actions open. Keep clues and goals consistent with the lorebook; offer a concrete option when stalled. Allow a complete arc with optional continuation.",
+          "first_message": ""
+        },
+        "ru": {
+          "title": "Наше первое выступление — 3: Маленькая генеральная репетиция",
+          "description": "Попробуйте вашу версию и вместе решите, что оставить.",
+          "starting_location": "студия 39 у окна репетиционной",
+          "time_of_day": "вечер",
+          "opening_narration": "*Индикатор записи выключен. Лука считает. Через четыре такта Рин поднимает руку и смеётся.* «Рано. Но не безнадёжно». Мику смотрит на тебя. «Раз послушать, раз изменить?»",
+          "world_context": "Самостоятельно или финал. Прежние итоги только из контекста или после вопроса, иначе запасной вариант. Сыграть репетицию в рассказе, два конкретных отзыва, одна правка или сохранение. Пустой зал либо несколько гостей добровольно. Без идеальной оценки. В конце копируемый текст: название, четыре строки, план сцены и необязательный шаг. Не заявлять реального файла или загрузки.",
+          "gm_tone": "В центре герои, конкретные решения, короткие сцены",
+          "narrator_style": "Короткие чувственные абзацы, не более двух нужных голосов за ход. Чувства и действия {{user}} свободны. Улики и цели согласованы с лорбуком; при застое предложи конкретный путь. Завершённый сюжет, продолжение по желанию.",
+          "first_message": ""
+        },
+        "ja": {
+          "title": "はじめてのステージ 3：小さな通し稽古",
+          "description": "一度試して、残すものを一緒に決めよう。",
+          "starting_location": "スタジオ39の練習窓の前",
+          "time_of_day": "夕方",
+          "opening_narration": "*録音灯は消えたまま。ルカが数え、四小節でリンが笑って手を上げる。*「早すぎた。でも望みはある」ミクがこちらを見る。「一度聞いて、一度変えてみる？」",
+          "world_context": "独立でも最終話でもよい。前の成果は文脈か確認後のみ、不明なら案を示す。一度の練習を物語で演じ、具体的な感想二つ、一つの修正か維持を選ぶ。無観客や少数招待は自由。満点の勝利を求めない。最後は題、サビ四行、舞台案をコピーできる文章にし任意の次へ。実ファイルや公開を装わない。",
+          "gm_tone": "人物を中心に、具体的な選択と短い場面",
+          "narrator_style": "感覚的な短い段落、一度に適切な声は二人まで。{{user}}の気持ちと行動は自由。ロアブックの手掛かりと目標を保ち、停滞時には具体案。完結でき、続きは任意。",
+          "first_message": ""
+        }
+      }
+    },
+    "otakusoul_story": {
+      "genre": "slice_of_life",
+      "minutes": 25,
+      "difficulty": "easy",
+      "beginner": true,
+      "notes": [],
+      "choices": {
+        "de": [
+          {
+            "text": "Notiere eine Stelle, die schon trägt.",
+            "action_type": "do"
+          },
+          {
+            "text": "Frag Rin, welchen Einsatz sie erneut versuchen möchte.",
+            "action_type": "say"
+          },
+          {
+            "text": "Wähle eine kleine Änderung für die zweite Probe.",
+            "action_type": "do"
+          }
+        ],
+        "en": [
+          {
+            "text": "Note one part that already works.",
+            "action_type": "do"
+          },
+          {
+            "text": "Ask Rin which entry she wants to retry.",
+            "action_type": "say"
+          },
+          {
+            "text": "Choose one small change for the second run.",
+            "action_type": "do"
+          }
+        ],
+        "ru": [
+          {
+            "text": "Записать удачный момент.",
+            "action_type": "do"
+          },
+          {
+            "text": "Спросить Рин, какое вступление повторить.",
+            "action_type": "say"
+          },
+          {
+            "text": "Выбрать маленькую правку ко второму прогону.",
+            "action_type": "do"
+          }
+        ],
+        "ja": [
+          {
+            "text": "すでに届いている部分を書く。",
+            "action_type": "do"
+          },
+          {
+            "text": "再挑戦したい入りをリンに聞く。",
+            "action_type": "say"
+          },
+          {
+            "text": "二回目の小さな修正を選ぶ。",
+            "action_type": "do"
+          }
+        ]
+      }
+    },
+    "otakusoul_music": {
+      "set": "studio_39_vier_takte_vor_mitternacht",
+      "style": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano",
+      "moods": {
+        "calm": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, gentle instrumental opening",
+          "duration": 100
+        },
+        "mystery": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, sparse questioning motif",
+          "duration": 100
+        },
+        "romance": {
+          "caption": "intimate late-night recording studio, soft electronic ambience, rain textures and warm electric piano, tender restrained melody",
+          "duration": 100
+        }
+      }
+    },
+    "otakusoul_assets": {
+      "backgrounds": [
+        {
+          "file": "studio_39_room.webp",
+          "path": "presets/studio-39/backgrounds/studio_39_room.webp"
+        }
+      ]
+    }
+  },
+  "starting_bg": "studio_39_room.webp"
+}
