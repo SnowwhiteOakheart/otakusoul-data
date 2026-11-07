@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "last_updated": "2026-11-07",
+  "notes": "Mobiler Modell-Katalog der Android-App (OtakuSoul-Android). Format wie recommended_models.json, ergänzt um min_ram_gb (Arbeitsspeicher des Handys), context_tokens (Kontext beim Laden) und chat_format (gemma4, chatml, chatml_nothink oder native). Q4_0 bevorzugt: ARM KleidiAI hat dafür schnelle Kernel.",
+  "models": [
+    {
+      "id": "gemma-4-e4b-q4_0",
+      "name": "Gemma 4 E4B",
+      "hf_id": "unsloth/gemma-4-E4B-it-GGUF",
+      "file": "gemma-4-E4B-it-Q4_0.gguf",
+      "size_bytes": 4836002944,
+      "sha256": "4a403d2e4d80281063e4f517b1c061ded8476b4011a4fc2ba7dbff707075547e",
+      "license": "Apache-2.0",
+      "quantization": "Q4_0",
+      "chat_format": "gemma4",
+      "min_ram_gb": 12,
+      "context_tokens": 8192,
+      "recommended": true,
+      "description": {
+        "de": "Beste Wahl für aktuelle Flaggschiffe: gutes Rollenspiel, natürliches Deutsch, noch flott auf dem Prozessor.",
+        "en": "Best choice for current flagships: good roleplay, natural writing, still quick on the CPU.",
+        "ru": "Лучший выбор для современных флагманов: хорошая ролевая игра, естественный язык и всё ещё быстро на процессоре.",
+        "ja": "最新のフラッグシップ機に最適: ロールプレイが上手で文章も自然、CPUでも十分に速い。"
+      }
+    },
+    {
+      "id": "gemma-4-e2b-q4_0",
+      "name": "Gemma 4 E2B",
+      "hf_id": "unsloth/gemma-4-E2B-it-GGUF",
+      "file": "gemma-4-E2B-it-Q4_0.gguf",
+      "size_bytes": 3041378400,
+      "sha256": "31d3a3c630d4e71a7416498c42660dd3805066948acaec76a47e1ffac7010132",
+      "license": "Apache-2.0",
+      "quantization": "Q4_0",
+      "chat_format": "gemma4",
+      "min_ram_gb": 8,
+      "context_tokens": 8192,
+      "recommended": false,
+      "description": {
+        "de": "Klein und schnell, für Geräte mit 8 GB RAM. Einfacher im Ausdruck als E4B.",
+        "en": "Small and fast, for devices with 8 GB RAM. Simpler writing than E4B.",
+        "ru": "Маленькая и быстрая, для устройств с 8 ГБ ОЗУ. Пишет проще, чем E4B.",
+        "ja": "小さく高速、RAM 8 GBの端末向け。E4Bより文章はシンプル。"
+      }
+    },
+    {
+      "id": "qwen3.5-4b-q4_0",
+      "name": "Qwen3.5 4B",
+      "hf_id": "unsloth/Qwen3.5-4B-GGUF",
+      "file": "Qwen3.5-4B-Q4_0.gguf",
+      "size_bytes": 2583221408,
+      "sha256": "298fcb5fe7a77ccc79745ae24751560c5ac56874caff4bb39b1f2055bd72b8bb",
+      "license": "Apache-2.0",
+      "quantization": "Q4_0",
+      "chat_format": "chatml_nothink",
+      "min_ram_gb": 8,
+      "context_tokens": 8192,
+      "recommended": false,
+      "description": {
+        "de": "Kompakt und klug; antwortet ohne lange Denkphase.",
+        "en": "Compact and clever; answers without a long thinking phase.",
+        "ru": "Компактная и умная; отвечает без долгой фазы размышлений.",
+        "ja": "コンパクトで賢い。長い思考フェーズなしで答えます。"
+      }
+    },
+    {
+      "id": "qwen3.5-9b-q4_0",
+      "name": "Qwen3.5 9B",
+      "hf_id": "unsloth/Qwen3.5-9B-GGUF",
+      "file": "Qwen3.5-9B-Q4_0.gguf",
+      "size_bytes": 5379417312,
+      "sha256": "17670346b4260ddcb0173965145155885024f3c9a4a24389a3370751edbcde24",
+      "license": "Apache-2.0",
+      "quantization": "Q4_0",
+      "chat_format": "chatml_nothink",
+      "min_ram_gb": 16,
+      "context_tokens": 8192,
+      "recommended": false,
+      "description": {
+        "de": "Mehr Tiefe für Geräte mit 16 GB RAM, dafür langsamer.",
+        "en": "More depth for devices with 16 GB RAM, but slower.",
+        "ru": "Больше глубины для устройств с 16 ГБ ОЗУ, но медленнее.",
+        "ja": "RAM 16 GBの端末向けに表現がより深いが、その分遅い。"
+      }
+    }
+  ]
+}

@@ -342,6 +342,38 @@ def check_models():
     return len(content.get('models') or [])
 
 
+def check_mobile_models():
+    """recommended_models_mobile.json: Modell-Katalog der Android-App (engine:llamacpp ModelCatalog)."""
+    name = 'recommended_models_mobile.json'
+    content = load_json(os.path.join(ROOT, name))
+    if not content:
+        return 0
+    if not isinstance(content.get('version'), int):
+        errors.append(f'{name}: version muss eine Zahl sein')
+    seen = set()
+    for m in content.get('models') or []:
+        label = f'{name}: {m.get("id")}'
+        for field in ('id', 'name', 'hf_id', 'file', 'size_bytes', 'sha256', 'license', 'quantization', 'min_ram_gb'):
+            if not m.get(field):
+                errors.append(f'{label}: Feld {field} fehlt')
+        if m.get('id') in seen:
+            errors.append(f'{label}: doppelt')
+        seen.add(m.get('id'))
+        sha = str(m.get('sha256', ''))
+        if len(sha) != 64 or any(c not in '0123456789abcdef' for c in sha.lower()):
+            errors.append(f'{label}: sha256 ungültig')
+        repo = str(m.get('hf_id', ''))
+        if repo.count('/') != 1 or '..' in repo or not str(m.get('file', '')).lower().endswith('.gguf') or '/' in str(m.get('file', '')):
+            errors.append(f'{label}: hf_id oder file ungültig')
+        if m.get('chat_format', 'native') not in ('native', 'gemma4', 'chatml', 'chatml_nothink'):
+            errors.append(f'{label}: chat_format {m.get("chat_format")!r} unbekannt')
+        if set((m.get('description') or {})) != LANGS:
+            warnings.append(f'{label}: description nicht in {sorted(LANGS)}')
+        if str(m.get('license', '')).lower() not in OPEN_LICENSES and set((m.get('license_note') or {})) != LANGS:
+            errors.append(f'{label}: Lizenz {m.get("license")!r} ist nicht frei – license_note in {sorted(LANGS)} nötig')
+    return len(content.get('models') or [])
+
+
 def check_puppets():
     """inochi2d_registry.json: Inochi2D puppets the app offers to download (inochi2d.rs)."""
     content = load_json(os.path.join(ROOT, 'inochi2d_registry.json'))
@@ -541,6 +573,7 @@ def main():
 
     collections = check_collections(souls, books, scenes)
     models = check_models()
+    mobile_models = check_mobile_models()
     puppets = check_puppets()
     motions = check_motion_packs()
     avatars = check_avatars()
@@ -549,7 +582,7 @@ def main():
         print(f'Warnung: {line}')
     for line in errors:
         print(f'FEHLER:  {line}')
-    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle, {puppets} Puppen, {avatars} Avatare, {motions} Bewegungen geprüft: '
+    print(f'{len(cards)} Karten, {len(books)} Lorebooks, {len(scenes)} Szenen, {collections} Sammlungen, {models} Modelle, {mobile_models} Handy-Modelle, {puppets} Puppen, {avatars} Avatare, {motions} Bewegungen geprüft: '
           f'{len(errors)} Fehler, {len(warnings)} Warnungen')
     sys.exit(1 if errors else 0)
 

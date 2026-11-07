@@ -28,6 +28,7 @@ stages_registry.json             Szenenindex
 collections_registry.json        Sammlungen: Lorebooks, Szenen und Figuren einer Geschichte
 stages_gateway/*.json            veröffentlichte Szenen
 recommended_models.json         Startmodelle für den Einrichtungsassistenten, keine Modellgewichte
+recommended_models_mobile.json  Modell-Katalog der Android-App (OtakuSoul-Android), keine Modellgewichte
 inochi2d_registry.json          Inochi2D-Puppen zum Laden (nur Quelle + SHA-256, keine Modelldateien)
 motion_packs_registry.json      Bewegungspakete (VRMA) zum Laden, Dateien in avatars/motions/ (SHA-256)
 avatars_registry.json           Hub-Kategorie „Avatare“: VRM- und Live2D-Modelle (Dateien + SHA-256 oder Link zur Quellseite)
@@ -236,6 +237,22 @@ im App-Repository) und lädt beim Start diese Datei; es gilt die höhere `versio
   jeweils nur unter frei lizenzierten.
 - Keine Modellgewichte im Repository. Größe und SHA-256 vor dem Eintragen an der Quelle prüfen; `tools/validate_content.py`
   prüft den Katalog mit.
+
+### Handy-Modelle (`recommended_models_mobile.json`)
+
+Modell-Katalog der Android-App (Repository `OtakuSoul-Android`). Die App bringt eine Kopie mit
+(`engine/llamacpp/src/main/assets/models_catalog.json`) und lädt beim Start diese Datei; es gilt die höhere `version`
+(eine ganze Zahl). Neue Einträge hier eintragen, `version` erhöhen und `last_updated` setzen; beim App-Release die
+mitgelieferte Kopie angleichen.
+
+- Eintrag wie bei `recommended_models.json` (`id`, `name`, `hf_id`, `file`, `size_bytes`, `sha256`, `license`,
+  `quantization`, `description` mit `de`, `en`, `ru`, `ja`), dazu `min_ram_gb` (Arbeitsspeicher des Handys), `context_tokens`
+  (Kontext beim Laden, Standard 8192), optional `recommended` und `chat_format`: `gemma4`, `chatml`, `chatml_nothink`
+  (ChatML mit leerem Denkblock, z. B. Qwen3.5 ohne Denkphase) oder `native` (Vorlage aus dem GGUF). Ohne Jinja kennt
+  llama.cpp neuere Vorlagen wie Gemma 4 nicht, deshalb braucht jedes Modell das passende Format.
+- Q4_0 bevorzugen: ARM KleidiAI hat dafür schnelle Kernel (deutlich schnellerer Prefill als Q4_K_M).
+- Gleiche Lizenzregeln wie beim Desktop-Katalog (ohne Login ladbar, sonst `license_note`). Die App verwirft die Datei,
+  wenn ein Eintrag keine vollständige SHA-256, Größe oder Quelle hat, und nutzt dann ihre Kopie.
 
 ## Werkzeuge und Prüfungen
 

@@ -110,6 +110,7 @@ In OtakuSoul geht es auch ohne Fork: an einer Figur im Charakter-Archiv (Teilen-
 | [`avatars/`](avatars/) | Zusätzliche Avatare (VRM-Hinweise in `avatars/vrm/lizenzen.txt`, Live2D in `avatars/live2d/`) und Bewegungen (`avatars/motions/`, Index `motion_packs_registry.json`); Hub-Kategorie „Avatare“ über `avatars_registry.json` |
 | [`locales/`](locales/) | Spieltexte der App (`de.json`, `ja.json`, `ru.json`) und Oberflächensprachen (`ui/`, Index `ui_registry.json`) |
 | [`recommended_models.json`](recommended_models.json) | Startmodelle für den App-Einrichtungsassistenten (ohne Login ladbar, Lizenz gekennzeichnet) |
+| [`recommended_models_mobile.json`](recommended_models_mobile.json) | Modell-Katalog der Android-App für lokale KI auf dem Handy (ohne Login ladbar, Q4_0) |
 | [`tools/`](tools/) | Wartungs-, Prüf- und Synchronisationswerkzeuge |
 
 ---
