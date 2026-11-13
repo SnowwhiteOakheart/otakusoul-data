@@ -1,0 +1,39 @@
+{
+  "tool": "OpenAI ImageGen (built-in)",
+  "references": [
+    {
+      "path": "realistic/Enchanting Pink-Lavender Jewel Portrait.png",
+      "role": "Supplied private reference for face, hair and makeup"
+    },
+    {
+      "path": "realistic/Neon Winged Fantasy Gamer Setup-1.png",
+      "role": "Supplied private reference for costume, wings and gaming setup"
+    }
+  ],
+  "neutral_prompt": "Photorealistic convention cosplay portrait of fictional adult woman Snowwhite Oakheart, age 29, matching the first reference face and the second reference costume palette, feather wings and MMO gaming desk. Preserve her adult face, warm pale freckled skin, vivid blue eyes, long wavy orchid-pink wig, violet face paint at her left temple and cheek, gold-set magenta drop earrings, large hand-built indigo-to-violet-to-fuchsia feather wings, gold filigree and turquoise costume with a central amethyst. Wear a fitted turquoise and gold armored bodice with a modest high neckline and feather pauldrons. Scene: her cozy gaming and cosplay workshop, RGB desk behind her, soft violet and cyan lighting, very subtle warm practical lights, blurred monitor, no legible text. A professional believable real-life portrait with lifelike textured skin and handmade costume materials. Chest-up portrait, nearly frontal, head centered and comfortably clear of crop edges, face large and clearly lit, wings visibly frame both sides. Calm attentive neutral expression, relaxed brows, lips closed, looking directly at the viewer. This portrait will anchor a consistent emotion set. A single vertical image, 4:5 portrait framing. No collage, text or watermark.",
+  "expression_reference": "expressions/snowwhite_oakheart/neutral.webp (generated neutral portrait, before resize)",
+  "expression_prompt_prefix": "Create one vertical 4:5 emotion portrait for OtakuSoul based on the attached neutral portrait. Edit the facial expression of the same fictional adult cosplayer Snowwhite Oakheart. Preserve her recognizable facial features, freckles, bright blue irises, pink orchid wig with same styling, violet face paint on her left temple and cheek, gold and magenta earrings, turquoise-and-gold bodice, indigo-fuchsia feather wings, professional photoreal cosplay style, same frontal centered chest-up framing, RGB workshop and lighting. Maintain headroom, no hands in frame, single image, no text. Make the expression clear at thumbnail size. ",
+  "expression_prompt_suffixes": {
+    "happy": "Genuine broad open smile showing upper teeth, crinkled smiling eyes, cheeks raised, looking at viewer, like greeting a friend in voice chat.",
+    "relaxed": "At ease after a long evening, eyes gently closed, head tilted a few degrees, peaceful small closed-mouth smile, loosened brows.",
+    "surprised": "Startled in genuine surprise, both eyes wide open, both brows high and evenly arched, mouth making a clearly rounded O, no tears.",
+    "angry": "Visible irritation and resolve: sharply furrowed lowered brows, intense direct stare, tight jaw, lips pressed together in a straight line.",
+    "sad": "Quiet disappointment: inner eyebrows lifted, corners of lips droop, downcast eyes, no tears, looks to lower left.",
+    "blush": "Bashful at a compliment: warmer natural pink cheeks over her freckles, eyes glance sideways and down, shy closed-mouth smile.",
+    "teasing": "Playfully challenging a guildmate, one brow cocked, crooked grin showing a hint of teeth, a slight mischievous wink with one eye shut.",
+    "fear": "Alarmed by something going wrong: inner brows pulled upward and together, eyes wide and looking off to the side, tense horizontally parted lips, chin slightly tucked.",
+    "disgust": "Recoils from a sip of cold bitter coffee: nose visibly wrinkled, upper lip raised, eyes squint, head angled slightly away.",
+    "crying": "Clearly crying: realistic visible tears rolling down each cheek, glistening red-rimmed eyes, brows drawn up, trembling downturned mouth, tender and believable.",
+    "seductive": "Nonsexual stage presence for a cosplay contest: confident chin slightly lifted, level direct gaze, one corner of her closed lips lifted in a knowing smile, poised expression.",
+    "aroused": "Nonsexual competitive anticipation right before the pull: eyes sharply focused just past camera, eyebrows lifted a little, lips parted in a wide excited grin, eager and energized.",
+    "ecstasy": "Nonsexual exuberant laughter celebrating a raid clear: eyes squeezed shut in laughter, mouth open in a big joyful laugh, head tipped back just slightly.",
+    "afterglow": "Nonsexual satisfaction and relief after a hard-won clear: slightly lowered gaze toward the desk, eyes softly open, small contented closed-lip smile, relaxed cheeks, brow smooth."
+  },
+  "slot_interpretation": {
+    "seductive": "Confident cosplay stage presence",
+    "aroused": "Anticipation just before a boss pull",
+    "ecstasy": "Laughing in celebration after a raid clear",
+    "afterglow": "Quiet relief after a hard-won clear"
+  },
+  "processing": "Pillow RGB conversion and centered Lanczos crop. All 15 expressions are 640×800 WebP (quality 91). The neutral render also supplies the 700×937 PNG portrait for the preset and Hub, each with a Character Card V2 payload."
+}

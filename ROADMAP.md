@@ -1,3 +1,7 @@
+## Snowwhite Oakheart · 13.11.2026
+
+- Eigenständige Hub-Karte für die 29-jährige Cosplayerin und MMO-Spielerin. Drei Einstiege zwischen Werkstatt, Aion 2 und World of Warcraft: Forever, DE/EN/RU/JA, Stimmbeschreibung, Musik-Leitmotiv und 15 fotorealistische SFW-Emotionsporträts.
+
 ## Neue Einstiege und eigene Welten · 07.11.2026
 
 - **DE:** Alle sechs vereinbarten Inhaltsrichtungen umgesetzt: vier Kurzbesuche (10–15 Minuten), drei Café-Folgen, drei erwachsene persönliche Begegnungen, ein erster Detektivfall, ein Horror-Pilot und drei kreative Studio-39-Folgen. Zwölf neue Originalfiguren von 26 bis 61 Jahren mit je sechs eigenständigen Basis-Expressions, englischer Stimmbeschreibung, Musik-Leitmotiv, zwei alternativen Begrüßungen und drei Dialogbeispielen. Alle Profile, Stories, sechs neuen Lorebooks und fünf neuen Sammlungen auf DE/EN/RU/JA. Elf neue Szenenhintergründe, fünf Keyvisual-Cover und dokumentierte ImageGen-Prompts. Freundschaft ist gleichwertig; Romantik bei Erwachsenen optional. Vorige Spielergebnisse werden nur aus vorhandenem Kontext übernommen. Daten und Bilder automatisiert geprüft; kein Import oder Spieltest in einer lokalen App-Installation.

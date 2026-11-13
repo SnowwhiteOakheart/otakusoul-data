@@ -53,6 +53,7 @@ Diese 3 Pakete besitzen eigene Hintergründe und Lorebooks, nutzen jedoch univer
 | Preset-Ordner | Franchise / Herkunft | Registrierte Figuren (`name` in `soul_registry.json`) | Bemerkungen / Gastauftritte |
 |---|---|---|---|
 | `hatsune-miku` | Piapro Characters | `Hatsune Miku` | Eigenständige Karte mit 15 SFW-Expressions und Studioprobe. |
+| `snowwhite-oakheart` | OtakuSoul Original | `Snowwhite Oakheart` | Cosplayerin und Gildenheilerin, Aion 2 und World of Warcraft: Forever. 15 fotorealistische SFW-Expressions, DE/EN/RU/JA. |
 | `frieren` | Sousou no Frieren | `Frieren` | Gastauftritt in `isekai_null_mana_summoning`. |
 | `nagatoro` | Don't Toy With Me, Miss Nagatoro | `Hayase Nagatoro` | Gastauftritt in `romance_rainy_clubroom_confessions`. |
 | `marin-kitagawa` | My Dress-Up Darling | `Marin Kitagawa` | Gastauftritt in `romance_rainy_clubroom_confessions`. |

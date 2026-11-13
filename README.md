@@ -6,7 +6,7 @@
 
 Characters to talk to, stories to step into, and worlds to explore in [OtakuSoul](https://github.com/SnowwhiteOakheart/OtakuSoul). This repository supplies the app's Hub with ready-to-install character cards, Soul Stage stories, lorebooks, artwork and avatar resources.
 
-**93 characters · 80 stories · 46 lorebooks · 23 collections**
+**94 characters · 80 stories · 46 lorebooks · 23 collections**
 
 [Get started](#get-started) · [Stories and characters](#stories-and-characters) · [Avatars and motions](#avatars-and-motions) · [Licenses and credits](#licenses-and-credits) · [Contributing](#contributing)
 
@@ -528,6 +528,7 @@ These cards are available for conversation without a dedicated story collection.
 | Character | Origin |
 |---|---|
 | [Lucy](cards_gateway/Lucy.png) | Elfen Lied; Lucy / Nyu character profile |
+| [Snowwhite Oakheart](cards_gateway/snowwhite_oakheart.png) | Original cosplayer and MMO player; Aion 2 and World of Warcraft: Forever |
 
 ## Avatars and motions
 
