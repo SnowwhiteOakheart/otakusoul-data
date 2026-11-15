@@ -1,11 +1,11 @@
 ---
-name: Beitrag aus der App (Figur oder Geschichte)
-about: Eine Figur oder Geschichte aus OtakuSoul ins Hub einreichen
+name: Beitrag aus der App (Figur, Geschichte oder Lorebook)
+about: Eine Figur, Geschichte oder ein Lorebook aus OtakuSoul ins Hub einreichen
 title: "Beitrag: "
 labels: einreichung
 ---
 
-**Art / Kind:** (character oder story)
+**Art / Kind:** (character, story oder lorebook)
 **Titel / Title:**
 **Autor:in / Author:**
 **Lizenz / License:** (CC0-1.0, CC-BY-4.0 oder CC-BY-SA-4.0)

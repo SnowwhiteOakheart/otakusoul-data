@@ -89,7 +89,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "$branch"
-          git add cards_gateway stages_gateway soul_registry.json stages_registry.json lorebooks_registry.json
+          git add cards_gateway stages_gateway lorebooks_gateway soul_registry.json stages_registry.json lorebooks_registry.json
           git commit -m "feat(hub): $TITLE (#$ISSUE)"
           git push -f origin "$branch"
           {

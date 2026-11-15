@@ -8,7 +8,7 @@ Usage (from the repository root):
 
 `--report FILE` writes the result as Markdown (for the issue comment). Exit code 0: no errors,
 1: errors, 2: no package found or not readable. The package is only read, never run: it may come
-from anyone. `--apply` writes the card or scene to its gateway folder and adds a registry entry;
+from anyone. `--apply` writes the card, scene or lorebook to its gateway folder and adds a registry entry;
 afterwards run `validate_content.py --sync-registry` for the list texts and translations.
 """
 import argparse
@@ -35,7 +35,10 @@ MAX_ZIP_BYTES = 25 * 1024 * 1024        # GitHub's limit for issue attachments
 MAX_UNPACKED_BYTES = 40 * 1024 * 1024
 MAX_ENTRIES = 20
 MAX_PICTURE_BYTES = 8 * 1024 * 1024
-CONTENT_PATH = re.compile(r'^(cards_gateway/[A-Za-z0-9_-]{1,80}\.png|stages_gateway/[A-Za-z0-9_-]{1,80}\.json)$')
+CONTENT_PATH = re.compile(
+    r'^(cards_gateway/[A-Za-z0-9_-]{1,80}\.png|(stages|lorebooks)_gateway/[A-Za-z0-9_-]{1,80}\.json)$')
+# Where each kind of contribution lives.
+GATEWAY = {'character': 'cards_gateway/', 'story': 'stages_gateway/', 'lorebook': 'lorebooks_gateway/'}
 EXTRA_FILES = {'EINREICHUNG.json', 'README.txt'}
 # Traces of the sender's computer: user folders, drives, local files, VRoid Hub models.
 LOCAL_TRACES = [
@@ -108,8 +111,9 @@ def read_package(data: bytes) -> dict[str, bytes] | None:
             errors.append(f'`{name}`: symbolische Verknüpfungen sind nicht erlaubt.')
             continue
         if name not in EXTRA_FILES and not CONTENT_PATH.match(name):
-            errors.append(f'`{name}`: unerwartete Datei (erlaubt: eine Karte in `cards_gateway/` oder eine '
-                          'Geschichte in `stages_gateway/`, dazu `EINREICHUNG.json` und `README.txt`).')
+            errors.append(f'`{name}`: unerwartete Datei (erlaubt: eine Karte in `cards_gateway/`, eine '
+                          'Geschichte in `stages_gateway/` oder ein Lorebook in `lorebooks_gateway/`, dazu '
+                          '`EINREICHUNG.json` und `README.txt`).')
             continue
         files[name] = archive.read(info)
     return files
@@ -138,7 +142,7 @@ def check_manifest(manifest, files: dict[str, bytes]) -> dict | None:
     if not isinstance(manifest, dict) or manifest.get('schema') != 1 or not isinstance(manifest.get('files'), list):
         errors.append('`EINREICHUNG.json`: unbekanntes Format (schema 1 erwartet).')
         return None
-    if manifest.get('kind') not in ('character', 'story'):
+    if manifest.get('kind') not in GATEWAY:
         errors.append(f'`EINREICHUNG.json`: unbekannte Art `{manifest.get("kind")}`.')
     if manifest.get('license') not in LICENSES:
         errors.append(f'Lizenz `{manifest.get("license")}` ist nicht erlaubt ({", ".join(sorted(LICENSES))}).')
@@ -247,6 +251,33 @@ def check_story(path: str, data: bytes, manifest: dict) -> dict | None:
     return scene
 
 
+def check_lorebook(path: str, data: bytes, manifest: dict) -> dict | None:
+    try:
+        book = json.loads(data.decode('utf-8'))
+    except (UnicodeDecodeError, json.JSONDecodeError) as e:
+        errors.append(f'`{path}`: kein gültiges JSON ({e}).')
+        return None
+    if not isinstance(book, dict) or not isinstance(book.get('entries'), list):
+        errors.append(f'`{path}`: kein Lorebook (Liste `entries` fehlt).')
+        return None
+    name = str(book.get('name') or '').strip()
+    if not name:
+        errors.append(f'`{path}`: Feld `name` ist leer.')
+    if not book['entries']:
+        errors.append(f'`{path}`: Das Lorebook hat keine Einträge.')
+    for i, entry in enumerate(book['entries']):
+        if not isinstance(entry, dict) or not str(entry.get('content') or '').strip():
+            errors.append(f'`{path}`: Eintrag {i + 1} hat keinen Text.')
+    check_marks(book.get('extensions') or {}, manifest, path)
+    local_traces(book, 'lorebook')
+    # The name is the update key in the registry: a second book of that name would replace the first.
+    if name and any(e.get('name', '').strip().lower() == name.lower()
+                    for e in registry_entries('lorebooks_registry.json', 'lorebooks')):
+        errors.append(f'Ein Lorebook „{name}“ gibt es schon im Hub (Aktualisierung? Dann bitte von Hand übernehmen).')
+    run_repo_checks(lambda: vc.check_lorebook(os.path.join(ROOT, path), book))
+    return book
+
+
 def check_package(files: dict[str, bytes]) -> tuple[dict, str, object] | None:
     """Checks everything; returns (manifest, content path, card or scene) when it got that far."""
     if 'EINREICHUNG.json' not in files:
@@ -261,7 +292,7 @@ def check_package(files: dict[str, bytes]) -> tuple[dict, str, object] | None:
     if manifest is None:
         return None
     content = [p for p in files if p not in EXTRA_FILES]
-    wanted = 'cards_gateway/' if manifest.get('kind') == 'character' else 'stages_gateway/'
+    wanted = GATEWAY.get(manifest.get('kind'), 'stages_gateway/')
     content = [p for p in content if p.startswith(wanted)]
     if len(content) != 1:
         errors.append(f'Das Paket braucht genau eine Datei in `{wanted}` (gefunden: {len(content)}).')
@@ -270,7 +301,7 @@ def check_package(files: dict[str, bytes]) -> tuple[dict, str, object] | None:
     target = os.path.join(ROOT, normalized_path(path))
     if os.path.exists(target):
         errors.append(f'`{normalized_path(path)}` gibt es schon im Repository.')
-    check = check_character if manifest['kind'] == 'character' else check_story
+    check = {'character': check_character, 'story': check_story, 'lorebook': check_lorebook}[manifest['kind']]
     item = check(path, files[path], manifest)
     return (manifest, path, item) if item is not None else None
 
@@ -300,6 +331,13 @@ def apply(manifest: dict, path: str, item, files: dict[str, bytes], issue: int |
         entry = {'name': item['data']['name'].strip(), 'author': manifest['author'].strip(),
                  'download_url': url, 'revision': 1, 'updated': today}
         registry, key = 'soul_registry.json', 'characters'
+    elif manifest['kind'] == 'lorebook':
+        with open(os.path.join(ROOT, target), 'w', encoding='utf-8') as f:
+            f.write(json.dumps(item, ensure_ascii=False, indent=2) + '\n')
+        entry = {'name': item['name'].strip(), 'author': manifest['author'].strip(),
+                 'description': item.get('description', ''), 'entry_count': len(item['entries']),
+                 'download_url': url, 'revision': 1, 'updated': today}
+        registry, key = 'lorebooks_registry.json', 'lorebooks'
     else:
         item['id'] = stem
         with open(os.path.join(ROOT, target), 'w', encoding='utf-8') as f:
